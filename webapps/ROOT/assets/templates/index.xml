@@ -9,13 +9,13 @@
 
   <kiln:child>
     <kiln:block name="title">
-      <xsl:text>Welcome to Kiln!</xsl:text>
+      <xsl:text>Welcome to EFES!</xsl:text>
     </kiln:block>
 
     <kiln:block name="page-header">
       <div class="row">
         <div class="large-12 columns text-center">
-          <h1><span class="round label">Welcome to Kiln!</span></h1>
+          <h1><span class="round label">Welcome to EFES!</span></h1>
         </div>
       </div>
     </kiln:block>
@@ -24,43 +24,32 @@
       <main>
         <div class="row">
           <div class="small-6 large-centered columns">
-            <p>Now that you have Kiln up and running, it's time to
-            start building your project. Start with one of the options
-            listed below and go from there.</p>
+          
+           <p>EFES (EpiDoc Front End Services) is a custom and readily customizable platform for publication and search/indexing of EpiDoc files, based on the Kiln platform.</p></div>
+          
+          <div class="large-4 columns">
+            <div class="panel radius">
+              <p><strong>Add your EpiDoc</strong></p>
+              
+              <p>Add your EpiDoc files in webapps/ROOT/content/xml/tei/corpus and
+              see <a href="corpus/">how they are displayed</a>. Go to the
+              <a href="admin/">admin</a> and index them for
+              searching.</p>
+      
+            </div>
           </div>
-        </div>
-        <div class="row">
-        <div class="large-4 columns">
-          <div class="panel radius">
-            <p><strong>Add your TEI</strong></p>
-
-            <p>Put your TEI files in webapps/ROOT/content/xml/tei and
-            see <a href="text/">how they are displayed</a>. Go to the
-            <a href="admin/">admin</a> and index them for
-            searching.</p>
+          
+          <div class="large-4 columns">
+            <div class="panel radius">
+              <p><strong>Instructions</strong></p>
+              
+              <p>Change the look of this site by modifying the templates
+                in webapps/ROOT/assets/templates. The template for this
+                page is index.xml, and it builds on the base template
+                base.xml.</p>
+            </div>
           </div>
-        </div>
-        <div class="large-4 columns">
-          <div class="panel radius">
-            <p><strong>Customise the templates</strong></p>
-
-            <p>Change the look of this site by modifying the templates
-            in webapps/ROOT/assets/templates. The template for this
-            page is index.xml, and it builds on the base template
-            base.xml.</p>
-          </div>
-        </div>
-        <div class="large-4 columns">
-          <div class="panel radius">
-            <p><strong>Read the documentation</strong></p>
-
-            <p>Kiln comes with documentation both <a
-            href="http://kiln.readthedocs.org/en/latest/">online</a>
-            and, in source form, in the docs directory of your
-            installation. It explains how you can modify everything
-            about your Kiln project.</p>
-          </div>
-        </div>
+          
         </div>
       </main>
     </kiln:block>

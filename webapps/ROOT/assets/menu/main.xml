@@ -4,4 +4,9 @@
   <menu href="text/" label="Texts" />
   <menu href="search/" label="Search" />
   <menu href="admin/" label="Admin" />
+  <menu href="efes.html" label="About" root="about">
+      <item href="epidoc.html" label="EpiDoc" />
+      <item href="epidoc_training.html" label="EpiDoc Training" />
+  </menu> 
+  
 </root>

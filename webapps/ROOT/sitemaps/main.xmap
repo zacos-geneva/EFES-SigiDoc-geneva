@@ -63,6 +63,17 @@
         <map:transform src="cocoon://_internal/template/search.xsl" />
         <map:serialize />
       </map:match>
+      
+      <!-- About. -->
+      <map:match id="local-tei-display-html" pattern="about/**.html">
+        <map:aggregate element="aggregation" label="content">
+          <map:part label="tei" src="cocoon://internal/tei/preprocess/about/{1}.xml" />
+          <map:part src="cocoon://_internal/menu/main.xml?url=about/{1}.html" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/tei.xsl" />
+        <map:serialize />
+      </map:match>
+      
 
       <!-- TEI texts. -->
       <map:match id="local-tei-index-display" pattern="text/">
