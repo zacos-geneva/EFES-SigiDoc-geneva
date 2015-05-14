@@ -5,6 +5,7 @@ sw/jetty/temp
 webapps/openrdf-sesame/app_dir
 webapps/ROOT/content/xml/tei/corpus
 webapps/ROOT/WEB-INF/logs
+webapps/ROOT/stylesheets/epidoc/example-p5-xslt/.svn
 webapps/solr/data
 docs/build
 .vagrant/
