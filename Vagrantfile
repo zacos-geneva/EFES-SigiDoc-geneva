@@ -79,7 +79,7 @@ Vagrant.configure("2") do |config|
 
   config.vm.define "iospe" do |machine|
     # machine.vm.box = "puphpet/debian75-x64"
-    machine.vm.hostname = "iospe.vagrant"
+    machine.vm.hostname = "efes.vagrant"
     # machine.vm.network "private_network", ip: "192.168.101.59"
   end
 
