@@ -77,7 +77,7 @@ Vagrant.configure("2") do |config|
   # if it becomes problematic just comment the following line
   config.vm.synced_folder ".", "/vagrant", :nfs => true
 
-  config.vm.define "iospe" do |machine|
+  config.vm.define "efes" do |machine|
     # machine.vm.box = "puphpet/debian75-x64"
     machine.vm.hostname = "efes.vagrant"
     # machine.vm.network "private_network", ip: "192.168.101.59"
