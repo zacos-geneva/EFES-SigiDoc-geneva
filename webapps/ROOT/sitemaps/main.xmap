@@ -11,7 +11,7 @@
       <map:serialize type="xml" />
     </map:view>
   </map:views>
-
+  
   <map:pipelines>
     <!-- Mount sub-sitemaps. -->
     <map:pipeline id="local-mount">
@@ -41,7 +41,16 @@
         <map:read mime-type="image/png" src="../content/images/{1}.png" />
       </map:match>
     </map:pipeline>
-
+   
+    
+    <map:pipeline internal-only="true">
+      <map:match pattern="views/*">
+       <map:generate src="../content/xml/tei/samples/{1}"/>
+        <map:transform src="../stylesheets/epidoc/example-p5-xslt/start-edition.xsl"/>
+        <map:serialize type="xml"/>
+      </map:match>
+    </map:pipeline>
+    
     <!-- Main display pipeline. -->
     <map:pipeline type="noncaching">
       <!-- Home page (at /). -->
@@ -74,7 +83,16 @@
         <map:serialize />
       </map:match>
       
-
+      <!--Epidoc sample pipeline applying start-edition.xsl  -->
+      <map:match id="local-sample-epidoc-display-html" pattern="samples/*.html">
+        <map:aggregate element="aggregation" label="content">
+         <map:part src="cocoon://_internal/menu/main.xml?url=samples/{1}.html" />
+         <map:part src="cocoon:/views/{1}.xml" element="sample_p5"/>
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/sample.xsl" />
+        <map:serialize />
+      </map:match>
+      
       <!-- TEI texts. -->
       <map:match id="local-tei-index-display" pattern="text/">
         <map:aggregate element="aggregation">
@@ -158,5 +176,7 @@
       </map:transform>
       <map:serialize />
     </map:handle-errors>
+    
+   
   </map:pipelines>
 </map:sitemap>
