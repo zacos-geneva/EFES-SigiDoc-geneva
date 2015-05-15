@@ -135,7 +135,7 @@
       </map:match>
     </map:pipeline>
     
-    <map:pipeline internal-only="true">
+    <map:pipeline><!-- internal-only="true">-->
       <map:match pattern="views/*">
         <map:generate src="../content/xml/tei/samples/{1}"/>
         <map:transform src="../stylesheets/epidoc/example-p5-xslt/start-edition.xsl"/>
