@@ -31,9 +31,9 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <objectType xml:lang="ru" ref="monument-search.xml#mon3">Стела.</objectType>
+                           <objectType xml:lang="#mon3">Стела.</objectType>
                            <objectType xml:lang="en">Stele.</objectType>
-                           <material xml:lang="ru" ref="material-search.xml#m1">Белый мрамор.</material>
+                           <material xml:lang="#m1">Белый мрамор.</material>
                            <material xml:lang="en">White marble.</material>
                            <p xml:lang="ru">Прямоугольная с расширением кверху стела с насечками на левом ребре. На лицевой стороне изображение процветшего 
                               креста с капельками и заострениями на концах и двух розеток, а также рельефная рамка (шир. 11.0–12.5) по краю. 
@@ -52,7 +52,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace ref="origPlace.xml#p001">
+                     <origPlace ref="#p001">
                         <seg xml:lang="ru">Белгород.</seg>
                         <seg xml:lang="en">Belgorod.</seg>
                      </origPlace>
@@ -67,7 +67,7 @@
                   </provenance>
                   <provenance type="found">
                      <seg xml:lang="ru">
-                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский.</placeName>
+                        <placeName type="#belgorod-dnestrovsky">Белгород-Днестровский.</placeName>
                         <rs type="circumstances">1840-е гг., обследования Н.Н. Мурзакевича.</rs>
                         <rs type="context">Крепость, средняя стена.</rs>
                      </seg>
@@ -87,7 +87,7 @@
                      <idno/>
                   </altIdentifier>
                   <msContents>
-                     <summary corresp="document-search.xml#doc1">
+                     <summary corresp="#doc1">
                         <seg xml:lang="ru">Строительная надпись.</seg>
                         <seg xml:lang="en">Building inscription.</seg>
                      </summary>
@@ -101,7 +101,7 @@
                   </objectDesc>   
                      <handDesc>
                         <handNote>
-                           <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы выпуклые, вытянутые, маньеризованные. 
+                           <seg xml:lang="#scalpro">Лапидарный</rs>; буквы выпуклые, вытянутые, маньеризованные. 
                               Надстрочные буквы, многочисленные лигатуры, сокращения.</seg>
                            <seg xml:lang="en">Lapidary; elongated, ornate relief letters, some of them superscript. Multiple ligatures, abbreviations.</seg>
                            <height unit="cm">3,5.</height>
@@ -114,7 +114,7 @@
                      <idno/>
                   </altIdentifier>
                   <msContents>
-                     <summary corresp="document-search.xml#doc4">
+                     <summary corresp="#doc4">
                         <seg xml:lang="ru">Демонстративная надпись.</seg>
                         <seg xml:lang="en">Demonstrative.</seg>
                      </summary>
@@ -136,7 +136,7 @@
                      <idno/>
                   </altIdentifier>
                   <msContents>
-                     <summary corresp="document-search.xml#doc1">
+                     <summary corresp="#doc1">
                         <seg xml:lang="ru">Строительная надпись.</seg>
                         <seg xml:lang="en">Building inscription.</seg>
                      </summary>
@@ -155,7 +155,7 @@
                </msPart>
             </msDesc>
          </sourceDesc>
-      </fileDesc><encodingDesc><listPrefixDef><prefixDef matchPattern="(.+)" replacementPattern="../alists/bibliography.xml#$1" ident="bib"/></listPrefixDef></encodingDesc>
+      </fileDesc><encodingDesc><listPrefixDef><prefixDef matchPattern="##$1" ident="bib"/></listPrefixDef></encodingDesc>
       <revisionDesc>
          <change when="2015-04-16" who="CB">Andrey's corrections</change>
           <change when="2012-11-27" who="AL">English toponyms in commentary inserted</change>
@@ -237,9 +237,9 @@
                   <lb n="1"/><w lemma="δέησις">Δέυσις</w> <w lemma="ὁ">τοῦ</w>
                   <w lemma="δοῦλος"><expan><ex>δού</ex><abbr>λου</abbr></expan></w> <w lemma="ὁ">τοῦ</w>
                   <persName type="divine" key="theos"><roleName><w lemma="θεός"><expan><abbr>θ</abbr><ex>εο</ex><abbr>ῦ</abbr></expan></w></roleName></persName>
-                  <persName type="attested" ref="#person2"><name nymRef="Θεόδωρος"><expan><abbr>Θε</abbr><ex>ο</ex><abbr>δώρου</abbr></expan></name></persName>
+                  <persName type="#person2"><name nymRef="Θεόδωρος"><expan><abbr>Θε</abbr><ex>ο</ex><abbr>δώρου</abbr></expan></name></persName>
                   <w lemma="καί"><expan><abbr>κα</abbr><ex>ὶ</ex></expan></w>
-                  <lb n="2"/><persName type="attested" ref="#person3"><name nymRef="Στέφανος"><expan><abbr>Στεφάν</abbr><ex>ου</ex></expan></name></persName>.
+                  <lb n="#person3"><name nymRef="Στέφανος"><expan><abbr>Στεφάν</abbr><ex>ου</ex></expan></name></persName>.
                </ab>
             </div>
             <div type="textpart" subtype="inscription" n="2">
@@ -250,7 +250,7 @@
             </div>
             <div type="textpart" subtype="inscription" n="3">
                <ab>
-                  <lb n="1"/><g ref="symbols.xml#stauros"/> <w lemma="γίγνομαι">Γέγονεν</w> <w lemma="ὁ">τὸ</w>
+                  <lb n="#stauros"/> <w lemma="γίγνομαι">Γέγονεν</w> <w lemma="ὁ">τὸ</w>
                   <w lemma="πάρειμι">παρὸν</w> <w lemma="κάστρον">κάστρον</w>
                   <lb n="2"/><w lemma="ἐπί">ἐπὶ</w> <persName type="ruler" key="stephen2"><w lemma="ὁ">τοῦ</w>
                      <w lemma="εὐσεβής">εὐσεβεστάτου</w> <w lemma="αὐθέντης">αὐφέν
@@ -263,11 +263,11 @@
                   <w lemma="κεφαλή">καιφαλῆς</w> <w lemma="ὁ">τοῦ</w> <placeName>Ἀσπρωκάστρου</placeName>
                   <lb n="5"/><date><w lemma="ἐπί">ἐπὶ</w> <w lemma="ἔτος">ἔτους</w> <num value="6948">ςϠμη</num>,
                      <w lemma="ἰνδικτιών"><expan><abbr/><ex>ἰνδικτιῶνος</ex></expan></w></date> <num value="3">γ</num>. 
-                  <g ref="symbols.xml#stauros"/> <w lemma="διασώζω">Διάσο
+                  <g ref="#stauros"/> <w lemma="διασώζω">Διάσο
                   <lb n="6" break="no"/>σον</w> <w lemma="ἀπό">ἀπὸ</w>
                   <w lemma="κῆλον">κήλον</w>
                   <w lemma="ὁ">τοῦ</w> <w lemma="δοῦλος">δούλου</w> <w lemma="σύ">σου</w>,
-                  <w lemma="θεοτόκος"><expan><abbr>θ</abbr><ex>εοτό</ex><abbr>κε</abbr></expan></w> <g ref="symbols.xml#stauros"/>
+                  <w lemma="#stauros"/>
                   <lb n="7"/><date><rs type="month" ref="nou"><w lemma="Νοέμβριος"
                      ><expan><abbr>Νο</abbr><ex>εμ</ex><abbr>βρή</abbr><ex>ου</ex></expan></w></rs>
                   <num value="10">ι</num></date>.

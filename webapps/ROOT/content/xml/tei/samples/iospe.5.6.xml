@@ -27,7 +27,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary corresp="document-search.xml#doc1">
+                  <summary corresp="#doc1">
                      <seg xml:lang="ru">Строительная надпись.</seg>
                      <seg xml:lang="en">Building inscription.</seg>
                   </summary>
@@ -36,9 +36,9 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="#mon1">Плита.</objectType>
                            <objectType xml:lang="en">Panel.</objectType>
-                           <material xml:lang="ru" ref="material-search.xml#m1">Белый мрамор.</material>
+                           <material xml:lang="#m1">Белый мрамор.</material>
                            <material xml:lang="en">White marble.</material>
                            <p xml:lang="ru">Плита в виде tabula ansata, украшенная по краям двумя крестами. Сколы по верхнему и правому краю, в правом верхнем и нижнем углу.</p>
                            <p xml:lang="en">Panel in the shape of tabula ansata, decorated with crosses on the right and left ansae. Chipped along the top and right side, 
@@ -59,7 +59,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>. Альфа с наклонной и прямой горизонталями, альфа, дельта и 
+                        <seg xml:lang="#scalpro">Лапидарный</rs>. Альфа с наклонной и прямой горизонталями, альфа, дельта и 
                            лямбда с удлиненной вверх правой гастой, эпсилон и сигма лунарные, каппа с укороченными диагоналями. Разделительные знаки.</seg>
                         <seg xml:lang="en">Lapidary. Alpha with a slanting and straight crossbar; alpha, delta and lambda have an upward projecting right hasta;
                            lunate epsilon and sigma; kappa with shortened diagonals. Word division marks.</seg>
@@ -69,7 +69,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace ref="origPlace.xml#p003">
+                     <origPlace ref="#p003">
                         <seg xml:lang="ru">Херсон.</seg>
                         <seg xml:lang="en">Cherson.</seg>
                      </origPlace>
@@ -84,7 +84,7 @@
                   </provenance>
                   <provenance type="found">
                      <seg xml:lang="ru">
-                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
+                        <placeName type="#sevastopol">Севастополь (Херсонес).</placeName>
                         <rs type="circumstances">Неизвестны.</rs>
                         <rs type="context">Башня № XVII («башня Зинона»), кладка.</rs>
                      </seg>
@@ -101,7 +101,7 @@
                </history>
             </msDesc>
          </sourceDesc>
-      </fileDesc><encodingDesc><listPrefixDef><prefixDef matchPattern="(.+)" replacementPattern="../alists/bibliography.xml#$1" ident="bib"/></listPrefixDef></encodingDesc>
+      </fileDesc><encodingDesc><listPrefixDef><prefixDef matchPattern="##$1" ident="bib"/></listPrefixDef></encodingDesc>
       <revisionDesc>
          <change when="2015-04-16" who="CB">Andrey's corrections</change>
           <change when="2013-07-23" who="ΝG">small correction in Greek lemmata</change>
@@ -161,7 +161,7 @@
 
          <div type="edition" xml:lang="grc" xml:space="preserve">
                <ab>
-                <lb n="1"/><g ref="symbols.xml#stauros"/> <persName type="ruler" key="zeno"><roleName><w lemma="αὐτοκράτωρ">Αὐτοκράτωρ</w></roleName>
+                <lb n="#stauros"/> <persName type="ruler" key="zeno"><roleName><w lemma="αὐτοκράτωρ">Αὐτοκράτωρ</w></roleName>
                    <roleName><w lemma="καῖσαρ">κε͂σαρ</w></roleName>
                    <persName type="ruler"><name nymRef="Ζήνων">Ζήνων</name></persName>
                    <w lemma="εὐσεβής">εὐσε<supplied reason="lost">β</supplied>ὴς</w>
@@ -177,15 +177,15 @@
                   <w lemma="πρός">πρὸς</w>
                 <lb n="9"/><w lemma="σωτηρία">σωτηρίαν</w> <w lemma="ὁ">τῆς</w> <w lemma="αὐτός">αὐτῆς</w> <w lemma="πόλις">πόλεως</w>. <w lemma="καί">Καὶ</w> <w lemma="εὐχαριστέω">εὐχαρισ <lb n="10" break="no"/>τοῦντες</w> <w lemma="ἀνατίθημι">ἀνεθήκαμεν</w> <w lemma="ὅδε">τόδε</w> <w lemma="ὁ">τὸ</w> <w lemma="τίτλος">τῖτλον</w>
                 <lb n="11"/><w lemma="εἰς">εἰς</w> <w lemma="μνημόσυνον">μνημόσυνον</w> <w lemma="ἀείδιος">ἀείδιον</w> <w lemma="ὁ">τῆς</w> <w lemma="αὐτός">αὐτῶν</w>
-                <lb n="12"/><g ref="symbols.xml#stauros"/> <w lemma="βασίλειος">βασιλείας</w>. <g ref="symbols.xml#stauros"/>
-                <lb n="13"/><g ref="symbols.xml#stauros"/> <w lemma="ἀνανεόω">Ἀνανεώθη</w> <w lemma="δέ">δὲ</w> <w lemma="ὁ">ὁ</w> <w lemma="πύργος">πύργος</w>
+                <lb n="#stauros"/> <w lemma="#stauros"/>
+                <lb n="#stauros"/> <w lemma="ἀνανεόω">Ἀνανεώθη</w> <w lemma="δέ">δὲ</w> <w lemma="ὁ">ὁ</w> <w lemma="πύργος">πύργος</w>
                   <w lemma="οὗτος">οὗτος</w>, <w lemma="πράσσω">πρά<lb n="14" break="no"/>ττοντος</w> <w lemma="ὁ">τοῦ</w> 
                   <w lemma="μεγαλοπρεπής"><expan><abbr>μεγαλοπρ</abbr><ex>επεστάτου</ex></expan></w>
                 <w lemma="κόμης"><expan><abbr>κόμ</abbr><ex>ητος</ex></expan></w>
-                <lb n="15"/><g ref="symbols.xml#stauros"/> <persName type="attested" ref="#person8"><name nymRef="Διογένης">Διογένου</name></persName>,
+                <lb n="#stauros"/> <persName type="#person8"><name nymRef="Διογένης">Διογένου</name></persName>,
                   <date><w lemma="ἔτος">ἔτους</w> <num value="512">φιβ</num>, 
                 <w lemma="ἐν">ἐν</w> <w lemma="ἰνδικτιών"><expan><abbr>ἰνδ</abbr><ex>ικτιῶνι</ex></expan></w> <num value="11">ια</num></date>
-                  <g ref="symbols.xml#stauros"/>
+                  <g ref="#stauros"/>
             </ab>
          </div>
          <div type="apparatus">

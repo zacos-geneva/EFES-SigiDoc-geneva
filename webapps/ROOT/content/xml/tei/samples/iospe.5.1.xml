@@ -28,7 +28,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary corresp="document-search.xml#doc1">
+                  <summary corresp="#doc1">
                      <seg xml:lang="ru">Строительная надпись.</seg>
                      <seg xml:lang="en">Building inscription.</seg>
                   </summary>
@@ -37,9 +37,9 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита.</objectType>
+                           <objectType xml:lang="#mon1">Плита.</objectType>
                            <objectType xml:lang="en">Panel.</objectType>
-                           <material xml:lang="ru" ref="material-search.xml#m1">Белый мрамор<certainty cert="low" locus="value" match=".."/>.</material>
+                           <material xml:lang="#m1">Белый мрамор<certainty cert="low" locus="value" match=".."/>.</material>
                            <material xml:lang="en">White marble<certainty cert="low" locus="value" match=".."/>.</material>
                            <p xml:lang="ru">На лицевой стороне рельефные (?) изображения 2 гербов и рамка. Состояние неизвестно.</p>
                            <p xml:lang="en">Inset panel with two coats of arms (in relief?). Condition unknown.</p>
@@ -54,7 +54,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы выпуклые, вытянутые, маньеризованные. 
+                        <seg xml:lang="#scalpro">Лапидарный</rs>; буквы выпуклые, вытянутые, маньеризованные. 
                            Лигатуры, сокращения.</seg>
                         <seg xml:lang="en">Lapidary; relief, elongated, ornate letters. Ligatures, abbreviations.</seg>
                      </handNote>
@@ -62,7 +62,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace ref="origPlace.xml#p001">
+                     <origPlace ref="#p001">
                         <seg xml:lang="ru">Белгород.</seg>
                         <seg xml:lang="en">Belgorod.</seg>
                      </origPlace>
@@ -77,7 +77,7 @@
                   </provenance>
                   <provenance type="found">
                      <seg xml:lang="ru">
-                        <placeName type="ancientFindspot" ref="findspot.xml#belgorod-dnestrovsky">Белгород-Днестровский.</placeName>
+                        <placeName type="#belgorod-dnestrovsky">Белгород-Днестровский.</placeName>
                         <rs type="circumstances"><date type="found" notBefore="1840" notAfter="1849">1840-е</date> гг., обследования Н.Н. Мурзакевича.</rs>
                         <rs type="context">Крепость, средняя стена, дозорная башня напротив мечети, в стене.</rs>
                      </seg>
@@ -94,7 +94,7 @@
                </history>
             </msDesc>
          </sourceDesc>
-      </fileDesc><encodingDesc><listPrefixDef><prefixDef matchPattern="(.+)" replacementPattern="../alists/bibliography.xml#$1" ident="bib"/></listPrefixDef></encodingDesc>
+      </fileDesc><encodingDesc><listPrefixDef><prefixDef matchPattern="##$1" ident="bib"/></listPrefixDef></encodingDesc>
       <revisionDesc>
          <change when="2012-11-27" who="AL">English toponyms in commentary inserted</change>
          <change when="2012-08-16" who="ΑG">Greek lemmata corrected</change>
