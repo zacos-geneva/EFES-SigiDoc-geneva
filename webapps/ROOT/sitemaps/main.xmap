@@ -138,7 +138,10 @@
     <map:pipeline><!-- internal-only="true">-->
       <map:match pattern="views/*">
         <map:generate src="../content/xml/tei/samples/{1}"/>
-        <map:transform src="../stylesheets/epidoc/example-p5-xslt/start-edition.xsl"/>
+        <map:transform src="../stylesheets/epidoc/example-p5-xslt/start-edition.xsl">
+        <map:parameter name="edn-structure" value="inslib"/>
+        <map:parameter name="external-app-style" value="iospe"/>
+        </map:transform>
         <map:serialize type="xml"/>
       </map:match>
     </map:pipeline>
