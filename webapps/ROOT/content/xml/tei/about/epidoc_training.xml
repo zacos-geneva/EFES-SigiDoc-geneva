@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
       <body>
-         <head>EpiDoc Training</head>
+         <head></head>
          <p>From time to time, and in various locations, EpiDoc training workshops are offered on digital text markup for epigraphic and papyrological editing. The workshops introduce participants to the basics of XML and markup and provide hands-on experience of tagging textual features and object description in EpiDoc, as well as in use of the tags-free Papyrological Editor.</p>
             <p>For many workshops, no technical skills are required, but a working knowledge of Greek or Latin, epigraphy or papyrology and the Leiden Conventions will be assumed. Workshops are generally open to participants of all levels, from graduate students to professors or professionals.</p>
             <p>For more information about upcoming EpiDoc workshops, visit the EpiDoc Summer School page in the Digital Classicist wiki.</p>

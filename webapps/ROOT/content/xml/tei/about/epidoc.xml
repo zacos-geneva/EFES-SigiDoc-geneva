@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
       <body>
-         <head>About EpiDoc</head>
+         <head></head>
          <p>EpiDoc is an international, collaborative effort that provides guidelines and tools for encoding scholarly and educational editions of ancient documents. It uses a subset of the Text Encoding Initiative's standard for the representation of texts in digital form and was developed initially for the publication of digital editions of ancient inscriptions (e.g. Inscriptions of Aphrodisias, Vindolanda Tablets). Its domain has expanded to include the publication of papyri and manuscripts (e.g. Papyri.info). It addresses not only the transcription and editorial treatment of texts themselves, but also the history and materiality of the objects on which the texts appear (i.e., manuscripts, monuments, tablets, papyri, and other text-bearing objects).</p>
       </body>
   </text>

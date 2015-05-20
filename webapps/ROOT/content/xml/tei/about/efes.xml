@@ -18,7 +18,7 @@
   </teiHeader>
   <text>
       <body>
-         <head>About EFES</head>
+         <head></head>
          <p>EFES (EpiDoc Front End Services) is a custom and readily customizable platform for publication and search/indexing of EpiDoc files, based on the Kiln platform.</p>
       </body>
   </text>
