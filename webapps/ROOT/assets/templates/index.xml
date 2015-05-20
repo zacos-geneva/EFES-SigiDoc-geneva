@@ -27,26 +27,24 @@
           
            <p>EFES (EpiDoc Front End Services) is a custom and readily customizable platform for publication and search/indexing of EpiDoc files, based on the Kiln platform.</p></div>
           
-          <div class="large-4 columns">
+          <div class="large-5 columns">
             <div class="panel radius">
-              <p><strong>Add your EpiDoc</strong></p>
+              <p><strong>Sample Files</strong></p>
               
-              <p>Add your EpiDoc files in webapps/ROOT/content/xml/tei/corpus and
-              see <a href="corpus/">how they are displayed</a>. Go to the
-              <a href="admin/">admin</a> and index them for
-              searching.</p>
+              <p>Samples of EpiDoc files are provided here:</p>
+              <ul>
+                <li>List of sample files</li>
+                 <li>Search the sample files</li>
+              </ul>
       
             </div>
           </div>
           
-          <div class="large-4 columns">
+          <div class="large-5 columns">
             <div class="panel radius">
-              <p><strong>Instructions</strong></p>
+              <p><strong>Your Corpus</strong></p>
               
-              <p>Change the look of this site by modifying the templates
-                in webapps/ROOT/assets/templates. The template for this
-                page is index.xml, and it builds on the base template
-                base.xml.</p>
+              <p></p>
             </div>
           </div>
           
