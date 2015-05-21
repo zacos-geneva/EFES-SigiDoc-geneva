@@ -27,7 +27,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary corresp="document-search.xml#doc2">
+                  <summary corresp="#doc2">
                      <seg xml:lang="ru">Надгробная <certainty cert="low" locus="value" match=".."/> надпись.</seg>
                      <seg xml:lang="en">Funerary <certainty cert="low" locus="value" match=".."/> inscription.</seg>
                   </summary>
@@ -36,9 +36,9 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <objectType xml:lang="ru" ref="monument-search.xml#mon1">Плита <certainty cert="low" locus="value" match=".."/>.</objectType>
+                           <objectType xml:lang="ru" ref="#mon1">Плита <certainty cert="low" locus="value" match=".."/>.</objectType>
                            <objectType xml:lang="en">Panel<certainty cert="low" locus="value" match=".."/>.</objectType>
-                           <material xml:lang="ru" ref="material-search.xml#m2">Известняк <certainty cert="low" locus="value" match=".."/>.</material>
+                           <material xml:lang="ru" ref="#m2">Известняк <certainty cert="low" locus="value" match=".."/>.</material>
                            <material xml:lang="en">Limestone<certainty cert="low" locus="value" match=".."/>.</material>
                            <p xml:lang="ru">На лицевой стороне большое изображение креста. Разбита на 2 части, поверхность сильно повреждена.</p>
                            <p xml:lang="en">On the front is a large cross. Broken in two pieces; the surface is badly damaged.</p>
@@ -64,7 +64,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace ref="origPlace.xml#p002">
+                     <origPlace ref="#p002">
                         <seg xml:lang="ru">Шабо.</seg>
                         <seg xml:lang="en">Shabo.</seg>
                      </origPlace>
@@ -79,7 +79,7 @@
                   </provenance>
                   <provenance type="found">
                      <seg xml:lang="ru">
-                        <placeName type="ancientFindspot" ref="findspot.xml#shabo">Шабо.</placeName>
+                        <placeName type="ancientFindspot" ref="#shabo">Шабо.</placeName>
                         <rs type="circumstances">1866 г., обследования Ф.А. Струве.</rs>
                         <rs type="context">Окрестности Шабо, курган «Крест-могила».</rs>
                      </seg>
