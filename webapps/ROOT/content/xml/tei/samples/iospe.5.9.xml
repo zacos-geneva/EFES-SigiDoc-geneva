@@ -27,7 +27,7 @@
                   </altIdentifier>
                </msIdentifier>
                <msContents>
-                  <summary corresp="#doc1">
+                  <summary corresp="document-search.xml#doc1">
                      <seg xml:lang="ru">Строительная надпись.</seg>
                      <seg xml:lang="en">Building inscription.</seg>
                   </summary>
@@ -36,9 +36,9 @@
                   <objectDesc>
                      <supportDesc>
                         <support>
-                           <objectType xml:lang="#mon4">Дверной косяк.</objectType>
+                           <objectType xml:lang="ru" ref="monument-search.xml#mon4">Дверной косяк.</objectType>
                            <objectType xml:lang="en">Door jamb.</objectType>
-                           <material xml:lang="#m1">Проконесский мрамор.</material>
+                           <material xml:lang="ru" ref="material-search.xml#m1">Проконесский мрамор.</material>
                            <material xml:lang="en">Proconnesian marble.</material>
                            <p xml:lang="ru">Профилирован по боковым сторонам 5 полочками; сзади паз; лицевая сторона по вертикальной оси симметрии 
                               шероховатая (для крепления дверной коробки). Обломан снизу.</p>
@@ -60,7 +60,7 @@
                   </objectDesc>
                   <handDesc>
                      <handNote>
-                        <seg xml:lang="#scalpro">Лапидарный</rs>; буквы апицированные и маньеризованные. 
+                        <seg xml:lang="ru"><rs type="execution" ref="execution.xml#scalpro">Лапидарный</rs>; буквы апицированные и маньеризованные. 
                            Кионедон, каппа с удлиненной вертикалью, омикрон в виде U с загнутыми внутрь усиками или миндалевидный, пи с удлиненной 
                            перекладиной, ро с усиком внизу полукружия, сигма полуромбовидная, ипсилон и омега с дополнительной перекладинкой посередине. Лигатура омикрон-ипсилон.</seg>
                         <seg xml:lang="en">Lapidary. Kionedon. Letters are ornate, with serifs; kappa with elongated vertical, omicron in the shape of upturned horseshoe with inward 
@@ -73,7 +73,7 @@
                </physDesc>
                <history>
                   <origin>
-                     <origPlace ref="#p003">
+                     <origPlace ref="origPlace.xml#p003">
                         <seg xml:lang="ru">Херсон.</seg>
                         <seg xml:lang="en">Cherson.</seg>
                      </origPlace>
@@ -88,7 +88,7 @@
                   </provenance>
                   <provenance type="found">
                      <seg xml:lang="ru">
-                        <placeName type="#sevastopol">Севастополь (Херсонес).</placeName>
+                        <placeName type="ancientFindspot" ref="findspot.xml#sevastopol">Севастополь (Херсонес).</placeName>
                         <rs type="circumstances">1889 г., раскопки А.Л. Бертье-Делагарда.</rs>
                         <rs type="context">Храм № 15 («базилика в базилике»).</rs>
                      </seg>
@@ -105,7 +105,7 @@
                </history>
             </msDesc>
          </sourceDesc>
-      </fileDesc><encodingDesc><listPrefixDef><prefixDef matchPattern="##$1" ident="bib"/></listPrefixDef></encodingDesc>
+      </fileDesc><encodingDesc><listPrefixDef><prefixDef matchPattern="(.+)" replacementPattern="../alists/bibliography.xml#$1" ident="bib"/></listPrefixDef></encodingDesc>
       <revisionDesc>
          <change when="2015-04-16" who="CB">Andrey's corrections</change>
           <change when="2012-10-27" who="AL">inserted English toponyms and bibliography authors in commentary</change>
@@ -225,7 +225,7 @@
                   </ab></div>
             <div type="textpart" subtype="column">
                <ab>                  
-                  <lb n="#person10"><name nymRef="Θεόδωρος"><supplied reason="lost">Θ</supplied>
+                  <lb n="1"/><persName type="attested" ref="#person10"><name nymRef="Θεόδωρος"><supplied reason="lost">Θ</supplied>
                   <lb n="2"/>ε
                   <lb n="3"/>ο
                   <lb n="4"/>δ
