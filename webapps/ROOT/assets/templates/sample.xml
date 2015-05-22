@@ -16,7 +16,13 @@
       <kiln:super />
       <xsl:value-of select="/aggregation/sample_p5//body/h2[1]" />
     </kiln:block>
-
+   
+    <kiln:block name="css">
+      <kiln:super />
+      <link href="/epidoc/global.css" 
+        rel="stylesheet" type="text/css" />
+    </kiln:block>
+    
     <kiln:block name="page-heading">
       <kiln:super />
       <xsl:value-of select="/aggregation/sample_p5//body/h2[1]" />
