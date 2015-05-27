@@ -12,6 +12,17 @@
   -->
 
   <map:components>
+    <map:transformers default="xslt">
+      <!-- Internationalisation Transformer -->
+      <map:transformer name="i18n" src="org.apache.cocoon.transformation.I18nTransformer">
+        <catalogues default="messages">
+          <catalogue id="messages" name="messages" location="../assets/i18n"/>
+        </catalogues>
+        <untranslated-text>untranslated</untranslated-text>
+        <cache-at-startup>true</cache-at-startup>
+      </map:transformer>
+    </map:transformers>
+    
     <map:selectors>
       <map:selector logger="sitemap.selector.exception" name="exception"
                     src="org.apache.cocoon.selection.ExceptionSelector">
