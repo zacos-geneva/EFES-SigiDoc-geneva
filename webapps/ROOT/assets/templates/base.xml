@@ -60,6 +60,7 @@
                                required="required" type="search" />
                       </form>
                     </li>
+                    <xsl:call-template name="menu-languages" />
                   </ul>
                 </section>
               </kiln:block>
