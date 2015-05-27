@@ -6,11 +6,14 @@
       Defaults stylesheet. Defines default globals and reads
       parameters from the sitemap.
   -->
-
+  <xsl:param name="url" select="''"/>
   <!-- $language is the language code used to distinguish between
        language contexts in a multilingual site. -->
   <xsl:param name="language" select="''" />
-
+  <xsl:param name="lang" select="'en'"/>
+  
+  <xsl:variable name="kiln:url-lang-suffix" select="if ($lang='ru') then '-ru' else()"/>
+  
   <!-- Specify a mount path if you are mounting the webapp in a
        subdirectory rather than at the root of the domain. This path
        must either be empty or begin with a "/" and not include a
@@ -65,5 +68,14 @@
     </xsl:if>
     <xsl:value-of select="$kiln:images-url" />
   </xsl:variable>
-
+  
+  <xsl:template name="menu-languages">
+    <xsl:variable name="url_base" select="replace($url, '(^.+?)(-ru)?(\.html)$', '$1')"/>
+    <li class="lang en">
+      <a class="en" href="/{$url_base}.html" title="English">en</a>
+    </li>
+    <li class="lang py">
+      <a class="py" href="/{$url_base}-ru.html" title="Русский">py</a>
+    </li>
+  </xsl:template>
 </xsl:stylesheet>
