@@ -29,10 +29,19 @@
     </kiln:block>
 
     <kiln:block name="content">
+      <p>
+        <a href="http://localhost:9999/samples/iospe.5.5.html?edition-type=diplomatic">Diplomatic Edition</a>
+        <br/><a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=4&amp;leiden-style=panciera">Panciera</a>|
+        <a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=4&amp;leiden-style=ddbdp">ddbdp</a>|
+        <a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=4&amp;leiden-style=london">London</a> (Number every 4th line)
+        <br/><a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=5&amp;leiden-style=panciera">Panciera</a>|
+        <a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=5&amp;leiden-style=ddbdp">ddbdp</a>|
+        <a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=5&amp;leiden-style=london">London</a> (Number every 5th line)
+      </p>
       <div class="row">
         
         <div class="large-12 columns">
-          <xsl:copy-of select="/aggregation/sample_p5//body/div"/>
+          <xsl:sequence select="/aggregation/sample_p5//body"/>
         </div>
       </div>
     </kiln:block>
