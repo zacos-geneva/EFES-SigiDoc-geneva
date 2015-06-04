@@ -41,15 +41,36 @@
       </map:match>
     </map:pipeline>
 
+    <!-- Epidoc css -->
+    <map:pipeline id="epidoc-static-css">
+      <map:match pattern="epidoc/**.css">
+        <map:read mime-type="text/css" src="../stylesheets/epidoc/example-p5-xslt/{1}.css"/>
+      </map:match>
+    </map:pipeline>
+
     <!-- Main display pipeline. -->
     <map:pipeline type="noncaching">
       <!-- Home page (at /). -->
       <map:match id="local-home-page" pattern="">
+        <!-- Redirect request to the root path to the index page. -->
+        <map:redirect-to uri="index.html"/>
+      </map:match>
+
+      <!-- Main -->
+      <map:match pattern="index.html">
         <map:aggregate element="aggregation" label="content">
-          <map:part src="cocoon://_internal/menu/main.xml"/>
+          <map:part src="cocoon://_internal/menu/main.xml?url=index.html"/>
+          <map:part src="cocoon://internal/metadata/files.xml"/>
+          <map:part src="../content/xml/tei/index.xml" label="tei"/>
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/index.xsl"/>
-        <map:serialize/>
+        <map:transform src="cocoon://_internal/template/tei.xsl">
+          <!-- <map:parameter name="url" value="index.html"/>
+          <map:parameter name="lang" value="en"/>
+        </map:transform>
+        <map:transform type="i18n">
+          <map:parameter name="locale" value="en"/>-->
+        </map:transform>
+        <map:serialize type="xhtml"/>
       </map:match>
 
       <!-- Search. -->
@@ -73,13 +94,26 @@
         <map:serialize/>
       </map:match>
 
-      <!--Epidoc sample pipeline applying start-edition.xsl  -->
-      <map:match id="local-sample-epidoc-display-html" pattern="samples/*.html">
+      <!--List of sample files-->
+      <map:match id="local-samples-index-display" pattern="samples/">
         <map:aggregate element="aggregation" label="content">
-          <map:part src="cocoon://_internal/menu/main.xml?url=samples/{1}.html"/>
-          <map:part src="cocoon:/views/{1}.xml" element="sample_p5"/>
+          <map:part src="cocoon://internal/metadata/files.xml"/>
+          <map:part src="cocoon://_internal/menu/main.xml?url=samples/"/>
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/sample.xsl"/>
+        <map:transform src="cocoon://_internal/template/samples-index.xsl"/>
+        <map:serialize/>
+      </map:match>
+
+      <!-- Sample pipeline applying start-edition.xsl  -->
+      <map:match id="local-sample-display-html" pattern="samples/*/*.html">
+        <map:aggregate element="aggregation" label="content">
+          <map:part src="cocoon://_internal/menu/main.xml?url=samples/{2}.html"/>
+          <map:part src="cocoon:/views/{1}/{2}.xml?{request:queryString}" element="sample_p5"/>
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/sample.xsl">
+          <map:parameter name="view" value="{1}" />
+          <map:parameter name="filename" value="{2}" />
+        </map:transform>
         <map:serialize/>
       </map:match>
 
@@ -134,13 +168,15 @@
         <map:serialize/>
       </map:match>
     </map:pipeline>
-    
-    <map:pipeline><!-- internal-only="true">-->
-      <map:match pattern="views/*">
-        <map:generate src="../content/xml/tei/samples/{1}"/>
+
+    <map:pipeline>
+      <!-- internal-only="true">-->
+      <map:match pattern="views/*/*">
+        <map:generate src="../content/xml/tei/samples/{2}"/>
         <map:transform src="../stylesheets/epidoc/example-p5-xslt/start-edition.xsl">
-        <map:parameter name="edn-structure" value="inslib"/>
-        <map:parameter name="external-app-style" value="iospe"/>
+          <map:parameter name="use-request-parameters" value="true"/>
+          <map:parameter name="edn-structure" value="{1}"/>
+          <map:parameter name="external-app-style" value="iospe"/>
         </map:transform>
         <map:serialize type="xml"/>
       </map:match>

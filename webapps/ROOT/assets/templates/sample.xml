@@ -4,6 +4,8 @@
            xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+  <xsl:include href="cocoon://_internal/url/reverse.xsl" />
+  
   <!-- Imports stylesheet to convert TEI into HTML. -->
   <xsl:import href="cocoon://_internal/template/xsl/stylesheets/tei/sample.xsl" />
 
@@ -29,14 +31,36 @@
     </kiln:block>
 
     <kiln:block name="content">
+      
+      <xsl:variable name="url" select="kiln:url-for-match('local-sample-display-html', ($view, $filename))" />
       <p>
-        <a href="http://localhost:9999/samples/iospe.5.5.html?edition-type=diplomatic">Diplomatic Edition</a>
-        <br/><a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=4&amp;leiden-style=panciera">Panciera</a>|
-        <a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=4&amp;leiden-style=ddbdp">ddbdp</a>|
-        <a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=4&amp;leiden-style=london">London</a> (Number every 4th line)
-        <br/><a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=5&amp;leiden-style=panciera">Panciera</a>|
-        <a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=5&amp;leiden-style=ddbdp">ddbdp</a>|
-        <a href="http://localhost:9999/samples/iospe.5.5.html?line-inc=5&amp;leiden-style=london">London</a> (Number every 5th line)
+      <a href="{$url}?edition-type=diplomatic">
+        <xsl:text>Diplomatic Edition</xsl:text>
+      </a>
+      <br/>
+      <a href="{$url}?line-inc=4&amp;leiden-style=panciera">
+        <xsl:text>Panciera</xsl:text>
+      </a>|
+      
+      <a href="{$url}?line-inc=4&amp;leiden-style=ddbdp">
+        <xsl:text>ddbdp</xsl:text> 
+      </a>|
+      
+      <a href="{$url}?line-inc=4&amp;leiden-style=london">
+        <xsl:text>London</xsl:text> 
+      </a> (Number every 4th line)
+      <br/>
+      <a href="{$url}?line-inc=5&amp;leiden-style=panciera">
+        <xsl:text>Panciera</xsl:text>
+      </a>|
+      
+      <a href="{$url}?line-inc=5&amp;leiden-style=ddbdp">
+        <xsl:text>ddbdp</xsl:text>
+      </a>|
+      
+      <a href="{$url}?line-inc=5&amp;leiden-style=london">
+        <xsl:text>London</xsl:text> 
+      </a> (Number every 5th line)
       </p>
       <div class="row">
         
