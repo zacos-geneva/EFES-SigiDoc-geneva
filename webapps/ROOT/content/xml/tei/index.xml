@@ -1,0 +1,58 @@
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:svg="http://www.w3.org/2000/svg"
+    xmlns:math="http://www.w3.org/1998/Math/MathML"
+    xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title xml:lang="en">EFES (EpiDoc Front End Services)</title>
+                <title xml:lang="ru"></title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <group>
+            
+     <text xml:lang="en">
+     <body>        
+      
+         <head>Welcome to EFES!</head>
+               
+                                 <p>EFES (EpiDoc Front End Services) is a custom and readily customizable platform for publication and search/indexing of EpiDoc files, based on the Kiln platform.</p>
+                            
+         <div>
+         <head>Sample Files</head>
+                                    
+         <p>Samples of EpiDoc files are provided here:</p>
+          <list>
+             <item><ref target="samples/">List of sample files</ref></item>
+             <item>Search the sample files</item>
+          </list>                        
+        </div>
+        
+         <div>
+                                
+         <head>Your Corpus</head>
+                                               
+        </div>
+                      
+        </body>
+       </text>
+           
+            <!--<text xml:lang="ru">
+                <body>
+                    
+                </body>
+            </text>-->
+        </group>
+    </text>
+</TEI>
+
