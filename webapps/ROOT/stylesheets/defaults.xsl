@@ -14,6 +14,10 @@
   
   <xsl:variable name="kiln:url-lang-suffix" select="if ($lang='ru') then '-ru' else()"/>
   
+   <!-- minimum and maximums years of inscriptions -->
+  <!--<xsl:variable as="xs:integer" name="kiln:min-year" select="200"/>
+  <xsl:variable as="xs:integer" name="kiln:max-year" select="1800"/>-->
+  
   <!-- Specify a mount path if you are mounting the webapp in a
        subdirectory rather than at the root of the domain. This path
        must either be empty or begin with a "/" and not include a
@@ -69,7 +73,7 @@
     <xsl:value-of select="$kiln:images-url" />
   </xsl:variable>
   
-  <xsl:template name="menu-languages">
+  <!--<xsl:template name="menu-languages">
     <xsl:variable name="url_base" select="replace($url, '(^.+?)(-ru)?(\.html)$', '$1')"/>
     <li class="lang en">
       <a class="en" href="/{$url_base}.html" title="English">en</a>
@@ -77,5 +81,5 @@
     <li class="lang py">
       <a class="py" href="/{$url_base}-ru.html" title="Русский">py</a>
     </li>
-  </xsl:template>
+  </xsl:template>-->
 </xsl:stylesheet>
