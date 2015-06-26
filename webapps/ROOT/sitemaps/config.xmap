@@ -11,9 +11,9 @@
 
   -->
 
-  <map:components>
+   <map:components>
     <map:transformers default="xslt">
-      <!-- Internationalisation Transformer -->
+  <!-- Internationalisation Transformer -->
       <map:transformer name="i18n" src="org.apache.cocoon.transformation.I18nTransformer">
         <catalogues default="messages">
           <catalogue id="messages" name="messages" location="../assets/i18n"/>
