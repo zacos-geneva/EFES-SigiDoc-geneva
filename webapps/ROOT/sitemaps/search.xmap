@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- search sitemap. -->
+<map:sitemap xmlns:map="http://apache.org/cocoon/sitemap/1.0">
+  <map:views>
+    <map:view from-label="content" name="content">
+      <map:serialize type="xml"/>
+    </map:view>
+
+    <map:view from-label="tei" name="tei">
+      <map:serialize type="xml"/>
+    </map:view>
+  </map:views>
+
+  <map:pipelines>
+    <map:pipeline>
+      <!-- Redirect search index to basic search -->
+      <map:match pattern="">
+        <map:select type="request-parameter">
+          <map:parameter name="parameter-name" value="top-bar-search-dummy"/>
+          <map:when test="1">
+            <map:redirect-to uri='200/1800/?fq=text:"{request-param:query}"'/>
+          </map:when>
+          <map:otherwise>
+            <map:redirect-to uri="200/1800/"/>
+          </map:otherwise>
+        </map:select>
+      </map:match>
+
+      <!--<map:match pattern="index-ru.html">
+        <map:select type="request-parameter">
+          <map:parameter name="parameter-name" value="top-bar-search-dummy"/>
+          <map:when test="1">
+            <map:redirect-to uri='ru/200/1800/?fq=text:"{request-param:query}"'/>
+          </map:when>
+          <map:otherwise>
+            <map:redirect-to uri="ru/200/1800/"/>
+          </map:otherwise>
+        </map:select>
+      </map:match>-->
+
+      <!--<map:match pattern="(en|ru)/$" type="regexp">
+        <map:select type="request-parameter">
+          <map:parameter name="parameter-name" value="top-bar-search-dummy"/>
+          <map:when test="1">
+            <map:redirect-to uri='200/1800/?fq=text:"{request-param:query}"'/>
+          </map:when>
+          <map:otherwise>
+            <map:redirect-to uri="200/1800/"/>
+          </map:otherwise>
+        </map:select>
+      </map:match>-->
+
+      <map:match pattern="*/*/">
+
+        <map:aggregate element="aggregation" label="content">
+          <map:part src="cocoon://_internal/menu/main.xml?url=search/{1}/{2}/"/>
+          <map:part src="cocoon://internal/metadata/files.xml"/>
+          <map:part src="cocoon:/{1}/{2}/facet_query.xml"/>
+        </map:aggregate>
+
+        <map:transform src="cocoon://_internal/template/search.xsl">
+          <map:parameter name="url" value="search/{1}/{2}/"/>
+          <map:parameter name="min-year" value="{1}"/>
+          <map:parameter name="max-year" value="{2}"/>
+          <map:parameter name="query-string" value="{request:queryString}"/>
+        </map:transform>
+        <map:serialize type="xhtml"/>
+      </map:match>
+
+      <!-- Search. -->
+      <!-- <map:match id="local-search" pattern="search/">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon://_internal/menu/main.xml?url=search/" />
+          <map:part src="cocoon://internal/search/facet_query.xml" />
+          <map:part src="cocoon://_internal/request.xml" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/search.xsl">
+        <map:parameter name="url" value="search/{1}/{2}/"/>
+          <map:parameter name="min-year" value="{1}"/>
+          <map:parameter name="max-year" value="{2}"/>
+          <map:parameter name="query-string" value="{request:queryString}"/>
+        </map:transform>
+        <map:serialize type="xhtml"/>
+      </map:match>-->
+
+      <!-- Get search results. -->
+      <map:match id="local-search-query" pattern="*/*/*.xml">
+        <map:generate src="../assets/queries/solr/{3}.xml"/>
+        <map:transform src="../stylesheets/solr/merge-parameters.xsl">
+          <map:parameter name="query-string" value="{request:queryString}"/>
+          <map:parameter name="min-year" value="{1}"/>
+          <map:parameter name="max-year" value="{2}"/>
+        </map:transform>
+        <map:transform src="../kiln/stylesheets/solr/generate-query.xsl"/>
+        <map:transform type="xinclude"/>
+        <map:serialize type="xml"/>
+      </map:match>
+
+    </map:pipeline>
+  </map:pipelines>
+</map:sitemap>
