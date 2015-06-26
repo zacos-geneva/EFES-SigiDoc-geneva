@@ -34,7 +34,7 @@
          <p>Samples of EpiDoc files are provided here:</p>
           <list>
              <item><ref target="samples/">List of sample files</ref></item>
-             <item>Search the sample files</item>
+             <item><ref target="search/">Search the sample files</ref></item>
           </list>                        
         </div>
         
