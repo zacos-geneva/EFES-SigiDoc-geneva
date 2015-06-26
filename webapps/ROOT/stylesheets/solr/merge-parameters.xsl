@@ -14,6 +14,9 @@
   <xsl:param name="min-year"/>
   <xsl:param name="max-year"/>
 
+  <xsl:variable name="kiln:min-year" select="200" as="xs:integer"/>
+  <xsl:variable name="kiln:max-year" select="1800" as="xs:integer"/>
+
   <xsl:template match="query">
     <xsl:copy>
       <xsl:apply-templates select="@*|node()"/>
@@ -32,12 +35,14 @@
         <xsl:text>not-before:[</xsl:text>
         <xsl:value-of select="$kiln:min-year"/>
         <xsl:text>+TO+</xsl:text>
-        <xsl:value-of select="xs:integer($max-year)"/>
+        <!-- <xsl:value-of select="xs:integer($max-year)"/> -->
+        <xsl:value-of select="$max-year"/>
         <xsl:text>]</xsl:text>
       </fq>
       <fq>
         <xsl:text>not-after:[</xsl:text>
-        <xsl:value-of select="xs:integer($min-year)"/>
+        <!-- <xsl:value-of select="xs:integer($min-year)"/> -->
+        <xsl:value-of select="$min-year"/>
         <xsl:text>+TO+</xsl:text>
         <xsl:value-of select="$kiln:max-year"/>
         <xsl:text>]</xsl:text>

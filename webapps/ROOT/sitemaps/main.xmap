@@ -41,6 +41,13 @@
       </map:match>
     </map:pipeline>
 
+    <!-- Mount Search sub-sitemaps.  -->
+    <map:pipeline type="noncaching">
+      <map:match pattern="search/**">
+        <map:mount check-reload="yes" src="search.xmap" uri-prefix="search/"/>
+      </map:match>
+    </map:pipeline>
+
     <!-- Epidoc css -->
     <map:pipeline id="epidoc-static-css">
       <map:match pattern="epidoc/**.css">
@@ -73,16 +80,16 @@
         <map:serialize type="xhtml"/>
       </map:match>
 
-      <!-- Search. -->
+      <!-- Search. 
       <map:match id="local-search" pattern="search/">
         <map:aggregate element="aggregation">
-          <map:part src="cocoon://_internal/menu/main.xml?url=search/"/>
-          <map:part src="cocoon://internal/search/facet_query.xml"/>
-          <map:part src="cocoon://_internal/request.xml"/>
+          <map:part src="cocoon://_internal/menu/main.xml?url=search/" />
+          <map:part src="cocoon://internal/search/facet_query.xml" />
+          <map:part src="cocoon://_internal/request.xml" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/search.xsl"/>
-        <map:serialize/>
-      </map:match>
+        <map:transform src="cocoon://_internal/template/search.xsl" />
+        <map:serialize />
+      </map:match>-->
 
       <!-- About. -->
       <map:match id="local-tei-display-html" pattern="about/**.html">

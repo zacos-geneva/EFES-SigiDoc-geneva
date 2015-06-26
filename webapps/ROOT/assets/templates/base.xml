@@ -90,8 +90,9 @@
             <!-- Since we make use of jQuery for other purposes, there
                  is no reason to use Foundation's check whether to use
                  jQuery or Zepto. -->
-            <script src="{$kiln:assets-path}/foundation/js/vendor/jquery.js" />
-            <script src="{$kiln:assets-path}/foundation/js/foundation.min.js" />
+
+            <script src="{$kiln:assets-path}/foundation/js/vendor/jquery.js" >&#160;</script>
+            <script src="{$kiln:assets-path}/foundation/js/foundation.min.js" >&#160;</script>
             <script>$(document).foundation();</script>
           </kiln:block>
         </body>
