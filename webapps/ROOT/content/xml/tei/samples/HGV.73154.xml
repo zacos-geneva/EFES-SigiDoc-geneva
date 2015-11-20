@@ -7,7 +7,8 @@
             <title>keiner</title>
          </titleStmt>
          <publicationStmt>
-            <idno type="filename">73154</idno>
+            <authority>Universität Heidelberg</authority>
+            <idno type="filename">HGV.73154</idno>
             <idno type="TM">73154</idno>
             <idno type="ddb-perseus-style">0016;;4</idno>
             <idno type="ddb-filename">o.bu.njem.4</idno>
@@ -81,7 +82,7 @@
             <listBibl>
                <bibl type="publication" subtype="principal">
                   <title level="s" type="abbreviated">O.Bu Njem</title>
-                  <biblScope type="numbers">4</biblScope>
+                  <biblScope unit="numbers">4</biblScope>
                </bibl>
             </listBibl>
          </div>
