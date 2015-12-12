@@ -15,10 +15,10 @@
   <facet.field>institution-en</facet.field>
   <fl>file</fl>
   <fl>tei-id</fl>
+  <fl>url_path</fl>
   <fl>document-title-en</fl>
   <facet.mincount>1</facet.mincount>
   <facet.sort>index</facet.sort>
   <sort>sortable-id+asc</sort>
   <rows>40</rows>
 </query>
-
