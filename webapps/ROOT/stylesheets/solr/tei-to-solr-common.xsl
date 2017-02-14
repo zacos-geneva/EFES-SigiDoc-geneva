@@ -62,6 +62,12 @@
         <xsl:value-of select="$suffix"/>
       </xsl:if>
     </field>
+    <field name="file_path">
+      <xsl:value-of select="$file-path" />
+    </field>
+    <field name="url_path">
+      <xsl:value-of select="substring-after($file-path, 'tei/')" />
+    </field>
     <xsl:choose>
       <xsl:when test="$full">
         <xsl:sequence select="$memoized-common-data"/>

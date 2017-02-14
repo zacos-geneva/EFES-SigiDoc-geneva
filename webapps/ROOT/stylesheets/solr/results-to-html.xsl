@@ -216,11 +216,8 @@
     <li>
       <a>
         <xsl:attribute name="href">
-          <xsl:value-of select="$kiln:context-path"/>
-          <xsl:text>/</xsl:text>
-          <xsl:value-of select="str[@name='tei-id']"/>
-          <xsl:value-of select="$kiln:url-lang-suffix"/>
-          <xsl:text>.html</xsl:text>
+          <xsl:value-of select="kiln:url-for-match('local-tei-display-html',
+                                (str[@name='url_path']))" />
         </xsl:attribute>
 
         <xsl:choose>
