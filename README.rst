@@ -4,7 +4,8 @@ EFES: EpiDoc Front-End Services
 **EFES is envisioned as a delivery, search and browse platform 
 that can be set up and customized for an individual EpiDoc 
 XML-based project with only minimal training and technical 
-skill on the part of a project team.** The authors of Kiln plan to offer advanced, follow-up training workshops for 
+skill on the part of a project team.**
+The authors of Kiln plan to offer advanced, follow-up training workshops for 
 students already familiar with EpiDoc, but lacking further 
 technical skills, with a view to empowering them to create and 
 manage all stages of their digital publication, from modelling 
@@ -40,3 +41,8 @@ Kiln code and documentation
 
 * https://github.com/kcl-ddh/kiln/
 * http://kiln.readthedocs.org/en/latest/
+----
+
+EFES is licensed under the Apache 2.0 open software license,
+and is copyright the University of London, King's College London,
+and all listed individual contributors.
