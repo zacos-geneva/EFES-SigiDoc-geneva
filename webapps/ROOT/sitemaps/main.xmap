@@ -4,11 +4,11 @@
 
   <map:views>
     <map:view from-label="content" name="content">
-      <map:serialize type="xml"/>
+      <map:serialize type="xml" />
     </map:view>
 
     <map:view from-label="tei" name="tei">
-      <map:serialize type="xml"/>
+      <map:serialize type="xml" />
     </map:view>
   </map:views>
 
@@ -18,40 +18,27 @@
       <!-- Mount a sitemap for any admin URLs, such as editorial
            processes like Schematron validation. -->
       <map:match pattern="admin/**">
-        <map:mount check-reload="yes" src="admin.xmap" uri-prefix="admin/"/>
+        <map:mount check-reload="yes" src="admin.xmap" uri-prefix="admin/" />
       </map:match>
       <!-- Mount a sitemap for (potentially) project-specific internal
            pipelines. -->
       <map:match pattern="internal/**">
-        <map:mount check-reload="yes" src="internal.xmap" uri-prefix="internal/"/>
+        <map:mount check-reload="yes" src="internal.xmap"
+                   uri-prefix="internal/" />
       </map:match>
     </map:pipeline>
 
     <map:pipeline id="local-images">
       <map:match id="local-images-gif" pattern="images/**.gif">
-        <map:read mime-type="image/gif" src="../content/images/{1}.gif"/>
+        <map:read mime-type="image/gif" src="../content/images/{1}.gif" />
       </map:match>
 
       <map:match id="local-images-jpeg" pattern="images/**.jpg">
-        <map:read mime-type="image/jpeg" src="../content/images/{1}.jpg"/>
+        <map:read mime-type="image/jpeg" src="../content/images/{1}.jpg" />
       </map:match>
 
       <map:match id="local-images-png" pattern="images/**.png">
-        <map:read mime-type="image/png" src="../content/images/{1}.png"/>
-      </map:match>
-    </map:pipeline>
-
-    <!-- Mount Search sub-sitemaps.  -->
-    <map:pipeline type="noncaching">
-      <map:match pattern="search/**">
-        <map:mount check-reload="yes" src="search.xmap" uri-prefix="search/"/>
-      </map:match>
-    </map:pipeline>
-
-    <!-- Epidoc css -->
-    <map:pipeline id="epidoc-static-css">
-      <map:match pattern="epidoc/**.css">
-        <map:read mime-type="text/css" src="../stylesheets/epidoc/example-p5-xslt/{1}.css"/>
+        <map:read mime-type="image/png" src="../content/images/{1}.png" />
       </map:match>
     </map:pipeline>
 
@@ -59,28 +46,14 @@
     <map:pipeline type="noncaching">
       <!-- Home page (at /). -->
       <map:match id="local-home-page" pattern="">
-        <!-- Redirect request to the root path to the index page. -->
-        <map:redirect-to uri="index.html"/>
-      </map:match>
-
-      <!-- Main -->
-      <map:match pattern="index.html">
         <map:aggregate element="aggregation" label="content">
-          <map:part src="cocoon://_internal/menu/main.xml?url=index.html"/>
-          <map:part src="cocoon://internal/metadata/files.xml"/>
-          <map:part src="../content/xml/tei/index.xml" label="tei"/>
+          <map:part src="cocoon://_internal/menu/main.xml" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/tei.xsl">
-          <!-- <map:parameter name="url" value="index.html"/>
-          <map:parameter name="lang" value="en"/>
-        </map:transform>
-        <map:transform type="i18n">
-          <map:parameter name="locale" value="en"/>-->
-        </map:transform>
-        <map:serialize type="xhtml"/>
+        <map:transform src="cocoon://_internal/template/index.xsl" />
+        <map:serialize />
       </map:match>
 
-      <!-- Search. 
+      <!-- Search. -->
       <map:match id="local-search" pattern="search/">
         <map:aggregate element="aggregation">
           <map:part src="cocoon://_internal/menu/main.xml?url=search/" />
@@ -89,39 +62,6 @@
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/search.xsl" />
         <map:serialize />
-      </map:match>-->
-
-      <!-- About. -->
-      <map:match id="local-tei-display-html" pattern="about/**.html">
-        <map:aggregate element="aggregation" label="content">
-          <map:part label="tei" src="cocoon://internal/tei/preprocess/about/{1}.xml"/>
-          <map:part src="cocoon://_internal/menu/main.xml?url=about/{1}.html"/>
-        </map:aggregate>
-        <map:transform src="cocoon://_internal/template/tei.xsl"/>
-        <map:serialize/>
-      </map:match>
-
-      <!--List of sample files-->
-      <map:match id="local-samples-index-display" pattern="samples/">
-        <map:aggregate element="aggregation" label="content">
-          <map:part src="cocoon://internal/metadata/files.xml"/>
-          <map:part src="cocoon://_internal/menu/main.xml?url=samples/"/>
-        </map:aggregate>
-        <map:transform src="cocoon://_internal/template/samples-index.xsl"/>
-        <map:serialize/>
-      </map:match>
-
-      <!-- Sample pipeline applying start-edition.xsl  -->
-      <map:match id="local-sample-display-html" pattern="samples/*/*.html">
-        <map:aggregate element="aggregation" label="content">
-          <map:part src="cocoon://_internal/menu/main.xml?url=samples/{2}.html"/>
-          <map:part src="cocoon:/views/{1}/{2}.xml?{request:queryString}" element="sample_p5"/>
-        </map:aggregate>
-        <map:transform src="cocoon://_internal/template/sample.xsl">
-          <map:parameter name="view" value="{1}" />
-          <map:parameter name="filename" value="{2}" />
-        </map:transform>
-        <map:serialize/>
       </map:match>
 
       <!-- TEI texts. -->
@@ -131,61 +71,52 @@
                files. This would be better done with a Solr query
                after indexing, but for demonstration and quick start
                purposes, use this method. -->
-          <map:part src="cocoon://internal/metadata/files.xml"/>
-          <map:part src="cocoon://_internal/menu/main.xml?url=text/"/>
+          <map:part src="cocoon://internal/metadata/files.xml" />
+          <map:part src="cocoon://_internal/menu/main.xml?url=text/" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/text-index.xsl"/>
-        <map:serialize/>
+        <map:transform src="cocoon://_internal/template/text-index.xsl" />
+        <map:serialize />
       </map:match>
 
       <map:match id="local-tei-display-html" pattern="text/**.html">
         <map:aggregate element="aggregation" label="content">
-          <map:part label="tei" src="cocoon://internal/tei/preprocess/{1}.xml"/>
-          <map:part src="cocoon://_internal/menu/main.xml?url=text/{1}.html"/>
+          <map:part label="tei" src="cocoon://internal/tei/preprocess/{1}.xml" />
+          <map:part src="cocoon://_internal/menu/main.xml?url=text/{1}.html" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/tei.xsl"/>
-        <map:serialize/>
+        <map:transform src="cocoon://_internal/template/tei.xsl" />
+        <map:serialize />
       </map:match>
 
       <map:match id="local-tei-display-xml" pattern="text/**.xml">
-        <map:read mime-type="application/tei+xml" src="../content/xml/tei/{1}.xml"/>
+        <map:read mime-type="application/tei+xml"
+                  src="../content/xml/tei/{1}.xml" />
       </map:match>
 
       <map:match id="local-tei-display-pdf" pattern="text/**.pdf">
-        <map:generate src="cocoon://internal/tei/preprocess/{1}/{2}.xml" label="tei"/>
-        <map:transform src="cocoon://_internal/template/pdf.xsl"/>
-        <map:serialize type="fo2pdf"/>
+        <map:generate src="cocoon://internal/tei/preprocess/{1}/{2}.xml"
+                      label="tei" />
+        <map:transform src="cocoon://_internal/template/pdf.xsl" />
+        <map:serialize type="fo2pdf" />
       </map:match>
 
       <map:match id="local-tei-display-epub" pattern="text/**.epub">
-        <map:generate src="cocon://internal/tei/preprocess/{1}/{2}.xml" label="tei"/>
-        <map:transform src="cocoon://_internal/template/epub.xsl"/>
-        <map:serialize type="xhtml"/>
+        <map:generate src="cocoon://internal/tei/preprocess/{1}/{2}.xml"
+                      label="tei" />
+        <map:transform src="cocoon://_internal/template/epub.xsl" />
+        <map:serialize type="xhtml" />
       </map:match>
 
       <!-- Example of providing content in more than one language. -->
       <map:match id="local-generic-multilingual-html" pattern="*/**.html">
         <!-- {1} is a language code. -->
         <map:aggregate element="aggregation" label="content">
-          <map:part src="cocoon://_internal/menu/{1}/{1}-main.xml?url={2}.html"/>
-          <map:part src="cocoon://internal/metadata/files.xml"/>
-          <map:part src="cocoon://internal/tei/preprocess/{1}/{2}.xml" label="tei"/>
+          <map:part src="cocoon://_internal/menu/{1}/{1}-main.xml?url={2}.html" />
+          <map:part src="cocoon://internal/metadata/files.xml" />
+          <map:part src="cocoon://internal/tei/preprocess/{1}/{2}.xml"
+                    label="tei" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/tei.xsl"/>
-        <map:serialize/>
-      </map:match>
-    </map:pipeline>
-
-    <map:pipeline>
-      <!-- internal-only="true">-->
-      <map:match pattern="views/*/*">
-        <map:generate src="../content/xml/tei/samples/{2}"/>
-        <map:transform src="../stylesheets/epidoc/example-p5-xslt/start-edition.xsl">
-          <map:parameter name="use-request-parameters" value="true"/>
-          <map:parameter name="edn-structure" value="{1}"/>
-          <map:parameter name="external-app-style" value="iospe"/>
-        </map:transform>
-        <map:serialize type="xml"/>
+        <map:transform src="cocoon://_internal/template/tei.xsl" />
+        <map:serialize />
       </map:match>
     </map:pipeline>
 
@@ -193,9 +124,10 @@
     <map:pipeline>
       <!-- TEI content provided as HTML with internal metadata. -->
       <map:match id="local-tei-backend-xml" pattern="text/*.xml">
-        <map:generate src="cocoon://internal/tei/preprocess/{1}.xml" label="tei"/>
-        <map:transform src="cocoon://_internal/template/backend_tei.xsl"/>
-        <map:serialize type="xml_nodecl"/>
+        <map:generate src="cocoon://internal/tei/preprocess/{1}.xml"
+                      label="tei" />
+        <map:transform src="cocoon://_internal/template/backend_tei.xsl" />
+        <map:serialize type="xml_nodecl" />
       </map:match>
     </map:pipeline>
 
@@ -204,18 +136,22 @@
          errors, handling will fall back to the default plain error
          handling in config.xmap. -->
     <map:handle-errors>
-      <map:generate type="exception"/>
+      <map:generate type="exception" />
       <map:select type="exception">
         <map:when test="not-found">
-          <map:transform src="../stylesheets/error/add-not-found-messages.xsl"/>
+          <map:transform src="../stylesheets/error/add-not-found-messages.xsl" />
+          <map:transform src="cocoon://_internal/template/error.xsl">
+            <map:parameter name="debug" value="{global:debug}" />
+          </map:transform>
+          <map:serialize status-code="404" />
         </map:when>
+        <map:otherwise>
+          <map:transform src="cocoon://_internal/template/error.xsl">
+            <map:parameter name="debug" value="{global:debug}" />
+          </map:transform>
+          <map:serialize status-code="500" />
+        </map:otherwise>
       </map:select>
-      <map:transform src="cocoon://_internal/template/error.xsl">
-        <map:parameter name="debug" value="{global:debug}"/>
-      </map:transform>
-      <map:serialize/>
     </map:handle-errors>
-
-
   </map:pipelines>
 </map:sitemap>

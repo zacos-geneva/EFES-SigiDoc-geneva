@@ -11,18 +11,7 @@
 
   -->
 
-   <map:components>
-    <map:transformers default="xslt">
-  <!-- Internationalisation Transformer -->
-      <map:transformer name="i18n" src="org.apache.cocoon.transformation.I18nTransformer">
-        <catalogues default="messages">
-          <catalogue id="messages" name="messages" location="../assets/i18n"/>
-        </catalogues>
-        <untranslated-text>untranslated</untranslated-text>
-        <cache-at-startup>true</cache-at-startup>
-      </map:transformer>
-    </map:transformers>
-    
+  <map:components>
     <map:selectors>
       <map:selector logger="sitemap.selector.exception" name="exception"
                     src="org.apache.cocoon.selection.ExceptionSelector">
@@ -59,9 +48,9 @@
              the URL as per RFC 2396; eg,
              http://username:password@domain.name/ -->
         <fedora-url></fedora-url>
-        <rdf-base-uri></rdf-base-uri>
+        <rdf-base-uri>http://localhost/rdf/</rdf-base-uri>
         <sesame-server>http://localhost:9999/openrdf-sesame/</sesame-server>
-        <sesame-server-repository></sesame-server-repository>
+        <sesame-server-repository>foo</sesame-server-repository>
         <solr-server>http://localhost:9999/solr/</solr-server>
       </global-variables>
     </map:component-configurations>
