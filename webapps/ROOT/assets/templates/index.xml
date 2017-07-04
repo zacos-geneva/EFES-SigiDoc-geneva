@@ -34,11 +34,12 @@
           <div class="panel radius">
             <p><strong>Add your TEI</strong></p>
 
-            <p>Put your TEI files in webapps/ROOT/content/xml/tei and
-            go to the <a href="{kiln:url-for-match('local-admin-home-page', (), 0)}">admin</a>
-            and index them for searching. Then see <a
-            href="{kiln:url-for-match('local-tei-index-display', (), 0)}">how
-            they are displayed</a>.</p>
+            <p>Put your files in webapps/ROOT/content/xml/tei (TEI) or
+            webapps/ROOT/content/epidoc (Epidoc) and go to the <a
+            href="{kiln:url-for-match('local-admin-home-page', (), 0)}">admin</a> and index them for searching. Then see how
+            they are displayed (<a
+            href="{kiln:url-for-match('local-tei-index-display', (), 0)}">TEI</a> and <a
+            href="{kiln:url-for-match('local-epidoc-index-display', (), 0)}">Epidoc</a>).</p>
           </div>
         </div>
         <div class="large-4 columns">

@@ -17,7 +17,7 @@
 
       <!-- Indexing. -->
 
-      <!-- Index all TEI content in a single (user) request.
+      <!-- Index all TEI/Epidoc content in a single (user) request.
 
            For efficiency reasons, delete the whole index first
            (obviously a bad idea if the index also contains material
@@ -27,7 +27,8 @@
         <map:aggregate element="aggregation">
           <map:part element="delete"
                     src="cocoon://_internal/solr/delete-all" />
-          <map:part element="insert" src="cocoon:/add/" />
+          <map:part element="insert" src="cocoon:/add/tei/" />
+          <map:part element="insert" src="cocoon:/add/epidoc/" />
           <map:part element="optimize"
                     src="cocoon://_internal/solr/optimize" />
           <map:part src="cocoon://_internal/menu/admin.xml?url=admin/solr/" />
@@ -48,11 +49,11 @@
         <map:serialize />
       </map:match>
 
-      <!-- Adding all TEI documents as XIncludes. -->
-      <map:match id="local-solr-add-all" pattern="add/">
-        <map:generate src="cocoon://_internal/dirlist/content/xml/tei.xml" />
+      <!-- Adding all documents as XIncludes. -->
+      <map:match id="local-solr-add-all" pattern="add/*/">
+        <map:generate src="cocoon://_internal/dirlist/content/xml/{1}.xml" />
         <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
-          <map:parameter name="prefix" value="cocoon://admin/solr/add/tei/tei/" />
+          <map:parameter name="prefix" value="cocoon://admin/solr/add/tei/{1}/" />
         </map:transform>
         <map:transform type="xinclude" />
         <map:serialize type="xml" />

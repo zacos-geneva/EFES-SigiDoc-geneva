@@ -7,20 +7,11 @@
   <xsl:import href="../defaults.xsl"/>
   <xsl:include href="cocoon://_internal/url/reverse.xsl" />
 
-  <xsl:template match="/aggregation/dir:directory" mode="tei">
-    <h3>TEI</h3>
+  <xsl:template match="/aggregation/dir:directory" mode="#all">
+    <xsl:param name="directory" />
+    <xsl:param name="header" />
 
-    <p>
-      <a class="button round"
-         href="{kiln:url-for-match('local-solr-index-all', (), 0)}">
-        <xsl:text>Index all (search)</xsl:text>
-      </a>
-      <xsl:text> </xsl:text>
-      <a class="button round"
-         href="{kiln:url-for-match('local-rdf-harvest-all-display', (), 0)}">
-        <xsl:text>Harvest all (RDF)</xsl:text>
-      </a>
-    </p>
+    <h3><xsl:value-of select="$header" /></h3>
 
     <table>
       <thead>
@@ -33,8 +24,8 @@
         </tr>
       </thead>
       <tbody>
-        <xsl:apply-templates mode="tei"
-                             select=".//dir:directory[@name='tei']" />
+        <xsl:apply-templates mode="#current"
+                             select=".//dir:directory[@name=$directory]" />
       </tbody>
     </table>
   </xsl:template>
@@ -48,6 +39,33 @@
     <xsl:apply-templates select="dir:directory" mode="#current">
       <xsl:with-param name="path" select="$new_path"/>
     </xsl:apply-templates>
+  </xsl:template>
+
+  <xsl:template match="dir:file" mode="epidoc">
+    <xsl:param name="path" />
+    <xsl:variable name="filepath">
+      <xsl:value-of select="$path" />
+      <xsl:value-of select="substring-before(@name, '.xml')" />
+    </xsl:variable>
+    <xsl:variable name="short-filepath"
+                  select="substring-after($filepath, 'epidoc/')" />
+    <tr>
+      <!-- File path. -->
+      <td>
+        <xsl:value-of select="$short-filepath" />
+        <xsl:text>.xml</xsl:text>
+      </td>
+      <td></td>
+      <td></td>
+      <td>
+        <a title="Index document in search server"
+           href="{kiln:url-for-match('local-solr-index', ('tei', $filepath), 0)}">
+          <xsl:text>Index</xsl:text>
+        </a>
+      </td>
+      <td></td>
+      <td></td>
+    </tr>
   </xsl:template>
 
   <xsl:template match="dir:file" mode="tei">

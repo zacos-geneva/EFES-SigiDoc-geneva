@@ -22,7 +22,8 @@
   </xsl:template>
 
   <xsl:template match="result[not(doc)]" mode="text-index">
-    <p>There are no files indexed from webapps/ROOT/content/xml/tei!
+    <p>There are no files indexed from
+    webapps/ROOT/content/xml/<xsl:value-of select="$document_type" />!
     Put some there, index them from the admin page, and this page will
     become much more interesting.</p>
   </xsl:template>

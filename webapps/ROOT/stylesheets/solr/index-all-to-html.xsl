@@ -25,7 +25,7 @@
 
   <xsl:template match="insert" mode="solr">
     <section>
-      <h1>Add new data</h1>
+      <h1>Add new data from "<xsl:value-of select="xincludes/@root" />"</h1>
 
       <table class="pure-table pure-table-horizontal">
         <thead>
@@ -49,6 +49,8 @@
       <xsl:apply-templates mode="solr" />
     </section>
   </xsl:template>
+
+  <xsl:template match="aggregation/*" mode="solr" priority="-10" />
 
   <xsl:template match="response" mode="solr-table">
     <xsl:apply-templates mode="solr-table" />

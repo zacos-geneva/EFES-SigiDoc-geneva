@@ -2,6 +2,7 @@
 <?oxygen RNGSchema="../schema/menu/menu.rng" type="xml"?>
 <root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0">
   <menu label="Texts" match="local-tei-index-display" />
+  <menu label="Inscriptions" match="local-epidoc-index-display" />
   <menu label="Search" match="local-search" />
   <menu label="Admin" match="local-admin-home-page" />
 </root>

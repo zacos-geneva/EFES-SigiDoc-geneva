@@ -52,6 +52,14 @@
         <sesame-server>http://localhost:9999/openrdf-sesame/</sesame-server>
         <sesame-server-repository>foo</sesame-server-repository>
         <solr-server>http://localhost:9999/solr/</solr-server>
+        <!-- Epidoc-related variables. -->
+        <epidoc-edn-structure>iospe</epidoc-edn-structure>
+        <epidoc-edition-type>interpretive</epidoc-edition-type>
+        <epidoc-external-app-style>iospe</epidoc-external-app-style>
+        <epidoc-internal-app-style>none</epidoc-internal-app-style>
+        <epidoc-leiden-style>panciera</epidoc-leiden-style>
+        <epidoc-line-inc>5</epidoc-line-inc>
+        <epidoc-verse-lines>off</epidoc-verse-lines>
       </global-variables>
     </map:component-configurations>
 
