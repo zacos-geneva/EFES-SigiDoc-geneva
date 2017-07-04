@@ -65,20 +65,16 @@
       </map:match>
 
       <!-- TEI texts. -->
-      <map:match id="local-tei-index-display" pattern="text/">
-        <map:aggregate element="aggregation">
-          <!-- Use TEI metadata extracted directly from the
-               files. This would be better done with a Solr query
-               after indexing, but for demonstration and quick start
-               purposes, use this method. -->
-          <map:part src="cocoon://internal/metadata/files.xml" />
-          <map:part src="cocoon://_internal/menu/main.xml?url=text/" />
+      <map:match id="local-tei-index-display" pattern="texts/">
+        <map:aggregate element="aggregation" label="content">
+          <map:part src="cocoon://internal/search/tei_metadata.xml?q=tei" />
+          <map:part src="cocoon://_internal/menu/main.xml?url=texts/" />
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/text-index.xsl" />
         <map:serialize />
       </map:match>
 
-      <map:match id="local-tei-display-html" pattern="text/**.html">
+      <map:match id="local-tei-display-html" pattern="texts/**.html">
         <map:aggregate element="aggregation" label="content">
           <map:part label="tei" src="cocoon://internal/tei/preprocess/{1}.xml" />
           <map:part src="cocoon://_internal/menu/main.xml?url=text/{1}.html" />
@@ -87,19 +83,19 @@
         <map:serialize />
       </map:match>
 
-      <map:match id="local-tei-display-xml" pattern="text/**.xml">
+      <map:match id="local-tei-display-xml" pattern="texts/**.xml">
         <map:read mime-type="application/tei+xml"
                   src="../content/xml/tei/{1}.xml" />
       </map:match>
 
-      <map:match id="local-tei-display-pdf" pattern="text/**.pdf">
+      <map:match id="local-tei-display-pdf" pattern="texts/**.pdf">
         <map:generate src="cocoon://internal/tei/preprocess/{1}/{2}.xml"
                       label="tei" />
         <map:transform src="cocoon://_internal/template/pdf.xsl" />
         <map:serialize type="fo2pdf" />
       </map:match>
 
-      <map:match id="local-tei-display-epub" pattern="text/**.epub">
+      <map:match id="local-tei-display-epub" pattern="texts/**.epub">
         <map:generate src="cocoon://internal/tei/preprocess/{1}/{2}.xml"
                       label="tei" />
         <map:transform src="cocoon://_internal/template/epub.xsl" />
@@ -111,7 +107,6 @@
         <!-- {1} is a language code. -->
         <map:aggregate element="aggregation" label="content">
           <map:part src="cocoon://_internal/menu/{1}/{1}-main.xml?url={2}.html" />
-          <map:part src="cocoon://internal/metadata/files.xml" />
           <map:part src="cocoon://internal/tei/preprocess/{1}/{2}.xml"
                     label="tei" />
         </map:aggregate>

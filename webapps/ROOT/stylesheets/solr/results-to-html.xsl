@@ -2,6 +2,7 @@
 <xsl:stylesheet exclude-result-prefixes="#all" version="2.0"
                 xmlns:h="http://apache.org/cocoon/request/2.0"
                 xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- XSLT for displaying Solr results.
@@ -19,8 +20,6 @@
        named "<field name>Tag" to ORed facet fields, so that is the
        scheme that should be followed. -->
 
-  <xsl:import href="../defaults.xsl" />
-  <xsl:include href="cocoon://_internal/url/reverse.xsl" />
   <xsl:include href="results-pagination.xsl" />
 
   <!-- Using the XML from a request generator is much simpler than
@@ -60,7 +59,7 @@
     </xsl:if>
   </xsl:template>
 
-  <xsl:template match="lst[@name='facet_fields]/lst"
+  <xsl:template match="lst[@name='facet_fields']/lst"
                 mode="search-results">
     <section>
       <p class="title" data-section-title="">
@@ -88,15 +87,12 @@
   </xsl:template>
 
   <xsl:template match="result/doc" mode="search-results">
-    <xsl:variable name="filepath-prefix"
-                  select="substring-before(str[@name='file_path'], '/')" />
+    <xsl:variable name="document-type" select="str[@name='document_type']" />
     <xsl:variable name="short-filepath"
-                  select="substring-after(str[@name='file_path'], 'tei/')" />
+                  select="substring-after(str[@name='file_path'], '/')" />
     <xsl:variable name="result-url">
-      <!-- Use the filepath-prefix to determine what URL to use to
-           display the document from which this result came. -->
       <xsl:choose>
-        <xsl:when test="$filepath-prefix = 'tei'">
+        <xsl:when test="$document-type = 'tei'">
           <xsl:value-of select="kiln:url-for-match('local-tei-display-html', ($short-filepath), 0)" />
         </xsl:when>
       </xsl:choose>

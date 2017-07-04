@@ -6,6 +6,10 @@
 
   <xsl:import href="cocoon://_internal/template/xsl/stylesheets/text-file-list-to-html.xsl" />
 
+  <!-- ID of sitemap map:match to use for display of individual
+       texts. -->
+  <xsl:variable name="match_id" select="'local-tei-display-html'" />
+
   <kiln:parent>
     <xi:include href="base.xml" />
   </kiln:parent>
@@ -31,7 +35,7 @@
       <div class="row">
         <div class="large-12 columns">
           <xsl:apply-templates mode="text-index"
-                               select="/aggregation/files" />
+                               select="/aggregation/response" />
         </div>
       </div>
     </kiln:block>

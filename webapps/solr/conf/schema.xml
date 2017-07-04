@@ -108,6 +108,8 @@
         trailing underscores (e.g. _version_) are reserved.
    -->
 
+   <field indexed="true" multiValued="false" name="document_type"
+          required="false" stored="true" type="string" />
    <field indexed="true" multiValued="true" name="document_title"
           required="false" stored="true" type="text_general" />
    <field indexed="true" multiValued="true" name="author"

@@ -27,17 +27,10 @@
     <xsl:if test="normalize-space($free-text)">
       <doc>
         <xsl:sequence select="$document-metadata" />
-
-        <field name="file_path">
-          <xsl:value-of select="$file-path" />
-        </field>
-        <field name="document_id">
-          <xsl:value-of select="/tei:*/@xml:id" />
-        </field>
-
-        <field name="text">
-          <xsl:value-of select="normalize-space($free-text)" />
-        </field>
+        <xsl:call-template name="field_document_type" />
+        <xsl:call-template name="field_file_path" />
+        <xsl:call-template name="field_document_id" />
+        <xsl:call-template name="field_text" />
       </doc>
     </xsl:if>
   </xsl:template>
@@ -98,4 +91,29 @@
       </field>
     </doc>
   </xsl:template>
+
+  <xsl:template name="field_document_id">
+    <field name="document_id">
+      <xsl:value-of select="/tei:*/@xml:id" />
+    </field>
+  </xsl:template>
+
+  <xsl:template name="field_document_type">
+    <field name="document_type">
+      <xsl:value-of select="substring-before($file-path, '/')" />
+    </field>
+  </xsl:template>
+
+  <xsl:template name="field_file_path">
+    <field name="file_path">
+      <xsl:value-of select="$file-path" />
+    </field>
+  </xsl:template>
+
+  <xsl:template name="field_text">
+    <field name="text">
+      <xsl:value-of select="normalize-space($free-text)" />
+    </field>
+  </xsl:template>
+
 </xsl:stylesheet>

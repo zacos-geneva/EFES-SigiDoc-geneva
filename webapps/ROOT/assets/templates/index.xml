@@ -35,9 +35,10 @@
             <p><strong>Add your TEI</strong></p>
 
             <p>Put your TEI files in webapps/ROOT/content/xml/tei and
-            see <a href="text/">how they are displayed</a>. Go to the
-            <a href="admin/">admin</a> and index them for
-            searching.</p>
+            go to the <a href="{kiln:url-for-match('local-admin-home-page', (), 0)}">admin</a>
+            and index them for searching. Then see <a
+            href="{kiln:url-for-match('local-tei-index-display', (), 0)}">how
+            they are displayed</a>.</p>
           </div>
         </div>
         <div class="large-4 columns">
