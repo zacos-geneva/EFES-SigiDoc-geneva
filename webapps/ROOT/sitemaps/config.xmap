@@ -53,8 +53,8 @@
         <sesame-server-repository>foo</sesame-server-repository>
         <solr-server>http://localhost:9999/solr/</solr-server>
         <!-- Epidoc-related variables. -->
-        <epidoc-edn-structure>iospe</epidoc-edn-structure>
         <epidoc-edition-type>interpretive</epidoc-edition-type>
+        <epidoc-edn-structure>default</epidoc-edn-structure>
         <epidoc-external-app-style>iospe</epidoc-external-app-style>
         <epidoc-internal-app-style>none</epidoc-internal-app-style>
         <epidoc-leiden-style>panciera</epidoc-leiden-style>

@@ -121,6 +121,8 @@
         <map:transform src="cocoon://_internal/template/epidoc-{global:epidoc-edn-structure}.xsl">
           <map:parameter name="edition-type"
                          value="{global:epidoc-edition-type}" />
+          <map:parameter name="edn-structure"
+                         value="{global:epidoc-edn-structure}" />
           <map:parameter name="external-app-style"
                          value="{global:epidoc-external-app-style}" />
           <map:parameter name="internal-app-style"

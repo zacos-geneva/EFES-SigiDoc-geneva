@@ -6,7 +6,7 @@
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <xsl:variable name="title">
-    <xsl:call-template name="iospe-title" />
+    <xsl:call-template name="inslib-title" />
   </xsl:variable>
 
   <kiln:parent>
@@ -17,7 +17,7 @@
     <kiln:block name="content">
       <div class="row">
         <div class="large-12 columns">
-          <xsl:call-template name="iospe-body-structure">
+          <xsl:call-template name="inslib-body-structure">
             <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
             <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
             <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>

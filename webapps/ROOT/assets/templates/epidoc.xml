@@ -4,14 +4,13 @@
            xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <xsl:param name="internal-app-style" />
-  <xsl:param name="external-app-style" />
   <xsl:param name="edition-type" />
-  <xsl:param name="hgv-gloss" />
+  <xsl:param name="edn-structure" />
+  <xsl:param name="external-app-style" />
+  <xsl:param name="internal-app-style" />
   <xsl:param name="leiden-style" />
   <xsl:param name="line-inc" />
   <xsl:param name="verse-lines" />
-  <xsl:param name="css-loc" />
 
   <!-- Imports stylesheet to convert TEI into HTML. -->
   <xsl:import href="cocoon://_internal/template/xsl/stylesheets/epidoc/start-edition.xsl" />
