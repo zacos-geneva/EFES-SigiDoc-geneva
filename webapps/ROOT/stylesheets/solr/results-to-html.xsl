@@ -95,6 +95,9 @@
         <xsl:when test="$document-type = 'tei'">
           <xsl:value-of select="kiln:url-for-match('local-tei-display-html', ($short-filepath), 0)" />
         </xsl:when>
+        <xsl:when test="$document-type = 'epidoc'">
+          <xsl:value-of select="kiln:url-for-match('local-epidoc-display-html', ($short-filepath), 0)" />
+        </xsl:when>
       </xsl:choose>
     </xsl:variable>
     <li>
