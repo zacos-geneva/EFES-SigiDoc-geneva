@@ -17,15 +17,19 @@
     <kiln:block name="content">
       <div class="row">
         <div class="large-12 columns">
-          <xsl:call-template name="spes-body-structure">
-            <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
-            <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
-            <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
-            <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
-            <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
-            <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
-            <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
-          </xsl:call-template>
+          <!-- Set an appropriate context node for xsl:apply-templates
+               within the EpiDoc XSLT. -->
+          <xsl:for-each select="aggregation/tei:*">
+            <xsl:call-template name="spes-body-structure">
+              <xsl:with-param name="parm-edition-type" select="$edition-type" tunnel="yes"/>
+              <xsl:with-param name="parm-edn-structure" select="$edn-structure" tunnel="yes"/>
+              <xsl:with-param name="parm-external-app-style" select="$external-app-style" tunnel="yes"/>
+              <xsl:with-param name="parm-internal-app-style" select="$internal-app-style" tunnel="yes"/>
+              <xsl:with-param name="parm-leiden-style" select="$leiden-style" tunnel="yes"/>
+              <xsl:with-param name="parm-line-inc" select="$line-inc" tunnel="yes" as="xs:double"/>
+              <xsl:with-param name="parm-verse-lines" select="$verse-lines" tunnel="yes"/>
+            </xsl:call-template>
+          </xsl:for-each>
         </div>
       </div>
     </kiln:block>
