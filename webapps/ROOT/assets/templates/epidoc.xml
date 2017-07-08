@@ -25,6 +25,12 @@
       <xsl:value-of select="$title" />
     </kiln:block>
 
+    <kiln:block name="css">
+      <kiln:super />
+      <link href="{$kiln:assets-path}/styles/epidoc/global.css"
+            rel="stylesheet" type="text/css" />
+    </kiln:block>
+
     <kiln:block name="page-heading">
       <xsl:value-of select="$title" />
     </kiln:block>
