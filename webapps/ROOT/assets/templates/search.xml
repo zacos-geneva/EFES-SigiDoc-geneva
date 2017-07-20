@@ -7,6 +7,12 @@
   <!-- Imports stylesheet to convert Solr results into HTML. -->
   <xsl:import href="cocoon://_internal/template/xsl/stylesheets/solr/results-to-html.xsl" />
 
+  <xsl:param name="search-lemma" />
+
+  <!-- Variables defining search parameter values. -->
+  <xsl:variable name="q_value" select="normalize-space(/aggregation/h:request/h:requestParameters/h:parameter[@name='q']/h:value)" />
+  <xsl:variable name="df_value" select="normalize-space(/aggregation/h:request/h:requestParameters/h:parameter[@name='df']/h:value)" />
+
   <kiln:parent>
     <xi:include href="base.xml" />
   </kiln:parent>
@@ -28,9 +34,19 @@
           <form action="." method="get">
             <input name="q" placeholder="Search terms" type="search">
               <xsl:attribute name="value">
-                <xsl:value-of select="normalize-space(/aggregation/h:request/h:requestParameters/h:parameter[@name='q']/h:value)" />
+                <xsl:value-of select="$q_value" />
               </xsl:attribute>
             </input>
+            <xsl:if test="$search-lemma">
+              <label>
+                <input name="df" type="checkbox" value="lemmatised_text">
+                  <xsl:if test="$df_value = 'lemmatised_text'">
+                    <xsl:attribute name="checked">checked</xsl:attribute>
+                  </xsl:if>
+                </input>
+                <xsl:text>Search lemmatised text</xsl:text>
+              </label>
+            </xsl:if>
           </form>
           <!-- List of currently applied facets. -->
           <xsl:apply-templates mode="search-results" select="/aggregation/response/lst[@name='responseHeader']/lst[@name='params']/*[@name='fq']" />

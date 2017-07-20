@@ -52,6 +52,11 @@
         <sesame-server>http://localhost:9999/openrdf-sesame/</sesame-server>
         <sesame-server-repository>foo</sesame-server-repository>
         <solr-server>http://localhost:9999/solr/</solr-server>
+        <!-- If 'search-lemma' is 1, present user interface to search
+             over lemmatised text rather than original text. This
+             setting does not influence what gets indexed, only the
+             search UI. -->
+        <search-lemma>1</search-lemma>
         <!-- Epidoc-related variables. -->
         <epidoc-edition-type>interpretive</epidoc-edition-type>
         <epidoc-edn-structure>default</epidoc-edn-structure>

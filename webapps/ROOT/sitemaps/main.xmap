@@ -60,7 +60,9 @@
           <map:part src="cocoon://internal/search/facet_query.xml" />
           <map:part src="cocoon://_internal/request.xml" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/search.xsl" />
+        <map:transform src="cocoon://_internal/template/search.xsl">
+          <map:parameter name="search-lemma" value="{global:search-lemma}" />
+        </map:transform>
         <map:serialize />
       </map:match>
 
