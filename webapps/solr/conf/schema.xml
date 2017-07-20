@@ -133,6 +133,8 @@
           required="false" stored="true" type="text_general" />
    <field indexed="true" multiValued="false" name="eats_entity_name"
           required="false" stored="true" type="text_general" />
+   <field name="lemmatised_text" type="text_ws" indexed="true"
+          stored="true" multiValued="true" />
 
    <!-- catchall field, containing all other searchable text fields
         (implemented via copyField further on in this schema -->

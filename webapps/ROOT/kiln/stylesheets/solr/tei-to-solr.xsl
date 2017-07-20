@@ -31,6 +31,7 @@
         <xsl:call-template name="field_file_path" />
         <xsl:call-template name="field_document_id" />
         <xsl:call-template name="field_text" />
+        <xsl:call-template name="field_lemmatised_text" />
       </doc>
     </xsl:if>
   </xsl:template>
@@ -66,6 +67,15 @@
 
   <xsl:template match="node()" mode="free-text">
     <xsl:apply-templates />
+  </xsl:template>
+
+  <xsl:template match="@lemma" mode="lemma">
+    <xsl:value-of select="." />
+    <xsl:text> </xsl:text>
+  </xsl:template>
+
+  <xsl:template match="node()|@*" mode="lemma">
+    <xsl:apply-templates mode="lemma" select="@*|node()" />
   </xsl:template>
 
   <xsl:template match="tei:*[@key]" mode="entity-mention">
@@ -107,6 +117,12 @@
   <xsl:template name="field_file_path">
     <field name="file_path">
       <xsl:value-of select="$file-path" />
+    </field>
+  </xsl:template>
+
+  <xsl:template name="field_lemmatised_text">
+    <field name="lemmatised_text">
+      <xsl:apply-templates mode="lemma" select="//tei:text" />
     </field>
   </xsl:template>
 
