@@ -13,10 +13,10 @@
        as values in the q field, of the form "<field name>:<field
        value>".
 
-       A q element in the XML query document may have a type attribute
+       An element in the XML query document may have a type attribute
        with value "default" to indicate that it should be used if and
-       only if there are no q parameters (that are not empty) in the
-       query-string.
+       only if there are no parameters with the same name, that are
+       not empty, in the query-string.
 
   -->
 
@@ -49,13 +49,14 @@
     </xsl:copy>
   </xsl:template>
 
-  <xsl:template match="query/q">
+  <xsl:template match="query/*">
     <xsl:param name="query-string" />
+    <xsl:variable name="field_name" select="local-name()" />
     <xsl:choose>
       <!-- If this is a default value, then do not include it if there
            is a query-string parameter with the same name, provided
            that query-string parameter has content. -->
-      <xsl:when test="@type='default' and $query-string/q[normalize-space()]" />
+      <xsl:when test="@type='default' and $query-string/*[local-name()=$field_name][normalize-space()]" />
       <xsl:otherwise>
         <xsl:copy>
           <xsl:apply-templates select="@*|node()" />
