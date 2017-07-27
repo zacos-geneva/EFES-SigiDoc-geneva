@@ -480,7 +480,7 @@ letter, save the following to
    escaped (&lt;).
 
 To get the results from this query, use the URL
-``cocoon://_internal/sesame/query/graph/recipients.xml`` in a sitemap's
+``cocoon://admin/rdf/query/graph/recipients.xml`` in a sitemap's
 ``map:generate`` or ``map:part`` ``src`` attribute. Remember that
 ``map:generate`` and ``map:aggregate`` (which contains ``map:part``
 elements) are the way that Cocoon generates a source document.
@@ -505,10 +505,8 @@ the old version). Take a look at how it has changed, through the
 addition of the ``recipient`` element placeholder and using a custom
 output that better matches the information we want.
 
-The URL mentioned above for performing a query of the RDF server
-(``cocoon://_internal/sesame/query/graph/**.xml``) is handled by a
-core part of Kiln, that should not be modified. It calls the non-core
-URL ``cocoon://admin/rdf/construct/graph/{1}.xml`` (where "{1}" is
+The URL mentioned above for performing a query of the RDF server calls
+the URL ``cocoon://admin/rdf/construct/graph/{1}.xml`` (where "{1}" is
 whatever is matched by the "**" of the first URL). This URL is handled
 by a ``map:match`` in ``webapps/ROOT/sitemaps/rdf.xmap``, by reading
 the specified file. It is this ``map:match`` that needs to be modified
