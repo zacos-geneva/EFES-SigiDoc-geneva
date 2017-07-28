@@ -7,6 +7,8 @@
   <!-- Imports stylesheet to convert Solr results into HTML. -->
   <xsl:import href="cocoon://_internal/template/xsl/stylesheets/solr/results-to-html.xsl" />
 
+  <xsl:param name="base-uri" />
+  <xsl:param name="rdf-facet-lookup-fields" />
   <xsl:param name="search-lemma" />
 
   <!-- Variables defining search parameter values. -->

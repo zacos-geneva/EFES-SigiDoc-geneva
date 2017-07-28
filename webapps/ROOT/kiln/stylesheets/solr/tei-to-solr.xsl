@@ -32,6 +32,13 @@
         <xsl:call-template name="field_document_id" />
         <xsl:call-template name="field_text" />
         <xsl:call-template name="field_lemmatised_text" />
+        <!-- Facets. -->
+        <xsl:call-template name="field_found_provenance" />
+        <xsl:call-template name="field_mentioned_people" />
+        <xsl:call-template name="field_mentioned_places" />
+        <xsl:call-template name="field_origin_place" />
+        <xsl:call-template name="field_support_object_type" />
+        <xsl:call-template name="field_support_material" />
       </doc>
     </xsl:if>
   </xsl:template>
@@ -102,6 +109,48 @@
     </doc>
   </xsl:template>
 
+  <xsl:template match="tei:material[@ref]" mode="facet_support_material">
+    <field name="support_material">
+      <xsl:value-of select="@ref" />
+    </field>
+  </xsl:template>
+
+  <xsl:template match="tei:origPlace[@ref]" mode="facet_origin_place">
+    <!-- This does nothing to prevent duplicate instances of the same
+         @ref value being recorded. -->
+    <field name="origin_place">
+      <xsl:value-of select="@ref" />
+    </field>
+  </xsl:template>
+
+  <xsl:template match="tei:objectType[@ref]" mode="facet_support_object_type">
+    <field name="support_object_type">
+      <xsl:value-of select="@ref" />
+    </field>
+  </xsl:template>
+
+  <xsl:template match="tei:persName[@ref]" mode="facet_mentioned_people">
+    <field name="mentioned_people">
+      <xsl:value-of select="@ref" />
+    </field>
+  </xsl:template>
+
+  <xsl:template match="text()" mode="facet_mentioned_people" />
+
+  <xsl:template match="tei:placeName[@ref]" mode="facet_found_provenance">
+    <field name="found_provenance">
+      <xsl:value-of select="@ref" />
+    </field>
+  </xsl:template>
+
+  <xsl:template match="tei:placeName[@ref] | tei:geogName[@ref]" mode="facet_mentioned_places">
+    <field name="mentioned_places">
+      <xsl:value-of select="@ref" />
+    </field>
+  </xsl:template>
+
+  <xsl:template match="text()" mode="facet_mentioned_places" />
+
   <xsl:template name="field_document_id">
     <field name="document_id">
       <xsl:value-of select="/tei:*/@xml:id" />
@@ -120,10 +169,34 @@
     </field>
   </xsl:template>
 
+  <xsl:template name="field_found_provenance">
+    <xsl:apply-templates mode="facet_found_provenance" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:provenance[@type='found']" />
+  </xsl:template>
+
   <xsl:template name="field_lemmatised_text">
     <field name="lemmatised_text">
       <xsl:apply-templates mode="lemma" select="//tei:text" />
     </field>
+  </xsl:template>
+
+  <xsl:template name="field_mentioned_people">
+    <xsl:apply-templates mode="facet_mentioned_people" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  </xsl:template>
+
+  <xsl:template name="field_mentioned_places">
+    <xsl:apply-templates mode="facet_mentioned_places" select="//tei:text/tei:body/tei:div[@type='edition']" />
+  </xsl:template>
+
+  <xsl:template name="field_origin_place">
+    <xsl:apply-templates mode="facet_origin_place" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace[@ref]" />
+  </xsl:template>
+
+  <xsl:template name="field_support_material">
+    <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material[@ref]" />
+  </xsl:template>
+
+  <xsl:template name="field_support_object_type">
+    <xsl:apply-templates mode="facet_support_object_type" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:objectType[@ref]" />
   </xsl:template>
 
   <xsl:template name="field_text">

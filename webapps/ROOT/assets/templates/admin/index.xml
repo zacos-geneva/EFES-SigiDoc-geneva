@@ -41,6 +41,11 @@
             <xsl:with-param name="directory" select="'epidoc'" />
             <xsl:with-param name="header" select="'Epidoc'" />
           </xsl:apply-templates>
+          <xsl:apply-templates mode="authority"
+                               select="/aggregation/dir:directory">
+            <xsl:with-param name="directory" select="'authority'" />
+            <xsl:with-param name="header" select="'Authority'" />
+          </xsl:apply-templates>
         </div>
       </div>
     </kiln:block>

@@ -41,6 +41,35 @@
     </xsl:apply-templates>
   </xsl:template>
 
+  <xsl:template match="dir:file" mode="authority">
+    <xsl:param name="path" />
+    <xsl:variable name="filepath">
+      <xsl:value-of select="$path" />
+      <xsl:value-of select="substring-before(@name, '.xml')" />
+    </xsl:variable>
+    <xsl:variable name="short-filepath"
+                  select="substring-after($filepath, 'authority/')" />
+    <tr>
+      <!-- File path. -->
+      <td>
+        <xsl:value-of select="$short-filepath" />
+        <xsl:text>.xml</xsl:text>
+      </td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <!-- RDF harvesting. -->
+      <td>
+        <a title="Harvest RDF from document"
+           href="{kiln:url-for-match('local-rdf-harvest-display',
+                                     ($filepath), 0)}">
+          <xsl:text>Harvest</xsl:text>
+        </a>
+      </td>
+      <td></td>
+    </tr>
+  </xsl:template>
+
   <xsl:template match="dir:file" mode="epidoc">
     <xsl:param name="path" />
     <xsl:variable name="filepath">

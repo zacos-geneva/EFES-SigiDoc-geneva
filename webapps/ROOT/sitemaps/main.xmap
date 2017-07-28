@@ -55,12 +55,16 @@
 
       <!-- Search. -->
       <map:match id="local-search" pattern="search/">
-        <map:aggregate element="aggregation">
+        <map:aggregate element="aggregation" label="content">
           <map:part src="cocoon://_internal/menu/main.xml?url=search/" />
           <map:part src="cocoon://internal/search/facet_query.xml" />
           <map:part src="cocoon://_internal/request.xml" />
+          <map:part element="facet_names" src="cocoon://admin/rdf/query/graph/facet_item_names.xml" />
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/search.xsl">
+          <map:parameter name="base-uri" value="{global:rdf-base-uri}" />
+          <map:parameter name="rdf-facet-lookup-fields"
+                         value="{global:rdf-facet-lookup-fields}" />
           <map:parameter name="search-lemma" value="{global:search-lemma}" />
         </map:transform>
         <map:serialize />

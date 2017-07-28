@@ -5,6 +5,12 @@
   <facet>true</facet>
   <facet.field>author</facet.field>
   <facet.field>publication_date</facet.field>
+  <facet.field>found_provenance</facet.field>
+  <facet.field>mentioned_people</facet.field>
+  <facet.field>mentioned_places</facet.field>
+  <facet.field>origin_place</facet.field>
+  <facet.field>support_material</facet.field>
+  <facet.field>support_object_type</facet.field>
   <facet.limit>-1</facet.limit>
   <facet.mincount>1</facet.mincount>
   <facet.sort>index</facet.sort>

@@ -2,6 +2,8 @@
 <xsl:stylesheet exclude-result-prefixes="#all" version="2.0"
                 xmlns:h="http://apache.org/cocoon/request/2.0"
                 xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:so="http://schema.org/"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -32,12 +34,26 @@
     <xsl:for-each select="/aggregation/h:request/h:requestParameters/h:parameter/h:value">
       <xsl:value-of select="../@name" />
       <xsl:text>=</xsl:text>
-      <xsl:value-of select="." />
+      <xsl:choose>
+        <xsl:when test="../@name='fq'">
+          <xsl:value-of select="substring-before(., ':')" />
+          <xsl:text>:</xsl:text>
+          <xsl:value-of select="encode-for-uri(substring-after(., ':'))" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="." />
+        </xsl:otherwise>
+      </xsl:choose>
       <xsl:if test="not(position() = last())">
         <xsl:text>&amp;</xsl:text>
       </xsl:if>
     </xsl:for-each>
   </xsl:variable>
+
+  <!-- Split the list of Solr facet fields that need to be looked up
+       in RDF for its labels into a sequence for easier querying. -->
+  <xsl:variable name="rdf-facet-lookup-fields-sequence"
+                select="tokenize($rdf-facet-lookup-fields, ',')" />
 
   <xsl:template match="int" mode="search-results">
     <!-- A facet's count. -->
@@ -221,10 +237,11 @@
   </xsl:template>
 
   <xsl:template name="display-unselected-and-facet">
+    <xsl:variable name="facet-field" select="../@name" />
     <xsl:variable name="fq">
-      <xsl:value-of select="../@name" />
+      <xsl:value-of select="$facet-field" />
       <xsl:text>:"</xsl:text>
-      <xsl:value-of select="@name" />
+      <xsl:value-of select="encode-for-uri(@name)" />
       <xsl:text>"</xsl:text>
     </xsl:variable>
     <!-- List a facet only if it is not selected. -->
@@ -237,7 +254,15 @@
             <xsl:text>&amp;fq=</xsl:text>
             <xsl:value-of select="$fq" />
           </xsl:attribute>
-          <xsl:value-of select="@name" />
+          <xsl:choose>
+            <xsl:when test="$facet-field = $rdf-facet-lookup-fields-sequence">
+              <xsl:variable name="rdf-uri" select="concat($base-uri, @name)" />
+              <xsl:value-of select="/aggregation/facet_names/rdf:RDF/rdf:Description[@rdf:about=$rdf-uri]/*[1]" />
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="@name" />
+            </xsl:otherwise>
+          </xsl:choose>
         </a>
         <xsl:call-template name="display-facet-count" />
       </li>
