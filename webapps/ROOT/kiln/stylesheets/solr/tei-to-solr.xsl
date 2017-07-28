@@ -39,6 +39,7 @@
         <xsl:call-template name="field_origin_place" />
         <xsl:call-template name="field_support_object_type" />
         <xsl:call-template name="field_support_material" />
+        <xsl:call-template name="extra_fields" />
       </doc>
     </xsl:if>
   </xsl:template>
