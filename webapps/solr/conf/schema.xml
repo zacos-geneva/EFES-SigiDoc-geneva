@@ -124,7 +124,7 @@
    <field indexed="true" multiValued="false" name="file_path"
           required="false" stored="true" type="string" />
    <field indexed="false" multiValued="false" name="document_id"
-          required="true" stored="true" type="string" />
+          required="false" stored="true" type="string" />
    <field indexed="false" multiValued="false" name="section_id"
           required="false" stored="true" type="string" />
    <field indexed="true" multiValued="false" name="entity_key"
@@ -147,6 +147,10 @@
           multiValued="true" stored="true" required="false" />
    <field name="mentioned_people" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
+   <field name="index_item_name" stored="true" indexed="true"
+          multiValued="false" required="false" type="string" />
+   <field name="index_instance_location" stored="true" indexed="false"
+          multiValued="true" required="false" type="string" />
 
    <!-- catchall field, containing all other searchable text fields
         (implemented via copyField further on in this schema -->

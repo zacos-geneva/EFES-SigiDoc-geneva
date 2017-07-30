@@ -37,7 +37,8 @@
         <map:serialize />
       </map:match>
 
-      <!-- Index an individual document. -->
+      <!-- Index an individual document or
+           collection-as-a-single-whole. -->
       <map:match id="local-solr-index" pattern="index/*/**.html">
         <map:aggregate element="aggregation">
           <map:part src="cocoon://_internal/solr/index/{1}/{2}.xml" />
@@ -94,7 +95,27 @@
         <map:serialize type="xml" />
       </map:match>
 
-      <!-- Adding TEI only. The first parameter is the file type. -->
+      <!-- Adding TEI/EpiDoc indices. The first parameter is the
+           subdirectory of content/xml (tei, epidoc, etc) whose files
+           are indexed. The second parameter is the index name. -->
+      <map:match id="local-solr-add-index" pattern="add/index/*/*.xml">
+        <map:generate src="cocoon://_internal/dirlist/content/xml/{1}.xml" />
+        <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
+          <map:parameter name="prefix" value="cocoon://internal/{1}/preprocess/" />
+        </map:transform>
+        <map:transform type="xinclude" />
+        <map:transform src="../stylesheets/solr/{1}-{2}-index-to-solr.xsl">
+          <map:parameter name="index_type" value="{2}" />
+          <map:parameter name="subdirectory" value="{1}" />
+        </map:transform>
+        <map:transform type="solr">
+          <map:parameter name="url" value="{global:solr-server}" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Adding TEI only. The first parameter is the file type (tei,
+           epidoc, etc). -->
       <map:match id="local-solr-add" pattern="add/*/**.xml">
         <map:generate src="cocoon:/preprocess/{1}/{2}.xml" />
         <map:transform src="../stylesheets/solr/{1}-to-solr.xsl">

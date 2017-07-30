@@ -13,6 +13,14 @@
         <map:serialize type="xml" />
       </map:match>
 
+      <!-- Process an Epidoc document prior to its use in another
+           pipeline, normalising and annotating it as required. -->
+      <map:match id="local-preprocess-epidoc"
+                 pattern="epidoc/preprocess/**.xml">
+        <map:generate src="../content/xml/epidoc/{1}.xml" />
+        <map:serialize type="xml" />
+      </map:match>
+
       <!-- Get search results. -->
       <map:match id="local-search-query" pattern="search/*.xml">
         <map:generate src="../assets/queries/solr/{1}.xml" />
@@ -21,6 +29,15 @@
         </map:transform>
         <map:transform src="../kiln/stylesheets/solr/generate-query.xsl" />
         <map:transform type="xinclude" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Extract specific index information from an index metadata file. -->
+      <map:match id="local-index-extract" pattern="index/*/*.xml">
+        <map:generate src="../content/xml/indices/{1}.xml" />
+        <map:transform src="../stylesheets/tei/extract-index.xsl">
+          <map:parameter name="index-name" value="{2}" />
+        </map:transform>
         <map:serialize type="xml" />
       </map:match>
     </map:pipeline>

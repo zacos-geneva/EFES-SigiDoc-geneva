@@ -49,7 +49,7 @@
         <map:aggregate element="aggregation" label="content">
           <map:part src="cocoon://_internal/menu/main.xml" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/index.xsl" />
+        <map:transform src="cocoon://_internal/template/home.xsl" />
         <map:serialize />
       </map:match>
 
@@ -139,6 +139,18 @@
           <map:parameter name="verse-lines"
                          value="{global:epidoc-verse-lines}" />
         </map:transform>
+        <map:serialize />
+      </map:match>
+
+      <!-- Indices. -->
+      <map:match id="local-index-display-html" pattern="indices/*/*.html">
+        <map:aggregate element="aggregation" label="content">
+          <map:part src="cocoon://_internal/menu/main.xml?url=indices/{1}.html" />
+          <map:part src="cocoon://internal/search/index_query.xml?q={url-encode:{1}_{2}_index}" />
+          <map:part src="cocoon://_internal/request.xml" />
+          <map:part element="index_metadata" src="cocoon://internal/index/{1}/{2}.xml" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/index-{1}-{2}.xsl" />
         <map:serialize />
       </map:match>
 
