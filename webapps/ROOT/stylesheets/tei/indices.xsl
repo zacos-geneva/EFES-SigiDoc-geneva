@@ -18,20 +18,42 @@
   <xsl:template match="index_metadata" mode="head">
     <xsl:apply-templates select="tei:div/tei:head/node()" />
   </xsl:template>
+  
+  <xsl:template match="tei:div[@type='headings']/tei:list/tei:item">
+    <th scope="col">
+      <xsl:apply-templates/>
+    </th>
+  </xsl:template>
+  
+  <xsl:template match="tei:div[@type='headings']">
+    <thead>
+      <tr>
+        <xsl:apply-templates select="tei:list/tei:item"/>
+      </tr>
+    </thead>
+  </xsl:template>
 
   <xsl:template match="result/doc">
     <tr>
       <xsl:apply-templates select="str[@name='index_item_name']" />
+      <xsl:apply-templates select="str[@name='index_abbreviation_expansion']"/>
       <xsl:apply-templates select="arr[@name='index_instance_location']" />
     </tr>
   </xsl:template>
 
   <xsl:template match="response/result">
     <table class="index">
+      <xsl:apply-templates select="/aggregation/index_metadata/tei:div/tei:div[@type='headings']" />
       <tbody>
         <xsl:apply-templates select="doc" />
       </tbody>
     </table>
+  </xsl:template>
+
+  <xsl:template match="str[@name='index_abbreviation_expansion']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
   </xsl:template>
 
   <xsl:template match="str[@name='index_item_name']">

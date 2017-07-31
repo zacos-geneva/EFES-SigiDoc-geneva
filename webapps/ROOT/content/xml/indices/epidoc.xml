@@ -19,11 +19,32 @@
     <body>
       <div xml:id="symbol">
         <head>Symbols</head>
+        
 
         <div type="notes">
           <list>
             <item>
               <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+      
+      <div xml:id="abbreviation">
+        <head>Abbreviations</head>
+        
+        <div type="headings">
+          <list>
+            <item>Abbreviation</item>
+            <item>Expansion</item>
+            <item>References</item>
+          </list>
+        </div>
+        
+        <div type="notes">
+          <list>
+            <item>
+            <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
             </item>
           </list>
         </div>

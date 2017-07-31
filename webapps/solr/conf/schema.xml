@@ -151,6 +151,8 @@
           multiValued="false" required="false" type="string" />
    <field name="index_instance_location" stored="true" indexed="false"
           multiValued="true" required="false" type="string" />
+   <field name="index_abbreviation_expansion" stored="true" 
+     indexed="false" multiValued="false" required="false" type="string"/>
 
    <!-- catchall field, containing all other searchable text fields
         (implemented via copyField further on in this schema -->
