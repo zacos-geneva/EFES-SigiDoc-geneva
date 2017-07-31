@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Data on EpiDoc indices.</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>This is not published. This is a behind-the-scenes file for
+        the use of Kiln's processes that I have used TEI for to
+        satisfy those people who want all their XML to be TEI.</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Born digital document.</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <div xml:id="symbol">
+        <head>Symbols</head>
+
+        <div type="notes">
+          <list>
+            <item>
+              <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+            </item>
+          </list>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
