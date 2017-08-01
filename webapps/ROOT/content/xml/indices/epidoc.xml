@@ -3,12 +3,10 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Data on EpiDoc indices.</title>
+        <title>EpiDoc Indices</title>
       </titleStmt>
       <publicationStmt>
-        <p>This is not published. This is a behind-the-scenes file for
-        the use of Kiln's processes that I have used TEI for to
-        satisfy those people who want all their XML to be TEI.</p>
+        <p></p>
       </publicationStmt>
       <sourceDesc>
         <p>Born digital document.</p>
@@ -16,10 +14,14 @@
     </fileDesc>
   </teiHeader>
   <text>
+    <front>
+      <div>
+        <p>These indices are based on those included in the IOSPE project.</p>
+      </div>
+    </front>
     <body>
       <div xml:id="symbol">
         <head>Symbols</head>
-        
 
         <div type="notes">
           <list>
@@ -29,10 +31,10 @@
           </list>
         </div>
       </div>
-      
+
       <div xml:id="abbreviation">
         <head>Abbreviations</head>
-        
+
         <div type="headings">
           <list>
             <item>Abbreviation</item>
@@ -40,7 +42,7 @@
             <item>References</item>
           </list>
         </div>
-        
+
         <div type="notes">
           <list>
             <item>
