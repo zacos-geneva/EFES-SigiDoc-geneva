@@ -37,6 +37,7 @@
         <xsl:call-template name="field_mentioned_people" />
         <xsl:call-template name="field_mentioned_places" />
         <xsl:call-template name="field_origin_place" />
+        <xsl:call-template name="field_source_repository"/>
         <xsl:call-template name="field_support_object_type" />
         <xsl:call-template name="field_support_material" />
         <xsl:call-template name="extra_fields" />
@@ -109,7 +110,13 @@
       </field>
     </doc>
   </xsl:template>
-
+  
+  <xsl:template match="tei:repository[@ref]" mode="facet_source_repository">
+    <field name="source_repository">
+      <xsl:value-of select="@ref"/>
+    </field>
+  </xsl:template>
+  
   <xsl:template match="tei:material[@ref]" mode="facet_support_material">
     <field name="support_material">
       <xsl:value-of select="@ref" />
@@ -190,6 +197,10 @@
 
   <xsl:template name="field_origin_place">
     <xsl:apply-templates mode="facet_origin_place" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace[@ref]" />
+  </xsl:template>
+  
+  <xsl:template name="field_source_repository">
+    <xsl:apply-templates mode="facet_source_repository" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:repository[@ref]"/>
   </xsl:template>
 
   <xsl:template name="field_support_material">

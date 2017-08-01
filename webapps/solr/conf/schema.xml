@@ -147,6 +147,8 @@
           multiValued="true" stored="true" required="false" />
    <field name="mentioned_people" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
+   <field name="source_repository" type="string" required="false" 
+          multiValued="true" stored="true" indexed="true"/>
    <field name="index_item_name" stored="true" indexed="true"
           multiValued="false" required="false" type="string" />
    <field name="index_instance_location" stored="true" indexed="false"

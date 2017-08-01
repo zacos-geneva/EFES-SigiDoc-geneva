@@ -59,6 +59,20 @@
       <xsl:apply-templates />
     </so:Thing>
   </xsl:template>
+  
+  <xsl:template match="tei:org[@xml:id]">
+    <so:Organization>
+      <xsl:call-template name="add-rdf-about-uri"/>
+      <xsl:apply-templates/>
+    </so:Organization>
+  </xsl:template>
+  
+  <xsl:template match="tei:*[@xml:id]/tei:orgName">
+    <so:name>
+      <xsl:apply-templates select="@*"/>
+      <xsl:value-of select="."/>
+    </so:name>
+  </xsl:template>
 
   <xsl:template match="tei:person[@xml:id]/tei:persName">
     <foaf:name>
