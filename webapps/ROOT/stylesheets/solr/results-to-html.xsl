@@ -173,7 +173,11 @@
       <xsl:value-of select="." />
     </xsl:variable>
     <li>
-      <xsl:value-of select="replace(., '[^:]+:&quot;(.*)&quot;$', '$1')" />
+      <xsl:call-template name="display-facet-value">
+        <xsl:with-param name="facet-field" select="substring-before(., ':')" />
+        <xsl:with-param name="facet-value"
+                        select="replace(., '[^:]+:&quot;(.*)&quot;$', '$1')" />
+      </xsl:call-template>
       <xsl:text> (</xsl:text>
       <!-- Create a link to unapply the facet. -->
       <a>
@@ -188,6 +192,7 @@
   </xsl:template>
 
   <xsl:template name="display-selected-or-facet">
+    <xsl:variable name="facet-field" select="substring-before(., ':')" />
     <!-- Handle a context node consisting of one or more facet values
          joined by " OR " (eg, "date:(foo OR bar)"). -->
     <xsl:variable name="old-fq">
@@ -215,8 +220,11 @@
         </xsl:if>
       </xsl:variable>
       <li>
-      <!-- Display the facet name without the surrounding quotes. -->
-        <xsl:value-of select="substring(., 2, string-length(.)-2)" />
+        <xsl:call-template name="display-facet-value">
+          <xsl:with-param name="facet-field" select="$facet-field" />
+          <!-- Display the facet name without the surrounding quotes. -->
+          <xsl:with-param name="facet-value" select="substring(., 2, string-length(.)-2)" />
+        </xsl:call-template>
         <xsl:text> (</xsl:text>
         <!-- Create a link to unapply the facet. -->
         <a>
@@ -254,15 +262,10 @@
             <xsl:text>&amp;fq=</xsl:text>
             <xsl:value-of select="$fq" />
           </xsl:attribute>
-          <xsl:choose>
-            <xsl:when test="$facet-field = $rdf-facet-lookup-fields-sequence">
-              <xsl:variable name="rdf-uri" select="concat($base-uri, @name)" />
-              <xsl:value-of select="/aggregation/facet_names/rdf:RDF/rdf:Description[@rdf:about=$rdf-uri]/*[1]" />
-            </xsl:when>
-            <xsl:otherwise>
-              <xsl:value-of select="@name" />
-            </xsl:otherwise>
-          </xsl:choose>
+          <xsl:call-template name="display-facet-value">
+            <xsl:with-param name="facet-field" select="$facet-field" />
+            <xsl:with-param name="facet-value" select="@name" />
+          </xsl:call-template>
         </a>
         <xsl:call-template name="display-facet-count" />
       </li>
@@ -270,6 +273,7 @@
   </xsl:template>
 
   <xsl:template name="display-unselected-or-facet">
+    <xsl:variable name="facet-field" select="../@name" />
     <xsl:variable name="name">
       <xsl:text>{!tag=</xsl:text>
       <xsl:value-of select="../@name" />
@@ -307,7 +311,10 @@
               </xsl:otherwise>
             </xsl:choose>
           </xsl:attribute>
-          <xsl:value-of select="@name" />
+          <xsl:call-template name="display-facet-value">
+            <xsl:with-param name="facet-field" select="$facet-field" />
+            <xsl:with-param name="facet-value" select="@name" />
+          </xsl:call-template>
         </a>
         <xsl:call-template name="display-facet-count" />
       </li>
@@ -318,6 +325,25 @@
     <xsl:text> (</xsl:text>
     <xsl:value-of select="." />
     <xsl:text>)</xsl:text>
+  </xsl:template>
+
+  <xsl:template name="display-facet-value">
+    <xsl:param name="facet-field" />
+    <xsl:param name="facet-value" />
+    <xsl:choose>
+      <xsl:when test="$facet-field = $rdf-facet-lookup-fields-sequence">
+        <xsl:variable name="rdf-uri" select="concat($base-uri, $facet-value)" />
+        <!-- QAZ: Uses only the first rdf:Description matching
+             the $rdf-uri, due to the Sesame version not
+             including the fix for
+             https://github.com/eclipse/rdf4j/issues/742 (if an
+             inferencing repository is used) -->
+        <xsl:value-of select="/aggregation/facet_names/rdf:RDF/rdf:Description[@rdf:about=$rdf-uri][1]/*[1]" />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:value-of select="$facet-value" />
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:function name="kiln:string-replace" as="xs:string">
