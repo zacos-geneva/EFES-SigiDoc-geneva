@@ -16,7 +16,7 @@
     
     <xsl:template match="/">
         <add>
-            <xsl:for-each-group select="//tei:expan[ancestor::tei:div/@type='edition']" group-by="tei:abbr">
+            <xsl:for-each-group select="//tei:w[@lemma][ancestor::tei:div/@type='edition']" group-by="@lemma">
                 <doc>
                     <field name="document_type">
                         <xsl:value-of select="$subdirectory" />
@@ -30,10 +30,10 @@
                         <xsl:value-of select="$index_type" />
                     </field>
                     <field name="index_item_name">
-                        <xsl:value-of select="tei:abbr" />
+                        <xsl:value-of select="@lemma" />
                     </field>
-                    <field name="index_abbreviation_expansion">
-                        <xsl:value-of select="tei:ex"/>
+                    <field name="language_code">
+                        <xsl:value-of select="ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
                     </field>
                     <xsl:apply-templates select="current-group()" />
                 </doc>
@@ -41,7 +41,7 @@
         </add>
     </xsl:template>
     
-    <xsl:template match="tei:expan">
+    <xsl:template match="tei:w">
         <xsl:call-template name="field_index_instance_location" />
     </xsl:template>
     

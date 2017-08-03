@@ -155,6 +155,10 @@
           multiValued="true" required="false" type="string" />
    <field name="index_abbreviation_expansion" stored="true" 
      indexed="false" multiValued="false" required="false" type="string"/>
+   <field name="language_code" stored="true" indexed="true"
+     multiValued="true" required="false" type="string"/>
+   <field name="index_numeral_value" stored="true" indexed="false" 
+     multiValued="false" required="false" type="string"/>
 
    <!-- catchall field, containing all other searchable text fields
         (implemented via copyField further on in this schema -->

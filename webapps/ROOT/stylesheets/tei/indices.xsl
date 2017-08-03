@@ -37,6 +37,8 @@
     <tr>
       <xsl:apply-templates select="str[@name='index_item_name']" />
       <xsl:apply-templates select="str[@name='index_abbreviation_expansion']"/>
+      <xsl:apply-templates select="str[@name='index_numeral_value']"/>
+      <xsl:apply-templates select="arr[@name='language_code']"/>
       <xsl:apply-templates select="arr[@name='index_instance_location']" />
     </tr>
   </xsl:template>
@@ -65,12 +67,32 @@
   <xsl:template match="arr[@name='index_instance_location']">
     <td>
       <ul class="index-instances inline-list">
-        <xsl:apply-templates mode="instance_location" select="str" />
+        <xsl:apply-templates select="str" />
       </ul>
     </td>
   </xsl:template>
+  
+  <xsl:template match="str[@name='index_numeral_value']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="arr[@name='language_code']">
+    <td>
+      <ul class="inline-list">
+        <xsl:apply-templates select="str"/>
+      </ul>
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="arr[@name='language_code']/str">
+    <li>
+      <xsl:value-of select="."/>
+    </li>
+  </xsl:template>
 
-  <xsl:template match="str" mode="instance_location">
+  <xsl:template match="arr[@name='index_instance_location']/str">
     <!-- This template must be defined in the calling XSLT (eg,
          indices-epidoc.xsl) since the format of the location data is
          not universal. -->
