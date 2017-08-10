@@ -32,7 +32,7 @@ such a file is provided at ``webapps/solr/conf/solr.xml``.
 
 
 Static Build
-----------
+------------
 
 Kiln includes a task that allows to create a static version of the website. To execute it:
 
@@ -41,7 +41,7 @@ Kiln includes a task that allows to create a static version of the website. To e
 
 
 WAR Build (Web Application Archive)
-----------
+-----------------------------------
 
 Kiln includes a task that allows to create a Web Application Archive (for use with `Apache Tomcat`_, e.g.). To execute it:
 
