@@ -20,35 +20,18 @@
        the Solr query include an exclusion of the tag(s), as required
        for the particular query. This XSLT automatically assigns a tag
        named "<field name>Tag" to ORed facet fields, so that is the
-       scheme that should be followed. -->
+       scheme that should be followed.
+
+       For example, if the facet "author" is ORed, the query file
+       needs to be modified so that
+       "<facet.field>author</facet.field>" becomes
+       "<facet.field>{!ex=authorTag}author</facet.field>".
+
+  -->
+
+  <xsl:param name="root" select="/" />
 
   <xsl:include href="results-pagination.xsl" />
-
-  <!-- Using the XML from a request generator is much simpler than
-       using the value of {request:queryString}, because the former
-       provides unescaped values.
-
-       However, it is still useful at several junctions to have an
-       assembled string (including to disassemble it). -->
-  <xsl:variable name="query-string">
-    <xsl:for-each select="/aggregation/h:request/h:requestParameters/h:parameter/h:value">
-      <xsl:value-of select="../@name" />
-      <xsl:text>=</xsl:text>
-      <xsl:choose>
-        <xsl:when test="../@name='fq'">
-          <xsl:value-of select="substring-before(., ':')" />
-          <xsl:text>:</xsl:text>
-          <xsl:value-of select="encode-for-uri(substring-after(., ':'))" />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="." />
-        </xsl:otherwise>
-      </xsl:choose>
-      <xsl:if test="not(position() = last())">
-        <xsl:text>&amp;</xsl:text>
-      </xsl:if>
-    </xsl:for-each>
-  </xsl:variable>
 
   <!-- Split the list of Solr facet fields that need to be looked up
        in RDF for its labels into a sequence for easier querying. -->
@@ -170,7 +153,7 @@
       <!-- Match the fq parameter as it appears in the query
            string. -->
       <xsl:text>&amp;fq=</xsl:text>
-      <xsl:value-of select="." />
+      <xsl:value-of select="kiln:escape-query-string(.)" />
     </xsl:variable>
     <li>
       <xsl:call-template name="display-facet-value">
@@ -183,7 +166,7 @@
       <a>
         <xsl:attribute name="href">
           <xsl:text>?</xsl:text>
-          <xsl:value-of select="replace($query-string, $fq, '')" />
+          <xsl:value-of select="kiln:string-replace($query-string, $fq, '')" />
         </xsl:attribute>
         <xsl:text>x</xsl:text>
       </a>
@@ -199,7 +182,7 @@
       <!-- Match the fq parameter as it appears in the query
            string. -->
       <xsl:text>&amp;fq=</xsl:text>
-      <xsl:value-of select="." />
+      <xsl:value-of select="kiln:escape-query-string(.)" />
     </xsl:variable>
     <xsl:variable name="prefix" select="substring-before($old-fq, '(')" />
     <xsl:variable name="facets"
@@ -221,7 +204,8 @@
       </xsl:variable>
       <li>
         <xsl:call-template name="display-facet-value">
-          <xsl:with-param name="facet-field" select="$facet-field" />
+          <xsl:with-param name="facet-field"
+                          select="substring-after($facet-field, '}')" />
           <!-- Display the facet name without the surrounding quotes. -->
           <xsl:with-param name="facet-value" select="substring(., 2, string-length(.)-2)" />
         </xsl:call-template>
@@ -249,7 +233,7 @@
     <xsl:variable name="fq">
       <xsl:value-of select="$facet-field" />
       <xsl:text>:"</xsl:text>
-      <xsl:value-of select="encode-for-uri(@name)" />
+      <xsl:value-of select="@name" />
       <xsl:text>"</xsl:text>
     </xsl:variable>
     <!-- List a facet only if it is not selected. -->
@@ -260,7 +244,7 @@
             <xsl:text>?</xsl:text>
             <xsl:value-of select="$query-string" />
             <xsl:text>&amp;fq=</xsl:text>
-            <xsl:value-of select="$fq" />
+            <xsl:value-of select="kiln:escape-query-string($fq)" />
           </xsl:attribute>
           <xsl:call-template name="display-facet-value">
             <xsl:with-param name="facet-field" select="$facet-field" />
@@ -296,7 +280,7 @@
                 <xsl:text>&amp;fq=</xsl:text>
                 <xsl:value-of select="$name" />
                 <xsl:text>:("</xsl:text>
-                <xsl:value-of select="@name" />
+                <xsl:value-of select="kiln:escape-query-string(@name)" />
                 <xsl:text>")</xsl:text>
               </xsl:when>
               <xsl:otherwise>
@@ -307,7 +291,8 @@
                   <xsl:text>")</xsl:text>
                 </xsl:variable>
                 <xsl:value-of select="kiln:string-replace($query-string,
-                                      $old-fq, $new-fq)" />
+                                      kiln:escape-query-string($old-fq),
+                                      kiln:escape-query-string($new-fq))" />
               </xsl:otherwise>
             </xsl:choose>
           </xsl:attribute>
@@ -338,13 +323,36 @@
              including the fix for
              https://github.com/eclipse/rdf4j/issues/742 (if an
              inferencing repository is used) -->
-        <xsl:value-of select="/aggregation/facet_names/rdf:RDF/rdf:Description[@rdf:about=$rdf-uri][1]/*[1]" />
+        <xsl:value-of select="$root/aggregation/facet_names/rdf:RDF/rdf:Description[@rdf:about=$rdf-uri][1]/*[1]" />
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="$facet-value" />
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
+  <xsl:function name="kiln:escape-query-string" as="xs:string">
+    <!-- Escapes a string as required for handling as a query-string
+         (to match the escaping that was performed on
+         {request:queryString}). -->
+    <xsl:param name="input" as="xs:string" />
+    <xsl:variable name="parts">
+      <xsl:for-each select="tokenize(replace($input, '(.)', '$1\\n'), '\\n')">
+        <xsl:choose>
+          <xsl:when test=". = '&quot;'">
+            <xsl:text>%22</xsl:text>
+          </xsl:when>
+          <xsl:when test=". = '#'">
+            <xsl:text>%23</xsl:text>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="." />
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:value-of select="string-join($parts, '')" />
+  </xsl:function>
 
   <xsl:function name="kiln:string-replace" as="xs:string">
     <!-- Replaces the first occurrence of $replaced in $input with
