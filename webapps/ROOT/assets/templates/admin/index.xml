@@ -46,6 +46,11 @@
             <xsl:with-param name="directory" select="'authority'" />
             <xsl:with-param name="header" select="'Authority'" />
           </xsl:apply-templates>
+          <xsl:apply-templates mode="indices"
+                               select="/aggregation/dir:directory">
+            <xsl:with-param name="directory" select="'indices'" />
+            <xsl:with-param name="header" select="'Indices'" />
+          </xsl:apply-templates>
         </div>
       </div>
     </kiln:block>

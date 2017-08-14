@@ -17,7 +17,7 @@
 
       <!-- Indexing. -->
 
-      <!-- Index all TEI/Epidoc content in a single (user) request.
+      <!-- Index all TEI/EpiDoc content in a single (user) request.
 
            For efficiency reasons, delete the whole index first
            (obviously a bad idea if the index also contains material
@@ -34,6 +34,20 @@
           <map:part src="cocoon://_internal/menu/admin.xml?url=admin/solr/" />
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/admin/solr-index-all.xsl" />
+        <map:serialize />
+      </map:match>
+
+      <!-- Index all of the user-indices specified in an index file. -->
+      <map:match id="local-solr-index-indices" pattern="index/indices/*.html">
+        <map:aggregate element="aggregation" label="content">
+          <map:part element="delete" src="cocoon://_internal/solr/delete-by-file-path/indices/{1}.xml" />
+          <map:part src="cocoon:/add/indices/{1}/" />
+          <map:part element="optimize"
+                    src="cocoon://_internal/solr/optimize" />
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/admin/solr-index-indices.xsl">
+          <map:parameter name="file" value="{1}.xml" />
+        </map:transform>
         <map:serialize />
       </map:match>
 
@@ -95,10 +109,21 @@
         <map:serialize type="xml" />
       </map:match>
 
-      <!-- Adding TEI/EpiDoc indices. The first parameter is the
+      <map:match id="local-solr-add-indices" pattern="add/indices/*/">
+        <map:aggregate element="insert">
+          <map:part src="../content/xml/indices/{1}.xml" />
+        </map:aggregate>
+        <map:transform src="../stylesheets/solr/index-file-to-xincludes.xsl">
+          <map:parameter name="subdirectory" value="{1}" />
+        </map:transform>
+        <map:transform type="xinclude" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Adding TEI/EpiDoc index. The first parameter is the
            subdirectory of content/xml (tei, epidoc, etc) whose files
            are indexed. The second parameter is the index name. -->
-      <map:match id="local-solr-add-index" pattern="add/index/*/*.xml">
+      <map:match id="local-solr-add-index" pattern="add/indices/*/*.xml">
         <map:generate src="cocoon://_internal/dirlist/content/xml/{1}.xml" />
         <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
           <map:parameter name="prefix" value="cocoon://internal/{1}/preprocess/" />
