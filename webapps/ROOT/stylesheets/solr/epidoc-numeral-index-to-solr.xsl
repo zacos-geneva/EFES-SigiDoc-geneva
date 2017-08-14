@@ -23,11 +23,7 @@
             <xsl:value-of select="$index_type" />
             <xsl:text>_index</xsl:text>
           </field>
-          <field name="file_path">
-            <xsl:value-of select="$subdirectory" />
-            <xsl:text>/</xsl:text>
-            <xsl:value-of select="$index_type" />
-          </field>
+          <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
             <xsl:value-of select="." />
           </field>

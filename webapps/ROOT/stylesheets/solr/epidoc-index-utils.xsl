@@ -4,6 +4,17 @@
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+  <xsl:template name="field_file_path">
+    <!-- The file_path field for user indices should be the same for
+         all indices defined in the same index file, as they are all
+         indexed together and so existing entries need to be deleted
+         together. -->
+    <field name="file_path">
+      <xsl:text>indices/</xsl:text>
+      <xsl:value-of select="$subdirectory" />
+    </field>
+  </xsl:template>
+
   <xsl:template name="field_index_instance_location">
     <field name="index_instance_location">
       <!-- This field contains a combination of the following:
