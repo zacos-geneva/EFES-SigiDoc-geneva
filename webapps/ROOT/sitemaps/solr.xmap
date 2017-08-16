@@ -29,6 +29,7 @@
                     src="cocoon://_internal/solr/delete-all" />
           <map:part element="insert" src="cocoon:/add/tei/" />
           <map:part element="insert" src="cocoon:/add/epidoc/" />
+          <map:part element="insert" src="cocoon:/add/indices/" />
           <map:part element="optimize"
                     src="cocoon://_internal/solr/optimize" />
           <map:part src="cocoon://_internal/menu/admin.xml?url=admin/solr/" />
@@ -41,7 +42,7 @@
       <map:match id="local-solr-index-indices" pattern="index/indices/*.html">
         <map:aggregate element="aggregation" label="content">
           <map:part element="delete" src="cocoon://_internal/solr/delete-by-file-path/indices/{1}.xml" />
-          <map:part src="cocoon:/add/indices/{1}/" />
+          <map:part src="cocoon:/add/indices/{1}.xml" />
           <map:part element="optimize"
                     src="cocoon://_internal/solr/optimize" />
         </map:aggregate>
@@ -64,7 +65,18 @@
         <map:serialize />
       </map:match>
 
-      <!-- Adding all documents as XIncludes. -->
+      <!-- Adding all TEI/EpiDoc indices. -->
+      <map:match id="local-solr-add-all-indices" pattern="add/indices/">
+        <map:generate src="cocoon://_internal/dirlist/content/xml/indices.xml" />
+        <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
+          <map:parameter name="prefix" value="cocoon://admin/solr/add/indices/" />
+        </map:transform>
+        <map:transform type="xinclude" />
+        <map:transform src="../stylesheets/solr/simplify-all-indices-structure.xsl" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Adding all TEI/EpiDoc documents as XIncludes. -->
       <map:match id="local-solr-add-all" pattern="add/*/">
         <map:generate src="cocoon://_internal/dirlist/content/xml/{1}.xml" />
         <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
@@ -109,7 +121,9 @@
         <map:serialize type="xml" />
       </map:match>
 
-      <map:match id="local-solr-add-indices" pattern="add/indices/*/">
+      <!-- Adding TEI/EpiDoc indices from a single specified index
+           file. -->
+      <map:match id="local-solr-add-indices" pattern="add/indices/*.xml">
         <map:aggregate element="insert">
           <map:part src="../content/xml/indices/{1}.xml" />
         </map:aggregate>
