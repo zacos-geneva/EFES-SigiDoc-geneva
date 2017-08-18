@@ -4,6 +4,8 @@
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+  <xsl:param name="base-uri" />
+
   <xsl:template name="field_file_path">
     <!-- The file_path field for user indices should be the same for
          all indices defined in the same index file, as they are all

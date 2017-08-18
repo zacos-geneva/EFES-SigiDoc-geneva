@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet version="2.0"
                 xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -18,13 +19,13 @@
   <xsl:template match="index_metadata" mode="head">
     <xsl:apply-templates select="tei:div/tei:head/node()" />
   </xsl:template>
-  
+
   <xsl:template match="tei:div[@type='headings']/tei:list/tei:item">
     <th scope="col">
       <xsl:apply-templates/>
     </th>
   </xsl:template>
-  
+
   <xsl:template match="tei:div[@type='headings']">
     <thead>
       <tr>
@@ -54,13 +55,22 @@
 
   <xsl:template match="str[@name='index_abbreviation_expansion']">
     <td>
-      <xsl:value-of select="."/>
+      <xsl:value-of select="." />
     </td>
   </xsl:template>
 
   <xsl:template match="str[@name='index_item_name']">
     <th scope="row">
-      <xsl:value-of select="." />
+      <!-- Look up the value in the RDF names, in case it's there. -->
+      <xsl:variable name="rdf-name" select="/aggregation/index_names/rdf:RDF/rdf:Description[@rdf:about=current()][1]/*[1]" />
+      <xsl:choose>
+        <xsl:when test="normalize-space($rdf-name)">
+          <xsl:value-of select="$rdf-name" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="."/>
+        </xsl:otherwise>
+      </xsl:choose>
     </th>
   </xsl:template>
 
@@ -71,13 +81,13 @@
       </ul>
     </td>
   </xsl:template>
-  
+
   <xsl:template match="str[@name='index_numeral_value']">
     <td>
       <xsl:value-of select="."/>
     </td>
   </xsl:template>
-  
+
   <xsl:template match="arr[@name='language_code']">
     <td>
       <ul class="inline-list">
@@ -85,7 +95,7 @@
       </ul>
     </td>
   </xsl:template>
-  
+
   <xsl:template match="arr[@name='language_code']/str">
     <li>
       <xsl:value-of select="."/>
