@@ -30,7 +30,8 @@
     </table>
   </xsl:template>
 
-  <xsl:template match="/aggregation/dir:directory" mode="authority">
+  <xsl:template match="/aggregation/dir:directory" mode="authority"
+                priority="10">
     <xsl:param name="directory" />
     <xsl:param name="header" />
 
@@ -49,7 +50,8 @@
     </table>
   </xsl:template>
 
-  <xsl:template match="/aggregation/dir:directory" mode="indices">
+  <xsl:template match="/aggregation/dir:directory" mode="indices"
+                priority="10">
     <xsl:param name="directory" />
     <xsl:param name="header" />
 
