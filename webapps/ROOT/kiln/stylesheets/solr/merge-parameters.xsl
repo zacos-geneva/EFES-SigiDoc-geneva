@@ -44,6 +44,7 @@
       </xsl:variable>
       <xsl:apply-templates select="node()">
         <xsl:with-param name="query-string" select="$processed-query-string" />
+        <xsl:with-param name="q_fields" select="$q_fields" />
       </xsl:apply-templates>
       <xsl:copy-of select="$processed-query-string" />
     </xsl:copy>
@@ -51,12 +52,20 @@
 
   <xsl:template match="query/*">
     <xsl:param name="query-string" />
+    <xsl:param name="q_fields" />
     <xsl:variable name="field_name" select="local-name()" />
     <xsl:choose>
       <!-- If this is a default value, then do not include it if there
            is a query-string parameter with the same name, provided
            that query-string parameter has content. -->
       <xsl:when test="@type='default' and $query-string/*[local-name()=$field_name][normalize-space()]" />
+      <xsl:when test="$field_name = $q_fields">
+        <q>
+          <xsl:value-of select="$field_name" />
+          <xsl:text>:</xsl:text>
+          <xsl:apply-templates select="node()" />
+        </q>
+      </xsl:when>
       <xsl:otherwise>
         <xsl:copy>
           <xsl:apply-templates select="@*|node()" />
@@ -69,7 +78,14 @@
 
   <xsl:template match="q/@type[. = 'default']" />
 
-  <xsl:template match="@*|node()">
+  <xsl:template match="text()">
+    <xsl:call-template name="kiln:escape-value">
+      <xsl:with-param name="value" select="." />
+      <xsl:with-param name="url-escaped" select="0" />
+    </xsl:call-template>
+  </xsl:template>
+
+  <xsl:template match="@*|*">
     <xsl:copy>
       <xsl:apply-templates select="@*|node()" />
     </xsl:copy>

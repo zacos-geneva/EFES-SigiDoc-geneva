@@ -13,7 +13,7 @@
         <xsl:value-of select="replace($value, '%3A', '\\%3A')" />
       </xsl:when>
       <xsl:otherwise>
-        <xsl:value-of select="replace($value, ':', '\\:')" />
+        <xsl:value-of select="replace(replace($value, ':', '\\:'), ' ', '%20')" />
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>

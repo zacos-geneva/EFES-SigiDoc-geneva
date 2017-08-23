@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<query>
+<query q_fields="document_type">
   <df type="default">text</df>
   <q type="default">*</q>
+  <document_type>(tei or epidoc)</document_type>
   <facet>true</facet>
   <facet.field>author</facet.field>
   <facet.field>publication_date</facet.field>
