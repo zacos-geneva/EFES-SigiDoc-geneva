@@ -313,11 +313,13 @@ source document is just the menu, and the only transformation is
 applying the template. Your ``map:match`` should look something like the
 following (and very similar to the one for the home page)::
 
-   <map:match id="local-about" pattern="about.html">
+   <map:match id="local-about" pattern="*/about.html">
      <map:aggregate element="aggregation">
-       <map:part src="cocoon://_internal/menu/main.xml?url=about.html" />
+       <map:part src="cocoon://_internal/menu/main.xml?url={1}/about.html" />
      </map:aggregate>
-     <map:transform src="cocoon://_internal/template/about.xsl" />
+     <map:transform src="cocoon://_internal/template/about.xsl">
+       <map:parameter name="language" value="{1}" />
+     </map:transform>
      <map:serialize />
    </map:match>
 
@@ -410,13 +412,13 @@ Updating the menu
 
 In the ``map:match`` you created in ``main.xmap`` above, the
 aggregated source document consisted only of a call to a URL
-(``cocoon://_internal/menu/main.xml?url=about.htm``) to get a menu
+(``cocoon://_internal/menu/main.xml?url={1}/about.htm``) to get a menu
 document. In that URL, ``main.xml`` specifies the name of the menu
 file to use, which lives in ``webapps/ROOT/assets/menu/``. Let's edit
 that file to add in an entry for the new About page. This is easy to
 do by just inserting the following::
 
-   <menu href="about.html" label="About the project" />
+   <menu match="local-about" label="About the project" />
 
 Reload any of the pages of the site and you should now see the new
 menu item. Obviously this menu is still very simple, with no

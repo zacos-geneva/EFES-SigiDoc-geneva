@@ -99,10 +99,10 @@ position in the navigation structure highlighted.
 To achieve this, supply a querystring to the Cocoon URL with a ``url``
 parameter containing the URL to mark as active::
 
-    <map:match pattern="text/tei/**/*.html">
+    <map:match pattern="*/text/**/*.html">
       <map:aggregate element="aggregation">
-        <map:part label="tei" src="cocoon://internal/tei/preprocess/{1}.xml" />
-        <map:part src="cocoon://_internal/menu/main.xml?url=text/{1}/{2}.html" />
+        <map:part label="tei" src="cocoon://internal/tei/preprocess/{2}.xml" />
+        <map:part src="cocoon://_internal/menu/main.xml?url={1}/text/{2}/{3}.html" />
       </map:aggregate>
       ...
     </map:match>

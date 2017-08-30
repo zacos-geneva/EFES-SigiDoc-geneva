@@ -13,7 +13,7 @@ Quickstart
 #. Store project XML content in the folders
    ``KILN_HOME/webapps/ROOT/content/xml/tei`` (TEI) and
    ``KILN_HOME/webapps/ROOT/content/xml/epidoc`` (EpiDoc).
-#. View HTML versions of the XML at http://localhost:9999/text/<filename>.html (TEI) and http://localhost:9999/inscriptions/<filename>.html (EpiDoc) [filetype extensions not included in <filename>]
+#. View HTML versions of the XML at http://localhost:9999/en/text/<filename>.html (TEI) and http://localhost:9999/en/inscriptions/<filename>.html (EpiDoc) [filetype extensions not included in <filename>]
 #. Customise the templates, transformations and site URL
    structure. The example project in ``KILN_HOME/example`` provides
    some guidance on how this can be done.

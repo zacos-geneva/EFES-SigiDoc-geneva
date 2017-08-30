@@ -27,6 +27,9 @@ requires an extra step: adding a ``solr.xml`` file specifying a Tomcat
 Context to ``TOMCAT_HOME/conf/Catalina/localhost/``. An example of
 such a file is provided at ``webapps/solr/conf/solr.xml``.
 
+Further, there are good reasons to run a proxying web server in front
+of Tomcat, for caching, load balancing, and/or URL rewriting.
+
 .. _Jetty: http://www.eclipse.org/jetty/
 .. _Apache Tomcat: http://tomcat.apache.org/
 
