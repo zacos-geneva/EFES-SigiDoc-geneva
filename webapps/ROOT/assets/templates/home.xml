@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<kiln:root xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+<kiln:root xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
+           xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
            xmlns:xi="http://www.w3.org/2001/XInclude"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -9,13 +10,17 @@
 
   <kiln:child>
     <kiln:block name="title">
-      <xsl:text>Welcome to Kiln!</xsl:text>
+      <i18n:text>home-title</i18n:text>
     </kiln:block>
 
     <kiln:block name="page-header">
       <div class="row">
         <div class="large-12 columns text-center">
-          <h1><span class="round label">Welcome to Kiln!</span></h1>
+          <h1>
+            <span class="round label">
+              <i18n:text i18n:key="home-title">Welcome to Kiln!</i18n:text>
+            </span>
+          </h1>
         </div>
       </div>
     </kiln:block>
@@ -38,8 +43,8 @@
             webapps/ROOT/content/xml/epidoc (EpiDoc) and go to the <a
             href="{kiln:url-for-match('local-admin-home-page', (), 0)}">admin</a> and index them for searching. Then see how
             they are displayed (<a
-            href="{kiln:url-for-match('local-tei-index-display', (), 0)}">TEI</a> and <a
-            href="{kiln:url-for-match('local-epidoc-index-display', (), 0)}">EpiDoc</a>).</p>
+            href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">TEI</a> and <a
+            href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}">EpiDoc</a>).</p>
           </div>
         </div>
         <div class="large-4 columns">

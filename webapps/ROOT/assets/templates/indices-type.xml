@@ -29,7 +29,7 @@
           <ul>
             <xsl:for-each select="/aggregation/tei:TEI/tei:text/tei:body/tei:div">
               <li>
-                <a href="{kiln:url-for-match('local-index-display-html', ($index_type, @xml:id), 0)}">
+                <a href="{kiln:url-for-match('local-index-display-html', ($language, $index_type, @xml:id), 0)}">
                   <xsl:value-of select="tei:head" />
                 </a>
               </li>

@@ -46,86 +46,116 @@
     <map:pipeline type="noncaching">
       <!-- Home page (at /). -->
       <map:match id="local-home-page" pattern="">
+        <map:redirect-to uri="{global:default-display-language}/"
+                         permanent="no" />
+      </map:match>
+
+      <map:match id="local-language-home-page" pattern="*/">
         <map:aggregate element="aggregation" label="content">
-          <map:part src="cocoon://_internal/menu/main.xml" />
+          <map:part src="cocoon://_internal/menu/{1}/main.xml" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/home.xsl" />
+        <map:transform src="cocoon://_internal/template/home.xsl">
+          <map:parameter name="language" value="{1}" />
+        </map:transform>
+        <map:transform type="i18n">
+          <map:parameter name="locale" value="{1}" />
+        </map:transform>
         <map:serialize />
       </map:match>
 
       <!-- Search. -->
-      <map:match id="local-search" pattern="search/">
+      <map:match id="local-search" pattern="*/search/">
         <map:aggregate element="aggregation" label="content">
-          <map:part src="cocoon://_internal/menu/main.xml?url=search/" />
+          <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/search/" />
           <map:part src="cocoon://internal/search/facet_query.xml" />
           <map:part src="cocoon://_internal/request.xml" />
           <map:part element="facet_names" src="cocoon://admin/rdf/query/graph/facet_item_names.xml" />
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/search.xsl">
           <map:parameter name="base-uri" value="{global:rdf-base-uri}" />
+          <map:parameter name="language" value="{1}" />
           <map:parameter name="rdf-facet-lookup-fields"
                          value="{global:rdf-facet-lookup-fields}" />
           <map:parameter name="search-lemma" value="{global:search-lemma}" />
           <map:parameter name="query-string" value="{request:queryString}" />
         </map:transform>
+        <map:transform type="i18n">
+          <map:parameter name="locale" value="{1}" />
+        </map:transform>
         <map:serialize />
       </map:match>
 
       <!-- TEI texts. -->
-      <map:match id="local-tei-index-display" pattern="texts/">
+      <map:match id="local-tei-index-display" pattern="*/texts/">
         <map:aggregate element="aggregation" label="content">
           <map:part src="cocoon://internal/search/tei_metadata.xml?q=tei" />
-          <map:part src="cocoon://_internal/menu/main.xml?url=texts/" />
+          <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/texts/" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/text-index.xsl" />
+        <map:transform src="cocoon://_internal/template/text-index.xsl">
+          <map:parameter name="language" value="{1}" />
+        </map:transform>
+        <map:transform type="i18n">
+          <map:parameter name="locale" value="{1}" />
+        </map:transform>
         <map:serialize />
       </map:match>
 
-      <map:match id="local-tei-display-html" pattern="texts/**.html">
+      <map:match id="local-tei-display-html" pattern="*/texts/**.html">
         <map:aggregate element="aggregation" label="content">
-          <map:part label="tei" src="cocoon://internal/tei/preprocess/{1}.xml" />
-          <map:part src="cocoon://_internal/menu/main.xml?url=text/{1}.html" />
+          <map:part label="tei" src="cocoon://internal/tei/preprocess/{2}.xml" />
+          <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/texts/{2}.html" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/tei.xsl" />
+        <map:transform src="cocoon://_internal/template/tei.xsl">
+          <map:parameter name="language" value="{1}" />
+        </map:transform>
+        <map:transform type="i18n">
+          <map:parameter name="locale" value="{1}" />
+        </map:transform>
         <map:serialize />
       </map:match>
 
-      <map:match id="local-tei-display-xml" pattern="texts/**.xml">
+      <map:match id="local-tei-display-xml" pattern="*/texts/**.xml">
         <map:read mime-type="application/tei+xml"
                   src="../content/xml/tei/{1}.xml" />
       </map:match>
 
-      <map:match id="local-tei-display-pdf" pattern="texts/**.pdf">
-        <map:generate src="cocoon://internal/tei/preprocess/{1}/{2}.xml"
+      <map:match id="local-tei-display-pdf" pattern="*/texts/**.pdf">
+        <map:generate src="cocoon://internal/tei/preprocess/{2}.xml"
                       label="tei" />
         <map:transform src="cocoon://_internal/template/pdf.xsl" />
         <map:serialize type="fo2pdf" />
       </map:match>
 
-      <map:match id="local-tei-display-epub" pattern="texts/**.epub">
-        <map:generate src="cocoon://internal/tei/preprocess/{1}/{2}.xml"
+      <map:match id="local-tei-display-epub" pattern="*/texts/**.epub">
+        <map:generate src="cocoon://internal/tei/preprocess/{2}.xml"
                       label="tei" />
         <map:transform src="cocoon://_internal/template/epub.xsl" />
         <map:serialize type="xhtml" />
       </map:match>
 
       <!-- Epidoc texts. -->
-      <map:match id="local-epidoc-index-display" pattern="inscriptions/">
+      <map:match id="local-epidoc-index-display" pattern="*/inscriptions/">
         <map:aggregate element="aggregation">
           <map:part src="cocoon://internal/search/tei_metadata.xml?q=epidoc" />
-          <map:part src="cocoon://_internal/menu/main.xml?url=inscriptions/" />
+          <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/inscriptions/" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/inscription-index.xsl" />
+        <map:transform src="cocoon://_internal/template/inscription-index.xsl">
+          <map:parameter name="language" value="{1}" />
+        </map:transform>
+        <map:transform type="i18n">
+          <map:parameter name="locale" value="{1}" />
+        </map:transform>
         <map:serialize />
       </map:match>
 
       <map:match id="local-epidoc-display-html"
-                 pattern="inscriptions/**.html">
+                 pattern="*/inscriptions/**.html">
         <map:aggregate element="aggregation">
-          <map:part src="../content/xml/epidoc/{1}.xml" />
-          <map:part src="cocoon://_internal/menu/main.xml?url=inscriptions/{1}.html" />
+          <map:part src="../content/xml/epidoc/{2}.xml" />
+          <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/inscriptions/{2}.html" />
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/epidoc-{global:epidoc-edn-structure}.xsl">
+          <map:parameter name="language" value="{1}" />
           <map:parameter name="edition-type"
                          value="{global:epidoc-edition-type}" />
           <map:parameter name="edn-structure"
@@ -140,41 +170,41 @@
           <map:parameter name="verse-lines"
                          value="{global:epidoc-verse-lines}" />
         </map:transform>
-        <map:serialize />
-      </map:match>
-
-      <!-- Indices. -->
-      <map:match id="local-indices-type-display" pattern="indices/*/">
-        <map:aggregate element="aggregation" label="content">
-          <map:part src="cocoon://_internal/menu/main.xml?url=indices/{1}/" />
-          <map:part src="../content/xml/indices/{1}.xml" />
-        </map:aggregate>
-        <map:transform src="cocoon://_internal/template/indices-type.xsl">
-          <map:parameter name="index_type" value="{1}" />
+        <map:transform type="i18n">
+          <map:parameter name="locale" value="{1}" />
         </map:transform>
         <map:serialize />
       </map:match>
 
-      <map:match id="local-index-display-html" pattern="indices/*/*.html">
+      <!-- Indices. -->
+      <map:match id="local-indices-type-display" pattern="*/indices/*/">
         <map:aggregate element="aggregation" label="content">
-          <map:part src="cocoon://_internal/menu/main.xml?url=indices/{1}/{2}.html" />
-          <map:part src="cocoon://internal/search/index_query.xml?fq=document_type:{url-encode:{1}_{2}_index}" />
-          <map:part element="index_metadata" src="cocoon://internal/index/{1}/{2}.xml" />
-          <map:part element="index_names" src="cocoon://admin/rdf/query/graph/facet_item_names.xml" />
+          <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/indices/{2}/" />
+          <map:part src="../content/xml/indices/{2}.xml" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/index-{1}-{2}.xsl" />
+        <map:transform src="cocoon://_internal/template/indices-type.xsl">
+          <map:parameter name="index_type" value="{2}" />
+          <map:parameter name="language" value="{1}" />
+        </map:transform>
+        <map:transform type="i18n">
+          <map:parameter name="locale" value="{1}" />
+        </map:transform>
         <map:serialize />
       </map:match>
 
-      <!-- Example of providing content in more than one language. -->
-      <map:match id="local-generic-multilingual-html" pattern="*/**.html">
-        <!-- {1} is a language code. -->
+      <map:match id="local-index-display-html" pattern="*/indices/*/*.html">
         <map:aggregate element="aggregation" label="content">
-          <map:part src="cocoon://_internal/menu/{1}/{1}-main.xml?url={2}.html" />
-          <map:part src="cocoon://internal/tei/preprocess/{1}/{2}.xml"
-                    label="tei" />
+          <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/indices/{2}/{3}.html" />
+          <map:part src="cocoon://internal/search/index_query.xml?fq=document_type:{url-encode:{1}_{2}_index}" />
+          <map:part element="index_metadata" src="cocoon://internal/index/{2}/{3}.xml" />
+          <map:part element="index_names" src="cocoon://admin/rdf/query/graph/facet_item_names.xml" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/tei.xsl" />
+        <map:transform src="cocoon://_internal/template/index-{2}-{3}.xsl">
+          <map:parameter name="language" value="{1}" />
+        </map:transform>
+        <map:transform type="i18n">
+          <map:parameter name="locale" value="{1}" />
+        </map:transform>
         <map:serialize />
       </map:match>
     </map:pipeline>

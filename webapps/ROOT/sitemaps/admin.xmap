@@ -30,7 +30,9 @@
           <map:part src="cocoon://_internal/dirlist/content/xml.xml" />
           <map:part src="cocoon://_internal/menu/admin.xml?url=admin/" />
         </map:aggregate>
-        <map:transform src="cocoon://_internal/template/admin/index.xsl" />
+        <map:transform src="cocoon://_internal/template/admin/index.xsl">
+          <map:parameter name="language" value="{global:default-display-language}" />
+        </map:transform>
         <map:serialize />
       </map:match>
 

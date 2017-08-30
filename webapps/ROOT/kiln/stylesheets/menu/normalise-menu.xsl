@@ -37,7 +37,7 @@
 
   <xsl:template match="@match">
     <xsl:attribute name="href">
-      <xsl:value-of select="kiln:url-for-match(., tokenize(../@params, '\s+'), 0)" />
+      <xsl:value-of select="kiln:url-for-match(., tokenize(concat($language, ' ', ../@params), '\s+'), 0)" />
     </xsl:attribute>
   </xsl:template>
 

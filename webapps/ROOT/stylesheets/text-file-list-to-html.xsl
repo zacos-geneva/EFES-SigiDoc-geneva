@@ -42,7 +42,7 @@
   <xsl:template match="str[@name='file_path']" mode="text-index">
     <xsl:variable name="filename" select="substring-after(., '/')" />
     <td>
-      <a href="{kiln:url-for-match($match_id, ($filename), 0)}">
+      <a href="{kiln:url-for-match($match_id, ($language, $filename), 0)}">
         <xsl:value-of select="$filename" />
       </a>
     </td>

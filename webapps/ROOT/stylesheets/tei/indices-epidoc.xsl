@@ -41,7 +41,7 @@
       <xsl:text>-display-html</xsl:text>
     </xsl:variable>
     <li>
-      <a href="{kiln:url-for-match($match_id, ($location_parts[2]), 0)}">
+      <a href="{kiln:url-for-match($match_id, ($language, $location_parts[2]), 0)}">
         <xsl:if test="$location_parts[5] = '1'">
           <xsl:text>[</xsl:text>
         </xsl:if>

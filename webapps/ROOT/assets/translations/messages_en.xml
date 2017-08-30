@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Example format for catalogue files. -->
+<catalogue xml:lang="en">
+  <message key="menu-texts">Texts</message>
+  <message key="menu-inscriptions">Inscriptions</message>
+  <message key="menu-search">Search</message>
+  <message key="menu-admin">Admin</message>
+  <message key="home-title">Welcome to Kiln!</message>
+</catalogue>

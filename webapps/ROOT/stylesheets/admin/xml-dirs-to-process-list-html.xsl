@@ -135,7 +135,12 @@
         </a>
       </td>
       <td></td>
-      <td></td>
+      <td>
+        <a href="{kiln:url-for-match('local-epidoc-display-html',
+                 ($language, $short-filepath), 0)}">
+          <xsl:text>View</xsl:text>
+        </a>
+      </td>
     </tr>
   </xsl:template>
 
@@ -208,7 +213,7 @@
       <!-- View on site. -->
       <td>
         <a href="{kiln:url-for-match('local-tei-display-html',
-                 ($short-filepath), 0)}">
+                 ($language, $short-filepath), 0)}">
           <xsl:text>View</xsl:text>
         </a>
       </td>

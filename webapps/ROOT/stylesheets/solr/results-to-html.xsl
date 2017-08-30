@@ -3,7 +3,6 @@
                 xmlns:h="http://apache.org/cocoon/request/2.0"
                 xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-                xmlns:so="http://schema.org/"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
@@ -92,10 +91,10 @@
     <xsl:variable name="result-url">
       <xsl:choose>
         <xsl:when test="$document-type = 'tei'">
-          <xsl:value-of select="kiln:url-for-match('local-tei-display-html', ($short-filepath), 0)" />
+          <xsl:value-of select="kiln:url-for-match('local-tei-display-html', ($language, $short-filepath), 0)" />
         </xsl:when>
         <xsl:when test="$document-type = 'epidoc'">
-          <xsl:value-of select="kiln:url-for-match('local-epidoc-display-html', ($short-filepath), 0)" />
+          <xsl:value-of select="kiln:url-for-match('local-epidoc-display-html', ($language, $short-filepath), 0)" />
         </xsl:when>
       </xsl:choose>
     </xsl:variable>
