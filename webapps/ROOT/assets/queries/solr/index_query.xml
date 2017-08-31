@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <query>
-  <q>*:*</q>
+  <q>*</q>
+  <df>index_item_name</df>
   <rows>20000</rows>
 </query>
