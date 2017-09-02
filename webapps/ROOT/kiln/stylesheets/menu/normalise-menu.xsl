@@ -36,8 +36,21 @@
   </xsl:template>
 
   <xsl:template match="@match">
+    <!-- Use the language code in @language if present; otherwise, the
+         language supplied to the XSLT. This allows for a menu item to
+         reference a URL in a different language. -->
+    <xsl:variable name="language-code">
+      <xsl:choose>
+        <xsl:when test="../@language">
+          <xsl:value-of select="../@language" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="$language" />
+        </xsl:otherwise>
+      </xsl:choose>
+    </xsl:variable>
     <xsl:attribute name="href">
-      <xsl:value-of select="kiln:url-for-match(., tokenize(concat($language, ' ', ../@params), '\s+'), 0)" />
+      <xsl:value-of select="kiln:url-for-match(., tokenize(normalize-space(concat($language-code, ' ', ../@params)), '\s+'), 0)" />
     </xsl:attribute>
   </xsl:template>
 

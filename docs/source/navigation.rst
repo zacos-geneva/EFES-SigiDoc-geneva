@@ -102,7 +102,7 @@ parameter containing the URL to mark as active::
     <map:match pattern="*/text/**/*.html">
       <map:aggregate element="aggregation">
         <map:part label="tei" src="cocoon://internal/tei/preprocess/{2}.xml" />
-        <map:part src="cocoon://_internal/menu/main.xml?url={1}/text/{2}/{3}.html" />
+        <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/text/{2}/{3}.html" />
       </map:aggregate>
       ...
     </map:match>
@@ -116,3 +116,39 @@ The supplied URL should be root relative, but *without* the initial
 Note that it does not matter what the URL of the request is; the menu
 uses only the URL explicitly passed to it. This allows for the same
 menu item to be marked as active for a multitude of URLs.
+
+
+Translation and switching languages
+-----------------------------------
+
+To supply a key for looking up the translation of a menu item's label,
+add an ``i18n:key`` attribute to the item; translated strings are
+supplied as usual in ``assets/translations/messages_<language
+code>.xml``.
+
+Menu items, by default, link within the current language context. In
+order to have menu items that switch language context (ie, to point to
+a URL with a different language code as the first part of the path),
+supply a ``language`` attribute to the menu item, whose value is the
+language code the link should point to::
+
+  <item label="Search" language="fr" match="local-search" i18n:key="menu-search" />
+
+Unfortunately it is not possible to have the processor translate such
+items into the language of the destination. One workaround is to
+provide a key that, in each possible context language, provides the
+label in the language of the destination.
+
+For linking to non-public URLs that do not have a language parameter
+(such as admin URLs), supply an empty language attribute.
+
+For menus that are used in no language context (such as the admin's
+menu), the ``map:match`` should reference the menu pipeline that takes
+no language code::
+
+  <map:match pattern="admin/*.html">
+    <map:aggregate element="aggregation">
+      <map:part src="cocoon://_internal/menu/admin.xml?url=admin/{1}.html" />
+    </map:aggregate>
+    ...
+  </map:match>

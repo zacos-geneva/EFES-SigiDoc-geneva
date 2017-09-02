@@ -6,5 +6,5 @@
   <menu label="Inscriptions" match="local-epidoc-index-display"
         i18n:key="menu-inscriptions" />
   <menu label="Search" match="local-search" i18n:key="menu-search" />
-  <menu label="Admin" match="local-admin-home-page" i18n:key="menu-admin" />
+  <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />
 </root>
