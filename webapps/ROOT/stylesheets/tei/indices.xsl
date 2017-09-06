@@ -62,7 +62,7 @@
   <xsl:template match="str[@name='index_item_name']">
     <th scope="row">
       <!-- Look up the value in the RDF names, in case it's there. -->
-      <xsl:variable name="rdf-name" select="/aggregation/index_names/rdf:RDF/rdf:Description[@rdf:about=current()][1]/*[1]" />
+      <xsl:variable name="rdf-name" select="/aggregation/index_names/rdf:RDF/rdf:Description[@rdf:about=current()][1]/*[@xml:lang=$language][1]" />
       <xsl:choose>
         <xsl:when test="normalize-space($rdf-name)">
           <xsl:value-of select="$rdf-name" />
