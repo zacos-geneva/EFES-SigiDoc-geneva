@@ -29,7 +29,7 @@
                         <xsl:value-of select="tei:abbr" />
                     </field>
                     <field name="index_abbreviation_expansion">
-                        <xsl:value-of select="tei:ex"/>
+                        <xsl:value-of select="."/>
                     </field>
                     <xsl:apply-templates select="current-group()" />
                 </doc>
