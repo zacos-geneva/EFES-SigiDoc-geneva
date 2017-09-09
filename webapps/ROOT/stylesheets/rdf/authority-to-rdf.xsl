@@ -124,7 +124,7 @@
 
   <xsl:template name="create-ontology">
     <owl:Class rdf:about="{$foaf_ns}name">
-      <owl:sameAs rdf:resource="{$so_ns}name" />
+      <rdfs:subClassOf rdf:resource="{$so_ns}name" />
     </owl:Class>
     <owl:Class rdf:about="{$gn_ns}alternateName">
       <rdfs:subClassOf rdf:resource="{$so_ns}name" />
