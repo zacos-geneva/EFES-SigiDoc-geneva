@@ -15,12 +15,6 @@
   <xsl:param name="default-line-inc"/>
   <xsl:param name="default-verse-lines"/>
 
-  <xsl:template match="@*|node()">
-    <xsl:copy>
-      <xsl:apply-templates select="@*|node()"/>
-    </xsl:copy>
-  </xsl:template>
-
   <xsl:template match="/">
     <xsl:variable name="edition-type">
       <xsl:call-template name="merge-parameter">
