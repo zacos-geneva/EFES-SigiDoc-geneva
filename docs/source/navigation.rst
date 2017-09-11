@@ -132,12 +132,7 @@ a URL with a different language code as the first part of the path),
 supply a ``language`` attribute to the menu item, whose value is the
 language code the link should point to::
 
-  <item label="Search" language="fr" match="local-search" i18n:key="menu-search" />
-
-Unfortunately it is not possible to have the processor translate such
-items into the language of the destination. One workaround is to
-provide a key that, in each possible context language, provides the
-label in the language of the destination.
+  <item label="Recherche" language="fr" match="local-search" />
 
 For linking to non-public URLs that do not have a language parameter
 (such as admin URLs), supply an empty language attribute.
