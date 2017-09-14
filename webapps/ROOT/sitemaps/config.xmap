@@ -42,6 +42,7 @@
           <catalogue id="messages" name="messages"
                      location="../assets/translations" />
         </catalogues>
+        <untranslated-text>*untranslated*</untranslated-text>
       </map:transformer>
     </map:transformers>
   </map:components>
