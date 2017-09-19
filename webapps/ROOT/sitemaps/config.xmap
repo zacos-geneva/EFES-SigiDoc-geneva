@@ -77,7 +77,8 @@
              setting does not influence what gets indexed, only the
              search UI. -->
         <search-lemma>1</search-lemma>
-        <!-- Epidoc-related variables. -->
+        <!-- Epidoc-related variables. Supported values are documented
+             in webapps/ROOT/kiln/stylesheets/epidoc/README.txt. -->
         <epidoc-edition-type>interpretive</epidoc-edition-type>
         <epidoc-edn-structure>default</epidoc-edn-structure>
         <epidoc-external-app-style>iospe</epidoc-external-app-style>
