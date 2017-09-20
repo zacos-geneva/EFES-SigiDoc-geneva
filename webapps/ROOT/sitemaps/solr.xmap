@@ -140,7 +140,7 @@
       <map:match id="local-solr-add-index" pattern="add/indices/*/*.xml">
         <map:generate src="cocoon://_internal/dirlist/content/xml/{1}.xml" />
         <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
-          <map:parameter name="prefix" value="cocoon://internal/{1}/preprocess/" />
+          <map:parameter name="prefix" value="cocoon://internal/{1}/preprocess/no-language/" />
         </map:transform>
         <map:transform type="xinclude" />
         <map:transform src="../stylesheets/solr/{1}-{2}-index-to-solr.xsl">

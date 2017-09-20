@@ -4,9 +4,12 @@
   <map:pipelines>
     <map:pipeline internal-only="true">
       <!-- Process a TEI document prior to its use in another
-           pipeline, normalising and annotating it as required. -->
-      <map:match id="local-preprocess-tei"
-                 pattern="tei/preprocess/**.xml">
+           pipeline, normalising and annotating it as required.
+
+           This processing is not in a language context (such as
+           indexing). -->
+      <map:match id="local-preprocess-tei-no-language"
+                 pattern="tei/preprocess/no-language/**.xml">
         <map:generate src="../content/xml/tei/{1}.xml" />
         <map:transform src="../kiln/stylesheets/tei/join-elements.xsl" />
         <map:transform src="../kiln/stylesheets/tei/annotate.xsl" />
@@ -14,18 +17,45 @@
       </map:match>
 
       <!-- Process an EpiDoc document prior to its use in another
-           pipeline, normalising and annotating it as required. -->
-      <map:match id="local-preprocess-epidoc"
-                 pattern="epidoc/preprocess/**.xml">
+           pipeline, normalising and annotating it as required.
+
+           This processing is not in a language context (such as
+           indexing). -->
+      <map:match id="local-preprocess-epidoc-no-language"
+                 pattern="epidoc/preprocess/no-language/**.xml">
         <map:generate src="../content/xml/epidoc/{1}.xml" />
         <map:serialize type="xml" />
       </map:match>
-      
-      <!-- Transform an EpiDoc document into an HTML fragment 
-        according to parameters supplied in the URL. -->
+
+      <!-- Process a TEI document prior to its use in another
+           pipeline, normalising and annotating it as required.
+
+           This processing is in a language context (such as front-end
+           display). -->
+      <map:match id="local-preprocess-tei-language"
+                 pattern="tei/preprocess/language/*/**.xml">
+        <map:generate src="../content/xml/tei/{2}.xml" />
+        <map:transform src="../kiln/stylesheets/tei/join-elements.xsl" />
+        <map:transform src="../kiln/stylesheets/tei/annotate.xsl" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Process an EpiDoc document prior to its use in another
+           pipeline, normalising and annotating it as required.
+
+           This processing is in a language context (such as front-end
+           display). -->
+      <map:match id="local-preprocess-epidoc-language"
+                 pattern="epidoc/preprocess/language/*/**.xml">
+        <map:generate src="../content/xml/epidoc/{2}.xml" />
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Transform an EpiDoc document into an HTML fragment
+           according to parameters supplied in the URL. -->
       <map:match id="local-epidoc-custom-html" pattern="epidoc/custom/**.html">
         <map:aggregate element="aggregation">
-          <map:part  src="../content/xml/epidoc/{1}.xml"/>
+          <map:part src="../content/xml/epidoc/{1}.xml"/>
           <map:part src="cocoon://_internal/request.xml"/>
         </map:aggregate>
         <map:transform src="../stylesheets/epidoc/to-html.xsl">

@@ -102,7 +102,7 @@
 
       <map:match id="local-tei-display-html" pattern="*/texts/**.html">
         <map:aggregate element="aggregation" label="content">
-          <map:part label="tei" src="cocoon://internal/tei/preprocess/{2}.xml" />
+          <map:part label="tei" src="cocoon://internal/tei/preprocess/language/{1}/{2}.xml" />
           <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/texts/{2}.html" />
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/tei.xsl">
@@ -120,14 +120,14 @@
       </map:match>
 
       <map:match id="local-tei-display-pdf" pattern="*/texts/**.pdf">
-        <map:generate src="cocoon://internal/tei/preprocess/{2}.xml"
+        <map:generate src="cocoon://internal/tei/preprocess/language/{1}/{2}.xml"
                       label="tei" />
         <map:transform src="cocoon://_internal/template/pdf.xsl" />
         <map:serialize type="fo2pdf" />
       </map:match>
 
       <map:match id="local-tei-display-epub" pattern="*/texts/**.epub">
-        <map:generate src="cocoon://internal/tei/preprocess/{2}.xml"
+        <map:generate src="cocoon://internal/tei/preprocess/language/{1}/{2}.xml"
                       label="tei" />
         <map:transform src="cocoon://_internal/template/epub.xsl" />
         <map:serialize type="xhtml" />
@@ -151,7 +151,7 @@
       <map:match id="local-epidoc-display-html"
                  pattern="*/inscriptions/**.html">
         <map:aggregate element="aggregation">
-          <map:part src="../content/xml/epidoc/{2}.xml" />
+          <map:part src="cocoon://internal/epidoc/preprocess/language/{1}/{2}.xml" />
           <map:part src="cocoon://_internal/menu/{1}/main.xml?url={1}/inscriptions/{2}.html" />
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/epidoc-{global:epidoc-edn-structure}.xsl">
