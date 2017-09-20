@@ -81,8 +81,8 @@ things must be done:
   filename should be ``<dir>-to-solr.xsl``, where <dir> is the name of
   the directory under ``content/xml`` containing the documents.
 * Add an appropriate condition path added to the ``xsl:choose`` in
-``stylesheets/solr/results-to-html.xsl`` in the template for
-``result/doc`` in the ``search-results`` mode.
+  ``stylesheets/solr/results-to-html.xsl`` in the template for
+  ``result/doc`` in the ``search-results`` mode.
 
 Upgrading Solr
 --------------
