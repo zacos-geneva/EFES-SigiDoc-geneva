@@ -53,25 +53,27 @@
 
       <!-- Transform an EpiDoc document into an HTML fragment
            according to parameters supplied in the URL. -->
-      <map:match id="local-epidoc-custom-html" pattern="*/epidoc/custom/**.html">
+      <map:match id="local-epidoc-custom-html"
+                 pattern="epidoc/custom/*/**.html">
         <map:aggregate element="aggregation">
           <map:part src="cocoon://internal/epidoc/preprocess/language/{1}/{2}.xml"/>
           <map:part src="cocoon://_internal/request.xml"/>
         </map:aggregate>
         <map:transform src="../stylesheets/epidoc/to-html.xsl">
           <map:parameter name="default-edition-type"
-            value="{global:epidoc-edition-type}" />
+                         value="{global:epidoc-edition-type}" />
           <map:parameter name="default-edn-structure"
-            value="{global:epidoc-edn-structure}" />
+                         value="{global:epidoc-edn-structure}" />
           <map:parameter name="default-external-app-style"
-            value="{global:epidoc-external-app-style}" />
+                         value="{global:epidoc-external-app-style}" />
           <map:parameter name="default-internal-app-style"
-            value="{global:epidoc-internal-app-style}" />
+                         value="{global:epidoc-internal-app-style}" />
           <map:parameter name="default-leiden-style"
-            value="{global:epidoc-leiden-style}" />
-          <map:parameter name="default-line-inc" value="{global:epidoc-line-inc}" />
+                         value="{global:epidoc-leiden-style}" />
+          <map:parameter name="default-line-inc"
+                         value="{global:epidoc-line-inc}" />
           <map:parameter name="default-verse-lines"
-            value="{global:epidoc-verse-lines}" />
+                         value="{global:epidoc-verse-lines}" />
         </map:transform>
         <map:serialize type="xml"/>
       </map:match>
