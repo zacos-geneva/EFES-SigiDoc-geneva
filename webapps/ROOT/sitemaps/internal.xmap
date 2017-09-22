@@ -53,9 +53,9 @@
 
       <!-- Transform an EpiDoc document into an HTML fragment
            according to parameters supplied in the URL. -->
-      <map:match id="local-epidoc-custom-html" pattern="epidoc/custom/**.html">
+      <map:match id="local-epidoc-custom-html" pattern="*/epidoc/custom/**.html">
         <map:aggregate element="aggregation">
-          <map:part src="../content/xml/epidoc/{1}.xml"/>
+          <map:part src="cocoon://internal/epidoc/preprocess/language/{1}/{2}.xml"/>
           <map:part src="cocoon://_internal/request.xml"/>
         </map:aggregate>
         <map:transform src="../stylesheets/epidoc/to-html.xsl">
