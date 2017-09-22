@@ -322,7 +322,15 @@
              including the fix for
              https://github.com/eclipse/rdf4j/issues/742 (if an
              inferencing repository is used). -->
-        <xsl:value-of select="$root/aggregation/facet_names/rdf:RDF/rdf:Description[@rdf:about=$rdf-uri][1]/*[@xml:lang=$language][1]" />
+        <xsl:variable name="rdf-name" select="$root/aggregation/facet_names/rdf:RDF/rdf:Description[@rdf:about=$rdf-uri][1]/*[@xml:lang=$language][1]" />
+        <xsl:choose>
+          <xsl:when test="normalize-space($rdf-name)">
+            <xsl:value-of select="$rdf-name" />
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="$facet-value" />
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="$facet-value" />
