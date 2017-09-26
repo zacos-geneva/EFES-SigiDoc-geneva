@@ -89,7 +89,20 @@
        <p><b>Edition:</b></p>
        <!-- Edited text output -->
        <xsl:variable name="edtxt">
-         <xsl:apply-templates select="//t:div[@type='edition']"/>
+         <xsl:apply-templates select="//t:div[@type='edition']">
+           <xsl:with-param name="parm-edition-type" select="'interpretive'" tunnel="yes"/>
+         </xsl:apply-templates>
+       </xsl:variable>
+       <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
+       <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
+     </div>
+     <div id="diplomatic">
+       <p><b>Diplomatic:</b></p>
+       <!-- Edited text output -->
+       <xsl:variable name="edtxt">
+         <xsl:apply-templates select="//t:div[@type='edition']">
+           <xsl:with-param name="parm-edition-type" select="'diplomatic'" tunnel="yes"/>
+         </xsl:apply-templates>
        </xsl:variable>
        <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
        <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
