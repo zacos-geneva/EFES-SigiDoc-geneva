@@ -3,4 +3,5 @@
   <q>*</q>
   <df>index_item_name</df>
   <rows>20000</rows>
+  <sort ordering="asc">index_item_name</sort>
 </query>
