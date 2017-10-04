@@ -30,8 +30,8 @@
        source document is retained. To produce a query that sorts on
        the fields "score" (descending) and "price" (ascending), use:
 
-          <sort @ordering="desc">score</sort>
-          <sort @ordering="asc">price</sort>
+          <sort ordering="desc">score</sort>
+          <sort ordering="asc">price</sort>
 
        Alternatively, the value of a single "sort" element may contain
        the whole string in the required format:
