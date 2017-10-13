@@ -55,6 +55,9 @@
     </li>
   </xsl:template>
 
+  <xsl:template match="kiln:item[@delete='delete'] |
+                       kiln:menu[@delete='delete']" mode="#all" />
+
   <xsl:template match="kiln:menu" mode="breadcrumbs">
     <li>
       <a href="{@href}">

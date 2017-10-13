@@ -87,6 +87,9 @@ delimited) in the ``@params`` attribute. For example::
     </menu>
   </root>
 
+This method is greatly preferable to using ``@href`` for links within
+Kiln.
+
 
 Marking the active item
 -----------------------
@@ -133,6 +136,11 @@ supply a ``language`` attribute to the menu item, whose value is the
 language code the link should point to::
 
   <item label="Recherche" language="fr" match="local-search" />
+
+To link to the same URL only with a different language, use the
+``language_switch`` attribute to specify the new language code::
+
+  <item label="English" switch_language="en" />
 
 For linking to non-public URLs that do not have a language parameter
 (such as admin URLs), supply an empty language attribute.

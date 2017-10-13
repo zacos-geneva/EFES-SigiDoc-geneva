@@ -58,6 +58,7 @@
         <map:generate src="../../assets/menu/{2}.xml" />
         <map:transform src="../stylesheets/menu/normalise-menu.xsl">
           <map:parameter name="language" value="{1}" />
+          <map:parameter name="url" value="{request-param:url}" />
         </map:transform>
         <map:transform src="../stylesheets/menu/contextualise-menu.xsl">
           <map:parameter name="url" value="{request-param:url}" />

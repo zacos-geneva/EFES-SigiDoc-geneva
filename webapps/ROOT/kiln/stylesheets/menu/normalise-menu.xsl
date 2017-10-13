@@ -9,7 +9,10 @@
 
   <xsl:import href="cocoon://_internal/url/reverse.xsl" />
 
-  <xsl:template match="kiln:menu[not(@href)][not(@match)][not(kiln:external)]">
+  <xsl:param name="url" />
+  <xsl:variable name="full-url" select="concat('/', $url)" />
+
+  <xsl:template match="kiln:menu[not(@href)][not(@match)][not(@language_switch)]">
     <xsl:copy>
       <xsl:apply-templates select="@*"/>
       <xsl:call-template name="make-full-href">
@@ -31,6 +34,32 @@
         <xsl:call-template name="make-full-href">
           <xsl:with-param name="attribute" select="."/>
         </xsl:call-template>
+      </xsl:otherwise>
+    </xsl:choose>
+  </xsl:template>
+
+  <!-- Link target is the current URL with a different language
+       code. Rather than be always correct but slow (by using
+       introspection to look up the current URL to get the map:match
+       ID and the path variables), just assume that the language code
+       appears once and perform string manipulation on the current
+       URL. -->
+  <xsl:template match="@language_switch">
+    <xsl:variable name="url-start"
+                  select="substring-before($full-url,
+                                           concat('/', $language, '/'))" />
+    <xsl:choose>
+      <xsl:when test=". = $language">
+        <xsl:attribute name="delete" select="'delete'" />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:attribute name="href">
+          <xsl:text>/</xsl:text>
+          <xsl:value-of select="$url-start" />
+          <xsl:value-of select="." />
+          <xsl:value-of select="substring-after($full-url,
+                                concat($url-start, '/', $language))" />
+        </xsl:attribute>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
