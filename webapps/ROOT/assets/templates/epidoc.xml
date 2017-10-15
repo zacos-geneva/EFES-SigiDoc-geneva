@@ -13,7 +13,7 @@
   <xsl:param name="verse-lines" />
 
   <!-- Imports stylesheet to convert TEI into HTML. -->
-  <xsl:import href="cocoon://_internal/template/xsl/kiln/stylesheets/epidoc/start-edition.xsl" />
+  <xsl:import href="cocoon://_internal/template/xsl/stylesheets/epidoc/start-edition.xsl" />
 
   <kiln:parent>
     <xi:include href="base.xml" />
