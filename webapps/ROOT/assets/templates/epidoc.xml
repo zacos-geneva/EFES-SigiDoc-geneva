@@ -4,6 +4,7 @@
            xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
+  <xsl:param name="filename" />
   <xsl:param name="edition-type" />
   <xsl:param name="edn-structure" />
   <xsl:param name="external-app-style" />
@@ -33,6 +34,16 @@
 
     <kiln:block name="page-heading">
       <xsl:value-of select="$title" />
+    </kiln:block>
+
+    <kiln:block name="content">
+      <div class="row">
+        <div class="large-12 columns">
+          <p>
+            <a href="{kiln:url-for-match('local-epidoc-display-xml', ($language, $filename), 0)}">Full EpiDoc XML</a>
+          </p>
+        </div>
+      </div>
     </kiln:block>
   </kiln:child>
 </kiln:root>

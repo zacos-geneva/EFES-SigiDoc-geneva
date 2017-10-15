@@ -116,7 +116,7 @@
 
       <map:match id="local-tei-display-xml" pattern="*/texts/**.xml">
         <map:read mime-type="application/tei+xml"
-                  src="../content/xml/tei/{1}.xml" />
+                  src="../content/xml/tei/{2}.xml" />
       </map:match>
 
       <map:match id="local-tei-display-pdf" pattern="*/texts/**.pdf">
@@ -156,6 +156,7 @@
         </map:aggregate>
         <map:transform src="cocoon://_internal/template/epidoc-{global:epidoc-edn-structure}.xsl">
           <map:parameter name="language" value="{1}" />
+          <map:parameter name="filename" value="{2}" />
           <map:parameter name="edition-type"
                          value="{global:epidoc-edition-type}" />
           <map:parameter name="edn-structure"
@@ -174,6 +175,11 @@
           <map:parameter name="locale" value="{1}" />
         </map:transform>
         <map:serialize />
+      </map:match>
+
+      <map:match id="local-epidoc-display-xml" pattern="*/inscriptions/**.xml">
+        <map:read mime-type="application/tei+xml"
+                  src="../content/xml/epidoc/{2}.xml" />
       </map:match>
 
       <!-- Indices. -->
