@@ -72,9 +72,25 @@
         <map:serialize type="rdf-xml" />
       </map:match>
 
+      <!-- EpiDoc file. -->
+      <map:match id="local-rdf-generate-epidoc"
+                 pattern="generate/epidoc/**.xml">
+        <map:generate src="../content/xml/epidoc/{1}.xml" />
+        <map:transform src="../stylesheets/rdf/tei-to-rdf.xsl">
+          <map:parameter name="base_uri" value="{global:rdf-base-uri}" />
+        </map:transform>
+        <map:serialize type="rdf-xml" />
+      </map:match>
+
+      <!-- Index file. -->
+      <map:match id="local-rdf-generate-index"
+                 pattern="generate/indices/**.xml">
+        <map:generate src="empty:empty" />
+        <map:serialize type="rdf-xml" />
+      </map:match>
+
       <!-- TEI file. -->
-      <map:match id="local-rdf-generate-tei"
-                 pattern="generate/tei/**.xml">
+      <map:match id="local-rdf-generate-tei" pattern="generate/tei/**.xml">
         <map:generate src="../content/xml/tei/{1}.xml" />
         <map:transform src="../stylesheets/rdf/tei-to-rdf.xsl">
           <map:parameter name="base_uri" value="{global:rdf-base-uri}" />
