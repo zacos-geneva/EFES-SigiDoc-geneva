@@ -8,7 +8,7 @@
       <thead>
         <tr>
           <th>Filename</th>
-          <th>XML ID</th>
+          <th>ID</th>
           <th>Title</th>
           <th>Author</th>
           <th>Editor</th>

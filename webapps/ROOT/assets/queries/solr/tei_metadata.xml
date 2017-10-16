@@ -4,4 +4,5 @@ creating an index of documents. -->
 <query>
   <df>document_type</df>
   <rows>20000</rows>
+  <sort ordering="asc">file_path</sort>
 </query>

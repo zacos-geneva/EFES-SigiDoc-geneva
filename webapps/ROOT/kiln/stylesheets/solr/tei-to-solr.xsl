@@ -91,16 +91,10 @@
     <doc>
       <xsl:sequence select="$document-metadata" />
 
-      <field name="file_path">
-        <xsl:value-of select="$file-path" />
-      </field>
-      <field name="document_id">
-        <xsl:value-of select="/tei:*/@xml:id" />
-      </field>
+      <xsl:call-template name="field_file_path" />
+      <xsl:call-template name="field_document_id" />
       <field name="section_id">
-        <xsl:value-of
-          select="ancestor::tei:*[self::tei:div or self::tei:body or self::tei:front or self::tei:back or self::tei:group or self::tei:text][@xml:id][1]/@xml:id"
-         />
+        <xsl:value-of select="ancestor::tei:*[self::tei:div or self::tei:body or self::tei:front or self::tei:back or self::tei:group or self::tei:text][@xml:id][1]/@xml:id" />
       </field>
       <field name="entity_key">
         <xsl:value-of select="@key" />
@@ -110,13 +104,13 @@
       </field>
     </doc>
   </xsl:template>
-  
+
   <xsl:template match="tei:repository[@ref]" mode="facet_source_repository">
     <field name="source_repository">
       <xsl:value-of select="@ref"/>
     </field>
   </xsl:template>
-  
+
   <xsl:template match="tei:material[@ref]" mode="facet_support_material">
     <field name="support_material">
       <xsl:value-of select="@ref" />
@@ -161,7 +155,15 @@
 
   <xsl:template name="field_document_id">
     <field name="document_id">
-      <xsl:value-of select="/tei:*/@xml:id" />
+      <xsl:variable name="idno" select="/tei:*/tei:teiHeader/tei:fileDesc/tei:publicationStmt/tei:idno[@type='filename']" />
+      <xsl:choose>
+        <xsl:when test="normalize-space($idno)">
+          <xsl:value-of select="$idno" />
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="/tei:*/@xml:id" />
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
 
@@ -198,7 +200,7 @@
   <xsl:template name="field_origin_place">
     <xsl:apply-templates mode="facet_origin_place" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origPlace[@ref]" />
   </xsl:template>
-  
+
   <xsl:template name="field_source_repository">
     <xsl:apply-templates mode="facet_source_repository" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc//tei:repository[@ref]"/>
   </xsl:template>
