@@ -8,6 +8,7 @@
   <xsl:param name="edition-type" />
   <xsl:param name="edn-structure" />
   <xsl:param name="external-app-style" />
+  <xsl:param name="image-loc" />
   <xsl:param name="internal-app-style" />
   <xsl:param name="leiden-style" />
   <xsl:param name="line-inc" />

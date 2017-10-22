@@ -30,15 +30,25 @@
 
     <map:pipeline id="local-images">
       <map:match id="local-images-gif" pattern="images/**.gif">
-        <map:read mime-type="image/gif" src="../content/images/{1}.gif" />
+        <map:read mime-type="image/gif" src="../content/images/{1}.gif"
+                  type="image" />
+      </map:match>
+
+      <map:match id="local-images-jpeg-thumbnail" pattern="images/**-thumb.jpg">
+        <map:read mime-type="image/jpeg" src="../content/images/{1}.jpg"
+                  type="image">
+          <map:parameter name="width" value="100" />
+        </map:read>
       </map:match>
 
       <map:match id="local-images-jpeg" pattern="images/**.jpg">
-        <map:read mime-type="image/jpeg" src="../content/images/{1}.jpg" />
+        <map:read mime-type="image/jpeg" src="../content/images/{1}.jpg"
+                  type="image" />
       </map:match>
 
       <map:match id="local-images-png" pattern="images/**.png">
-        <map:read mime-type="image/png" src="../content/images/{1}.png" />
+        <map:read mime-type="image/png" src="../content/images/{1}.png"
+                  type="image" />
       </map:match>
     </map:pipeline>
 
@@ -163,6 +173,7 @@
                          value="{global:epidoc-edn-structure}" />
           <map:parameter name="external-app-style"
                          value="{global:epidoc-external-app-style}" />
+          <map:parameter name="image-loc" value="{global:epidoc-image-loc}" />
           <map:parameter name="internal-app-style"
                          value="{global:epidoc-internal-app-style}" />
           <map:parameter name="leiden-style"

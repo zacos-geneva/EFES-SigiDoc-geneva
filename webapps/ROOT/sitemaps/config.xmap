@@ -82,6 +82,7 @@
         <epidoc-edition-type>interpretive</epidoc-edition-type>
         <epidoc-edn-structure>default</epidoc-edn-structure>
         <epidoc-external-app-style>iospe</epidoc-external-app-style>
+        <epidoc-image-loc>/images/</epidoc-image-loc>
         <epidoc-internal-app-style>none</epidoc-internal-app-style>
         <epidoc-leiden-style>panciera</epidoc-leiden-style>
         <epidoc-line-inc>5</epidoc-line-inc>

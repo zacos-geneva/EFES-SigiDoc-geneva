@@ -233,6 +233,17 @@
         <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
         <xsl:apply-templates select="$commtxt" mode="sqbrackets"/>
       </div>
+      <div id="images" class="iospe">
+        <h4 class="iospe">Images</h4>
+        <dl>
+          <xsl:for-each select="//t:facsimile//t:graphic">
+            <dt width="150" align="left"></dt>
+            <dd>
+              <xsl:apply-templates select="." />
+            </dd>
+          </xsl:for-each>
+        </dl>
+      </div>
     </div>
   </xsl:template>
 

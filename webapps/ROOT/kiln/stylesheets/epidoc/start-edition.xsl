@@ -15,6 +15,7 @@
    <xsl:include href="htm-teidiv.xsl"/>
    <xsl:include href="htm-teidivedition.xsl"/>
    <xsl:include href="htm-teidivapparatus.xsl"/>
+   <xsl:include href="htm-teifacsimile.xsl"/>
    <xsl:include href="htm-teiforeign.xsl"/>
    <xsl:include href="htm-teifigure.xsl"/>
    <xsl:include href="htm-teig.xsl"/>
@@ -25,8 +26,8 @@
    <xsl:include href="htm-teilgandl.xsl"/>
    <xsl:include href="htm-teilistanditem.xsl"/>
    <xsl:include href="htm-teilistbiblandbibl.xsl"/>
-    <xsl:include href="htm-teimilestone.xsl"/>
-    <xsl:include href="htm-teibibl.xsl"/>
+   <xsl:include href="htm-teimilestone.xsl"/>
+   <xsl:include href="htm-teibibl.xsl"/>
    <xsl:include href="htm-teinote.xsl"/>
    <xsl:include href="htm-teinum.xsl"/>
    <xsl:include href="htm-teip.xsl"/>
