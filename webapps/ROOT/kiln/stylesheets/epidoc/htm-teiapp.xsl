@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id$ -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="t"
                 version="2.0">
@@ -115,8 +116,10 @@
                            </xsl:if>
                         </xsl:for-each>
                      </xsl:when>
-                        <xsl:otherwise>
+                     <xsl:otherwise>
+                        <i18n:text i18n:key="epidoc-xslt-other-reading">
                            <xsl:text>Other reading</xsl:text>
+                        </i18n:text>
                         </xsl:otherwise>
                      </xsl:choose>
                      </xsl:variable>

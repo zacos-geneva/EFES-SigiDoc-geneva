@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id$ -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
+                xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
                 xmlns:t="http://www.tei-c.org/ns/1.0" exclude-result-prefixes="t" 
                 version="2.0">
   <!-- Contains named templates for InsLib file structure (aka "metadata" aka "supporting data") -->  
@@ -8,7 +9,7 @@
    <!-- Called from htm-tpl-structure.xsl -->
 
    <xsl:template name="inslib-body-structure">
-     <p><b>Description: </b>
+     <p><b><i18n:text i18n:key="epidoc-xslt-inslib-description">Description</i18n:text>: </b>
      <xsl:choose>
        <xsl:when test="//t:support/t:p/text()">
          <xsl:apply-templates select="//t:support/t:p" mode="inslib-dimensions"/>
@@ -16,25 +17,25 @@
        <xsl:when test="//t:support//text()">
          <xsl:apply-templates select="//t:support" mode="inslib-dimensions"/>
        </xsl:when>
-       <xsl:otherwise>Unknown</xsl:otherwise>
+       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-inslib-unknown">Unknown</i18n:text></xsl:otherwise>
      </xsl:choose>
 
      <br />
-     <b>Text: </b>
+     <b><i18n:text i18n:key="epidoc-xslt-inslib-text">Text</i18n:text>: </b>
      <xsl:choose>
        <xsl:when test="//t:layoutDesc/t:layout//text()">
          <xsl:value-of select="//t:layoutDesc/t:layout"/>
        </xsl:when>
-       <xsl:otherwise>Unknown.</xsl:otherwise>
+       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-inslib-unknown">Unknown</i18n:text>.</xsl:otherwise>
      </xsl:choose>
      <br />
-     <b>Letters: </b>
+     <b><i18n:text i18n:key="epidoc-xslt-inslib-letters">Letters</i18n:text>: </b>
      <xsl:if test="//t:handDesc/t:handNote/text()">
        <xsl:value-of select="//t:handDesc/t:handNote"/>
      </xsl:if>
      </p>
 
-     <p><b>Date: </b>
+     <p><b><i18n:text i18n:key="epidoc-xslt-inslib-date">Date</i18n:text>: </b>
      <xsl:choose>
        <xsl:when test="//t:origin/t:origDate/text()">
          <xsl:value-of select="//t:origin/t:origDate"/>
@@ -49,27 +50,27 @@
            <xsl:text>)</xsl:text>
          </xsl:if>
        </xsl:when>
-       <xsl:otherwise>Unknown.</xsl:otherwise>
+       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-inslib-unknown">Unknown</i18n:text>.</xsl:otherwise>
      </xsl:choose>
      </p>
 
-     <p><b>Findspot: </b>
+     <p><b><i18n:text i18n:key="epidoc-xslt-inslib-findspot">Findspot</i18n:text>: </b>
      <xsl:choose>
        <xsl:when test="//t:provenance[@type='found'][string(translate(normalize-space(.),' ',''))]">
          <xsl:apply-templates select="//t:provenance[@type='found']" mode="inslib-placename"/>
        </xsl:when>
-       <xsl:otherwise>Unknown</xsl:otherwise>
+       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-inslib-unknown">Unknown</i18n:text></xsl:otherwise>
      </xsl:choose>
      <br/>
-     <b>Original location: </b>
+     <b><i18n:text i18n:key="epidoc-xslt-inslib-original-location">Original location</i18n:text>: </b>
      <xsl:choose>
        <xsl:when test="//t:origin/t:origPlace/text()">
          <xsl:apply-templates select="//t:origin/t:origPlace" mode="inslib-placename"/>
        </xsl:when>
-       <xsl:otherwise>Unknown</xsl:otherwise>
+       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-inslib-unknown">Unknown</i18n:text></xsl:otherwise>
      </xsl:choose>
      <br/>
-     <b>Last recorded location: </b>
+     <b><i18n:text i18n:key="epidoc-xslt-inslib-last-recorded-location">Last recorded location</i18n:text>: </b>
      <xsl:choose>
        <xsl:when test="//t:provenance[@type='observed'][string(translate(normalize-space(.),' ',''))]">
          <xsl:apply-templates select="//t:provenance[@type='observed']" mode="inslib-placename"/>
@@ -81,12 +82,12 @@
          <!-- Named template found below. -->
          <xsl:call-template name="inslib-invno"/>
        </xsl:when>
-       <xsl:otherwise>Unknown</xsl:otherwise>
+       <xsl:otherwise><i18n:text i18n:key="epidoc-xslt-inslib-unknown">Unknown</i18n:text></xsl:otherwise>
      </xsl:choose>
      </p>
 
      <div id="edition">
-       <p><b>Edition:</b></p>
+       <p><b><i18n:text i18n:key="epidoc-xslt-inslib-edition">Edition</i18n:text>:</b></p>
        <!-- Edited text output -->
        <xsl:variable name="edtxt">
          <xsl:apply-templates select="//t:div[@type='edition']">
@@ -97,7 +98,7 @@
        <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
      </div>
      <div id="diplomatic">
-       <p><b>Diplomatic:</b></p>
+       <p><b><i18n:text i18n:key="epidoc-xslt-inslib-diplomatic">Diplomatic</i18n:text>:</b></p>
        <!-- Edited text output -->
        <xsl:variable name="edtxt">
          <xsl:apply-templates select="//t:div[@type='edition']">
@@ -118,7 +119,7 @@
      </div>
 
      <div id="translation">
-       <h4 class="slimmer">Translation:</h4>
+       <h4 class="slimmer"><i18n:text i18n:key="epidoc-xslt-inslib-translation">Translation</i18n:text>:</h4>
        <!-- Translation text output -->
        <xsl:variable name="transtxt">
          <xsl:apply-templates select="//t:div[@type='translation']//t:p"/>
@@ -128,7 +129,7 @@
      </div>
 
      <div id="commentary">
-       <h4 class="slimmer">Commentary:</h4>
+       <h4 class="slimmer"><i18n:text i18n:key="epidoc-xslt-inslib-commentary">Commentary</i18n:text>:</h4>
        <!-- Commentary text output -->
        <xsl:variable name="commtxt">
          <xsl:apply-templates select="//t:div[@type='commentary']//t:p"/>
@@ -137,10 +138,10 @@
        <xsl:apply-templates select="$commtxt" mode="sqbrackets"/>
      </div>
 
-     <p><b>Bibliography: </b>
+     <p><b><i18n:text i18n:key="epidoc-xslt-inslib-bibliography">Bibliography</i18n:text>: </b>
      <xsl:apply-templates select="//t:div[@type='bibliography']/t:p/node()"/> 
      <br/>
-     <b>Text constituted from: </b>
+     <b><i18n:text i18n:key="epidoc-xslt-inslib-constituted-from">Text constituted from</i18n:text>: </b>
      <xsl:apply-templates select="//t:creation"/>
      </p>
    </xsl:template>

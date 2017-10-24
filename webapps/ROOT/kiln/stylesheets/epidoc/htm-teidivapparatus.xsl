@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id$ -->
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+<xsl:stylesheet xmlns:i18n="http://apache.org/cocoon/i18n/2.1" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
   xmlns:t="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema"
   exclude-result-prefixes="#all" version="2.0">
 
@@ -60,7 +60,9 @@
     <t:ref>
       <xsl:choose>
         <xsl:when test="$parm-external-app-style = 'iospe'">
-          <xsl:text>not collated</xsl:text>
+          <i18n:text i18n:key="epidoc-xslt-not-collated">
+            <xsl:text>not collated</xsl:text>
+          </i18n:text>
         </xsl:when>
         <xsl:when test="starts-with($source_location, '#')">
           <xsl:apply-templates
