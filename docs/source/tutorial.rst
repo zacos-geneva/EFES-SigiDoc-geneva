@@ -163,7 +163,9 @@ display.
 
 Images that are part of the site design, rather than content, should
 be put in ``assets/images/``, and the pipelines in
-``kiln/sitemaps/assets.xmap`` used.
+``kiln/sitemaps/assets.xmap`` used. In a template, for example::
+
+   <img src="{$kiln:assets-path}/images/logo.jpg" alt="My Favourite Sponsor" />
 
 Kiln can support any image file type, since no processing is done to
 the files. The pipelines simply transmit the files with an appropriate
