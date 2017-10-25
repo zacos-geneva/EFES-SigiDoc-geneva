@@ -86,27 +86,33 @@
      </xsl:choose>
      </p>
 
-     <div id="edition">
-       <p><b><i18n:text i18n:key="epidoc-xslt-inslib-edition">Edition</i18n:text>:</b></p>
-       <!-- Edited text output -->
-       <xsl:variable name="edtxt">
-         <xsl:apply-templates select="//t:div[@type='edition']">
-           <xsl:with-param name="parm-edition-type" select="'interpretive'" tunnel="yes"/>
-         </xsl:apply-templates>
-       </xsl:variable>
-       <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
-       <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
-     </div>
-     <div id="diplomatic">
-       <p><b><i18n:text i18n:key="epidoc-xslt-inslib-diplomatic">Diplomatic</i18n:text>:</b></p>
-       <!-- Edited text output -->
-       <xsl:variable name="edtxt">
-         <xsl:apply-templates select="//t:div[@type='edition']">
-           <xsl:with-param name="parm-edition-type" select="'diplomatic'" tunnel="yes"/>
-         </xsl:apply-templates>
-       </xsl:variable>
-       <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
-       <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
+     <div class="section-container tabs" data-section="tabs">
+       <section>
+         <p class="title" data-section-title="data-section-title"><a href="#"><i18n:text i18n:key="epidoc-xslt-inslib-edition">Interpretive</i18n:text></a></p>
+         <div class="content" id="edition" data-section-content="data-section-content">
+           <!-- Edited text output -->
+           <xsl:variable name="edtxt">
+             <xsl:apply-templates select="//t:div[@type='edition']">
+               <xsl:with-param name="parm-edition-type" select="'interpretive'" tunnel="yes"/>
+             </xsl:apply-templates>
+           </xsl:variable>
+           <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
+           <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
+         </div>
+       </section>
+       <section>
+         <p class="title" data-section-title="data-section-title"><a href="#"><i18n:text i18n:key="epidoc-xslt-inslib-diplomatic">Diplomatic</i18n:text></a></p>
+         <div class="content" id="diplomatic" data-section-content="data-section-content">
+           <!-- Edited text output -->
+           <xsl:variable name="edtxt">
+             <xsl:apply-templates select="//t:div[@type='edition']">
+               <xsl:with-param name="parm-edition-type" select="'diplomatic'" tunnel="yes"/>
+             </xsl:apply-templates>
+           </xsl:variable>
+           <!-- Moded templates found in htm-tpl-sqbrackets.xsl -->
+           <xsl:apply-templates select="$edtxt" mode="sqbrackets"/>
+         </div>
+       </section>
      </div>
 
      <div id="apparatus">
