@@ -16,7 +16,7 @@
     
     <xsl:template match="/">
         <add>
-            <xsl:for-each-group select="//tei:orig[not(parent::tei:del or parent::tei:choice)]" group-by=".">
+            <xsl:for-each-group select="//tei:orig[not(parent::tei:del or parent::tei:choice)] | //tei:w[@part != 'N']" group-by=".">
                 <doc>
                     <field name="document_type">
                         <xsl:value-of select="$subdirectory" />
@@ -37,7 +37,7 @@
         </add>
     </xsl:template>
     
-    <xsl:template match="tei:orig">
+    <xsl:template match="tei:orig|tei:w">
         <xsl:call-template name="field_index_instance_location" />
     </xsl:template>
     
