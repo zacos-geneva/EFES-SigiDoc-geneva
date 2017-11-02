@@ -66,7 +66,7 @@
     </li>
   </xsl:template>
 
-  <xsl:template match="kiln:menu[not(@root)]" mode="breadcrumbs" />
+  <xsl:template match="kiln:menu[not(@root)][not(@delete)]" mode="breadcrumbs" />
 
   <xsl:template match="@label">
     <i18n:text>
