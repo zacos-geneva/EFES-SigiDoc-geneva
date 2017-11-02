@@ -44,7 +44,6 @@
        ID and the path variables), just assume that the language code
        appears once and perform string manipulation on the current
        URL. -->
-  <!-- http://127.0.0.1:9999/en/search/ -->
   <xsl:template match="@language_switch">
     <xsl:variable name="url-start"
                   select="substring-before($full-url,
