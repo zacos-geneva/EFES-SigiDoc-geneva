@@ -4,11 +4,7 @@
   <q type="default">*</q>
   <document_type>(tei or epidoc)</document_type>
   <facet>true</facet>
-  <facet.field>author</facet.field>
-  <facet.field>publication_date</facet.field>
   <facet.field>found_provenance</facet.field>
-  <facet.field>mentioned_people</facet.field>
-  <facet.field>mentioned_places</facet.field>
   <facet.field>origin_place</facet.field>
   <facet.field>source_repository</facet.field>
   <facet.field>support_material</facet.field>
