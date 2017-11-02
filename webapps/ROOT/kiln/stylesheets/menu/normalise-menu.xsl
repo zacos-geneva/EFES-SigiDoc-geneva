@@ -44,10 +44,14 @@
        ID and the path variables), just assume that the language code
        appears once and perform string manipulation on the current
        URL. -->
+  <!-- http://127.0.0.1:9999/en/search/ -->
   <xsl:template match="@language_switch">
     <xsl:variable name="url-start"
                   select="substring-before($full-url,
-                                           concat('/', $language, '/'))" />
+                  concat('/', $language, '/'))"/>
+    <xsl:variable name="url-end"
+                 select="substring-after($full-url,
+                 concat($url-start, '/', $language))"/>
     <xsl:choose>
       <xsl:when test=". = $language">
         <xsl:attribute name="delete" select="'delete'" />
@@ -57,8 +61,7 @@
           <xsl:text>/</xsl:text>
           <xsl:value-of select="$url-start" />
           <xsl:value-of select="." />
-          <xsl:value-of select="substring-after($full-url,
-                                concat($url-start, '/', $language))" />
+          <xsl:value-of select="if (string($url-end)) then $url-end else '/'" />
         </xsl:attribute>
       </xsl:otherwise>
     </xsl:choose>
