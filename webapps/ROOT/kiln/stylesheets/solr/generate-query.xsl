@@ -13,12 +13,13 @@
             ...
           </query>
 
-       The content of query element is an unordered set of elements,
-       whose names correspond with the supported Solr parameter names
-       (eg, "q", "sort", "hl.fl", "facet.range.gap"). For the most
-       part these elements should contain only the text value of that
-       parameter. The exception is "sort", which takes an
-       "ordering" attribute specifying either "asc" or "desc".
+       The content of the query element is an unordered set of
+       elements, whose names correspond with the supported Solr
+       parameter names (eg, "q", "sort", "hl.fl",
+       "facet.range.gap"). For the most part these elements should
+       contain only the text value of that parameter. The exception is
+       "sort", which takes an "ordering" attribute specifying either
+       "asc" or "desc".
 
        A second exception is parameters that are field names with a
        type attribute value of "range_start" or "range_end". These are
