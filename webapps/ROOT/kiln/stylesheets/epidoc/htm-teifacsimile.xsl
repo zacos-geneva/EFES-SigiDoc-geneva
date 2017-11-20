@@ -14,10 +14,16 @@
     </div>
   </xsl:template>
 
+  <!-- Display a local image with thumbnail. -->
   <xsl:template match="t:graphic">
     <xsl:param name="parm-image-loc" select="''" tunnel="yes" />
     <!-- Create a link to the full image and display a thumbnail
-         image. -->
+         image.
+
+         The thumbnail image URL is constructed from the original URL
+         via prefixing the final "." with "-thumb". This may lead to
+         ugly URLs if the original URL does not include an extension
+         suffix but does have a "." in it. -->
     <xsl:variable name="url-parts" select="tokenize(@url, '\.')" />
     <xsl:variable name="count-url-parts" select="count($url-parts)-1" />
     <a href="{concat($parm-image-loc, @url)}">
@@ -30,6 +36,11 @@
         </xsl:attribute>
       </img>
     </a>
+  </xsl:template>
+
+  <!-- Display an image. -->
+  <xsl:template match="t:graphic[contains(@url, '://')]">
+    <img src="{@url}" title="{t:desc}" />
   </xsl:template>
 
 </xsl:stylesheet>
