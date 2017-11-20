@@ -13,6 +13,9 @@
 
   <xsl:variable name="query-string-parameters"
                 select="tokenize($query-string, '\?|&amp;')" />
+  <xsl:variable name="query-string-at-start"
+                select="kiln:query-string-from-sequence(
+                        $query-string-parameters, ('start'), 0)" />
   <xsl:variable name="rows" select="/aggregation/response/lst[@name='responseHeader']/lst[@name='params']/str[@name='rows']" />
   <xsl:variable name="start"
                 select="number(/aggregation/response/result/@start)" />

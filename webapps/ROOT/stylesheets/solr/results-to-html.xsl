@@ -164,8 +164,8 @@
       <!-- Create a link to unapply the facet. -->
       <a>
         <xsl:attribute name="href">
-          <xsl:text>?</xsl:text>
-          <xsl:value-of select="kiln:string-replace($query-string, $fq, '')" />
+          <xsl:value-of select="kiln:string-replace($query-string-at-start,
+                                $fq, '')" />
         </xsl:attribute>
         <xsl:text>x</xsl:text>
       </a>
@@ -212,12 +212,11 @@
         <!-- Create a link to unapply the facet. -->
         <a>
           <xsl:attribute name="href">
-            <xsl:text>?</xsl:text>
             <!-- Since both $old-fq and $new-fq will contain
                  characters that are meaningful within a regular
                  expressions, use a string substitution rather than
                  replace. -->
-            <xsl:value-of select="kiln:string-replace($query-string,
+            <xsl:value-of select="kiln:string-replace($query-string-at-start,
                                   $old-fq, $new-fq)" />
           </xsl:attribute>
           <xsl:text>x</xsl:text>
@@ -240,8 +239,7 @@
       <li>
         <a>
           <xsl:attribute name="href">
-            <xsl:text>?</xsl:text>
-            <xsl:value-of select="$query-string" />
+            <xsl:value-of select="$query-string-at-start" />
             <xsl:text>&amp;fq=</xsl:text>
             <xsl:value-of select="kiln:escape-query-string($fq)" />
           </xsl:attribute>
@@ -272,10 +270,9 @@
         <!-- Create a link to apply the facet filter. -->
         <a>
           <xsl:attribute name="href">
-            <xsl:text>?</xsl:text>
             <xsl:choose>
               <xsl:when test="not($old-fq)">
-                <xsl:value-of select="$query-string" />
+                <xsl:value-of select="$query-string-at-start" />
                 <xsl:text>&amp;fq=</xsl:text>
                 <xsl:value-of select="$name" />
                 <xsl:text>:("</xsl:text>
@@ -289,7 +286,7 @@
                   <xsl:value-of select="@name" />
                   <xsl:text>")</xsl:text>
                 </xsl:variable>
-                <xsl:value-of select="kiln:string-replace($query-string,
+                <xsl:value-of select="kiln:string-replace($query-string-at-start,
                                       kiln:escape-query-string($old-fq),
                                       kiln:escape-query-string($new-fq))" />
               </xsl:otherwise>
