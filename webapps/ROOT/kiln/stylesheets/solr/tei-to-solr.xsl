@@ -2,6 +2,7 @@
 <xsl:stylesheet exclude-result-prefixes="#all"
                 version="2.0"
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
+                xmlns:xs="http://www.w3.org/2001/XMLSchema"
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- This XSLT transforms a TEI document into a Solr index
@@ -70,6 +71,38 @@
         <xsl:value-of select="@when" />
       </field>
     </xsl:if>
+  </xsl:template>
+
+  <!-- For all origDates, use only the year. -->
+  <xsl:template match="tei:origDate[@when]" mode="document-metadata">
+    <xsl:variable name="year">
+      <xsl:call-template name="get-year-from-date">
+        <xsl:with-param name="date" select="@when" />
+      </xsl:call-template>
+    </xsl:variable>
+    <field name="origin_date">
+      <xsl:value-of select="$year" />
+    </field>
+  </xsl:template>
+
+  <!-- If @notBefore is specified, @notAfter is assumed to be
+       specified, and vice versa. -->
+  <xsl:template match="tei:origDate[@notBefore]" mode="document-metadata">
+    <xsl:variable name="start-year">
+      <xsl:call-template name="get-year-from-date">
+        <xsl:with-param name="date" select="@notBefore" />
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:variable name="end-year">
+      <xsl:call-template name="get-year-from-date">
+        <xsl:with-param name="date" select="@notAfter" />
+      </xsl:call-template>
+    </xsl:variable>
+    <xsl:for-each select="($start-year to $end-year)">
+      <field name="origin_date">
+        <xsl:value-of select="." />
+      </field>
+    </xsl:for-each>
   </xsl:template>
 
   <xsl:template match="text()" mode="document-metadata" />
@@ -217,6 +250,26 @@
     <field name="text">
       <xsl:value-of select="normalize-space($free-text)" />
     </field>
+  </xsl:template>
+
+  <!-- Return an integer year from a "date", that might be in one of a
+       number of formats. Specifically, handles YYYY, YYYY-MM, and
+       YYYY-MM-DD, with optional preceding "-". -->
+  <xsl:template name="get-year-from-date">
+    <xsl:param name="date" />
+    <xsl:variable name="parts" select="tokenize(substring($date, 2), '-')" />
+    <xsl:variable name="normalised-date">
+      <xsl:value-of select="$date" />
+      <xsl:choose>
+        <xsl:when test="count($parts) = 1">
+          <xsl:text>-01-01</xsl:text>
+        </xsl:when>
+        <xsl:when test="count($parts) = 2">
+          <xsl:text>-01</xsl:text>
+        </xsl:when>
+      </xsl:choose>
+    </xsl:variable>
+    <xsl:value-of select="year-from-date(xs:date($normalised-date))" />
   </xsl:template>
 
 </xsl:stylesheet>
