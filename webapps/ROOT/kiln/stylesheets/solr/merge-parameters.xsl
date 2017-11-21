@@ -13,6 +13,13 @@
        as values in the q field, of the form "<field name>:<field
        value>".
 
+       The query element may have a range_fields attribute that
+       contains a whitespace delimited list of field names that are to
+       be treated as providing a range. These field names are not
+       those of the actual query parameters; rather, the range start
+       parameter is the field name followed by "_start", and the range
+       end parameter is the field name followed by "_end".
+
        An element in the XML query document may have a type attribute
        with value "default" to indicate that it should be used if and
        only if there are no parameters with the same name, that are
@@ -26,6 +33,17 @@
 
   <xsl:template match="query">
     <xsl:variable name="q_fields" select="tokenize(@q_fields, '\s+')" />
+    <xsl:variable name="range_fields" select="tokenize(@range_fields, '\s+')" />
+    <xsl:variable name="range_start_fields">
+      <xsl:for-each select="$range_fields">
+        <xsl:sequence select="concat(., '_start')" />
+      </xsl:for-each>
+    </xsl:variable>
+    <xsl:variable name="range_end_fields">
+      <xsl:for-each select="$range_fields">
+        <xsl:sequence select="concat(., '_end')" />
+      </xsl:for-each>
+    </xsl:variable>
     <xsl:copy>
       <xsl:apply-templates select="@*" />
       <xsl:variable name="processed-query-string">
@@ -38,6 +56,10 @@
               <xsl:with-param name="key" select="substring-before(., '=')" />
               <xsl:with-param name="value" select="substring-after(., '=')" />
               <xsl:with-param name="q_fields" select="$q_fields" />
+              <xsl:with-param name="range_start_fields"
+                              select="$range_start_fields" />
+              <xsl:with-param name="range_end_fields"
+                              select="$range_end_fields" />
             </xsl:call-template>
           </xsl:if>
         </xsl:for-each>
@@ -76,6 +98,8 @@
 
   <xsl:template match="query/@q_fields" />
 
+  <xsl:template match="query/@range_fields" />
+
   <xsl:template match="q/@type[. = 'default']" />
 
   <xsl:template match="text()">
@@ -95,12 +119,32 @@
     <xsl:param name="key" />
     <xsl:param name="value" />
     <xsl:param name="q_fields" />
+    <xsl:param name="range_start_fields" />
+    <xsl:param name="range_end_fields" />
     <xsl:if test="normalize-space($value)">
       <xsl:choose>
         <xsl:when test="$key = $q_fields">
           <xsl:element name="q">
             <xsl:value-of select="$key" />
             <xsl:text>:</xsl:text>
+            <xsl:call-template name="kiln:escape-value">
+              <xsl:with-param name="value" select="$value" />
+              <xsl:with-param name="url-escaped" select="1" />
+            </xsl:call-template>
+          </xsl:element>
+        </xsl:when>
+        <xsl:when test="$key = $range_start_fields">
+          <xsl:element name="{replace($key, '_start$', '')}">
+            <xsl:attribute name="type" select="'range_start'" />
+            <xsl:call-template name="kiln:escape-value">
+              <xsl:with-param name="value" select="$value" />
+              <xsl:with-param name="url-escaped" select="1" />
+            </xsl:call-template>
+          </xsl:element>
+        </xsl:when>
+        <xsl:when test="$key = $range_end_fields">
+          <xsl:element name="{replace($key, '_end$', '')}">
+            <xsl:attribute name="type" select="'range_end'" />
             <xsl:call-template name="kiln:escape-value">
               <xsl:with-param name="value" select="$value" />
               <xsl:with-param name="url-escaped" select="1" />

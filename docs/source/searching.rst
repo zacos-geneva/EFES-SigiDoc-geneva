@@ -68,6 +68,28 @@ correct fashion. This frees whatever process generates the XSLT
 parameter value from knowing anything about Solr's details (eg, it can
 be a simple form with no processing).
 
+Query files
+-----------
+
+Solr query files in ``assets/queries/solr/`` are a good way to provide
+static elements for a given search. They can specify what fields to
+facet on, default query strings, sorting, and so on.
+
+Attributes on the root ``query`` element may specify which fields
+should be appended to the general query (``@q_fields``) and which
+fields should be appended to the general query as a range
+(``@range_fields``).
+
+Child elements of ``query`` may specify a ``type`` attribute; valid
+values are:
+
+ * ``default`` - The value of the element will only be used if no
+   querystring parameter has the same name.
+ * ``range_start`` - The value of the element will be added to the
+   general query as the start of a range.
+ * ``range_end`` - The value of the element will be added to the
+   general query as the end of a range.
+
 Indexing non-TEI documents
 --------------------------
 
