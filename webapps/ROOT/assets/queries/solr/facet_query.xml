@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<query q_fields="document_type">
+<query q_fields="document_type" range_fields="origin_date">
   <df type="default">text</df>
   <q type="default">*</q>
   <document_type>(tei or epidoc)</document_type>

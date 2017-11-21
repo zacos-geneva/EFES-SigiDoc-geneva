@@ -26,6 +26,12 @@
       <xsl:text>Search</xsl:text>
     </kiln:block>
 
+    <kiln:block name="css">
+      <kiln:super />
+      <link href="{$kiln:assets-path}/styles/jquery-ui/all.css"
+            rel="stylesheet" type="text/css" />
+    </kiln:block>
+
     <kiln:block name="page-heading">
       <kiln:super />
       <xsl:text>Search</xsl:text>
@@ -34,7 +40,7 @@
     <kiln:block name="content">
       <div class="row">
         <div class="large-4 columns">
-          <form action="." method="get">
+          <form action="." id="search-form" method="get">
             <input name="q" placeholder="Search terms" type="search">
               <xsl:attribute name="value">
                 <xsl:value-of select="$q_value" />
@@ -50,6 +56,8 @@
                 <xsl:text>Search lemmatised text</xsl:text>
               </label>
             </xsl:if>
+            <h4>Date <span id="date-slider-label"></span></h4>
+            <div id="date-slider-widget" data-range-min="-500" data-range-max="1600" data-value-min="-500" data-value-max="1600" data-step="25" data-label-prefix="" data-label-suffix="A.D." data-field-name="origin_date" />
           </form>
           <!-- List of currently applied facets. -->
           <xsl:apply-templates mode="search-results" select="/aggregation/response/lst[@name='responseHeader']/lst[@name='params']/*[@name='fq']" />
@@ -62,6 +70,23 @@
                                mode="search-results" />
         </div>
       </div>
+    </kiln:block>
+
+    <kiln:block name="end-js">
+      <kiln:super />
+      <script src="{$kiln:assets-path}/scripts/jquery-ui.min.js" />
+      <script src="{$kiln:assets-path}/scripts/URI.js" />
+      <script src="{$kiln:assets-path}/scripts/slider.js" />
+      <script>
+      $(document).ready(function() {
+        var form = $("#search-form"),
+            widget = $("#date-slider-widget"),
+            label = $("#date-slider-label"),
+            inputs = ["q", "df"];
+        prepare_form(form, widget, inputs);
+        setup_slider(widget, label);
+      });
+      </script>
     </kiln:block>
   </kiln:child>
 
