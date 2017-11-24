@@ -143,7 +143,7 @@
         <map:serialize type="xhtml" />
       </map:match>
 
-      <!-- Epidoc texts. -->
+      <!-- EpiDoc texts. -->
       <map:match id="local-epidoc-index-display" pattern="*/inscriptions/">
         <map:aggregate element="aggregation">
           <map:part src="cocoon://internal/search/tei_metadata.xml?q=epidoc" />
@@ -156,6 +156,15 @@
           <map:parameter name="locale" value="{1}" />
         </map:transform>
         <map:serialize />
+      </map:match>
+
+      <!-- ZIP file of all EpiDoc texts. -->
+      <map:match id="local-epidoc-zip" pattern="*/inscriptions/zip/">
+        <map:generate src="cocoon://_internal/dirlist/content/xml/epidoc.xml" />
+        <map:transform src="../kiln/stylesheets/dir-list-to-zip.xsl">
+          <map:parameter name="path-prefix" value="../content/xml/" />
+        </map:transform>
+        <map:serialize type="zip" />
       </map:match>
 
       <map:match id="local-epidoc-display-html"
