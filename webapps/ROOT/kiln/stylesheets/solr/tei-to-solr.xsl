@@ -116,6 +116,23 @@
     <xsl:text> </xsl:text>
   </xsl:template>
 
+  <xsl:template match="@nymRef" mode="lemma">
+    <!-- Only support local references; to add in external references
+         would require determining what they are at an earlier step in
+         the pipeline and XIncluding the referenced documents. This
+         would be a significant change to the existing indexing
+         pipeline and XSLT. -->
+    <xsl:variable name="root" select="/" />
+    <xsl:for-each select="tokenize(., '\s+')">
+      <xsl:if test="starts-with(., '#')">
+        <!-- Since we have no idea what markup is at the end of this
+             reference, just take the text value. -->
+        <xsl:value-of select="$root/id(substring-after(current(), '#'))" />
+        <xsl:text> </xsl:text>
+      </xsl:if>
+    </xsl:for-each>
+  </xsl:template>
+
   <xsl:template match="node()|@*" mode="lemma">
     <xsl:apply-templates mode="lemma" select="@*|node()" />
   </xsl:template>
