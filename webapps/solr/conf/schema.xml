@@ -135,7 +135,7 @@
           required="false" stored="true" type="text_general" />
    <field indexed="true" multiValued="false" name="eats_entity_name"
           required="false" stored="true" type="text_general" />
-   <field name="lemmatised_text" type="text_ws" indexed="true"
+   <field name="lemmatised_text" type="text_general" indexed="true"
           stored="false" multiValued="true" />
    <field name="origin_place" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
