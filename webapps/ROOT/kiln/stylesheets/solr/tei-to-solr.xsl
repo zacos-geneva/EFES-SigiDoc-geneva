@@ -41,6 +41,7 @@
         <xsl:call-template name="field_source_repository"/>
         <xsl:call-template name="field_support_object_type" />
         <xsl:call-template name="field_support_material" />
+        <xsl:call-template name="field_origin_date_evidence"/>
         <xsl:call-template name="extra_fields" />
       </doc>
     </xsl:if>
@@ -174,6 +175,14 @@
       <xsl:value-of select="@ref" />
     </field>
   </xsl:template>
+  
+  <xsl:template match="tei:origDate[@evidence]" mode="facet_origin_date_evidence">
+    <xsl:for-each select="tokenize(@evidence, '\s+')">
+      <field name="origin_date_evidence">
+        <xsl:value-of select="." />
+      </field>
+    </xsl:for-each>
+  </xsl:template>
 
   <xsl:template match="tei:objectType[@ref]" mode="facet_support_object_type">
     <field name="support_object_type">
@@ -257,6 +266,10 @@
 
   <xsl:template name="field_support_material">
     <xsl:apply-templates mode="facet_support_material" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:physDesc/tei:objectDesc/tei:supportDesc/tei:support/tei:material[@ref]" />
+  </xsl:template>
+  
+  <xsl:template name="field_origin_date_evidence">
+    <xsl:apply-templates mode="facet_origin_date_evidence" select="//tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc/tei:history/tei:origin/tei:origDate[@evidence]"/>
   </xsl:template>
 
   <xsl:template name="field_support_object_type">
