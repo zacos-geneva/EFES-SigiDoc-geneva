@@ -30,6 +30,7 @@
           <map:part element="insert" src="cocoon:/add/tei/" />
           <map:part element="insert" src="cocoon:/add/epidoc/" />
           <map:part element="insert" src="cocoon:/add/indices/" />
+          <map:part element="insert" src="cocoon:/add/concordance/authority/bibliography.xml" />
           <map:part element="optimize"
                     src="cocoon://_internal/solr/optimize" />
           <map:part src="cocoon://_internal/menu/admin.xml?url=admin/solr/index/all.html" />
@@ -165,7 +166,7 @@
         </map:transform>
         <map:transform type="xinclude" />
         <map:transform src="../stylesheets/solr/concordance-bibliography-to-solr.xsl">
-          <map:parameter name="file-path" value="authority/bibliography" />
+          <map:parameter name="file-path" value="authority/{global:concordance-bibliography-file}" />
         </map:transform>
         <map:transform type="solr">
           <map:parameter name="url" value="{global:solr-server}" />
