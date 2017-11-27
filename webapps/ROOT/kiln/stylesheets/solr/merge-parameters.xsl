@@ -8,22 +8,28 @@
        "query"). The document is only added to, with the new elements
        added after the existing ones.
 
-       The query element may have a q_fields attribute that contains a
-       whitespace delimited list of field names that are to be treated
-       as values in the q field, of the form "<field name>:<field
-       value>".
+       The query element may have a "q_fields" attribute that contains
+       a whitespace delimited list of field names that are to be
+       treated as values in the q field, of the form "<field
+       name>:<field value>".
 
-       The query element may have a range_fields attribute that
+       The query element may have a "range_fields" attribute that
        contains a whitespace delimited list of field names that are to
        be treated as providing a range. These field names are not
        those of the actual query parameters; rather, the range start
        parameter is the field name followed by "_start", and the range
        end parameter is the field name followed by "_end".
 
-       An element in the XML query document may have a type attribute
-       with value "default" to indicate that it should be used if and
-       only if there are no parameters with the same name, that are
-       not empty, in the query-string.
+       An element in the XML query document may have a "type"
+       attribute with value "default" to indicate that it should be
+       used if and only if there are no parameters with the same name,
+       that are not empty, in the query-string.
+
+       An element in the XML query document may have an "escape"
+       attribute. If the value of this attribute is "false", the
+       contents of that field will not be escaped. This is useful when
+       Solr-significant characters should be passed through unchanged,
+       for example with a fq field.
 
   -->
 
@@ -85,16 +91,22 @@
         <q>
           <xsl:value-of select="$field_name" />
           <xsl:text>:</xsl:text>
-          <xsl:apply-templates select="node()" />
+          <xsl:apply-templates select="node()">
+            <xsl:with-param name="escape" select="@escape" />
+          </xsl:apply-templates>
         </q>
       </xsl:when>
       <xsl:otherwise>
         <xsl:copy>
-          <xsl:apply-templates select="@*|node()" />
+          <xsl:apply-templates select="@*|node()">
+            <xsl:with-param name="escape" select="@escape" />
+          </xsl:apply-templates>
         </xsl:copy>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
+
+  <xsl:template match="query/@escape" />
 
   <xsl:template match="query/@q_fields" />
 
@@ -103,10 +115,18 @@
   <xsl:template match="q/@type[. = 'default']" />
 
   <xsl:template match="text()">
-    <xsl:call-template name="kiln:escape-value">
-      <xsl:with-param name="value" select="." />
-      <xsl:with-param name="url-escaped" select="0" />
-    </xsl:call-template>
+    <xsl:param name="escape" select="'true'" />
+    <xsl:choose>
+      <xsl:when test="$escape = 'false'">
+        <xsl:value-of select="." />
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:call-template name="kiln:escape-value">
+          <xsl:with-param name="value" select="." />
+          <xsl:with-param name="url-escaped" select="0" />
+        </xsl:call-template>
+      </xsl:otherwise>
+    </xsl:choose>
   </xsl:template>
 
   <xsl:template match="@*|*">

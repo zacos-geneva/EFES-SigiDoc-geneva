@@ -90,6 +90,11 @@ values are:
  * ``range_end`` - The value of the element will be added to the
    general query as the end of a range.
 
+By default, the contents of fields are automatically escaped. When
+this is not desired (for example, to include a ":" in an ``fq``
+element), add an ``escape`` attribute with the value ``false`` to the
+element.
+
 Indexing non-TEI documents
 --------------------------
 
