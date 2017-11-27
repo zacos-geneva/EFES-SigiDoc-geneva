@@ -7,6 +7,8 @@
   <!-- Template to display a list of documents and links to various
        editorial processes that may be applied to them. -->
 
+  <xsl:param name="concordance-bibliography-file" />
+
   <xsl:import href="cocoon://_internal/template/xsl/stylesheets/admin/xml-dirs-to-process-list-html.xsl" />
 
   <kiln:parent>

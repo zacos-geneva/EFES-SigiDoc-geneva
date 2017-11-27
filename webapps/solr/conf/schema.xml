@@ -149,20 +149,28 @@
           multiValued="true" stored="true" required="false" />
    <field name="mentioned_people" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
-   <field name="source_repository" type="string" required="false" 
-          multiValued="true" stored="true" indexed="true"/>
+   <field name="source_repository" type="string" required="false"
+          multiValued="true" stored="true" indexed="true" />
+   <!-- User index fields. -->
    <field name="index_item_name" stored="true" indexed="true"
           multiValued="false" required="false" type="string" />
    <field name="index_instance_location" stored="true" indexed="false"
           multiValued="true" required="false" type="string" />
-   <field name="index_abbreviation_expansion" stored="true" 
-     indexed="false" multiValued="false" required="false" type="string"/>
+   <field name="index_abbreviation_expansion" stored="true"
+          indexed="false" multiValued="false" required="false" type="string" />
    <field name="language_code" stored="true" indexed="true"
-     multiValued="true" required="false" type="string"/>
-   <field name="index_numeral_value" stored="true" indexed="false" 
-     multiValued="false" required="false" type="string"/>
-   <field name="origin_date_evidence" required="false" indexed="true" 
-     multiValued="true" stored="true" type="string"/>
+          multiValued="true" required="false" type="string" />
+   <field name="index_numeral_value" stored="true" indexed="false"
+          multiValued="false" required="false" type="string" />
+   <field name="origin_date_evidence" required="false" indexed="true"
+          multiValued="true" stored="true" type="string" />
+   <!-- Concordance fields. -->
+   <field name="concordance_bibliography_ref" stored="true" indexed="true"
+          multiValued="false" required="false" type="string" />
+   <field name="concordance_bibliography_cited_range" stored="true"
+          indexed="true" multiValued="false" required="false" type="string" />
+   <field name="concordance_bibliography_item" stored="true" indexed="false"
+          multiValued="true" required="false" type="string" />
 
    <!-- catchall field, containing all other searchable text fields
         (implemented via copyField further on in this schema -->

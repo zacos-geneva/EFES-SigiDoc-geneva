@@ -106,7 +106,8 @@
 
       <!-- Adding TEI with EATS specifying the authority. The first
            parameter is the authority id. -->
-      <map:match id="local-solr-add-tei-eats-authority" pattern="add/tei-eats-authority/*/**.xml">
+      <map:match id="local-solr-add-tei-eats-authority"
+                 pattern="add/tei-eats-authority/*/**.xml">
         <map:aggregate element="aggregation">
           <map:part element="tei"
                     src="cocoon:/preprocess/tei-eats/{2}.xml" />
@@ -148,6 +149,23 @@
           <map:parameter name="base-uri" value="{global:rdf-base-uri}" />
           <map:parameter name="index_type" value="{2}" />
           <map:parameter name="subdirectory" value="{1}" />
+        </map:transform>
+        <map:transform type="solr">
+          <map:parameter name="url" value="{global:solr-server}" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Adding EpiDoc bibliographic concordance. -->
+      <map:match id="local-solr-add-bibliographic-concordance"
+                 pattern="add/concordance/authority/bibliography.xml">
+        <map:generate src="cocoon://_internal/dirlist/content/xml/epidoc.xml" />
+        <map:transform src="../stylesheets/admin/dir-to-xinclude.xsl">
+          <map:parameter name="prefix" value="cocoon://internal/epidoc/preprocess/no-language/" />
+        </map:transform>
+        <map:transform type="xinclude" />
+        <map:transform src="../stylesheets/solr/concordance-bibliography-to-solr.xsl">
+          <map:parameter name="file-path" value="authority/bibliography" />
         </map:transform>
         <map:transform type="solr">
           <map:parameter name="url" value="{global:solr-server}" />

@@ -42,6 +42,7 @@
         <tr>
           <th scope="col">File</th>
           <th scope="col">RDF</th>
+          <th scope="col">Concordance</th>
         </tr>
       </thead>
       <tbody>
@@ -108,6 +109,14 @@
                                      ($filepath), 0)}">
           <xsl:text>Harvest</xsl:text>
         </a>
+      </td>
+      <td>
+        <xsl:if test="@name = concat($concordance-bibliography-file, '.xml')">
+          <a title="Harvest bibliographic concordance information"
+             href="{kiln:url-for-match('local-solr-index', ('concordance', 'authority/bibliography'), 0)}">
+            <xsl:text>Index</xsl:text>
+          </a>
+        </xsl:if>
       </td>
     </tr>
   </xsl:template>

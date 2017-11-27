@@ -87,6 +87,12 @@
         <epidoc-leiden-style>panciera</epidoc-leiden-style>
         <epidoc-line-inc>5</epidoc-line-inc>
         <epidoc-verse-lines>off</epidoc-verse-lines>
+        <!-- 'concordance-bibliography-file' is the name (without
+             ".xml" extension) of the file in content/xml/authority
+             that holds the list of bibliographic items referenced in
+             the EpiDoc files, so that the bibliographic concordance
+             can be generated. -->
+        <concordance-bibliography-file>bibliography</concordance-bibliography-file>
       </global-variables>
     </map:component-configurations>
 

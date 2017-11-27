@@ -5,6 +5,10 @@
   <menu label="Texts" match="local-tei-index-display" i18n:key="menu-texts" />
   <menu label="Inscriptions" match="local-epidoc-index-display"
         i18n:key="menu-inscriptions" />
+  <menu label="Concordances" i18n:key="menu-concordances">
+    <item label="Bibliographic" match="local-concordance-bibliography"
+          i18n:key="menu-concordance-bibliography" />
+  </menu>
   <menu label="Search" match="local-search" i18n:key="menu-search" />
   <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin" />
 </root>

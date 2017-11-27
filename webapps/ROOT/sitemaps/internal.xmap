@@ -46,9 +46,24 @@
            This processing is in a language context (such as front-end
            display). -->
       <map:match id="local-preprocess-epidoc-language"
-        pattern="epidoc/preprocess/language/*/**.xml">
+                 pattern="epidoc/preprocess/language/*/**.xml">
         <map:generate src="../content/xml/epidoc/{2}.xml" />
         <map:transform src="../stylesheets/epidoc/prune-to-language.xsl">
+          <map:parameter name="language" value="{1}" />
+        </map:transform>
+        <map:serialize type="xml" />
+      </map:match>
+
+      <!-- Process a (TEI) authority document prior to its use in
+           another pipeline, normalising and annotating it as
+           required.
+
+           This processing is in a language context (such as front-end
+           display). -->
+      <map:match id="local-preprocess-authority-language"
+                 pattern="authority/preprocess/language/*/**.xml">
+        <map:generate src="../content/xml/authority/{2}.xml" />
+        <map:transform src="../stylesheets/prune-to-language.xsl">
           <map:parameter name="language" value="{1}" />
         </map:transform>
         <map:serialize type="xml" />

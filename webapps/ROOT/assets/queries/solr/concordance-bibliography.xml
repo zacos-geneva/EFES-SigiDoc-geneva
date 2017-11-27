@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<query>
+  <df>concordance_bibliography_ref</df>
+  <q type="default">*</q>
+  <document_type>concordance_bibliography</document_type>
+  <rows>1000</rows>
+  <sort>concordance_bibliography_cited_range asc</sort>
+</query>
