@@ -39,7 +39,7 @@
              * The line number of the instance.
 
              * A Boolean marker (0 or 1) marking if the instance is
-             partially or completely resotre (1) or not (0).
+             partially or completely restored (1) or not (0).
 
            Each part is separated by "#" for parsing in the query
            results.
