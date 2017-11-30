@@ -341,19 +341,21 @@
          {request:queryString}). -->
     <xsl:param name="input" as="xs:string" />
     <xsl:variable name="parts">
-      <xsl:for-each select="tokenize(replace($input, '(.)', '$1\\n'), '\\n')">
-        <xsl:choose>
-          <xsl:when test=". = '&quot;'">
-            <xsl:text>%22</xsl:text>
-          </xsl:when>
-          <xsl:when test=". = '#'">
-            <xsl:text>%23</xsl:text>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="." />
-          </xsl:otherwise>
-        </xsl:choose>
-      </xsl:for-each>
+      <xsl:analyze-string select="$input" regex=".">
+        <xsl:matching-substring>
+          <xsl:choose>
+            <xsl:when test=". = '&quot;'">
+              <xsl:text>%22</xsl:text>
+            </xsl:when>
+            <xsl:when test=". = '#'">
+              <xsl:text>%23</xsl:text>
+            </xsl:when>
+            <xsl:otherwise>
+              <xsl:value-of select="." />
+            </xsl:otherwise>
+          </xsl:choose>
+        </xsl:matching-substring>
+      </xsl:analyze-string>
     </xsl:variable>
     <xsl:value-of select="string-join($parts, '')" />
   </xsl:function>
