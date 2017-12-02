@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <query q_fields="document_type" range_fields="origin_date">
-  <df type="default">text</df>
-  <q type="default">*</q>
+  <df default="true">text</df>
+  <q default="true">*</q>
   <document_type>(tei or epidoc)</document_type>
   <facet>true</facet>
   <facet.field>found_provenance</facet.field>
@@ -17,5 +17,5 @@
   <facet.sort>index</facet.sort>
   <!-- The number of rows returned by Solr at once (that is the number
        displayed per page of results). -->
-  <rows type="default">20</rows>
+  <rows default="true">20</rows>
 </query>

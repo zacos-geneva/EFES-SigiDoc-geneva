@@ -53,9 +53,7 @@ step.
 
 Additionally, the XSLT ``kiln/stylesheets/solr/merge-parameters.xsl``
 adds appropriate elements to the end of a query XML document, as
-above, from data supplied in a parameter. This data must be in the
-form of a query string (without a leading "?"; eg:
-``fq=widget&facet=off``). ``sitemaps/internal.xmap`` provides a
+above, from request data. ``sitemaps/internal.xmap`` provides a
 generic way to generate a search results document using this method.
 
 This approach is not as redundant as it might seem, with a Solr query
@@ -80,20 +78,18 @@ should be appended to the general query (``@q_fields``) and which
 fields should be appended to the general query as a range
 (``@range_fields``).
 
-Child elements of ``query`` may specify a ``type`` attribute; valid
-values are:
+Child elements of ``query`` may specify a ``default`` attribute with
+the value ``true``; the value of this element will only be used if no
+querystring parameter has the same name.
 
- * ``default`` - The value of the element will only be used if no
-   querystring parameter has the same name.
- * ``range_start`` - The value of the element will be added to the
-   general query as the start of a range.
- * ``range_end`` - The value of the element will be added to the
-   general query as the end of a range.
+Facet fields (``facet.field``) may specify a ``join`` attribute with
+the value ``or``; that facet is treated as a multi-select facet, with
+the selected values being ORed together. The default behaviour is for
+selected values to be ANDed together.
 
 By default, the contents of fields are automatically escaped. When
-this is not desired (for example, to include a ":" in an ``fq``
-element), add an ``escape`` attribute with the value ``false`` to the
-element.
+this is not desired, add an ``escape`` attribute with the value
+``false`` to the element.
 
 Indexing non-TEI documents
 --------------------------
