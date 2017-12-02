@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xsl:stylesheet exclude-result-prefixes="#all" version="2.0"
                 xmlns:h="http://apache.org/cocoon/request/2.0"
+                xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
                 xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
                 xmlns:xs="http://www.w3.org/2001/XMLSchema"
@@ -73,13 +74,15 @@
   <!-- Display a facet's name. -->
   <xsl:template match="lst[@name='facet_fields']/lst/@name"
                 mode="search-results">
-    <xsl:for-each select="tokenize(., '_')">
-      <xsl:value-of select="upper-case(substring(., 1, 1))" />
-      <xsl:value-of select="substring(., 2)" />
-      <xsl:if test="not(position() = last())">
-        <xsl:text> </xsl:text>
-      </xsl:if>
-    </xsl:for-each>
+    <i18n:text key="facet-{.}">
+      <xsl:for-each select="tokenize(., '_')">
+        <xsl:value-of select="upper-case(substring(., 1, 1))" />
+        <xsl:value-of select="substring(., 2)" />
+        <xsl:if test="not(position() = last())">
+          <xsl:text> </xsl:text>
+        </xsl:if>
+      </xsl:for-each>
+    </i18n:text>
   </xsl:template>
 
   <!-- Display an individual search result. -->
