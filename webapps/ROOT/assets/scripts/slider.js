@@ -61,7 +61,7 @@ function setup_slider(widget, label) {
  * @param checked_inputs - Array of input/@name values for radio
  *                         buttons and checkboxes.
  */
-function prepare_form(form, slider, inputs, checked_inputs) {
+function prepare_form(form, slider, inputs=[], checked_inputs=[]) {
     var field_name = slider.data("field-name");
     var params = URI.parseQuery(URI.parse(document.location.href).query);
     if (params[field_name + "_start"]) {
@@ -70,7 +70,6 @@ function prepare_form(form, slider, inputs, checked_inputs) {
     if (params[field_name + "_end"]) {
         slider.data("value-max", params[field_name + "_end"]);
     }
-    console.log(params[field_name + "_start"]);
     form.on("submit", function(e) {
         e.preventDefault();
         for (i = 0; i < inputs.length; i++) {
@@ -80,6 +79,7 @@ function prepare_form(form, slider, inputs, checked_inputs) {
             values = $("*[name=" + checked_inputs[i] + ']').map(
                 function() { return $(this).val(); });
             params[checked_inputs[i]] = values;
+        }
         document.location.href = "?" + URI.buildQuery(params);
     });
 }

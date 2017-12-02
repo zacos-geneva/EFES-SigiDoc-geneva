@@ -84,7 +84,7 @@
             label = $("#date-slider-label"),
             inputs = ["q"],
             checked_inputs = ["df"];
-        prepare_form(form, widget, inputs);
+        prepare_form(form, widget, inputs, checked_inputs);
         setup_slider(widget, label);
       });
       </script>
