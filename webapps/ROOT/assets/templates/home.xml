@@ -37,14 +37,14 @@
         <div class="row">
           <div class="large-4 columns">
             <div class="panel radius">
-              <p><strong>Add your TEI</strong></p>
+              <p><strong>Add your files</strong></p>
 
-              <p>Put your files in webapps/ROOT/content/xml/tei (TEI) or
-              webapps/ROOT/content/xml/epidoc (EpiDoc) and go to the <a
+              <p>Put your EpiDoc XML files in webapps/ROOT/content/xml/epidoc and go to the <a
               href="{kiln:url-for-match('local-admin-home-page', (), 0)}">admin</a> and index them for searching. Then see how
-              they are displayed (<a
-              href="{kiln:url-for-match('local-tei-index-display', ($language), 0)}">TEI</a> and <a
-              href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}">EpiDoc</a>).</p>
+              they are displayed
+              
+              (<a
+              href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}">Inscriptions</a>).</p>
             </div>
           </div>
           <div class="large-4 columns">
@@ -61,9 +61,10 @@
             <div class="panel radius">
               <p><strong>Read the documentation</strong></p>
 
-              <p>The system comes with documentation both <a
-              href="http://kiln.readthedocs.org/en/latest/">online</a>
-              and, in source form, in the docs directory of your
+              <p>The documentation and User Guide for  
+                EFES can be found on the project's <a href="https://github.com/EpiDoc/EFES/wiki/">GitHub Wiki pages</a>. 
+                Documentation for Kiln, the platform that EFES is based on, can be found both <a
+                  href="http://kiln.readthedocs.org/en/latest/">online</a>, and in source form, in the docs directory of your
               installation. It explains how you can modify everything
               about your project.</p>
             </div>
