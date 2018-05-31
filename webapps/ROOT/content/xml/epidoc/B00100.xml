@@ -49,7 +49,7 @@
                   </origin>
                   <provenance type="found">
                      <p><placeName type="ancientFindspot" ref="http://www.slsgazetteer.org/1172">South of Berenike</placeName>:
-                        <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/363924" ref="http://www.slsgazetteer.org/1211">Arae Philaenorum</placeName>; reused to 
+                        <placeName type="ancientFindspot" ref="http://pleiades.stoa.org/places/363924 http://www.slsgazetteer.org/1211">Arae Philaenorum</placeName>; reused to 
                         form part of the west side of enclosure C; found in <date type="found">1951</date></p>
                           </provenance>
                         <provenance type="observed">
