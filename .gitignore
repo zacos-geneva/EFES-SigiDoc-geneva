@@ -7,3 +7,4 @@ webapps/ROOT/content/xml/tei
 webapps/ROOT/WEB-INF/logs
 webapps/solr/data
 docs/build
+.svn
