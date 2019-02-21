@@ -114,7 +114,11 @@
             </revisionDesc>
     </teiHeader>
     <facsimile>
-        <surface> </surface>
+        <surface>
+            <graphic url="igcyr002200.jpg">
+                <desc>Drawing. Boardman, J. Drawing of igcyr002200 Dedication, 1965, from Boardman-Hayes1973, fig. 41., Department of Antiquities, Tukrah.</desc>
+            </graphic>
+        </surface>
     </facsimile>
     <text>
         <body>

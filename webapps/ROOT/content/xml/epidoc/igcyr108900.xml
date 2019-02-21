@@ -113,7 +113,17 @@
         </revisionDesc>
     </teiHeader>
     <facsimile> 
-        <surface> </surface>
+        <surface>
+            <graphic url="igcyr108900-1.jpg" n="1">
+                <desc>Reynolds, J.M. View of igcyr108900 Private honors for a grandson, 1996, IRCyr project.</desc>
+            </graphic>
+            <graphic url="igcyr108900-2.jpg" n="2">
+                <desc>Reynolds, J.M. Face of igcyr108900 Private honors for a grandson, 1996, IRCyr project.</desc>
+            </graphic>
+            <graphic url="igcyr108900-3.jpg" n="3">
+                <desc>Dobias-Lalou, C. Squeeze of igcyr108900 Private honors for a grandson, 1993, Mission Archéologique Française.</desc>
+            </graphic>
+        </surface>
     </facsimile>
     <text>
         <body>

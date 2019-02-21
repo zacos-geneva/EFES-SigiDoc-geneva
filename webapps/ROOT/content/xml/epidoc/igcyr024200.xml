@@ -114,7 +114,14 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <surface> </surface>
+        <surface>
+            <graphic url="igcyr024200-1.jpg" n="1">
+                <desc>Face of igcyr024200 Epitaph (?). Dobias-Lalou, C. Face of igcyr024200 Epitaph (?), 1979, Mission Archéologique Française.</desc>
+            </graphic>
+            <graphic url="igcyr024200-2.jpg" n="2">
+                <desc>Drawing of igcyr024200 Epitaph (?). Dobias-Lalou, C. Drawing of igcyr024200 Epitaph (?), 1979, Mission Archéologique Française.</desc>
+            </graphic>
+        </surface>
     </facsimile>
     <text>
         <body>

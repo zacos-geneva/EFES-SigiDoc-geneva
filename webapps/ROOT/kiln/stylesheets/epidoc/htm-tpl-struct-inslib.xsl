@@ -144,12 +144,20 @@
        <xsl:apply-templates select="$commtxt" mode="sqbrackets"/>
      </div>
 
-     <p><b><i18n:text i18n:key="epidoc-xslt-inslib-bibliography">Bibliography</i18n:text>: </b>
+     <p><b><i18n:text i18n:key="epidoc-xslt-inslib-bibliography">Bibliographyi</i18n:text>: </b>
      <xsl:apply-templates select="//t:div[@type='bibliography']/t:p/node()"/> 
      <br/>
      <b><i18n:text i18n:key="epidoc-xslt-inslib-constituted-from">Text constituted from</i18n:text>: </b>
      <xsl:apply-templates select="//t:creation"/>
      </p>
+     
+     <div id="images">
+       <h4>Images</h4>
+         <xsl:for-each select="//t:facsimile//t:graphic">
+           <span>&#160;</span>
+             <xsl:apply-templates select="." />
+         </xsl:for-each>
+     </div>
    </xsl:template>
 
    <xsl:template name="inslib-structure">
@@ -195,9 +203,9 @@
       </xsl:if>
    </xsl:template>
    
-   <xsl:template match="t:placeName|t:rs" mode="inslib-placename">
+   <xsl:template match="t:placeName|t:rs" mode="inslib-placename"> <!-- remove rs? -->
       <xsl:choose>
-         <xsl:when test="contains(@ref,'pleiades.stoa.org') or contains(@ref,'geonames.org')">
+        <xsl:when test="contains(@ref,'pleiades.stoa.org') or contains(@ref,'geonames.org') or contains(@ref,'slsgazetteer.org')">
             <a>
                <xsl:attribute name="href">
                   <xsl:value-of select="@ref"/>
@@ -227,6 +235,29 @@
    <xsl:template name="inslib-title">
      <xsl:choose>
        <xsl:when test="//t:titleStmt/t:title/text() and number(substring(//t:publicationStmt/t:idno[@type='filename']/text(),2,5))">
+         <xsl:value-of select="//t:publicationStmt/t:idno[@type='filename']/text()"/> 
+         <xsl:text>. </xsl:text>
+         <xsl:value-of select="//t:titleStmt/t:title"/>
+       </xsl:when>
+       <xsl:when test="//t:titleStmt/t:title/text()">
+         <xsl:value-of select="//t:titleStmt/t:title"/>
+       </xsl:when>
+       <xsl:when test="//t:sourceDesc//t:bibl/text()">
+         <xsl:value-of select="//t:sourceDesc//t:bibl"/>
+       </xsl:when>
+       <xsl:when test="//t:idno[@type='filename']/text()">
+         <xsl:value-of select="//t:idno[@type='filename']"/>
+       </xsl:when>
+       <xsl:otherwise>
+         <xsl:text>EpiDoc example output, InsLib style</xsl:text>
+       </xsl:otherwise>
+     </xsl:choose>
+   </xsl:template>
+  
+  <!--  old code for inscription numbers now in <idno type="ircyr2012">:
+    <xsl:template name="inslib-title">
+     <xsl:choose>
+       <xsl:when test="//t:titleStmt/t:title/text() and number(substring(//t:publicationStmt/t:idno[@type='filename']/text(),2,5))">
          <xsl:value-of select="substring(//t:publicationStmt/t:idno[@type='filename'],1,1)"/> 
          <xsl:text>. </xsl:text>
          <xsl:value-of select="number(substring(//t:publicationStmt/t:idno[@type='filename'],2,5)) div 100"/> 
@@ -246,6 +277,6 @@
          <xsl:text>EpiDoc example output, InsLib style</xsl:text>
        </xsl:otherwise>
      </xsl:choose>
-   </xsl:template>
+   </xsl:template> -->
 
  </xsl:stylesheet>

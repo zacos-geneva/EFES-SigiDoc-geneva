@@ -80,13 +80,13 @@
         <!-- Epidoc-related variables. Supported values are documented
              in webapps/ROOT/kiln/stylesheets/epidoc/README.txt. -->
         <epidoc-edition-type>interpretive</epidoc-edition-type>
-        <epidoc-edn-structure>default</epidoc-edn-structure>
+        <epidoc-edn-structure>inslib</epidoc-edn-structure>
         <epidoc-external-app-style>iospe</epidoc-external-app-style>
         <epidoc-image-loc>/images/</epidoc-image-loc>
         <epidoc-internal-app-style>none</epidoc-internal-app-style>
         <epidoc-leiden-style>panciera</epidoc-leiden-style>
         <epidoc-line-inc>5</epidoc-line-inc>
-        <epidoc-verse-lines>off</epidoc-verse-lines>
+        <epidoc-verse-lines>on</epidoc-verse-lines>
         <!-- 'concordance-bibliography-file' is the name (without
              ".xml" extension) of the file in content/xml/authority
              that holds the list of bibliographic items referenced in

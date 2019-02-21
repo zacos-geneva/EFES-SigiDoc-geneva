@@ -108,7 +108,11 @@
         </revisionDesc>
     </teiHeader>
     <facsimile>
-        <surface> </surface>
+        <surface>
+            <graphic url="igcyr134800.jpg">
+                <desc>Montanari, M. View of igcyr134800 Unclear, 2010, Missione Archeologica a Cirene, Università di Urbino.</desc>
+            </graphic>
+        </surface>
     </facsimile>
     <text>
         <body>
