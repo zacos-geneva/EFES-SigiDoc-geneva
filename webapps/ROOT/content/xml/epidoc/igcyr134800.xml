@@ -124,7 +124,6 @@
           
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                <head>Text</head>
                 <ab>
                     <lb n="1"/><gap reason="lost" extent="unknown" unit="character"><certainty locus="name" match=".."/></gap> <orig>μμ</orig><gap reason="illegible" quantity="1" unit="character"/> <gap reason="lost" extent="unknown" unit="character"><certainty locus="name" match=".."/></gap>
 	 </ab>

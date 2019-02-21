@@ -126,7 +126,6 @@
             </div>
             
             <div type="edition" xml:lang="grc" xml:space="preserve">
-                <head>Text</head>
                 <ab>
                     <lb n="1"/><persName type="attested" key=""><name nymRef="Εὐκλείδας">Εὐκ<supplied reason="lost" cert="low">λείδ</supplied>α</name></persName>
                     <lb n="2"/><w lemma="ἔργον">ἔργ<supplied reason="lost" cert="low">ον</supplied></w>
