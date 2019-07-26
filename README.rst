@@ -19,7 +19,7 @@ https://github.com/EpiDoc/EFES/wiki/
 EFES Users discussion group
 ----
 
-Low-traffic, moderated discussion list: [EFES-Users](https://groups.google.com/forum/#!forum/efes-users)
+Low-traffic, moderated discussion list: <https://groups.google.com/forum/#!forum/efes-users>
 
 Kiln
 ----
