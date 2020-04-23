@@ -14,11 +14,6 @@
     </fileDesc>
   </teiHeader>
   <text>
-    <front>
-      <div>
-        <p>These indices are based on those included in the IOSPE project.</p>
-      </div>
-    </front>
     <body>
       <div xml:id="symbol">
         <head>Symbols</head>
@@ -148,6 +143,61 @@
               <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
             </item>
           </list>
+        </div>
+      </div>
+      
+      <div xml:id="prosopography">
+        <head>Prosopography</head>
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>Refences</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+        </div>
+      </div>
+      
+      <div xml:id="divine">
+        <head>Divinities</head>
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>References</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+        </div> 
+      </div>
+      
+      <div xml:id="mentioned_places">
+        <head>Toponyms</head>
+        <div type="headings">
+          <list>
+            <item>Name</item>
+            <item>Type</item>
+            <item>References</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
+        </div>
+      </div>
+      
+      <div xml:id="institutions">
+        <head>Institutions</head>
+        <div type="headings">
+          <list>
+            <item>Institution</item>
+            <item>Type</item>
+            <item>Role</item>
+            <item>References</item>
+          </list>
+        </div>
+        <div type="notes">
+          <p>Square brackets [ ] indicate that the name/word is partially or completely restored in this inscription.</p>
         </div>
       </div>
     </body>

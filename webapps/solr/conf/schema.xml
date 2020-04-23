@@ -151,6 +151,15 @@
           multiValued="true" stored="true" required="false" />
    <field name="source_repository" type="string" required="false"
           multiValued="true" stored="true" indexed="true" />
+   <field name="mentioned_divinities" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />
+   <field name="person_name" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />   
+   <field name="mentioned_institutions" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />
+   <field indexed="true" multiValued="true" name="inscription_type"
+     required="false" stored="true" type="string" />
+
    <!-- User index fields. -->
    <field name="index_item_name" stored="true" indexed="true"
           multiValued="false" required="false" type="string" />
@@ -162,6 +171,12 @@
           multiValued="true" required="false" type="string" />
    <field name="index_numeral_value" stored="true" indexed="false"
           multiValued="false" required="false" type="string" />
+   <field name="index_institution_role" stored="true" indexed="true"
+     multiValued="false" required="false" type="string" />
+   <field name="index_institution_type" stored="true" indexed="true"
+     multiValued="false" required="false" type="string" />
+   <field name="index_ethnic" stored="true" indexed="true"
+     multiValued="false" required="false" type="string" />
    <field name="origin_date_evidence" required="false" indexed="true"
           multiValued="true" stored="true" type="string" />
    <!-- Concordance fields. -->
