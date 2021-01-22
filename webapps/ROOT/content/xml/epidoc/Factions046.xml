@@ -2,16 +2,16 @@
 
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="factions045" xml:lang="en">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="factions046" xml:lang="en">
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title><rs type="textType">Acclamation</rs>s for <rs type="textType">Blue</rs>s</title>
+            <title><rs type="textType">Place</rs>s for <rs type="textType">Blue</rs>s and elder <rs type="textType">Jew</rs>s</title>
             <editor xml:id="cmr">Charlotte Roueché</editor>
          </titleStmt>
          <publicationStmt>
             <authority>Centre for Computing in the Humanities, King's College London</authority>
-            <idno type="filename">factions045</idno>
+            <idno type="filename">factions046</idno>
             <availability>
                <p>Creative Commons licence Attribution UK 2.0
                         (<ref>http://creativecommons.org/licenses/by/2.0/uk/</ref>)</p>
@@ -29,12 +29,14 @@
                         </support>
                      </supportDesc>
                      <layoutDesc>
-                        <layout>i irregular <rs type="execution" key="litteris scariphatis">graffito</rs>, very worn; 
-                           ii, carefully <rs type="execution" key="litteris scalpro">cut</rs>, on two blocks; the letters on the second have been erased</layout>
+                        <layout><rs type="execution" key="litteris scariphatis">Graffito</rs>. The alignment here, and a slight difference in the design of the two betas, 
+                           may suggest that the word Βενέτων was cut by a different hand - whether earlier or later is uncertain; but this cannot be regarded as proven, 
+                           given the roughness of the whole. 
+                           </layout>
                      </layoutDesc>
                   </objectDesc>
                   <handDesc>
-                     <handNote>i, square letters <height>0.035-0.045</height>, ΟΥ in ligature; ii, lunate letters <height>0.04-0.07</height> </handNote>
+                     <handNote>square letters; line 1, <height>0.002-0.045</height>, line 2, <height>0.02-0.035</height> </handNote>
                   </handDesc>
                </physDesc>
                <history>
@@ -44,7 +46,7 @@
                   </origin>
                         <provenance type="found">
                            <p><placeName type="ancientFindspot" ref="https://pleiades.stoa.org/places/638753">Aphrodisias</placeName>: 
-                              <rs type="monument">Odeon</rs>: Block E, i in Row 5, ii in Row 7.</p>
+                              <rs type="monument">Odeon</rs>: Block D, Row 6.</p>
                         </provenance>
                         <provenance type="observed">
                            <p>Findspot</p>
@@ -88,35 +90,30 @@
       <revisionDesc>
           <change when="2021-01-16" who="cmr">hand-copied from previous publication</change>
       </revisionDesc>
-   </teiHeader><facsimile><graphic url="FactionAphrod45.jp2"><desc>View of block, with ii (Roueché)</desc></graphic>
-      <graphic url="FactionAphrod45a.jp2"><desc>i. Face (Roueché, 1972: 72.A.27A)</desc></graphic>
-      <graphic url="FactionAphrod45b.jp2"><desc>ii. Face (Roueché, 1972: 72.A.26A)</desc></graphic></facsimile>
+   </teiHeader><facsimile>
+      <graphic url="FactionAphrod46.jp2"><desc>Face (Roueché, 1972: 72.A.25A)</desc></graphic></facsimile>
    <text>
       <body>
          <div type="bibliography">
-            <p>i and ii: Cited <bibl><ptr type="cameron1976"/><citedRange>315</citedRange></bibl>;
-             published <bibl><ptr target="roueche1989"/> <citedRange>180.iv and v</citedRange></bibl>, whence 
-               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257577">257577</ref></citedRange>, 
-                  <citedRange><ref target="https://epigraphy.packhum.org/text/257578">257578</ref></citedRange></bibl>;
-             <bibl><ptr type="roueche1993"/> <citedRange unit="entry">47.2.E</citedRange></bibl>, whence 
-               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265137">265137</ref></citedRange>, 
-                  <citedRange><ref target="https://epigraphy.packhum.org/text/265138">265138</ref></citedRange></bibl>;
-             <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph020008.html">2.8</ref></citedRange></bibl>
+            <p>Cited <bibl><ptr type="cameron1976"/><citedRange>315</citedRange></bibl>, whence <bibl><ptr target="robertBE"/> <citedRange>1977.82</citedRange></bibl>; 
+               published <bibl><ptr target="jmrrft1987"/>Appendix, 1a</bibl>, whence  
+               <bibl> <ptr target="SEG"/> <citedRange>1987, 846</citedRange></bibl>, <bibl><ptr target="BE"/> <citedRange>1988.888</citedRange></bibl>;
+             <bibl><ptr target="roueche1989"/> <citedRange>180.iii</citedRange></bibl>, whence 
+              <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/257653">257653</ref></citedRange></bibl>;
+             <bibl><ptr type="roueche1993"/> <citedRange unit="entry">47.2.D</citedRange></bibl>, whence 
+               <bibl><ptr target="PHI"/> <citedRange><ref target="https://epigraphy.packhum.org/text/265136">265136</ref></citedRange></bibl>;
+             <bibl><ptr target="iaph2007"/> <citedRange unit="entry"><ref target="http://insaph.kcl.ac.uk/iaph2007/iAph020018.html">2.18</ref></citedRange></bibl>
                </p>
          </div>
          
          <div type="edition" xml:lang="grc" xml:space="preserve">
-                    
-               <div type="textpart" n="i"><ab><lb n="1"/><gap reason="lost" extent="2" unit="character"/><w lemma="Βένετος">Βενέτ<hi rend="ligature"><unclear>ου</unclear></hi></w>
-               </ab></div>
-            <div type="textpart" n="ii"><ab>
-               <lb n="1"/><w lemma="τόπος">τό <milestone unit="block"/><del rend="erasure">πός</del></w> <del rend="erasure"><w lemma="Βένετος"><expan><abbr>Βενέ</abbr><ex>των</ex></expan></w></del>
-            </ab></div>
+               <ab><lb n="1"/><w lemma="τόπος">τόπος</w> <w lemma="Βένετος">Βενέτων</w>
+<lb n="2"/><placeName type="ethnic" key="Ἑβραῖος">Ἑβρ<unclear>έ</unclear>ων</placeName> <w lemma="ὁ">τῶν</w> <w lemma="παλαιός"><unclear>πα</unclear>λεῶν</w></ab>
+               
              </div> 
          
          <div type="translation" xml:space="preserve">
-           <div type="translation" xml:lang="en" resp="#cmr"><p><note>i</note>: [ . . ? . . ] of <supplied reason="subaudible">the</supplied> Blue</p>
-              <p><note>ii</note>: Place of Blues</p>
+           <div type="translation" xml:lang="en" resp="#cmr"><p>Place of Blues, of the elder Jews</p>
            </div>
          </div>
          <div type="commentary">
