@@ -12,7 +12,7 @@
          </titleStmt>
          <publicationStmt>
             <authority>Centre for Computing in the Humanities, King's College London</authority>
-            <idno type="filename">M.233</idno>
+            <idno type="filename">ircyr-M.233</idno>
             <idno type="ircyr2012">C86400</idno>
             <idno type="JMR">6</idno>
             <availability>
@@ -106,9 +106,8 @@
             <head>Bibliography</head>
             <p>
                <bibl>
-                  <ptr target="mohamed-jmr1992"/>  <citedRange>6</citedRange>
-               </bibl>, whence <bibl>
-                  <title>SEG</title> <citedRange>42.1673</citedRange>
+                  <ptr target="mohamed-jmr1992"/>, <citedRange>6</citedRange></bibl>, whence <bibl>
+                     <ptr target="SEG"/> <citedRange>42.1673</citedRange>
                </bibl>
             </p>
          </div>

@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<alist>
+<?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Controlled vocabulary for months</title>
+            </titleStmt>
+            <publicationStmt><p></p></publicationStmt>
+            <sourceDesc><p></p></sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
     <list>
         <head xml:lang="en">Roman items</head>
         <head xml:lang="ru">Римские</head>
@@ -119,4 +131,6 @@
         <day/>
     </list>-->
 
-</alist>
+        </body>
+    </text>
+</TEI>
