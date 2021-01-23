@@ -175,7 +175,11 @@
                         <biblScope unit="issue">10</biblScope>, <biblScope unit="page">121-184</biblScope> available at <ptr target="http://epublishing.ekt.gr/el/5131/Τεκμήρια/7082"/></bibl>
                     
                     <bibl xml:id="PHI"><bibl type="abbrev">PHI</bibl>: <title>Searchable Greek Inscriptions</title>, <publisher>Packard
-                        Humanities Institute</publisher>, available at <ref target="http://epigraphy.packhum.org/inscriptions/"/></bibl>       
+                        Humanities Institute</publisher>, available at <ref target="http://epigraphy.packhum.org/inscriptions/"/></bibl>
+                    
+                    <bibl xml:id="jmrrft1987"> <bibl type="abbrev">Reynolds-Tannenbaum, 1987</bibl> <author ref="http://viaf.org/viaf/25924">J. M. <name>Reynolds</name></author> 
+                        and <author ref="http://viaf.org/viaf/8915317">R. F. <name>Tannenbaum</name></author> <date>1987</date> 
+                        <title level="m">Jews and God-fearers at Aphrodisias</title>,  <pubPlace>Cambridge</pubPlace> </bibl>
                     
                     <bibl xml:id="robert1960"> <bibl type="abbrev">Robert, Hellenica XI-XII</bibl> <author ref="http://viaf.org/viaf/41845785">Louis <name>Robert</name></author> 
                         <date>1960</date> <title level="m">Hellenica</title>, 
