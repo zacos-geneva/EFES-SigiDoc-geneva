@@ -46,20 +46,6 @@
                   type="image" />
       </map:match>
 
-      <map:match id="local-images-jp2" pattern="images/**.jp2">
-        <map:read mime-type="image/jp2" src="../content/images/{1}.jp2"
-          type="image" />
-      </map:match>
-      
-      
-      <map:match id="local-images-jp2-thumbnail" pattern="images/**-thumb.jp2">
-        <map:read mime-type="image/jp2" src="../content/images/{1}.jp2"
-          type="image">
-          <map:parameter name="width" value="100" />
-        </map:read>
-      </map:match>
-      
-      
       <map:match id="local-images-png" pattern="images/**.png">
         <map:read mime-type="image/png" src="../content/images/{1}.png"
                   type="image" />
