@@ -4,8 +4,6 @@
            xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
            xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
-  <xsl:import href="cocoon://_internal/template/xsl/stylesheets/text-file-list-to-html.xsl" />
-
   <!-- Type of document (name of subdirectory containing the source
        file). -->
   <xsl:variable name="document_type" select="'epidoc'" />
