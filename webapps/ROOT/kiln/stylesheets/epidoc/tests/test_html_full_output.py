@@ -18,7 +18,7 @@ class HTMLFullOutputTestCase(unittest.TestCase):
 
     _command = 'java net.sf.saxon.Transform -o:{output} -s:{source} ' \
                '-xsl:{xsl} -versionmsg:off edn-structure={structure}'
-    _structures = ('default', 'dol', 'edak', 'inslib', 'iospe', 'spes')
+    _structures = ('default', 'dol', 'edak', 'inslib', 'iospe', 'sample', 'spes')
 
     def setUp(self):
         base_dir = os.path.dirname(os.path.abspath(__file__))
