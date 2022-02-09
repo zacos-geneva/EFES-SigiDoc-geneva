@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph140018" n="iAph1795 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph140018" n="iAph1795 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -79,4 +79,4 @@
 <p>Published, from Deering,  by <bibl n="leake1843"><author>Leake</author> <biblScope>5</biblScope></bibl>; by <bibl n="LBW"><author>Waddington</author>, <title type="abbreviated">LBW</title> <biblScope>1598bis</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257139">260</biblScope>
 </bibl>; by <bibl><author>K. G. Anthopoulos</author>, <title>Homeros</title> III (1875) 80</bibl>, on which see <bibl n="Hell13"><author>L. Robert</author>, <title level="s">Hellenica</title> XIII, 114</bibl>.</p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Deering_03"><figDesc>Deering notebook, page 3</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

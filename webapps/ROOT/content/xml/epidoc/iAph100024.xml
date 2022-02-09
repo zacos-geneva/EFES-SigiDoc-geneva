@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph100024" n="iAph0742 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100024" n="iAph0742 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -99,4 +99,4 @@
 <head>Photographs</head>
 <p><figure href="75_E_23"><figDesc>Row B (1975)</figDesc></figure><figure href="75_E_22"><figDesc>Row C (1975)</figDesc></figure><figure href="75_E_21"><figDesc>Row L (1975)</figDesc></figure><figure href="75_E_24"><figDesc>Row R (1975)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph020531" n="iAph0222 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020531" n="iAph0222 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -109,4 +109,4 @@ no. <biblScope>222</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</auth
 
       </body>
   </text>
-</TEI.2>
+</TEI>

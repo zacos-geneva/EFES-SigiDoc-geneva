@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120029" n="iAph1022 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120029" n="iAph1022 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -99,4 +99,4 @@
 <p><figure href="73_P_35A"><figDesc>Face (1973)</figDesc></figure><figure href="73_W_03"><figDesc>iii, fragment b (1973)</figDesc></figure></p></div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Deering_13"><figDesc>Deering notebook, 13</figDesc></figure><figure href="gaudin_0005"><figDesc>ii, ll 1-12, left end: Gaudin squeeze</figDesc></figure><figure href="gaudin_0016"><figDesc>ii, ll 1-12, right end: Gaudin squeeze</figDesc></figure><figure href="gaudin_0007"><figDesc>ii, ll 13-22, left end: Gaudin squeeze</figDesc></figure><figure href="gaudin_0011"><figDesc>ii, ll 13-22, right end: Gaudin squeeze</figDesc></figure></p></div></body>
 </text>
 
-</TEI.2>
+</TEI>

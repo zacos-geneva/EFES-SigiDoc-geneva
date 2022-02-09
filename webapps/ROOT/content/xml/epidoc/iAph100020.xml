@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph100020" n="iAph0738 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100020" n="iAph0738 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -84,4 +84,4 @@ Design, circle, type C2.</note></div><div type="textpart_section" n="AA"><div ty
 <head>Photographs</head>
 <p><figure href="75_E_15"><figDesc>Row AA.iii</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

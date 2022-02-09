@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph010177" n="iAph0678 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010177" n="iAph0678 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -223,4 +223,4 @@
 <head>Photographs</head>
 <p><figure href="77_A_03"><figDesc>Lines 1-6 (1977)</figDesc></figure><figure href="76_F_31A"><figDesc>Lines 11-22 (1976)</figDesc></figure><figure href="77_A_02"><figDesc>Lines 6-8 (1977)</figDesc></figure></p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Deering_06"><figDesc>Deering notebook, page 6</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

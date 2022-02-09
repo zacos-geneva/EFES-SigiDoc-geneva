@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080108" n="iAph1265 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080108" n="iAph1265 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -73,4 +73,4 @@ Found: <rs type="found"><rs type="monuList">Theatre</rs></rs>
 <head>Photographs</head>
 <p><figure href="78_B_21"><figDesc>Face (1978)</figDesc></figure><figure href="78_B_22"><figDesc>Face (1978)</figDesc></figure></p><p>KTE68.18.3</p>
 </div></body></text>
-</TEI.2>
+</TEI>

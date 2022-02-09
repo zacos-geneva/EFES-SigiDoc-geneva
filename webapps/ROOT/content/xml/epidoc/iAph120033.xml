@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120033" n="iAph0547 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120033" n="iAph0547 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -78,4 +78,4 @@
 <p>Published by <bibl n="reinach">Reinach, from Gaudin's squeeze, REG 19, 1906, 84, no. <biblScope>4</biblScope></bibl>, whence <bibl>Abbott &amp; Johnson, no. 138</bibl>, <bibl>Veyne, <title>Mél. Piganiol</title> 1395-1396</bibl>, <bibl n="be">BE <biblScope>1967.554</biblScope></bibl>; by <bibl n="jmr1982">Reynolds, from Gaudin, <title>Aphrodisias &amp; Rome</title>, doc. <biblScope>47</biblScope></bibl>, whence <bibl n="seg">SEG <biblScope>1982.1097</biblScope></bibl>, <bibl n="be">BE <biblScope>1983.391</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257205">327</biblScope>
 </bibl>.</p>
 </div></body></text>
-</TEI.2>
+</TEI>

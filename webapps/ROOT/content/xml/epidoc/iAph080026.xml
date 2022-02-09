@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080026" n="iAph0507 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080026" n="iAph0507 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -90,4 +90,4 @@ Document, <date notAfter="-0038" notBefore="-0039">39/38 B.C.</date> (<rs type="
 <head>Photographs</head>
 <p><figure href="77_M_18A"><figDesc>b, below <xref type="inscription" n="508" href="080027">8.27</xref>, in situ (1977)</figDesc></figure><figure href="75_K_23A"><figDesc>Lines 1-3, fragment (1975)</figDesc></figure><figure href="75_K_06A"><figDesc>Lines 3-11, left end (1975)</figDesc></figure><figure href="75_K_05A"><figDesc>Lines 3-11, centre left (1975)</figDesc></figure><figure href="77_Y_23"><figDesc>c: Lines 3-11, assembled (1977)</figDesc></figure><figure href="77_M_10A"><figDesc>Lines 1-10,  right end, below <xref type="inscription" n="508" href="080027">8.27</xref> in situ (1977)</figDesc></figure><figure href="HUMS003679"><figDesc>Archive Wall view (1994)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

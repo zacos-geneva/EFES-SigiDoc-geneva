@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph100019" n="iAph0737 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100019" n="iAph0737 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -85,4 +85,4 @@ Design: one H. 10 variant, with twelve holes in outer ring and three within the 
 <head>Photographs</head>
 <p><figure href="91_E_04A"><figDesc>Row K (1991)</figDesc></figure><figure href="91_E_05A"><figDesc>Row Z.i (1991)</figDesc></figure><figure href="91_E_08A"><figDesc>Row Z.ii (1991)</figDesc></figure><figure href="91_E_07A"><figDesc>Row Z.iii (1991)</figDesc></figure><figure href="91_E_02A"><figDesc>Row AA (1991)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph040004" n="iAph1258 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040004" n="iAph1258 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -80,4 +80,4 @@ Found: <rs type="found"><rs type="monuList">South Agora</rs>: at the west end of
 <head>Photographs</head>
 <p><figure href="85_H_15A"><figDesc>Block d., part (1985)</figDesc></figure><figure href="85_D_38"><figDesc>Block d., part (1985)</figDesc></figure><figure href="85_H_13A"><figDesc>Block f. (1985)</figDesc></figure><figure href="85_H_14A"><figDesc>Block f. (1985)</figDesc></figure> <figure href="85_B_29"><figDesc>Block g., left part (1985)</figDesc></figure><figure href="85_B_28"><figDesc>Block i. (1985)</figDesc></figure>  <figure href="85_H_10A"><figDesc>Block k. (1985)</figDesc></figure> <figure href="85_J_17"><figDesc>Fragment ii. (1985)</figDesc></figure><figure href="85_H_00A"><figDesc>Gameboard (1985)</figDesc></figure><figure href="85_H_01A"><figDesc>Gameboard close-up (1985)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

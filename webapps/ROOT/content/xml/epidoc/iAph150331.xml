@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph150331" n="iAph1485 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150331" n="iAph1485 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -74,4 +74,4 @@
 <head>Bibliography</head>
 <p><bibl n="jmr2003">Reynolds and Isik <biblScope>95</biblScope></bibl>, with photograph.</p>
 </div></body></text>
-</TEI.2>
+</TEI>

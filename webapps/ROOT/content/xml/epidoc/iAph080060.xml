@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080060" n="iAph0766 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080060" n="iAph0766 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -140,4 +140,4 @@ Perhaps·</note><ab><lb n="1"/>  <w lemma="τόπος"><expan><abbr>τό</abbr
 <head>Photographs</head>
 <p> <figure href="88_F_02"><figDesc>Row 3 (1988)</figDesc></figure><figure href="88_F_03"><figDesc>Row 4.i (1988)</figDesc></figure><figure href="76_G_26"><figDesc>Row 6.ii (1976)</figDesc></figure><figure href="76_G_24"><figDesc>Row 6.iii (1976)</figDesc></figure><figure href="76_G_23"><figDesc>Row 8.i (1976)</figDesc></figure><figure href="76_G_22"><figDesc>Row 8.ii and iii.a (1976)</figDesc></figure><figure href="76_G_21"><figDesc>Row 8.iii b and c (1976)</figDesc></figure><figure href="72_L_19A"><figDesc>Row 9.i (1972)</figDesc></figure><figure href="72_L_18A"><figDesc>Row 9.ii (1972)</figDesc></figure><figure href="72_L_17A"><figDesc>Row 9.iii (1972)</figDesc></figure><figure href="76_G_17"><figDesc>Rows 19.ii and 20.ii (1976)</figDesc></figure><figure href="88_F_01"><figDesc>Row 23 (1988)</figDesc></figure><figure href="77_Y_20"><figDesc>Row 25 (1977)</figDesc></figure><figure href="88_F_14"><figDesc>Row 26.ii (1988)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

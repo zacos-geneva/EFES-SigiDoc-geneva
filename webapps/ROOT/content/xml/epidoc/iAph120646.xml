@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120646" n="iAph1040 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120646" n="iAph1040 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -95,4 +95,4 @@
 <p><figure href="77_H_16A"><figDesc>Face, left  (1977)</figDesc></figure><figure href="77_H_17A"><figDesc>Face, right (1977)</figDesc></figure><figure href="80_E_11A"><figDesc>Face (1980)</figDesc></figure></p><p> MAMA; KTE</p></div></body>
 </text>
 
-</TEI.2>
+</TEI>

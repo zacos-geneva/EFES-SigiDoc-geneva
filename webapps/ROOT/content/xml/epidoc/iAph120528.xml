@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120528" n="iAph1766 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120528" n="iAph1766 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -83,4 +83,4 @@ No description; presumably a <rs type="objectType" cert="low">statue base</rs>.<
 <p>Published by <bibl n="CIGII">Boeckh from Sherard papers, CIG <biblScope>2770</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257186">307</biblScope>
 </bibl>.</p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Wood_14_45"><figDesc>Wood notebook 14, page 45</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

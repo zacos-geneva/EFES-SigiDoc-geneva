@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080113" n="iAph1163 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080113" n="iAph1163 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -75,4 +75,4 @@
 <figure href="77_W_16"><figDesc>Block b, left end(1977)</figDesc></figure><figure href="AG_MAMA435"><figDesc>Block b, right end (2005)</figDesc></figure><figure href="73_T_21"><figDesc>Blocks e. &amp; f. (1973)</figDesc></figure>
 </p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Deering_07"><figDesc>Deering notebook, page 7</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

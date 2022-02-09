@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120643" n="iAph0003 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120643" n="iAph0003 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -133,4 +133,4 @@ Published by <bibl type="hbi" rend="primary" n="cmr1981"><author>Roueché</autho
 </body>
 </text>
 
-</TEI.2>
+</TEI>

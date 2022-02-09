@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" >
-<TEI.2 lang="en" id="iAph120631" n="iAph1574 ">
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120631" n="iAph1574 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -89,4 +89,4 @@
 <head>Photographs</head>
 <p><figure href="73_S_18"><figDesc>Face (1973)</figDesc></figure><figure href="73_T_31"><figDesc>View (1973)</figDesc></figure></p>
 </div><div n="transcriptions" type="figure"><head>Representations</head><p><figure href="Deering_11v"><figDesc>Deering notebook 11v</figDesc></figure><figure href="Deering_12"><figDesc>Deering notebook 12</figDesc></figure><figure href="R_I_25v"><figDesc>Reichel notebook I, 25v (mention)</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

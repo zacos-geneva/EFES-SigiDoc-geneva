@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120803" n="iAph1481 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120803" n="iAph1481 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -96,4 +96,4 @@
 </bibl>. Discussed: <bibl n="liermann">Liermann p.24</bibl>, <bibl><author>Wilhelm,</author> <title>Neue Beiträge</title> II, 49</bibl>, <bibl>L. Robert, <title>Rev. de Phil</title>. (1930) 27 n.1</bibl>, <bibl n="be">Bull. Ep. <biblScope>1953.187</biblScope></bibl>, whence SEG 13, 491, <bibl n="seg">SEG <biblScope>1980.1244</biblScope></bibl>.</p>
 </div>
 <div n="Preliminary transcriptions" type="figure"><head>Representations</head><p><figure href="Wood_14_46"><figDesc>a. Wood, notebook 14.46</figDesc></figure><figure href="Deering_11"><figDesc>a. and b. Deering, page 11</figDesc></figure><figure href="Deering_10v"><figDesc>b. and c. Deering, page 10v</figDesc></figure><figure href="Deering_11v"><figDesc>d. Deering, page 11v</figDesc></figure><figure href="K_III_20"><figDesc>a. Kubitschek notebook III, 20</figDesc></figure><figure href="R_I_03"><figDesc>d. Reichel notebook I, 3</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

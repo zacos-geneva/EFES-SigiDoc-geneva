@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph050117" n="iAph1215 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050117" n="iAph1215 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -73,4 +73,4 @@ Found: <rs type="found"><rs type="monuList">Hadrianic Baths</rs>: south west sec
 <head>Photographs</head>
 <p>66a.1.48, 49; KTE 62/64.66.11</p>
 </div></body></text>
-</TEI.2>
+</TEI>

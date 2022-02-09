@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080027" n="iAph0508 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080027" n="iAph0508 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -93,4 +93,4 @@ and <biblScope n="256951">73</biblScope></bibl>. Discussion by <bibl>Schlesinger
 <head>Photographs</head>
 <p><figure href="76_A_08A"><figDesc>Lines 1-12, left end (1976)</figDesc></figure><figure href="76_A_11A"><figDesc>Lines 13-21 , left end (1976)</figDesc></figure><figure href="76_A_09A"><figDesc>Lines 21-34, left end (1976)</figDesc></figure> <figure href="76_A_10A"><figDesc>Lines 21-35, right end (1976)</figDesc></figure><figure href="77_M_18A"><figDesc>Lines 37-95, right end, and part of <xref type="inscription" n="507" href="080026">8.26</xref>, in situ (1977)</figDesc></figure><figure href="77_AA_28"><figDesc>Lines 46-62, left end (1977)</figDesc></figure><figure href="77_M_09A"><figDesc>Lines 57-89, right end, in situ (1977)</figDesc></figure><figure href="77_M_10A"><figDesc>Lines 76-95, right end, in situ (1977)</figDesc></figure><figure href="75_K_00A"><figDesc>Lines 90-96, centre (1975)</figDesc></figure><figure href="HUMS003679"><figDesc>Archive Wall view (1994)</figDesc></figure></p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="R_I_39"><figDesc>Line 1: Reichel notebook I, page 25v (1893)</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

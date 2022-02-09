@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph130301" n="iAph1009 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130301" n="iAph1009 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -192,4 +192,4 @@ i. <date exact="none" notBefore="0001" notAfter="0050" cert="low">first half of 
     </body>
 </text>
 
-</TEI.2>
+</TEI>

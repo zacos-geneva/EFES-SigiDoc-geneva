@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120902" n="iAph1285 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120902" n="iAph1285 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -85,4 +85,4 @@ Nero at Smyrna, Smyrna 1, l. 5,
 <p><figure href="73_V_06"><figDesc>Face (1973)</figDesc></figure>
 </p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="R_I_05v"><figDesc>Reichel notebook I, 5v</figDesc></figure><figure href="K_V_13"><figDesc>Kubitschek notebook V, 13</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

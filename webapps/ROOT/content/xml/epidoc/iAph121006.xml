@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph121006" n="iAph1028 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121006" n="iAph1028 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -191,4 +191,4 @@
 <p><figure href="73_Q_08A"><figDesc>Face (1973)</figDesc></figure><figure href="90_A_01A"><figDesc>Face (1990)</figDesc></figure><figure href="90_A_02A"><figDesc>Face (1990)</figDesc></figure><figure href="2001_A_16"><figDesc>Top (2001)</figDesc></figure></p></div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="R_I_04"><figDesc>Reichel notebook I, 4</figDesc></figure><figure href="R_I_05"><figDesc>Reichel notebook I, 5</figDesc></figure><figure href="gaudin_0019"><figDesc>Gaudin squeeze</figDesc></figure><figure href="gaudin_0037"><figDesc>Gaudin squeeze</figDesc></figure></p></div></body>
 </text>
 
-</TEI.2>
+</TEI>

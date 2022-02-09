@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080057" n="iAph0763 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080057" n="iAph0763 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -113,4 +113,4 @@ Design, type C1</note></div><div type="textpart_column" n="ii"><note>Design type
 <head>Photographs</head>
 <p> <figure href="75_J_09A"><figDesc>Row 2 (1975)</figDesc></figure><figure href="72_L_07A"><figDesc>Row 2, detail (1972)</figDesc></figure><figure href="77_Y_12"><figDesc>Row 8 (1977)</figDesc></figure><figure href="72_L_05A"><figDesc>Row 9.i (1972)</figDesc></figure><figure href="75_J_12A"><figDesc>Row 9.ii (1975)</figDesc></figure><figure href="72_L_04A"><figDesc>Row 10 (1972)</figDesc></figure><figure href="77_Y_16"><figDesc>Row 11 (1977)</figDesc></figure><figure href="77_Y_17"><figDesc>Row 15 (1977)</figDesc></figure><figure href="77_Y_18"><figDesc>Row 15 (1977)</figDesc></figure><figure href="75_J_16A"><figDesc>Row 16 (1975)</figDesc></figure><figure href="76_G_03"><figDesc>Row 26.i (1976)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph110404" n="iAph1853 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110404" n="iAph1853 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -87,4 +87,4 @@ A <rs type="material" key="marmor">white marble</rs> columnar <rs type="objectTy
 <head>Photographs</head>
 <p><figure href="88_E_01A"><figDesc>Face i. (1988)</figDesc></figure><figure href="NY_93_86_08"><figDesc>Face ii. (1993)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

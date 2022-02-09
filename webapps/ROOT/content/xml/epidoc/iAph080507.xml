@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080507" n="iAph0195 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080507" n="iAph0195 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -98,4 +98,4 @@ by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodis
 
     </body>
   </text>
-</TEI.2>
+</TEI>

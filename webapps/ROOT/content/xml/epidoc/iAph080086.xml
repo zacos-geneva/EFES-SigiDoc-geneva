@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080086" n="iAph0564 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080086" n="iAph0564 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -86,4 +86,4 @@ Capitals of the second century A.D.<measure type="length" unit="metre" dim="heig
 <head>Photographs</head>
 <p><figure href="77_S_20"><figDesc>a (1977)</figDesc></figure><figure href="77_S_21"><figDesc>b (1977)</figDesc></figure><figure href="77_S_23"><figDesc>c (1977)</figDesc></figure><figure href="77_S_22"><figDesc>d (1977)</figDesc></figure><figure href="89_E_10A"><figDesc>Assembled in situ (1989)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" >
-<TEI.2 lang="en" id="iAph130402" n="iAph0366 ">
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130402" n="iAph0366 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -95,4 +95,4 @@
 </div><div type="figure" n="photographs"><head>Photographs</head><p><figure href="73_S_17"><figDesc>Face (1973)</figDesc></figure><figure href="73_S_17bis"><figDesc>Shadowed area (1973)</figDesc></figure><figure href="89_B_14"><figDesc>Face (1989)</figDesc></figure></p></div></body>
 </text>
 
-</TEI.2>
+</TEI>

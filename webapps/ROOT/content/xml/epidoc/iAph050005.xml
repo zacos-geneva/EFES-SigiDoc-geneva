@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph050005" n="iAph1259 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050005" n="iAph1259 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -74,4 +74,4 @@ Found: <rs type="found">In the east court of the <rs type="monuList">Hadrianic B
 <head>Photographs</head>
 <p><figure href="78_L_08"><figDesc>Fragment (1978)</figDesc></figure></p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Boulanger_A_01"><figDesc>Boulanger notebook A, page 1: Fair copy</figDesc></figure><figure href="Boulanger_A_02"><figDesc>Boulanger notebook A, page 2: Note of divisions</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

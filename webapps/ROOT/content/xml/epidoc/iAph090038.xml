@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph090038" n="iAph1316 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090038" n="iAph1316 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -74,4 +74,4 @@ Found: <rs type="found"><rs type="monuList">Portico</rs> east of Theatre, SPS, S
 <p><figure href="77_F_25"><figDesc>Face (1977)</figDesc></figure><figure href="AG_1316"><figDesc>Face (2005)</figDesc></figure></p><p>** plus ** KTE72.31.15; <title level="m">Images</title>
 </p>
 </div></body></text>
-</TEI.2>
+</TEI>

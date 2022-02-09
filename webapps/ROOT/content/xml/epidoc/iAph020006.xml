@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph020006" n="iAph0599 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020006" n="iAph0599 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -110,4 +110,4 @@
 <head>Photographs</head>
 <p><figure href="91_E_20A"><figDesc>View, Blocks B and A (1991)</figDesc></figure><figure href="85_F_52"><figDesc>Row 4.i (1985)</figDesc></figure><figure href="85_F_54"><figDesc>Row 4.ii (1985)</figDesc></figure><figure href="85_F_56"><figDesc>Row 4.iii (1985)</figDesc></figure><figure href="72_B_03A"><figDesc>Row 5.i (1972)</figDesc></figure><figure href="85_F_28"><figDesc>Row 5.iv (1985)</figDesc></figure><figure href="85_F_30"><figDesc>Row 5.v (1985)</figDesc></figure><figure href="85_F_36"><figDesc>Row 6.i (1985)</figDesc></figure><figure href="85_F_34"><figDesc>Row 6.ii (1985)</figDesc></figure><figure href="85_F_38"><figDesc>Row 6.ii (1985)</figDesc></figure><figure href="85_F_40"><figDesc>Row 6.ii (1985)</figDesc></figure><figure href="85_F_42"><figDesc>Row 6.ii (1985)</figDesc></figure><figure href="85_F_50"><figDesc>Row 7.i (1985)</figDesc></figure><figure href="85_F_48"><figDesc>Row 7.ii (1985)</figDesc></figure><figure href="85_F_44"><figDesc>Row 7.iii (1985)</figDesc></figure><figure href="72_A_26A"><figDesc>Row 8 (1972)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

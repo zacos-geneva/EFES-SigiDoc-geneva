@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph100029" n="iAph0747 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100029" n="iAph0747 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -86,4 +86,4 @@
 <head>Photographs</head>
 <p> <figure href="77_Z_02"><figDesc>Row Z, left end  (1977)</figDesc></figure><figure href="77_Z_03"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_04"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_05"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_06"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_07"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_08"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_09"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_10"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_11"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_12"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_13"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_14"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_15"><figDesc>Row Z  (1977)</figDesc></figure><figure href="77_Z_16"><figDesc>Row Z  (1977)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

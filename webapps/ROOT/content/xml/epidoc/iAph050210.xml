@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph050210" n="iAph1189 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050210" n="iAph1189 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -80,4 +80,4 @@ Found: <rs type="found"><rs type="monuList">Hadrianic Baths</rs>: 'Thermes, faç
 <head>Photographs</head>
 <p><figure href="JMR_2_1969_040"><figDesc>Face i (1969)</figDesc></figure><figure href="73_V_21"><figDesc>Face i (1973)</figDesc></figure><figure href="73_Y_14"><figDesc>Face i (1973)</figDesc></figure></p>
 <p>JMR 2.40</p></div></body></text>
-</TEI.2>
+</TEI>

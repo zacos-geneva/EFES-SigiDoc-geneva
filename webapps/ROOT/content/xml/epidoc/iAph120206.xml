@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120206" n="iAph1624 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120206" n="iAph1624 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -82,4 +82,4 @@
 <head>Photographs</head>
 <p><figure href="JMR_1_1968_007"><figDesc>Face (1968)</figDesc></figure><figure href="JMR_1_1968_008"><figDesc>Detail (1968)</figDesc></figure><figure href="73_Q_01A"><figDesc>Face (1973)</figDesc></figure></p>
 </div><div type="figure" n="Preliminary transcriptions"><head>Representations</head><p><figure href="K_III_50"><figDesc>Kubitschek notebook III, 50</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

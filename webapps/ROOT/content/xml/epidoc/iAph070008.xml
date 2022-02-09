@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph070008" n="iAph1856 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph070008" n="iAph1856 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -89,4 +89,4 @@
 <head>Representations</head>
 <p><figure href="Wood_14_45v"><figDesc>Wood notebook 14, page 45v</figDesc></figure><figure href="R_I_35"><figDesc>Reichel notebook, I, 35</figDesc></figure><figure href="R_I_24v"><figDesc>Reichel notebook, I.24v (noted)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

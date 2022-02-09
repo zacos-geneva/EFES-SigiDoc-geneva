@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph090112" n="iAph1275 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090112" n="iAph1275 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -71,4 +71,4 @@ Found: <rs type="found">A and B during excavation of the <rs type="monuList">Seb
 <div type="figure" n="photographs">
 <head>Photographs</head>
 <p><figure href="73_Y_29"><figDesc>Fragment a (1973)</figDesc></figure><figure href="73_Y_29"><figDesc>Fragment a (1973)</figDesc></figure><figure href="78_L_22"><figDesc>Fragment a (1978)</figDesc></figure><figure href="83_E_27"><figDesc>Fragment b (1983)</figDesc></figure><figure href="83_E_28"><figDesc>Fragment b (1983)</figDesc></figure><figure href="83_F_25"><figDesc>Fragment b (1983)</figDesc></figure><figure href="80_B_15"><figDesc>Fragment c (1980)</figDesc></figure><figure href="83_F_27"><figDesc>Fragment c (1983)</figDesc></figure><figure href="83_E_27"><figDesc>Fragment d (1983)</figDesc></figure><figure href="83_F_25"><figDesc>Fragment d, closeup (1983)</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

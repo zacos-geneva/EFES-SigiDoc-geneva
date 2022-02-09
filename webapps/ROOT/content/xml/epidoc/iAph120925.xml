@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120925" n="iAph0659 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120925" n="iAph0659 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -178,4 +178,4 @@
 <head>Photographs</head>
 <p> <figure href="76_A_18A"><figDesc>Lines 1-13 (1976)</figDesc></figure><figure href=" 76_A_16A"><figDesc>Lines 11-14 (1976)</figDesc></figure></p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="R_I_08"><figDesc>Lines 1-13 (centre and right): Reichel, notebook I, 8</figDesc></figure><figure href="Gaudin_0049"><figDesc>Lines 4-9 (left end): Gaudin squeeze 38 (right image)</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

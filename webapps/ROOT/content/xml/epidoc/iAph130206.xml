@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph130206" n="iAph1492 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130206" n="iAph1492 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -102,4 +102,4 @@
 <head>Photographs</head>
 <p>MAMA, pl. 19; 90.C.7, 8<figure href="90_C_07A"><figDesc>Face (1990)</figDesc></figure><figure href="94_E_08A"><figDesc>Face (1994)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

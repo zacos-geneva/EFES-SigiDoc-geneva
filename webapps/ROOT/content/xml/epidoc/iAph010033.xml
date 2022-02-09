@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph010033" n="iAph0132 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010033" n="iAph0132 ">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -111,4 +111,4 @@ Late Antiquity</title> no. <biblScope>132</biblScope>, and plate xxxii</bibl>, w
 
       </body>
   </text>
-</TEI.2>
+</TEI>

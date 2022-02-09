@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph140003" n="iAph1495 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph140003" n="iAph1495 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -80,4 +80,4 @@
 <head>Bibliography</head>
 <p>Recorded at Hirka and published <bibl n="LaCarie">L. Robert, La Carie II (Paris, 1954), 113, no <biblScope>19</biblScope></bibl>, whence <bibl>PHI Tabae 19</bibl>; <bibl n="jmr2003">Reynolds &amp; Isik <biblScope>112</biblScope></bibl>.</p>
 </div></body></text>
-</TEI.2>
+</TEI>

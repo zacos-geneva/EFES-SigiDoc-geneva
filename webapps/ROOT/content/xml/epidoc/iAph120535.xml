@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120535" n="iAph1791 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120535" n="iAph1791 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -95,4 +95,4 @@
 <div type="figure" n="photographs"><head>Photographs</head><p><figure href="77_S_13"><figDesc>Upper fragment (1977)</figDesc></figure><figure href="77_U_16"><figDesc>Upper fragment (1977)</figDesc></figure></p></div><div type="figure" n="photographs"><head>Representations</head><p><figure href="Wood_14_45v"><figDesc>Wood notebook 14, page 45v</figDesc></figure><figure href="Deering_05v"><figDesc>Deering notebook 5v</figDesc></figure><figure href="Deering_06"><figDesc>Deering notebook 6</figDesc></figure></p></div></body>
 </text>
 
-</TEI.2>
+</TEI>

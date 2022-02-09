@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph050208" n="iAph1558 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050208" n="iAph1558 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -112,4 +112,4 @@
 <head>Photographs</head>
 <p> <figure href="85_D_20"><figDesc>Right hand fragment (1985)</figDesc></figure><figure href="85_D_21"><figDesc>Right hand fragment, left end (1985)</figDesc></figure><figure href="85_D_22"><figDesc>Right hand fragment, centre (1985)</figDesc></figure><figure href="85_D_23"><figDesc>Right hand fragment, right end (1985)</figDesc></figure><figure href="85_E_01"><figDesc>Left hand fragment (1985)</figDesc></figure></p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Boulanger_A_02"><figDesc>Boulanger notebook A, page 3: Fair copy</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

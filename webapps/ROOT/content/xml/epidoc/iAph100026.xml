@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph100026" n="iAph0744 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100026" n="iAph0744 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -93,4 +93,4 @@
 <head>Photographs</head>
 <p><figure href="75_F_11A"><figDesc>Row S, with R (1975)</figDesc></figure> <figure href="75_F_12A"><figDesc>Row S (1975)</figDesc></figure><figure href="75_F_13A"><figDesc>Row S (1975)</figDesc></figure><figure href="75_F_14A"><figDesc>Row S with R (1975)</figDesc></figure><figure href="75_F_15A"><figDesc>Row S with R (1975)</figDesc></figure><figure href="75_F_16A"><figDesc>Row S (1975)</figDesc></figure><figure href="75_F_17A"><figDesc>Row S with R (1975)</figDesc></figure><figure href="75_F_18A"><figDesc>Row S with R (1975)</figDesc></figure><figure href="75_F_19A"><figDesc>Row S (1975)</figDesc></figure><figure href="75_F_20A"><figDesc>Row S (1975)</figDesc></figure><figure href="77_Z_22"><figDesc>Row V with U  (1977)</figDesc></figure><figure href="77_Z_23"><figDesc>Row V   (1977)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

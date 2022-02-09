@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph010158" n="iAph1036 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010158" n="iAph1036 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -93,4 +93,4 @@
 <p><figure href="77_B_20A"><figDesc>Fragment a. (1977)</figDesc></figure><figure href="83_E_22"><figDesc>Fragment b. (1983)</figDesc></figure><figure href="83_E_23"><figDesc>Fragment b. (1983)</figDesc></figure><figure href="73_S_06"><figDesc>Fragment c. (1973)</figDesc></figure><figure href="77_P_05"><figDesc>Fragment c. (1977)</figDesc></figure><figure href="76_F_30A"><figDesc>Fragment d. (1976)</figDesc></figure><figure href="83_C_04"><figDesc>Fragment e. (1983)</figDesc></figure><figure href="83_C_05"><figDesc>Fragment e. (1983)</figDesc></figure></p><p> a: 66.A.13; c: KTE; d: JMR 1.66.53; f: 66.1.51</p></div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="K_V_18"><figDesc>Fragments b and c: Kubitschek notebook V, 18</figDesc></figure></p></div></body>
 </text>
 
-</TEI.2>
+</TEI>

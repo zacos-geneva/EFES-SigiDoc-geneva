@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph050214" n="iAph0672 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050214" n="iAph0672 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -164,4 +164,4 @@
 <head>Photographs</head>
 <p><figure href="72_A_36A"><figDesc>Face i (1972)</figDesc></figure><figure href="89_D_07A"><figDesc>Face i (1989)</figDesc></figure><figure href="89_D_19A"><figDesc>Face ii (1989)</figDesc></figure><figure href="77_B_21A"><figDesc>Face ii (1977)</figDesc></figure></p>
 </div><div n="transcriptions" type="figure"><head>Representations</head><p><figure href="Boulanger_A_75"><figDesc>Boulanger, Notebook A, page 75</figDesc></figure><figure href="Boulanger_A_76"><figDesc>Boulanger, Notebook A, page 76</figDesc></figure><figure href="Boulanger_B_25"><figDesc>Boulanger, Notebook B, Page 25</figDesc></figure><figure href="Boulanger_B_27"><figDesc>Boulanger, Notebook B, Page 27</figDesc></figure><figure href="Boulanger_B_29"><figDesc>Boulanger, Notebook B, Page 29</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

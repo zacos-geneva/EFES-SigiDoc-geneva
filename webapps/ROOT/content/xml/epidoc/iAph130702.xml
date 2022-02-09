@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph130702" n="iAph1602 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130702" n="iAph1602 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -96,4 +96,4 @@
 </bibl>; discussed by Robert, AC 35, 1966, 385 and 390 note 1 (ll. 0-1).</p>
 </div>
 <div type="figure" n="Preliminary transcriptions"><head>Representations</head><p><figure href="gaudin_0024"><figDesc>Lines 1-10, right end: Gaudin squeeze </figDesc></figure><figure href="gaudin_0032"><figDesc>Lines 1-10, centre: Gaudin squeeze </figDesc></figure><figure href="gaudin_0042"><figDesc>Lines 1-10: Gaudin squeeze </figDesc></figure><figure href="gaudin_0013"><figDesc>Lines 5-11, left end: Gaudin squeeze </figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

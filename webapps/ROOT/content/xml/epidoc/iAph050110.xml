@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph050110" n="iAph1305 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050110" n="iAph1305 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -84,4 +84,4 @@ Probably <date notBefore="0001" notAfter="0200" exact="none" cert="low">first ce
 <head>Photographs</head>
 <p><figure href="94_D_26"><figDesc>Face (1994)</figDesc></figure><figure href="94_D_27"><figDesc>Face (1994)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080001" n="iAph0536 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080001" n="iAph0536 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -79,4 +79,4 @@ i. <date precision="circa" value="-0028" notBefore="-0028" notAfter="-0028" exac
 <figure href="73_Z_18"><figDesc>i., assembled  (1973)</figDesc></figure>
 <figure href="75_C_13"><figDesc>ii. face (1975)</figDesc></figure><figure href="HS_3482"><figDesc>ii. face in situ (2000)</figDesc></figure><figure href="Aph2004_122"><figDesc>ii, showing location at south end of skene (2004)</figDesc></figure><figure href="85_B_14"><figDesc>iii. face (1985)</figDesc></figure><figure href="85_B_15"><figDesc>iii. closeup (1985)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

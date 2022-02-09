@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph130151" n="iAph1508 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130151" n="iAph1508 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -97,4 +97,4 @@
 </bibl>; monument published by <bibl n="jmr2003">Isik and Reynolds, no. <biblScope>162</biblScope>, with photograph.</bibl></p>
 </div>
 <div type="figure" n="transcriptions"><head>Representations</head><p><figure href="K_V_02"><figDesc>Kubitschek notebook V, 2</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

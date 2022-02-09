@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120522" n="iAph1473 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120522" n="iAph1473 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -80,4 +80,4 @@
 <p><xref type="inscription" n="1473" href="120522">12.522</xref> and <xref type="inscription" n="1474" href="120509">12.509</xref> published by <bibl n="CIGII">Boeckh, as one text CIG <biblScope>2847</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257335">457</biblScope>
 </bibl>. <bibl n="seg">SEG <biblScope>1983.856</biblScope></bibl> (ll. 4-5) [[CHECK]]. Also published by <bibl n="nutton1977">Nutton, PBSA 1977, no. [[...]]</bibl></p>
 </div></body></text>
-</TEI.2>
+</TEI>

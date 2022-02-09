@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph090028" n="iAph1290 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090028" n="iAph1290 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -75,4 +75,4 @@ Found: <rs type="found"><rs type="monuList">Sebasteion</rs>: NW Seb II-82, IX-XB
 <head>Photographs</head>
 <p><figure href="83_B_21A"><figDesc>Face (1983)</figDesc></figure></p><p>82.A.25a</p>
 </div></body></text>
-</TEI.2>
+</TEI>

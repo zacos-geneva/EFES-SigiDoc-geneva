@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph121111" n="iAph1769 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121111" n="iAph1769 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -81,4 +81,4 @@
 <p>Published by <bibl n="CIGII"><author>Boeckh</author>, from Sherard papers, CIG <biblScope>2782</biblScope></bibl>, and p. 1112, whence CIG as <bibl n="liermann1889">Liermann 73-86, no. <biblScope>14</biblScope></bibl>,<bibl> Ziebarth <title>ZVRW</title> 16, 1903, 292, no. 64</bibl>, <bibl n="laum1914">Laum <biblScope>108</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257194">315</biblScope>
 </bibl>.</p><p>Discussed by  Haussoullier, <title>Rev. de Phil</title>. 1920, 72; Derenne, <title>AC</title> 2 (1933), 74 with<title> Phil.Wochenschr.</title> (1934), 213 (l.27); Ferri, <title>Riv. Fil.</title> (1938), 59; Jacopi, <title>JdAI</title> (1938), 744-52; L. Robert, <title>Et.Anat.</title> 542, n.2; Rev. de Phil. (1929), 138 n.2; <title>Bull.Ep.</title> 1939.358, 1973.475 (ll. 25-26), 1980.472; C. Foss, <title>GRBS</title> 16 (1975), 217; A. D. Macro, <title>AJP</title> 100 (1979), 94-8, (ll. 9-10); <title>SEG</title> 29, 1068; <bibl><title>AnnEpig</title> <biblScope n="anep">1980, 865</biblScope>.</bibl></p>
 </div><div n="Preliminary transcriptions" type="figure"><head>Representations</head><p><figure href="Deering_16"><figDesc>Deering notebook 16</figDesc></figure><figure href="Deering_16v"><figDesc>Deering notebook 16v</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120105" n="iAph1783 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120105" n="iAph1783 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -81,4 +81,4 @@
 </bibl>; fragments published by <bibl n="reinach">Reinach, from Gaudin's squeeze, upper part <biblScope>94</biblScope> (ll. 1-9), <biblScope>95</biblScope> (ll.11-23), <biblScope>96</biblScope> (22-24), <biblScope>97</biblScope> (ll. 23-30), <biblScope>98</biblScope> (ll. 17-21), <biblScope>99</biblScope> (ll.19-30), <biblScope>101</biblScope> (ll. 7-18), <biblScope>121</biblScope> (ll. 11-15)</bibl>, on which see Cormack, Notes 11 and 57 fig. 5, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257196">317</biblScope>
 </bibl>, L. Robert, Hellenica 13, 137 n.1.</p>
 </div></body></text>
-</TEI.2>
+</TEI>

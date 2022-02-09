@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120319" n="iAph1511 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120319" n="iAph1511 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -87,4 +87,4 @@ Perhaps <date notBefore="0101" notAfter="0133" exact="none">early second century
 <head>Photographs</head>
 <p><figure href="73_W_31"><figDesc>Stone at findspot (1973)</figDesc></figure><figure href="78_C_14"><figDesc>Face (1978)</figDesc></figure><figure href="78_C_15"><figDesc>Face (1978)</figDesc></figure><figure href="78_G_01"><figDesc>Face (1978)</figDesc></figure></p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="K_III_56"><figDesc>Kubitschek notebook III, 56</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

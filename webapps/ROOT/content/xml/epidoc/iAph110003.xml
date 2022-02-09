@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph110003" n="iAph1222 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110003" n="iAph1222 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -71,4 +71,4 @@ Found: <rs type="found"><rs type="monuList">City, Village</rs>: stray find</rs>;
 <head>Photographs</head>
 <p><figure href="R_66_2_19"><figDesc>Face (1966)</figDesc></figure><figure href="77_X_16"><figDesc>Face (1977)</figDesc></figure></p>
 <p>KTE 65.32.4 </p></div></body></text>
-</TEI.2>
+</TEI>

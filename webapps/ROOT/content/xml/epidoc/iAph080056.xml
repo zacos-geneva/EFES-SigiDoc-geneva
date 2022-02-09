@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080056" n="iAph0762 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080056" n="iAph0762 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -148,4 +148,4 @@ Scattered letters</note></div>
 <head>Photographs</head>
 <p> <figure href="75_J_07A"><figDesc>Row 13 (1975)</figDesc></figure><figure href="75_J_05A"><figDesc>Row 15.i (1975)</figDesc></figure><figure href="88_F_09"><figDesc>Row 15.ii (1988)</figDesc></figure><figure href="75_J_04A"><figDesc>Row 16 (1975)</figDesc></figure><figure href="75_J_02A"><figDesc>Row 19.i (1975)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

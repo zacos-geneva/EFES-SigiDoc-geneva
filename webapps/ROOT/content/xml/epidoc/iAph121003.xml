@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph121003" n="iAph1475 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121003" n="iAph1475 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -74,4 +74,4 @@
 <p>Recorded by Picenini in 1705 (10102.13), whence Sherard (10101, 24); and by Tisser (10102,  53) .</p></div><div type="bibliography"><head>Bibliography</head><p>Published by <bibl n="CIGII">Boeckh, CIG <biblScope>2848</biblScope></bibl>, whence <bibl>Oikonomos, <title>Arch. Delt</title>. 1921/22, 294</bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257371">493</biblScope></bibl>.
 </p>
 </div></body></text>
-</TEI.2>
+</TEI>

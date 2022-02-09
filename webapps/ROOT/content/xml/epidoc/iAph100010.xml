@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph100010" n="iAph0728 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100010" n="iAph0728 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -108,4 +108,4 @@
 <head>Photographs</head>
 <p><figure href="77_X_27"><figDesc>Row F (1977)</figDesc></figure><figure href="77_X_28"><figDesc>Row F (1977)</figDesc></figure><figure href="77_X_29"><figDesc>Rows F and G (1977)</figDesc></figure><figure href="77_X_25"><figDesc>Row H (1977)</figDesc></figure><figure href="77_X_26"><figDesc>Row H (1977)</figDesc></figure><figure href="77_V_32A"><figDesc>Row U, left end (1977)</figDesc></figure><figure href="77_V_33A"><figDesc>Row U (1977)</figDesc></figure><figure href="77_V_34A"><figDesc>Row U (1977)</figDesc></figure><figure href="77_V_35A"><figDesc>Row U (1977)</figDesc></figure><figure href="77_V_36A"><figDesc>Row U (1977)</figDesc></figure><figure href="88_F_36"><figDesc>Row U, right end (1988)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

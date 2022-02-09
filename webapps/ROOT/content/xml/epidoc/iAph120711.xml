@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120711" n="iAph0671 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120711" n="iAph0671 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -89,4 +89,4 @@
 <head>Photographs</head>
 <p> <figure href="73_T_20"><figDesc>Fragment a (1973)</figDesc></figure><figure href="77_R_17A"><figDesc>Fragment b (1977)</figDesc></figure><figure href="77_R_18A"><figDesc>Fragment c (1977)</figDesc></figure><figure href="77_N_09A"><figDesc>Fragment d (1977)</figDesc></figure><figure href="89_C_03"><figDesc>Fragment e. (1989)</figDesc></figure></p>
 </div><div n="transcriptions" type="figure"><head>Representations</head><p><figure href="R_I_19"><figDesc>a. Reichel notebook I, 19</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

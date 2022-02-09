@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" >
-<TEI.2 lang="en" id="iAph120920" n="iAph0691 ">
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120920" n="iAph0691 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -107,4 +107,4 @@
 <head>Photographs</head>
 <p><figure href="77_R_14A"><figDesc>i.a, lines 1-6 (1977)</figDesc></figure></p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Deering_08v"><figDesc>Deering notebook 8v</figDesc></figure><figure href="Deering_09"><figDesc>Deering notebook 9</figDesc></figure><figure href="Deering_09v"><figDesc>Deering notebook 9v</figDesc></figure><figure href="Deering_10"><figDesc>Deering notebook 10</figDesc></figure><figure href="R_I_38"><figDesc>Lines 10-21: Reichel notebook I, 38</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph150246" n="iAph1464 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150246" n="iAph1464 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -78,4 +78,4 @@
 <p>Published from Raoul-Rochette by <bibl n="CIGII">Boeckh CIG <biblScope>2827</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257360">482</biblScope>
 </bibl>.</p>
 </div></body></text>
-</TEI.2>
+</TEI>

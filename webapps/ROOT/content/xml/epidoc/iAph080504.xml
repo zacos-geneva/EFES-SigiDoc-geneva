@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080504" n="iAph1399 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080504" n="iAph1399 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -76,4 +76,4 @@
 <head>Photographs</head>
 <p><figure href="73_Q_25A"><figDesc>Face (1973)</figDesc></figure><figure href="73_T_32"><figDesc>Block (1973)</figDesc></figure><figure href="77_U_02"><figDesc>Face (1977)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

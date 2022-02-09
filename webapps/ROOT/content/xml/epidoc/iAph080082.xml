@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080082" n="iAph1157 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080082" n="iAph1157 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -72,4 +72,4 @@ Found: <rs type="found"><rs type="monuList">Theatre</rs>: a: sector V; b: no loc
 <head>Photographs</head>
 <p><figure href="77_B_23A"><figDesc>Left fragment (1977)</figDesc></figure><figure href="78_B_06"><figDesc>Right fragment (1978)</figDesc></figure><figure href="78_C_08"><figDesc>Right fragment (1978)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

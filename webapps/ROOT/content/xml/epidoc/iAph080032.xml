@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080032" n="iAph0513 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080032" n="iAph0513 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -84,4 +84,4 @@ Document: <date notAfter="-0038" notBefore="-0038" exact="both"> early 38 B.C.</
 <head>Photographs</head>
 <p> <figure href="77_M_19A"><figDesc>View, below <xref type="inscription" n="510" href="080029">8.29</xref>, above <xref type="inscription" n="514" href="080033">8.33</xref>, <xref type="inscription" n="509" href="080028">8.28</xref>, <xref type="inscription" n="520" href="080102">8.102</xref> (1977)</figDesc></figure><figure href="77_M_24A"><figDesc>View, below  <xref type="inscription" n="510" href="080029">8.29</xref>, above <xref type="inscription" n="514" href="080033">8.33</xref>, <xref type="inscription" n="509" href="080028">8.28</xref> (1977)</figDesc></figure><figure href="77_M_25A"><figDesc>View, above , <xref type="inscription" n="514" href="080033">8.33</xref>, <xref type="inscription" n="509" href="080028">8.28</xref>, <xref type="inscription" n="520" href="080102">8.102</xref> (1977)</figDesc></figure><figure href="HUMS003679"><figDesc>Archive Wall view (1994)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

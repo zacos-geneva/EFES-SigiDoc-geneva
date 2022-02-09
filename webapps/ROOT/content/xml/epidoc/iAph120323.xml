@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120323" n="iAph1793 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120323" n="iAph1793 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -81,4 +81,4 @@
 <p>Published by<bibl n="leake1843"> Leake, from Deering, <biblScope>10</biblScope></bibl>; by <bibl n="fellows1841">Fellows, no. <biblScope>38</biblScope></bibl>, whence <bibl n="CIGIIc">CIG <biblScope>2819b</biblScope></bibl>; by <bibl n="bailie1846">Bailie <biblScope>58</biblScope></bibl>; noted by <bibl n="franz1847">Franz, from Loew, <biblScope>a.4</biblScope></bibl>; noted, with no modifications, by <bibl n="henzen1852">Henzen, from Falkener, <biblScope>4</biblScope></bibl>; by <bibl n="LBW">Waddington, LBW <biblScope>1597</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257168">289</biblScope>
 </bibl>.</p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Wood_14_45v"><figDesc>Wood notebook 14, page 45v</figDesc></figure><figure href="Deering_06"><figDesc>Deering notebook, page 6</figDesc></figure><figure href="K_III_29"><figDesc>Kubitschek notebook III, 29</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120412" n="iAph1605 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120412" n="iAph1605 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -80,4 +80,4 @@
 </p>
 </div>
 <div type="figure" n="Preliminary transcriptions"><head>Representations</head><p><figure href="gaudin_0036"><figDesc>Gaudin squeeze</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

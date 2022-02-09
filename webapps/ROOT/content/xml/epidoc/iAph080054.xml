@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080054" n="iAph0760 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080054" n="iAph0760 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -119,4 +119,4 @@ Traces of letters</note></div>
 <head>Photographs</head>
 <p><figure href="75_H_06"><figDesc>Row 1 (1975)</figDesc></figure><figure href="75_H_07"><figDesc>Row 2.iii (1975)</figDesc></figure><figure href="75_H_09"><figDesc>Row 13.i (1975)</figDesc></figure><figure href="75_H_08"><figDesc>Row 13.ii (1975)</figDesc></figure><figure href="75_H_11"><figDesc>Row 16.i (1975)</figDesc></figure><figure href="75_H_12"><figDesc>Row 19 (1975)</figDesc></figure><figure href="88_F_07"><figDesc>Row 22 (1988)</figDesc></figure><figure href="75_H_13"><figDesc>Row 23 (1975)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

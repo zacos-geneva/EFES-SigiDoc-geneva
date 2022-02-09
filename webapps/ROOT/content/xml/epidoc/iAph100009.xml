@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph100009" n="iAph0727 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100009" n="iAph0727 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -120,4 +120,4 @@ Designs, type C2 and type S3.</note></div><div type="textpart_section" n="P"><ab
 <head>Photographs</head>
 <p><figure href="75_D_16A"><figDesc>Row C.i (1975)</figDesc></figure><figure href="75_D_17A"><figDesc>Row P. left end (1975)</figDesc></figure><figure href="77_V_23A"><figDesc>Row Y.i, left end (1977)</figDesc></figure><figure href="77_V_24A"><figDesc>Row Y.i (1977)</figDesc></figure><figure href="77_V_25A"><figDesc>Row Y.i (1977)</figDesc></figure><figure href="77_V_26A"><figDesc>Row Y.i (1977)</figDesc></figure><figure href="77_V_27A"><figDesc>Row Y.i (1977)</figDesc></figure><figure href="77_V_28A"><figDesc>Row Y.i (1977)</figDesc></figure><figure href="77_V_29A"><figDesc>Row Y.ii, left end (1977)</figDesc></figure><figure href="77_V_30A"><figDesc>Row Y.ii (1977)</figDesc></figure><figure href="77_V_31A"><figDesc>Row Y.ii (1977)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

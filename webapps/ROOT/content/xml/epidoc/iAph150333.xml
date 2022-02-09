@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph150333" n="iAph1775 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150333" n="iAph1775 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -133,4 +133,4 @@
 <p>Published by <bibl n="CIGII">Boeckh, from Sherard papers, CIG <biblScope>2817</biblScope></bibl>, whence <bibl n="laum1914">Laum <biblScope>106</biblScope></bibl>; Discussed, L. Robert, Rev. de Phil. 1930, 25-6 (= OMS II, 1125-6) whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257313">435</biblScope>
 </bibl>; cf. Ant. Class. (1966) 390, n.4, BE 1976.633 CHECK</p>
 </div><div type="figure" n="Preliminary transcriptions"><head>Representations</head><p><figure href="Deering_07"><figDesc>Deering notebook, page 7</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

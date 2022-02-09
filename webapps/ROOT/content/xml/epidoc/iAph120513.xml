@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120513" n="iAph1776 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120513" n="iAph1776 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -78,4 +78,4 @@
 <p>Published by <bibl n="CIGII">Boeckh, from Sherard papers, CIG <biblScope>2818</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257147">268</biblScope>
 </bibl>.</p>
 </div></body></text>
-</TEI.2>
+</TEI>

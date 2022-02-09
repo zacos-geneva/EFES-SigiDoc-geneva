@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph120205" n="iAph1622 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120205" n="iAph1622 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -81,4 +81,4 @@
 <head>Photographs</head>
 <p><figure href="75_C_29"><figDesc>a, face (1975)</figDesc></figure><figure href="83_D_17A"><figDesc>b, face  (1983)</figDesc></figure><figure href="85_C_02"><figDesc>b, face (1985)</figDesc></figure><figure href="90_F_18"><figDesc>c, face (1990)</figDesc></figure><figure href="90_F_19"><figDesc>c, face (1990)</figDesc></figure></p>
 </div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="gaudin_0026"><figDesc>a: Gaudin squeeze</figDesc></figure></p></div></body></text>
-</TEI.2>
+</TEI>

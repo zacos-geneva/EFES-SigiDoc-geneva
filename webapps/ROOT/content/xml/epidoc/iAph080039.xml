@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080039" n="iAph0569 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080039" n="iAph0569 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -88,4 +88,4 @@
 <head>Photographs</head>
 <p><figure href="73_Q_09A"><figDesc>a, left end (1973)</figDesc></figure><figure href="73_Q_18A"><figDesc>a, right end (1973)</figDesc></figure><figure href="88_A_13A"><figDesc>Fragment from b (1988)</figDesc></figure><figure href="80_H_03"><figDesc>b (1980)</figDesc></figure><figure href="73_Q_14A"><figDesc>c (1973)</figDesc></figure><figure href="89_E_15A"><figDesc>Assembled in situ (1989)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph100023" n="iAph0741 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100023" n="iAph0741 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -84,4 +84,4 @@ Design, a square type S3.</note></div><div type="textpart_section" n="X"><note>D
 <head>Photographs</head>
 <p> <figure href="91_E_09A"><figDesc>Row Z (1991)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

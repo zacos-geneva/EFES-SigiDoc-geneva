@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph080099" n="iAph0519 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080099" n="iAph0519 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -87,4 +87,4 @@
 <head>Photographs</head>
 <p>  <figure href="77_M_16A"><figDesc>Left end in situ, view below <xref type="inscription" n="516" href="080035">8.35</xref>, <xref type="inscription" n="517" href="080036">8.36</xref>, <xref type="inscription" n="518" href="080037">8.37</xref>,  above <xref type="inscription" n="521" href="080103">8.103</xref> (1977)</figDesc></figure><figure href="77_M_21A"><figDesc>Left end in situ, view below  <xref type="inscription" n="517" href="080036">8.36</xref>, <xref type="inscription" n="518" href="080037">8.37</xref>, above <xref type="inscription" n="521" href="080103">8.103</xref> (1977)</figDesc></figure><figure href="HUMS003679"><figDesc>Archive Wall view (1994)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>

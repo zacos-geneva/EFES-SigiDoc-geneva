@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "tei-epidoc.dtd" ><TEI.2 lang="en" id="iAph020003" n="iAph0712 ">
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020003" n="iAph0712 ">
 <teiHeader>
 <fileDesc>
 <titleStmt>
@@ -104,4 +104,4 @@ In the third register, below and to right of iii, an image of an organ on a supp
 <head>Photographs</head>
 <p><figure href="NY_64_100_5"><figDesc>Face in situ (1964)</figDesc></figure><figure href="77_AA_09"><figDesc>i, detail (1977)</figDesc></figure><figure href="77_AA_05"><figDesc>ii, third figure (1977)</figDesc></figure><figure href="77_AA_06"><figDesc>iv, detail (1977)</figDesc></figure><figure href="77_AA_07"><figDesc>Left side detail (1977)</figDesc></figure><figure href="77_AA_08"><figDesc>Left side detail (1977)</figDesc></figure></p>
 </div></body></text>
-</TEI.2>
+</TEI>
