@@ -17,9 +17,7 @@
       <div class="row">
         <div class="large-12 columns text-center">
           <h1>
-            <span class="round label">
-              <i18n:text i18n:key="home-title">Welcome to EFES!</i18n:text>
-            </span>
+            Inscriptions of Aphrodisias - 2025!
           </h1>
         </div>
       </div>
@@ -29,13 +27,11 @@
       <main>
         <div class="row">
           <div class="small-6 large-centered columns">
-            <p>Now that you have EFES up and running, it's time to
-            start building your project. Start with one of the options
-            listed below and go from there.</p>
+            <p>A working version for prepublishing an enhanced edition of all inscriptions recorded before 1994</p>
           </div>
         </div>
-        <div class="row">
-          <div class="large-4 columns">
+    <div class="row">
+          <!--   <div class="large-4 columns">
             <div class="panel radius">
               <p><strong>Add your files</strong></p>
 
@@ -68,7 +64,7 @@
               installation. It explains how you can modify everything
               about your project.</p>
             </div>
-          </div>
+          </div>  --> 
         </div>
       </main>
     </kiln:block>
