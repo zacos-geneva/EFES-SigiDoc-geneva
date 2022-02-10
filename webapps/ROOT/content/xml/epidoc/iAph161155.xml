@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161155">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragments of <rs type="textType">building inscription</rs>, second century A.D.</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Twelve fragments of <rs type="material" key="marmor">white marble</rs> <rs type="objectType">revetment</rs>, some joining to form four groups. Average thickness: <measure type="length" unit="metre" dim="depth">0.03</measure>.</p></div><div type="description" n="text"><head>Description of text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on the face, in two lines.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.12</measure> with broad flat trenches.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" exact="none" notAfter="0200" notBefore="0101">Second century A.D.</date>
+(<rs type="criteria">lettering</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+
+<div type="textpart_fragment" n="a"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">α<unclear reason="damage">ι</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">α<unclear reason="damage">σ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/></ab></div><div type="textpart_fragment" n="b"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <name reg="Σεβαστός" id="name01"><supplied reason="lost">Σεβ</supplied>άστῳ</name><certainty target="name01" locus="#gi" degree="low" assertedValue="w"/>  <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><w><gap dim="left" extent="unknown" reason="lost" unit="character"/>τεύον<supplied reason="lost" cert="low">τος</supplied></w>  <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab></div><div type="textpart_fragment" n="c"><ab><lb n="0"/><gap dim="top" extent="1" reason="lost" unit="line"/><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">τ</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/></ab></div><div type="textpart_fragment" n="d"><ab><lb n="0"/><gap dim="top" extent="1" reason="lost" unit="line"/><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ο</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/></ab></div>
+
+
+</div>
+
+<div type="apparatus">
+<head>Apparatus</head>
+<p>b. l. 1, or <foreign lang="grc"><supplied reason="lost">Σεβ</supplied>άστω<supplied reason="lost">ν</supplied></foreign></p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>b: <gap dim="left" extent="unknown" reason="lost" unit="character"/> for Augustus <gap dim="right" extent="unknown" reason="lost" unit="character"/> <note place="not specified" anchored="yes">or</note> <gap dim="left" extent="unknown" reason="lost" unit="character"/> of Augusti <gap dim="right" extent="unknown" reason="lost" unit="character"/></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>The reference is probably to the emperor Hadrian. The verb in b might describe a function of a responsible official/donor, such as <foreign lang="grc"><supplied reason="lost">ἀρχιερα</supplied>τευοντ<gap dim="right" reason="lost"/></foreign></p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+Found: <rs type="found"><rs type="monuList">Bouleuterion/Odeon, West area</rs>: MAB 13, Tr. 1, Str.2.</rs>
+<rs type="origLocation">Unknown</rs>
+; Last known location: <rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1965 (<rs type="invNo">65.464</rs>).</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="72_F_20A"><figDesc>Fragment a reconstructed (1972)</figDesc></figure><figure href="72_F_21A"><figDesc>Fragment b reconstructed (1972)</figDesc></figure><figure href="77_I_22"><figDesc>Assorted fragments (1977)</figDesc></figure><figure href="77_I_21"><figDesc>Assorted fragments (1977)</figDesc></figure></p><!--<p>66.1.58</p>-->
+</div></body></text>
+</TEI.2>

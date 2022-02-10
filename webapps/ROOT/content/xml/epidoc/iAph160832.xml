@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph160832">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragment from Bouleuterion/Odeon area</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2006-12-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+  
+  <change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> fragment without back or edges (<measure type="length" unit="metre" dim="width">0.21</measure>   × <measure type="length" unit="metre" dim="height">0.20</measure>   × <measure type="length" unit="metre" dim="depth">0.15</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Probably second or even third century B.C.; <measure type="length" unit="metre" dim="height">0.02</measure> - <measure type="length" unit="metre" dim="height">0.01</measure> (ο)</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="-0300" notBefore="-0101" exact="none">? second or even third century B.C.</date>
+(<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><unclear reason="damage">Ε</unclear>ΠΑ<gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab><ab><lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><unclear reason="damage">Λ</unclear>ΑΧΑ<gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="προσδέομαι">προσδεο<supplied reason="lost">μ</supplied><gap reason="lost" extent="unknown" unit="character" dim="right"/></w>  <lb n="4"/><w><gap reason="lost" extent="unknown" unit="character" dim="left"/><unclear reason="damage">χ</unclear>ων</w> <w>ὅτι</w> <w lemma="ἐκ">ἐκ</w> <unclear reason="damage">Τ</unclear><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>ΑΠΑΣΠΡΟΣΟ<gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="6"/><w lemma="ὑπό"><gap reason="lost" extent="unknown" unit="character" dim="left"/>ὑπὸ</w>  Τ<unclear reason="damage">Ε</unclear><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="7"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 5, ? ἅπας προσό[δος ?</p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> </p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> </p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Bouleuterion/Odeon, East Area</rs>: E. Odeon dump</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1977)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1973 (<rs type="invNo">73.239</rs>)</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_L_19A"><figDesc>Face (1977)</figDesc></figure><figure href="77_N_12A"><figDesc>Face (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

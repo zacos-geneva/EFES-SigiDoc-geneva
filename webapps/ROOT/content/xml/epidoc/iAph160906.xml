@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph160906">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Honours</rs>, perhaps <rs type="textType" cert="low">funerary</rs>, for Artemidoros from his brothers</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt>
+<date>2007</date>
+<availability>
+	<p>
+Creative Commons licence Attribution 2.5 (
+<xref>http://creativecommons.org/licenses/by/2.5/</xref>
+)
+</p>
+	<p>
+All reuse or distribution of this work must contain somewhere a link back to the URL 
+<xref>http://insaph.kcl.ac.uk/</xref>
+</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>2007-04-23</date><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-04-19</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Rectangular<rs type="material"> white marble</rs>  stele without moulding (<measure type="length" unit="metre" dim="width">0.625</measure> x <measure type="length" unit="metre" dim="height">0.58</measure> x <measure type="length" unit="metre" dim="depth">0.12</measure>) inscribed on one face; quite modest.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure type="length" unit="metre" dim="height">0.02</measure>
+</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" notAfter="-0001" notBefore="-0100"> I BC </date> (<rs type="criteria">lettering</rs>, <rs type="criteria">style</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἄτταλος</name> <w>καὶ</w> <name>Διομέδων</name> <space extent="3" unit="character"/>  <lb n="2"/> <w>οἱ</w> <persName type="aphrodisian"><name>Ποτάμωνος</name></persName></persName><persName type="aphrodisian"> <name>Ἀρτεμιδώρον</name></persName> <space extent="3" unit="character"/>  <lb n="3"/><space extent="3" unit="character"/> <w>τὸν</w> <w>ἀδελφόν</w> <space extent="3" unit="character"/>  </ab>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>Attalos and Diomedon the sones of Potamon (honoured) Artemidoros, their brother</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>This may be the earliest attestation of the names of the dedicators.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+
+
+
+
+<rs type="found">dismantling Byz. Wall against <rs type="monuList">Theatre</rs> SPS</rs>
+<rs type="lastLocation">Museum</rs><rs type="origLocation">Unknown</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1982 (<rs type="invNo">82.225</rs>)
+</p>
+</div>
+<div type="bibliography" n="none">
+<head>Bibliography</head>
+<p>Unpublished</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="83_B_17A"><figDesc>Face (1983)</figDesc></figure><figure href="83_B_18A"><figDesc>Detail (1983)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161115">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Column dedication</rs> to Demos by Iason</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>
+
+<rs type="objectType">Column base</rs>; no description</p>
+</div><div type="description" n="text"><head>Description of Text</head><p>None</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure type="length" unit="metre" dim="height">0.06</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low"> II-III</date>
+(<rs type="criteria">context</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">σ</unclear></orig>  <persName type="aphrodisian" full="yes"><name reg="Ἰάσων">Ἰασων</name></persName>  <w lemma="ὁ">τῷ</w>  <w>Δήμῳ</w>  <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>. . . ] Jason for the Demos [ . . .</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>One of the column base dedications from west portico of the East Court of the Hadrianic Baths. From north section: <xref type="iAph">1114</xref> (MiItal 8 i and ii), <xref type="iAph">1116</xref> (=Haussoullier1), <xref type="iAph">1119</xref> (=Boulanger A 73, no.11); from the south section <xref type="iAph">1115</xref> (=Boulanger B, 21 no.28), ?<xref type="iAph">1117</xref> (=Museum 154), ?<xref type="iAph">1120</xref> (=Museum 158); cf also <xref type="iAph">1118</xref> (=68.272)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Hadrianic Baths, East Court</rs>: in the south section of the west portico. on the base of first column, west face.</rs><rs type="origLocation">Findspot</rs>;  <rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; notebooks.</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by Boulanger in 1913; not in A, but in notebook B, 21 no.27; C, no.5; not reported subsequently.</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="transcriptions">
+<head>Representations</head>
+<p>
+<figure href="Boulanger_B_21"><figDesc>Boulanger B, 21</figDesc></figure>
+</p>
+</div></body></text>
+</TEI.2>

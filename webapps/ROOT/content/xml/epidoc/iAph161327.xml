@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161327">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> fragment</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Moulded <rs type="material">white marble</rs> fragment, probably from a <rs type="objectType">sarcophagus</rs> (<measure dim="width" type="length" unit="metre" precision="circa">0.12</measure>   × <measure dim="height" type="length" unit="metre">0.12</measure>   × <measure dim="depth" type="length" unit="metre">0.07</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on two planes (face <measure dim="width" type="length" unit="metre">0.09</measure>   × <measure dim="height" type="length" unit="metre">0.08</measure>).</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>l. 1, <measure dim="height" type="length" unit="metre">0.02</measure>; l. 2, truncated</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date>[[ ...]]</date>
+([[...]])</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/>    <gap reason="lost" extent="unknown" unit="line" dim="top" id="gap01"/><certainty target="gap01" locus="#gi" degree="low"/><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w lemma="ὁ"><supplied reason="lost">ἡ</supplied></w>  <w lemma="σορός"><supplied reason="lost">σο</supplied>ρός</w> <orig n="unresolved"><unclear reason="damage">λ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">εδ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 2,  an upper cross bar: <foreign lang="grc">Γ</foreign>, <foreign lang="grc">Τ</foreign>, <foreign lang="grc">Ε</foreign>, <foreign lang="grc">Σ</foreign></p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p> <seg cert="low"><supplied reason="lost">The</supplied> sarcophagus</seg> <gap reason="lost" extent="unknown" unit="character" dim="right"/></p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> ...</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Bouleuterion/Odeon, West area</rs>: MAB 5, Chamber 2</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1977)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1963 (<rs type="invNo">63.168</rs>).</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_T_18A"><figDesc>Face (1977)</figDesc></figure></p><p>66.1.43</p>
+</div></body></text>
+</TEI.2>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161306">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType"><seg cert="low">Honours</seg></rs> for Pamphilos</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt>
+<date>2007</date>
+<availability status="unknown">
+	<p>
+Creative Commons licence Attribution 2.5 (
+<xref>http://creativecommons.org/licenses/by/2.5/</xref>
+)
+</p>
+	<p>
+All reuse or distribution of this work must contain somewhere a link back to the URL 
+<xref>http://insaph.kcl.ac.uk/</xref>
+</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-04-17</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Part of a <rs type="material">white marble</rs> <rs type="objectType">threshold block</rs> (<measure type="length" unit="metre" dim="width">0.82</measure>   × <measure type="length" unit="metre" dim="height">0.19</measure>   × <measure type="length" unit="metre" dim="depth">0.465</measure>), apparently complete to left.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on a riser on a surface a little obscured by accretions.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>?First century B.C. - 1st century A.D.; <measure dim="height" type="length" unit="metre">0.03-0.04</measure>; lightly cut and indifferently aligned.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0100" notBefore="-0100" exact="none" cert="low">1st century B.C. to first century A.D.</date> (<rs type="criteria">lettering</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><persName type="aphrodisian"><name reg="Πάμφιλος">Π<unclear reason="damage">αμ</unclear>φίλου</name>  <space extent="3" unit="character" dim="horizontal"/> <persName type="aphrodisian"><name reg="Μιθροδάτης">Μιθροδάτου</name></persName></persName> <space extent="1" unit="character" dim="horizontal"/>  <orig n="unresolved">με</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><persName type="aphrodisian"><name reg="Ἀρκαθίας">Ἀ<unclear reason="damage">ρ</unclear>καθίου</name> <space extent="3" unit="character" dim="horizontal"/> <w lemma="ὁ">τοῦ</w> <name reg="Μιθροδάτης">Μιθροδάτου</name></persName> <orig n="unresolved"><unclear reason="damage">ε</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="3"/> <w>ἀρχιπερσου</w> <orig n="unresolved">του</orig> <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Of Pamphilos (son) of Mithrodates Me[-] [...] of Arkathios son of Mithrodates E[-] [...] archiperses. </p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>There is no immediate explanation for the use of the genitive case for the main figure(s) - Pamphilos apparently, and, if we have two - or even three? - columns, Mithrodates. Could Ἀρχιπερσης (? Ἀρχιπερσους) be a name? If this is a title it seems to imply the presence of a group claiming to be survivals of the Persian occupation - or ?? of a group involved in a Persian (or allegedly Persian) cult. If this were Mithraism it would - at the probable date - be of considerable importance.</p>
+<p>See P. Briant, DHA 11 (1985) 167-95 on Persia in Asia Minor SEG 35.1080.</p>
+<p>L. Carie 77: Persian names at Tabae, Sebastopolis and Heraclea suggest Persian colonies.</p><p>L. Robert, on Iranians in Asia Minor, BCH 107 (1983) 505-9</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found">Stray</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1994)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1994 (<rs type="invNo">94.47</rs>)</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="94_D_19"><figDesc>Face (1994)</figDesc></figure><figure href="94_D_20"><figDesc>Face (1994)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

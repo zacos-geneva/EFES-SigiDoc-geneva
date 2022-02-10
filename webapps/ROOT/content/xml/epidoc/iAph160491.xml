@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph160491">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Decree</rs> of <rs type="textType">honours</rs> for Hephaistion</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Two fragments - not joining - from a text inscribed on several adjoining blocks. a: left side, a block chipped along left edge and damaged at the lower right corner (<measure type="length" unit="metre" dim="width">0.96</measure>   × <measure type="length" unit="metre" dim="height">0.43</measure>   × <measure type="length" unit="metre" dim="depth">0.56</measure>). b right side,  a rectangular block (<measure type="length" unit="metre" dim="width">1.46</measure>   × <measure type="length" unit="metre" dim="height">0.44</measure>   × <measure type="length" unit="metre" dim="depth">0.61</measure>) with an area cut away at the top left.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face at the right end on an area whose surface is badly damaged.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Perhaps Augustan - 1st century A.D.; <measure type="length" unit="metre" dim="height">0.03</measure>
+</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date>Perhaps Augustan - 1st century A.D</date>
+ (<rs type="criteria">lettering</rs>, <rs type="criteria">formula</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/> <w>ἔδοξεν</w> <w lemma="ὁ">τῇ</w> <w>βουλῇ</w> <w lemma="καί"><unclear reason="damage">κ</unclear><supplied reason="lost">αὶ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῷ</supplied></w>  <w><supplied reason="lost">δήμῳ</supplied></w><gap reason="lost" extent="unknown" unit="character"/> <w><supplied reason="lost" cert="low">γραμματ</supplied>εως</w> <w lemma="δῆμος">δήμου</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="3"/> <w>ἐπεὶ</w> <persName type="aphrodisian"><name>Ἡφαιστίων</name><name> Ἑρμ<gap reason="lost" extent="7" unit="character"/></name></persName>    <w lemma="ἀπό"><supplied reason="lost" cert="low">ἀπὸ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied><unclear reason="damage">ῆ</unclear>ς </w><w>πρώτης</w> <w>ἡλικίας</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="4"/> <w>γέγονεν</w> <w>ζηλωτὴς</w> <w lemma="ὁ">τ<supplied reason="lost">ῶν</supplied></w>  <w lemma="πρόγονος"><supplied reason="lost">προγόνων</supplied></w>  <w lemma="ἑαυτοῦ"><supplied reason="lost" cert="low">ἑαυτοῦ</supplied></w>  <gap reason="lost" extent="6" unit="character"/><w><supplied reason="lost" cert="low">ἐκ</supplied>είνων</w> <w lemma="δόξα">δόξαν</w> <w>αὐξὼν</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="5"/> <w lemma="καί">καὶ</w> <w>ἐπικοσμῶν</w> <w>πρεσ<supplied reason="lost" cert="low">βείαις</supplied></w>    <gap reason="lost" extent="6" unit="character"/><w><supplied reason="lost">στεφ</supplied>ανήφορος</w> <w>ἔφηβος</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="6"/>  <w lemma="ὁ">τὴν</w> <w><gap reason="lost" extent="6" unit="character"/>ας</w> <w lemma="πᾶς">πάντας</w> <w lemma="καί">καὶ</w> <w>ἐφήβους</w> <lb n="7"/><orig n="unresolved">Κ<unclear reason="damage">Λ</unclear></orig><gap reason="lost" extent="6" unit="character"/> <w lemma="ἐν"><supplied reason="lost">ἐν</supplied></w> <w lemma="ὁ">τοῖς</w> <w>χαλεπωτάτοις</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="8"/><w><unclear reason="damage">κ</unclear><supplied reason="lost">αιροῖς</supplied></w>  <gap reason="lost" extent="6" unit="character"/><w><supplied reason="lost" cert="low">κατα</supplied>σσκευὰς</w> <w lemma="ὁ">τοῦ</w> <w>φιλο<unclear reason="damage">δ</unclear><supplied reason="lost" cert="low">όξου</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="9"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w><supplied reason="lost">κατ</supplied>εσκεύακεν</w>  <w lemma="καλός">κα<unclear reason="damage">λλ</unclear>ιστ<lb n="10"/><gap reason="lost" extent="unknown" unit="character" dim="left"/></w>  <orig n="unresolved"><unclear reason="damage">ΤΑΝΤΟΔΙΙΜΚΑΙΤΕ</unclear>Τ</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
+</div>
+
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> . . .</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p>  . . .</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Theatre</rs></rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1970 (b: <rs type="invNo">70.242</rs>, a: <rs type="invNo">70.243</rs>)</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_G_07"><figDesc>a (1978)</figDesc></figure><figure href="76_A_02A"><figDesc>b (1976)</figDesc></figure></p>
+<p>[[Better photo for a?]]</p></div></body></text>
+</TEI.2>

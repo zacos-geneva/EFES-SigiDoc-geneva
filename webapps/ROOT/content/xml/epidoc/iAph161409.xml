@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161409">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> fragment, II-III cent.</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-12</date><respStmt><name>GB</name></respStmt><item>needs translation</item></change><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Piece of a <rs type="objectType">block</rs> with bottom edge and left side, chipped (<measure type="length" unit="metre" dim="width">0.65</measure>   × <measure type="length" unit="metre" dim="height">0.22</measure>   × <measure type="length" unit="metre" dim="depth">0.23</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.022</measure>; ligatured <foreign lang="grc">ΝΗ</foreign>, l.3</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="6" unit="character"/><orig n="unresolved"><unclear reason="damage">ω</unclear></orig><gap reason="illegible" unit="character" extent="1"/><orig n="unresolved"><unclear reason="damage">ησ</unclear></orig> <gap reason="illegible" unit="character" extent="4"/><gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">αι</unclear>να<unclear reason="damage">σ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><w lemma="ἐν"><supplied reason="lost">ἐν</supplied></w> <w lemma="ὅς">ᾗ</w> <w>κηδευθήσεται</w> <w lemma="ὁ">ὁ</w> <w lemma="τε">τε</w> <persName type="aphrodisian"><name>Ἐπ<unclear reason="damage">ί</unclear>γο<supplied reason="lost">νος</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/> <supplied reason="lost"><w>ἡ</w></supplied> <w>γυ<hi rend="ligature">νὴ</hi></w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰ</w> <w lemma="ἐκ">ἐξ</w> <w lemma="αὐτός">αὐτῶν</w><unclear reason="damage"> </unclear><supplied reason="lost">τέκνα</supplied>  <supplied reason="lost"><w>ἕτερος</w></supplied>  <gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="4"/> <w lemma="δέ"><supplied reason="lost">δ</supplied>ὲ</w> <w>οὐδεὶς</w> <w>ἕξει</w> <w>ἐξουσίαν</w> <w lemma="ἐνθάπτω">ἐνθάψ<supplied reason="lost">αι</supplied></w>  <supplied reason="lost">ἢ</supplied>  <supplied reason="lost">ἐκθάψαι</supplied>  <supplied reason="lost">τινα</supplied>  <lb n="5"/><gap reason="lost" extent="1" unit="character"/> <w lemma="ὁ">τῶν</w> <w>ἐνταφέντων</w> <w>ἐπεὶ</w> <w lemma="ὁ">ὁ</w> <w>τοιο<unclear reason="damage">ῦ</unclear><supplied reason="lost">το</supplied></w>  <w><supplied reason="lost">τι</supplied></w>  <w><supplied reason="lost">τολμήσας</supplied></w>  <lb n="6"/><w><supplied reason="lost">ἔ</supplied><unclear reason="damage">σ</unclear>ται</w> <w>ἐπάρατος</w> <w lemma="καί">καὶ</w> <w>ἀσε<unclear reason="damage">β</unclear>ὴς</w> <w><supplied reason="lost">καὶ</supplied></w>  <w><supplied reason="lost">τυμβωρύχος</supplied></w>  <lb n="7"/><w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w> <w>προσαποτείσατω</w> <w>θεᾷ</w> <persName type="divine" full="yes"><supplied reason="lost">Ἀφροδείτῃ</supplied></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="7a"/>  <gap reason="lost" extent="unknown" unit="line" dim="bottom" id="gap08"/><certainty target="gap08" locus="#gi" degree="low"/></ab>
+</div>
+
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> ...</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found">Stray</rs>
+
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1977)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1974 (<rs type="invNo">74.258</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_U_24"><figDesc>Face (1977)</figDesc></figure></p><p>KTE</p>
+</div></body></text>
+</TEI.2>

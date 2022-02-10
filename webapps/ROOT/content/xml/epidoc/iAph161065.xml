@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161065">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType"><rs type="textType" cert="low">Funerary</rs> <rs type="textType">verse</rs></rs></title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt>
+<date>2007</date>
+<availability status="unknown">
+	<p>
+Creative Commons licence Attribution 2.5 (
+<xref>http://creativecommons.org/licenses/by/2.5/</xref>
+)
+</p>
+	<p>
+All reuse or distribution of this work must contain somewhere a link back to the URL 
+<xref>http://insaph.kcl.ac.uk/</xref>
+</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A <rs type="material">white marble</rs> <rs type="objectType">panel</rs> (<measure type="length" unit="metre" dim="width">0.37</measure>   × <measure type="length" unit="metre" dim="height">0.475</measure> × <measure dim="depth" type="length" unit="metre" precision="circa">0.05</measure>) very badly worn by water.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Lunate, ave. <measure type="length" unit="metre" dim="height">0.015</measure>
+</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0400" exact="none">First to fourth centuries A.D.</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>
+ <gap reason="lost" extent="unknown" unit="line" dim="top"/>
+ <lb n="2"/>
+ <gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">α<unclear reason="damage">σεπο</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><orig n="unresolved"><unclear reason="damage">μασιεν</unclear></orig>  <gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">ονευγο</unclear></orig>  <gap reason="lost" extent="2" unit="character"/>Ο<gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><gap reason="lost" extent="1" unit="character"/><orig n="unresolved">ο</orig> <gap reason="lost" extent="1" unit="character"/><w>νοητός</w>  <orig n="unresolved">ασκ<unclear reason="damage">ιι</unclear></orig><gap reason="lost" extent="1" unit="character"/><orig n="unresolved">ο</orig><gap reason="lost" extent="1" unit="character"/><orig n="unresolved">ισ</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5"/> <w lemma="ὁ">τοῖς</w> <w>ἰδίοις</w> <orig n="unresolved"><unclear reason="damage">κοριησιιισυνιο</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="6"/> <orig>ι</orig> <w lemma="δαψιλής">δ<unclear reason="damage">αψιλῆ</unclear></w>  <w lemma="αὐτός">αὐτοῖς</w> <gap reason="lost" extent="2" unit="character"/><orig n="unresolved"><unclear reason="damage">ατσαι</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="7"/><unclear reason="damage">τον</unclear>  <orig n="unresolved"><unclear reason="damage">τι</unclear></orig>  <gap reason="lost" extent="6" unit="character"/><orig n="unresolved"><unclear reason="damage">ψοικιυ</unclear>ιν</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="8"/><orig n="unresolved"><unclear reason="damage">υ</unclear></orig>  <gap reason="lost" extent="6" unit="character"/><orig n="unresolved"><unclear reason="damage">οσ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="9"/><orig n="unresolved"><unclear reason="damage">αγηται</unclear>δ</orig><gap reason="lost" extent="5" unit="character"/><orig n="unresolved"><unclear reason="damage">τυιευ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="10"/><orig n="unresolved"><unclear reason="damage">τ</unclear></orig><gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">ορινγο</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="11"/> <orig n="unresolved">τον</orig> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="12"/><orig n="unresolved"><unclear reason="damage">π</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="13"/><orig n="unresolved"><unclear reason="damage">ιιφορα</unclear></orig><gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">ιο</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="14"/><orig n="unresolved"><unclear reason="damage">τιυ</unclear></orig><gap reason="lost" extent="1" unit="character"/><orig n="unresolved"><unclear reason="damage">ρβυλ</unclear></orig>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="15"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
+</div>
+
+<div type="translation" n="none">
+<head>Translation</head>
+<p>none</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>The language suggests verse, probably funerary.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Sebasteion</rs>: E. Temple Seb. 1-83.</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1983 (<rs type="invNo">83.68</rs>)</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="2001_A_22"><figDesc>Face (2001)</figDesc></figure><figure href="2001_A_23"><figDesc>Face (2001)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

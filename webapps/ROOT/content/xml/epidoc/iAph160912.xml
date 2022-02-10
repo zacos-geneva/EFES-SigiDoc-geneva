@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph160912">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Honours</rs> for Titus Aurelius Metrodoros from Ailia Lakinilla his mother</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>2007-04-23</date><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-04-19</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material">White marble</rs> <rs type="objectType"><rs type="objectType">statue base</rs> shaft</rs> with moulded panels on all four sides (<measure type="length" unit="metre" dim="width">0.35</measure> x <measure type="length" unit="metre" dim="height">0.95</measure> x <measure type="length" unit="metre" dim="depth">0.35</measure>); square centre cutting on top.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face, which is worn and chipped.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>
+Modelled on official forms of the second century A.D.; <measure type="length" unit="metre" dim="height">0.02</measure>, with omicron often smaller; ligatured <foreign lang="grc">ΗΝ</foreign>, l.14, <foreign lang="grc">ΗΜΗ</foreign> l.20, <foreign lang="grc">ΜΗ</foreign> l.21; outspaced by one letter from l.11 onwards</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" notAfter="0200" notBefore="0101">Second century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <supplied reason="lost" cert="low"><w>ἡ</w>  <w>βουλὴ</w>  <w>καὶ</w>  <w>ὁ</w>  <w>δῆμος</w></supplied>  <lb n="2"/> <w>ἐτείμη<lb type="worddiv" n="3"/>σαν</w>  <w>ταῖς</w> <lb n="4"/><w>καλ<unclear reason="damage">λ</unclear>ισ  <lb type="worddiv" n="5"/>ταις</w> <w>καὶ</w> <lb n="6"/><w>πρ<unclear reason="damage">ε</unclear>πού  <lb type="worddiv" n="7"/>σαις</w> <w>τει<lb type="worddiv" n="8"/>μαῖς</w>  <persName type="aphrodisian"><name>Τῖ<lb type="worddiv" n="9"/>τον</name>  <name reg="Αὐρήλιος" type="nomen">Αὐρή<lb type="worddiv" n="10"/>λιον</name>  <name reg="Μητρόδωρος">Μη<lb type="worddiv" n="11"/>τ<supplied reason="lost">ρ</supplied>ό<unclear reason="damage">δ</unclear>ωρον</name>   <lb n="12"/> <w>ὑιὸν</w> <persName type="aphrodisian"><name>Τ.</name> <name>Αὐρ.</name> <lb n="13"/> <name reg="Μένιππος" type="
+
+      ">Μενίππου</name></persName></persName> <lb n="14"/> <w>ἀρχιατροῦ</w> <lb n="15"/> <w>τ<hi rend="ligature">ὴν</hi></w> <w>δὲ</w> <w>ἀνά<lb type="worddiv" n="16"/>στασιν</w>  <w>τοῦ</w> <lb n="17"/> <w>ἀνδρίαν<lb type="worddiv" n="18"/>τος</w>  <w>ἐποιή<lb type="worddiv" n="19"/>σατο</w>  <persName type="aphrodisian"><name reg="Αἰλία">Αἰλί<lb type="worddiv" n="20"/>α</name>  <name>Λακινιλ<lb type="worddiv" n="21"/>λα</name></persName>  <w><hi rend="ligature" id="lig2">ἡ</hi></w> <link targets="lig2 lig3"/><w><hi rend="ligature" id="lig3">μη</hi>τὴρ</w> <lb n="22"/> <w>τοῦ</w> <persName type="aphrodisian"><name reg="Μητρόδωρος" type="
+
+      "><hi rend="ligature">Μη</hi>τρο<lb type="worddiv" n="23"/><space extent="3" unit="character"/>δώρου</name></persName>  <g type="leaf"/>  </ab>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p>No translation yet (2007)</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p>No commentary yet (2007)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">City, Water Channel area</rs>: reused in the Byzantine house.</rs> <rs type="origLocation">Unknown</rs>
+
+
+
+<rs type="lastLocation">Museum (1988)</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1985 (<rs type="invNo">85.38</rs>; SBI <rs type="sbi">33</rs>).</p>
+</div>
+<div type="bibliography" n="none">
+<head>Bibliography</head>
+<p>Unpublished</p></div><div type="figure" n="photographs"><head>Photographs</head><p><figure href="85_E_04"><figDesc>Face (1985)</figDesc></figure><figure href="88_F_23"><figDesc>Face (1988)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

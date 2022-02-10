@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph160914">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Honours</rs> for Adrastos</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>2007-04-23</date><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-04-19</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>Rectangular plain <rs type="material">white marble</rs> <rs type="objectType">statue base</rs>, with a variety of clamp-holes on top (<measure type="length" unit="metre" dim="width">0.94</measure> x <measure type="length" unit="metre" dim="height">0.275</measure> x <measure type="length" unit="metre" dim="depth">0.595</measure>). Left side broken away</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>ll. 1,3,5, <measure type="length" unit="metre" dim="height">0.025</measure>; ll. 2,4, <measure type="length" unit="metre" dim="height">0.03</measure>
+</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date>Julio-Claudian</date>
+ (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w>ἡ</w> <w>γερουσία</w> <w>ἐτείμησεν</w> <lb n="2"/> <name reg="Ἄδραστος">Ἄδραστον</name> <name>Ἱεροκλέους</name> <lb n="3"/> <w>τοῦ</w> <name reg="Ἄδραστος">Ἀδράστου</name> <w>ἄνδρα</w>  <w>κ<supplied reason="lost">α</supplied>  <lb n="4"/>λὸν</w> <w>καὶ</w> <w>ἀγαθὸν</w> <w>δι<supplied reason="lost">ὰ</supplied></w>   <w><supplied reason="lost">προ</supplied><lb type="worddiv" n="5"/>  <space extent="3" unit="character"/>γόνων</w> <space extent="3" unit="character"/>  </ab>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>This man and his brother, honoured in  <xref type="iAph">915</xref> (= 87.372) are not otherwise known.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">South Agora</rs>, South Basin 87-1, with 87.372</rs>
+<rs type="lastLocation">Museum</rs>
+
+
+
+<rs type="origLocation">Unknown</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1987 (<rs type="invNo">87.371</rs>; SBI <rs type="sbi">76</rs>)</p>
+</div>
+<div type="bibliography" n="none">
+<head>Bibliography</head>
+<p>Unpublished</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="88_B_24"><figDesc>Face (1988)</figDesc></figure><figure href="88_B_25"><figDesc>Face (1988)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

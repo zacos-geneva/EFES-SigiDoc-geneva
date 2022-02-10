@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161263">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="Dedication to divinity">Dedication</rs> to Nike</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+
+
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">architrave</rs> block (<measure type="length" unit="metre" dim="width">2.57</measure> × <measure type="length" unit="metre" dim="height">0.605</measure> × <measure type="length" unit="metre" dim="depth">0.42</measure>).</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> within an area in the centre of one side where the moulding has been cut away (die, <measure type="length" unit="metre" dim="width">0.44</measure>   × <measure type="length" unit="metre" dim="height">0.04</measure>); the surface is damaged and the lower edge chipped.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>lightly cut; <measure dim="height" type="length" unit="metre">0.035</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0200" exact="none">First to second century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <persName type="divine" full="yes">Ν<supplied reason="lost">ί</supplied><unclear reason="damage">κῃ</unclear></persName>  <persName type="emperor" key="anon" full="yes"><w lemma="σεβαστός">Σεβαστῶν</w></persName></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>To the Victory of the Augusti</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> ...</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+; Original location: <rs type="origLocation">Unknown</rs>
+Found: <rs type="found"><rs type="monuList">South Agora</rs> lying in the central area, a little south of the Basilica façade.</rs>
+; Last known location: <rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1968, and catalogued in 1971 (<rs type="invNo">71.85c</rs>; <rs type="siteNo">Portico of Tiberius 8</rs>).</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>JMR.2.33, 34, 35<figure href="JMR_2_1969_034"><figDesc>Face (1969)</figDesc></figure><figure href="JMR_2_1969_035"><figDesc>Face (1968)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

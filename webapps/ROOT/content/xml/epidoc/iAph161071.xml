@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161071">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragment, ?<rs type="textType">funerary</rs></title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt>
+<date>2007</date>
+<availability status="unknown">
+	<p>
+Creative Commons licence Attribution 2.5 (
+<xref>http://creativecommons.org/licenses/by/2.5/</xref>
+)
+</p>
+	<p>
+All reuse or distribution of this work must contain somewhere a link back to the URL 
+<xref>http://insaph.kcl.ac.uk/</xref>
+</p>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> fragment from ? a <rs type="objectType">block</rs>  (<measure type="length" unit="metre" dim="width">0.36</measure>   × <measure type="length" unit="metre" dim="height">0.27</measure>   × <measure type="length" unit="metre" dim="depth">0.13</measure>)</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>
+<measure type="length" unit="metre" dim="height">0.01</measure>
+; ligatures <foreign lang="grc">ΤΗ</foreign> in ll. 1 and 2.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0300" notBefore="0001" exact="none">First to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+ <ab><lb n="0"/><gap dim="top" reason="lost" extent="1" unit="line"/><lb n="1"/> <name><gap dim="left" extent="unknown" reason="lost"/>κρα<hi rend="ligature">τη</hi>ς</name> <w>ὁ</w> <w>καὶ</w> <gap reason="lost" extent="unknown" dim="right"/><lb n="2"/> <name><gap dim="left" extent="unknown" reason="lost"/>δωριδος</name> <w><hi rend="ligature">τῆ</hi>ς</w> <gap reason="lost" dim="right"/><lb n="3"/> <w><gap dim="left" extent="unknown" reason="lost"/>ητις</w> <w>ἐδειξε</w><lb n="4"/> <gap dim="left" extent="unknown" reason="lost"/><space extent="2"/>    	<hi rend="ligature"><seg cert="low"><num value="6">Ϛ</num></seg> <g type="scroll"/></hi> <orig n="unresolved"><hi rend="ligature">νη</hi>νμ</orig></ab>
+</div>
+
+<div type="translation" n="none">
+<head>Translation</head>
+<p>No translation possible.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> Two names, ending in -κρατης and -δορις.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">City, Water Channel area</rs> 84.1, surface</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1985)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1984 (<rs type="invNo">84.2</rs>)</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="85_A_16"><figDesc>Face (1985)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

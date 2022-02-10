@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161204">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragment from <rs type="textType" reg="statue dedication">dedication</rs> of  <seg cert="low">caryatid</seg>, </title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> fragment of <rs type="objectType">statue base</rs> with traces of upper moulding (<measure type="length" unit="metre" dim="width">0.30</measure> × <measure type="length" unit="metre" dim="height">0.33</measure> × <measure type="length" unit="metre" dim="depth">0.32</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.05</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0151" notAfter="0200">Second half of second century A.D.</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">monument group</rs>, <rs type="criteria">prosopography</rs>).</p>
+
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">μμ</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ε</unclear>ικ</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="2a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/></ab>
+</div>
+
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 2,  <foreign lang="grc">Ε</foreign> could be <foreign lang="grc">Γ</foreign> or <foreign lang="grc">Π</foreign> or<foreign lang="grc"> Σ</foreign>.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>Reference to an Ammia, Ammiane or Ammianus?</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Fragment from one of the series of dedications from the East Court of the Hadrianic Baths: <xref type="iAph">1184</xref>, <xref type="iAph">1186</xref>, <xref type="iAph">1187</xref>, <xref type="iAph">1188</xref>, <xref type="iAph">1189</xref>, <xref type="iAph">1190</xref>, <xref type="iAph">1191</xref>, <xref type="iAph">1192</xref>, <xref type="iAph">1193</xref>, <xref type="iAph">1194</xref>, <xref type="iAph">1195</xref>, <xref type="iAph">1196</xref>, <xref type="iAph">1197</xref>, <xref type="iAph">1198</xref>, <xref type="iAph">1199</xref>, <xref type="iAph">1200</xref>, <xref type="iAph">1201</xref>, <xref type="iAph">1202</xref>, <xref type="iAph">1203</xref>, <xref type="iAph">1205</xref>, <xref type="iAph">1206</xref>, <xref type="iAph">1207</xref>, <xref type="iAph">1208</xref>, <xref type="iAph">1209</xref>, <xref type="iAph">1210</xref> ; all are by women, and apparently bore caryatids (see <xref type="iAph">1198</xref>).</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+Found: <rs type="found"><rs type="monuList">Hadrianic Baths, East Court</rs>: 'cour de l'E(st), partie sud' (Boulanger); South Agora, west portico in 1984.</rs>
+<rs type="origLocation"><rs type="monuList">Hadrianic Baths</rs>: ?Caryatid portico</rs>
+; Last known location: <rs type="lastLocation">Museum</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); Boulanger notebooks.</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated in 1905; copied by Boulanger (notebook A, 63 no.24); found by NYU expedition in 1984 (<rs type="invNo">84.75</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+
+<p><figure href="85_A_18"><figDesc>Face (1985)</figDesc></figure><figure href="85_A_19"><figDesc>Face (1985)</figDesc></figure></p><p>KTE photos </p>
+</div><div type="figure" n="transcriptions">
+<head>Transcriptions</head>
+<p><figure href="Boulanger_A_57"><figDesc>Boulanager notebook A, 63</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

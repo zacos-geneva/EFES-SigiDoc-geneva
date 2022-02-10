@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161152">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Building inscription</rs> fragments first-second centuries A.D.</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>Four fragments from a <rs type="material" key="marmor">white marble</rs> <rs type="objectType">architrave</rs> block with moulding above (a: <measure type="length" unit="metre" dim="width">0.60</measure>   × <measure type="length" unit="metre" dim="height">0.025</measure>   × <measure type="length" unit="metre" dim="depth">0.21</measure>; b: <measure type="length" unit="metre" dim="width">0.60</measure>   × <measure type="length" unit="metre" dim="height">0.24</measure>   × <measure type="length" unit="metre" dim="depth">0.18</measure>; c: <measure type="length" unit="metre" dim="width">0.36</measure>   × <measure type="length" unit="metre" dim="height">0.32</measure>   × <measure type="length" unit="metre" dim="depth">0.27</measure>; d: <measure type="length" unit="metre" dim="width">0.33</measure>   × <measure type="length" unit="metre" dim="height">0.25</measure>   × <measure type="length" unit="metre" dim="depth">0.30</measure>.</p></div><div type="description" n="text"><head>Description of text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on three fasciae.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.035-0.04</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" exact="none" notAfter="0200" notBefore="0001">First to second centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+
+
+<div type="textpart_fragment" n="a"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/> <persName type="aphrodisian"><name reg="Δημήτριος"><supplied reason="lost">Δ</supplied>ημητρίου</name></persName>    <name type=" ">Ἀ<unclear reason="damage">ι</unclear><gap dim="right" extent="unknown" reason="lost" unit="character"/></name><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>σ</orig>  <w><unclear reason="damage">ἐκ</unclear>γον<gap dim="right" extent="unknown" reason="lost" unit="character"/></w><lb n="3"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ελι</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/></ab></div><div type="textpart_fragment" n="b"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ιο</unclear></orig><gap dim="internal" extent="1" reason="lost" unit="character"/><orig n="unresolved">ων<unclear reason="damage">ι</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">αν</orig> <w lemma="ὁ">τῶν</w> <w lemma="δέ">δὲ</w> <orig n="unresolved">π<unclear reason="damage">λ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="3"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ου</orig>  <persName type="aphrodisian"><name reg="Ἄκυλος">Ἀκύλου</name></persName>  <orig n="unresolved">κ</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/></ab></div><div type="textpart_fragment" n="c"><ab><lb n="1"/><gap dim="right" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ντ<unclear reason="damage">ι</unclear></orig><gap dim="left" extent="unknown" reason="lost" unit="character"/><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">τ</unclear>λε<unclear reason="damage">σ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="3"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">υ</unclear>ντ<unclear reason="damage">ι</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/></ab></div><div type="textpart_fragment" n="d"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w>  <persName type="aphrodisian"><name reg="Ἀσκων">Ἀσκω<supplied reason="lost">νι</supplied><gap dim="right" extent="unknown" reason="lost" unit="character"/></name></persName><lb n="1a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab></div>
+
+
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>a. . . . ] of Demetrios [. . . | . . .] grandson/grandsons/granddaughter [ . . .</p><p>b. . . . ] of the [ . . . | . . . ]of Akylos /?Aquilas/Aquila [ . . . </p><p>d. ... ] and Asco[nius (case unknown)</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> [[...]]</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs> <rs type="found"><rs type="monuList">Stray</rs></rs> <rs type="lastLocation">Museum (1978)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Found by the NYU expedition in 1970 (<rs type="siteNo">Museum 111</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>
+<figure href="78_J_05"><figDesc>Fragment a. (1978)</figDesc></figure><figure href="78_J_02"><figDesc>Fragment b. (1978)</figDesc></figure><figure href="78_J_03"><figDesc>Fragment c. (1978)</figDesc></figure><figure href="78_J_06"><figDesc>Fragment d. (1978)</figDesc></figure>
+</p>
+</div></body></text>
+</TEI.2>

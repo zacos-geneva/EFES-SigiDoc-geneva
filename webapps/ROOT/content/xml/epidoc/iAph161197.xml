@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161197">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="statue dedication">Dedication</rs> of a <seg cert="low">caryatid</seg>  to Demos</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>'Fragment', apparently with part of left side surviving. <rs type="objectType">Statue base</rs>.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><foreign lang="grc">ΝΗ</foreign> in ligature, l. 1</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+
+<date notBefore="0151" notAfter="0200">Second half of second century A.D.</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">monument group</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><orig n="unresolved"><hi rend="ligature">νη</hi><unclear reason="damage">λ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="2"/><orig n="unresolved">δω<unclear reason="damage">λ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="3"/><space extent="2" unit="character" dim="horizontal"/>  <w>Δ<supplied reason="lost">ήμῳ</supplied></w>  <supplied reason="lost"><space extent="2" unit="character" dim="horizontal"/></supplied><lb n="3a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom" id="gap1197-04"/><certainty target="gap1197-04" locus="#gi" degree="low" assertedValue="space"/></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p><gap reason="lost" extent="unknown" unit="character" dim="left"/> to the People <gap reason="lost" extent="unknown" unit="character" dim="right"/></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Fragment from one of the series of dedications from the East Court of the Hadrianic Baths: <xref type="iAph">1184</xref>, <xref type="iAph">1186</xref>, <xref type="iAph">1187</xref>, <xref type="iAph">1188</xref>, <xref type="iAph">1189</xref>, <xref type="iAph">1190</xref>, <xref type="iAph">1191</xref>, <xref type="iAph">1192</xref>, <xref type="iAph">1193</xref>, <xref type="iAph">1194</xref>, <xref type="iAph">1195</xref>, <xref type="iAph">1196</xref>, , <xref type="iAph">1198</xref>, <xref type="iAph">1199</xref>, <xref type="iAph">1200</xref>, <xref type="iAph">1201</xref>, <xref type="iAph">1202</xref>, <xref type="iAph">1203</xref>, <xref type="iAph">1204</xref>, <xref type="iAph">1205</xref>, <xref type="iAph">1206</xref>, <xref type="iAph">1207</xref>, <xref type="iAph">1208</xref>, <xref type="iAph">1209</xref>, <xref type="iAph">1210</xref> ; all are by women, and apparently bore caryatids (see <xref type="iAph">1198</xref>).</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+Found: <rs type="found"><rs type="monuList">Hadrianic Baths</rs>; East Court: 'Cour de l'E(st) partie N.' (Boulanger)</rs>
+<rs type="origLocation">Hadrianic Baths: ?Caryatid portico</rs>
+; Last known location: <rs type="lastLocation">Findspot (1905)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Boulanger notebooks.</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by Mendel in 1905; recorded by Boulanger (notebook A, 63 no.26, whence B, 13, no.15; not in C). Not reported subsequently.</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>None</p>
+</div><div type="figure" n="transcriptions">
+<head>Transcriptions</head>
+<p><figure href="Boulanger_A_63"><figDesc>Boulanger notebook A, 63</figDesc></figure><figure href="Boulanger_B_13"><figDesc>Boulanger notebook B, 13</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

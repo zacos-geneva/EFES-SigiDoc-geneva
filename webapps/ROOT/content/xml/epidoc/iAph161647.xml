@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161647">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> inscription for Pankrates and Tatia</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Upper part of a small <rs type="material">white marble</rs> <rs type="objectType">stele</rs> (<measure type="length" unit="metre" dim="width">0.315</measure>  × <measure type="length" unit="metre" dim="height">0.43</measure>  × <measure type="length" unit="metre" dim="depth">0.10</measure>) with back rounded for insertion into a wall. A moulded <rs type="decoration">gable</rs> above contains a <rs type="decoration">round shield</rs> in relief; below, within a moulded panel, a <rs type="decoration">young male figure</rs> in relief; below, within a moulded panel, a <rs type="decoration">young male figure</rs> in relief, holding a <rs type="decoration">sickle</rs> in the left hand; right hand and lower part lost.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> within the panel to either side of the figure.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Cursive</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>(<rs type="criteria">style</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<cb n="i" rend="column"/><ab><lb n="1"/> <persName type="aphrodisian"><name>Πανκρά<lb n="2" type="worddiv"/>της</name></persName> <w lemma="καί">καὶ</w><lb n="3"/><persName type="aphrodisian"><name>Τατία</name></persName><lb n="4"/><persName type="aphrodisian"><name reg="Μηνόδοτος">Μηνο <lb n="5" type="worddiv"/><supplied reason="lost">δότ</supplied>ου</name></persName> <lb n="6"/>  <w lemma="ὁ"><supplied reason="lost" cert="low">τοῦ</supplied></w> <lb n="7"/><gap reason="lost" extent="unknown" dim="bottom" unit="line"/></ab><cb n="ii" rend="column"/><ab><lb n="1"/> <w>ἰδίου</w> <w>τέ<lb n="2" type="worddiv"/>κνου</w> <w>μνί<lb n="3" type="worddiv"/>ας</w>  <w lemma="χάρις">χά<lb n="4" type="worddiv"/>ριν</w> <lb n="5"/><w lemma="ὁ">ὁ</w> <w>ἄρας</w> <lb n="6"/>   <w lemma="αὐτός">αὐτὸ</w> <lb n="7"/>    <w><supplied reason="lost">ἀποτί</supplied>  <lb n="8"/>σ</w>ι  <w><supplied reason="lost">θεᾷ</supplied></w>  <lb n="9"/><persName type="divine"><supplied reason="lost">Ἀ</supplied>φ<lb n="10" type="worddiv"/><supplied reason="lost">ροδ</supplied><unclear reason="damage">ί</unclear><lb n="11" type="worddiv"/><supplied reason="lost">τῃ</supplied></persName>  <gap reason="lost" extent="3" unit="character"/>  <lb n="12"/><gap reason="lost" extent="3" unit="character"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p/>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> ...</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Stray</rs> ? in 1978</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1978)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (<rs type="siteNo">Museum 20</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_E_00A"><figDesc>Face (1978)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

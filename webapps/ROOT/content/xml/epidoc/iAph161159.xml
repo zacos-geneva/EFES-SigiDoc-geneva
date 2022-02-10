@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161159">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="statue dedication">Dedication</rs> of statues and <seg cert="low">water channels</seg></title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">statue base</rs> with moulding (<measure type="length" unit="metre" dim="width">1.48</measure> × <measure type="length" unit="metre" dim="height">0.40</measure> × <measure type="length" unit="metre" dim="depth">0.90</measure>). The inscription must have begun on an upper feature, now lost, but fragments of the statuary have been found. There is a hole cut through the lower moulding for a water pipe.</p></div><div type="description" n="text"><head>Description of Text</head><p> Inscribed on upper moulding which is chipped at right.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Elaborately serifed letters; l.1, <measure dim="none">0.03-0.035</measure>; l.2, <measure dim="none">0.0253</measure>; l.3, <measure dim="none">0.02-0.025</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" notAfter="0100" notBefore="0001" exact="none">First century A.D.</date>
+cf. <rs type="criteria">lettering</rs> of <xref type="iAph">1282</xref> (=MAMA 449)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/><gap extent="unknown" dim="left" reason="lost" unit="character"/><supplied reason="lost"><w lemma="ὁ">ὁ</w> <w>δεῖνα</w> <w lemma="κατά">κατὰ</w> <w lemma="ὁ">τὴν</w> <w lemma="ὁ">τοῦ</w> <w lemma="δεῖνα">δεῖνος</w></supplied>  <w><supplied reason="lost">δια</supplied><lb n="1" type="worddiv"/>ταγὴν</w> <w lemma="ὁ">τὸν</w> <persName type="divine" full="yes">Ἡρακλέα</persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸν</w> <persName type="divine" full="yes">Τρείτωνα</persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸν</w> <orig n="unresolved">λ</orig><gap extent="6" dim="right" reason="lost" unit="character"/><lb n="2"/> <w lemma="ἀνατίθημι">ἀνέθηκεν</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w>ἰδίων</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰ</w> <w>σωληνοθετήμ<supplied reason="lost" cert="low">ατα</supplied></w><lb n="3"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰ</w> <w>ὕδατα</w> <w lemma="εἰς">εἰς</w> <sic n="superfluous"><orig n="unresolved">σ</orig></sic> <w lemma="ὁ">τὸ</w> <w>βαλανεῖον</w> <w lemma="πᾶς">πάντα</w> <space unit="character" extent="7" dim="horizontal"/></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p><gap extent="unknown" dim="left" reason="lost" unit="character"/> <supplied reason="lost">according to the</supplied> command <supplied reason="lost">of a deity whose name has been lost</supplied> set up the Herakles and the Triton and the L<gap extent="unknown" dim="internal" reason="lost" unit="character"/> at his own expense and the channelling and all the water for the Bath.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p><foreign lang="grc">σωληνοθέτημα</foreign> is not attested in TLG.</p><p><foreign lang="grc">Τρείτων</foreign>: see <bibl>Robert <title level="m">Laodicée</title></bibl> [[and check LIMC]].</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+Found: <rs type="found"><rs type="monuList">Hadrianic Baths</rs>, built into wall of pool in the frigidarium, with inscribed face towards pool</rs>
+<rs type="origLocation">Findspot</rs>
+; Last known location: <rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1967 (<rs type="invNo">67.553</rs>; SBI <rs type="sbi">147</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>
+<!--<figure href="72_F_29A"><figDesc>Photo lost</figDesc></figure>-->
+<figure href="73_X_32A"><figDesc>Monument (1973)</figDesc></figure><figure href="78_F_00"><figDesc>Monument (1978)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

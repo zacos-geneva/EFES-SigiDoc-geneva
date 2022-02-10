@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161920">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for Ulpia Carminia Prokla</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<editionStmt><edition><title level="m">Inscriptions of Aphrodisias</title><title type="abbreviated" level="m">IAph</title></edition></editionStmt><publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> upper plinth for a <rs type="objectType" cert="low">statue base</rs> or <rs type="objectType" cert="low">pilaster</rs> (<measure type="length" unit="metre" dim="width">0.93</measure>-<measure type="length" unit="metre" dim="width">0.57</measure>  × <measure type="length" unit="metre" dim="height">0.33</measure>  × <measure type="length" unit="metre" dim="depth">0.85</measure>-<measure type="length" unit="metre" dim="depth">0.56</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on upper moulding (l.1) and on lower fascia (ll.2-3). The text may have continued on the feature below.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure type="length" unit="metre" dim="height">0.025</measure>; apices for abbreviations; dot or circle for stop.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">nomenclature</rs>, <rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc"><head lang="en">Edition</head>
+<ab><lb n="1"/>  <g type="scroll"/>  <persName type="divine" full="yes"><w lemma="ἀγαθός">Ἀγαθῇ</w>  <g type="star"/>  <w lemma="τύχη">Τύχῃ</w></persName>  <g type="scroll"/>  <lb n="2"/><w lemma="ὁ">ἡ</w>  <w lemma="πατρίς">πατρίς</w>  <g type="stop"/>  <w lemma="παρά">παρὰ</w>  <w lemma="ὁ">τῇ</w>  <w lemma="θεός">θεῷ</w>  <lb n="3"/><persName type="aphrodisian" full="yes"><name><expan><abbr>Οὐ<hi rend="apex">λ</hi><orig><g type="stop"/></orig></abbr><supplied reason="abbreviation">πίαν</supplied></expan></name>    <name><expan><abbr>Καρ<hi rend="apex">μ</hi><orig><g type="stop"/></orig></abbr><supplied reason="abbreviation">ινίαν</supplied></expan></name>    <name>Πρόκλαν</name></persName></ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>With Good Fortune: Ulpia Carminia Prokla: her fatherland <supplied reason="subaudible">set up her statue</supplied> beside the goddess</p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p>No commentary yet (2007)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Hadrianic Baths</rs>: 'face S. du pilier' (A) 'pylon (B) N(ord).' (Boulanger); at the west end of the East court (NYU).</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot (1977)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); notebooks.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by Boulanger, 13 October 1913 (Notebook A, 67, whence B, 39 no. 1); recorded by the NYU expedition (<rs type="siteNo">Baths 9</rs>; SBI <rs type="sbi">140</rs>).</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_D_03A"><figDesc>Face (1977)</figDesc></figure></p>
+</div><div type="figure" n="transcriptions">
+<head>Representations</head>
+<p><figure href="Boulanger_A_67"><figDesc>Boulanger notebook A, 67</figDesc></figure><figure href="Boulanger_B_39"><figDesc>Boulanger notebook B, 39</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

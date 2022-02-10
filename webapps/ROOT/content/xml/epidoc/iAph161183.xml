@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161183">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="statue dedication">Dedication</rs> of a <seg cert="low">caryatid</seg> by  Claudia Paulina</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A <rs type="material" key="marmor">white marble</rs> <rs type="objectType">statue base</rs> with <rs type="decoration">egg and dart moulding</rs> above on three sides (<measure type="length" unit="metre" dim="width">0.675</measure> × <measure type="length" unit="metre" dim="height">0.60</measure> × <measure type="length" unit="metre" dim="depth">0.54</measure>)
+
+</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face, which is chipped to left.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.04</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0134" notAfter="0166" exact="none">Mid second century A.D.</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">monument group</rs>, <rs type="criteria">prosopography</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <persName type="aphrodisian" full="yes"><name reg="Κλαυδία"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αυδία</supplied></expan></name>  <name reg="Παυλεῖνα">Παυλεῖνα</name></persName><lb n="2"/><space extent="1" unit="character" dim="horizontal"/> <w lemma="ἀνατίθημι">ἀνέθηκεν</w> <lb n="2a"/><space extent="1" unit="line" dim="vertical"/></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>Cl<supplied reason="abbreviation">audia</supplied> Paulina set <supplied reason="subaudible">this</supplied> up.</p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p><!--One of the series of dedications from the East Court of the Hadrianic Baths: <xref type="iAph">1184</xref>, <xref type="iAph">1186</xref>, <xref type="iAph">1187</xref>, <xref type="iAph">1188</xref>, <xref type="iAph">1189</xref>, <xref type="iAph">1190</xref>, <xref type="iAph">1191</xref>, <xref type="iAph">1192</xref>, <xref type="iAph">1193</xref>, <xref type="iAph">1194</xref>, <xref type="iAph">1195</xref>, <xref type="iAph">1197</xref>, <xref type="iAph">1198</xref>, <xref type="iAph">1199</xref>, <xref type="iAph">1200</xref>, <xref type="iAph">1201</xref>, <xref type="iAph">1202</xref>, <xref type="iAph">1203</xref>, <xref type="iAph">1204</xref>, <xref type="iAph">1205</xref>, <xref type="iAph">1206</xref>, <xref type="iAph">1207</xref>, <xref type="iAph">1208</xref>, <xref type="iAph">1209</xref>, <xref type="iAph">1210</xref> ; all are by women, and apparently bore caryatids (see <xref type="iAph">1198</xref>).--></p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation"><rs type="monuList">Hadrianic Baths</rs>: ?Caryatid portico</rs>
+Found: <rs type="found"><rs type="monuList">Hadrianic Baths, East Court</rs>: 'Portique O<supplied reason="abbreviation">uest</supplied> (N<supplied reason="abbreviation">ord</supplied>)' (Boulanger)</rs>
+; Last known location: <rs type="lastLocation">in the debris in East court of the Hadrianic Baths.</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); Mendel/Boulanger</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by Boulanger, 24 October, 1913, (notebook A 74, whence B 36-7 no. 17); found by the NYU expedition (SBI <rs type="sbi">144</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><!--<figure href="94_A_25"><figDesc>Face (1994)</figDesc></figure>--><figure href="Aph2004_100"><figDesc>Face (2004)</figDesc></figure>
+<figure href="Aph2004_101"><figDesc>Top (2004)</figDesc></figure></p>
+</div><div type="figure" n="transcriptions">
+<head>Transcriptions</head>
+<p><figure href="Boulanger_A_74"><figDesc>Boulanger notebook A, 74</figDesc></figure></p><p>Boulanger notebook B</p>
+</div></body></text>
+</TEI.2>

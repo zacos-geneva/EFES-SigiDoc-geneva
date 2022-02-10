@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph160907">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Fragmentary <rs type="textType">honours</rs> </title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>2007-04-23</date><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-04-19</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> fragment, probably from a <rs type="objectType">statue base</rs>,  without back or edges (<measure type="length" unit="metre" dim="width">0.245</measure> x <measure type="length" unit="metre" dim="height">0.24</measure> x <measure type="length" unit="metre" dim="depth">0.11</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the surviving face (area <measure type="length" unit="metre" dim="width">0.235</measure> x <measure type="length" unit="metre" dim="height">0.13</measure>)</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Standard forms; <measure type="length" unit="metre" dim="height">0.018</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date> II-III</date>
+(<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ονρ<unclear reason="damage">ιι</unclear></orig><gap reason="lost" extent="unknown" unit="character"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ι</orig>  <g type="stop"/>  <w lemma="ἀγορανομ-">ἀγορα<unclear reason="damage">ν</unclear><supplied reason="lost">ομ</supplied><gap reason="lost" extent="unknown" unit="character"/></w>  <lb n="4"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">α</orig> <w>κρίσιν</w> <g type="stop"/>  <w>κα<unclear reason="damage">ὶ</unclear></w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="5"/><gap reason="lost" extent="unknown" unit="character"/><orig n="unresolved">σ</orig>  <w><unclear reason="damage">μ</unclear>εγάλης</w> <gap reason="lost" extent="unknown" unit="character"/>  <lb n="6"/><gap reason="lost" extent="unknown" unit="character"/>  <w><supplied reason="lost">τελ</supplied><unclear reason="damage">ε</unclear><unclear reason="damage">υ</unclear>τήν</w>    <gap reason="lost" extent="unknown" unit="character"/>  <lb n="6a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 2, ? τὸν ῥη[τορα</p>
+<p>l. 3, For a stop before ἀγοραν̣[ομ see Reinach 106</p>
+<p>l. 4, κατ]ὰ κρίσιν ? δι]άκρισιν.</p>
+<p>l. 5, The stone shows an upper crossbar and an upright, almost certainly ΜΕ in ligature.</p>
+<p>l. 6, THN in ligature</p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> ...</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+
+
+
+<rs type="origLocation">Unknown</rs><rs type="found">Stray in 1983</rs>
+<rs type="lastLocation">Museum (1985)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1983 (<rs type="invNo">83.176</rs>)
+</p>
+</div>
+<div type="bibliography" n="none">
+<head>Bibliography</head>
+<p>Unpublished</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="83_B_34A"><figDesc>Face (1983)</figDesc></figure><figure href="85_E_28"><figDesc>Face (1985)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

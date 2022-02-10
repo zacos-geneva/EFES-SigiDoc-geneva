@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161274">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Building restoration</rs> <rs type="textType" reg="dedication to divinity">dedicated to Aphrodite</rs>  and <rs type="textType" reg="Imperial reference">emperors</rs></title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Four <rs type="material" key="marmor">white marble</rs> <rs type="objectType">architrave</rs> blocks, complete (b, c) or in fragments (a, d) incorporating architrave and <rs type="decoration">frieze</rs>, but without decoration. a: <measure type="length" unit="metre" dim="width">0.62</measure>   × <measure type="length" unit="metre" dim="height">0.66</measure>   × <measure type="length" unit="metre" dim="depth">0.22</measure>; b: <measure type="length" unit="metre" dim="width">1.61</measure>   × <measure type="length" unit="metre" dim="height">0.63</measure>   × <measure type="length" unit="metre" dim="depth">0.58</measure>; c: <measure type="length" unit="metre" dim="width">1.83</measure>   × <measure type="length" unit="metre" dim="height">0.68</measure>   × <measure type="length" unit="metre" dim="depth">0.54</measure>; d: <measure type="length" unit="metre" dim="width">1.20</measure> + <measure type="length" unit="metre" dim="width">1.22</measure>   × <measure type="length" unit="metre" dim="height">0.65</measure>   × <measure type="length" unit="metre" dim="depth">0.57</measure>.</p>
+</div>
+<div type="description" n="text"><head>Description of Text</head><p> The first line of the inscription is cut on the area of the frieze; the second and third lines are cut on the first and second fasciae of the architrave, below a simple moulding.</p></div><div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.06</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date> ...</date>
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <space extent="3" unit="character" dim="horizontal"/>  <persName type="divine" full="yes">Ἀφρο<milestone unit="block" n="b"/><unclear reason="damage">δίτ</unclear>ῃ</persName>  <persName type="divine" full="yes"><w>θεοῖς</w>  <persName type="emperor" full="yes"><w lemma="σεβαστός">Σεβαστοῖς</w></persName>  <w>Ὀλυν<milestone unit="block" n="c"/>πίοις</w></persName>  <g type="stop"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῷ</w> <w>Δήμῳ</w> <g type="stop"/>  <persName type="aphrodisian"><name reg="Εὐσεβής">Ε<unclear reason="damage">ὐσε</unclear><supplied reason="lost">βὴ</supplied>ς</name>  <w>φι<milestone unit="block" n="d"/><supplied reason="lost">λ</supplied>όπατρις</w></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μένανδρος</name> <w lemma="ὁ">οἱ</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μενάνδρου</name>  <space extent="2" unit="character" dim="horizontal"/><lb n="2"/><space extent="3" unit="character" dim="horizontal"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Εὔνικος" type="&#xA;&#xA;      ">Εὐ<milestone unit="block" n="b"/>νίκου</name></persName></persName></persName>  <g type="stop"/> <w lemma="καί">καὶ</w> <persName type="aphrodisian" full="yes"><name reg="Ἀπφία">Ἀπφίας</name> <w>γυνὴ</w> <persName type="aphrodisian"><name reg="Εὐσεβής">Εὐσε<milestone unit="block" n="c"/>βοῦς</name></persName></persName>  <w>ἀνέθ<unclear reason="damage">η</unclear>καν</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w>ἰδίων</w> <g type="star"/> <w lemma="ὑπό">ὑπὸ</w> <rs type="subject" key="earthquake"><w>σ<milestone unit="block" n="d"/>εισμῶν</w></rs> <w lemma="δέ">δὲ</w> <w>κατενεχθέντα</w> <w lemma="καί">καὶ</w> <w>ἀχρηωθέντα</w> <space extent="1" unit="character" dim="horizontal"/><lb n="3"/><space extent="3" unit="character" dim="horizontal"/> <w>πάλιν</w> <milestone unit="block" n="b"/> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w>ἰδίων</w> <g type="star"/>  <persName type="aphrodisian"><name reg="Ἀπφία">Ἀπφίας</name></persName> <w lemma="σύν">σὺν</w> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Τάτας" type="&#xA;&#xA;      ">Τ<milestone unit="block" n="c"/>άτᾳ</name></persName> <w lemma="ὁ">τῇ</w> <w>θυγατρὶ</w> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μενάνδρῳ</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Εὐσεβής">Εὐ<milestone unit="block" n="d"/>σεβῖ</name></persName> <w lemma="ὁ">τοῖς</w> <w>ἐγγόνοις</w> <w>τελέσασα</w> <w>ἀποκαθέστησεν</w> <space extent="1" unit="character" dim="horizontal"/>  </ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>For Aphrodite, for the gods Augusti Olympians, for the People: Eusebes (entitled) lover of his country, and Menandrus, the sons of Menandrus the son of Eunicus and Apphias, wife of Eusebes, set (this) up at their own expense. After it was thrown down and made useless by earthquakes, again at their own expense Apphias completed and set it up again, in company with Tata, her daughter, and Menandrus and Eusebes her grandsons.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Apparently the same text as <xref type="iAph">1270</xref> (=81.85+); the whole text is in one hand throughout, and therefore must have been inscribed at the time of restoration.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+Found: <rs type="found"><rs type="monuList">Sebasteion</rs> Propylon area.</rs>
+; Last known location: <rs type="lastLocation">a, b and d Museum; c on site (1983)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1983;  a (<rs type="invNo">83.57</rs>), b (<rs type="invNo">83.54</rs>), c (<rs type="invNo">83.55</rs>), d (<rs type="invNo">83.56</rs>).</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="83_F_12"><figDesc>Fragment b (1983)</figDesc></figure><figure href="83_F_20"><figDesc>Fragment b (1983)</figDesc></figure><figure href="83_D_05A"><figDesc>Fragment c (1983)</figDesc></figure><figure href="83_D_04A"><figDesc>Fragment d (1983)</figDesc></figure><figure href="83_D_06A"><figDesc>Fragment d (1983)</figDesc></figure><figure href="83_F_28"><figDesc>Fragment d (1983)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

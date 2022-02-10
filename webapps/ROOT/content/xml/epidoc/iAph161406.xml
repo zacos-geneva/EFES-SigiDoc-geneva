@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161406">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> inscription for Gaia Julia Doris; another for Marcus Aurelius Klaros</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-04-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Lower part of a <rs type="objectType">sarcophagus</rs> front broken away at left end (<measure type="length" unit="metre" dim="width">1.83</measure>   × <measure type="length" unit="metre" dim="height">0.10</measure>   × <measure type="length" unit="metre" dim="depth">0.55</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face. The area is divided into two by a patch of undressed marble, and carries two texts (a:  <measure dim="width" type="length" unit="metre">0.63</measure>; b: <measure dim="width" type="length" unit="metre">0.895</measure>), cut by different hands in markedly different styles.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>a: <measure dim="height" type="length" unit="metre">0.024-0.025</measure>; the cutter has avoided a chip in the stone in l.1. b: third century letters, based on cursive and drawn freehand; <measure dim="height" type="length" unit="metre">0.01</measure>. The cutter has avoided chips in the stone.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>a. <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>); b. <date notBefore="0201" notAfter="0300" exact="none">Third century A.D.</date></p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="a"><ab><lb n="1"/> <w lemma="ὁ"><supplied reason="lost">ἡ</supplied></w>  <w><supplied reason="lost">ἰ</supplied>σῶστή</w> <w lemma="εἰμί">ἐστιν</w> <persName type="aphrodisian"><name>Γ<unclear reason="damage">αία</unclear>ς</name>  <name>Ἰουλίας</name>  <name>Δω<lb n="2" type="worddiv"/>  <supplied reason="lost" cert="low">ρι</supplied><unclear reason="damage">δ</unclear>ος</name></persName> <w lemma="ὁ">ἡ</w> <w>παραχωρημένη</w> <w lemma="ὑπό">ὑπὸ</w> <lb n="3"/><persName type="aphrodisian"><name><supplied reason="lost">Α</supplied>ὐρηλίας</name>  <name>Διονυσίας</name></persName>  <space extent="3" unit="character" dim="horizontal"/></ab></div><div type="textpart_section" n="b"><ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w>ἰσῶστή</w> <w lemma="εἰμί">ἐστιν</w> <persName type="aphrodisian"><name reg="Μᾶρκος">Μάρκου</name>  <name reg="Αὐρήλιος" type="nomen">Αὐρηλίου</name>  <name>Κλάρου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name>Κλ<space extent="3" unit="character" dim="horizontal"/>άρου</name></persName></persName> <w>καθὼς</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τῆς</w> <w>δοθείσ<unclear reason="damage">ης</unclear></w> <w>αὐτῷ</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/> <w lemma="ὑπό">ὑπὸ</w> <persName type="aphrodisian"><name>Αὐρηλίας</name>  <name>Διονυσίας</name></persName> <w>παραχωρήσεως</w> <w>δηλ  <space extent="3" unit="character" dim="horizontal"/>  οῦται</w> <w lemma="ἐν">ἐν</w> <w lemma="ὅς">ᾗ</w> <w>ἰσώστῃ</w> <w>κηδευθήσεται</w> <w>αὐ<space extent="3" unit="character" dim="horizontal"/><lb n="3" type="worddiv"/>τος</w> <w lemma="τε">τε</w> <persName type="aphrodisian"><name>Κλᾶρος</name></persName> <w lemma="καί">καὶ</w> <w>οὓς</w> <w lemma="ἐάν">ἂν</w> <w>βουληθήσεται</w> <w>ἄλλος</w> <space extent="3" unit="character" dim="horizontal"/> <w lemma="δέ">δὲ</w> <w>οὐδεὶς</w> <w>ἕξει</w> <w>ἐξουσίαν</w> <w>κηδευθῆναι</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="4"/> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῇ</w> <w>ἰσώστῃ</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="τολμάω">τολμήσας</w> <w>τι</w> <w>τοιοῦτον</w> <w>ἔστω</w> <w>ἐπάρατος</w> <w lemma="καί">καὶ</w> <w>τυμβωρύχος</w> <w lemma="καί">καὶ</w> <w>ἀπο<lb n="5" type="worddiv"/> τείσατο</w> <w>ἰς</w> <w lemma="ὁ">τὸ</w> <w>ἱερώτατον</w> <w>ταμεῖον</w> <w>ἀργυρίου</w> <w><expan><abbr><orig><g type="denarius"/></orig></abbr><supplied reason="abbreviation">δηνάρια</supplied></expan></w> <num value="500">φ</num> <w lemma="οὗτος">τούτου</w> <w>ἀπετέθη</w> <w>ἀντίγραφον</w> <w lemma="εἰς">ἰς</w> <w lemma="ὁ">τὰ</w> <w>ἀρ<lb n="6" type="worddiv"/>  <space extent="3" unit="character" dim="horizontal"/>χεῖα</w> <space extent="3" unit="character" dim="horizontal"/>  </ab></div>
+</div>
+
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> ...</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Stray</rs>, brought in by villagers.</rs>
+<rs type="origLocation">Unknown</rs> <rs type="lastLocation">Museum (1983)</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1974 (<rs type="invNo">74.235</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_B_05"><figDesc>Text a. (1978)</figDesc></figure><figure href="83_E_37"><figDesc>Text a. (1983)</figDesc></figure><figure href="78_B_04"><figDesc>Text b. (1978)</figDesc></figure><figure href="83_F_16"><figDesc>Both (1983)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>
