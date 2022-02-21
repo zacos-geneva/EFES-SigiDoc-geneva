@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150208" n="iAph1616 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> inscription of Arogos Philemon</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>No escription</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>No description</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>No description</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>No indication</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">τὸ</w> <w lemma="μνημεῖον">μνημεῖον</w> <w lemma="κατασκευάζω">κατεσ<lb n="2" type="worddiv"/>κεύασεν</w>  <w lemma="ὠνέομαι">ὠνησάμε<lb n="3" type="worddiv"/>νος</w> <w lemma="ὁ">τὸ</w> <w lemma="κτῆμα">κτῆμα</w> <w lemma="ὁ">τὸ</w> <w lemma="ἀμπελικός">ἀν<lb n="4" type="worddiv"/>πελικὸν</w> <persName type="aphrodisian"><name reg="Ἄρωγος">Ἄρωγος</name> <lb n="5"/> <persName type="aphrodisian"><name reg="Ἄρωγος">Ἀρ<choice type="correction"><sic>ο</sic><corr>ώ</corr></choice>γου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Διογένης">Διογένους</name> <lb n="6"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Μάργαρος">Μαργάρου</name></persName></persName></persName> <name reg="Φιλήμων">Φιλήμων</name></persName> <lb n="7"/> <w lemma="ἑαυτοῦ">αὑτῷ</w> <w lemma="καί">καὶ</w> <w lemma="κληρονόμος">κληρονόμῳ</w> </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 5, <foreign lang="grc">ΑΡΟΓΟΥ</foreign> lapis</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>Arogos Philemon son of Arogos son of Diogenes son of Margaros, having bought the vineyard plot,  built the memorial for himself and his heir.</p>
+</div>
+<div type="commentary" n="none">
+<head>Commentary</head>
+<p>No commentary</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found">No location given</rs>
+<rs type="lastLocation">Findspot (1841)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Loew in  1841. Not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="franz1847">Franz, p. 113, no. <biblScope> b.8</biblScope></bibl>, whence <bibl n="LBW">LBW <biblScope>1635</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257306">428</biblScope>
+</bibl>.</p>
+</div><div type="figure" n="photographs">
+<head>Photographs</head>
+<p>No photographs</p>
+</div></body></text>
+</TEI>

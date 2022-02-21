@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080608" n="iAph0041 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m">i. <rs type="textType">Verse</rs> <rs type="textType">honours</rs> for <rs type="personType" reg="governor">Doulkitios</rs> from Balerianos; ii. <rs type="textType">Place inscription</rs></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Juan Garcés</name></respStmt><item>Marked up inventory number(s)</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change>
+  <date>2003-07-16</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-16</date><respStmt><name>CMR</name></respStmt><item>tagged and changed</item></change><change><date>2003-08-20</date><respStmt><name>CMR</name></respStmt><item>name tags reduced</item></change><change><date>2004-01-23</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A rectangular <rs type="objectType">statue base</rs> with panels within moulded edges on three sides (<measure type="length" unit="metre" dim="width">1.07</measure> × <measure type="length" unit="metre" dim="height">0.44</measure> × <measure type="length" unit="metre" dim="depth">0.44</measure>).</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>i. is cut on the central panel. The final letters, or stops, in ll. 6, 7, 8, 11 and 12 are cut on the moulding. ii., a <term>graffito</term>, is on the left panel, and was apparently left unfinished.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>i. <measure dim="height" type="length" unit="metre">0.02</measure>-<measure dim="height" type="length" unit="metre">0.03</measure>; irregular, elongated, and with
+traces of red paint. ii. cut with a very shallow, broad line; <measure type="length" unit="metre" dim="height">0.02</measure> (<term>omicron</term>)-<measure type="length" unit="metre" dim="height">0.05</measure> (cross).</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p>i.<date exact="none" cert="low" notBefore="0434" notAfter="0467">Mid-fifth century</date> (<rs type="criteria">titulature</rs>, <rs type="criteria">prosopography</rs>); ii. <date exact="none" notBefore="0468" notAfter="0700" cert="low">Late fifth century or later</date> (<rs type="criteria">lettering</rs>).</p>
+      </div>
+
+      <div lang="grc" n="text" type="edition">
+        <head lang="en">Edition</head>
+        <cb n="i"/>
+		  <lg met="elegaic">
+		  <l met="hexameter" n="2"><lb n="1"/><w lemma="ἐθέλω">ἤθελεν</w>, <w lemma="εἰ">εἰ</w> <w lemma="θέμις">θέμις</w> <w lemma="εἰμί">ἦν</w>,
+		  	<lb n="2"/><w lemma="καί">καὶ</w> <w lemma="χρύσειος">χρυσίην</w> <w lemma="τάχα">τάχα</w>
+			<lb n="3"/><w lemma="μορφή">μορφὴν</w> <space dim="horizontal"/></l>
+		  <l met="pentameter" n="2"><w lemma="σός">σῆς</w>
+		  	<lb n="4"/><w lemma="ἀρετή">ἀρετῆς</w> <w lemma="τεύχω">τεύχειν</w>
+			<lb n="5"/><w lemma="ναί">ναί</w>, <w lemma="μά">μά</w> <w lemma="σύ">σε</w>, <persName type="aphrodisian" key="Dulcitius" full="yes"><name reg="Δουλκίτιος">Δουλκίτιε</name></persName>, <g type="scroll"/></l>
+		  <l met="hexameter" n="4"><lb n="6"/><w lemma="ὅς">ὃς</w> <w lemma="πρῶτος">πρῶτος</w> <w lemma="στρατία">στρατίης</w>
+		  	<lb n="7"/><w lemma="ὁ">τῆς</w> <w lemma="σός">σῆς</w> <w lemma="πέλω">πέλε</w>, <persName key="Valerianus" type="aphrodisian" full="yes"><name reg="Βαλεριανός">Βαλεριανός</name></persName>,</l>
+		  <l met="pentameter" n="4"><lb n="8"/><w lemma="ὁ ἕνεκα">οὕνεκεν</w> <w lemma="εὐνομία">εὐνομίης</w>
+		  	<lb n="9"/><w lemma="πύργος">πύργος</w> <w lemma="ἄρρηκτος">ἄρηκτος</w> <w lemma="φύω">ἔφυς</w>. <g type="scroll"/></l>
+		  <l met="hexameter" n="5"><lb n="10"/><w lemma="νῦν">νῦν</w> <w lemma="δέ">δέ</w> <w lemma="σύ">σε</w> <w lemma="μαρμάρεος">μαρμάρεον</w>
+		  	<lb n="11"/><w lemma="ἵστημι">στῆσεν</w> <w lemma="προπάροιθε">προπάροιθε</w> <w lemma="λοετρόν">λοετροῦ</w></l>
+		  <l met="pentameter" n="6"><lb n="12"/><w lemma="μάρτυς">μάρτυς</w> <w lemma="σός">σῶν</w> <w lemma="κάματος">καμάτων</w>
+		  	<lb n="13"/><w lemma="ὁ">ἡ</w> <w lemma="λίθος">λίθος</w> <w lemma="ὄφρα">ὄφρα</w> <w lemma="μένω">μένοι</w>.</l>
+		  </lg>
+		
+		<cb n="ii"/>
+		  <ab>
+		 <lb n="1"/><g type="cross"/> <w lemma="τόπος">τόπος</w>
+		 <lb n="2"/><orig n="unresolved">αρχε<unclear reason="damage">ψ</unclear>ε
+		 </orig><lb n="3"/><seg cert="low"><w lemma="θερμοπόλος"><orig n="unresolved">θρεμο<unclear reason="damage">π</unclear>
+		 </orig><lb n="4"/><orig n="unresolved">ο</orig></w></seg> <space dim="horizontal"/>
+		  </ab>
+		
+      </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>ii. is now (since <date value="2002" notBefore="2002" notAfter="2002" exact="both">2002</date>) in a far better position than before.</p>
+        <p>ii. l. 3,  For <foreign lang="grc">ΕΝΟ</foreign> in <bibl type="hbi" n="ALA"><title level="m" type="abbreviated">ALA</title></bibl> I now read <foreign lang="grc">ΕΜΟ</foreign>; at the end of the line the letter might be <foreign lang="grc">Π</foreign>.</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>i. If it was permitted, Balerianos, who was the leader of your troop, would have wished to make even a golden image of your virtue - indeed <supplied reason="subaudible">I swear</supplied> by yourself. Doulkitios, because you were an unbroken tower of lawfulness. But now he has set you in marble in front of the baths, so that the stone may remain as a witness of your labours.</ab>
+        <ab>ii. Place of <seg cert="low">chief <rs type="profession" key="thermopolos">hot-food-seller</rs></seg>.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>i. see discussion at <xref type="eAla-text" n="IV.24">IV.24</xref>; ii. see discussion at <xref type="eAla-text" n="XI.11">XI.11</xref></p>
+        <p>For Doulkitios, see also <xref type="inscription" n="38" href="040202">4.202</xref>.ii and iii.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: re-used in the central stretch of the seventh-century defence wall which blocks off the east façade of the Theatre.</rs>. Original location: <rs type="origLocation">Outside baths - the findspot perhaps suggests the <rs type="monuList" key="ThBaths">Theatre Baths</rs> rather than the Hadrianic Baths.</rs>. Last recorded location: <rs type="lastLocation">Museum (2002).</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition in <date value="1972" notBefore="1972" notAfter="1972" exact="both">1972</date> (<rs type="invNo">72.200</rs>, SBI <rs type="sbi">54</rs>).</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>i. <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>41</biblScope> and plate x</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257605">718</biblScope></bibl>, <bibl type="hbi" n="steinepig"><title level="m">Steinepigramme</title> <biblScope>02/09/09</biblScope></bibl>; ii. <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>194</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257266">388</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="72_A_13A"><figDesc>i. Front face (1972)</figDesc></figure><figure href="NY_pr_061"><figDesc>i. Front face</figDesc></figure><figure href="2002_A_05"><figDesc>ii. Left face (2002)</figDesc></figure></p></div>
+
+
+
+      
+
+    </body>
+  </text>
+</TEI>

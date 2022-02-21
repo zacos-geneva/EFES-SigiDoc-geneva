@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100006" n="iAph0724 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Seat inscriptions</rs>: Stadium Block 15</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+<textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Stadium <rs type="objectType">seat</rs>s.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the seats. Row M: on four seats at west end. Row U.i: <measure type="length" unit="metre" dim="width">0.48</measure> x <measure type="length" unit="metre" dim="height">0.20</measure>. Row U.ii <measure type="length" unit="metre" dim="width">0.41</measure> x <measure type="length" unit="metre" dim="height">0.16</measure>. Row V: on two seats at west end; design <measure type="length" unit="metre" dim="width">0.20</measure> x <measure type="length" unit="metre" dim="height">0.19</measure>. Row X: along the edge, which is broken, of two seats at east end. </p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Row M: <measure type="length" unit="metre" dim="height">0.12-0.18</measure>; lunate sigma. Row V: Letters <measure type="length" unit="metre" dim="height">0.07-0.10</measure>; square sigma, cursive omega. Row X: shallow, <measure type="length" unit="metre" dim="height">0.10-0.12</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date exact="none" notAfter="0500" notBefore="0101">Second-fifth century A.D.</date>
+(<rs type="criteria">context</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="E"><note>
+ Design, type 3Rows1.</note></div><div type="textpart_section" n="M"><ab><lb n="1"/><g type="steps"/><gap extent="unknown" dim="left" reason="lost" unit="character"/><milestone unit="block"/><orig n="unresolved"><unclear>μ</unclear></orig><milestone unit="block"/><orig n="unresolved">οστρα</orig><milestone unit="block"/><orig n="unresolved">του</orig><space extent="unknown"/></ab></div><div type="textpart_column" n="U"><div type="textpart_column" n="i"><note>Design type R6, but with 6 holes in each row.</note></div><div type="textpart_column" n="ii"><note>Design, type H4, within an outline.</note></div></div><div type="textpart_section" n="V"><ab><lb n="1"/><milestone unit="block"/><note>Design, type S.3.</note><milestone unit="block"/> 
+
+ <lb n="2"/><g type="steps"/> <milestone unit="block"/> <gap reason="lost" extent="1" unit="character"/>
+<unclear reason="damage">Β</unclear>
+<unclear reason="damage">Ι</unclear>
+<unclear reason="damage">Ο</unclear>
+<unclear reason="damage">Ι</unclear>
+<unclear reason="damage">Λ</unclear> <milestone unit="block"/> <w lemma="σίζω">σιέ<unclear reason="damage">ω</unclear>ν<milestone unit="block"/></w>  <space extent="3" unit="character"/> 
+</ab></div><div type="textpart_section" n="X"><ab><lb n="1"/>
+<persName type="aphrodisian"><name reg="Ἀπολλώνιος "><supplied reason="lost">Ἀπο<milestone unit="block"/>λλ</supplied><unclear reason="damage">ω</unclear>νίο<unclear reason="damage">υ</unclear></name></persName> <w lemma="ἀγαλματογλύφος"><supplied reason="lost">ἀ</supplied><unclear reason="damage">γα</unclear><milestone unit="block"/><supplied reason="lost">λ</supplied>ματο<unclear reason="damage">γ</unclear>λυ<unclear reason="damage">φ</unclear>ο<unclear reason="damage">υ</unclear></w></ab>
+</div></div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>Row M: The mu, if correctly read, is cursive. Row V: Β̣ could be Ρ.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>Row X: (Place of) Apollonios, sculptor.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See bibliography.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Stadium</rs>: seats, block 15. </rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Findspot</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds, Roueché). This edition: Roueché (2007)..</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Row X published by <bibl n="ktejmr1991">K. T. Erim and J. M. Reynolds,'Sculptors' , no. <biblScope>20</biblScope></bibl>, whence <bibl n="seg">SEG 40, <biblScope>1990.943</biblScope></bibl>; all published by <bibl n="PPA">Roueché, PPA <biblScope>45.7</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p> <figure href="75_D_13A"><figDesc>Row M (1975)</figDesc></figure><figure href="77_B_33A"><figDesc>Row V (1977)</figDesc></figure><figure href="75_D_12A"><figDesc>Row V, right end, and Row U.i (part) (1975)</figDesc></figure><figure href="77_B_34A"><figDesc>Row X, left end (1977)</figDesc></figure><figure href="75_D_11A"><figDesc>Row X, right end (1975)</figDesc></figure></p>
+</div></body></text>
+</TEI>

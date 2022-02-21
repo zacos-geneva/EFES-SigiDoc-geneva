@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050303" n="iAph0058 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType">Building inscription</rs> of Pytheas, in <rs type="textType">verse</rs></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+		<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2007-08-07</date><respStmt><name>Eleonora Litta</name></respStmt><item>tidied expan</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change>
+  <date>2003-07-17</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-21</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-28</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Three fragments, not joining, from an <rs type="material" key="marmor">white marble</rs> <rs type="objectType">architrave</rs> with decoration (which is broken away) above three stepped <term>fasciae</term>, diminishing in height; a and c: not measured; b: <measure type="length" unit="metre" dim="height">0.52</measure> × <measure type="length" unit="metre" dim="width">1.37</measure> × <measure type="length" unit="metre" dim="depth">0.54</measure>.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> on the upper two <term>fasciae</term>.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Upper <term>fascia</term> <measure type="length" unit="metre" dim="height">0.10</measure>, lower <term>fascia</term> <measure type="length" unit="metre" dim="height">0.08</measure>; elongated, ornate.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0500" exact="none" precision="circa" notBefore="0468">Late fifth century</date> (<rs type="criteria">prosopography</rs>)</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<div type="textpart_fragment" n="a"><ab>
+		<lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/> <w lemma="παστάς">παστάδα</w> <w lemma="κίων">κίον'</w> <w lemma="ἐκ">ἐκ</w> <orig n="unresolved"><unclear reason="damage">ιι</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/>
+		<lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">τ</unclear></orig> <persName key="Pytheas" type="aphrodisian" full="yes"><name reg="Πυθέας">Πυθέας</name></persName> <orig n="unresolved"><unclear reason="damage">ορσιιιυ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/>
+		</ab></div><div type="textpart_fragment" n="b"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/> <w lemma="κάμνω">καμνοῦσαν</w> <w lemma="ἀνάγκη">ἀνάγκῃ</w> <orig n="unresolved"><unclear reason="damage">κ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/>
+		<lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <w lemma="ἔχω">ἔσχε</w> <w lemma="νόος">νόον</w> <space dim="horizontal"/> <gap dim="right" extent="unknown" reason="lost" unit="character"/>
+		</ab></div><div type="textpart_fragment" n="c"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">α</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/>
+		<lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">δι<unclear reason="damage">ι</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/>
+		</ab></div>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <p>
+		a. <gap dim="left" extent="unknown" reason="lost"/><supplied reason="lost" cert="low">built the</supplied> colonnade <supplied reason="subaudible">with</supplied> column from <gap dim="internal" extent="unknown" reason="lost"/> Pytheas <gap dim="right" extent="unknown" reason="lost"/></p><p>b. <gap dim="left" extent="unknown" reason="lost"/>suffering from necessity <gap dim="internal" extent="unknown" reason="lost"/> had a mind.</p>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>For Pytheas see <xref type="inscription" n="55" href="110070">11.70</xref>, <xref type="inscription" n="56" href="020020">2.20</xref>, <xref type="inscription" n="57" href="080610">8.610</xref>, <xref type="inscription" n="250" href="150361">15.361</xref> and discussion at <xref type="eAla-text" n="V.18">V.18</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p><rs type="found"><rs key="HadrBath" type="monuList">Hadrianic Baths, East Court</rs>: a: '<foreign lang="fr">Dans le 2e entrée à partir du S<supplied reason="abbreviation">ud</supplied> du portique O<supplied reason="abbreviation">uest</supplied>, s<supplied reason="abbreviation">ud</supplied></foreign>' (Boulanger); b: '<foreign lang="fr">Term. S<supplied reason="abbreviation">ud</supplied> du portique O<supplied reason="abbreviation">uest</supplied></foreign>'. (Boulanger).</rs>. Original location: <rs type="origLocation">Unknown.</rs>. <rs type="lastLocation">Among the material from the French excavations in the East Court.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>a and b excavated by <rs type="visitor" key="boulanger">Boulanger</rs>, <date value="1913" notBefore="1913" notAfter="1913" exact="both">1 November 1913</date> (notebook A, 78, 23 and 24, whence B 23, 29); a, b and c recorded by the NYU expedition, c in <date value="1989" notBefore="1989" notAfter="1989" exact="both">1989</date>.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>a and b published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>58</biblScope> and plate xiv</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257595">708</biblScope></bibl>, <bibl type="hbi" n="steinepig"><title level="m">Steinepigramme</title> <biblScope>02/09/20</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Boulanger notebook; transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs"><head>Photographs</head><p><figure href="77_P_28"><figDesc>a: face (1977)</figDesc></figure><figure href="72_C_12"><figDesc>b: face (1972)</figDesc></figure><figure href="89_A_10A"><figDesc>c: face (1989)</figDesc></figure></p></div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Boulanger_A_78"><figDesc>a and b: Transcription by Boulanger, Notebook A, page 78</figDesc></figure></p></div>
+
+      
+
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110407" n="iAph1109 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Building dedication</rs> to Aphrodite</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-07-23</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">architrave</rs> block (<measure type="length" unit="metre" dim="width">2.24</measure> × <measure type="length" unit="metre" dim="height">0.405</measure> × <measure type="length" unit="metre" dim="depth">0.636</measure>) with cornice and three fasciae (0.125, 0.10 and 0.01), and face and simple intercolumniar decoration below.</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on the uppermost fascia.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.095–0.10</measure>.</p>
+</div><div type="description" n="date"><head>Date</head><p><date cert="low" exact="none" notBefore="0067" notAfter="0100">Late first century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><space extent="1" unit="character" dim="horizontal"/>  <w lemma="ὁ">τὴν</w>  <w lemma="στοά">στοὰν</w>  <persName type="divine" full="yes"><name reg="Ἀφροδίτη">Ἀφ<unclear reason="damage">ρ</unclear><supplied reason="lost">οδίτῃ</supplied></name></persName>  <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab>
+</div>
+
+<div type="apparatus">
+<head>Apparatus</head>
+<p>K&amp;R did not read anything before the first <foreign lang="grc">Ν</foreign></p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p><gap dim="left" extent="unknown" reason="lost" unit="character"/> <supplied reason="lost">dedicated</supplied> the stoa to Aphr<supplied reason="lost">odite</supplied> <gap dim="right" extent="unknown" reason="lost" unit="character"/></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>There is no indication, at present, from which structure this block may have come.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="origLocation">Unknown</rs> <rs type="found"><rs type="monuList">City, South-west</rs>: re-used in a field wall west of the Hadrianic Baths</rs> <rs type="lastLocation">Museum (1988)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); notebooks; publication.</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Part copied by Kubitschek (K iii.47, Abklatsch 40). Found again by the NYU expedition (catalogue no. 88h).</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="cormack1964">Cormack, fromKubitschek, <biblScope>27</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257015">136</biblScope></bibl>; mentioned <bibl>L. Robert, <title level="m">Ant. Class</title> (1966) 391</bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="88_E_25A"><figDesc>Stone (1988)</figDesc></figure></p>
+</div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="K_III_47"><figDesc>Kubitschek III, 47</figDesc></figure></p></div></body></text>
+</TEI>

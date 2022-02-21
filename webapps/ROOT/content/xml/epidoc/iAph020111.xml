@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020111" n="iAph0817 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> by Council  for People </title>
+</titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc>
+<p></p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-06-21</date><respStmt><name>CMR</name></respStmt><item>DONE</item></change><change><date>2006-12-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+  
+  <change><date>2005-03-03</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Summarised in EpiDoc form</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType"><rs type="objectType">statue  plinth</rs></rs> (<measure dim="width" type="length" unit="metre" precision="circa">0.70</measure> x  <measure dim="height" type="length" unit="metre" precision="circa">0.15</measure>)</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> along the front in one line.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p>Letters irregular, deeply cut (<measure type="length" unit="metre" dim="height">0.07</measure>).</p>
+</div>
+
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0399" notBefore="0201">third-4th centuries A.D.</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <w lemma="ὁ">ἡ</w>  <w lemma="βουλή">Βουλὴ</w>  <w lemma="ὁ">τὸν</w>  <w lemma="δῆμος">Δῆμ<supplied reason="lost">ον</supplied></w>  </ab>
+</div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>The Council (set up a statue of) the People</p>
+</div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>The Demos also dedicated a statue of the Council (<xref type="inscription" n="816" href="020101">2.101</xref>). The lettering might suggest a late antique date; but if these texts were inscribed by the sculptors, and not by professional letterers the argument is not strong. </p>
+<p>For another statue of Demos see <xref type="inscription" n="1268" href="080052">8.52</xref> (=70.1023)</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">Bouleuterion/Odeon</rs></rs><rs type="origLocation">Unknown</rs><rs type="lastLocation">Museum, on display</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>
+Recorded by the NYU expedition  in 1962  (<rs type="invNo">62.452</rs>).</p>
+</div>
+
+<div type="bibliography" n="none">
+<head>Bibliography</head>
+<p>Previously unpublished.</p>
+</div>
+
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="R_66_2_28"><figDesc>Face (1966)</figDesc></figure><figure href="Aph2004_63"><figDesc>Face, on restored monument (2004)</figDesc></figure><figure href="Aph2004_64"><figDesc>Face, on restored monument (2004)</figDesc></figure>
+</p></div>
+
+
+
+</body>
+</text>
+
+</TEI>

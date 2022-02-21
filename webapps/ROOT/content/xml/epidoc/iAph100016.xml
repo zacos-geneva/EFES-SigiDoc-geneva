@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100016" n="iAph0734 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Seat inscriptions</rs>: Stadium Block 5</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+<textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Stadium <rs type="objectType">seat</rs>s</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the seats. Row Y.i: <measure type="length" unit="metre" dim="width">0.63</measure> x <measure type="length" unit="metre" dim="height">0.49</measure>.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>No letters. </p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0600" notBefore="0101" exact="none">Second-sixth century A.D.</date>
+(<rs type="criteria">context</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="Y"><div type="textpart_column" n="i"><note>Design, gameboard, type 3Rows4, partly broken away; plain circles for dividers.</note></div><div type="textpart_column" n="ii"><note>Patterns based on design C.2. </note></div></div>
+</div>
+
+<div type="translation" n="none">
+<head>Translation</head>
+<p>No translation possible..</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See bibliography.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Stadium</rs>: seats, block 5.</rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Findspot</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds, Roueché). This edition: Roueché (2007)..</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="PPA">Roueché, PPA <biblScope>45.17</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_Y_01"><figDesc>Row Y.i (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI>

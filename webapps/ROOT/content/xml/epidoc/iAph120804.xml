@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120804" n="iAph0368 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for anonymous</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-06-19</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2005-07-11</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">statue base</rs> fragment, broken above and at sides, complete below.</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p> <rs type="execution" key="scalpro">Inscribed</rs> on the  face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.025</measure>; circle for stops.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p><date notAfter="0300" notBefore="0101" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1"/><gap dim="left" extent="10" reason="lost" unit="character"/><w lemma="καί">καὶ</w>  <w lemma="ἀρχή"><supplied reason="lost">ἀρχ</supplied><lb n="2" type="worddiv"/><supplied reason="lost">ὰς</supplied></w>    <w lemma="ἐκτελέω"><supplied reason="lost">ἐκτελέσ</supplied>αντα</w>  <w lemma="εὖ">ε<supplied reason="lost">ὐ</supplied></w><lb n="3" type="worddiv"/><w><gap dim="left" extent="10" reason="lost" unit="character"/>ως</w>    <w lemma="καί">κα<unclear reason="damage">ὶ</unclear></w>  <gap extent="2" dim="right" reason="lost" unit="character"/><lb n="4"/><gap dim="left" extent="9" reason="lost" unit="character"/><w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w> <w lemma="πρός">πρὸς</w> <w lemma="ὁ">τ<supplied reason="lost">ὴν</supplied></w><lb n="5"/><w lemma="πατρίς"><supplied reason="lost">πατρίδα</supplied></w>  <w lemma="εὔνους"><supplied reason="lost">εὔν</supplied><unclear reason="damage">ο</unclear>υν</w>  <w lemma="ἑαυτοῦ">ἑαυτὸ<supplied reason="lost">ν</supplied></w><lb n="6"/><supplied reason="lost"><space extent="2" unit="character" dim="horizontal"/></supplied>  <w lemma="παρέχω"><supplied reason="lost">παρά</supplied>σχοντα</w>  <g type="stop"/><space extent="2" unit="character" dim="horizontal"/><lb n="6a"/><supplied reason="lost"><space extent="unknown" unit="character" dim="horizontal"/></supplied>  <space extent="1" unit="line" dim="horizontal"/></ab>
+</div>
+
+
+
+<div type="translation">
+<head>Translation</head>
+<p><gap dim="left" extent="unknown" reason="lost"/> and having <supplied reason="lost">carried out magistracies</supplied> well <gap reason="lost"/> and <gap reason="lost"/> and offered goodwill to his <supplied reason="lost">fatherland</supplied></p></div>
+
+<div type="commentary" n="none">
+<head>Commentary</head>
+<p>No comment</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Walls, South-west</rs>: re-used at S.W. turn</rs> <rs type="origLocation">Unknown</rs> <rs type="lastLocation">Findspot</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition (<rs type="siteNo">Walls 145</rs>).</p>
+  </div>
+
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div><div type="figure" n="photographs"><head>Photographs</head><p><figure href="73_W_21"><figDesc>Face (1973)</figDesc></figure><figure href="73_W_21bis"><figDesc>Text (1973)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

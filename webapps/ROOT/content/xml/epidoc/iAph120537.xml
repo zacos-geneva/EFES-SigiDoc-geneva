@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120537" n="iAph1770 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Posthumous <rs type="textType">honours</rs></rs> for anonymous, <seg cert="low">son</seg> of Tryphon</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>'on white marble square with mouldings near 2 feet wide and 3 1/2 high, on the ground' (Sherard). (probably a  <rs type="objectType" cert="low">statue base</rs>)</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>No description</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>No description</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0225" notBefore="0175" cert="low">Late second or early third century A.D.</date>
+ (<rs type="criteria">nomenclature</rs>, paternal nomen)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/> <persName type="aphrodisian"><name reg="Τρύφων">Τρύφωνος</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Τρύφων">Τρύ<lb n="3" type="worddiv"/>φωνος</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ζήνων">Ζήνω<lb n="4" type="worddiv"/>νος</name> <num value="3">γ</num> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Χρύσιππος" type="        ">Χρυσίπ<lb n="5" type="worddiv"/>που</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Αἰνείας">Αἰνείου</name></persName></persName></persName></persName></persName> <lb n="6"/> <w lemma="ἀνήρ">ἄνδρα</w> <w lemma="εὐγένεια">εὐγενείᾳ</w> <lb n="7"/> <w lemma="καί">καὶ</w> <w lemma="ἦθος">ἤθει</w> <w lemma="σεμνός">σεμνῷ</w> <lb n="8"/> <w lemma="διαφέρω">διενενκόντα</w> <w>ζ<unclear reason="damage">ή</unclear>̣<lb n="9" type="worddiv"/>σαντα</w> <w lemma="κόσμιος">κοσμίως</w> <lb n="10"/> <w lemma="καί">καὶ</w> <w lemma="αἰδήμων">αἰδημόνως</w> <lb n="11"/> <w lemma="πρός">πρὸς</w> <w lemma="ὑπόδειγμα">ὑπόδειγμα</w> <lb n="12"/> <w lemma="ἀρετή">ἀρετῆς</w> <w lemma="καί">καὶ</w> <w lemma="ἐπαινέω">ἐπαι<lb n="13" type="worddiv"/>νεθέντα</w> <w>ἐφ'αἷς</w> <lb n="14"/> <w lemma="μεγαλόψυχος">μεγαλοψύχως</w> <w lemma="ἐκτελέω">ἐ<lb n="15" type="worddiv"/>ξετέλεσε</w> <w lemma="ἀρχή">ἀρχαῖς</w> <lb n="16"/> <w lemma="καί">καὶ</w> <w lemma="λειτουργία">λειτου<supplied reason="omitted">ρ</supplied>γίαις</w> <lb n="17"/>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="18"/> <w lemma="ἵστημι">ἔστησε</w> <persName type="aphrodisian"><name reg="Αὐρήλιος" type="nomen"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation">ήλιος</supplied></expan></name> <lb n="19"/> <name reg="Τρύφων">Τρύφων</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="πατήρ">πατήρ</w> <g type="leaf"/></ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 7, ΖΙ Sherard</p><p>l. 15, ΛΕΙΤΟΥΓ Sherard, ΛΕΙΤΟΥΡΓ Picenini</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>[e.g. the city honoured ...] so-and-so] son of Tryphon, the son of Tryphon the son of Zenon (son of Zenon son of Zenon) son of Chrysippos son of Aeneas, a man notable for his good birth and dignified character; he lived in an orderly and modest way, so as to provide a model of virtue, and was praised for the liturgies and magistracies which he carried out with generosity. Aurelius Tryphon his father set (this) up.</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p>No commentary yet (2007)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">Walls, South-east</rs>: apparently in the stretch near <xref type="inscription" n="1766" href="120528">12.528</xref> (=CIG 2770), <xref type="inscription" n="1777" href="120531">12.531</xref> (=2821)</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>publications; Sherard papers</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by Sherard (10101, 14) and Picenini (10102, 25 and 75v) in 1705,. Not reported subsequently</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="CIGII">Boeckh, from Sherard papers, CIG <biblScope>2794</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257426">546</biblScope>
+</bibl>.</p>
+</div></body></text>
+</TEI>

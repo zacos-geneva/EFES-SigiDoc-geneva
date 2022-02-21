@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150364" n="iAph0685 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for anonymus, son of Menandros, boy pankratiast</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term><term><rs type="textType" key="sacer">Religious</rs></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-17</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A block, <seg cert="low"><rs type="objectType">statue base</rs> shaft</seg>, with moulded panels. No measurements.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> within panel and on upper and lower mouldings (ll.1, 34-5). The opening lines must have been inscribed on a crowning feature.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>standard second/third century forms. Ligatures: ΤΗ, ΝΕ, l.17.; ΝΗ, ΜΕ, l.22; ΝΗ, l.23; ΤΗ, l.24; ΗΝ, l.30. The copies suggest that ll.34 ff. are in a smaller script than the preceding text.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="240" notBefore="230" precision="circa">c. 230-240</date> (<rs type="criteria">contests</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab part="N" type="scroll"><lb n="1"/><w lemma="ὁ"><supplied reason="lost">ἡ</supplied></w>  <w lemma="βουλή"><supplied reason="lost">βουλὴ</supplied></w>  <w lemma="τιμάω"><supplied reason="lost">ἐτείμησεν</supplied></w>  <persName type="aphrodisian"><name><supplied reason="lost" cert="low">Μεν</supplied>  <lb type="worddiv" n="2"/><supplied reason="lost">αν</supplied><unclear reason="damage">δ</unclear>ρο<supplied reason="lost">ν</supplied></name>  <gap reason="lost" extent="2" unit="character"/>  ΤΟΥ<gap reason="lost" extent="1" unit="character"/>  Μ<gap reason="lost" extent="6" unit="character"/>  <lb n="3"/> <w lemma="υἱός">υἱὸν</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μενάν<lb type="worddiv" n="4"/>δρου</name></persName></persName> <w lemma="ὁ">τοῦ</w> <w lemma="οἰκόνομος">οἰκο<lb type="worddiv" n="5"/>νόμου</w> <w lemma="αὐτός">αὐτῆς</w> <lb n="6"/> <w lemma="ἀγωνίζομαι">ἀγωνισάμενον</w> <lb n="7"/> <w lemma="παῖς">παίδων</w> <w lemma="πᾶς">παν</w> <lb type="worddiv" n="8"/><g/> <w lemma="κρατέω">κράτιον</w> <g/> <lb n="9"/> <w lemma="ἐνδόξως">ἐνδόξως</w> <w lemma="ὁ">τὸν</w> <w lemma="ἐπιτελέω">ἐ<lb type="worddiv" n="10"/>πιτελεσμέ<lb type="worddiv" n="11"/>νον</w> <w lemma="ἀγών">ἀγῶνα</w> <w lemma="Φιλημονίηον">Φι<lb type="worddiv" n="12"/>λημονίηον</w> <w lemma="ὑπό">ὑ<lb type="worddiv" n="13"/>πὸ</w> <w lemma="ὁ">τῶν</w> <w lemma="περί">περὶ</w> <w lemma="ὁ">τὸν</w> <lb n="14"/> <w lemma="ἀξιόλογος">ἀξιολογώτατον</w> <lb n="15"/>  <persName type="aphrodisian"><name reg="Ἀντώνιος"><expan><abbr>Ἀντ</abbr><supplied reason="abbreviation">ώνιον</supplied></expan></name> <name reg="Καρμίνιος"><expan><abbr>Καρ</abbr><supplied reason="abbreviation">μίνιον</supplied></expan></name>  <name reg="Ποπίλλιος"><expan><abbr>Πο</abbr><supplied reason="abbreviation">πίλιον</supplied></expan></name> <name reg="Ἀγέλαος">Ἀγέ<lb type="worddiv" n="16"/>λαον</name></persName> <w lemma="ἀρχινεωποιός">ἀρχινεω<lb type="worddiv" n="17"/>ποιὸν</w> <w lemma="νεοποιός">νεωποι<lb type="worddiv" n="18"/>ῶν</w> <w lemma="ὁ">τῆς</w> <w lemma="ἐπιφανής">ἐπιφανε<lb type="worddiv" n="19"/>στάτης</w> <w lemma="θεός">θεοῦ</w> <lb n="20"/>  <g type="scroll"/> <persName type="divine"><name reg="Ἀφροδίτη"> Ἀφροδείτης </name></persName> <g/><lb n="21"/> <w lemma="ὁ">τῆς</w> <w lemma="ἀνάστασις">ἀναστάσε<lb type="worddiv" n="22"/>ως</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἀνδρίας">ἀνδριάν<lb type="worddiv" n="23"/>τος</w> <w lemma="γίγνομαι">γεγενημέ<lb type="worddiv" n="24"/>νης</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w lemma="πρόσοδος">προσ<lb type="worddiv" n="25"/>όδων</w> <w lemma="πᾶς">πάσης</w> <w lemma="ὁ">τῆς</w> <lb n="26"/> <g/> <w lemma="βουλή">βουλῆς</w> <g/> <lb n="27"/><w lemma="διά">δι'</w> <persName type="aphrodisian"><name reg="Ἀντώνιος"><expan><abbr>Ἀντ</abbr><supplied reason="abbreviation">ωνίου</supplied></expan></name> <name reg="Αὐρήλιος" type="nomen"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation">ηλίου</supplied></expan></name> <name>Εὐ  <lb type="worddiv" n="28"/>ελπίστου</name></persName> <w lemma="ὁ">τοῦ</w> <lb n="29"/> <g/> <w lemma="βούλαρχος">βουλάρχου</w> <g/><lb n="30"/>  <w lemma="ὅστις">ὅστις</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μένανδρος</name></persName> <lb n="31"/> <w lemma="στέφω">ἐστέφθη</w> <w lemma="νικάω">νεικήσας</w> <lb n="32"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸν</w> <w lemma="ἀγών">ἀγῶνα</w> <w lemma="καθώς">καθὼς</w> <lb n="33"/> <w lemma="καί">καὶ</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἕτερος">ἑτέρου</w> <w lemma="ἀνδρίας">ἀν<lb type="worddiv" n="34"/>δριάντος</w> <w lemma="ὁ">τοῦ</w> <w lemma="αὐτός">αὐτοῦ</w> <lb n="35"/>  <w lemma="πρό">πρὸ</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="ἵστημι">ἑστῶτος</w> <lb n="36"/> <g/> <w lemma="δηλόω"><unclear reason="damage">δ</unclear><supplied reason="lost">ηλ</supplied>οῦται</w> <g/></ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 2,   ΔΡΟ .. ΤΟΥΜ ........ Bailie.</p>
+<p>l. 36,   The layout is that shown by Bailie; [.......] Δ . CIG.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>[The Council honoured ?Menandros ] son of Menandros, the <term lang="grc-Latn">oeconomus</term> of (the body responsible), who competed in the boys' pankration with distinction, (at) the celebration of the Philemoniean contest by the <term lang="grc-Latn">neopoioi</term> of the most manifest goddess Aphrodite, led by the most renowned Ant<supplied reason="abbreviation">onius</supplied> Car<supplied reason="abbreviation">minius</supplied> Po<supplied reason="abbreviation">pilius</supplied> Agelaos, chief-neopoios; the erection of the statue took place from the income of the whole Council, (organized) by Antonius Aurelius Euelpistos, the boularch. Which Menandros was crowned, having won (in) the contest also, as is made clear by the other statue of him, put up <seg cert="low">before it.</seg></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> See bibliography</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found">Unknown</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot (1842)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+
+<p>Copied by H. P. Borrell; perhaps copied by Bailie; not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="CIGII">Boeckh, from Borrell, CIG <biblScope>2811</biblScope></bibl>, whence <bibl n="liermann1889">Liermann, Analecta <biblScope>26</biblScope></bibl>. Published, from Borrell's copy and possibly one of his own, by <bibl>Bailie, no. <biblScope>48</biblScope></bibl>. Referred to by Oikonomos, Arch. Delt. (1921/2), 293. Published by <bibl n="PPA">Roueché, PPA <biblScope>85</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p> No photographs.</p>
+</div></body></text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080504" n="iAph1399 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> inscription for Menekles son of Dionysios son of Epainetos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-07-05</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType">block</rs> (<measure type="length" unit="metre" dim="width">0.44</measure>   × <measure type="length" unit="metre" dim="height">0.33</measure>   × <measure type="length" unit="metre" dim="depth">0.19</measure>)</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face within a moulded <rs type="decoration">tabella ansata</rs> (<measure dim="width" type="length" unit="metre">0.28</measure>   × <measure dim="height" type="length" unit="metre">0.22</measure>).</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.015</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p><date cert="low" exact="none" notAfter="0200" notBefore="0001">First to second centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">τὸν</w> <w lemma="πλάτας">πλάταν</w> <g type="spiral"/>  <lb n="2"/> <w lemma="κατασκευάζω">κατεσκεύασεν</w> <lb n="3"/><persName type="aphrodisian" full="yes"><name reg="Μενεκλῆς">Μενεκλῆς</name>  <space extent="1" unit="character" dim="horizontal"/>  <name reg="Διονύσιος">Διο<lb n="4" type="worddiv"/>νυσίου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἐπαίνετος">Ἐπαι<lb n="5" type="worddiv"/>νέτου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἀττά<lb n="6" type="worddiv"/>λου</name></persName></persName></persName> <w lemma="ἑαυτοῦ">ἑαυτῷ</w> <w lemma="καί">καὶ</w> <w lemma="γυνή">γυ<lb n="7" type="worddiv"/>ναικὶ</w> <w lemma="καί">καὶ</w> <w lemma="τέκνον">τέκνοις</w> <lb n="8"/> <w lemma="καί">καὶ</w> <w lemma="θρεπτός">θρεπτοῖς</w> <g type="stop"/>  <space extent="1" unit="character" dim="horizontal"/>  <lb n="9"/> <g type="decoration"/> <w lemma="ζάω">ζῶσιν</w> <g type="leaf"/>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p> The platform (for the tomb) was prepared by Menekles son of Dionysios the son of Epainetos who was the son of Attalos, for himself, his wife, his children and those he has fostered. They are still alive.</p>
+</div>
+<div type="commentary" n="none">
+<head>Commentary</head>
+<p> No useful comment.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Tetrastoon</rs>: portico E. of Theatre, NEPS I, Str.II.</rs>
+<rs type="lastLocation">Museum</rs>
+<rs type="origLocation">Unknown</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1973 (<rs type="invNo">73.419</rs>)</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="73_Q_25A"><figDesc>Face (1973)</figDesc></figure><figure href="73_T_32"><figDesc>Block (1973)</figDesc></figure><figure href="77_U_02"><figDesc>Face (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI>

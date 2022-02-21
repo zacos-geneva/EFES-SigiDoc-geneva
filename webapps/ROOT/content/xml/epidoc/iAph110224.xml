@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110224" n="iAph0681 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for anonymous, boy runner</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-17</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A plain statue base shaft with recessed edges (h. 0.65, w. 0.335, d. 0.335) broken above and below.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face. The inscription was apparently left unfinished; but it is also possible that the carver started on the familiar formula τὴν δὲ ἀ[νάστασιν τοῦ ἀνδριάντος ποιησαμένου κτλ, and then discovered that it was not required</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>standard second-/third-century forms, 0.025. Ligatures: ΗΜ, ΝΗ, l.5; ΝΝ, l.7; ΗΝ, l.10.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" notAfter="0196" notBefore="0196">c. 196 A.D.</date>(<rs type="criteria">contests</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="2"/><gap reason="lost" extent="4" unit="character"/>  <w lemma="νικάω"><supplied reason="lost">νεικήσαν</supplied><lb type="worddiv" n="3"/><supplied reason="lost">τα</supplied></w>  <w lemma="παῖς"><supplied reason="lost">παίδων</supplied></w>  <w lemma="στάδιον"><supplied reason="lost">στάδι</supplied>  <lb type="worddiv" n="4"/>ον</w>  <w lemma="ὁ"><unclear reason="damage">τῷ</unclear></w>  <w lemma="ἐπιτελέω"><supplied reason="lost">ἐπιτελεσ</supplied>  <lb type="worddiv" n="5"/>θέντι</w>  <g type="stop"/> <w lemma="ἀγών">ἀγῶνι</w> <w lemma="ὁ">τῆς</w> <lb n="6"/>  <w lemma="τρίτος">τρίτης</w> <w lemma="τετραετηρίς">τετραε<lb type="worddiv" n="7"/>τηρίδος</w>  <g type="stop"/> <w type="ethnic" lemma="Ἀφροδεισίηα">Ἀφροδεισι<lb type="worddiv" n="8"/>ήων</w> <w lemma="Φιλημονίηον">Φιλημονήων</w> <g type="stop"/> <w lemma="ἀγωνοθετέω">ἀ<lb type="worddiv" n="9"/>γωνοθετούντων</w>   <lb n="10"/> <w lemma="ὁ">τῶν</w> <w lemma="νεοποιός">νεοποιῶν</w> <w lemma="ὁ">τῶν</w> <lb n="11"/>  <w lemma="περί">περὶ</w> <persName type="aphrodisian"><name reg="Μᾶρκος">Μᾶρκον</name> <name reg="Ἀντώνιος">Ἀντω<lb type="worddiv" n="12"/>νιον</name> <name reg="Ἀπελλᾶς">Ἀπελλᾶν</name> <name reg="Σεβηρεῖνος">Σε<lb type="worddiv" n="13"/>βηρεῖνον</name></persName>  <g type="stop"/> <w lemma="ὁ">τὴν</w> <w lemma="δέ">δὲ</w> <w lemma="Α">Α</w> <lb n="14"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>[ - - ], who won the boys' running-race in the contest celebrated for the third four-year occurrence of the Aphrodeisiea Philemoniea; the contest-presidents were the neopoioi led by Marcus Antonius Apellas Severeinos. The ...]</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See  <bibl n="PPA">Roueché, <title>Performers and Partisans</title> ad loc. </bibl> </p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">City, Water Channel area</rs></rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcriptions (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+
+<p>Recorded by Paris and Holleaux; by Gaudin (105); by the MAMA expedition. Recorded by the NYU expedition in 1964 (excavation inventory no. <rs type="invNo">64.238</rs>, SBI <rs type="sbi">14</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="ph1885">Paris and Holleaux, no. <biblScope>3</biblScope></bibl>, whence <bibl n="liermann1889">Liermann, Analecta <biblScope>23</biblScope></bibl>. Cited by <bibl n="reinach">Reinach, from Gaudin's squeeze, no.<biblScope>145</biblScope></bibl>. Published by <bibl n="MAMA8">Cormack, from the MAMA records, MAMA VIII.<biblScope>506</biblScope></bibl>, whence <bibl n="be">BullEp <biblScope>1972.414</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257222">344</biblScope>
+</bibl>. Published by <bibl n="PPA">Roueché, <title>Performers and Partisans</title> <biblScope>81</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_B_31"><figDesc>Face (1978)</figDesc></figure> </p>
+</div></body></text>
+</TEI>

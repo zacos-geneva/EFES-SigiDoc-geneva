@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120313" n="iAph1703 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> inscription for Liburnos son of Diotrephes</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-04-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>DONE</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType">block</rs> <measure type="length" unit="metre" dim="width">0.78</measure>  × <measure type="length" unit="metre" dim="height">0.99</measure>  × <measure type="length" unit="metre" dim="depth">0.51</measure> the exposed face was within a moulding which was capped by a moulded gable between acroteria; all mouldings have been carefully chipped away to facilitate re-use. The sides were left rough, and not intended to be seen, but the face is designed like a stele.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the main panel on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>ave <measure dim="height" type="length" unit="metre">0.025</measure>, l.7 <measure dim="height" type="length" unit="metre">0.028</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" notAfter="0133" notBefore="0066" exact="none">Perhaps late first, early second century A.D.</date> (<rs type="criteria">lettering</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">τὸν</w> <w lemma="πλάτας">πλάταν</w> <w lemma="κατασκευάζω">κατεσ<lb n="2" type="worddiv"/>κεύασεν</w> <persName type="aphrodisian"><name reg="Λίβυρνος">Λιβυρνος</name> <name reg="Διοτρέφης">Διο<lb n="3" type="worddiv"/>τρέφους</name></persName> <w lemma="ἐν">ἐν</w> <w>ᾧ</w> <w lemma="πλάτη">πλάτᾳ</w> <lb n="4"/> <w lemma="οὐδείς">οὐδεὶς</w> <w lemma="ἐξουσία">ἐξουσίαν</w> <w lemma="ἔχω">ἕ<lb n="5" type="worddiv"/>ξει </w><w lemma="τίθημι">θεῖναί</w> <w lemma="τις">τινα</w> <w lemma="χωρίς">χωρὶς</w> <lb n="6"/> <w lemma="ὁ">τῆς</w> <w lemma="ὁ">τοῦ</w> <w lemma="κληρονόμος">κληρονόμου</w> <lb n="7"/><space extent="3" unit="character" dim="horizontal"/> <w lemma="ἐγώ">μου</w> <w lemma="γνώμη">γνώμης</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="7a"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Liburnos son of Diotrephes prepared the platform, on which platform no-one will have authority to place anyone without the consent of my heir.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>An unusual formula at Aphrodisias.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Walls, East (south part)</rs>: in the stretch south of the car park</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (DM; <rs type="siteNo">Walls 158</rs>).</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="89_C_28"><figDesc>Face (1989)</figDesc></figure></p>
+</div></body></text>
+</TEI>

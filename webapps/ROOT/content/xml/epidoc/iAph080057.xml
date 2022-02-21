@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080057" n="iAph0763 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Seat inscriptions</rs>: Theatre, Block E</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+<textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term><term><rs type="textType" key="cetera">Factional</rs></term><term><rs type="textType" key="cetera">Acclamation</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-26</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Theatre, seats</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>On surface of seats. Row 2: two texts on one seat; (a) at right angles to the edge, (b) parallel to edge. Row 5: i and south end, then a blank seat, then ii.Row 8: at front edge of seat at east end, which has a damaged surface. The last two lines are written at right angles to the rest, at the left; but they seem to be of the same hand, and to belong. Row 9: on 2 separate seats, i to the east. Row 10: On the seat at the west end. Row 11: on one seat. Row 15: on seats at east end. Row 24.i: on seats at west end. Row 26.i: on a seat which is broken away above.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Row 2: (a) ave. <measure type="length" unit="metre" dim="height">0.45</measure> (phi <measure type="length" unit="metre" dim="height">0.13</measure>); (b) <measure type="length" unit="metre" dim="height">0.025</measure>. Row 8: cursive, <measure type="length" unit="metre" dim="height">0.035</measure> - <measure type="length" unit="metre" dim="height">0.04</measure>; there are two dots, ?for abbreviation, over Χ in l.3. Row 9.i: deeply cut, <measure type="length" unit="metre" dim="height">0.11</measure> high. 9.ii: shallower, <measure type="length" unit="metre" dim="height">0.08</measure> high. Row 11: shallowly cut. Row 15: letters ave. <measure type="length" unit="metre" dim="height">0.12</measure>, cursive delta.Row 24.i: 0.26. Row 26.i: 0.03 (ο) - 0.05 (Χ).</p><p>Designs; Row 5.i: <measure dim="diameter">0.29</measure>; Row 5.ii: <measure dim="diameter">0.325</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0600" notBefore="0101" exact="none">Second-sixth century A.D.</date> (<rs type="criteria">context</rs>).</p>
+</div>
+<div type="edition" n="text" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="2"><div type="textpart_column" n="i"><div type="textpart_section" n="a"><ab>
+
+<lb n="1"/> <w lemma="εὐχή">Εὐχὴ</w> <persName type="aphrodisian"><name reg="Στεφανᾶς">Στε 
+<lb type="worddiv" n="2"/>
+φανᾶ</name></persName></ab></div><div type="textpart_section" n="b"><ab><lb n="1"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῶν</w> <space extent="3" unit="character"/> 
+</ab></div></div><div type="textpart_column" n="ii"><note>Scattered letters</note></div></div><div type="textpart_section" n="3"><note>Scattered letters</note></div><div type="textpart_section" n="5"><div type="textpart_column" n="i"><note>
+Design, type C1</note></div><div type="textpart_column" n="ii"><note>Design type C2</note></div></div><div type="textpart_section" n="8"><ab>
+<lb n="1"/> 
+<orig n="unresolved">ζω</orig> <space extent="3"/><lb n="2"/><orig n="unresolved">κ<unclear reason="damage">ο</unclear>τ<unclear reason="damage">ν</unclear></orig> <space extent="3"/> <lb n="3"/><orig n="unresolved">χπ</orig> <lb n="4"/><orig n="unresolved">ε<unclear reason="damage">π</unclear></orig></ab><note>ll. 5 and 6 at right angles to the rest</note><ab><lb n="5"/><orig n="unresolved">τυ</orig><lb n="6"/><orig n="unresolved">ευ</orig>
+ 
+</ab></div><div type="textpart_section" n="9"><div type="textpart_column" n="i"><note>box-monogram:</note><ab><lb n="1"/><expan><abbr><orig><g type="monogram"/></orig></abbr><supplied reason="abbreviation"><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῶν</w> Πρασίνων</supplied></expan></ab></div><div type="textpart_column" n="ii"><note>box-monogram:</note><ab> <lb n="1"/> <expan><abbr><orig><g type="monogram"/></orig></abbr><supplied reason="abbreviation"><w lemma="ὁ">Ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῶν</w> <w lemma="πράσινος">Πρασίνων</w></supplied>
+</expan></ab></div></div><div type="textpart_section" n="10"><note>A drawing, at right angles to the edge, of the head and shoulders, of a figure with a complex hairdo, or headdress, turning slightly to the right.</note></div><div type="textpart_section" n="11"><note>Box-monogram:</note><ab>
+  <lb n="1"/><expan><abbr><orig><g type="monogram"/></orig></abbr><supplied reason="abbreviation"><w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῶν</w> <w lemma="πράσινος">Πρασίνων</w></supplied>
+</expan></ab></div><div type="textpart_section" n="15"><ab> 
+
+<lb n="1"/> 
+<space extent="3"/><milestone unit="block"/> <orig n="unresolved">υκεδ</orig> <milestone unit="block"/> <space extent="3"/> <milestone unit="block"/> <orig n="unresolved"><unclear reason="damage">κ</unclear>χ</orig> <milestone unit="block"/> <orig n="unresolved"><unclear reason="damage">ω</unclear></orig> <milestone unit="block"/> <g type="steps"/></ab></div><div type="textpart_section" n="16"><note>On one seat there is a design, ?a phallus</note><note>Scattered letters</note></div><div type="textpart_section" n="17"><note>Scattered letters</note></div><div type="textpart_section" n="18"><note>Scattered letters</note></div><div type="textpart_section" n="19"><note>Scattered letters</note></div><div type="textpart_section" n="20"><div type="textpart_column" n="i"><note>Design,  type S3.</note></div><div type="textpart_column" n="ii"><note>Scattered letters</note></div></div><div type="textpart_section" n="21"><note>Scattered letters</note></div><div type="textpart_section" n="22"><note>Scattered letters</note></div><div type="textpart_section" n="23"><note>Scattered letters</note></div><div type="textpart_section" n="24"><ab>
+<lb n="1"/> 
+<g type="steps"/> <milestone unit="block"/> <space extent="3"/> <milestone unit="block"/> <space extent="3"/> <milestone unit="block"/>  <w lemma="κατέχω">κ<unclear reason="damage">α</unclear>τ<milestone unit="block"/><supplied reason="lost">έχεται</supplied></w></ab></div><div type="textpart_section" n="25"><note>Scattered letters</note></div><div type="textpart_section" n="26"><div type="textpart_column" n="i"><ab>
+<lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">οι</unclear></orig><lb n="2"/>
+ <orig n="unresolved"><unclear reason="damage">Υ</unclear>
+<unclear reason="damage">Α</unclear>
+<unclear reason="damage">Η</unclear>ΧΗ</orig> <w lemma="βοηθέω"><expan><abbr>βοή</abbr><supplied reason="abbreviation">θι</supplied></expan></w> <w lemma="ὁ">το</w> <unclear reason="damage">σ</unclear> <gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="3"/>
+ <w lemma="δοῦλος">δούλο</w> <w lemma="σύ"><expan><abbr>σ</abbr><supplied reason="abbreviation">ου</supplied></expan></w> <persName type="aphrodisian"><name reg="Γεώργιος"><expan><abbr>Γεώ</abbr><supplied reason="abbreviation">ργιο</supplied></expan></name></persName> <space extent="3"/></ab></div><div type="textpart_column" n="ii"><note>Scattered letters</note></div></div>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Row 2 (a) Prayer of Stephanas (b) The fortune triumphs of the [...</p>
+<p>Row 8: It is hard to make any sense of this text, or even to be sure in what order to read the letters; but it seems possible that there are the initial letters of several names : Ζω(τικος), Τυ(χικος), Ἐπ(?), Εὐ(?).</p>
+<p>Row 9.i. (The fortune of the Greens triumphs !)</p>
+<p>Row 9.ii. (The fortune of the Greens)</p>
+<p>Row 11: (The fortune of the Greens triumphs)</p>
+<p>Row 24: Reserved</p>
+<p>Row 26.i: - help your servant George.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See bibliography.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Theatre</rs>: seats, block E.</rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Findspot</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p> Row 2, published by <bibl n="ALA">Roueché, ALA <biblScope>137. iii</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257662">775</biblScope></bibl>. Row 26.i: <bibl n="ALA">Roueché, ALA <biblScope>137. iv</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257663">776</biblScope></bibl>. All published by <bibl n="PPA">Roueché, PPA <biblScope>46.E</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p> <figure href="75_J_09A"><figDesc>Row 2 (1975)</figDesc></figure><figure href="72_L_07A"><figDesc>Row 2, detail (1972)</figDesc></figure><figure href="77_Y_12"><figDesc>Row 8 (1977)</figDesc></figure><figure href="72_L_05A"><figDesc>Row 9.i (1972)</figDesc></figure><figure href="75_J_12A"><figDesc>Row 9.ii (1975)</figDesc></figure><figure href="72_L_04A"><figDesc>Row 10 (1972)</figDesc></figure><figure href="77_Y_16"><figDesc>Row 11 (1977)</figDesc></figure><figure href="77_Y_17"><figDesc>Row 15 (1977)</figDesc></figure><figure href="77_Y_18"><figDesc>Row 15 (1977)</figDesc></figure><figure href="75_J_16A"><figDesc>Row 16 (1975)</figDesc></figure><figure href="76_G_03"><figDesc>Row 26.i (1976)</figDesc></figure></p>
+</div></body></text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161234">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><seg cert="low"><rs type="textType">Statue dedication</rs></seg> to People of Hierapolis</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">statue base</rs> moulded below on three sides, with traces of moulding above (<measure type="length" unit="metre" dim="width">0.65</measure> × <measure type="length" unit="metre" dim="height">0.65</measure> × <measure type="length" unit="metre" dim="depth">0.43</measure>) rough on top for an applied feature; upper part of face chipped, and lower moulding damaged.</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> in the front panel. The inscription, which may have begun on an upper moulding, impinges on the lower moulding.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>ll.2-3, <measure dim="none">0.055</measure>; ll.4-5, <measure dim="none">0.045</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date> ...</date>
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <gap reason="lost" extent="5" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">λ</unclear>οσ</orig>  <lb n="2"/> <w lemma="ἀφιερόω">ἀφιέρωσεν</w> <lb n="3"/> <w lemma="ὁ">τὸν</w> <w>Δῆμον</w> <lb n="4"/> <w lemma="ὁ">τὸν</w> <placeName>Ἱεραπολει<lb n="5" type="worddiv"/><space extent="4" unit="character" dim="horizontal"/>τῶν</placeName>  <space extent="6" unit="character" dim="horizontal"/></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p><gap reason="lost" extent="5" unit="character" dim="left"/>los dedicated the People of Hierapolis</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> [[name?]]</p><p>[[...]]</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+Found: <rs type="found"><rs type="monuList">Theatre</rs></rs>
+; Last known location: <rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds) </p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1970 (<rs type="invNo">70.229</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_H_18"><figDesc>Face (1978)</figDesc></figure>
+</p>
+</div></body></text>
+</TEI.2>

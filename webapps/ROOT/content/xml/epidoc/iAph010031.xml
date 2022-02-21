@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010031" n="iAph0127 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><seg cert="low"><rs type="textType" reg="prayer/invocation">Invocation</rs></seg></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-29</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-25</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p><rs type="material" key="marmor">White marble</rs> <rs type="objectType"><rs type="objectType">column</rs> plinth</rs>.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> on the upper face of the plinth.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p><measure precision="circa" dim="none">0.025</measure>.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0600" exact="none" notBefore="0401">Fifth-sixth century</date> or later (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<ab><lb n="1"/><w lemma="ἅγιος">Ἅγιος</w></ab>
+      </div>
+
+      
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>Holy.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>Perhaps the beginning of a saint's name, or a reference to the liturgy; see discussion at <xref type="eAla-text" n="VIII.11">VIII.11</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList">Temple/Church</rs>: north aisle, fourth column from west: .</rs>. Original location: <rs type="origLocation">Findspot.</rs>. Last recorded location: <rs type="lastLocation">Findspot.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Recorded by the NYU expedition.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias
+in Late Antiquity</title> no. <biblScope>127</biblScope></bibl> whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257778">892</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcriptions (Reynolds, Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p>No image</p>
+      </div>
+
+    
+
+      </body>
+  </text>
+</TEI>

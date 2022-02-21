@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120930" n="iAph0664 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for the People of <gap reason="lost"/></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>No description; presumably a <rs type="objectType">statue base</rs></p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>No description</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>No description</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0234" notAfter="0267"> Mid third century</date>
+(similarity to others)
+
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="ὁ">τῆς</w> <w lemma="λαμπρός">λαμ<lb type="worddiv" n="2"/>προτάτης</w> <placeName type="ethnic" reg="Ἀφροδεισιεύς">Ἀφρο<lb type="worddiv" n="3"/>δεισιέων</placeName> <w lemma="πόλις">πόλε<lb type="worddiv" n="4"/>ως</w> <w lemma="ὁ">τὸν</w> <w lemma="λαμπρός">λαμπρό<lb type="worddiv" n="5"/>τατ<supplied reason="lost">ον</supplied></w>  <w lemma="δῆμος"><supplied reason="lost">δῆμον</supplied></w> <lb n="5a"/>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>The People of the most splendid city of the Aphrodisians (honoured) the most splendid [People of the] [...]</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>This is one of a group of dedications for neighbouring communities: see <xref type="inscription" n="658" href="120924">12.924</xref>, <xref type="inscription" n="659" href="120925">12.925</xref>, <xref type="inscription" n="660" href="120926">12.926</xref>, <xref type="inscription" n="661" href="120927">12.927</xref>, <xref type="inscription" n="662" href="120928">12.928</xref>, <xref type="inscription" n="663" href="120929">12.929</xref>   and <xref type="inscription" n="664" href="120930">12.930</xref>. It is not quite certain that this text is not simply a bad copy of one of those; but Fellows claimed that the text, from l. 5, had been 'purposely erased', in which case this copy does represent another text. See further Roueché PPA, ad loc. </p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found">Perhaps <rs type="monuList" cert="low">Walls, West</rs></rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+
+<p>Copied by Fellows; not reported subsequently</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="fellows1841">Fellows, no. <biblScope>62</biblScope></bibl>, whence <bibl n="CIGIIc">CIG <biblScope>2765b</biblScope></bibl>. Published by <bibl n="PPA">Roueché, PPA <biblScope>64</biblScope></bibl></p>
+</div>
+<div type="figure" n="none">
+<head>Photographs</head>
+<p> None</p>
+</div></body></text>
+</TEI>

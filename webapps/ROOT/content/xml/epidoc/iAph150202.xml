@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150202" n="iAph1479 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" cert="low">Dedication</rs>  of images of Erotes</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-07-17</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>'Sur une petite base brisée'</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>No description</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>No description</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+No indication
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="ὁ">τοὺς</w> <persName type="divine"><w>Ἔρωτας</w></persName><gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p><gap extent="unknown" reason="lost" unit="character"/> the Erotes <gap extent="unknown" reason="lost" unit="character"/></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> Perhaps accompanying statues of the Erotes/Amores - cf. <xref type="inscription" n="1256" href="120204">12.204</xref>.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found">Unknown.</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot (1850)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Waddington in 1850 ; not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="LBW">Waddington, <title>LBW</title> <biblScope>1588</biblScope></bibl>, whence <bibl>Robert, Laodicée du Lycos <biblScope>257</biblScope></bibl>, <bibl n="be">BullEp <biblScope>1970.539</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257062">183</biblScope>
+</bibl>
+</p>
+</div>
+<div type="figure" n="none">
+<head>Photographs</head>
+<p>None</p>
+</div></body></text>
+</TEI>

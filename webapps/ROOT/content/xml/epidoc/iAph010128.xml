@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010128" n="iAph1869 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for <gap reason="lost" extent="unknown" unit="character"/> son of Hypsikles son of Hypsikles</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor> <date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> fragment of <seg cert="low"><rs type="objectType">statue base</rs></seg> shaft, without edges (<measure type="length" unit="metre" dim="width">0.38</measure>  × <measure type="length" unit="metre" dim="height">0.33</measure>  × <measure type="length" unit="metre" dim="depth">0.33</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p> Inscribed on the surviving face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>II-III; <measure dim="height" type="length" unit="metre">0.04</measure>, resembling those of <xref type="inscription" n="362" href="010119">1.119</xref> (=Reinach 119)</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0200" notBefore="0001"> First to second centuries A.D.</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>Ι<gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/>Ρ  <g type="stop"/>  ΑΙΚ<gap reason="lost" extent="3" unit="character"/>  <lb n="3"/><gap reason="lost" extent="3" unit="character"/>  <persName type="aphrodisian"><persName type="aphrodisian"><name reg="Ὑψικλῆς">Ὑψικλ<supplied reason="lost">έους</supplied></name></persName>  <w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <supplied reason="lost"><lb n="4"/>[</supplied><gap reason="lost" extent="3" unit="character"/><name reg="Ὑψικλῆς"><supplied reason="lost">  Ὑψι</supplied>κλέο<supplied reason="lost">υς</supplied></name></persName><gap reason="lost" extent="3" unit="character"/>  <lb n="5"/><gap reason="lost" extent="3" unit="character"/><w lemma="ὁ"><supplied reason="lost">  το</supplied>ῦ</w>  <persName type="aphrodisian"><name reg="Ἀδρι-">Ἀδρι<gap reason="lost" extent="3" unit="character"/></name>  </persName><lb n="6"/><gap reason="lost" extent="3" unit="character"/>ΟΥΤΟΙ<gap reason="lost" extent="3" unit="character"/>  <lb n="7"/><gap reason="lost" extent="3" unit="character"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l.1 not seen by Reinach.</p><p> l. 2,  <foreign lang="grc">AII</foreign> R; <foreign lang="grc">K</foreign> could be <foreign lang="grc">B</foreign>, ?<foreign lang="grc">N</foreign></p>
+</div>
+<div type="translation">
+<head>Translation</head>
+ <p> <supplied reason="lost" cert="low">son of</supplied> Hypsikl<supplied reason="lost">es</supplied> <gap reason="lost" extent="unknown" unit="character"/> <supplied reason="lost">son of Hypis</supplied>kles <gap reason="lost" extent="unknown" unit="character"/></p>
+</div>
+<div type="commentary" n="none">
+<head>Commentary</head>
+<p> No useful comment</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">Temple/Church</rs>: east end, probably re-used in the Byzantine bema.</rs>
+<rs type="lastLocation">Museum (1976)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); publication; Gaudin.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Gaudin (34 c); by the NYU expedition in 1966.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="reinach">Reinach, <biblScope>120</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257252">374</biblScope>
+</bibl>
+</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="76_D_25"><figDesc>Face (1976)</figDesc></figure><figure href="77_A_22"><figDesc>Face (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI>

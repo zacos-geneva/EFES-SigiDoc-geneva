@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150360" n="iAph0063 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m">The Carians <rs type="textType" reg="honours">honour</rs> Palmatos, in <rs type="textType">verse</rs></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+		<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change>
+  <date>2003-07-17</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-23</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-28</date><respStmt><name>CMR</name></respStmt><item>tidied</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>No description.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>No description.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>No description.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0468" notAfter="0533">Late fifth/early sixth century</date> (<rs type="criteria">prosopography</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<lg met="alegaic?">
+		<l n="1" met="hexameter"><w lemma="μνήμων">μνήμονες</w> <w lemma="ὁ">οἱ</w> <rs type="subject" key="koinon"><w lemma="Κᾶρ"><placeName type="ethnic" full="yes" reg="Κάρ">Κᾶρες</placeName></w></rs> <w lemma="πολύς">πολλέων</w> <w lemma="εὐεργεσία">εὐεργεσιάων</w> <space dim="horizontal"/></l>
+		<l n="2" met="pentameter?"><persName key="Palmatus" type="aphrodisian" full="yes"><name reg="Παλμᾶτος">Παλμᾶτον</name></persName> <w lemma="ἰθυδίκης">ἰθυδίκην</w> <w lemma="τόσος">τόσσον</w> <w lemma="ἄγαμαι">ἀγασσάμενοι</w>.</l>
+		</lg>
+      </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>l.2. Although editors have regularly printed the conjecture <foreign lang="grc">Παλμᾶν</foreign>, Alan Cameron showed that the original reading, <foreign lang="grc">Παλμᾶτον</foreign>, was to be preferred; see <bibl><title>Porphyrius the Charioteer</title>, (Oxford 1973), 194.</bibl></p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>The Carians, remembering many benefits, and greatly admiring the rightly just Palmatos, <supplied reason="subaudible">set up this statue</supplied>.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See also <xref type="inscription" n="62" href="080410">8.410</xref> and discussion at <xref type="eAla-text" n="V.33">V.33</xref>.</p>
+        
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found">Unknown.</rs>. Original location: <rs type="origLocation">Unknown.</rs>. Last recorded location: <rs type="lastLocation">Unknown.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>An epigram either recorded, almost certainly at Aphrodisias, by a Byzantine copyist, or intended for inscription at Aphrodisias; not reported subsequently.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published in the Planudean Anthology (book 16 of the Palatine Anthology) 35, whence <bibl type="hbi" n="hell4"><author>Robert</author>, <title level="j">Hellenica</title> 4, <biblScope>14</biblScope></bibl>, <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>63</biblScope></bibl>, <bibl type="hbi" n="steinepig"><title level="m">Steinepigramme</title> <biblScope>02/09/11</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Published text.</p>
+      </div>
+
+      
+
+      
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110042" n="iAph1587 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> fragment,  re-used in Mosque</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-08-07</date><respStmt><name>Eleonora Litta</name></respStmt><item>tidied expan</item></change><change><date>2007-7-13</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
+<change><date>2007-04-18</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment of <rs type="material" key="marmor">white marble</rs>  <rs type="objectType">panel</rs> from a <rs type="objectType" cert="low">sarcophagus</rs> front, very worn (<measure dim="height" type="length" unit="metre">0.55</measure>, <measure dim="width" type="length" unit="metre">0.90</measure>), with a rebate on three edges. There is a relief of a circular object in the centre below the text and a vertical object to its left.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face. The drawing suggests that there may have been a scroll to the left of l. 4.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p> Not described, but drawn as capitals <measure dim="height" type="length" unit="metre">0.02</measure>. Standard second to third century forms.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
+ (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ιιο</unclear></orig>  <gap reason="lost" extent="2" unit="character"/><orig n="unresolved">ασρ<unclear reason="damage">γ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">τ<unclear reason="damage">λιξ</unclear>λυοτλ</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><w lemma="ὁ"><supplied reason="lost">τ</supplied>ὸ</w>  <w lemma="ἀντίγραφον"><unclear reason="damage">ἀ</unclear>ντίγ<unclear reason="damage">ρα</unclear>φο<supplied reason="lost">ν</supplied></w>     <w lemma="ἀποτίθημι"><supplied reason="lost">ἀπετέθη</supplied></w> <w lemma="εἰς"><supplied reason="lost">εἰς</supplied></w> <w lemma="ὁ"><supplied reason="lost">τὸ</supplied></w> <w lemma="χρεωφυλάκιον"><supplied reason="lost">χρεοφυλακιον</supplied></w> <w lemma="ἐπί"><supplied reason="lost">ἐπὶ</supplied></w> <w lemma="στεφανηφόρος"><supplied reason="lost">στεφανηφόρου</supplied></w><lb n="4"/><gap reason="lost" extent="unknown" dim="left" unit="character"/> <persName type="aphrodisian"><name reg="Τιβέριος"><expan><abbr><supplied reason="lost">Τι</supplied><unclear reason="damage">β</unclear></abbr><supplied reason="abbreviation">εριου</supplied></expan></name> <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αυδίου</supplied></expan></name> <name reg="Διογένης">Διογένους</name>  </persName> <w lemma="μείς">μ<unclear reason="damage">η</unclear><supplied reason="lost">νι</supplied></w><gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="4a"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>    <space extent="12" unit="character" dim="horizontal"/> <gap reason="lost" extent="unknown" unit="character" dim="right"/> </ab>
+</div>
+
+<div n="apparatus"><head>Apparatus</head><p>l. 4, the last letter could be <foreign lang="grc">Ε</foreign>, and it is possible that the last two begin a second  cognomen (but if so the man is not otherwise known).</p></div><div type="translation">
+<head>Translation</head>
+<p><gap unit="character" dim="left" extent="unknown" reason="lost"/> the copy <supplied reason="lost">of the inscription was deposited in the property-archive in the staphanephorate</supplied> of Tib<supplied reason="abbreviation">erius</supplied> Cl<supplied reason="abbreviation">audius</supplied> Diogenes, ?month <supplied reason="lost">of</supplied><gap unit="character" dim="right" extent="unknown" reason="lost"/></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>ll. 1, 2 seem beyond interpretation.</p><p> ll. 3, 4 can be restored with high probability as from a penal formula (so already Cormack). We offer a standard wording, but there is some variety in texts without real differences in meaning.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"> <rs type="monuList">City, Village</rs>: re-used in the area of the Mosque</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot (1893)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Notebooks; publication.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Kubitschek and Reichel (K iii.37), whence Cormack; not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published from Kubitschek's copy by <bibl n="cormack1964">Cormack, ABSA 59 (1964), <biblScope>20</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257453">573</biblScope>
+</bibl>.</p>
+</div>
+<div type="figure" n="none">
+<head>Photographs</head>
+<p>None.</p>
+</div><div type="figure" n="transcriptions">
+<head>Representations</head>
+<p><figure href="K_III_37"><figDesc>Kubitschek notebook III, 37</figDesc></figure></p>
+</div></body></text>
+</TEI>

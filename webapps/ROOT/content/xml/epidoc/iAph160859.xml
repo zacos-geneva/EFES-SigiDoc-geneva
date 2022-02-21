@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph160859">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Distribution formula from a <rs type="textType">foundation</rs> document</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-02-22</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+  
+  <change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment from the upper edge of a<rs type="material"> white marble</rs> <rs type="objectType">statue base</rs> with moulding above (<measure type="length" unit="metre" dim="width">0.27</measure>   × <measure type="length" unit="metre" dim="height">0.395</measure>   × <measure type="length" unit="metre" dim="depth">0.24</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face below moulding.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Standard second to third centuries A.D. forms; abbreviation (l.2): ligatured <foreign lang="grc">ΠΙ</foreign> (pi with a vertical line cutting the crossbar). <measure dim="height" type="length" unit="metre">0.03</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0300" notBefore="0101" exact="none">Second to third centuries A.D.</date>
+(<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w>προθεσ]μία</w> <w>κ<supplied reason="lost">λήρου</supplied></w>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <unclear reason="damage">Ι</unclear>  <space extent="3" unit="character" dim="horizontal"/> <hi rend="ligature">ΠΙ</hi> <space extent="3" unit="character" dim="horizontal"/>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
+</div>
+
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 1, possibly <foreign lang="grc">κληρων</foreign></p>
+
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p></p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Walls, South (east part)</rs>: excavations, SE extension, Trench C</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1976)</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1976 (<rs type="invNo">76.51</rs>).</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="76_A_30A"><figDesc>Face (1976)</figDesc></figure>; KTE?</p>
+</div></body></text>
+</TEI.2>

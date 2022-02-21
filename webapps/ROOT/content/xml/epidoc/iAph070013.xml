@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph070013" n="iAph1304 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> fragment</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-7-26</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment from a <rs type="material">white marble</rs> <rs type="objectType">sarcophagus</rs> front (<measure type="length" unit="metre" dim="width">0.45</measure>   × <measure type="length" unit="metre" dim="height">0.44</measure>   × <measure type="length" unit="metre" dim="depth">0.11</measure>), whose decoration has been ? deliberately chipped away.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> along upper edge (a) and in a central tabella (b).</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>standard second to third century forms; l.1, <measure type="length" unit="metre" dim="height">0.025</measure>; ll.2 ff, <measure type="length" unit="metre" dim="height">0.015</measure>
+</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><cb n="a"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">λ</unclear>σε<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/> </ab><ab>   <cb n="b"/> <lb n="1"/><orig n="unresolved">η</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><orig n="unresolved">ου<unclear reason="damage">δ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><orig n="unresolved">λη</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><orig n="unresolved">ευ</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5"/><orig n="unresolved">ο</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="6"/><orig n="unresolved">ε</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="7"/><orig n="unresolved"><unclear reason="damage">υ</unclear></orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
+</div>
+
+<div type="translation" n="none">
+<head>Translation</head>
+<p>No translation possible.</p>
+</div>
+<div n="none" type="commentary">
+<head>Commentary</head>
+<p>No useful commentary</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Martyrion</rs>: SW complex, triconch church, south apse (epig. invent 93.10)</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1994)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1993 (<rs type="invNo">93.38</rs>)</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="94_D_02"><figDesc>Face (1994)</figDesc></figure><figure href="94_D_03"><figDesc>Face (1994)</figDesc></figure></p>
+</div></body></text>
+</TEI>

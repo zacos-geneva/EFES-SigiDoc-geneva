@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120535" n="iAph1791 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for Publius Aelius Hilarianos from his mother</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor>, <date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-07-13</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
+<change><date>2005-05-25</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Shaft of a <rs type="material" key="marmor">white marble</rs> <rs type="objectType">statue base</rs>; surviving fragment (<measure type="length" unit="metre" dim="width">0.30</measure> × <measure type="length" unit="metre" dim="height">0.24</measure> × <measure type="length" unit="metre" dim="depth">0.13</measure>).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs>  within a moulded front panel.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.03</measure>; ligatures: <foreign lang="grc">ΗΤΗΡ</foreign> l. 19; <foreign lang="grc">ΜΗ</foreign> l. 20; <foreign lang="grc">ΝΚ</foreign> ll. 13, 20; <foreign lang="grc">ΜΜΗ</foreign> l. 20; circle for stop, ll. 12, 14, 18, 19.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p>  <date exact="none" notAfter="0300" notBefore="0101">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="1"/><persName reg="Πόπλιος  Αἴλιος  Ἱλαριανός" full="yes" type="aphrodisian"><name reg="Πόπλιος"><seg type="autopsy">Πόπλιο</seg>ν</name> <name reg="Αἴλιος">Αἴ<lb n="2" type="worddiv"/><seg type="autopsy">λιον</seg></name>  <name reg="Ἱλαριανός"><seg type="autopsy">Ἱλ</seg>αρια<lb n="3" type="worddiv"/><seg type="autopsy">νὸν</seg></name></persName>  <w lemma="ἱππικός"><seg type="autopsy">ἱπ</seg>πικὸν</w><lb n="4"/><persName type="aphrodisian" full="yes"><name reg="Πόπλιος" type="praenomen">Ποπλίου</name>  <name reg="Αἴλιος">Αἰ<lb n="5" type="worddiv"/>λίου</name>  <name reg="Ἀπολλωνιανός">Ἀπολλω<lb n="6" type="worddiv"/>νιανοῦ</name></persName>  <w lemma="πριμιπιλάριος">πρει<lb n="7" type="worddiv"/>μιπειλαρίου</w><lb n="8"/> <w lemma="υἱός">υἱὸν</w> <persName type="aphrodisian" full="yes"><name reg="Πόπλιος" type="praenomen">Ποπλί<lb n="9" type="worddiv"/>ου</name>  <name reg="Αἴλιος">Αἰλίου</name><lb n="10"/><name reg="Ἱλαριανός">Ἱλαριανοῦ</name></persName>  <w lemma="ὑπατικός">ὑ<lb n="11" type="worddiv"/>πατικοῦ</w><w lemma="ἔκγονος">ἔκ<lb n="12" type="worddiv"/>γονον</w>  <g type="stop"/>  <w lemma="πολύς">πολ<lb n="13" type="worddiv"/>λῶν</w>  <w lemma="συνκλητικός">συ<hi rend="ligature">νκ</hi>λη<lb n="14" type="worddiv"/>τικῶν</w> <w lemma="καί">καὶ</w> <w lemma="ὑπατικός">ὑ<lb n="15" type="worddiv"/>πατικῶν</w>  <w lemma="συνγενής">συν<lb n="16" type="worddiv"/><space extent="1" unit="character" dim="horizontal"/>  γενῆ</w><space extent="5" unit="character" dim="horizontal"/><lb n="17"/><persName type="aphrodisian" full="yes"><name reg="Τιβερία">Τιβερία</name>  <name reg="Ἰουλία">Ἰουλί<lb n="18" type="worddiv"/>α</name>  <g type="stop"/>  <name reg="Ἀντωνία" type="        ">Ἀντωνία</name>  <name reg="Λητωΐς">Λη<lb n="19" type="worddiv"/>τωὶς</name></persName>  <g type="stop"/>  <w lemma="μήτηρ">μ<hi rend="ligature">ητ</hi><hi rend="ligature">ὴρ</hi></w>  <w lemma="καί">καὶ</w><lb n="20"/><w lemma="μάμμη">μά<hi rend="ligature">μμη</hi></w>  <w lemma="συνκλητικός">συ<hi rend="ligature">νκ</hi>λη<lb n="21" type="worddiv"/>τικῶν</w>  <g type="star"/><w lemma="ὁ">τὸν</w><lb n="22"/> <w lemma="γλυκύς">γλυκύτατον</w> <g type="stop"/><lb n="23"/> <w lemma="υἱός">υἱόν</w> <g type="leaf"/></ab>
+</div>
+
+<div type="apparatus"><head>Apparatus</head><p>The letters seen by us have been highlighted.</p><p>Line 7: Wood added the E and writes in the margin: The letter interlined is E, which I had forgot in the first writing over; ye two letters wanting look'd like <foreign lang="grc">ΛΗ</foreign>. </p><p>ll. 12, 14, 18, 19: stops shown in Bailie's copy only. Further stops shown in Deering's copy, appear to be annotations ?by Leake.</p><p>ll. 18/19: <foreign lang="grc">ΛΙΤΟΙΣ</foreign> Sherard; <foreign lang="grc">Λητωίς</foreign> Boeckh, confirmed by later copyists;  <foreign lang="grc">ΛΗΤΟΙΣ</foreign> Le Bas.</p><p>l. 23,   leaf only in Sherard's copy.</p></div><div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); Deering; Wood; Sherard papers; publications.</p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Publius Aelius Hilarianos, <term lang="la">eques romanus</term>, son of Publius Aelius Apollonianos <term lang="la">primipilarius</term>, grandson of Publius Aelius Hilarianos consular, relative of many senatorials and consulars.</p><p>Tiberia Julia Antonia Letois, mother and grandmother of senatorials, (set up the statue of) her very dear son.</p></div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>This man was honoured, in identical terms, by his mother (here) and by his father (<xref type="inscription" n="1041" href="120017">12.17</xref>). For his career see B. Dobson, <title level="m">Recherches Structures Sociales</title> 110 and n. 2, and Eck, loc. cit.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">Walls, South-east</rs>: reused in or near the south east stretch of the walls (Sherard, Wood, Bailie); 'in the west wall' Fellows (presumably in error). Fragment found during excavation of the <rs type="monuList">Bouleuterion/Odeon</rs></rs>. <rs type="origLocation">Unknown</rs>. <rs type="lastLocation">Complete block last seen at findspot; surviving fragment in the Museum (1977)</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>The complete block was copied in 1705 by Picenini (10102 28v and, from Tisser, 55), whence Sherard (10101.44); by Wood in 1750 (vol. 14 f. 45v); by Deering (5v, no.25);  by Fellows; by Loew in 1841; by Bailie; by Le Bas in 1843 and by Waddington in 1851.  A fragment of the upper part of the stone, with part of the first three lines, was recorded by the NYU expedition (<rs type="invNo">71.45</rs>).</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="CIGII"><author>Boeckh</author> from Sherard and Picenini, CIG <biblScope>2793</biblScope></bibl>; by <bibl n="fellows1841">Fellows, no. <biblScope>40</biblScope></bibl>, whence <bibl>CIG p. 1112</bibl>;  <bibl n="bailie1846"><author>Bailie</author>, no. <biblScope>63</biblScope></bibl>; a correction published by <bibl n="franz1847"><author>Franz</author> from Loew, <biblScope>a.5</biblScope></bibl>; published by <bibl n="LBW"><author>Waddington</author>, from Le Bas, no <biblScope>595</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257109">230</biblScope></bibl>; discussed by <bibl>W. Eck, ZPE 42 (1981), 235-6</bibl>, whence <bibl n="seg">SEG <biblScope>1981.902</biblScope></bibl>, <bibl n="be">BE <biblScope>1981.517</biblScope></bibl>.</p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="77_S_13"><figDesc>Upper fragment (1977)</figDesc></figure><figure href="77_U_16"><figDesc>Upper fragment (1977)</figDesc></figure></p></div><div type="figure" n="photographs"><head>Representations</head><p><figure href="Wood_14_45v"><figDesc>Wood notebook 14, page 45v</figDesc></figure><figure href="Deering_05v"><figDesc>Deering notebook 5v</figDesc></figure><figure href="Deering_06"><figDesc>Deering notebook 6</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

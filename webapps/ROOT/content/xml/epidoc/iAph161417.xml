@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161417">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> monument for Tiberius Claudius Flavianus</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Two adjoining  blocks from a funerary monument showing a cut away for a gabled element below (<measure type="length" unit="metre" dim="width">0.94</measure> × <measure type="length" unit="metre" dim="height">0.74</measure> × <measure type="length" unit="metre" dim="depth">0.31</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face within a <rs type="decoration">tabella ansata</rs> (die, surviving, <measure type="length" unit="metre" dim="width">0.58</measure>   × <measure type="length" unit="metre" dim="width">0.29</measure>), whose right moulding and handle are lost.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>ll. 1-6, <measure type="length" unit="metre" dim="height">0.03</measure>; l. 7, <measure type="length" unit="metre" dim="height">0.045</measure>; rather uneven; diairesis on either side of initial <foreign lang="grc">Υ</foreign> in l. 2, first <foreign lang="grc">Ε</foreign> in l. 3; ligatured <foreign lang="grc">ΗΝ</foreign> in l. 5.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D</date>. (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">ὁ</w> <w lemma="πλάτας">πλάτας</w> <w lemma="εἰμί">ἐστὶν</w> <g type="stop"/>  <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβερίου</name>  <lb n="2"/><name reg="Κλαύδιος">Κλαυδίου</name>  <g type="stop"/>  <name>Φλαβιανοῦ</name>  <w>υἱο<supplied reason="lost">ῦ</supplied></w>  <lb n="3"/><persName type="aphrodisian"><name reg="Ἰουλιανός">Ἰουλιανοῦ</name></persName></persName> <g type="stop"/>  <w lemma="ἕτερος">ἕτερος</w>  <w lemma="δέ">δὲ</w>  <w>οὐ<unclear reason="damage">δ</unclear><supplied reason="lost">εὶ</supplied>ς</w>  <lb n="4"/> <w>ἐνταφήσεται</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῷ</w> <w>πλάτ<supplied reason="lost">ᾳ</supplied></w>  <lb n="5"/><w>πλ<hi rend="ligature">ὴν</hi></w> <w lemma="εἰμί">ὧν</w> <w lemma="ἐάν">ἂν</w> <persName type="aphrodisian"><name reg="Ἰουλιανός">Ἰουλιανὸς</name></persName>  <w>βουλη<lb n="6" type="worddiv"/>θήσεται</w> <w lemma="καί">καὶ</w> <w>διατάξητα<unclear reason="damage">ι</unclear></w>  <lb n="7"/><space extent="6" unit="character" dim="horizontal"/>  <g type="stop"/>    <w lemma="ζάω">ζῇ</w>  <g type="stop"/>  <space extent="6" unit="character" dim="horizontal"/>  </ab>
+</div>
+
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> Note the combination of <foreign lang="grc"><gap reason="lost"/>βιανος</foreign> and <foreign lang="grc">Ἰουλίανος</foreign> in <xref type="iAph">1540</xref> (=MAMA 551).</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found">Εxcavation of the <rs type="monuList">Walls, South (east part)</rs>, trench 4, on the inside.</rs><rs type="origLocation">Unknown</rs> <rs type="lastLocation">Museum (1976)</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1975 (<rs type="invNo">75.328</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="76_J_34A"><figDesc>Face (1976)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

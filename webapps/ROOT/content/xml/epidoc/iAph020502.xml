@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020502" n="iAph0853 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> Fragment of <seg cert="low"><rs type="textType">mason's mark</rs></seg> </title>
+</titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-06-21</date><respStmt><name>CMR</name></respStmt><item>DONE</item></change><change><date>2006-12-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+  
+  <change><date>2005-03-17</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Summarised in EpiDoc form</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Block with top and left side as originally prepared with a very slight moulding along the edges; right side and bottom as subsequently cut down (<measure type="length" unit="metre" dim="height">0.32</measure> × <measure type="length" unit="metre" dim="width">0.195</measure> × <measure type="length" unit="metre" dim="depth">0.125</measure>).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p>Very rough; a.  <measure type="length" unit="metre" dim="height">0.075-0.8</measure>; b. not measurable.</p>
+</div>
+
+<div type="description" n="date">
+<head>Date</head>
+<p><date exact="none" cert="low">...</date></p>
+</div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="a"><ab><lb n="1"/><space extent="unknown" unit="character" dim="horizontal"/>    <orig n="unresolved">ευκ</orig>  <space extent="1" unit="character" dim="horizontal"/>  <gap reason="lost" dim="right" unit="character" extent="unknown"/></ab></div><div type="textpart_section" n="b"><ab><lb n="1"/>    <gap reason="lost" dim="left" unit="character" extent="unknown"/><orig n="unresolved">α</orig>  <space extent="1" unit="character" dim="horizontal"/>  </ab></div></div>
+
+<div type="apparatus"><head>Apparatus</head><p>a. part of what may be a letter visible to right, but not legible.</p></div><div type="history" n="text-constituted-from"><head>Text Constituted From</head><p>Transcription (Reynolds)</p></div><div type="translation" n="none"><head>Translation</head><p>None possible.</p></div><div type="commentary">
+<head>Commentary</head>
+<p>Perhaps stonemason's marks?</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">Bouleuterion/Odeon, West Area</rs>: S.W.Bou. Tr. 3c, Str. 3</rs> <rs type="origLocation">Unknown</rs><rs type="lastLocation">in the museum (1977)</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>
+Recorded by the NYU expedition (<rs type="invNo">65.451</rs>)</p>
+</div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Unpublished.</p>
+</div>
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="77_U_13"><figDesc>Fragment face (1977)</figDesc></figure></p></div>
+
+
+
+</body>
+</text>
+
+</TEI>

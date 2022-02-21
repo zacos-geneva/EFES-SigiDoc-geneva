@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010178" n="iAph0305 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Conclusion of <rs type="textType">funerary</rs> text, third century A.D.</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-02-26</date><respStmt><name>Gabriel Bodard</name></respStmt><item>DONE</item></change><change><date>2007-01-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date>2005-03-21</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Piece from the lower part of a <rs type="material">white marble</rs>  <rs type="objectType" reg="sarcophagus">sarcophagus</rs>  (<measure type="length" unit="metre" dim="width">0.90</measure> × <measure type="length" unit="metre" dim="height">0.35</measure> × <measure type="length" unit="metre" dim="depth">0.13</measure>).  </p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the bottom moulding.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p> <measure dim="height" type="length" unit="metre">0.02</measure>.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p><date exact="none" notAfter="0300" notBefore="0201">Third century A.D.</date> (<rs type="criteria">nomenclature</rs> and <rs type="criteria">lettering</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>μου<supplied reason="lost"><w lemma="ὁ">τῆς</w> <w lemma="ἐπιγραφή">ἐπιγραφῆς</w> <w lemma="ἀντίγραφον">ἀντίγραφον</w> <w lemma="ἀποτίθημι">ἀπετέθη</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὸ</w></supplied>  <w lemma="χρεωφυλάκιον"><supplied reason="lost">χρ</supplied>εοφυλάκιον</w>  <w lemma="ἐπί">ἐπὶ</w>  <w lemma="στεφανηφόρος">στεφανηφόρου</w>  <persName reg="Μάρκος  Αὐρήλιος" full="yes" type="aphrodisian"><name reg="Μᾶρκος">Μάρκου</name>  <name type="nomen" reg="Αὐρήλιος">Αὐρ<supplied reason="lost">ηλίου</supplied></name></persName>  <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><w lemma="ἐγώ"><gap dim="left" extent="36" reason="lost" unit="character"/>μου</w>  <g type="scroll"/></ab>
+</div>
+
+
+
+<div type="translation">
+<head>Translation</head>
+<p><supplied reason="lost">A copy of the inscription was placed in the</supplied> property-archive in the stephanephorate of Marcus Aurelius <gap reason="lost"/></p><p><gap reason="lost"/> in the month <supplied reason="lost">Pane</supplied>mos or <supplied reason="lost">Hebdo</supplied>mos.</p></div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>l. 2, must be the end of a month name, Πάνημος or Ἕβδομος.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Temple/Church</rs>: T. Aph. XVI</rs> <rs type="origLocation">Unknown</rs> Last recorded: <rs type="lastLocation">Museum (1977)</rs></p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1962 (<rs type="invNo">62.305</rs>).</p>
+  </div>
+
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>77_E_19</p></div></body>
+</text>
+
+</TEI>

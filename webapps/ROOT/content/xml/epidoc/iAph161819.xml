@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161819">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for  Epigonos son of Glykon</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>No description: apparently a rectangular <rs type="objectType">block</rs>. <seg cert="low"><rs type="objectType"><rs type="objectType">Statue base</rs> shaft</rs></seg>.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> <seg cert="low">on the face</seg></p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>No description.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date> ...?</date>
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <lb n="2"/> <w lemma="δῆμος">δῆμος</w> <w>ἐτεί<lb n="3" type="worddiv"/>μησεν</w>  <persName type="aphrodisian"><name>Ἐπί<lb n="4" type="worddiv"/>γονον</name>  <persName type="aphrodisian"><name>Γλύκ<lb n="5" type="worddiv"/>κωνος</name></persName></persName> <w lemma="ὁ">τὸν</w> <lb n="6"/> <w>βούλαρχον</w> </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p> ...</p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p>... </p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> ...</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Necropolis, North</rs>: '3 Kil. N(ord) de Gheira, encastré dans le mur d'une maison neuve' (Boulanger)</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot (1913)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Boulanger notebook</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Transcribed by <rs type="visitor">Boulanger</rs> in 1913 (notebook B, 41, no. 46); not reported subsequently.</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>None</p></div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Boulanger_B_46"><figDesc>Boulanger B, 46</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

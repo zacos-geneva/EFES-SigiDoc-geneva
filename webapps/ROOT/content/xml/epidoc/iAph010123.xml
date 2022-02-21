@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010123" n="iAph1609 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> inscription for Attalos son of Adrastos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-08-07</date><respStmt><name>Eleonora Litta</name></respStmt><item>tidied expan</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>None; probably a fragment of <rs type="objectType" cert="low">sarcophagus</rs> front, re-used.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>Inscribed on the face; complete at the right edge.
+</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>0.021; Ligatures: TH, l.1; NH l.2 dot for stop and abbreviation</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0300" exact="none">First to third centuries A.D.</date> (<rs type="criteria">formulae</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/> <w lemma="γραφή">γραφὴ</w> <w lemma="ὁ">τῆς</w> <w lemma="σορός">σοροῦ</w> <g type="stop"/>  <w lemma="ἐπί">ἐ<lb n="2" type="worddiv"/>πὶ</w> <w lemma="στεφανηφόρος">στεφανηφόρου</w> <lb n="3"/> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἀττάλου</name> <w lemma="ὁ">τοῦ</w> <name reg="Ἄδραστος">Ἀδρά<lb n="4" type="worddiv"/>στου</name></persName> <w lemma="ὁ">τὸ</w> <w>η'</w> <w lemma="μείς"><expan><abbr>μ</abbr><supplied reason="abbreviation">ηνὸς</supplied></expan></w> <rs type="month"><expan><abbr>Πανή</abbr><supplied reason="abbreviation">μου</supplied></expan></rs>   <lb n="5"/> <w lemma="γραφή">γραφὴ</w> <gap reason="lost" extent="unknown" unit="character" dim="right"/></ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p> ...</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p> <gap extent="unknown" reason="lost" unit="character"/> inscription of the sarcophagus. in the ninth stephanephorate of Attalos son of Adrastos, month Panemos. Text [ . . .} </p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> No commentary</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+
+<rs type="found">'<rs type="monuList">Temple/Church</rs>, dallage du narthex' (Gaudin)</rs>
+<rs type="origLocation">Unknown</rs> <rs type="lastLocation">Findspot (1904)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publication</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Gaudin (172); not reported subsequently</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="reinach">Reinach from Gaudin, REG 19, 1906, 286, no. <biblScope>183</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257447">567</biblScope>
+</bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>None</p>
+</div></body></text>
+</TEI>

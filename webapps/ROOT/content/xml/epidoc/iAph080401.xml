@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080401" n="iAph0587 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title> Tetrastoon: <rs type="textType">pavement designs</rs></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>2007-03-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType">stylobate</rs> blocks.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the upper face of the blocks.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>None.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="1000" notBefore="0101" exact="none">Second-tenth century A.D.</date> (<rs type="criteria">context</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="i"><note>
+Several circles and squares.</note></div>
+<div type="textpart_section" n="ii"><note>Several scratches, and a board, type R.6 (<measure dim="height" type="length" unit="metre">0.15</measure> x <measure dim="width" type="length" unit="metre">0.25</measure>).</note></div>
+<div type="textpart_section" n="iii"><note>A board, type R.6 (<measure dim="height" type="length" unit="metre">0.24</measure> x <measure dim="width" type="length" unit="metre">0.39</measure>).</note></div>
+<div type="textpart_section" n="iv"><note>Many graffiti and a board, type R.6 (<measure dim="height" type="length" unit="metre">0.18</measure> x <measure dim="width" type="length" unit="metre">0.40</measure>).</note></div>
+</div>
+
+<div type="translation" n="none">
+<head>Translation</head>
+<p>No translation possible.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See Roueché, ‘Gameboards’.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Tetrastoon</rs>: on the stylobate of the west colonnade; columns numbered from north. i. Between columns 1 and 2. ii. Between columns 2 and 3. iii. Between columns 4 and 5. iv. Between columns 5 and 6 - opposite central door of theatre.</rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Findspot</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds, Roueché).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="cmr2004">Roueché, Gameboards <biblScope>6</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="75_D_33A"><figDesc>iv (1975)</figDesc></figure></p>
+</div></body></text>
+</TEI>

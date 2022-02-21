@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080058" n="iAph0764 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Seat inscriptions</rs>: Theatre, Block F</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+<textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term><term><rs type="textType" key="sacer">Religious</rs></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Theatre, seats, central block, into which a raised seat was rather roughly inserted, almost certainly for the provincial governor in the third or early fourth century. Rows 1-3 have been lost</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>Row 5.i: at north end. The letters below are from another text, and there are further traces on the stone. Row 6.i: towards south end. The kappa in the first line appears to be added, and probably belongs to another text. Row 6.ii: on second seat from north end; The lambda must be from another text. Row 6.iii: on seat at north end. Row 11; on two seats. Row 16.i: a seat with several superimposed texts. Row 16.ii: On risers of seats. Row 17: on one seat at south end. Row 18.i: on one seat towards north end. Row 22.i: At north end, next to steps. Row 23.i: a text superimposed on traces of much larger letters. The text was apparently left unfinished. Above it is a horizontal line, with verticals at either end and in the centre; this could be the remnants of another letter associated with the T, but it may be a design connected with the lower text.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Row 5.i: large and deep, cursive, <measure type="length" unit="metre" dim="height">0.12</measure> - <measure type="length" unit="metre" dim="height">0.17</measure>. Row 6.i: scratched and worn; ave. <measure type="length" unit="metre" dim="height">0.05</measure>. Row 6.ii: <measure type="length" unit="metre" dim="height">0.06</measure> - <measure type="length" unit="metre" dim="height">0.08</measure> (Λ). Row 6.iii: <measure type="length" unit="metre" dim="height">0.05</measure> - <measure type="length" unit="metre" dim="height">0.12</measure> (Β); eta in lower case. Row 11. on first seat <measure type="length" unit="metre" dim="height">0.15</measure> in upper row, <measure type="length" unit="metre" dim="height">0.08</measure> in lower row; on second seat, <measure type="length" unit="metre" dim="height">0.09</measure>-<measure type="length" unit="metre" dim="height">0.12</measure>. Row 16.i: ranging from <measure type="length" unit="metre" dim="height">0.05</measure> - <measure type="length" unit="metre" dim="height">0.020</measure>. Row 17: the central group <measure type="length" unit="metre" dim="height">0.11</measure>. Row 18.i: <measure type="length" unit="metre" dim="height">0.023</measure>-<measure type="length" unit="metre" dim="height">0.04</measure>. Row 22.i: <measure type="length" unit="metre" dim="height">0.16</measure>. Row 23.i: <measure type="length" unit="metre" dim="height">0.02</measure>, superimposed on <measure type="length" unit="metre" dim="height">0.18</measure>. Row 26.i: <measure type="length" unit="metre" dim="height">0.18</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0600" notBefore="0101" exact="none">Second-sixth century A.D.</date> (<rs type="criteria">context</rs>).</p>
+</div>
+<div type="edition" n="text" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="X"><note>Block behind governor’s seat: design of a <rs type="decoration">peacock</rs>.</note></div><div type="textpart_section" n="5"><div type="textpart_column" n="i"><ab><lb n="1"/>
+
+<w lemma="κατέχω"><supplied reason="lost">κατέ</supplied><milestone unit="block"/><space extent="3" unit="character"/>χ<space extent="3" unit="character"/>εται</w> <milestone unit="block"/> steps 
+
+<milestone unit="block"/> <orig n="unresolved">θιοσ</orig> 
+
+</ab></div><div type="textpart_column" n="ii"><note>Design, type C2, with a small arc at the end of one arm</note></div></div><div type="textpart_section" n="6"><ab><lb n="1"/>
+<g type="steps"/>  <milestone unit="block"/> <space extent="3" unit="block"/> <milestone unit="block"/><w><gap reason="lost" extent="1" unit="character"/>αρχων</w> <w lemma="καί"><expan><abbr><unclear reason="damage">κ</unclear></abbr><supplied reason="abbreviation">αὶ</supplied></expan></w> <w><unclear>α</unclear>ε<space extent="3"/></w> | 
+<milestone unit="block"/>
+<space extent="3" unit="character"/> <orig n="unresolved"><unclear reason="damage">α</unclear>τ</orig> <space extent="3" unit="character"/> <milestone unit="block"/> 
+
+</ab><ab><lb n="1"/>
+
+<milestone unit="block"/> <space extent="3" unit="character"/> <num value="12">ιβ</num> <space extent="3" unit="character"/> <milestone unit="block"/> 
+
+<milestone unit="block"/> <orig n="unresolved">λ</orig> <space extent="3" unit="character"/> 
+
+</ab><ab><lb n="1"/>
+
+ 
+
+<persName type="aphrodisian"><name><gap reason="lost" unit="character" extent="4" dim="left"/><milestone unit="block"/>λία<unclear reason="damage">ς</unclear></name> <name reg="Φλαβία"><expan><abbr><unclear>Φ</unclear>λαβ</abbr><supplied reason="abbreviation">ίας</supplied></expan></name></persName> <milestone unit="block"/> <g type="steps"/></ab></div><div type="textpart_section" n="10"><note>Design, type C2</note> 
+
+</div><div type="textpart_section" n="11"><lb n="1"/><ab>. 
+<space extent="3" precision="circa"/><milestone unit="block"/> <orig n="unresolved">οροσ</orig><space extent="3"/>	<milestone unit="block"/>           <milestone unit="block"/>  <space extent="2" unit="block"/> <milestone unit="block"/><g type="steps"/>
+<lb n="2"/><milestone unit="block"/> <orig n="unresolved">θε<unclear reason="damage">σ</unclear></orig><milestone unit="block"/>φιας  <milestone unit="block"/> 
+
+</ab></div><div type="textpart_section" n="12"><note>Scattered letters</note> 
+
+</div><div type="textpart_section" n="14"><note>Scattered letters</note> 
+
+<div type="textpart_section" n="16"><div type="textpart_column" n="i"><note>(a) </note><ab type="block"><lb n="1"/>
+
+<g type="steps"/> <milestone unit="block"/> <space extent="3" unit="character"/> <milestone unit="block"/><orig n="unresolved">Υ Λ Ο Σ</orig> <milestone unit="block"/> 
+
+<milestone unit="block"/> 
+<orig n="unresolved">απο</orig><milestone unit="block"/>
+<milestone unit="block"/><orig n="unresolved">αε υτ α ολ</orig> <milestone unit="block"/></ab><note>( 
+
+b)</note><lb n="1"/><ab> 
+
+<w lemma="κατέχω"><supplied reason="lost" cert="low">κατέχε</supplied><milestone unit="block"/>ται</w> 
+
+</ab></div><div type="textpart_column" n="ii"><ab><lb n="1"/>
+<g type="steps"/>  <milestone unit="block"/> <space extent="3"/>  <orig n="unresolved">αρ</orig> <space extent="3"/> <milestone unit="block"/> <orig n="unresolved">αρ</orig> <milestone unit="block"/> <orig n="unresolved">αρ</orig> <milestone unit="block"/> <space extent="3"/>
+</ab></div><div type="textpart_column" n="iii"><note>Design, type C2</note> 
+
+</div><div type="textpart_column" n="iv"><note>Scattered letters</note> 
+
+</div></div></div><div type="textpart_section" n="17"><ab><lb n="1"/>
+
+<milestone unit="block"/> <orig n="unresolved"><unclear reason="damage">ιιι</unclear></orig> <space extent="3" unit="character"/> <orig n="unresolved">νιγ δια</orig> <milestone unit="block"/> 
+
+</ab></div><div type="textpart_section" n="18"><div type="textpart_column" n="i"><note>?Deliberately ambiguous design of a <rs type="decoration">phallus</rs>, highly stylised in such a way that it could be read as a <rs type="decoration">building with a pointed roof</rs>, supported by two spiral columns. To the right, a <rs type="decoration">bird</rs>; to the left, parallel with the columns, a text:</note><ab><lb n="1"/>
+
+ 
+
+<w lemma="τόπος">τόπος</w> 
+
+<persName type="divine"><name>Ἔρωτος</name></persName></ab><div type="textpart_column" n="ii"><note>Scattered letters</note></div></div></div><div type="textpart_section" n="19"><note>Scattered letters</note> 
+
+</div><div type="textpart_section" n="20"><note>Scattered letters</note> 
+
+</div><div type="textpart_section" n="21"><note>Scattered letters</note> 
+
+</div><div type="textpart_section" n="22"><div type="textpart_column" n="i"><ab><lb n="1"/><milestone unit="block"/> <orig n="unresolved">ρ ρ</orig> <milestone unit="block"/> <g type="steps"/> 
+
+</ab></div><div type="textpart_column" n="ii"><note>Scattered letters</note></div></div><div type="textpart_section" n="23"><ab><lb n="1"/>
+
+<orig n="unresolved">τ</orig>
+ <w lemma="τόπος">τόπος</w> <orig n="unresolved">ν<unclear reason="damage">α</unclear></orig> 
+
+</ab><note>Scattered letters</note></div><div type="textpart_section" n="24"><note>Scattered letters</note> 
+
+</div><div type="textpart_section" n="25"><note>Scattered letters</note> 
+
+</div><div type="textpart_section" n="26"><div type="textpart_column" n="i"><ab><lb n="1"/>
+<space extent="3" precision="circa"/>  <milestone unit="block"/>  <orig n="unresolved">τ τ</orig> <milestone unit="block"/> <space extent="3" precision="circa"/> 
+</ab></div><div type="textpart_column" n="ii"><note>Scattered letters</note> </div></div>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Row 5.i: Reserved.</p><p>Row 6.ii: ΙΒ is almost certainly the number 12. </p><p>Row: 16.i.b: reserved. </p><p>Row 18: Place of Eros. </p><p>Row 23.i: Place of Na[ -</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See bibliography.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Theatre</rs>: seats, block F</rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Findspot</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="PPA">Roueché, PPA <biblScope>46.F</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="76_G_06"><figDesc>Row X (1976)</figDesc></figure> <figure href="76_G_09"><figDesc>Rows 5.i and 6.iii (1976)</figDesc></figure><figure href="76_G_10"><figDesc>Row 5.ii and Row 6.i (1976)</figDesc></figure><figure href="76_G_05"><figDesc>Row 16.i.a (1976)</figDesc></figure><figure href="91_B_02"><figDesc>Row 15 and 16.ii (1991)</figDesc></figure><figure href="88_F_10"><figDesc>Row 17 (1988)</figDesc></figure><figure href="76_G_04"><figDesc>Row 18.i (1976)</figDesc></figure></p>
+</div></body></text>
+</TEI>

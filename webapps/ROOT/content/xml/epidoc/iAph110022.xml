@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110022" n="iAph1030 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Posthumous <rs type="textType">honours</rs></rs> for  Zenon son of Zenon</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date>2005-02-16</date><respStmt><name>Artemis Papakostouli</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment from the right hand side of a <rs type="material" key="marmor">white marble</rs> <rs type="objectType" reg="base">statue base shaft</rs> (<measure type="length" unit="metre" dim="width">0.20</measure>   × <measure type="length" unit="metre" dim="height">0.47</measure>   × <measure type="length" unit="metre" dim="depth">0.36</measure>).  </p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face. The upper edge appears to survive; the text will have begun on a crowning feature.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure type="length" dim="none">0.02-0.025</measure>; <foreign lang="grc">ΜΝ</foreign> in ligature, l.9.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="0"/><supplied reason="lost"><note place="not  specified" anchored="yes">e.g.</note> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <lb n="0a"/><w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτείμησαν</w></supplied>  <lb n="1"/><persName type="aphrodisian"><name reg="Ζήνων"><supplied reason="lost">Ζήνω</supplied>να</name>  <w lemma="τετρακίς">τετρά<lb n="2" type="worddiv"/><supplied reason="lost">κις</supplied></w>      <persName type="aphrodisian"><name reg="Ὑψικλῆς"><supplied reason="lost">Ὑ</supplied>ψικλέους</name>  <lb n="3"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="aphrodisian"><name reg="Ὑψικλῆς"><supplied reason="lost">Ὑψ</supplied>ικλέους</name>  <lb n="4"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="aphrodisian"><name reg="Μένανδρος"><supplied reason="lost">Με</supplied>νάνδρου</name>  <lb n="5"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <persName type="aphrodisian"><name reg="Ζήνων"><supplied reason="lost">Ζή</supplied>νωνος</name></persName></persName></persName></persName>  <lb n="6"/><supplied reason="lost"><space extent="2" unit="character" dim="horizontal"/></supplied>  <name reg="Ὑψικλῆς"><supplied reason="lost">Ὑψι</supplied><unclear reason="damage">κ</unclear>λέα</name></persName>  <space extent="2" unit="character" dim="horizontal"/><lb n="7"/><gap extent="5" reason="lost" unit="character" dim="left"/><orig n="unresolved">ου</orig>  <w lemma="καί">καὶ</w>  <lb n="8"/><gap extent="5" reason="lost" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ωναι</orig><lb n="9" type="worddiv"/><gap extent="7" reason="lost" unit="character" dim="left"/>  <w lemma="γυμνασίαρχος">γυ<hi rend="ligature">μν</hi>α<lb n="10" type="worddiv"/><supplied reason="lost">σίαρχ</supplied><gap extent="2" reason="lost" unit="character"/></w>  <w lemma="στεφανηφόρος"><supplied reason="lost">σ</supplied>τεφα<lb n="11" type="worddiv"/><supplied reason="lost">νηφόρ</supplied><gap extent="unknown" reason="lost" unit="character"/></w><lb n="11a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab></div>
+
+
+
+<div type="apparatus"><head>Apparatus</head><p>ll. 7-9, <foreign lang="grc"><supplied reason="lost">τὸν δήμ</supplied>ου καὶ <lb/> <supplied reason="lost">βουλῆς υ</supplied>ἱῶν ἀ<lb/><supplied reason="lost">πόγονον</supplied></foreign>  cj. MAMA</p></div><div n="notyet" type="translation">
+<head>Translation</head>
+<p>
+
+No translation yet (2007)</p></div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>For the family see Prospography index.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">City, Village</rs>: re-used 'in a house wall' MAMA.</rs> <rs type="origLocation">Unknown</rs> <rs type="lastLocation">Museum</rs></p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; Preliminary transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the MAMA expedition; by the NYU expedition in 1964 (<rs type="invNo">64.241</rs>)</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="MAMA8">Cormack, from the MAMA records, <title level="m">MAMA</title> 8, no. <biblScope>500</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257212">334</biblScope></bibl></p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_BB_07"><figDesc>Face (1977)</figDesc></figure><figure href="78_B_18"><figDesc>Face (1978)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

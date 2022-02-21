@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010177" n="iAph0678 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for Zenon son of Zenon, wrestler</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term><term><rs type="textType" key="sacer">Religious</rs></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-17</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A <rs type="objectType">statue base</rs> shaft (h. not measured, <measure dim="width" type="length" unit="metre">0.45</measure> x <measure dim="depth" type="length" unit="metre">0.45</measure>) with moulded panels,</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p> Inscribed on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Standard second-/third-century forms, av. <measure dim="height" type="length" unit="metre">0.02</measure>. Ligatures: ΗΝ, l.3; ΗΝ, l.8; ΗΝ, l.9; ΗΝ, l.10; ΝΗ, l.19.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="02225" notBefore="0200">Early third century</date>
+ (<rs type="criteria">contests</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><persName type="aphrodisian"><name reg="Ζήνων"><supplied reason="lost">Ζήν</supplied>ωνα</name>  <persName type="aphrodisian"><name reg="Ζήνων">Ζ<unclear reason="damage">ήν</unclear><supplied reason="lost">ωνος</supplied></name>  <lb n="2"/><w lemma="ὁ"><supplied reason="lost">τ</supplied><unclear reason="damage">ο</unclear>ῦ</w>  <persName type="aphrodisian"><name reg="Χάρης">Χάρητο<unclear reason="damage">ς</unclear></name>  <w lemma="ὁ"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="2" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">το
+</rdg>
+</app><supplied reason="lost">ῦ</supplied></w>  <lb n="3"/><supplied reason="lost">Ζ</supplied><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="1" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">ή
+</rdg>
+</app>νωνος</persName></persName>  Αἰνεία<unclear reason="damage">ν</unclear></persName>  <lb n="4"/> <w lemma="γένος"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="2" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">
+γέ</rdg>
+</app>νους</w> <w lemma="καί">καὶ</w> <w>ἀξιώ</w> <lb type="worddiv" n="5"/><w><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="1" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">μ
+</rdg>
+</app>ατος</w> <w lemma="ὁ">τοῦ</w> <w>πρώ<lb type="worddiv" n="6"/><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="2" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">τε
+</rdg>
+</app>ύοντ<app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="2" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">
+ος</rdg>
+</app></w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῇ</w> <lb n="7"/> <w lemma="πατρίς"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="7" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">πατρίδι
+</rdg>
+</app></w> <w>ἱερο</w> <lb type="worddiv" n="8"/><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="6" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">
+νείκην</rdg>
+</app> <w lemma="πλειστονείκης"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="2" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">πλ
+</rdg>
+</app>ειστο<lb type="worddiv" n="9"/><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="6" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">
+νείκην</rdg>
+</app></w> <w lemma="παράδοξος"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="6" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">
+παράδο</rdg>
+</app><lb type="worddiv" n="10"/><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="3" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">ξον
+</rdg>
+</app></w> <w lemma="παλαιστής"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="9" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">
+παλαιστὴν</rdg>
+</app></w> <lb n="11"/><space extent="3" unit="character" dim="horizontal"/> <w lemma="παῖς"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="2" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">πα
+</rdg>
+</app>ῖ<app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="2" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">
+δα</rdg>
+</app></w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="12"/><persName type="aphrodisian"><name reg="Μενεσθεύς"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="3" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">
+Μεν</rdg>
+</app><unclear reason="damage">ε</unclear>σθεὺς</name> <persName type="aphrodisian"><name reg="Ἀπολλώνιος "><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="1" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">Ἀ
+</rdg>
+</app><lb type="worddiv" n="13"/><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="3" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">πολ
+</rdg>
+</app>λωνίου</name>  <w lemma="ὁ">το<supplied reason="lost">ῦ</supplied></w>  <lb n="14"/> <persName type="aphrodisian"><name reg="Μενεσθεύς"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="2" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">Με
+</rdg>
+</app>νεσθέως</name> <name reg="Παπίας"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="2" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">
+Πα</rdg>
+</app><lb type="worddiv" n="15"/><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="1" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">π
+</rdg>
+</app><supplied reason="lost">ί</supplied>ου</name></persName></persName>   <name reg="Ἰσόβουνος">Ἰσόβουνο<unclear reason="damage">ς</unclear></name></persName>  <lb n="16"/><w lemma="ἀρχινεοποιός"><unclear reason="damage">ἀ</unclear>ρχινεοποιὸ<app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="1" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">ς
+</rdg>
+</app></w>  <lb n="17"/> <w lemma="θεά">θεᾶς</w> <persName type="divine"><name reg="Ἀφροδίτη">Ἀφροδεί<lb type="worddiv" n="18"/>της</name></persName> <space extent="4"/> <w lemma="ὁ">τὸν</w> <w lemma="συνγενής">συν<lb type="worddiv" n="19"/>γενῆ</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἴδιος">ἰδ<app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="1" reason="lost" unit="character"/></rdg>
+<rdg resp="previous">ί
+</rdg>
+</app><lb type="worddiv" n="20"/>ων</w> <w lemma="καθώς">καθὼς</w> <w lemma="ἀγωνοθετέω">ἀγω<lb type="worddiv" n="21"/>νοθετῶν</w> <w lemma="ὑπισχνέομαι">ὑπέ<lb type="worddiv" n="22"/><g type="star"/> σχετο</w> <g type="star"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>The letters read by Deering, but not by us, have been highlighted</p>
+<p>l. 2,  At the beginning of the line Deering read ΕΥ.</p>
+<p>l. 16,  ἀρχινεωποιὸς, in MAMA, is a printing error, since the MAMA expedition did not transcribe this part of the stone.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>Zenon Aeneas son of Zenon son of Chares son of Zenon, of leading family and rank in the city, sacred victor, frequent victor, extraordinary, boy wrestler. Menestheus Isobounos, son of Apollonios son of Menestheus Papias, chief neopoios of the goddess Aphrodite (put up the statue of) his kinsman, out of his own resources, as he promised while he was agonothete.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>For discussion see <bibl n="PPA"><author>Roueché</author>, <title>Performers and Partisans</title>,</bibl> ad loc.</p>
+
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Temple/Church</rs>: re-used, with other inscribed bases, as vertical elements to support the sanctuary screen of the Temple-church; that screen, which reused elements of an early Byzantine balustrade, was probably constructed in the ninth or tenth century.</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; notebooks; transcriptions (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording </head>
+<p>The complete stone was copied by Deering (f. 6 no. 26). Seven fragments were recorded by Gaudin (29b, 29e, 32, 34b, 45 [twice]). One of these (part of Reinach 143) recorded by the MAMA expedition. That fragment, and three others recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published from Deering by <bibl n="leake1843">Leake, no. <biblScope>11</biblScope></bibl>, whence <bibl n="LBW">LBW <biblScope>1616a</biblScope></bibl>, <bibl n="liermann1889">Liermann, Analecta. <biblScope>27</biblScope></bibl>; by <bibl n="reinach">Reinach, from Gaudin's squeeze, nos <biblScope>91</biblScope>, <biblScope>92</biblScope>, <biblScope>112</biblScope>, <biblScope>115</biblScope>, <biblScope>118</biblScope>, <biblScope>143</biblScope></bibl>: see the reconstruction by <bibl n="cormack1955">J. M. R. Cormack, <title>Inscribed Monuments of Aphrodisias</title> (Reading, 1955), 63, fig.12</bibl>. Published by <bibl n="MAMA8">Cormack, from the MAMA records and previous publications, MAMA VIII.<biblScope>513</biblScope></bibl>; by <bibl n="PPA">Roueché, PPA <biblScope>78</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_A_03"><figDesc>Lines 1-6 (1977)</figDesc></figure><figure href="76_F_31A"><figDesc>Lines 11-22 (1976)</figDesc></figure><figure href="77_A_02"><figDesc>Lines 6-8 (1977)</figDesc></figure></p>
+</div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Deering_06"><figDesc>Deering notebook, page 6</figDesc></figure></p></div></body></text>
+</TEI>

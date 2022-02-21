@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120639" n="iAph0388 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Honours</rs> for Marcus Aurelius [...]nus son of Artemon</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>1991</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="ktejmr1991">Erim and Reynolds (<date>1991</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date>2005-09-29</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="objectType">Statue base</rs> of tapering <rs type="material" key="marmor">white marble</rs> <rs type="objectType">statue base</rs> shaft, damaged above but substantially reconstructed from fragments (<measure type="length" unit="metre" dim="width">0.465</measure>–<measure dim="width" type="length" unit="metre">0.425</measure> × <measure type="length" unit="metre" dim="height">1.17</measure> × <measure type="length" unit="metre" dim="depth">0.44</measure>).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p> Inscribed on one face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.017</measure>; apices on <foreign lang="grc">Ρ</foreign> and <foreign lang="grc">Α</foreign> in l. 1; ligatured <foreign lang="grc">ΗΝ</foreign> in ll. 3, 10, <foreign lang="grc">ΤΗ</foreign> in ll. 4, 7, 8, <foreign lang="grc">ΗΜ</foreign> in l. 5.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p>  Probably <date notBefore="0201" notAfter="0300" exact="none" cert="low">third century A.D.</date> (<rs type="criteria">lettering</rs>; <rs type="criteria">nomenclature</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Μᾶρκος"><supplied reason="lost">Μ</supplied>ᾶρκον</name>  <name reg="Αὐρήλιος" type="nomen">Αὐρήλιο<unclear reason="damage">ν</unclear></name>  <gap dim="right" extent="3" reason="lost" unit="character"/><lb n="2"/><name><gap dim="left" extent="1" reason="lost" unit="character"/>νον</name>  <persName type="aphrodisian" full="yes"><name type=" " reg="Ἀρτέμων">Ἀ<unclear reason="damage">ρ</unclear>τέμωνος</name>  <w lemma="ὁ">το<unclear reason="damage">ῦ</unclear></w><lb n="3"/><persName type="aphrodisian" full="yes"><name reg="Καλλικλῆς"><supplied reason="lost">Κ</supplied>αλλικλέους</name></persName></persName>  <w lemma="ἐπίκλην">ἐπίκλην</w><lb n="4"/><name reg="Κωλώτης"><w lemma="κωλώτης">Κωλώτην</w></name></persName>  <w lemma="ἀγαλμαγτοποιός">ἀγαλμα<choice type="correction"><sic>γ</sic><corr>τ</corr></choice>οπο<unclear reason="damage">ι</unclear><lb n="5" type="worddiv"/>ὸν</w> <w lemma="ζάω">ζήσαντα</w> <w lemma="ἐδημόνως">ἐδημόνως</w> <lb n="6"/><w lemma="καί"><unclear reason="damage">κ</unclear>αὶ</w> <w lemma="σώφρων">σωφρόνως</w> <w lemma="πρός">πρὸς</w> <w lemma="ὑπόδειγμα">ὑπό  <lb n="7" type="worddiv"/>δειγμα</w> <w lemma="ἀρετή">ἀρετῆς</w> <g type="scroll"/><lb n="7a"/><space unit="line" extent="1" dim="horizontal"/><lb n="8"/> <w lemma="ὁ">τὴν</w> <w lemma="δέ">δὲ</w> <w lemma="ἀνάστασις">ἀνάστασιν</w> <w lemma="ὁ">τοῦ</w><lb n="9"/> <w lemma="ἀνδριάς">ἀνδρείαντος</w> <w lemma="ποιέω">ἐποιήσατο</w><lb n="10"/>  <g type="leaf"/>  <persName type="aphrodisian"><name reg="Ζηνᾶς">Ζηνᾶς</name></persName>  <w lemma="ὁ">ὁ</w>  <w lemma="υἱός"><orig reg="υἱὸς">ὑειὸς</orig></w> <w lemma="αὐτός">αὐτοῦ</w> <g type="leaf"/></ab>
+</div>
+
+<div type="apparatus"><head>Apparatus</head><p>l. 4, <foreign lang="grc">Τ</foreign> executed as a <foreign lang="grc">Γ</foreign>.</p></div><div type="translation">
+<head>Translation</head>
+<p><supplied reason="subaudible">Statue of</supplied> Marcus Aurelius <gap reason="lost"/>nus, son of Artemon son of Kallikles, surnamed "Gecko", sculptor; he lived with modesty and self-control, giving an example of virtue. The erection of the statue was the action of Zenas, his son.</p></div>
+
+ <div type="commentary">
+<head>Commentary</head>
+<p>See Erim-Reynolds, loc. cit.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"> <rs type="monuList">Walls, South (east part)</rs>, in the excavation area</rs> <rs type="origLocation">Unknown</rs>  <rs type="lastLocation">Museum</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition  (<rs type="invNo">76.96</rs>, SBI <rs type="sbi">28</rs>).</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published in  <bibl n="ktejmr1991">Erim-Reynolds, 'Sculptors' no.<biblScope>19</biblScope></bibl>, whence <bibl n="seg"><title level="j">SEG</title> 40 <biblScope>1990.942</biblScope></bibl></p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="figure" n="photographs"><head>Photographs</head><p><figure href="77_A_27"><figDesc>Face (1977)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

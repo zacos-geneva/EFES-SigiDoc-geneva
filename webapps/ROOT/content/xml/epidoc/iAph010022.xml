@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010022" n="iAph0118 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="prayer/invocation">Prayers</rs> on West Door of Temple-Church (north)</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-29</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-25</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A <rs type="material" key="marmor">white marble</rs> <rs type="objectType">door post</rs>.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>A cross has been carefully sculpted (H. <measure type="length" unit="metre" dim="height">0.31</measure>), and the
+surface cut away around it; it is very similar to that on the facing
+door-post (<xref type="inscription" n="117" href="010021">1.21</xref>), but not so well centred.
+Text ii is arranged around the oval recessed area surrounding it; text
+i is some way above, text iii some way below. There are several other,
+less substantial, crosses inscribed on this door-post.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>i: a cross monogram, H. <measure type="length" unit="metre" dim="height">0.17</measure>. ii:
+letters: <measure type="length" unit="metre" dim="height">0.025-0.04</measure>.
+iii: letters: <measure type="length" unit="metre" dim="height">0.015-0.025</measure>; lightly cut and partially
+erased.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0600" exact="none" notBefore="0401">Fifth-sixth century</date> or later (<rs type="criteria">lettering</rs>, <rs type="criteria">location</rs>).</p>
+      </div>
+
+      <div type="edition" lang="grc">
+        <head lang="en">Edition</head>
+		  		        
+		<div type="textpart_section" n="i"><ab>    <lb n="1"/><persName key="petros1" type="aphrodisian" full="yes"><name reg="Πέτρος"><expan><abbr>Πέτρο</abbr><supplied reason="abbreviation">ς</supplied></expan></name></persName>. </ab></div>
+				
+	   <div type="textpart_section" n="ii"><ab><lb n="1"/><persName type="divine" key="Ascension" full="yes"><w lemma="ἀνάληψις">ἀνάληψης</w></persName> <w lemma="ὁ"><expan><abbr>τ</abbr><supplied reason="abbreviation">οῦ</supplied></expan></w> <persName type="divine" key="Lord" full="yes"><w lemma="κύριος"><expan><abbr>Κ</abbr><supplied reason="abbreviation">υρίο</supplied></expan>υ</w></persName>. </ab></div>
+
+		<div type="textpart_section" n="iii"><ab><lb n="1"/><g type="cross"/> <persName key="Lord" type="divine" full="yes"><w lemma="κύριος"><expan><abbr>Κ</abbr><supplied reason="abbreviation">ύρι</supplied><abbr>ε</abbr></expan></w></persName> <w lemma="βοηθέω">βοΐθι</w> <w lemma="ὁ">το͂ </w> <w lemma="σός">σο͂ </w> <w lemma="δοῦλος"><expan><abbr>δ</abbr><supplied reason="abbreviation">ού</supplied><abbr>λο</abbr></expan></w> <orig n="unresolved">ρο<unclear reason="damage">δν</unclear>ι</orig> 
+<orig n="unresolved"><unclear reason="damage">ιιρνο</unclear>υ<unclear reason="damage">ρ</unclear><gap reason="lost" extent="1" unit="character"/>ν<unclear reason="damage">σ</unclear></orig></ab></div> 
+      </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>i was printed back to front by
+Reinach. ii was correctly transcribed by Fellows and Texier,
+but Reinach omitted <foreign lang="grc">Κ<supplied reason="abbreviation">υρίο</supplied>υ</foreign>,
+whence Grégoire restored <foreign lang="grc">Ανάληψης Πέτρο<supplied reason="abbreviation">υ</supplied></foreign></p>
+        <p>iii. Reinach gave only 1. I; he and Grégoire read at
+the end <foreign lang="grc">Τροφί<unclear reason="damage">μ</unclear><supplied reason="abbreviation">ῳ</supplied></foreign>.</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>i. Petros.</ab>
+        <ab n="ii">ii.  Ascension of the Lord.</ab>
+        <ab n="iii">iii. Lord help your servant Ro<gap dim="right" reason="lost"/></ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="VIII.8">VIII.8</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList">Temple/Church</rs>: Atrium, west door, on the south, face of the
+northern door-post: .</rs>. Original location: <rs type="origLocation">Findspot.</rs>. Last recorded location: <rs type="lastLocation">Findspot.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p> ii copied by <rs type="visitor" key="texier">Texier</rs>, p1. 156; i and ii copied by <rs type="visitor" key="fellows">Fellows</rs>;
+all recorded by <rs type="visitor" key="gaudin">Gaudin</rs> (i and ii, 26; iii, 27), and by the NYU
+expedition.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>i and ii published by <bibl type="hbi" n="fellows1841"><author>Fellows</author>, i on p. 31, ii on p. 361,
+no. <biblScope>71</biblScope></bibl>; ii by <bibl type="hbi" n="texier1839"><author>Texier</author>, <title level="m">As. Min.</title> iii p. <biblScope>156</biblScope></bibl>; by <bibl type="hbi" n="reinach"><author>Reinach</author>, from Gaudin, i
+and ii as no. <biblScope>204</biblScope>, iii as no. <biblScope>205</biblScope></bibl>, whence <bibl type="hbi" n="IGC"><author>Grégoire</author>,
+<title level="m">IGC</title> <biblScope>260</biblScope>, <biblScope>257bis</biblScope></bibl>; all by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>118</biblScope> i, ii, iii</bibl>,
+whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257524">642</biblScope>, <biblScope n="257523">641</biblScope>, <biblScope n="257525">643</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Publications; transcriptions (Reynolds, Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="76_B_33"><figDesc>Overview (1976)</figDesc></figure><figure href="72_B_32A"><figDesc>i. Text (1972)</figDesc></figure><figure href="72_B_31A"><figDesc>ii. Text (1972)</figDesc></figure><figure href="72_B_30A"><figDesc>iii. Text (1972)</figDesc></figure><figure href="72_L_30A"><figDesc>View of temple west door, from west
+(1972)</figDesc></figure><figure href="DSCN0153"><figDesc>View from west
+(2004)</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

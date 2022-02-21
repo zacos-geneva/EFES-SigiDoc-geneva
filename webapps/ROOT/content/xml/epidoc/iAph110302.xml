@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110302" n="iAph0710 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Building dedication</rs> to Demos by Eupolemos son of Artemidoros</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-07-18</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
+<change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-09-26</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">block</rs> (<measure type="length" unit="metre" dim="width">0.51</measure>, no other measurements)</p>
+</div>
+<div type="description" n="text"><head>Description of Text</head><p>Apparently <rs type="execution" key="scalpro">inscribed</rs> on the face</p>
+</div><div type="description" n="letters">
+<head>Letters</head>
+<p>Apparently up to <measure dim="height" type="length" unit="metre">0.05</measure>.</p>
+
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="-0100" notAfter="0100" exact="none">Perhaps first century B.C. to first century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+ <ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Εὐπόλεμος">Εὐπόλεμος</name><lb n="2"/>  <persName type="aphrodisian"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδώρου</name></persName></persName><lb n="3"/> <w lemma="ὁ">τὸν</w> <w lemma="πύργος">πύργον</w> <lb n="4"/>  <w lemma="ὁ">τῶι</w> <w lemma="δῆμος">Δήμωι</w> </ab>
+</div>
+
+<div type="apparatus">
+
+<head>Translation</head>
+<p>Eupolemos  son of Artemidoros the tower, for the People.</p></div>
+<div type="commentary">
+<head>Commentary</head>
+<p>This resembles a group of such texts, dedicating an <term>epistylion</term>, with its decoration (<term>kosmos</term>) to the Demos: <xref type="inscription" n="1126" href="120405">12.405</xref> (=CIG 2752), <xref type="inscription" n="1103" href="120503">12.503</xref> (=LBW 1589), <xref type="inscription" n="1104" href="120504">12.504</xref> (= LBW 1591), <xref type="inscription" n="1127" href="120505">12.505</xref> (=MAMA 439), <xref type="inscription" n="1128" href="120506">12.506</xref> (=MAMA 440), <xref type="inscription" n="1129" href="130503">13.503</xref> (=MAMA 441), <xref type="inscription" n="1130" href="120406">12.406</xref> (=MAMA 442), <xref type="inscription" n="1131" href="120407">12.407</xref> (=MAMA 443), <xref type="inscription" n="1133" href="120404">12.404</xref> (= Reinach 127, 128).</p>
+
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList" cert="low">City, South-east</rs>: reused in a fieldwall inside the city wall</rs><rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot (1893)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Notebook; publications.</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by K&amp;R (V.1a); not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl type="primary" n="kubreich1893"><author>K&amp;R</author>, <title level="j">Anz. Wien. Akad.</title> (1893), 101, no. <biblScope>4</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257004">125</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="transcriptions">
+<head>Representations</head>
+<p>
+<figure href="K_V_01a"><figDesc>Kubitschek notebook V. 1a</figDesc></figure>
+
+</p>
+</div></body></text>
+</TEI>

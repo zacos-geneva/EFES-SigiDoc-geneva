@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080004" n="iAph0527 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Statue dedication</rs> for Demos by Kotas</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>1982</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr1982">Reynolds (<date>1982</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">statue base</rs> (<measure type="length" unit="metre" dim="width">0.72</measure> × <measure type="length" unit="metre" dim="height">1.55</measure> × <measure type="length" unit="metre" dim="depth">0.51</measure>) without moulding.</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on the face, which is chipped along the edges. Clamp holes have been cut into the area between lines 3 and 4, one of which has damaged the lettering of l.4.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.03-0.04</measure>; the lettering of l. 1 is larger, and more widely spaced</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+Perhaps <date cert="low" exact="none" notAfter="-1" notBefore="-33">late first century B.C.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <g type="scroll"/>  <persName type="aphrodisian" full="yes"><name reg="Ἀρτεμίδωρος">Ἀρτεμίδωρος</name>  <lb n="2"/><persName type="aphrodisian"><name reg="Ἀπολλώνιος">Ἀπολλωνίου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Περείτας">Πε<lb n="3" type="worddiv"/>ρείτου</name></persName></persName></persName> <g type="stop"/> <w lemma="στεφανηφορέω">στεφανηφορή <lb n="4" type="worddiv"/>σας</w>  <persName type="aphrodisian" full="yes"><name reg="Κότας">Κότας</name></persName> <w lemma="ἀνατίθημι">ἀνέθηκεν</w> <lb n="5"/> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">Δήμῳ</w> <w lemma="ὁ">τὴν</w> <w lemma="εἰκών">εἰκόνα</w> <g type="scroll"/><lb n="6"/>  <space extent="1" unit="line" dim="horizontal"/>  </ab>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds) </p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Artemidoros son of Apollonios the son of Pereitas former stephanephorus: Kotas set up the image for the People.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Kotas might be a further name of Artemidoros; but the phrasing suggests that he is a separate person. If so the image was presumably of Artemidoros.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="origLocation"> <rs type="monuList">Theatre</rs>: perhaps on the 'Artemidorus monument' at the northwest corner of the stage buildings</rs>
+ <rs type="found"><rs type="monuList">Theatre</rs>: re-used in the wall of the north analemma.</rs><rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1967 (<rs type="invNo">67.551</rs>; SBI <rs type="sbi">148</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="jmr1982">Reynolds, <title level="m">Aphrodisias &amp; Rome</title>, doc. <biblScope>27</biblScope></bibl>, whence <bibl>SEG <biblScope>1982.1097</biblScope></bibl>, <bibl>BE <biblScope>1983.386</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257119">240</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="72_F_01A"><figDesc>Face (1972)</figDesc></figure><figure href="76_H_34"><figDesc>Face (1976)</figDesc></figure></p>
+</div></body></text>
+</TEI>

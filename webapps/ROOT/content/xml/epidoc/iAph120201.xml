@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120201" n="iAph0877 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Decree</rs> of <rs type="textType">honours</rs> for Pereitas</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor> <date>1997</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr1997c">Reynolds (<date>1997</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2006-12-28</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+  
+  <change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment from a large <rs type="material" key="marmor">white marble</rs> <rs type="objectType">block</rs> with part of the right edge surviving (<measure type="length" unit="metre" dim="width">0.41</measure>   × <measure type="length" unit="metre" dim="height">0.33</measure> x c. 0.12).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.017</measure>; guide lines</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0030" notBefore="-0050" exact="none">Late first century B.C. - early first century A.D.</date>
+(<rs type="criteria">terminology</rs>, <rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><gap reason="lost" extent="5" unit="character"/><w lemma="εἰκών"><supplied reason="lost">εἰκόνα</supplied></w>  <w lemma="χαλκοῦς"><supplied reason="lost">χα</supplied><unclear reason="damage">λ</unclear>κὴν</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῇ</w> <w lemma="ἀγορά">ἀγορᾷ</w> <w lemma="καί"><unclear reason="damage">κ</unclear><supplied reason="lost">αὶ</supplied></w>  <lb n="2"/><gap reason="lost" extent="11" unit="character"/>  <w lemma="ἐν"><unclear reason="damage">ἐ</unclear>ν</w> <w lemma="ὁ">τῷ</w> <w lemma="ἱερόν">ἱερῷ</w> <w lemma="ὁ">τοῦ</w> <persName type="divine"><name reg="Ἄρης">Ἄρεως</name></persName> <w lemma="ἔχω">ἐ<lb type="worddiv" n="3"/><supplied reason="lost">χοῦσαν</supplied></w> <w lemma="ἐπιγραφή"><supplied reason="lost">ἐ</supplied><unclear reason="damage">πιγρ</unclear>αφὴν</w> <w lemma="ὅδε">τήνδε</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτιμ<lb type="worddiv" n="4"/><supplied reason="lost">ησε</supplied></w>  <persName type="aphrodisian"><name reg="Περείτας"><supplied reason="lost">Περε</supplied><unclear reason="damage">ί</unclear>ταν</name> <persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδράστου</name></persName></persName> <w lemma="ἱερός">ἱερὴ</w> <persName type="divine"><name reg="Ἄρης">Ἄρεως</name></persName> <w lemma="ἀνήρ">ἄνδρα</w> <lb n="5"/><w lemma="καλός"><supplied reason="lost">καλὸν</supplied></w> <w lemma="καί">καὶ</w> <w lemma="ἀγαθός">ἀγαθὸν</w> <w lemma="ἔπαινος">ἐπαίνῳ</w> <w lemma="χρυσός">χρυσῷ</w> <w lemma="στέφανος">στεφά<lb type="worddiv" n="6"/><supplied reason="lost">νῳ</supplied></w>  <w lemma="εἰκών"><supplied reason="lost">εἰκ</supplied><unclear reason="damage">ό</unclear>νι</w> <w lemma="χαλκοῦς">χαλκῇ</w> <w lemma="καί">καὶ</w> <w lemma="ἄλλος">ἄλλῃ</w> <w lemma="γραπτό">γραπτῇ</w> <w lemma="προεδρία">προεδρ<lb type="worddiv" n="7"/><supplied reason="lost">ίᾳ</supplied></w>  <w lemma="ἐν"><supplied reason="lost">ἐν</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>οῖς</w> <w lemma="ἀγών">ἀγῶσιν</w> <w lemma="ἀρετή">ἀρετῆς</w> <w lemma="ἕνεκεν">ἕνεκεν</w> <w lemma="καί">καὶ</w> <w lemma="εὔνοια">εὐν<lb type="worddiv" n="8"/><supplied reason="lost">οίας</supplied></w> <w lemma="ὅς">ἣν</w> <w lemma="ἔχω">ἔχων</w> <w lemma="διατελέω">διετέλεσεν</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὸν</w> <w lemma="σύμπας">σύμ<lb type="worddiv" n="9"/><supplied reason="lost">παν</supplied><unclear reason="damage">τ</unclear>α</w> <w lemma="δῆμος">δῆμον</w> <w lemma="ἀνατίθημι">ἀναθεῖναι</w> <w lemma="δέ">δὲ</w> <w lemma="καί">καὶ</w> <w lemma="στήλη">στηλὴν</w> <lb n="10"/><w lemma="λευκόλιθος"><supplied reason="lost">λευκ</supplied>ολίθου</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τῷ</w> <w lemma="ἱερόν">ἱερῷ</w> <w lemma="ὁ">τοῦ</w> <persName type="divine">n</persName> <w>ἐ<lb type="worddiv" n="11"/><supplied reason="lost">φ᾿</supplied></w>   <supplied reason="lost">ὁς</supplied>  <w lemma="ἐπιγράφω"><supplied reason="lost">ἐ</supplied>πιγραφήσεται</w> <w lemma="ὅδε">τόδε</w> <w lemma="ὁ">τὸ</w> <w lemma="ψήφισμα">ψήφισ <space extent="3" unit="character" dim="horizontal"/>  <lb n="12" type="worddiv"/>  <space extent="2" unit="character" dim="horizontal"/>μα</w> <space extent="3" unit="character" dim="horizontal"/></ab>
+</div>
+
+<div type="translation" n="notyet">
+<head>Translation</head>
+<p>. . .  the Council and the People  . . .  decreed to honour  . . .  praise  . . .   and crown him   . . .  and to erect ] an image of bronze in the Agora and [another one painted] in the sanctuary of Ares, carrying this inscription: The People has honoured [?Pere]itas son of Adrastos, priest of Ares, a fine and good man, with praise, a golden crown, an image of bronze, another one painted, and a front seat at the contests, for his excellence and for his continual benevolence to the whole people: and to erect a marble stele in the sanctuary of Ares on [which] this decree shall be inscribed.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See Reynolds, loc. cit.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Walls, East (north part)</rs>: at edge of Museum</rs>
+<rs type="origLocation">Unknown sanctuary of Ares</rs>
+<rs type="lastLocation">Museum (1980)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1978 (<rs type="invNo">78.3</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="jmr1997c"><author>J. M. Reynolds</author>, <title>Mélanges M. Floriani Squarciapino</title>, Arch.Classica 49 (1997), <biblScope>423-8</biblScope></bibl>, whence <bibl n="be">M. Sève, BullEp <biblScope>1999.92</biblScope></bibl>, <bibl n="seg">SEG <biblScope>1997.1553</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="80_C_27"><figDesc>Face (1980)</figDesc></figure><figure href="80_C_28"><figDesc>Face (1980)</figDesc></figure></p>
+</div></body></text>
+</TEI>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110217" n="iAph1347 ">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m">
+     <rs type="textType">Funerary</rs> inscription for Marcus Aurelius Apolloniοs, chief <rs type="textType">doctor</rs></title>
+   </titleStmt>
+   <publicationStmt>
+    <p>
+     <bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel
+        <name type="surname">Bodard</name></editor><date>2007</date></bibl>
+    </p>
+    <p>Creative Commons licence Attribution 2.5
+     (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p>
+    <p>All reuse or distribution of this work must contain somewhere a link back to the URL
+      <xref>http://insaph.kcl.ac.uk/</xref></p>
+   </publicationStmt>
+   <sourceDesc>
+    <p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <langUsage>
+    <language id="en">English</language>
+    <language id="fr">French</language>
+    <language id="de">German</language>
+    <language id="grc">Ancient Greek</language>
+    <language id="grc-Latn">Transliterated Greek</language>
+    <language id="el">Modern Greek</language>
+    <language id="it">Italian</language>
+    <language id="la">Latin</language>
+    <language id="es">Spanish</language>
+    <language id="tr">Turkish</language>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term>
+      <geogName type="ancientRegion" key="Asia">Asia</geogName>
+     </term>
+     <term>
+      <geogName type="modernCountry" key="TR">Turkey</geogName>
+     </term>
+     <term>
+      <placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName>
+     </term>
+     <term>
+      <placeName type="modernFindspot" key="Geyre">Geyre</placeName>
+     </term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date>2007-01-30</date>
+    <respStmt>
+     <name>Charlotte Tupman</name>
+    </respStmt>
+    <item>Hand tidied</item>
+   </change>
+   <change>
+    <date/>
+    <respStmt>
+     <name>GB</name>
+    </respStmt>
+    <item>hand tidied</item>
+   </change>
+   <change>
+    <date>2005-12-13</date>
+    <respStmt>
+     <name>Elliott Hall</name>
+    </respStmt>
+    <item>Batch converted Word2XML</item>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="description" n="monument">
+    <head>Description of Monument</head>
+
+    <p>Left side of a <rs type="material" key="marmor">white marble</rs>
+     <rs type="objectType">base</rs>
+     <measure type="length" unit="metre" dim="width">0.39</measure> × <measure type="length" unit="metre" dim="height">0.16</measure> × <measure type="length" unit="metre" dim="depth">0.105</measure> with traces of unidentifiable <rs type="decoration">sculpture</rs> on the
+     top.</p>
+   </div>
+   <div type="description" n="text">
+    <head>Description of Text</head>
+    <p><rs type="execution" key="scalpro">Inscribed</rs> on the face which is broken away at the
+     right side, chipped along the left edge and the bottom.</p>
+   </div>
+   <div type="description" n="letters">
+    <head>Letters</head>
+    <p><measure dim="height" type="length" unit="metre">0.015-0.025</measure>; lunate sigma,
+    omega</p>
+   </div>
+   <div type="description" n="date">
+    <head>Date</head>
+    <p>
+     <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">nomenclature</rs>, <rs type="criteria">lettering</rs>)</p>
+   </div>
+   <div type="edition" lang="grc">
+    <head lang="en">Edition</head>
+    <ab>
+     <lb n="1"/>
+     <persName type="aphrodisian">
+      <name reg="Αὐρηλία">
+       <expan>
+        <abbr>Αὐρ</abbr><supplied reason="abbreviation">ηλία</supplied>
+       </expan>
+      </name>
+      <name reg="Φλαβία">
+       <expan>
+        <abbr>Φλ</abbr><supplied reason="abbreviation">αβία</supplied>
+       </expan>
+      </name>
+      <name reg="Ἀντωνία">
+       <expan>
+        <abbr>Ἀντ</abbr><supplied reason="abbreviation">ωνία</supplied>
+       </expan>
+      </name>
+      <name reg="Ἐλπίς">Ἐλπὶς</name>
+      <persName type="aphrodisian">
+       <name reg="Νικίας">Νεικί<unclear reason="damage">ο</unclear><supplied reason="lost">υ</supplied></name>
+      </persName>
+     </persName>
+     <w lemma="φύσις"><supplied reason="lost">φύ</supplied>
+      <lb n="2"/>σει</w>
+     <w lemma="δέ">δὲ</w>
+     <persName type="aphrodisian">
+      <name reg="Ἰταλικός">Εἰταλικοῦ</name>
+     </persName>
+     <persName type="aphrodisian">
+      <name reg="Μᾶρκος">Μᾶρκο<supplied reason="lost">ν</supplied></name>
+      <name reg="Αὐρήλιος" type="nomen">
+       <supplied reason="lost" cert="low">
+        <expan>
+         <abbr>Αὐρ</abbr><supplied reason="abbreviation">ήλιον</supplied>
+        </expan>
+       </supplied>
+      </name>
+      <gap reason="lost" extent="1" unit="character"/>
+      <lb n="3"/>
+      <name reg="Ἀπολλώνιος ">Ἀπολλώνιον</name>
+      <num value="3">γ</num>
+      <w lemma="ὁ">τοῦ</w>
+      <persName type="aphrodisian">
+       <name reg="Ἄνδρων">Ἀνδ<unclear reason="damage">ρ</unclear><supplied reason="lost">ωνος</supplied></name>
+      </persName>
+     </persName>
+     <lb n="4"/>
+     <w lemma="ἱππικός">ἱππικὸν</w>
+     <w lemma="ἀρχιατρός">ἀρχιατρὸν</w>
+     <w lemma="ὁ">τὸν</w>
+     <w lemma="ἑαυτοῦ">ἑ<supplied reason="lost">αυτῆς</supplied></w>
+     <lb n="5"/>
+     <w lemma="ἀνήρ">ἄνδρα</w>
+     <w lemma="μνεία">μνείας</w>
+     <w lemma="χάρις">χάριν</w>
+     <gap reason="lost" extent="unknown" unit="character"/>
+     <supplied reason="lost" cert="low">
+      <space unit="character" extent="5" dim="horizontal"/>
+     </supplied>
+    </ab>
+   </div>
+
+   <div type="translation">
+    <head>Translation</head>
+    <p>Aurelia Flavia Antonia Elpis, daughter of Neikias, by birth of Italikos (buried) Marcus
+     Aurelius Apolloniοs son of Andron (son of Andron son of Andron), <term lang="la">eques</term>,
+     chief-doctor, her own husband, in memoriam. </p>
+   </div>
+   <div type="commentary">
+    <head>Commentary</head>
+    <p>See Nutton, loc. cit.</p>
+   </div>
+   <div type="history" n="locations">
+    <head>Locations</head>
+    <p>
+     <rs type="origLocation">Unknown</rs>
+     <rs type="found"><rs type="monuList">City, Water Channel area</rs>: 'Wa.Ch.IV, Tr.6, in stone
+      wall on the surface'</rs>
+     <rs type="lastLocation">Museum</rs>
+    </p>
+   </div>
+   <div type="history" n="text-constituted-from">
+    <head>Text Constituted From</head>
+    <p>Preliminary transcription (Reynolds); publication.</p>
+   </div>
+   <div type="history" n="record">
+    <head>History of Recording</head>
+    <p>Excavted by the NYU expedition in 1966 (<rs type="invNo">66.102</rs>)</p>
+   </div>
+   <div type="bibliography">
+    <head>Bibliography</head>
+    <p>Published by <bibl n="nutton1977">V. Nutton, <title>PBSR</title> 45 (1977), 192-193, no.
+       <biblScope>2</biblScope></bibl>, whence <bibl n="seg">SEG
+     <biblScope>1977.717</biblScope></bibl>, <bibl n="anep">AnnEpig
+     <biblScope>1977.803</biblScope></bibl>, <bibl>Horsley, <title>New Documents</title> 2, pp.
+      11-12, ad no. 2.a</bibl>, <bibl n="PHI">
+      <author>McCabe</author>
+      <title level="m">PHI Aphrodisias</title>
+      <biblScope n="257322">444</biblScope>
+     </bibl>
+    </p>
+   </div>
+   <div type="figure" n="photographs">
+    <head>Photographs</head>
+    <p>66.1.46</p>
+   </div>
+  </body>
+ </text>
+</TEI>

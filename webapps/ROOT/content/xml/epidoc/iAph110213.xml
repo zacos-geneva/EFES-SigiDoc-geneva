@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110213" n="iAph0441 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragments, perhaps from <rs type="textType">honours</rs></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-02-23</date><respStmt><name>GB</name></respStmt><item>DONE</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Two <rs type="material">white marble</rs> fragments; a. burnt and from the left side (<measure type="length" unit="metre" dim="width">0.075</measure>   ×  <measure type="length" unit="metre" dim="height">0.08</measure>   ×  <measure type="length" unit="metre" dim="depth">0.11</measure>), b. without back or edges (<measure type="length" unit="metre" dim="width">0.10</measure>  × <measure type="length" unit="metre" dim="height">0.75</measure>  × <measure type="length" unit="metre" dim="depth">0.25</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>
+<measure type="length" unit="metre" dim="height">0.025</measure>; b.  l. 1, <foreign lang="grc">NK</foreign> ligatured.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" exact="none" notAfter="0200" notBefore="0101">Second century A.D.</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_fragment" n="a"><ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="2"/><orig n="unresolved">ζη</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/><orig n="unresolved"><unclear reason="damage">ει</unclear>τ</orig><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab></div><div type="textpart_fragment" n="b"><ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">α</unclear>ν</orig>  <w lemma="κτίστης">κτ<unclear reason="damage">ί</unclear><supplied reason="lost" cert="low">στην</supplied></w> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">νε</unclear></orig>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/></ab></div>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>b. l. 1, <foreign lang="grc">Λ, Ι</foreign>, or <foreign lang="grc">Η</foreign> all possible</p><p>b. l. 2, <foreign lang="grc">Ε, Π</foreign>, or <foreign lang="grc">Γ</foreign> all possible</p>
+</div>
+<div type="translation" n="none">
+<head>Translation</head>
+<p>no translation possible.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>There was perhaps a reference to the founders of the city, cf. index s.v. <foreign lang="grc">κτίστης</foreign>.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">City, Water Channel area</rs>, a. 'Wa.Ch. IV, stray near Tr.3'; b.  'Wa.Ch. IV, Tr.2, Str. 1, at <measure dim="depth" type="length" unit="metre">-0.30</measure>'</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1977)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Found by the NYU expedition in 1964 (a. <rs type="invNo">64.210</rs>, b. <rs type="invNo">64.114</rs>)</p>
+</div>
+<div type="bibliography" n="none">
+<head>Bibliography</head>
+<p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_P_13"><figDesc>Fragment a.  (1977)</figDesc></figure><figure href="77_F_07"><figDesc>Fragment b.  (1977)</figDesc></figure></p>
+<p>a. [[66.1.22]]</p><p>b. 77.F.7; 77.P.20 Images</p></div></body></text>
+</TEI>

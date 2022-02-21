@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120801" n="iAph1525 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> inscription for Aba</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-07-10</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2007-02-08</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType">block</rs> (<measure dim="width" type="length" unit="metre">0.41</measure> x <measure dim="height" type="length" unit="metre">0.37</measure> x depth not measurable). The upper left corner and all edges are chipped, and there is a crack across the lower right corner.
+</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text .</head>
+<p>Inscribed on the face, within a partly smoothed area</p></div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.02-0.03</measure>; theta and omicron smaller than the rest</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" notAfter="0050" notBefore="-0050"> First century B.C. to first century A.D.</date>(<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <persName type="aphrodisian"><name reg="Ἄβα">Ἄβα</name> <persName type="aphrodisian"><name reg="Ἀτράπατος ">Ἀτραπάτου</name></persName></persName> <lb n="2"/> <w lemma="γυνή">γυνὴ</w> <w lemma="δέ">δὲ</w> <persName type="aphrodisian"><name reg="Ἀθηναγόρας">Ἀθηνα<lb n="3" type="worddiv"/>γόρου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Μηνόδοτος">Μηνο<lb n="4" type="worddiv"/>δότου</name> <name reg="Κασταῖος">Κασταίου</name></persName></persName> <lb n="5"/><space extent="3" unit="character" dim="horizontal"/> <w lemma="χαίρω">χαῖρε</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="6"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p> It is not clear to which of the two masculine names Kastaios was attached, but there is some indication in Aphrodisian practice that it would probably be Athenagoras.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p> Aba, (daughter of) Atrapatos, and wife of Athenagoras, son of  Menodotos, also called Kastaios. Farewell.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> The funerary formula accords with a comparatively early date (cf also Robert, loc. cit.); the names show interestingly various but non-Roman features.</p><p>Aba seems to be an indigenous name attested both elsewhere in Caria and also in Cilicia and Phrygia (see Zgusta, <title>Kleinasiatischen Personennamen</title> (Prague, 1984),  especially section 1, Blümel, <title>Die Inschriften der rhodischen Peraia</title> (Bonn, 1991). Atrapates is Iranian. Athenagoras and Menodotos are Greek, and in fairly common use at Aphrodisias, (see name index), notably in a prominent family of the first and second centuries A.D. which inluded a Mithridates son of Athenagoras (see <xref type="inscription" n="1001" href="120410">12.410</xref>). Mithridates, like Atrapates, is Itranian, and both are clearly survivals from the Persian occupation of Asia Minor.</p><p>Kastaios is probably an indigenous personal name (so Buckler, Appendix V to Sardis 6.2), but has been seen by some as a demotic (Brandenstein in <title>RE</title> 6, s.v. Karische Sprache, 140f, 141); there is however no clear evidence for the use of demotics at Aphrodisias.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Walls, South-west</rs>:  just east of <xref type="inscription" n="1007" href="120706">12.706</xref> (=MAMA 468).</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p> Reichel squeeze and notebook; transcription (Reynolds); publications.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by Radet; by Reichel (R.I.36a); recorded by the MAMA expedition; by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by Radet, BCH 14, 1890, 237, no. 12; published by <bibl n="MAMA8">Cormack from the MAMA records, MAMA 8, no. <biblScope>532</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257280">402</biblScope>
+</bibl>, Robert, BCH 107 (1983), 505.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="73_X_10A"><figDesc>Face (1973)</figDesc></figure></p>
+</div><div type="figure" n="transcriptions">
+<head>Representations</head>
+<p><figure href="R_I_36"><figDesc>Reichel notebook, I, 36</figDesc></figure></p>
+</div></body></text>
+</TEI>

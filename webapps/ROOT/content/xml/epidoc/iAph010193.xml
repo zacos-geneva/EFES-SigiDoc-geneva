@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010193" n="iAph0129 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="prohibition">Warning</rs> against approaching the bema (<rs type="textType">verse</rs>); <rs type="textType" reg="prayer/invocation">invocation</rs>s</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-29</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change><change><date>2003-11-06</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Corrected errors in Greek</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-25</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A <rs type="material" key="marmor">white marble</rs> <rs type="objectType">masonry block</rs>, broken in two (<measure type="length" unit="metre" dim="height">1.20</measure> × <measure type="length" unit="metre" dim="width">0.67</measure> × <measure type="length" unit="metre" dim="depth">0.29</measure>); perhaps a door-post. There is a channel
+cut down the left side of the face.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>On the face: i is above ii, which is arranged about a cross
+(H. 0.085); of iii: immediately below ii, arranged about a cross (H.
+<measure type="length" unit="metre" dim="height">0.115</measure>). There are other, less intelligible graffiti, and several
+crosses on this block.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>i-ii: <measure type="length" unit="metre" dim="height">0.0154</measure>.045; traces of red paint; iii : <measure type="length" unit="metre" dim="height">0.01-0.025</measure>; <term>diaereses</term> on
+<term>iotas</term>; first <foreign lang="grc">Ν</foreign> in 1.2 above line.
+iv: <measure type="length" unit="metre" dim="height">0.02</measure>, lightly
+scratched. First <foreign lang="grc">Η</foreign>, <foreign lang="grc">Τ<supplied reason="abbreviation">ΟΥ</supplied></foreign> and final <foreign lang="grc">Τ</foreign> above line.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0600" exact="none" notBefore="0401">Fifth-sixth century</date> or later (content, location).</p>
+      </div>
+
+      <div type="edition" lang="grc">
+        <head lang="en">Edition</head>
+        
+		<div type="textpart_section" n="i"><lg><l n="1"><lb n="1"/><w lemma="φόβος">φώβῳ</w> <w lemma="προσέρχομαι">πρόσελθε</w><lb n="2"/><w lemma="ὁ">τὴν</w> <w lemma="ὁ"><expan><abbr>τ</abbr><supplied reason="abbreviation">οῦ</supplied></expan></w> <w lemma="βῆμα">βήματως</w><lb n="3"/><w lemma="πύλη">πύλην</w> <g type="cross"/>.</l></lg></div>
+		        
+		<div type="textpart_section" n="ii"><ab><lb n="1"/><persName type="divine" key="Christ" full="yes"><name reg="Ἰησοῦς"><expan><abbr>Ἰ</abbr><supplied reason="abbreviation">ησοῦ</supplied><abbr>ς</abbr></expan> </name><g type="cross" id="c1"/> <name reg="Χριστός"><expan><abbr>Χ</abbr><supplied reason="abbreviation">ριστὸ</supplied><abbr>ς</abbr></expan></name></persName>
+		<lb n="2"/><w lemma="νικάω">νη<g type="cross" id="c2"/>κᾷ</w>. <link targets="c1 c2" targOrder="U"/></ab></div> 
+		        
+		<div type="textpart_section" n="iii"><ab><lb n="1"/><persName key="Lord" type="divine" full="yes"><w lemma="κύριος"><expan><abbr>Κ</abbr><supplied reason="abbreviation">ύρι</supplied><abbr>ε</abbr></expan></w></persName> <w lemma="βοηθέω">βω<g type="cross" id="c3"/>ΐθι</w> <w lemma="ὁ">τὸν</w> <w lemma="δοῦλος">δοῦ<lb n="2" type="worddiv"/>λόν</w> <w lemma="σύ"><expan><abbr>σ</abbr><supplied reason="abbreviation">ου</supplied></expan></w> <g type="cross" id="c4"/><persName key="philip3" type="aphrodisian" full="yes"><name reg="Φίλιππος">Φήληπων</name></persName><lb n="3"/><w lemma="ἁμαρτωλός">ἁμαρ<g type="cross" id="c5"/>τωλών</w>.  <w lemma="ἀμήν">ἀμήν</w>. <link targets="c3 c4" targOrder="U"/></ab></div>
+		        
+		<div type="textpart_section" n="iv"><ab><lb n="1"/><w lemma="νίκη">ν<hi rend="superscript">ή</hi>κη</w> <w lemma="ὁ"><expan><abbr><hi rend="superscript">τ</hi></abbr><supplied reason="abbreviation">οῦ</supplied></expan></w> <orig n="unresolved">τξυ<gap extent="1" unit="character" reason="lost" dim="internal"/><unclear reason="damage">πρ</unclear><hi rend="superscript">τ</hi>κ</orig> </ab></div>
+      </div>
+
+      
+      <div type="translation">
+        <head>Translation</head>
+        <p>i.  In fear approach the gate of the <foreign lang="la">bema</foreign>.</p>
+        <p>ii. Jesus Christ is victorious,</p>
+        <p>iii. Lord, help your servant Philippos, a sinner. Amen.</p>
+      <p>iv. Victory of <gap dim="right" reason="lost"/></p></div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>Text i. is in verse. See discussion at <xref type="eAla-text" n="VIII.12">VIII.12</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList">Temple/Church</rs>: standing loose in the south aisle.</rs>. Original location: <rs type="origLocation">Unknown.</rs>. Last recorded location: <rs type="lastLocation">Findspot.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias
+in Late Antiquity</title> no. <biblScope>129</biblScope> i-iv, and plate xxxii (iii and iv)</bibl>
+whence (i) <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257597">710</biblScope></bibl>, <bibl type="hbi" n="steinepig"><title level="m">Steinepigramme</title> <biblScope>02/09/90</biblScope>, (ii-iv)</bibl>
+<bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257692">806</biblScope>, <biblScope n="257654">767</biblScope>, <biblScope n="257675">789</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcriptions (Reynolds, Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="72_A_28A"><figDesc>i. Text (1972)</figDesc></figure><figure href="72_A_29A"><figDesc>ii. Text (1972)</figDesc></figure><figure href="72_A_30A"><figDesc>iii. Text (1972)</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150312" n="iAph1478 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> fragment</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-07-17</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Left hand part of a <rs type="material">white marble</rs> <rs type="objectType">sarcophagus</rs> <rs type="decoration">colonnade</rs>d, with standing <rs type="decoration">figure</rs>s.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the lower rim; 'On the lid of a sarcophagus' (Fellows)</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.01-0.02</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <orig n="unresolved">ΛΙΟΛΟΥΠΦΟΦΗΟΥ</orig> <persName type="aphrodisian"><name reg="Μάρων">Μαρῶνος</name></persName> <orig n="unresolved">ΗΑΝΤ</orig> <gap extent="2" reason="illegible" unit="character"/> <orig n="unresolved">ΟΥΣΑΜΕΙ</orig><gap extent="1" reason="illegible" unit="character"/>  <orig n="unresolved">Ι</orig></ab>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>Reference to Maron</p>
+</div>
+<div type="commentary" n="none">
+<head>Commentary</head>
+<p>No useful commentary</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">Stray</rs></rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Fellows; by  Kubitschek (unpublished K III 48); found by the NYU expedition.</p>
+</div>
+<div type="bibliography"><head>Bibliography</head><p><bibl n="fellows1841">Fellows, no <biblScope>68</biblScope></bibl>, whence <bibl n="CIGIIc">CIG <biblScope>2850f</biblScope>, p. 1119</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257384">506</biblScope></bibl>;</p></div><div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_H_35"><figDesc>Front view (1978)</figDesc></figure></p>
+</div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="K_III_48"><figDesc>Kubitschek III, 48</figDesc></figure></p></div></body></text>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050001" n="iAph0585 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Pavement designs</rs> and an <rs type="textType">acclamation</rs></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>2007-08-07</date><respStmt><name>Eleonora Litta</name></respStmt><item>tidied expan</item></change><change><date>2007-03-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Geometric <rs type="material">black marble</rs> and <rs type="material">white marble</rs>  <rs type="objectType">paving</rs> in 8 sections, each with a larger central panel. </p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>On the central panels. i. South side, second panel from the east, ii. South side, third panel from the east iii. North side, 1st panel from east. iv. North side, second panel from east. v. North side, third panel from east.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>iii: careful graffito; letters ornamented, <measure type="length" unit="metre" dim="height">0.04 - 0.08</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="1000" notBefore="0101" exact="none">Second-tenth century A.D.</date> (<rs type="criteria">context</rs>).</p>
+</div>
+<div type="textpart_section" lang="grc">
+<head lang="en">Edition</head>
+
+
+<div type="textpart_section" n="i"><note>A board, type 3Rows.1, clear-cut graffito, with frame, central line, and circles on central line (<measure dim="height" type="length" unit="metre">0.56</measure> x <measure dim="width" type="length" unit="metre">0.77</measure>). On the south side, 2 crosses (ave. <measure dim="height" type="length" unit="metre">0.055</measure>) have been cut across the frame; between them a monogram appears to have been erased. 
+</note></div>
+<div type="textpart_section" n="ii"><note>A circle, type C.7; diam. 0.53.</note></div> 
+<div type="textpart_section" n="iii"><ab>
+<note>A circle, type C.2, very lightly cut; diam. 0.48. Across it an inscription: 
+</note> <lb n="1"/>
+<w>Ἡ</w> <w>τύχη</w> <persName type="divine"><expan><abbr>Οὐρ</abbr><supplied reason="abbreviation" cert="low">ανία</supplied></expan></persName> 
+</ab></div>
+ <div type="textpart_section" n="iv"><note>A circle type C.2, very worn (diam. 0.56). 
+</note></div>
+ <div type="textpart_section" n="v"><note>A circle, type C.7 (diam. 0.35). </note></div>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>iii: The fortune <supplied reason="abbreviation" cert="low">is</supplied> Our<supplied reason="abbreviation" cert="low">ania</supplied></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See Roueché, ‘Gameboards’.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Hadrianic Baths</rs>, north court of the baths</rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Findspot</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Τranscription (Reynolds, Roueché).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="cmr2004"><author>Roueché</author>, Gameboards <biblScope>1</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="HUMS003617"><figDesc>View of North Court of Hadrianic Baths (1990)</figDesc></figure><figure href="73_P_10A"><figDesc>i (1973)</figDesc></figure><figure href="73_P_07A"><figDesc>ii (1973)</figDesc></figure><figure href="73_P_05A"><figDesc>iii (1973)</figDesc></figure><figure href="HUMS0035552"><figDesc>iii (1990)</figDesc></figure><figure href="73_P_06A"><figDesc>iv (1973)</figDesc></figure><figure href="73_P_08A"><figDesc>v (1973)</figDesc></figure></p>
+</div></body></text>
+</TEI>

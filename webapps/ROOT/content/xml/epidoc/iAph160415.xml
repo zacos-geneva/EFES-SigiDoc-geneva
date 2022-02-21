@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph160415">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragment, undated, from Temple</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-09-29</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> fragment without edges (<measure type="length" unit="metre" dim="width">0.09</measure> × <measure type="length" unit="metre" dim="height">0.288</measure> × <measure type="length" unit="metre" dim="depth">0.08</measure>).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p> Inscribed on one face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.025</measure>.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ει</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/>  <lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">κωμ</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="3"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">λειτ</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/>  <lb n="4"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">εν</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab>
+</div>
+
+<div type="translation" n="none">
+<head>Translation</head>
+<p>No words certainly discernible; all letter-groups could be interpreted in several different ways.</p></div>
+
+ <div type="commentary" n="none">
+<head>Commentary</head>
+<p>No comment.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p>  <rs type="found"><rs type="monuList">Temple/Church</rs></rs> <rs type="origLocation">Unknown</rs> <rs type="lastLocation">Museum</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1961  (<rs type="siteNo">Temple 42</rs>).</p>
+  </div>
+
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="figure" n="ohotographs"><head>Photographs</head><p>no photo?</p></div></body>
+</text>
+
+</TEI.2>

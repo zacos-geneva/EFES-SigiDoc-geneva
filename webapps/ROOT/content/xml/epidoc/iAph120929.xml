@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120929" n="iAph0663 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for the People of Tabae</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Upper part of a<rs type="material"> white marble</rs> <rs type="objectType">panel</rs> with moulded edges (<measure dim="height" unit="metre" type="length">0.40</measure> x <measure dim="width" unit="metre" type="length">0.51</measure> x <measure dim="depth" unit="metre" type="length">0.20</measure>), perhaps cut down from a deeper base</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Letters standard second-/third-century forms, <measure dim="height" type="length" unit="metre">0.03</measure>. Ligature: TH, l.1</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0225" notAfter="0275"> Mid third century</date>
+(<rs type="criteria">prosopography</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="ὁ">τῆς</w> <w lemma="λαμπρός">λαμ<lb type="worddiv" n="2"/>προτάτης</w> <placeName type="ethnic" reg="Ἀφροδεισιεύς">Ἀφρο<lb type="worddiv" n="3"/>δεισιέων</placeName>  <w lemma="πόλις">πόλε<lb type="worddiv" n="4"/>ως</w>  <w lemma="ὁ">τὸν</w> <w lemma="λαμπρός">λαμπρό<lb type="worddiv" n="5"/>τατον</w> <w lemma="δῆμος">δῆμον</w> <lb n="6"/> <placeName type="ethnic" reg="Ταβηνός">Ταβηνῶν</placeName> <w lemma="συνθύω">συν<lb type="worddiv" n="7"/>θύσαντα</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="ὁ">τῇ</w> <lb n="8"/><w lemma="δίδωμι"><supplied reason="lost">δεδομένῃ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <w lemma="ἱερός"><supplied reason="lost">ἱε</supplied>  <lb type="worddiv" n="9"/><supplied reason="lost">ροῦ</supplied></w>  <w lemma="ἀγών"><supplied reason="lost">ἀγῶνος</supplied></w>  <w lemma="δωρεά"><supplied reason="lost">δωρεᾷ</supplied></w><space unit="character" extent="1"/>  <lb n="10"/>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="11"/><w lemma="προνοέομαι"><supplied reason="lost">προνοησαμένου</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="12"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>The People of the most splendid city of the Aphrodisians (honoured) the most splendid People of the Tabenai, who joined in the sacrifice for the [giving of the grant of the sacred contest. Under the supervision of ? -</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>This is one of a group of dedications for neighbouring communities: see <xref type="inscription" n="658" href="120924">12.924</xref>, <xref type="inscription" n="659" href="120925">12.925</xref>, <xref type="inscription" n="660" href="120926">12.926</xref>, <xref type="inscription" n="661" href="120927">12.927</xref>, <xref type="inscription" n="662" href="120928">12.928</xref>,  and <xref type="inscription" n="664" href="120930">12.930</xref>. See further Roueché PPA, ad loc. </p>
+
+<p>Tabae lies immediately south-west of Apollonia Salbake; see L. and J. Robert, La Carie, ch. 2.<rs type="execution" key="scalpro"/></p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Walls, West</rs>, with <xref type="inscription" n="658" href="120924">12.924</xref> and <xref type="inscription" n="659" href="120925">12.925</xref></rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; notebooks; transcriptions (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+
+<p>Copied (ll.1-5) by Sherard in 1716; found again by the NYU expedition in 1975 (excavation inventory number <rs type="invNo">75.142</rs>).</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="CIGII">Boeckh, from Sherard, CIG <biblScope>2765</biblScope></bibl>, whence <bibl n="texier1839">Texier, Description, 156 no.<biblScope>1</biblScope></bibl>, <bibl n="liermann1889">Liermann, Analecta <biblScope>35</biblScope></bibl>, <bibl n="LaCarie">J. and L. Robert, La Carie, 115, no. <biblScope>23</biblScope></bibl>. Published by <bibl n="PPA">Roueché, PPA <biblScope>63</biblScope></bibl></p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p> <figure href="75_K_02A"><figDesc>Face (1975)</figDesc></figure></p>
+</div></body></text>
+</TEI>

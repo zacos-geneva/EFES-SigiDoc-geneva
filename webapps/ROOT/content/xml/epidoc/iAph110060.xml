@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110060" n="iAph0686 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs>  for anonymus, boy boxer</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term><term><rs type="textType" key="sacer">Religious</rs></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-17</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Apparently a <rs type="objectType">statue base shaft</rs> (<measure dim="height" type="length" unit="metre">0.69</measure> x <measure dim="width" type="length" unit="metre">0.22</measure>), perhaps (but not certainly) in two pieces.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>standard second/third century forms, <measure dim="height" type="length" unit="metre">0.18</measure>. Ligatures: ΤΗ, l.5; ?ΤΗ, l.11; ΤΗ, l.12; ΝΗ, l.16.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date value="241" precision="circa" cert="low" notAfter="0241" notBefore="0241">c. 241</date>
+ (<rs type="criteria">contests</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><w lemma="παῖς">παῖδα</w>  <w lemma="ὁ">τῶν</w>  <w lemma="εὖ"><supplied reason="lost" cert="low">εὖ</supplied></w>  <w lemma="γίγνομαι"><supplied reason="lost">γεγονότων</supplied></w>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w>νείκησαν<supplied reason="lost">τα</supplied></w>  <w lemma="ἐνδόξως"><supplied reason="lost" cert="low">ἐνδόξως</supplied></w>  <gap reason="lost" extent="4" unit="character"/>  <lb n="4"/><w lemma="παῖς"><supplied reason="lost">παί</supplied>δων</w>  <w lemma="πυγμή">πυγ<supplied reason="lost">μὴν</supplied></w>  <w lemma="ἐν"><supplied reason="lost" cert="low">ἐν</supplied></w>  <w lemma="ἀγών"><supplied reason="lost">ἀγῶνι  </supplied></w>  <lb n="5"/><w lemma="ὁ"><supplied reason="lost">τὴς</supplied></w> <w lemma="Ἀφροδεισίηα">Ἀφροδεισι<supplied reason="lost">ήων</supplied></w>  <w lemma="Φιλημονίηον"><supplied reason="lost">Φιλημον</supplied>  <lb type="worddiv" n="6"/>5  <supplied reason="lost">ιήω</supplied>ν</w>  <w lemma="εἰκοστός">εἰκοστῆ<supplied reason="lost">ς</supplied></w>  <w lemma="τετραετηρίς"><supplied reason="lost">τετραετηρίδος</supplied></w>  <lb n="7"/><w lemma="ἀγωνοθετέω"><supplied reason="lost">ἀγω</supplied>νοθετου<supplied reason="lost">ντος</supplied></w>  <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen"><supplied reason="lost">Τιβερί</supplied>  <lb type="worddiv" n="8"/><supplied reason="lost">ου</supplied></name>  <name reg="Κλαύδιος">Κλαυδίο<unclear reason="damage">υ</unclear></name>  <gap reason="lost" extent="unknown" unit="character"/>  <w lemma="υἱός"><supplied reason="lost">υἱου</supplied></w>  <lb n="9"/><persName type="aphrodisian"><name reg="Ἀπολλώνιος "><supplied reason="lost">Ἀπολ</supplied>λωνίου</name>  <name reg="Μαρκιανός">Μα<supplied reason="lost">ρκιανοῦ</supplied></name></persName></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="10"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <w lemma="Ἀσιάρχης">Ἀσιαρχου</w>  <w lemma="καί"><supplied reason="lost" cert="low">καὶ</supplied></w>  <w lemma="ἀρχιερεύς"><supplied reason="lost">ἀρχιερέως</supplied></w>  <lb n="11"/>  <w lemma="ὁ"><supplied reason="lost">τῆς</supplied></w> <w lemma="πατρίς">πατρίδος</w><g type="stop"/> <supplied reason="lost" cert="low">προνοησαμένων</supplied>  <lb n="12"/><w lemma="ὁ"><supplied reason="lost">τῶν</supplied></w>  <w lemma="ὁ">τ<unclear reason="damage">ῆ</unclear>ς</w>  <w lemma="ἐπιφανής">ἐπιφα<supplied reason="lost">νεστάτης</supplied></w>  <w lemma="θεά"><supplied reason="lost">θεᾶς</supplied></w>  <lb n="13"/>  <space extent="3"/> <persName type="divine"><supplied reason="lost">Ἀ</supplied>φροδείτης</persName>  <w lemma="νεοποιός"><unclear reason="damage">ν</unclear><supplied reason="lost">εοποιῶν</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῶν</supplied></w>  <w lemma="περί"><supplied reason="lost">περὶ</supplied></w>  <lb n="14"/><persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen"><supplied reason="lost">Τιβέ</supplied>ριον</name>  <name reg="Κλαύδιος">Κλαύ<supplied reason="lost">διον</supplied></name>  <persName type="aphrodisian"><name reg="Ἰούλιος"><supplied reason="lost">Ἰούλιον</supplied></name>  <name><supplied reason="lost">Κάνδ</supplied>  <lb type="worddiv" n="15"/><supplied reason="lost">ιδον</supplied></name></persName>  <name reg="Ἡγεμονεύς"><unclear reason="damage">Ἡ</unclear>γεμονέ<supplied reason="lost">α</supplied></name></persName>  <placeName reg="Ἀσία"><supplied reason="lost">Ἀσίας</supplied></placeName>  <w lemma="ἀρχιερεύς"><supplied reason="lost">ἀρχιε</supplied>  <lb type="worddiv" n="16"/><supplied reason="lost">ρέων  </supplied></w> <w lemma="καί">καὶ</w> <w lemma="ἀρχιερεύς">ἀρχιερ<supplied reason="lost">έων</supplied></w>  <w lemma="υἱός"><supplied reason="lost">υἱὸν</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="ἔκγονος"><supplied reason="lost">ἔκ</supplied>  <lb type="worddiv" n="17"/><supplied reason="lost">γονον</supplied></w> <w lemma="συνγενής">συνγενη</w> <unclear reason="damage">Α</unclear>  <gap reason="lost" extent="9" unit="character"/>  <w lemma="ἀρχινεωποιός"><supplied reason="lost">ἀρχ</supplied>  <lb type="worddiv" n="18"/><supplied reason="lost">ινε</supplied>ωποιὸν</w>  <unclear reason="damage">Ι</unclear><gap reason="lost" extent="13" unit="character"/>  <lb n="19"/><w><gap reason="lost" extent="3" unit="character" dim="left"/>χόμενο</w>  <unclear reason="damage">Ι</unclear><gap reason="lost" extent="13" unit="character"/>  <lb n="20"/><gap reason="lost" extent="2" unit="character"/>  <unclear reason="damage">Ε</unclear>Ν  <w lemma="κεφαλ-">κεφαλ<gap reason="lost" extent="13" unit="character"/></w>  <lb n="21"/>  <w lemma="καθώς"><supplied reason="lost" cert="low">καθὼ</supplied>ς</w> <w lemma="καί">καὶ</w> ΤΟ<unclear reason="damage">Ι</unclear><gap reason="lost" extent="13" unit="character"/><lb n="22"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <w lemma="ἀξιόλογος"><supplied reason="lost">ἀ</supplied>ξιολογωτ<supplied reason="lost">άτου</supplied></w>  <gap reason="lost" extent="9" unit="character"/>  <lb n="23"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <persName type="aphrodisian"><name reg="Αἴλιος"><unclear reason="damage">Α</unclear>ἰλίου</name>  Α<unclear reason="damage">Ι</unclear><gap reason="lost" extent="13" unit="character"/></persName><lb n="24"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><g type="leaf"/>  ΠΡ<unclear reason="damage">Ε</unclear><gap reason="lost" extent="15" unit="character"/><lb n="25"/>    <space extent="unknown"/></ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>[ ?The Council honoured so-and-so], boy [?of good family] who won [?with distinction] the boys' boxing [at the contest of the] twentieth [four-year occurrence of the] Aphrodeisiea [Philemoniea] when the contest-president was [Tiberius] Claudius [son of so-and-so] Apollonios Markianos [......], Asiarch [and high-priest of] his country; [(the erection of the monument) was overseen by the neopoioi] of the most manifest [goddess] Aphrodite led by the [chief] neopoios, Tiberius Claudius Hegemoneus [son of Julius Kandidos, son and grandson of high-priests of Asia] and of high-priests, kinsman [of consulars - -] ?capital sum [ - -?as - - ] the most renowned[ - - -] Aelius A[ - -</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> See bibliography.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">City, Village</rs>: 'In a wine-press to the south'.</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot (1893)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Notebooks, publications.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+
+<p>Recorded by Kubitschek and Reichel (K.III.33; Abklatsch 78); not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published, from Kubitschek's records, by <bibl n="cormack1964">J. M. R. Cormack, ABSA 59 (1964)</bibl>. Published by <bibl n="PPA">Roueché, PPA <biblScope>86</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>No photographs </p>
+</div><div type="figure" n="transcriptions">
+<head>Representations</head>
+<p><figure href="K_III_33"><figDesc>Kubitschek notebook III, 33</figDesc></figure></p>
+</div></body></text>
+</TEI>

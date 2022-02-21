@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020402" n="iAph0134 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType">Graffiti</rs>: <rs type="textType" reg="prayer/invocation">Prayers</rs> and names</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2007-08-07</date><respStmt><name>Eleonora Litta</name></respStmt><item>tidied expan</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-27</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A <rs type="material" key="marmor">blue marble</rs> <rs type="objectType">column</rs>.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>ii. below i.; iii. below ii.; iv. to left of iii., arranged in
+a cross monogram; v. below iii.; vi. below and to right of v. There are
+other, less intelligible, graffiti.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>i: av. <measure type="length" unit="metre" dim="height">0.02</measure>.
+ii: 0.008. iii: above, <measure type="length" unit="metre" dim="height">0.055</measure>; below, <measure type="length" unit="metre" dim="height">0.02-0.04</measure>. iv: monogram, H. <measure type="length" unit="metre" dim="height">0.10</measure>, W. <measure type="length" unit="metre" dim="height">0.095</measure>. v: <measure type="length" unit="metre" dim="height">0.015-0.03</measure>. vi: <measure type="length" unit="metre" dim="height">0.001</measure>.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0600" notBefore="0401" exact="none">Fifth to sixth centuries A.D.</date> or later (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>).</p>
+      </div>
+
+      <div type="edition" lang="grc">
+        <head lang="en">Edition</head>
+        
+		<div type="textpart_section" n="i"><ab><lb n="1"/> <persName type="divine" key="Lord" full="yes"><w lemma="κύριος"><expan><abbr>Κ</abbr><supplied reason="abbreviation">ύρι</supplied><abbr>ε</abbr></expan></w></persName> <w lemma="βοηθέω">βοΐθη</w> <orig n="unresolved"><unclear reason="damage">κατ</unclear>α<unclear reason="damage">κ</unclear><hi rend="ligature">ο<unclear reason="damage">υ</unclear></hi>λων</orig> <w lemma="ἁμαρτωλός">ἁμαρτολών</w> <g type="cross"/></ab></div>
+			        
+	<div type="textpart_section" n="ii"><ab><lb n="1"/><space dim="horizontal"/> <persName type="divine" key="Lord" full="yes"><w lemma="κύριος"><expan><abbr>Κ</abbr><supplied reason="abbreviation">ύρι</supplied><abbr>ε</abbr></expan></w></persName> <w lemma="βοηθέω">βοΐθησον</w> <space dim="horizontal"/></ab></div>
+        
+		<div type="textpart_section" n="iii"><ab><lb n="1"/><orig n="unresolved">βα</orig><lb n="2"/><persName type="aphrodisian" full="yes"><name reg="Θεοφάνης">Θεοφάνης</name></persName>.</ab></div> 
+        
+		<div type="textpart_section" n="iv"><ab><lb n="1"/><g type="cross"/><g type="cross"/> <persName key="romanus1" full="yes" type="aphrodisian"><name reg="Ῥωμανός"><expan><abbr>Ῥωμ</abbr><supplied reason="abbreviation">α</supplied><abbr>ν</abbr><supplied reason="abbreviation">ός</supplied></expan></name></persName>.</ab></div> 
+        
+		<div type="textpart_section" n="v"><ab><lb n="1"/><persName key="philip4" type="aphrodisian" full="yes"><name reg="Φίλιππος">Φήλιππος</name></persName>.</ab></div>
+			
+		<div type="textpart_section" n="vi"><ab><lb n="1"/><persName type="divine" key="Christ" full="yes"><name reg="Ἰησοῦς"><expan><abbr>Ἰ</abbr><supplied reason="abbreviation">ησοῦ</supplied><abbr>ς</abbr></expan></name> <g type="cross" id="c1"/> <name reg="Χριστός"><expan><abbr>Χ</abbr><supplied reason="abbreviation">ριστὸ</supplied><abbr>ς</abbr></expan></name></persName><lb n="2"/><w lemma="νικάω">νι<g type="cross" id="c2"/>κᾷ</w> <link targets="c1 c2" targOrder="U"/></ab></div>
+      </div>
+
+      
+      <div type="translation">
+        <head>Translation</head>
+        <p>i. Lord help <gap reason="lost" dim="internal"/>  a sinner.</p>
+        <p>ii. Lord help <gap reason="lost" dim="right"/></p>
+        <p>iii. Theophanes.</p>
+        <p>iv. Romanos.</p>
+        <p>v. Philippos.</p>
+        <p>vi. Jesus Christ is victorious.</p>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="VIII.14">VIII.14</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList">Bouleuterion/Odeon, West area</rs>, 'Bishop's Palace'; lying loose.</rs>. Original location: <rs type="origLocation"><rs type="monuList" cert="low">Bouleuterion/Odeon, West area</rs>.</rs>. Last recorded location: <rs type="lastLocation">Findspot.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias
+in Late Antiquity</title> no. <biblScope>134</biblScope> i-vi</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257656">769</biblScope>, <biblScope n="257657">770</biblScope>, <biblScope n="257680">794</biblScope>,
+<biblScope n="257681">795</biblScope>, <biblScope n="257682">796</biblScope>, <biblScope n="257683">797</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcriptions (Reynolds, Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="73_Y_25"><figDesc>Overview (1973)</figDesc></figure><figure href="73_Y_26"><figDesc>Overview (1973)</figDesc></figure><figure href="75_J_25A"><figDesc>Overview (1975)</figDesc></figure><figure href="rosen012"><figDesc>i. Right end (1966)</figDesc></figure><figure href="rosen010"><figDesc>ii. Text (1966)</figDesc></figure><figure href="rosen017"><figDesc>iii. Text (1966)</figDesc></figure><figure href="rosen016"><figDesc>iv. Text (1966)</figDesc></figure></p></div>
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

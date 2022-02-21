@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110406" n="iAph1888 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragment</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-04-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>DONE</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A <rs type="material">white marble</rs> <rs type="objectType">block</rs> (<measure dim="height" type="length" unit="metre">0.38</measure> x <measure dim="width" type="length" unit="metre">0.59</measure> x <measure dim="depth" type="length" unit="metre">0.39</measure>) with <seg cert="low"> a moulding or a rim</seg> lost above. There is a clamp hole at the right end.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on a slightly concave surface—could be the riser of a seat.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p> <measure type="length" unit="metre" dim="height">0.035-0.055</measure>; first <term lang="grc-Latn">sigma</term> lunate, last two Latin form.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0400" exact="none">First to fourth centuries A.D.</date>
+ (<rs type="criteria">lettering</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><milestone unit="block"/> <orig n="unresolved">σεν</orig> <space extent="8" unit="character" dim="horizontal"/> <orig n="unresolved">ροσισ</orig> <gap reason="lost" extent="1" unit="character"/><milestone unit="block"/>  <gap reason="lost" extent="unknown" unit="character" dim="right"/></ab>
+</div>
+
+<div type="translation" n="none">
+<head>Translation</head>
+<p>No translation possible.</p>
+</div>
+<div type="commentary" n="none">
+<head>Commentary</head>
+<p> ...</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">City, South-west</rs>: lying in a field just inside the south west corner.</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot (1988)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (<rs type="siteNo">Walls 152</rs>).</p>
+</div>
+<div type="bibliography" n="none">
+<head>Bibliography</head>
+<p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="88_C_08A"><figDesc>Face (1988)</figDesc></figure><figure href="88_C_09A"><figDesc>Face (1988)</figDesc></figure></p>
+</div></body></text>
+</TEI>

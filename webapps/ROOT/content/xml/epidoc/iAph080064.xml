@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080064" n="iAph0770 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Seat inscriptions</rs>: Theatre, Block L</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+<textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term><term><rs type="textType" key="cetera">Factional</rs></term><term><rs type="textType" key="cetera">Acclamation</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-26</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Theatre, seats</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>Row 4: On one block. Row 6.i: at west end. Row 7: at east end; Row 13.i: at east end. Row 19: at west end. Row 20.i: on one block at east end. Row 21.i: at east end. Row 24.i: at east end, on riser.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Row 4: <measure type="length" unit="metre" dim="height">0.04</measure>. Row 6.i: <measure type="length" unit="metre" dim="height">0.04</measure>. Row 7: <measure type="length" unit="metre" dim="height">0.03</measure>; lunate sigma. Row 13.i: <measure type="length" unit="metre" dim="height">0.17</measure> - <measure type="length" unit="metre" dim="height">0.19</measure>. Row 19: <measure type="length" unit="metre" dim="height">0.08</measure>. Row 20.i: <measure type="length" unit="metre" dim="height">0.07</measure>. Row 21.i: <measure type="length" unit="metre" dim="height">0.09</measure> - <measure type="length" unit="metre" dim="height">0.06</measure>. Row 24.i: <measure type="length" unit="metre" dim="height">0.02</measure>.</p><p>Designs: Row 1: <measure dim="height" type="length" unit="metre">0.17</measure> x <measure dim="width" type="length" unit="metre">0.14</measure>. Row 3: <measure dim="width" type="length" unit="metre">0.45</measure> x <measure dim="height" type="length" unit="metre">0.17</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0600" exact="none">Second to sixth centuries A.D.</date> (<rs type="criteria">context</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="1"><note>Design,?type H8</note></div><div type="textpart_section" n="3"><note>Design, type R1 </note></div><div type="textpart_section" n="4"><ab><lb n="1"/>
+<g type="steps"/> <milestone unit="block"/> <note>Design R1</note>     <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> </ab><ab><lb n="2"/> <w lemma="ὁ">τῶν</w> ? <space extent="3"/>   <orig><unclear reason="damage">α</unclear>ο</orig></ab></div><div type="textpart_section" n="6"><div type="textpart_column" n="i"><ab><lb n="1"/>
+<space extent="3"/> <orig>εγ</orig> <space extent="3"/></ab></div><div type="textpart_column" n="ii"><note>Design, type C2</note></div><div type="textpart_column" n="iii"><note>Scattered letters</note></div></div><div type="textpart_section" n="7"><ab><lb n="1"/>
+<g type="steps"/>  <milestone unit="block"/>  <w lemma="τόπος">τόπος</w> <w lemma="βένετος"><unclear reason="damage">Β</unclear>ε<unclear reason="damage">νε</unclear>τω<unclear reason="damage">ν</unclear></w> <milestone unit="block"/></ab></div><div type="textpart_section" n="8"><note>Scattered letters</note></div><div type="textpart_section" n="9"><div type="textpart_column" n="i"><note>There is a graffito of a face 
+</note></div><div type="textpart_column" n="ii"><note>Design, type C2</note></div></div><div type="textpart_section" n="13"><div type="textpart_column" n="i"><ab><lb n="1"/>
+<g type="steps"/>  <milestone unit="block"/>  <orig>αρ</orig> <milestone unit="block"/> <space extent="3"/> </ab></div><div type="textpart_column" n="ii"><note>Scattered letters</note></div></div><div type="textpart_section" n="15"><note>Scattered letters</note></div><div type="textpart_section" n="17"><note>Scattered letters</note></div><div type="textpart_section" n="19"><ab><lb n="1"/><space extent="3"/> <milestone unit="block"/> <space extent="3"/>  <orig>π</orig> <space extent="3"/>  <milestone unit="block"/> <space extent="3"/>  <orig>παθ</orig> <gap reason="lost" extent="2" unit="character"/> <milestone unit="block"/> <space extent="3"/> <milestone unit="block"/> <g type="steps"/></ab></div><div type="textpart_section" n="20"><div type="textpart_column" n="i"><ab><lb n="1"/> 
+<g type="steps"/>  <milestone unit="block"/> <note>3 seats</note> <milestone unit="block"/> <orig>τ</orig><g type="stop"/><orig>ι</orig><g type="stop"/><w><expan><abbr>χρυσ</abbr><supplied reason="abbreviation">ου</supplied></expan></w>̣ [ . ]</ab></div><div type="textpart_column" n="ii"><note>Scattered letters</note></div></div><div type="textpart_section" n="21"><div type="textpart_column" n="i"><ab><lb n="1"/>
+<g type="steps"/>  <milestone unit="block"/> <orig>χ</orig> <milestone unit="block"/> <space extent="3"/> <milestone unit="block"/> <gap extent="1" reason="lost" unit="character"/> <milestone unit="block"/> <space extent="3"/> <milestone unit="block"/> <orig>ω</orig> <milestone unit="block"/> <space extent="3"/> </ab></div><div type="textpart_column" n="ii"><note>Scattered letters</note></div></div><div type="textpart_section" n="22"><note>Scattered letters</note></div><div type="textpart_section" n="23"><note>Scattered letters</note></div><div type="textpart_section" n="24"><div type="textpart_column" n="i"><ab><lb n="1"/>
+<g type="steps"/> <milestone unit="block"/> <space extent="3"/> <milestone unit="block"/> <orig>λ </orig><milestone unit="block"/> <space extent="3"/> </ab></div><div type="textpart_column" n="ii"><note>Scattered letters</note></div></div>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Row 4: The fortune triumphs of the [-</p>
+<p>Row 7: Place ?of Blues</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See bibliography.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Theatre</rs>: seats, block L</rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Findspot</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p> Row 4: Published by <bibl n="ALA">Roueché, ALA <biblScope>181.viii</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257715">829</biblScope></bibl>. All as <bibl n="PPA">Roueché, PPA <biblScope>46.L</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p> <figure href="76_H_02"><figDesc>Row 4 (1976)</figDesc></figure><figure href="76_G_35"><figDesc>Row 20.i (1976)</figDesc></figure></p>
+</div></body></text>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120629" n="iAph1412 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> relief for anonymous, emporiarch</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor> <date>1997</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr1997b">Reynolds (<date>1997</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType">relief</rs> <rs type="objectType">stele</rs> of irregular shape (a rectangle without its lower left corner) chipped along all adges and sporadically over the face (<measure type="length" unit="metre" dim="width">0.29</measure>   × <measure type="length" unit="metre" dim="height">0.40</measure>   × <measure type="length" unit="metre" dim="depth">0.06</measure>). The upper part carries a  male portrait <rs type="decoration">bust</rs>   in high <rs type="decoration"> relief</rs>, the head almost in the round as it rises above the upper edge of the stele. See further Smith. loc. cit.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on either side of the head (ll. 1-5) and below the bust (ll. 6-7). The first two lines to the left of the head have been erased.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.022</measure>, but heights vary; lunate <term lang="grc-Latn">sigma</term>, <term lang="grc-Latn">omega</term>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_column" n="i"><note>To left of head</note><ab><lb n="1"/><del rend="erasure"><gap reason="illegible" extent="4" unit="character"/></del><lb n="2"/><del rend="erasure"><gap reason="illegible" extent="4" unit="character"/></del><lb n="3"/><w lemma="ἐμποριάρχης">ἐνπο<lb n="4" type="worddiv"/>ριαρχης</w></ab></div><div type="textpart_column" n="ii"><note>To right of head</note><ab><lb n="1"/>   <w lemma="ὁ">τῇ</w>  <w lemma="συντεχνία">συν<lb n="2" type="worddiv"/>τεχνί<lb n="3" type="worddiv"/>ᾳ</w>   <w lemma="ὁ">τῶν</w> <w lemma="λινουργός">λι<lb n="4" type="worddiv"/>νουργῶ<lb n="5" type="worddiv"/><space extent="2"/>ν</w>    <lb n="6"/><note>Below bust</note> <w lemma="καί">καὶ</w> <w lemma="ὁ">τοῖς</w> <w>παρό<lb n="7" type="worddiv"/><note>sic</note> δοις</w> <w lemma="χαιρέω">χαιρει</w></ab></div>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>[So-and-so ], market-supervisor, greets the association of linen-workers and the passers-by.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See discussion by Reynolds,<bibl n="jmr1997b"> art. cit</bibl>.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"> <rs type="monuList">Walls, South (east part)</rs></rs>
+<rs type="lastLocation">Museum, on display (1975)</rs>
+<rs type="origLocation">Unknown</rs>
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1975 (<rs type="invNo">75.22</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="jmr1997b"><author>Reynolds</author>,  <title level="a">The Linen-market of Aphrodisias in Caria</title> in <title>Arculiana</title>, H. Bögli Festschrift, <biblScope>523-8</biblScope></bibl>;  by <bibl n="rrrs2006"> <author>Smith</author>, <title>Roman Portrait Statuary from Aphrodisias</title>,  <biblScope>Relief 2</biblScope></bibl></p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="75_K_19A"><figDesc>Face (1975)</figDesc></figure></p><p>[[KTE]]</p>
+</div></body></text>
+</TEI>

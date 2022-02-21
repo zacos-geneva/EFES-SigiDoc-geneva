@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161418">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> fragment from walls excavation</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Right upper corner of a moulded feature, probably reused, since there are traces of another moulding on the reverse side (<measure type="length" unit="metre" dim="width">0.33</measure>   × <measure type="length" unit="metre" dim="height">0.30</measure>   × <measure type="length" unit="metre" dim="depth">0.49</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro"> Inscribed</rs> on the moulding and on inset face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure type="length" unit="metre" dim="height">0.015</measure>; ligatured <foreign lang="grc">ΤΗΝ</foreign>, l. 4.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
+ </div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved"><unclear reason="damage">ε</unclear>ν</orig><gap extent="1" reason="lost" unit="character"/><lb n="2"/>  <gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w lemma="ἐν"><supplied reason="lost">ἐ</supplied><unclear reason="damage">ν</unclear></w>  <w>ψηφορ<lb n="3" type="worddiv"/><supplied reason="lost">ορίᾳ</supplied></w>  <w><gap reason="lost" extent="unknown" unit="character" dim="internal"/>ια</w>  <w lemma="ὁ">τῶν</w>  <w>λα  <lb n="4" type="worddiv"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>ν</w>  <w lemma="ὁ"><hi rend="ligature">τὴν</hi></w>  <w>εἰσπρα<lb n="5" type="worddiv"/><supplied reason="lost" cert="low">ξιν</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="internal"/> <supplied reason="lost"><w>ὁ</w> <w>πολεμαρχος</w></supplied>   <w><supplied reason="lost" cert="low">γυμνασια</supplied>ρχος</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">οἱ</w> <w>ἄρ<lb n="6" type="worddiv"/><supplied reason="lost">χοντες</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="internal"/>  <supplied reason="lost"><w>ἀντίγραφον</w></supplied>  <supplied reason="lost"><w lemma="ὁ">τῆς</w></supplied>  <w><supplied reason="lost">ἐπι</supplied>γραφῆς</w>  <w>ἀπε<lb n="7" type="worddiv"/><supplied reason="lost">τέθη</supplied></w>  <supplied reason="lost"><w lemma="εἰς">εἰς</w></supplied>  <supplied reason="lost"><w lemma="ὁ">τὸ</w></supplied>  <supplied reason="lost">χρεοφυλάκιον</supplied>  <w lemma="ἐπί"><supplied reason="lost">ἐπὶ</supplied></w>  <w lemma="στεφανηφόρος"><supplied reason="lost">στεφανηφ</supplied><unclear reason="damage">ό</unclear>ρου</w>  <w lemma="ὁ">τὸ</w>  <num value="7">ζ</num> <orig n="unresolved">λα</orig> <lb n="8"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <g type="scroll"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p> l. 1, there is some doubt whether these really are traces of letters, or just a phenomenon of the damage</p><p>l. 5, final <foreign lang="grc">Ρ</foreign> has bowl separated from upright</p><p>l. 7, <foreign lang="grc">Λα-</foreign> is presumably from the month name</p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Apparently funerary, with provisions against alienation of the tomb (thus <xref type="iAph">1509</xref> (=MAMA 413) includes a ban on <foreign lang="grc">ψηφορία</foreign> to change the use of a property) but perhaps against change of user of a property left e.g. to the gymnasium. Rent or fine for misuse are to be exacted (<foreign lang="grc">εἰσπράττειν</foreign> ) by magistrates, perhaps including the gymnasiarch (l. 5). [[although this would be unusual]]</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Walls, South (west part)</rs>: S. wall excavation, inside, trench 3.</rs>
+<rs type="origLocation">Unknown</rs>
+
+<rs type="lastLocation">Museum (1978)</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1975 (<rs type="invNo">75.331</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_F_31"><figDesc>Face (1977)</figDesc></figure><figure href="78_C_18"><figDesc>Face (1978)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

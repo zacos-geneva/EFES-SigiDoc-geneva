@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150350" n="iAph1482 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="funerary">Tomb</rs> of Chrestianos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr2003">Reynolds and Isik (<date>2007</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-04-02</date><respStmt><name>GB</name></respStmt><item>DONE</item></change><change><date>2007-02-06</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A <rs type="material">white marble</rs> <rs type="decoration">garland</rs> <rs type="objectType">sarcophagus</rs>; see Isik for full description.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> along the central part of the upper rim, apparently with a vacat on either side.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p> Fairly rough and unevenly cut, the last four letters damaged, ave. <measure dim="height" type="length" unit="metre">0.045</measure>; lunate sigma.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+The sarcophagus could well be markedly earlier than the letters, which are difficult to date, but perhaps of the <date cert="low" exact="none" notAfter="0400" notBefore="0301"> fourth century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>    <space extent="3" unit="character" dim="horizontal"/>  <persName type="aphrodisian"><name reg="Χρηστιανός">Χρησ<supplied reason="lost">τι</supplied>ανο<unclear reason="damage">ῦ</unclear></name></persName>    <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>(Tomb of) Chrestianos(?).</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>The text looks as if it gave an owner's name, added perhaps when the sarcophagus was in secondary use. Names like this which are derived from words with the sense of 'useful' (Χρήσιμος, Χρῆστος) suggest a modest social context.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found">Unknown</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1972)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p><bibl n="jmr2003">Reynolds and Isik <biblScope>80</biblScope></bibl></p>
+<div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="72_B_10A"><figDesc> Detail (1972)</figDesc></figure></p></div>
+
+    
+
+      
+
+      </div></body></text>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130114" n="iAph0166 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="funerary">Epitaph</rs> of Theopropios, <rs type="personType">bishop</rs></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-06-02</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-29</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A <rs type="material" key="marmor">white marble</rs> <rs type="objectType">lintel</rs> block, broken in two (<measure type="length" unit="metre" dim="height">0.15</measure> ×
+<measure type="length" unit="metre" dim="width">c. 1.15</measure> × <measure type="length" unit="metre" dim="depth">0.455</measure>) over the entrance to a tomb chamber. A
+second chamber was subsequently constructed at right angles to the
+first, and the lintel over its entrance abuts on to our inscription,
+partially obscuring the right end.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> along the face.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>The angular letters are similar to those of <xref type="inscription" n="165" href="130113">13.113</xref>; <measure type="length" unit="metre" dim="height">0.035</measure>. The <foreign lang="grc">Υ</foreign> at
+the end of the name is <measure type="length" unit="metre" dim="height">0.045</measure>, and the one letter serves as the ending
+of the two words in the genitive.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0401" notAfter="0500">Fifth century</date> or later.</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+        <ab>
+		  	<lb n="1"/><w lemma="Α">Α</w> <g type="chi-rho"/> <w lemma="Ω">Ω</w> <persName key="theopropius1" type="aphrodisian" full="yes"><name reg="Θεοπρόπιος">Θεοπρο<unclear reason="damage">π</unclear><supplied reason="lost">ίο</supplied>υ</name></persName> <g type="leaf"/> <w lemma="Α">Α</w> <g type="chi-rho"/> <w lemma="Ω">Ω</w> <w lemma="ζάω"><hi rend="supraline">ζῇ</hi></w><lb n="2"/><rs type="official-relig" key="bishop"><w lemma="ἐπίσκοπος">ἐπισ<unclear reason="damage">κ</unclear><supplied reason="lost">όπο</supplied>υ</w></rs>.</ab>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab><supplied reason="subaudible">Tomb of</supplied> Theopropios, bishop. He lives.</ab>
+      </div><div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="IX.35">IX.35</xref>. For
+Theopropios see also <xref type="inscription" n="165" href="130113">13.113</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p><rs type="found"><rs type="monuList">Necropolis, North-east</rs>: in the Turkish cemetery (which lies over an
+earlier cemetery).</rs>. <rs type="origLocation">Findspot</rs>. <rs type="lastLocation">Findspot.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Exavated by the Department of Antiquities in <date value="1978" notBefore="1978" notAfter="1978" exact="both">1978</date>.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias</title> <biblScope>166</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title>
+<biblScope n="257641">754</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="78_J_11"><figDesc>Left fragment (1978)</figDesc></figure><figure href="78_J_12"><figDesc>Right fragment (1978)</figDesc></figure><figure href="78_J_13"><figDesc>Both fragments (1978)</figDesc></figure></p></div>
+
+    
+
+      </body>
+  </text>
+</TEI>

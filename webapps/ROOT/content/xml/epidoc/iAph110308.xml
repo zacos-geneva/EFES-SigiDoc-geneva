@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110308" n="iAph1366 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> inscription for Marcus Aurelius <gap reason="lost" unit="character"/> <seg cert="low">high-priest</seg></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-08-01</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Part of the right end of a <rs type="material"/></p><p><rs type="material">white marble</rs> <rs type="objectType">sarcophagus</rs> front (<measure type="length" unit="metre" dim="width">0.56</measure>   × <measure type="length" unit="metre" dim="height">0.43</measure>   × <measure type="length" unit="metre" dim="depth">0.16</measure>) with <rs type="decoration">relief</rs> below showing <rs type="decoration">winged figures</rs> and a <rs type="decoration">palm branch</rs>; 
+</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the upper margin, in an area which is in poor condition.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.02</measure>; top line obscured by cement; ligatured <foreign lang="grc">ΝΗ</foreign>, l.1, <foreign lang="grc">ΤΗ</foreign>, l.2</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p><date notBefore="0101" notAfter="0200" exact="none">Second century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <gap reason="lost" extent="unknown" unit="character" dim="left"/><orig n="unresolved">συ<hi rend="ligature">ν<unclear reason="damage">η</unclear></hi><unclear reason="damage">σ</unclear></orig>  <persName type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μά<unclear reason="damage">ρ</unclear></abbr><supplied reason="abbreviation">κου</supplied></expan></name>  <name reg="Αὐρήλιος" type="nomen"><expan><abbr>Αὐ<unclear reason="damage">ρ</unclear></abbr><supplied reason="abbreviation">ηλίου</supplied></expan></name> <gap reason="lost" extent="5" unit="character"/></persName>  <lb n="2"/><w><gap reason="lost" extent="unknown" unit="character" dim="left"/><unclear reason="damage">ς</unclear></w> <w lemma="ἀρχιερεύς"><unclear reason="damage">ἀ</unclear>ρχιερέως</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἀνήρ">ἀνδρὸς</w> <w lemma="ὁ"><hi rend="ligature">τῆ</hi>ς</w>  <lb n="3"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <persName type="aphrodisian"><name reg="Ζηνωνίς">Ζηνωνίδος</name></persName>  <g type="stop"/>  <space extent="6" unit="character" dim="horizontal"/></ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p><gap extent="unknown" reason="lost" unit="character"/>of Mar(cus) Aur(elius) <gap extent="unknown" reason="lost" unit="character"/> high priest, the husband of [ . . .  ] Zenonis.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>The last line presumably (?) contained the name of the stephanephoros: cf. <xref type="inscription" n="1483" href="150203">15.203</xref> (=LBW 1629)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">City, South-east</rs>: re-used in the Theatre area.</rs>
+<rs type="lastLocation">Museum</rs>
+<rs type="origLocation">Unknown</rs>
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1969 (<rs type="invNo">69.387</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_D_15"><figDesc>Face (1978)</figDesc></figure></p>
+</div></body></text>
+</TEI>

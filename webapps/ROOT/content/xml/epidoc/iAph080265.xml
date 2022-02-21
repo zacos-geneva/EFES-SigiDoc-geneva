@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080265" n="iAph0212 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="place inscription" cert="low">Reserved benches</rs> for associations</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-06-02</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change>
+  <date>2003-08-30</date>
+  <respStmt><name>CMR</name></respStmt>
+  <item>tagged, lemmatised and corrected</item>
+  </change>
+  <change><date>2004-02-29</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Seven <rs type="material" key="marmor">white marble</rs> <rs type="objectType">bench</rs>es: i: <measure type="length" unit="metre" dim="height">0.46</measure> × <measure type="length" unit="metre" dim="width">1.25</measure> × <measure type="length" unit="metre" dim="depth">0.335</measure>. ii: Broken below, and to right, <measure type="length" unit="metre" dim="height">0.45</measure> ×
+<measure type="length" unit="metre" dim="width">1.35</measure> × depth not measurable. iii: No measurements. iv: <measure type="length" unit="metre" dim="height">0.45</measure> × <measure type="length" unit="metre" dim="width">1.02</measure> × <measure type="length" unit="metre" dim="depth">0.39</measure>. v: <measure type="length" unit="metre" dim="height">0.44</measure> × <measure type="length" unit="metre" dim="width">0.98</measure> × depth not
+measurable. vi: <measure type="length" unit="metre" dim="height">0.42</measure>
+× <measure type="length" unit="metre" dim="width">1.53</measure> ×
+<measure type="length" unit="metre" dim="depth">0.32</measure>. vii <measure type="length" unit="metre" dim="height">0.46</measure> × <measure type="length" unit="metre" dim="width">1.24</measure> 
+× <measure type="length" unit="metre" dim="depth">0.33</measure>.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> in the centre of the upper face; vii is partly
+hidden.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Varying from <measure type="length" unit="metre" dim="height">0.04</measure> (o), in vii to <measure type="length" unit="metre" dim="height">0.07</measure> (i. ii, vi) to <measure type="length" unit="metre" dim="height">0.085</measure> (v) to <measure type="length" unit="metre" dim="height">0.09</measure> (iii) to <measure type="length" unit="metre" dim="height">0.10</measure> (iv). Scroll for abbreviation.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0600" exact="none" notBefore="0301">Fourth to sixth centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">re-use</rs>).</p>
+      </div>
+
+      <div type="edition" lang="grc">
+        <head lang="en">Edition</head>
+        
+				<div type="textpart_section" n="i"><ab><lb n="1"/><w lemma="Θεοδωριταί"><expan><abbr>Θεοδ</abbr><supplied reason="abbreviation">ωριτῶν</supplied></expan></w></ab></div>
+        
+				<div type="textpart_section" n="ii"><ab><lb n="1"/> <w lemma="Εὐτυχιταί"><expan><abbr>Εὐτ</abbr><supplied reason="abbreviation">υχιτῶν</supplied></expan></w></ab></div>
+			        
+				<div type="textpart_section" n="iii"><ab><lb n="1"/><w lemma="Ἡρακλειταί"><expan><abbr> Ἡρακ</abbr><supplied reason="abbreviation">λειτῶν</supplied></expan></w></ab></div> 
+			        
+				<div type="textpart_section" n="iv"><ab><lb n="1"/> <w lemma="Ἡρακλειταί"><expan><abbr>Ἡρακ</abbr><supplied reason="abbreviation">λειτῶν</supplied></expan></w></ab></div> 
+			        
+				<div type="textpart_section" n="v"><ab><lb n="1"/> <w lemma="Ἡρακλειταί"><expan><abbr>Ἡρακ</abbr><supplied reason="abbreviation">λειτῶν</supplied></expan></w></ab></div>
+			        
+				<div type="textpart_section" n="vi"><ab><lb n="1"/> <w lemma="Ἡρακλειταί"><expan><abbr>Ἡρακ</abbr><supplied reason="abbreviation">λειτῶν</supplied></expan></w></ab></div>
+			        
+				<div type="textpart_section" n="vii"><ab><lb n="1"/> <w lemma="Θεοδωριταί"><expan><abbr>Θεο<supplied reason="lost" cert="low">δ</supplied></abbr><supplied reason="abbreviation">ωριτῶν</supplied></expan></w></ab></div>
+      </div>
+
+      <div type="translation" sample="complete" org="uniform">
+        <head>Translation</head><p>i. Theod(oritai?)</p><p>ii. Eut(ychitai?)</p><p>iii. Herak(leitai?)</p>
+      <p>iv. Herak(leitai?)</p>
+      <p>v. Herak(leitai?)</p>
+      <p>vi. Herak(leitai?)</p>
+      <p>vii. Theo[d](oritai?)</p></div>
+
+      <div type="commentary">
+        <head>Commentary</head><p>See discussion at <xref type="eAla-text" n="XI.18">XI.18</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList" key="Theatre">Theatre</rs>: i and iv stray finds; ii, iii, v, vi and re-used
+in the Byzantine defence wall across the east end; vii reused in the
+upper structure at the north-east end of the cavea.</rs>. Original location: <rs type="origLocation">Unknown.</rs>. Last recorded location: <rs type="lastLocation">ii, iii, vii findspot; i, iv, v, vi loose in the Theatre
+area.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Recorded by the NYU expedition (i-vi before 1989, vii in
+1992)</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>i-vi published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in
+Late Antiquity</title> no. <biblScope>212</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257588">701</biblScope>, <biblScope n="257580">693</biblScope>, <biblScope n="257581">694</biblScope>, <biblScope n="257582">695</biblScope>, <biblScope n="257583">696</biblScope>,
+<biblScope n="257584">697</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="72_J_03"><figDesc>i (1972)</figDesc></figure><figure href="75_J_19A"><figDesc>ii and iii (1975)</figDesc></figure><figure href="83_E_14"><figDesc>iv (1983)</figDesc></figure><figure href="72_F_15A"><figDesc>iv, detail (1972)</figDesc></figure><figure href="76_D_30"><figDesc>v and vi (1976)</figDesc></figure><figure href="89_D_11A"><figDesc>vii (1989)</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

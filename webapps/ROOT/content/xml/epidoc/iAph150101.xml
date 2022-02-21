@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150101" n="iAph0339 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType" reg="votive">Votive</rs> to Hekate Euantetos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date>2005-05-24</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A rectangular <rs type="material" key="marmor">white marble</rs> <rs type="objectType">altar</rs> (stained), with simple moulding above and below, worked on all four sides, with a relief of a <rs type="decoration">triple Hekate</rs> on the front face (<measure type="length" unit="metre" dim="width">0.14</measure> × <measure type="length" unit="metre" dim="height">0.28</measure> × <measure type="length" unit="metre" dim="depth">0.20</measure>) . </p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs>  on the right side.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p>Rough; lunate <term lang="la">epsilon</term>, <term lang="la">sigma</term>, <term lang="la">omega</term>; unevenly aligned.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p>Perhaps <date exact="none" notAfter="0200" notBefore="0001" cert="low">first to second century A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab>
+ <lb n="1"/>
+ <persName reg="Ζωτικός" type="aphrodisian"><name type="        " reg="Ζωτικός">Ζωτικὸς</name></persName>
+ <lb n="2"/>
+ <persName reg="Εὐάντητος" type="divine"><w lemma="εὐάντητος">Εὐα<hi rend="reversed">ν</hi>τήτ<lb n="3" type="worddiv"/>ῳ</w></persName>
+ <w lemma="εὐχή">εὐχήν</w>
+</ab>
+</div>
+
+<div type="apparatus"><head>Apparatus</head><p>l. 2, <foreign lang="grc">Ν</foreign> is written backwards.</p></div><div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); publications.</p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Zotikos pays his vow to the deity who is kindly to meet.</p></div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>This epithet for Hekate is discussed by Robert, loc. cit. ; cf. <bibl>id <title level="m">Stele</title>, Festschrift Kontoleon, Athens, 1977, 4.</bibl></p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+ Found: <rs type="found">No details; in <rs type="monuList">collection</rs></rs>.
+ Original location: <rs type="origLocation">Unknown</rs>.
+ Last recorded: <rs type="lastLocation">Vienna Museum, Inv. I 711 (L)</rs>.
+</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Found at Aphrodisias in or before 1894, when it entered the collection of the Vienna Museum.</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl type="primary" n="noll1962"><author>Rudolf Noll</author>, <title level="m">Die griechischen und lateinischen Inschriften der Wiener Antikensammlung</title> (Vienna 1962, republished 1986), no. <biblScope>67</biblScope></bibl>, whence <bibl n="hell13"><author>L. Robert</author>, <title>Hellenica</title> 13, <biblScope>285</biblScope> and pl. 25</bibl>, <bibl n="be">BE <biblScope>1966.507</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257043">164</biblScope></bibl>.</p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="Wien01"><figDesc>Face (Vienna Museum)</figDesc></figure><figure href="Wien02"><figDesc>Right side (Vienna Museum)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

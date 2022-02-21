@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080904" n="iAph1354 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> for M. Aurelius Adrastos son of Deiomedes</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-02</date><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p> <rs type="material">White marble</rs> <rs type="objectType">panel</rs> chipped along all edges (<measure type="length" unit="metre" dim="width">0.39</measure>   × <measure type="length" unit="metre" dim="height">0.39</measure>   × <measure type="length" unit="metre" dim="depth">0.08</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face, which is rough, perhaps erased.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Square <term lang="grc-Latn">sigma</term>, cursive <term lang="grc-Latn">mu</term> and <term lang="grc-Latn">omega</term>; <measure dim="height" type="length" unit="metre">0.025</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>Probably <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> or later (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορός</w> <w lemma="εἰμί">ἐστιν</w> <w lemma="καί">καὶ</w> <lb n="2"/> <w lemma="ὁ">τὸν</w> <w lemma="ὑπόκειμαι">ὑποκείμενον</w> <lb n="3"/> <w lemma="ἡρῶος">ἡρῶον</w> <persName type="aphrodisian" full="yes"><name reg="Μᾶρκος">Μάρκου</name>  <name reg="Αὐρήλιος">Αὐ<lb n="4" type="worddiv"/>ρηλείου</name>  <name reg="Ἄδραστος">Ἀδράστο<lb n="5" type="worddiv"/>υ</name> <w lemma="ὁ">τοῦ</w> <name reg="Διομήδης">Δειομήδο<lb n="6" type="worddiv"/>υς</name> <w lemma="τρίς">τρὶς</w> <w lemma="ὁ">τοῦ</w> <name reg="Ἀρτεμίδωρος">Ἀρτ<lb n="7" type="worddiv"/><space extent="1" unit="character" dim="horizontal"/>εμειδώρου</name></persName> <lb n="7a"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>This tomb and the <term lang="grc-Latn">heroon</term> beneath it belong to Marcus Aurelius Adrastos son of Deiomedes son of Deiomedes son of Deiomedes son of Artemidoros.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>[[... spellings?  ...]]</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Acropolis</rs>, on the surface.</rs>
+<rs type="lastLocation">Museum (1977)</rs>
+<rs type="origLocation">Unknown</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1968 (<rs type="invNo">68.51</rs>)</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="72_D_06A"><figDesc>Face (1972)</figDesc></figure><figure href="77_X_01"><figDesc>Face (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI>

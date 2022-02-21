@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120404" n="iAph1133 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Building <rs type="textType">dedication</rs></rs>s, by Antipatros and by Dionysios,  to Demos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-07-04</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-09-26</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>Two complete <rs type="material" key="marmor">white marble</rs> blocks, which do not join, from the  plain <rs type="objectType">architrave</rs> blocks, with a simple moulding above two fasciae. i: <measure type="length" unit="metre" dim="width">2.66</measure>   × <measure type="length" unit="metre" dim="height">0.36</measure>   × <measure type="length" unit="metre" dim="depth">0.36</measure>; ii: <measure type="length" unit="metre" dim="width">2.03</measure>   × <measure type="length" unit="metre" dim="height">0.36</measure> x depth not measurable</p>
+</div>
+<div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> in one line on each fascia.</p>
+</div><div type="description" n="letters">
+<head>Letters</head>
+<p>Rather light cutting; i: <measure dim="none">0.15</measure>, ii: <measure dim="none">0.13</measure>.</p>
+
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="-0100" notAfter="0100" exact="none">Perhaps first century B.C. to first century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="i"><ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Ἀντίπατρος">Ἀντίπατρος</name>  <persName type="aphrodisian"><name reg="Μῆνις">Μήνιδος</name></persName></persName> <w lemma="ὁ">τὸ</w> <w lemma="ἐπιστύλιον">ἐπιστύλιον</w> <lb n="2"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὸν</w> <w lemma="ἐπί">ἐπ'</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="κόσμος">κόσμον</w> <w lemma="ὁ">τῶι</w> <w lemma="δῆμος">Δήμωι</w> <space extent="1" unit="character" dim="horizontal"/></ab></div><div type="textpart_section" n="ii"><ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Διονύσιος">Διονύσ<supplied reason="lost">ιο</supplied>ς</name>  <persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδράστου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Διονύσιος">Διονυσίου</name></persName></persName></persName>  <w lemma="ὁ"><app type="previouslyread"><rdg resp="previous">τὸ</rdg><rdg><gap extent="2" reason="lost" unit="character"/></rdg></app></w>  <w lemma="ἐπιστύλιον"><app type="previouslyread"><rdg resp="previous">ἐπιστύ</rdg><rdg><gap extent="6" reason="lost" unit="character"/></rdg></app><lb n="2" type="worddiv"/>λιον</w>  <w lemma="καί">κα<supplied reason="lost">ὶ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>ὸν</w> <w lemma="ἐπί">ἐπ'</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="κόσμος">κόσμον</w> <w lemma="ὁ">τῶι</w> <w lemma="δῆμος">Δή<app type="previouslyread"><rdg resp="previous">μωι</rdg><rdg><gap extent="3" dim="right" reason="lost" unit="character"/></rdg></app></w></ab></div>
+</div>
+
+<div type="apparatus">
+<head>Apparatus</head>
+<p>Letters highlighted were seen by Reinach but not by us</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>i: Antipatros son of Menis, the epistyle and the decoration on it for the People.</p><p>ii: Dionysios son of Adrastos the son of Dionysios, the epistyle and the decoration on it for the People.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>This is one of a group of such texts, almost all found re-used near the South-east Gate, dedicating an <term>epistylion</term>, with its decoration (<term>kosmos</term>) to the Demos: <xref type="inscription" n="1126" href="120405">12.405</xref> (=CIG 2752), <xref type="inscription" n="1103" href="120503">12.503</xref> (=LBW 1589), <xref type="inscription" n="1104" href="120504">12.504</xref> (= LBW 1591), <xref type="inscription" n="1127" href="120505">12.505</xref> (=MAMA 439), <xref type="inscription" n="1128" href="120506">12.506</xref> (=MAMA 440), <xref type="inscription" n="1129" href="130503">13.503</xref> (=MAMA 441), <xref type="inscription" n="1130" href="120406">12.406</xref> (=MAMA 442), <xref type="inscription" n="1131" href="120407">12.407</xref> (=MAMA 443), <xref type="inscription" n="1132" href="120408">12.408</xref> (=MAMA 442), <xref type="inscription" n="1133" href="120404">12.404</xref> (= Reinach 127 and 128).</p>
+<p>The group discussed by<bibl n="jmr1990"><author>Reynolds</author>, 'Inscriptions and the Building of the Temple', <title>Aphrodisias Papers </title>(Ann Arbor, 1990), 37-40, 39.</bibl>.</p></div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Walls, South-east Gate</rs>: '<foreign lang="fr">au dégagement de la statue de femme</foreign>' Gaudin; reused together to create a course on top of elements of a  tomb at the East gate (which bears <xref type="inscription" n="1009" href="130301">13.301</xref> [=MAMA 472-3], <xref type="inscription" n="1010" href="130302">13.302</xref> 474-6], <xref type="inscription" n="1012" href="120609">12.609</xref> and <xref type="inscription" n="1527" href="120411">12.411</xref>)</rs><rs type="origLocation">Unknown</rs>; <rs type="lastLocation">Findspot (1976)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); publications.</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>i recorded by K&amp;R (K III.55, Abklatsch 62); i and ii recorded by Gaudin (49 and 50);both found again by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>i published by <bibl type="primary" n="kubreich1893"><author>Kubitschek and Reichel</author>, no. <biblScope>4</biblScope></bibl>; i and ii published, from Gaudin, by <bibl type="primary" n="reinach"><author>Reinach</author>, <biblScope>127</biblScope> and <biblScope>128</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257003">124</biblScope>, <biblScope n="257005">126</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>
+<figure href="76_J_00A"><figDesc>i: Face (1976)</figDesc></figure>
+<figure href="76_J_01A"><figDesc>i: Face (1976)</figDesc></figure>
+<figure href="76_J_02A"><figDesc>i and ii: Face (1976)</figDesc></figure>
+<figure href="76_J_03A"><figDesc>ii: Face (1976)</figDesc></figure>
+<figure href="76_J_04A"><figDesc>ii: Face (1976)</figDesc></figure>
+</p>
+</div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="K_III_55"><figDesc>i: Kubitschek notebook III.55</figDesc></figure></p></div></body></text>
+</TEI>

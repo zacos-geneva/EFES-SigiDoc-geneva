@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130157" n="iAph0160 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m">Fragment of <rs type="textType"><rs type="textType">funerary</rs> <rs type="textType">verse</rs></rs></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language><language id="de">German</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-06-02</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-29</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A <rs type="material" key="marmor">white marble</rs> fragment, apparently of a <seg cert="low"><rs type="objectType">sarcophagus</rs></seg> front,
+(<measure type="length" unit="metre" dim="height">0.78</measure>  × <measure type="length" unit="metre" dim="width">0.85</measure>  × <measure type="length" unit="metre" dim="depth">0.16</measure>), broken above and below.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> a above and b within a <term lang="la">tabella
+ansata</term>.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p><measure type="length" unit="metre" dim="height">0.03-0.055</measure>;
+irregular.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0301" notAfter="0400">Fourth century</date> or later.</p>
+      </div>
+
+      <div type="edition" lang="grc">
+        <head lang="en">Edition</head>
+        
+		  <div type="textpart_fragment" n="a"><ab>
+		  	<lb n="0"/><gap reason="lost" dim="top" extent="unknown" unit="line"/> 
+			<lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">μι</unclear>ο<unclear reason="damage">ι</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/> 
+			<lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><space dim="horizontal"/><gap dim="right" reason="lost" extent="unknown" unit="character"/> 
+			<lb n="3"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><space dim="horizontal"/><gap dim="right" reason="lost" extent="unknown" unit="character"/> 
+			<lb n="4"/><gap dim="left" reason="lost" extent="unknown" unit="character"/> <date><orig n="unresolved">εν</orig> <w lemma="εἰκάς">εἰκάδι</w> 
+			<lb n="5"/><gap dim="left" reason="lost" extent="unknown" unit="character"/> <w lemma="μείς"><supplied reason="lost">μ</supplied>ηνὸς</w> </date><orig n="unresolved"><unclear reason="damage">σ</unclear></orig> <space dim="horizontal"/> 
+			<lb n="6"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">οντος</orig> <space dim="horizontal"/></ab></div>
+        
+		  <div type="textpart_fragment" n="b"><lg>
+			<l>
+        		<lb n="1"/><w lemma="δυσμενής">δυσμενέ<lb n="2" type="worddiv"/>ων</w> <w lemma="ἀπάνευθε">ἀπά<lb n="3" type="worddiv"/>νευθε</w>, <w lemma="φίλος">φί<lb n="4" type="worddiv"/>λων</w> <w lemma="χείρ">χερ<lb n="5" type="worddiv"/>σὶν</w> <w lemma="ἑταῖρος">ἑταί<lb n="6" type="worddiv"/>ρων</w> <g type="cross"/>.
+			</l>
+		  </lg></div>			
+      </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>a, l.1. <foreign lang="grc">Μ</foreign> might be
+<foreign lang="grc">Α</foreign>.</p>
+        <p>There is no indication of how much is missing to either
+side in ll. 2 ff.</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>a. <gap reason="lost" dim="top" extent="1" unit="line"/> <seg cert="low">on the</seg> twentieth
+of the month <gap reason="lost" dim="top" extent="1" unit="line"/></ab>
+        <ab>b. <gap reason="lost" dim="top" extent="1" unit="line"/> far from enemies,
+by the hands of dear friends.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="IX.24">IX.24</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p> <rs type="found"><rs type="monuList" cert="low">Necropolis, North-east</rs>:  '<foreign lang="de"><abbr>ostl.</abbr> von Aphrodisias. Acker
+des Hadji Ibraham = Weinberg</foreign>' (Kubitschek).</rs> <rs type="origLocation">Unknown.</rs> <rs type="lastLocation">Findspot (1893).</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Copied by <rs type="visitor" key="kubitschek">Kubitschek</rs>, 9 June <date value="1983" notBefore="1983" notAfter="1983" exact="both">1893</date> (K. III, 16,
+<foreign lang="de">Abklatsch</foreign> 83); not reported subsequently.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="cormack1964"><author>Cormack</author> (<date value="1964" notBefore="1964" notAfter="1964" exact="both">1964</date>) 19,<biblScope> 9</biblScope>, and fig. 1</bibl>, whence
+<bibl type="hbi" n="robert1966"><author>Robert</author>, <title level="m">AC</title> 35, 1966, 38</bibl>; by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no.
+<biblScope>160</biblScope>.a</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257644">757</biblScope></bibl> and <title level="m">b</title>, whence <bibl><title level="m">PHI</title>
+<biblScope>739</biblScope></bibl>, <bibl type="hbi" n="steinepig"><title level="m">Steinepigramme</title> <biblScope>02/09/34</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Kubitschek notebook.</p>
+      </div>
+
+      
+
+    <div type="figure" n="transcriptions">
+        <head>Representations</head>
+        <p><figure href="K_III_16"><figDesc>Transcription by Kubitschek, Notebook 3, p. 16</figDesc></figure></p></div>
+
+      
+
+      
+
+    </body>
+  </text>
+</TEI>

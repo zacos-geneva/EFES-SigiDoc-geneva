@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120013" n="iAph0626 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType"> Gladiator memorial</rs> for Patroklos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A <rs type="material">white marble</rs> <rs type="objectType">altar-stele</rs>, with simple moulding above on three sides, and below on face (<measure dim="height" unit="metre" type="length">0.88</measure> x <measure dim="width" unit="metre" type="length">0.36</measure> x <measure dim="depth" unit="metre" type="length">0.34</measure>). Relief on the face (damaged) of a <rs type="decoration">gladiator</rs> advancing to his left. He has body armour, boots, and a helmet with a crest, and holds a long shield in front of him; his sword arm is lost.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face, above a relief</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>standard forms, c. <measure dim="height" type="length" unit="metre">0.025</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0300" notBefore="0100"> Second to third centuries A.D.</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <persName type="aphrodisian"><name reg="Πάτροκλος">Πάτροκλος</name></persName> </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Patroclus.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>For an Achilles, see Robert, Gladiateurs, 300, Sabbatini, Roma 108. For another Homeric name, see <xref type="inscription" n="627" href="120016">12.16</xref></p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Walls, North</rs>: to the north of the north wall of the Stadium (1892) with <xref type="inscription" n="625" href="120015">12.15</xref>, <xref type="inscription" n="627" href="120016">12.16</xref></rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; notebook;  transcription (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+
+<p>Copied by Reichel (R.I.10) with <xref type="inscription" n="625" href="120015">12.15</xref>, <xref type="inscription" n="627" href="120016">12.16</xref> and by Kubitschek (K.IV, endpaper); recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>mentioned by <bibl n="kubreich1893">Kubitschek and Reichel, no.<biblScope>2</biblScope></bibl>, whence <bibl n="robertglad">Robert, Gladiateurs, no. <biblScope>159</biblScope></bibl>; published from Reichel's notes by <bibl n="hell5">Robert, Hell. V, 93-5</bibl>. Published by <bibl n="PPA">Roueché, PPA <biblScope>26</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p> <figure href="89_D_28A"><figDesc>Face (1989)</figDesc></figure><figure href="89_D_29A"><figDesc>Face (1989)</figDesc></figure></p>
+</div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="R_I_10"><figDesc>Reichel, notebook I, 10</figDesc></figure><figure href="K_III_63"><figDesc>Kubitschek, notebook III, 63</figDesc></figure></p></div></body></text>
+</TEI>

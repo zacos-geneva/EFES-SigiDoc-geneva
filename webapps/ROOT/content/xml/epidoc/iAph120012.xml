@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120012" n="iAph0399 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">   <rs type="textType">Honours</rs> probably for Kallikrates son of Molossos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-07-24</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
+  
+  <change><date>2007-04-02</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date>2005-09-01</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Part of a <rs type="material" key="marmor">white marble</rs> <rs type="objectType">stele</rs>, broken away above and to the left (<measure type="length" unit="metre" dim="width">0.55</measure> × <measure type="length" unit="metre" dim="height">1.05</measure> × <measure type="length" unit="metre" dim="depth">0.12-0.15</measure>). with a relief below of a <rs type="decoration">lion</rs> apparently with hind legs on a base, a <rs type="decoration">dog</rs> below, and a <rs reg="victory (winged)" type="decoration">winged victory</rs> to the right, her hand upholding the lower right corner of a moulded panel.</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro"> Inscribed</rs> on the moulded panel above.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p>First to second century A.D.; <measure dim="height" type="length" unit="metre">0.03</measure>.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p><date notAfter="0125" notBefore="0075" exact="none" cert="low">Late first or early second century A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="0"/><gap reason="lost" dim="top" extent="unknown" unit="line" id="gap01"/><certainty target="gap01" locus="#gi" degree="low"/><lb n="0a"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><space extent="1" unit="line" dim="vertical"/><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig><w lemma="πρόγονος"><unclear reason="damage">προ</unclear>γόνων</w><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><w lemma="ὁ"><supplied reason="lost">τ</supplied>ῶν</w> <w lemma="ναός">να<unclear reason="damage">ῶ</unclear>ν</w> <w lemma="ὁ">τῶν</w><lb n="3"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><w><supplied reason="lost" cert="low">ἐν Ἀφ</supplied>ροδεισιάδι</w>  <space extent="2" unit="character" dim="horizontal"/></ab>
+</div>
+
+<div type="apparatus"><head>Apparatus</head><p>We do not know how many lines are lost above l. 1.</p><p>l. 1, the leftmost stroke is compatible with <foreign lang="grc">Ν</foreign>, perhaps, then, from τῶν, but not certainly so</p></div>
+
+
+
+<div type="translation">
+<head>Translation</head>
+<p>. . . ] of his ancestors [ . . ? . . .] of the temples the [ . . ? . . .] ?in Aphrodisias.</p></div>
+
+ <div type="commentary">
+<head>Commentary</head>
+<p>It would be reasonable to interpret this text as a record of the restoration of memorials to his ancestors by an Aphrodisian of the late first or early second century A.D., probably Kallikrates son of Molossos, who recorded such activity in <xref type="inscription" n="529" href="120402">12.402</xref>, <xref type="inscription" n="530" href="120701">12.701</xref>, with particular reference to the late Republican Kallikrates son of Pyhthodoros, <xref type="inscription" n="531" href="110301">11.301</xref> (cf also <xref type="inscription" n="528" href="120103">12.103</xref>, <xref type="inscription" n="531" href="110301">11.301</xref>).</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">Walls, North</rs> by the Stadium</rs>.  <rs type="origLocation">Unknown</rs>. <rs type="lastLocation">Museum (1980)</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1979 (<rs type="siteNo">Museum 49</rs>).</p>
+  </div>
+
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="figure" n="photographs"><head>Photographs</head><p><figure href="80_B_18"><figDesc>Face (1980)</figDesc></figure><figure href="80_E_22A"><figDesc>Face (1980)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161248">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" cert="low">Invocation</rs>s to the winds</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <seg cert="low"><rs type="objectType">altar</rs></seg> (<measure type="length" unit="metre" dim="width">0.22</measure> × <measure type="length" unit="metre" dim="height">0.66</measure> × <measure type="length" unit="metre" dim="depth">0.175</measure>) with simple moulding above on all four sides and below on three (a, c and d); on face a there is a relief of <rs type="decoration">busts</rs> of <rs type="decoration">sun</rs> and <rs type="decoration">moon</rs> above and an <rs type="decoration">eagle</rs> below.</p>
+</div><div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on three faces, in each case above an area which shows signs of erasure,</p>
+</div><div type="description" n="letters"><head>Description of Letters</head><p><measure dim="height" type="length" unit="metre">0.02</measure>; lunate <term lang="grc-Latn">sigma</term>, <term lang="grc-Latn">omega</term>, lunate and square <term lang="grc-Latn">epsilon</term>; poorly aligned.</p>
+</div>
+
+<div type="description" n="date">
+<head>Date</head>
+<p>Perhaps
+<date notBefore="0101" notAfter="0200" exact="none" cert="low">second century A.D.</date>
+(<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="a"><ab><lb n="1"/>  <persName type="divine" full="yes">Νο<lb n="2" type="worddiv"/>τος</persName>  </ab></div><div type="textpart_section" n="b"><div type="textpart_section" n="i"><ab><lb n="1"/><persName type="divine" full="yes">Ζέφυ<lb n="2" type="worddiv"/>ρος</persName></ab></div><div type="textpart_section" n="ii"><ab><lb n="1"/><persName type="divine" full="yes">Βορέ<lb n="2" type="worddiv"/>ας</persName></ab></div></div><div type="textpart_section" n="c"><ab><lb n="1"/><persName type="divine" full="yes">Ἀφηλι<lb n="2" type="worddiv"/>ωτης</persName></ab></div>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>a:South wind</p><p>b:North Wind, West Wind</p><p>c:East Wind</p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p> [[...]]</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+ <rs type="found">Unknown</rs> <rs type="origLocation">Unknown</rs>
+ <rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded in the Museum by the NYU expedition (<rs type="siteNo">Museum 106</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>[[66.1.62, 66.2.23, 38, 39]]</p>
+
+</div></body></text>
+</TEI.2>

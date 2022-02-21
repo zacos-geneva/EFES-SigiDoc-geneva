@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161756">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragmentary   <rs type="textType">honours</rs></title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>Two fragments (not joining) from a <rs type="material">white marble</rs> <rs type="objectType">panel</rs> inscribed within a raised and moulded border ( a: <measure dim="height" type="length" unit="metre">0.27</measure> x <measure dim="width" type="length" unit="metre">0.24</measure> x <measure dim="depth" type="length" unit="metre">0.08</measure>; b: <measure dim="height" type="length" unit="metre">0.25</measure> x <measure dim="width" type="length" unit="metre">0.25</measure> x <measure dim="depth" type="length" unit="metre">0.08</measure>). </p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>nscribed on the face, which  is drafted at the edges.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>cursive, irregular, deeply cut; 0.025 - 0.035</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date> I-IV</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">formula</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><gap reason="lost" extent="3" unit="character"/><orig n="unresolved">ν<unclear reason="damage">οεδιισ</unclear></orig><gap reason="lost" extent="1" unit="character"/>  <lb n="3"/><gap reason="lost" extent="4" unit="character"/><orig n="unresolved">α<unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="2" unit="character"/><orig n="unresolved">ν</orig>  <w>σωφρό<lb n="4" type="worddiv"/><supplied reason="lost">νως</supplied></w> <w lemma="καί"><unclear reason="damage">κ</unclear>αὶ</w> <w lemma="πρός">π<unclear reason="damage">ρ</unclear><supplied reason="lost">ὸς</supplied></w>  <w><supplied reason="lost">ὑ</supplied>ποδεῖγμα</w>  <lb n="5"/><w lemma="ἀρετή"><supplied reason="lost">ἀρ</supplied>ετῆς</w>  <space extent="3" unit="character" dim="horizontal"/>  <persName type="aphrodisian"><name><supplied reason="lost">Π</supplied>ολυκλει<lb n="6" type="worddiv"/><supplied reason="lost">τ</supplied>ε</name></persName> <w>ἥρως</w> <w>χρ<unclear reason="damage">ῆ</unclear><supplied reason="lost">στ</supplied>ὲ</w> <w>χαῖρε</w> <lb n="7"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> ...</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found">a: stray find; b: <rs type="monuList">Theatre</rs>: centre stage</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition, b in 1971 (<rs type="invNo">71.69</rs>) and a in 1979 (<rs type="invNo">79.15</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_D_09A"><figDesc>b (1977)</figDesc></figure><figure href="80_C_17"><figDesc>Together (1980)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080045" n="iAph0578 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Unassigned fragment of Archive Wall</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>1982</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr1982">Reynolds (<date>1982</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>2007-03-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>DONE</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Archive wall: fragment without edges (<measure type="length" unit="metre" dim="width">0.07</measure> x <measure type="length" unit="metre" dim="height">0.18</measure> x <measure type="length" unit="metre" dim="depth">0.018</measure>)</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>second to third centuries A.D.; <measure type="length" unit="metre" dim="height">0.02</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab>
+<lb n="0"/>
+<gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="1"/>
+<gap reason="lost" extent="unknown" unit="character"/> <orig n="unresolved"><unclear reason="damage">ι</unclear>ε<unclear reason="damage">ι</unclear></orig>
+<gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="2"/>
+<gap reason="lost" extent="unknown" unit="character"/> <orig n="unresolved"><unclear reason="damage">ι</unclear>
+<unclear reason="damage">δ</unclear></orig>
+<gap reason="lost" extent="unknown" unit="character"/> 
+<lb n="2a"/>
+<gap reason="lost" extent="unknown" unit="character"/> </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l.2: Δ̣ might be Α̣ or Λ̣.</p>
+</div>
+<div type="translation" n="none">
+<head>Translation</head>
+<p>No translation possible..</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See Aphrodisias and Rome, 144-146.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Theatre</rs>, north parodos, fallen.</rs>
+<rs type="origLocation"><rs type="monuList">Theatre</rs>: north parodos wall.</rs>
+<rs type="lastLocation">Museum</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1969 (<rs type="invNo">69.469</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl type="primary" n="jmr1982"><author>Reynolds</author>, <title level="m">Aphrodisias &amp; Rome</title>, Appendix I, <biblScope> A.5.b</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title>  <biblScope n="256920">42</biblScope>
+</bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>... </p>
+</div></body></text>
+</TEI>

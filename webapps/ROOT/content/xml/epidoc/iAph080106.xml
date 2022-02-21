@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080106" n="iAph0610 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Acclamation</rs> of city Tyche and the Greens</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term><term><rs type="textType" key="cetera">Factional</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment from a <rs type="material">white marble</rs> <rs type="objectType">door post</rs> (<measure dim="height" unit="metre" type="length">1.26</measure> x <measure dim="width" unit="metre" type="length">0.50</measure> x <measure dim="depth" unit="metre" type="length">0.28</measure>) from one of the two door frames in the Ionic register of the stage front decoration</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> with a graffito at 0.26 from edge on the inner face. There seems to have been an attempt to erase the second line.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>0.02-0.035-0.015 (o). Square sigma, cursive eta</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0600" notBefore="0400">Fifth-sixth centuries A.D.</date>
+(<rs type="criteria">content</rs>, <rs type="criteria">context</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ">τῆς</w> <w lemma="πόλις">πόλεος</w> <lb n="2"/> <w lemma="καί">κὲ</w> <w lemma="ὁ">τον</w> <w lemma="πράσινος">Πρ<unclear reason="damage">α</unclear>σίνων</w>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>The fortune of the city and of the Greens triumphs!</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> See PPA ad loc.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Theatre</rs> V</rs>
+<rs type="origLocation"><rs type="monuList">Theatre</rs>: Ionic register of the stage front decoration</rs>
+<rs type="lastLocation">East of Theatre</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>transcriptions (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+
+<p>Recorded by the NYU expedition in 1967 (excavation inventory no. <rs type="invNo">67.539</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>An inferior text published by Roueché as <bibl n="ALA">ALA <biblScope>183</biblScope></bibl>; republished by <bibl n="PPA">Roueché, PPA <biblScope>10</biblScope></bibl></p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p> <figure href="89_B_31"><figDesc>Block (1989)</figDesc></figure><figure href="89_B_30"><figDesc>Detail (1989)</figDesc></figure></p>
+</div></body></text>
+</TEI>

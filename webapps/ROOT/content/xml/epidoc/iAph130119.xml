@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130119" n="iAph1225 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Votive</rs> <rs type="textType">dedication</rs> by children of Hermias</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>A <rs type="material" key="marmor">white marble</rs> <rs type="objectType">altar</rs> (<measure type="length" unit="metre" dim="width">0.305</measure> at top, <measure type="length" unit="metre" dim="width">0.265</measure> centre, <measure type="length" unit="metre" dim="width">0.35</measure> at base × <measure type="length" unit="metre" dim="height">0.84</measure> × <measure type="length" unit="metre" dim="depth">0.56</measure>) with moulding above and below on three sides, which has been cut away on the left side. The back is rough.</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> (l. 1) on the upper moulding, and (ll. 2-5) on the face, above a relief of a <rs type="decoration">swag</rs> with a <rs type="decoration">pendant object</rs>.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.0175–0.024</measure>; square <term lang="la">sigma</term>, lunate <term lang="la">omega</term></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0300" exact="none">First to third centuries A.D.</date> (<rs type="criteria">terminology</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="θεός">θεοῖς</w> <w lemma="ἐπήκοος">ἐπηκόοις</w><lb n="2"/> <persName type="aphrodisian"><name reg="Εὐάνθης">Εὐάνθης</name></persName> <w lemma="καί">κ<supplied reason="omitted">α</supplied>ὶ</w><lb n="3"/> <persName type="aphrodisian"><name reg="Φιλήτης">Φιλήτη</name></persName> <w lemma="ὁ">οἱ</w> <persName type="aphrodisian"><name reg="Ἑρμίας">Ἑρμί<lb n="4" type="worddiv"/>ου</name></persName> <w lemma="ὑπέρ">ὑπὲρ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἴδιος">ἰ<lb n="5" type="worddiv"/>δίων</w>  <w lemma="εὐχή">εὐχήν</w></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>To the gods who listen: Euanthes and Philete, children of Hermias <supplied reason="subaudible">paid</supplied> the <rs type="subject">vow</rs> for their family.</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p>No commentary yet (2007)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="origLocation">Unknown</rs><rs type="found"><rs type="monuList">Necropolis, North-east</rs>: Turkish cemetery: re-used in the east wall</rs> <rs type="lastLocation">findspot (1976).</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); publications</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Gaudin (56);  by the MAMA expedition;  by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl type="primary"><author>Reinach</author>, from Gaudin, <title level="j">REG</title> 19, 1906, 108, no. <biblScope>23</biblScope></bibl>, whence <bibl n="weinreich1912">Weinreich, <title>MDAI(A)</title> 37, 1912, 20, no. 94</bibl>; by <bibl type="primary" n="MAMA8"><author>Cormack</author>, from the MAMA records, MAMA 8, <biblScope>456</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257052">173</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="76_E_03"><figDesc>Face (1976)</figDesc></figure>
+</p>
+</div></body></text>
+</TEI>

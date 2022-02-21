@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090025" n="iAph0881 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="building dedication"> Building dedication</rs> of Sebasteion portico for Aphrodite, Emperors and Demos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor> <date>1981</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr1981b">Reynolds (<date>1981</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+
+  
+  <change><date>2007-03-05</date><respStmt><name>GB</name></respStmt><item>DONE</item></change><change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Nine fragments of six <rs type="material" key="marmor">white marble</rs> <rs type="objectType">architrave</rs> blocks.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> in two lines on the two <term lang="la">fasciae</term>.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Ave. <measure type="length" unit="metre" dim="height">0.07</measure>; <rs type="decoration">star</rs> and <rs type="decoration">dolphin</rs> for stops.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0054" notBefore="0041" exact="both"> A.D. 41-54</date> (<rs type="criteria">reign</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <milestone unit="block" n="a"/> <persName type="divine"><name>Ἀφροδίτηι</name></persName> <g type="star"/>  <w>θε<gap reason="omitted" extent="1" unit="character"/>ι</w>  <persName type="divine">Σεβαστ<milestone unit="block" n="b"/><gap reason="omitted" extent="unknown" unit="character"/></persName>  <persName type="emperor"><name reg="Τιβέριος" type="praenomen"><supplied reason="omitted">Τιβερ</supplied>ίωι</name> <name reg="Κλαύδιος">Κλαυδίωι</name> <w lemma="καῖσαρ">Κ<milestone unit="block" n="c"/><supplied reason="lost">αί</supplied>σαρι</w></persName><g type="star"/> <w lemma="ὁ">τῶι</w> <w lemma="δῆμος">Δήμωι</w> <g type="dolphin"/><milestone unit="block" n="d"/> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβέριος</name> <name reg="Κλαύδιος">Κλαύδιος</name> <milestone unit="block" n="e"/><name reg="Διογένης">Διογένης</name></persName> <w lemma="φιλοπολίτης">φιλοπολίτης</w>  <milestone unit="block" n="f"/><w lemma="ὅς">ἃ</w> <w lemma="ἐπαγγέλλω">ἐπηνγείλατο</w> <lb n="2"/>   <milestone unit="block" n="a"/><space extent="3" unit="character" dim="horizontal"/> <persName type="aphrodisian"><name reg="Διογένης">Διογένης</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="πατήρ">πατὴ<milestone unit="block" n="b"/><supplied reason="lost">ρ</supplied></w>  <w lemma="αὐτός"><supplied reason="lost">α</supplied>ὐτοῦ</w> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ἀτταλίς">Ἀτταλὶς</name></persName> <space unit="character" extent="1"/>  <milestone unit="block" n="c"/> <w lemma="καί">καὶ</w> <w lemma="ὑπέρ">ὑπὲρ</w> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἀττάλ<milestone unit="block" n="d"/>ου</name></persName> <w lemma="ὁ">τοῦ</w> <w lemma="θεῖοσ1">θείου</w> <w lemma="ὁ">τὸ</w> <w lemma="κατά">καθ'</w> <w lemma="ἑαυτοῦ">ἑαυτὸν</w> <w lemma="μέρος">μέρος</w> <space unit="character" extent="1"/> <w>ἀποκα</w>  <w><supplied reason="lost">θ</supplied>έσστησεν</w>    <space extent="3" unit="character" dim="horizontal"/></ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 1, The first letters of the second block were never incised, although traces of an ordinator's tool may be detected.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>For Aphrodite, for the God (?Goddess) Augustus (?Augusta), for Tiberius Claudius Caesar, for the People, Tiberius Claudius Diogenes, friend of the citizens, restored what Diogenes his father promised, and Attalis, and also on behalf of his uncle Attalos his part.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>It cannot be determined with certainty whether this is a dedication to a god Augustus—so Augustus himself–or a goddess Augusta—refering to Livia. See Reynolds, loc. cit.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Sebasteion</rs>: in the South Portico</rs>
+<rs type="origLocation">Architrave of the south portico of the <rs type="monuList">Sebasteion</rs></rs>
+<rs type="lastLocation">Museum (1980)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1979 and 1980 (a.  <rs type="invNo">79.109</rs>; b.  <rs type="invNo">80.66</rs> + <rs type="invNo">80.67</rs>; c.  <rs type="invNo">80.60</rs>; d.  <rs type="invNo">80.62</rs> + <rs type="invNo">80.65</rs>; e. <rs type="invNo">80.64</rs> + <rs type="invNo">80.63</rs>. f. <rs type="invNo">80.91</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>published by <bibl n="jmr1981b">Reynolds, ZPE 43 (1981), 317-27, no.<biblScope>1</biblScope></bibl>, whence <bibl n="seg">SEG 31, <biblScope>1981.913</biblScope></bibl>, <bibl n="be">BE 1982, <biblScope>356</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="256984">106</biblScope>
+</bibl>; mentioned Erim, RA (1982) I, 165, Erim, Britannia 13, (1982), 278 (l. 1)</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="80_B_06"><figDesc>Block a. (1980)</figDesc></figure><figure href="80_B_08"><figDesc>Block b. left end (1980)</figDesc></figure><figure href="80_B_09"><figDesc>Block b. right end (1980)</figDesc></figure><figure href="80_F_07"><figDesc>Block c. (1980)</figDesc></figure><figure href="80_A_21"><figDesc>Block d. right end (1980)</figDesc></figure><figure href="80_A_08"><figDesc>Block d. left end (1980) </figDesc></figure><figure href="80_A_09"><figDesc>Block e. right end</figDesc></figure><figure href="80_B_04"><figDesc>Block e. right end (1980)</figDesc></figure><figure href="81_A_18"><figDesc>Block f. (1981)</figDesc></figure></p>
+</div></body></text>
+</TEI>

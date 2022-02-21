@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120539" n="iAph1033 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Honours</rs> for M. Aur. Cl. Ktesias</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date>2005-02-16</date><respStmt><name>Artemis Papakostouli</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType" reg="statue base">base</rs> capital with heavy moulding above (top <measure type="length" dim="none">0.68</measure>   × <measure type="length" dim="none">0.70</measure>; shaft <measure type="length" dim="none">0.42</measure>   × <measure type="length" dim="none">0.37</measure>; height <measure type="depth" dim="none">0.32</measure>), broken away to right.</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the upper moulding (l.1) on lower fascia (l.2) and on the shaft (l.3 ff). The text very probably continued on a base below.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p>Letters: <measure type="length" unit="metre" dim="height">0.0175</measure>; ligatures, <foreign lang="grc">ΗΜ</foreign> l.1, <foreign lang="grc">ΜΗ</foreign> l.2; superscript bars for abbreviation, l.4</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p>Probably <date exact="none" notAfter="0300" notBefore="0201">third century</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="1"/><w lemma="ὁ">ἡ</w>  <w lemma="βουλή">βουλὴ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δ<hi rend="ligature">ῆμ</hi><unclear reason="damage">ο</unclear><supplied reason="lost">ς</supplied></w>  <supplied reason="lost"><w lemma="καί">καὶ</w>  <w lemma="ὁ">ἡ</w>  <w lemma="γερουσία">γερουσία</w></supplied>  <lb n="2"/><w lemma="τιμάω">ἐτεί<hi rend="ligature">μη</hi>σαν</w>  <w lemma="ὁ">ταῖς</w>  <w lemma="καλός">καλ<supplied reason="lost">λίσταις</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <lb n="3"/><w lemma="πρέπω">πρεπούσαις</w>  <w lemma="τιμή">τειμαῖ<supplied reason="lost">ς</supplied></w><lb n="4"/><persName full="yes" reg="Μᾶρκος  Αὐρήλιος  Κλαύδιος  Κτησίας  Διογᾶς" type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μᾶρ</abbr><supplied reason="abbreviation">κον</supplied></expan></name>  <name type="nomen" reg="Αὐρήλιος"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation">ήλιον</supplied></expan></name>  <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αύδιον</supplied></expan></name>  <name reg="Κτησίας">Κτησία<unclear reason="damage">ν</unclear></name>  <persName type="aphrodisian"><name reg="Διογᾶς"><supplied reason="lost">Δι</supplied><lb type="worddiv" n="5"/>ογᾶ</name>  <w lemma="ὁ">τοῦ</w>  <persName type="aphrodisian"><name type="        " reg="Ἡλιόδωρος">Ἡλιοδώρ<supplied reason="lost">ου</supplied></name></persName></persName></persName><lb n="5a"/><gap unit="line" reason="lost" extent="unknown" dim="bottom"/></ab>
+</div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); Gaudin's squeeze; publications.</p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>The Council and the People [ and ? the Gerousia] honoured with the finest [and] fitting honours Mar(cus) Aur(elius) Cl(audius) Ktesias, [son of Di]ogas the son of Heliodoros [ . . .</p></div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>It is probable that the honorand became Marcus Aurelius following the Edict of Caracalla on citizenship in A.D. 212,  since he refers to his father and grandfather in the Greek manner, not that of a Roman citizen; but it is also probable that his family already had Roman citizenship as Claudii, being in that case one of the really early Aphrodisian families to receive it (from the emperor Claudius). Their continued use of the Greek manner of reference to ancestors is of particular interest in this connection.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Walls, South-east</rs>: lying loose on the inner side of the wall, near <xref type="inscription" n="1163" href="080113">8.113</xref> (MAMA 435).</rs> <rs type="origLocation">Unknown</rs> <rs type="lastLocation">Findspot (1989)</rs></p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Gaudin; by the MAMA expedition; by the NYU expedition.</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="reinach" type="primary">Reinach, <title level="j">REG</title> 19, 1906, 132, no. <biblScope>61</biblScope></bibl>, whence (on line 4) <bibl>Robert, <title level="j">RPh</title> 3, 1929, 126, no. 5</bibl>, <bibl>SEG 4, 399</bibl>; by <bibl n="MAMA8">Cormack from the MAMA records, <title>MAMA</title> 8, no. <biblScope>503</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257137">258</biblScope></bibl>.</p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="89_C_33"><figDesc>Face (1989)</figDesc></figure><figure href="89_C_34"><figDesc>Face (1989)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

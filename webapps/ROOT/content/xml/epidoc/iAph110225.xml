@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110225" n="iAph0115 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="prayer/invocation">Prayer</rs> of Theodoros, 'the Bell'</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Juan Garcés</name></respStmt><item>Marked up inventory number(s)</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-29</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-25</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-25</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A <rs type="objectType">masonry block</rs> (<measure type="length" unit="metre" dim="height">0.58</measure>
+× <measure type="length" unit="metre" dim="width">0.73</measure> ×
+<measure type="length" unit="metre" dim="depth">0.25</measure>) pierced with five
+holes - the largest is in the centre, surrounded by four others
+arranged in a square. The holes do not impinge on the text, and could
+conceivably form part of the original monument, but it seems more
+probable that the stone was re-used. The surface is worn, especially
+at the lower left corner.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p> The inscription runs along the edge, below the holes.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>The letters are cut between guidelines; av. <measure type="length" unit="metre" dim="height">0.02</measure>; scroll, following or above
+letter, for abbreviation.</p>
+      </div>
+
+      <div n="date" type="description">
+        <head>Date</head>
+      <p><date notAfter="0900" notBefore="0401" cert="low">Fifth-tenth century A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">content</rs>)</p></div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<ab><lb n="1"/><unclear reason="undefined"><g type="cross"/></unclear> <w lemma="εὐχή">εὐχὴ</w> <persName key="Theodore3" type="aphrodisian" full="yes"><name reg="Θεόδωρος">Θεοδώρου</name></persName> <w lemma="ὁ">τοῦ</w> <w lemma="καί">καὶ</w> <persName key="kodon" type="aphrodisian" full="yes"><name reg="Κώδων">Κώδωνος</name></persName><lb n="2"/><gap reason="lost" dim="left" extent="2" unit="character"/><orig n="unresolved"><unclear reason="undefined">ιιι</unclear>ρο<unclear reason="damage">δο</unclear>νε<hi rend="ligature">ου</hi></orig> <w lemma="ὁ">τοῦ</w> <rs type="dignity" key="eulabestatos"><w lemma="εὐλαβής"><expan><abbr>εὐλαβ</abbr><supplied reason="abbreviation">εστάτου</supplied></expan></w></rs> <rs type="official-relig" key="protolector"><w lemma="πρωταναγνώστης"><expan><abbr>πρωταναγν</abbr><supplied reason="abbreviation">ώστου</supplied></expan></w></rs> <w lemma="καί"><expan><abbr>κ</abbr><supplied reason="abbreviation">αὶ</supplied></expan></w> <rs type="official-relig" key="superintendent"><w lemma="ἐφέστως">ἐφεστῶτο<supplied reason="lost">ς</supplied></w></rs>. </ab>
+      </div>
+      
+      <div type="translation">
+        <head>Translation</head>
+        <ab>Prayer of Theodoros, also called Bell, <seg cert="low">son of</seg> <gap reason="lost"/>
+the most pious chief <term lang="la">lector</term> and
+supervisor.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="VIII.2">VIII.2</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList">City, Water Channel area</rs>, section 5.</rs>. Original location: <rs type="origLocation">Unknown.</rs>. Last recorded location: <rs type="lastLocation">Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition (<rs type="invNo">68.269</rs>).</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias
+in Late Antiquity</title> no. <biblScope>115</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title>
+<biblScope n="257518">636</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcriptions (Reynolds, Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="NY1967-67-12"><figDesc>Face (1967)</figDesc></figure><figure href="77_BB_04"><figDesc>Face (1977)</figDesc></figure></p>
+      </div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

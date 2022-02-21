@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120540" n="iAph0109 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><seg cert="low">Dedicator's</seg> prayer</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-29</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change><date>2003-08-25</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-25</date><respStmt><name>CMR</name></respStmt><item>checked</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>An Ionic <rs type="objectType">column capital</rs>, lying half buried. No measurements.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> on two consecutive faces of the upper moulding
+(abacus).</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>No description; perhaps a small circle for stop.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date cert="low" exact="none" notBefore="0301" notAfter="0600">Early or middle Byzantine</date></p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+        
+        <ab>
+          <lb n="1"/>
+          <gap dim="left" reason="lost" unit="character" extent="unknown"/>
+          <orig n="unresolved"><unclear reason="damage">λ</unclear>θ</orig>
+          <gap dim="internal" extent="2" unit="character" reason="lost"/>
+          <orig n="unresolved">οηβασι</orig>
+          <gap dim="internal" extent="1" unit="character" reason="lost"/>
+          <orig n="unresolved">ιαξοψ</orig>
+          <g type="stop"/>
+          <orig n="unresolved">τ</orig>
+          <gap dim="internal" extent="2" unit="character" reason="lost"/>
+          <orig n="unresolved">ν<unclear reason="damage">ο</unclear></orig>
+          <gap reason="lost" unit="character" extent="unknown" dim="right"/>
+        </ab>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <p>No words determinable</p>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head><p>See discussion at  <xref type="eAla-text" n="VII.24">VII.24</xref>.</p>
+      </div>
+
+      <div type="history" n="locations">
+        <head>Locations</head>
+        <p>
+          <rs type="found"><rs type="monuList">Walls, South-east</rs>: very
+near the site of <xref type="inscription" n="209" href="120516">12.516</xref>.</rs>
+          <rs type="origLocation">Unknown.</rs>
+          <rs type="lastLocation">Findspot.</rs>
+        </p>
+      </div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Copied by <rs type="visitor" key="bailie">Bailie</rs> (see <title level="m">Transactions of the Royal Irish Academy</title> 21, 26 June 1843, 50); not reported subsequently.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="bailie1846"><author>Bailie</author>, no. <biblScope>72e</biblScope></bibl>, whence <bibl type="hbi" n="LBW"><title level="m">LBW</title>
+<biblScope>1649</biblScope></bibl>, <bibl type="hbi" n="IGC"><title level="m">IGC</title> <biblScope>251</biblScope></bibl>, <bibl type="hbi" n="ramsay1897"><author>Ramsay</author>, <title level="m">CBP</title> 554, no. <biblScope>423</biblScope></bibl>, <bibl><title level="m">DACL</title> col. 795, no. <biblScope>1</biblScope></bibl>7, <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>109</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257522">640</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Bailie; no illustration.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

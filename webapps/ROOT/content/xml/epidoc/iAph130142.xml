@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130142" n="iAph1595 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> inscription for M. Aur. Tatianos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType"><rs type="objectType">sarcophagus</rs> lid</rs> (<measure type="length" unit="metre" dim="width">2.09</measure>  × <measure type="length" unit="metre" dim="height">0.40</measure>  × <measure type="length" unit="metre" dim="depth">0.84</measure>)</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>Inscribed along the rim.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.0175 - 0.0225</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <gap reason="lost" extent="12" unit="character" precision="circa"/><orig n="unresolved">α<unclear reason="damage">σ</unclear></orig> <w lemma="εἰμί">ἐστιν</w> <persName type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μ<unclear reason="damage">άρ</unclear></abbr><supplied reason="abbreviation">κου</supplied></expan></name> <name reg="Αὐρήλιος" type="nomen"><expan><abbr><unclear reason="damage">Α</unclear>ὐρ</abbr><supplied reason="abbreviation">ηλίου</supplied></expan></name> <name reg="Τατιανός">Τατιανοῦ</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Παπίας">Παπίου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Μενεσθεύς">Μενεσθέως</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Δέξιππος">Δε<supplied reason="lost">ξ</supplied>ίππου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Μένιππος" type="        ">Μενίππου</name></persName></persName></persName></persName></persName> <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p><foreign lang="grc">... ἐ]στιν</foreign> MAMA. They also saw further traces at the end of the text, in an area which appears to us to be blank</p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> No translation yet (2007)</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> No commentary yet (2007)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Necropolis, North-east</rs>: lying just north of the Kara硳u/Tabai road, east of the turn to Aphrodisias.</rs>
+<rs type="origLocation">Unknown; probably the necropolis of Aphrodisias</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publication; notebook; Preliminary transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Kubitschek (KV.1); by the MAMA expedition; by the NYU expedition</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p><bibl n="MAMA8">MAMA 8, no. <biblScope>563</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257340">462</biblScope>
+</bibl>
+</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p> No photographs</p>
+</div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="K_V_01"><figDesc>Kubitschek notebook V, 1</figDesc></figure></p></div></body></text>
+</TEI>

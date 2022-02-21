@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161113">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Column dedication</rs> to Demos (Boulanger copy)</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>Fragment of <rs type="material" key="marmor">blue marble</rs> <rs type="objectType">column</rs>, complete to right</p>
+</div><div n="text" type="description"><head>Description of Text</head><p>None</p></div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p> No measurements</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0000" notAfter="0000" cert="low"> ...</date>
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><w lemma="ὁ"><supplied reason="lost">τῷ</supplied></w>  <w>Δήμῳ</w><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><persName type="aphrodisian" full="yes"><name reg="Ἄδραστος"><supplied reason="lost" cert="low">Ἀδρά</supplied><unclear reason="damage">σ</unclear>του</name> <w lemma="ὁ">τοῦ</w> <lb n="3"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ου</orig>  <persName type="aphrodisian"><name>Ἀρτε<lb n="4"/><gap dim="left" extent="unknown" reason="lost" unit="character"/></name></persName></persName> <orig n="unresolved">γυστον</orig><lb n="4a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab>
+</div>
+
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 4 is difficult - perhaps <foreign lang="grc">ΤΩΝ</foreign> rather than <foreign lang="grc">ΤΟΝ</foreign>.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>. . . for] the People [ . . ] son of Adrastus the son of [? . . . ]us, son of Arte[- . . .</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>In line 3 the name may be Arte|<supplied reason="lost">mon</supplied>, or Arte|<supplied reason="lost">midorus</supplied>. For other column dedications from the Hadrianic Baths see two from a group of fourteen dedicated by Nestor and Zenon (<xref type="iAph">1111</xref> [=Mendel 173], and four from the six dedicated by Artemon (<xref type="iAph">1110</xref> [=Mendel 172]) and <xref type="iAph">1112</xref> [=84.64].</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+Original location: <rs type="origLocation">Unknown, but very probably from the 'salle au vingt colonnes', at the south east corner of the east court of the Hadrianic baths.</rs>
+Found: <rs type="found"><rs type="monuList">Hadrianic Baths</rs>: in the dry-stone wall south of the 'galerie de l'ouest' (the west portico of the East Court)</rs>; Last known location: <rs type="lastLocation">Findspot (1905)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); publications; Notebooks</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by Boulanger in 1905: notebook A Page 8, which is torn; B Page 23, no. 29 (7), C 9, no. 13; not found subsequently.</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="transcriptions">
+<head>Representations</head>
+<p>
+<figure href="Boulanger_A_11"><figDesc>Boulanger A, 11</figDesc></figure><!--<figure href="Boulanger_B_23"><figDesc>Boulanger B, 23??</figDesc></figure>--></p>
+</div></body></text>
+</TEI.2>

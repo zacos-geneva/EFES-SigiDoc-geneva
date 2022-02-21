@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph070002" n="iAph0100 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="dedication">Dedicatory</rs> <rs type="textType" reg="verse">poem</rs> <seg cert="low"><rs type="textType" reg="building inscription"/></seg></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+		<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Juan Garcés</name></respStmt><item>Marked up inventory number(s)</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-29</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change><date>2003-08-25</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-25</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Four fragments, two of which join, from a series of long, slightly concave <rs type="material" key="marmor">white marble</rs> <seg cert="low"><rs type="objectType">cornice</rs></seg> blocks. a., two joining fragments, with left edge surviving, <measure type="length" unit="metre" dim="width">0.76</measure>, <measure type="length" unit="metre" dim="depth">0.355</measure>; b., apparently a complete block, <measure type="length" unit="metre" dim="width">0.535</measure>, <measure type="length" unit="metre" dim="depth">0.39</measure>; c., complete at right, perhaps at left, <measure type="length" unit="metre" dim="width">0.485</measure>, <measure type="length" unit="metre" dim="depth">0.36</measure>.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> in one line along the slightly concave edge (<measure type="length" unit="metre" dim="height">0.16</measure>).</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p><measure type="length" unit="metre" dim="height">0.08</measure>; tall and clear-cut, with triangular trenches.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0600" exact="none" notBefore="0501">Sixth century A.D.</date>, or later</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<div type="textpart_fragment" n="a"><ab>
+		<lb n="1"/><milestone unit="block"/><g type="cross"/> <w lemma="ἐκ">ἐκ</w> <persName key="Mary" type="divine" full="yes"><name>Μαρίης</name></persName> <w lemma="θεόπαις">θεοπαῖδος</w> <w lemma="ἀπηνής">ἀπηνέος</w> <gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		</ab></div><div type="textpart_fragment" n="b"><ab><lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/> <w lemma="θεοδέγμων">θεοδέγμονα</w> <w lemma="κῆπος">κῆπον</w> <space dim="horizontal"/><milestone unit="block"/></ab></div><div type="textpart_fragment" n="c"><ab><lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">νι</orig> <w lemma="τίθημι">θῆκα</w> <w lemma="ὁ">τὸ</w> <w lemma="δῶμα">δῶμα</w> <g type="cross"/><milestone unit="block"/></ab></div>
+      </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>b. Reinach read <foreign lang="grc">ΘΕΟΔΕΙΜΟΝΑ</foreign> which was correctly emended by Grégoire.</p>
+        <p>c. <foreign lang="grc">ἀνεθήκατο</foreign> Grégoire; <foreign lang="grc"><seg type="damage"><supplied reason="lost">ἀ</supplied></seg>νίθηκα τὸ</foreign> ALA ed. 1; <foreign lang="grc"><w><gap dim="left" reason="lost"/><orig n="unresolved">νι</orig></w> θῆκα τὸ</foreign> Feissel (1991); <foreign lang="grc">θήκατο</foreign> Feissel (2002).</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+		<p>
+		a. From Mary, whose child was God, of harsh <gap dim="right" reason="lost"/>
+		</p><p>b. <gap dim="left" reason="lost"/> the God-receiving garden
+		</p><p>c. <gap dim="left" reason="lost"/> I set the house.
+		</p>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+		<p>See discussion at <xref type="eAla-text" n="VII.16">VII.16</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p><rs type="found">a. <rs key="Triconch" type="monuList">Martyrion</rs>: section 5, south wall. b. '<foreign lang="fr">narthex, côté nord</foreign>' <seg cert="low">of the Temple</seg> (Gaudin); found in the <rs type="monuList">Temple/Church</rs> by the NYU expedition (1961: notebook 4, 15); c: '<foreign lang="de"><rs type="monuList" reg="Village">Geira</rs>, Haus des Ishiklar, hoch oben eingemauert</foreign>' (Kubitschek), 'in a house wall' (<title level="s">MAMA</title>), stray find (NYU).</rs>.<rs type="origLocation"><rs type="monuList" cert="low">Martyrion</rs> or <rs type="monuList" cert="low">Temple/Church</rs>?</rs>.  <rs type="lastLocation">Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>c copied by <rs type="visitor" key="kubitschek">Kubitschek</rs> (K.V.6) and by <rs type="visitor" key="reichel">Reichel</rs> (R.I.30) and by the <rs type="visitor" key="calder">MAMA expedition</rs>; b recorded by <rs type="visitor" key="gaudin">Gaudin</rs> (69); a, b and c recorded by the NYU expedition in <date value="1961" notBefore="1961" notAfter="1961" exact="both">1961</date>, <date value="1962" notBefore="1962" notAfter="1962" exact="both">1962</date> and <date value="1969" notBefore="1969" notAfter="1969" exact="both">1969</date> (a: <rs type="invNo">62.437</rs>, c: <rs type="invNo">69.360</rs>)</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>b. Published by <bibl type="hbi" n="reinach"><author>Reinach</author>, from Gaudin, no. <biblScope>207</biblScope></bibl>, whence <bibl n="IGC"><title n="IGC" level="m">IGC</title> <biblScope>263</biblScope> and, from Reichel, <biblScope>264bis</biblScope></bibl>; c. published from the <title level="m">MAMA</title> records by <bibl type="hbi" n="MAMA8"><author>Cormack</author>, <title level="m">MAMA</title> 8, no. <biblScope>603</biblScope></bibl>; all published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>100</biblScope> and plate xxvi</bibl>, whence discussion by <bibl><author>Feissel</author> (<date>1991</date>), 372, n.25</bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257596">709</biblScope></bibl>, <bibl type="hbi" n="steinepig"><title level="m">Steinepigramme</title> <biblScope>02/09/97</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Publications; Kubitschek and Reichel notebooks; transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs"><head>Photographs</head><p><figure href="77_Y_31"><figDesc>A: Left end (1977)</figDesc></figure><figure href="77_Y_30"><figDesc>A: Right end (1977)</figDesc></figure><figure href="72_D_20A"><figDesc>A: Assembled (1972)</figDesc></figure><figure href="DO_36"><figDesc>B: Face (1969)</figDesc></figure><figure href="77_Y_27"><figDesc>C: Face (1977)</figDesc></figure></p></div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="K_V_06"><figDesc>C: Transcription by Kubitschek, Notebook 5, p.6</figDesc></figure><figure href="R_I_30"><figDesc>C: Transcription by Reichel, Notebook 1, page 30</figDesc></figure></p></div>
+
+      
+
+    </body>
+  </text>
+</TEI>

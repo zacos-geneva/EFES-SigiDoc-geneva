@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150362" n="iAph0157 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType"><rs type="textType">Funerary</rs> <rs type="textType">verse</rs></rs>  for Euphemia</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-06-02</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-29</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A plain <rs type="material" key="marmor">white marble</rs> <rs type="objectType">masonry block</rs> (<measure type="length" unit="metre" dim="height">0.235</measure> × <measure type="length" unit="metre" dim="width">0.40</measure> × <measure type="length" unit="metre" dim="depth">0.56</measure>), on the face of which a <rs type="decoration">tabella
+ansata</rs> has been incised. The face is fairly worn.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>The date, a, is written above the <term lang="la">tabella</term> and
+down the right side, which is worn; the main text, b, is
+written within the <term lang="la">tabella</term>, with each line of verse separated
+by an incised line.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Av. <measure type="length" unit="metre" dim="height">0.02</measure>;
+irregular.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date value="0543" notBefore="0543" notAfter="0543" exact="both">A.D. 543</date> or <date value="0558" notBefore="0558" notAfter="0558" exact="both">A.D. 558</date> (<rs type="criteria">indiction</rs>, <rs type="criteria">emperor</rs>).</p>
+      </div>
+
+      <div type="edition" lang="grc">
+        <head lang="en">Edition</head>
+        
+		
+		<div type="textpart_fragment" n="a"><ab>
+			<lb n="1"/><w lemma="βασιλεύω">βασιλεύοντος</w> <persName type="emperor" key="Justinian" full="yes"><name reg="Ἰουστινιανός">Ἰουστινιανοῦ</name></persName> 
+			<lb n="2"/><date><w lemma="ἰνδικτιών"><expan><abbr>ἰν<lb n="3" type="worddiv"/>δ</abbr><supplied reason="abbreviation">ικτίωνος</supplied></expan></w> 
+			<lb n="4"/><num value="7"><hi rend="supraline">ζ</hi></num> 
+			<lb n="5"/><w lemma="μείς"><expan><abbr>μη</abbr><supplied reason="abbreviation">νὸς</supplied></expan></w> 
+			<lb n="6"/><num value="1"><hi rend="supraline"><unclear reason="damage">α</unclear></hi></num></date><lb n="7"/><orig n="unresolved"><unclear reason="damage">π</unclear></orig>ο 
+			<lb n="8"/><gap reason="lost" extent="unknown" unit="character"/> 
+			<lb n="9"/><orig n="unresolved"><unclear reason="damage">ικ</unclear></orig> 
+		</ab></div>
+		
+<div type="textpart_fragment" n="b"><lg met="dactylic hexameter">								
+			<lb n="1"/>
+			<l n="1" real="+--+--+--+[--]+--++"><w lemma="ἐνθάδε">ἐνθάδε</w> <w lemma="ὁ">τὴν</w> <w lemma="ἱερός">ἱερὰν</w> <w lemma="κεφαλή">κεφαλὴν</w> <w lemma="γαῖα">γαῖα</w> <w lemma="καλύπτω">καλύπτει</w></l>
+			<lb n="2"/>
+			<l n="2"><w lemma="κούρη">κούρης</w> <w lemma="ὅς">ᾗ</w> <w lemma="ὁ">τὸ</w> <w lemma="πάροιθε">πάροιθεν</w> <w lemma="ἐπώνυμος">ἐπώνυμον</w> 
+			<lb n="3"/><w lemma="ὄνομα">οὔνομα</w> <w lemma="κεῖμαι">κεῖτο</w>·</l>
+			<lb n="4"/>
+			<l n="3"><w lemma="μῆτις">μήτιος</w> <w lemma="εὔφημος">εὐφήμοιο</w> <w lemma="καί">καὶ</w> <w lemma="οὐ">οὐκ</w> <w lemma="ἕτερος">ἑ
+			<lb n="5" type="worddiv"/>τέρ</w>' <w lemma="πέλω">ἔπλετο</w> <w lemma="φήμη">φήμης</w></l>			
+			<lb n="6"/>
+			<l n="4"><w lemma="εὐφυής">εὐφυέος</w> <w lemma="πινυτός">πινυτοῖσιν</w> <w lemma="ἐπί">ἐφ</w>' <w lemma="ἔργμα">ἔρ<lb n="7" type="worddiv"/>γμασιν</w> <w lemma="ἀεί">αἰὲν</w> <w lemma="εἰμί">ἐοῦσα</w>·</l>
+			<lb n="8"/>
+			<l n="5"><w lemma="ἀλλά">ἀλλὰ</w> <persName key="gods" type="divine" full="yes"><w lemma="θεός">θεῶν</w></persName> <w lemma="μάκαρος">μακάρων</w> <persName key="euphemia1" type="aphrodisian" full="yes"><name reg="Εὐφημία">Εὐφημία</name></persName> 
+			<lb n="9"/><w lemma="εἰς">ἐς</w> <w lemma="χορός">χορὸν</w> <w lemma="ἥκω">ἥκοις</w>.</l>
+			<lb n="10"/>
+			<l n="6"><w lemma="πληρόω">ἐπλήρωσεν</w> <w lemma="ὁ">τὸν</w> <w lemma="βίος">βίον</w> <persName key="euphemia1" type="aphrodisian" full="yes"><name reg="Εὐφημία">Εὐφημία</name></persName> 
+			<lb n="11"/><w lemma="ἔτος">ἐτῶν</w> <num value="18"><hi rend="supraline">ιη</hi></num> <w lemma="ἰνδικτιών"><expan><abbr>ἰν<unclear reason="damage">δ</unclear></abbr><supplied reason="abbreviation">ικτίωνος</supplied></expan></w> <supplied reason="lost"><num value="7"><hi rend="supraline">ζ</hi></num></supplied> <gap reason="lost" extent="unknown" unit="character"/> <w lemma="μείς"><expan><abbr><unclear reason="damage">μη</unclear></abbr><supplied reason="abbreviation">νὸς</supplied></expan></w> <num value="1"><hi rend="supraline"><unclear reason="damage">α</unclear></hi></num></l>
+			</lg></div> 
+      </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>a. It is not certain whether there are any
+significant traces after l.6.</p>
+        <p>b. In l.11 the missing area may well have been an
+original fault, since the surviving letters convey all the information
+that we would expect.</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>a. In the reign of
+Justinian, the seventh indiction, the first month <gap reason="lost"/></ab>
+        <ab>b. Here earth covers the
+sacred head of a girl who, before, had an appropriate name. She was of
+well-famed skill and similarly of a seemly reputation, being always
+(engaged) in prudent labours. But, Euphemia, may you come to the choir
+of the blessed gods. Euphemia completed her life at 18 years, in the
+<supplied reason="lost">seventh</supplied> indiction <gap reason="lost"/> the first month.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="IX.22">IX.22</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found">Stray find.</rs>. Original location: <rs type="origLocation">Unknown.</rs>. Last recorded location: <rs type="lastLocation">Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Recorded by the NYU expedition in <date value="1966" notBefore="1966" notAfter="1966" exact="both">1966</date>.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title>
+no. <biblScope>157</biblScope> and plate xxxvii</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257619">732</biblScope></bibl>,
+<bibl type="hbi" n="steinepig"><title level="m">Steinepigramme</title> <biblScope>02/09/29</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="73_P_27A"><figDesc>Face (1973)</figDesc></figure></p></div>
+
+    <div type="figure" n="transcriptions">
+        <head>Representations</head>
+        <p><figure href="NY_pr_047"><figDesc>Photograph of squeeze</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph160571">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Restoration</rs> of statues by Secundus</title>
+   <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-04-18</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragments of two <rs type="material">white marble</rs> <rs type="objectType">entablature</rs> blocks: a: Two white marble fragments, not joining (<measure dim="width" type="length" unit="metre">0.285</measure> and <measure dim="width" type="length" unit="metre">0.535</measure>) from the left and right ends; b: two joining fragments (together <measure dim="width" type="length" unit="metre">0.98</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> in three lines on the fascia.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>ll.1, 2, <measure type="length" unit="metre" dim="height">0.028</measure>; l.3, <measure type="length" unit="metre" dim="height">0.025</measure>. Ligatures; ΝΗ, l.3</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date>... </date>
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος"><supplied reason="lost">δῆμος</supplied></w>  <gap reason="lost" extent="9" unit="character" precision="circa"/> <w>ἀποκαθέστησεν</w> <w lemma="ὁ">τοὺς</w> <w lemma="δύο">δ<milestone unit="block"/>ύο</w> <w>ἀνδριάντας</w> <persName type="aphrodisian"><name reg="Ἀπολλώνιος "> Ἀπολλωνίου</name> <w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w> <persName type="aphrodisian"><name reg="Ἀπολλώνιος "> Ἀπολλωνίου</name> <w lemma="ὁ">τοῦ</w> <lb n="2"/>  <persName type="aphrodisian"><name reg="Ὑψικλῆς">Ὑψικλέους</name></persName></persName> <name>Π<unclear reason="damage">α</unclear><supplied reason="lost">πίου</supplied></name></persName>  <gap reason="lost" extent="11" unit="character" precision="circa"/>  <w><gap extent="unknown" reason="lost"/>του</w> <w lemma="καί">καὶ</w> <w>γυμνασιαρχοῦ</w> <w lemma="καί">καὶ</w> <w>ε<milestone unit="block"/>ὐεργέτου</w> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶσιν</w> <w lemma="ἀπό">ἀπὸ</w> <w lemma="πρόγονος">προγόνων</w> <w lemma="ὁ">τῆς</w> <w lemma="πατρίς">πατρίδος</w> <lb n="3"/>  <w lemma="ὁ"><supplied reason="lost">τ</supplied><unclear reason="damage">ῆ</unclear>ς</w>  <w>ἀπ<supplied reason="lost">οκαταστάσεως</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῶ</supplied>ν</w> <w>ἀνδριάντων</w> <w>γενομένης</w> <w lemma="ὑπό">ὑπὸ</w> <persName type="aphrodisian"><name reg="Σέκουνδος">Σ<unclear reason="damage">ε</unclear><milestone unit="block"/><supplied reason="lost">κ</supplied><unclear reason="damage">ο</unclear>ύνδου</name> <w lemma="ὁ">τοῦ</w><persName type="aphrodisian"><name reg="Ἀπολλώνιος "> Ἀπολλωνίου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name>Ἀπελλᾶ</name></persName></persName></persName> <w lemma="ὁ">τοῦ</w> <w>πρωτολόγου</w> <w lemma="ἄρχων">ἄρχοντ<unclear reason="damage">ο</unclear><supplied reason="lost">ς</supplied></w></ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l2, perhaps ἀγωνοθε]του</p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>l. 1, The honorand is probably Apollonios Papias  <xref type="iAph">1335</xref> (=64.235), perhaps the brother of the donor in <xref type="iAph">1257</xref> (=MAMA 449, under Domitian) and of the honorand in <xref type="iAph">1765</xref> (=CIG 2766). The restoration of the statues, which is apparently referred to again in <xref type="iAph">564</xref>, was perhaps after the Trajanic earthquake. The same group apparently reappears in an inscription at Plarasa (Paton), where Secundus has become P. Aelius Secundus.</p>
+<p>The singular verb with the plural subject is common in these texts.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Theatre</rs>: stage area</rs>
+<rs type="origLocation"><rs type="monuList">Theatre</rs> proskenion frieze. Inscribed on the blocks which make up the cornice, of the Doric order, above <xref type="iAph">536</xref>,  the inscription of Zoilos, across the back of the Theatre stage. The blocks have simple moulding above, supporting water spouts in the form of lions' heads; the underside has a decoration of mutules. </rs>
+<rs type="lastLocation">Findspot, partly restored at south end.</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1970 (a: <rs type="invNo">70.235</rs> and <rs type="invNo">70.257</rs>; b: <rs type="invNo">70.241</rs> and <rs type="invNo">70.245</rs>)</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_W_31"><figDesc>a. left end (1977)</figDesc></figure><figure href="73_Q_11A"><figDesc>a, right end (1973)</figDesc></figure><figure href="80_H_04"><figDesc>b (1980) </figDesc></figure><figure href="89_E_17A"><figDesc>Assembled, in situ (1989)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

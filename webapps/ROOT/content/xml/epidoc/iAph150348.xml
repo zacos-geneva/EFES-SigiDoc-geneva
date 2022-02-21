@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150348" n="iAph0161 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><seg cert="low">Fragment of <rs type="textType"><rs type="textType">funerary</rs> <rs type="textType">verse</rs></rs></seg></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-06-02</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-29</date><respStmt><name>CMR</name></respStmt><item>tagged, lemmatised and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Fragment from a <rs type="material" key="marmor">white marble</rs> <seg cert="low"><rs type="objectType">plaque</rs> or a <rs type="objectType">sarcophagus</rs> front</seg>,
+with back surviving, but no edges (<measure type="length" unit="metre" dim="height">0.09</measure> × <measure type="length" unit="metre" dim="width">0.13</measure> × <measure type="length" unit="metre" dim="depth">0.08</measure>).</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Av. <measure type="length" unit="metre" dim="height">0.02</measure>;
+clear, irregular, square.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0301" notAfter="0400">Fourth-sixth  century</date> or later (lettering. metre).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+        <ab><lb n="1"/><gap dim="top" reason="lost" extent="unknown" unit="line"/><lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <w lemma="ψυχή">ψυχ<supplied reason="lost" cert="low">ή</supplied></w> <gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="3"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="undefined">αμον</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="4"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>νησαν</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="5"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ιινκ</unclear>λ</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="6"/><gap reason="lost" dim="bottom" extent="unknown" unit="line"/> </ab>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab><gap reason="lost"/><seg cert="low">soul</seg><gap reason="lost"/>.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="IX.25">IX.25</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found">Stray find.</rs>. Original location: <rs type="origLocation">Unknown.</rs>. Last recorded location: <rs type="lastLocation">Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Recorded by the NYU expedition in <date value="1977" notBefore="1977" notAfter="1977" exact="both">1977</date> (<rs type="invNo">77.151</rs>).</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title>
+no. <biblScope>161</biblScope></bibl> whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257628">741</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="78_H_29"><figDesc>Face (1978)</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

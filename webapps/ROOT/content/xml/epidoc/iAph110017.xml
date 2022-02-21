@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110017" n="iAph1928 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Honours</rs> for Eusebes son of Menandros</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+
+<change><date>2007-08-07</date><respStmt><name>GB</name></respStmt><item>Added by hand</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Upper part of a <rs type="material">white marble</rs> <rs type="objectType">base</rs> without moulding (<measure dim="width" type="length" unit="metre">0.45</measure> x <measure dim="height" type="length" unit="metre">0.42</measure> x <measure dim="depth" type="length" unit="metre">0.40</measure>).  The stone was damaged above when recorded in 1904; more was missing in 1934, and it is now further damaged.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.0275-0.035</measure>; circle for stop.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0100" notBefore="0001">First century A.D.</date> (<rs type="criteria">prosopography</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab>
+<lb n="0"/>
+<supplied reason="lost" cert="low"><note>e.g.</note> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w></supplied><lb n="1"/>
+<w lemma="τιμάω"><unclear reason="damage">ἐτί</unclear>μησεν</w> 
+<lb n="2"/>
+<g type="stop"/> <persName type="aphrodisian"><name reg="Εὐσεβής">Εὐσεβῆι</name> <space/>
+<lb n="3"/><name reg="Μένανδρος">Μενάνδρου</name> 
+<lb n="4"/>
+<w lemma="ὁ">τοῦ</w> <name reg="Εὔνικος">Εὐνίκου</name></persName> 
+<lb n="5"/>
+<w lemma="φιλόπατρις">φιλόπατριν</w> 
+<lb n="5a"/>
+  <space unit="line" dim="vertical"/></ab>
+</div>
+
+<div type="translation" n="notyet">
+<head>Translation</head>
+<p>[[ ... ]]</p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p>[[ ... ]]</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">City, Village</rs>: re-used in a house</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1980)</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Gaudin (24); by the MAMA expedition; by the NYU expedition (SBI <rs type="sbi">18</rs>).</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="reinach">Reinach, from Gaudin, REG 19, 1906, 127, no. <biblScope>53</biblScope></bibl>; by <bibl n="MAMA8">Cormack, from the MAMA records, MAMA 8, no. <biblScope>489</biblScope></bibl>, whence <bibl n="PHI">PHI <biblScope n="257155">276</biblScope></bibl>.</p>
+</div>
+<div type="figure">
+<head>Photographs</head>
+<p><figure href="80_G_12"><figDesc>Face (1980)</figDesc></figure></p>
+</div></body></text>
+</TEI>

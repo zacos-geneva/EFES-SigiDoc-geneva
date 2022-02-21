@@ -1,0 +1,1105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110055" n="iAph0701 ">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title level="m"><rs type="textType">List</rs> of Jews and godfearers</title>
+            </titleStmt>
+         <publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor> and <editor>Robert <name type="surname">Tannenbaum</name></editor><date>1987</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+         <sourceDesc><p>Originally published in <bibl n="JandG">Reynolds and Tannenbaum  (<date>1987</date>)</bibl>.</p></sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage>
+            <language id="en">English</language>
+            <language id="fr">French</language>
+            <language id="de">German</language>
+            <language id="grc">Ancient Greek</language>
+
+            <language id="grc-Latn">Transliterated Greek</language>
+            <language id="el">Modern Greek</language>
+            <language id="it">Italian</language>
+            <language id="la">Latin</language>
+            <language id="es">Spanish</language>
+            <language id="tr">Turkish</language>
+         </langUsage>
+         <textClass>
+            <keywords><term>
+                  <geogName type="ancientRegion" key="Asia">Asia</geogName>
+               </term><term>
+                  <geogName type="modernCountry" key="TR">Turkey</geogName>
+               </term><term>
+                  <placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName>
+               </term><term>
+                  <placeName type="modernFindspot" key="Geyre">Geyre</placeName>
+               </term><term><rs type="textType" key="cetera">jewish</rs></term></keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2007-01-17</date>
+            <respStmt>
+               <name>Charlotte Tupman</name>
+            </respStmt>
+            <item>hand tidied</item>
+         </change>
+         <change>
+            <date>2004-12-14</date>
+            <respStmt>
+               <name>Gabriel Bodard</name>
+            </respStmt>
+            <item>Transferred descriptions and bibliography from publication</item>
+         </change>
+         <change>
+            <date>2004-12-10</date>
+            <respStmt>
+               <name>Artemis Papakostoulis</name>
+            </respStmt>
+            <item>further encoding</item>
+         </change>
+         <change>
+            <date>2004-12-10</date>
+            <respStmt>
+               <name>JG</name>
+            </respStmt>
+            <item>further encoding</item>
+         </change>
+         <change>
+            <date>2004-12-09</date>
+            <respStmt>
+               <name>Gabriel Bodard</name>
+            </respStmt>
+            <item>Converted to EpiDoc XML</item>
+         </change>
+         <change>
+            <date>2004-07-15</date>
+            <respStmt>
+               <name>Juan Garcés</name>
+            </respStmt>
+            <item>typed Greek in unicode</item>
+         </change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+
+         <div type="description" n="monument">
+            <head>Description of Monument</head>
+            <p>
+               A <rs type="material" key="marmor">white marble</rs> <rs type="objectType">block</rs>, tapering a little towards the top
+               (width across faces a. and c., <measure type="length" unit="metre" dim="width">0.45-0.43</measure> × <measure type="length" unit="metre" dim="height">2.80</measure> × width across face b. <measure type="length" unit="metre" dim="width">0.46-0.425</measure>). Surface smoothed on faces a., b., and c. but
+               left roughly dressed on face d.</p>
+         </div>
+
+         <div type="description" n="text">
+            <head>Description of Text</head>
+            <p>a., concentrated on upper part of stone, with fillet (<measure type="length" unit="metre" dim="width" precision="circa">0.085</measure> wide) down the left
+               side and margin down the right.</p>
+            <p>b., the text is arranged in two parts, separated by a sizable vacant area (<measure type="length" unit="metre" dim="height">0.15</measure> in height).</p>
+         </div>
+
+         <div type="description" n="letters">
+            <head>Description of Letters</head>
+            <p>a., letter-heights average <measure type="length" unit="metre" dim="height">0.03</measure> in ll. 1-5 and <measure type="length" unit="metre" dim="height">0.02</measure> thereafter; letters were apparently designed freehand, and include
+               both angular and lunate <term lang="grc-Latn">epsilon</term> and <term lang="grc-Latn">sigma</term> (as well as lunate <term lang="la">omega</term>),
+                  <term lang="la">alpha</term> sometimes with a straight, sometimes with a dropped
+               bar, and <term lang="grc-Latn">omicron</term> frequently written small. Ligatured
+                  <foreign lang="grc">ΩΝ</foreign> in l. 5; many abbreviations, most of them marked
+               by a sign—superscript bar, lightning-bolt, s, c, or c (ll. 3-5, 13, 15, 17, 19, 21,
+               22)—or by raising the final inscribed letter above the text (l. 10). Graffito at
+               bottom of this face (col. ii), letters <measure precision="circa" type="length" unit="metre" dim="height">0.06</measure>.</p>
+            <p>b., letter-heights <measure precision="circa" type="length" unit="metre" dim="height">0.02</measure> throughout, cut between visible guidelines; they are also normally
+               consistent in form, with lunate <term lang="la">epsilon</term>, <term lang="la">sigma</term>, and <term lang="grc-Latn">omega</term>, although <term lang="grc-Latn">alpha</term> appears both with straight and dropped bar. Some entried in a later
+               hand, over erasures (ll. 15, 20, 32, 39, 48), or on the original surface (ll. 5, 8,
+               30, 58, 60-1). Abbreviations: downward-slanting line attached to <term lang="grc-Latn">rho</term> at the end of l. 23, round dots after the last
+               inscribed letters in ll. 26, 27, 41, a slanting stroke attached to one in the middle
+               of l. 48, probably s in l. 32 and c at the end of l. 56. Stops in the form of small
+               round dots or arrowheads, once a small circle (l. 53). Diaeresis marks, ll. 5, 10,
+               13, 14, 26-8, 43.</p>
+         </div>
+
+         <div n="date" type="description">
+            <head>Date</head>
+
+
+
+            <p><date notBefore="0201" notAfter="0233" type="textDate">Early third century
+               A.D.</date> (Reynolds/Tannenbaum, <rs type="criteria">lettering</rs>); <date notAfter="0500" notBefore="0468">fifth century A.D.</date> (Chaniotis, <rs type="criteria">nomenclature</rs>).</p>
+         </div>
+
+         <div type="edition" lang="grc">
+            <head lang="en">Edition</head>
+
+            <div type="textpart_column" n="a">
+               <div type="textpart_section" n="i">
+                  <ab><lb n="1"/><w lemma="θεός">Θεὸς</w>
+                     <w lemma="βοηθέω">βοηθός</w>, <seg cert="low">
+                        <w lemma="πάτελλα">πατέλλα</w>
+                     </seg>
+                     <orig n="unresolved">δ<unclear reason="damage">ο</unclear></orig><gap reason="lost" extent="1" dim="right" unit="character" extentmax="2"/><lb n="2"/><w lemma="ὁ">οἱ</w>
+                     <w lemma="ὑποτάσσω">ὑποτεταγμέ<lb n="3" type="worddiv"/>νοι</w>
+                     <w lemma="ὁ">τῆς</w>
+                     <w lemma="δεκανία"><expan><abbr>δεκαν</abbr><supplied reason="abbreviation">ίας</supplied></expan></w>
+                     <lb n="4"/><w lemma="ὁ">τῶν</w>
+                     <w lemma="φιλομαθέω">φιλομαθ<unclear reason="damage">ῶ</unclear><supplied reason="lost">ν</supplied></w><lb n="5"/><w lemma="ὁ">τ<hi rend="ligature">ῶν</hi></w>
+                     <w lemma="καί">
+                        <orig reg="καὶ">κὲ</orig>
+                     </w>
+                     <w lemma="παντευλόγος"><expan><abbr>παντευλό<unclear reason="damage">γ</unclear></abbr><supplied reason="abbreviation"><gap extent="2" unit="character" reason="ellipsis"/>ων</supplied></expan></w><lb n="6"/><w lemma="εἰς">εἰς</w>
+                     <w lemma="ἀπενθησία">ἀπενθησίαν</w><lb n="7"/><w lemma="ὁ">τῷ</w>
+                     <w lemma="πλῆθος">πλήθι</w>
+                     <w lemma="κτίζω">ἔκτισα<supplied reason="lost">ν</supplied></w><lb n="8"/><w lemma="ἐκ">ἐξ</w>
+                     <w lemma="ἴδιος">ἱδίων</w>
+                     <w lemma="μνῆμα">μνῆμα</w><lb n="9"/><persName type="aphrodisian" full="yes">
+                        <name reg="Ἰαηλ">Ἰαηλ</name>
+                        <w lemma="προστάτης">προστάτης</w>
+                     </persName><lb n="10"/><space extent="1" unit="character" dim="horizontal"/>
+                     <w lemma="σύν">σὺν</w>
+                     <w lemma="υἱός">υἱῷ</w>
+                     <persName type="aphrodisian" full="yes">
+                        <name reg="Ἰωσούα">Ἰωσούᾳ</name>
+                     </persName>
+                     <w lemma="ἄρχω">
+                        <expan><abbr>ἄρχ</abbr><supplied reason="abbreviation">οντι</supplied>
+                        </expan>
+                     </w><lb n="11"/><persName type="aphrodisian" full="yes">
+                        <name type="  " reg="Θεόδοτος">Θεόδοτος</name>
+                        <name reg="Παλατῖνος">
+                           <expan>
+                              <abbr>Παλατῖν</abbr><supplied cert="low" reason="abbreviation">ος</supplied>
+                           </expan>
+                        </name>
+                     </persName>
+                     <w lemma="σύν">σὺν</w><lb n="12"/><space extent="1" unit="character" dim="horizontal"/>
+                     <w lemma="υἱός">υἱῷ</w>
+                     <persName type="aphrodisian" full="yes">
+                        <name reg="Ἱλαριανός">Ἱλαριανῷ</name>
+                     </persName>
+                     <space unit="character" dim="horizontal"/><lb n="13"/><persName type="aphrodisian" full="yes">
+                        <name reg="Σαμουηλ">Σαμουηλ</name>
+                     </persName>
+                     <w lemma="ἀρχιδέκανος">
+                        <expan>
+                           <abbr>ἀρχιδ</abbr><supplied reason="abbreviation" cert="low">έκανος</supplied>
+                        </expan>
+                     </w>
+                     <w lemma="προσήλυτος">
+                        <expan>
+                           <abbr>προσήλ</abbr><supplied reason="abbreviation">υτος</supplied>
+                        </expan>
+                     </w><lb n="14"/><persName type="aphrodisian" full="yes">
+                        <name reg="Ἰωσῆς">Ἰωσῆς</name>
+                        <persName type="aphrodisian">
+                           <name reg="Ἰέσσεος">Ἰεσσέου</name>
+                        </persName>
+                     </persName>
+                     <space unit="character" dim="horizontal"/><lb n="15"/><persName type="aphrodisian" full="yes">
+                        <name reg="Βενιαμιν">Βενιαμιν</name>
+                     </persName>
+                     <w lemma="ψαλμολόγος">
+                        <expan>
+                           <abbr>ψαλμο</abbr><supplied reason="abbreviation" cert="low">λόγος</supplied>
+                        </expan>
+                     </w><lb n="16"/><persName type="aphrodisian" full="yes">
+                        <name reg="Ἰούδας">Ἰούδας</name>
+                     </persName>
+                     <w lemma="εὔκολος">εὔκολος</w>
+                     <space unit="character" dim="horizontal"/><lb n="17"/><persName type="aphrodisian" full="yes">
+                        <name reg="Ἰωσῆς">Ἰωσῆς</name>
+                     </persName>
+                     <w lemma="προσήλυτος"><expan><abbr>προσήλυ</abbr><supplied reason="abbreviation">τος</supplied></expan></w><lb n="18"/><persName type="aphrodisian" full="yes">
+                        <name reg="Σαββάτιος  ">Σαββάτιος </name>
+                        <persName type="aphrodisian">
+                           <name reg="Ἀμάχιος">Ἀμαχίου</name>
+                        </persName>
+                     </persName><lb n="19"/><persName type="aphrodisian" full="yes">
+                        <name reg="Ἐμμόνιος">Ἐμμόνιος</name>
+                        <w lemma="θεοσεβής"><expan><abbr>θεοσεβ</abbr><supplied reason="abbreviation">ής</supplied></expan></w>
+                     </persName>
+                     <space dim="horizontal"/><space dim="horizontal"/><lb n="20"/><persName type="aphrodisian" full="yes">
+                        <name reg="Ἀντωνῖνος">Ἀντωνῖνος</name>
+                        <w lemma="θεοσεβής"><expan><abbr>θεοσεβ</abbr><supplied reason="abbreviation">ής</supplied></expan></w>
+                     </persName>
+                     <lb n="21"/><persName type="aphrodisian" full="yes">
+                        <name reg="Σαμουηλ">Σαμουηλ</name>
+                        <persName type="aphrodisian">
+                           <name type="        " reg="Πολιτιανός">Πολιτιανοῦ</name>
+                        </persName>
+                     </persName><lb n="22"/><persName type="aphrodisian" full="yes">
+                        <name reg="Ἰωσηφ">Εἰωσήφ</name>
+                        <persName type="aphrodisian">
+                           <name reg="Εὐσέβιος">Εὐσεβίου</name>
+                        </persName>
+                        <w lemma="προσήλυτος">προσήλυτος</w>
+                     </persName>
+                     <lb n="23"/><handShift/>
+                     <w lemma="καί">καὶ</w>
+                     <persName type="aphrodisian" full="yes">
+                        <name reg="Ἰούδας">Εἰούδας</name>
+                        <persName type="aphrodisian">
+                           <name reg="Θεόδωρος">Θεοδώρου</name>
+                        </persName>
+                     </persName><lb n="24"/><w lemma="καί">καὶ</w>
+                     <persName type="aphrodisian" full="yes">
+                        <name reg="Ἀντιπέος">Ἀντιπέος</name>
+                        <persName type="aphrodisian">
+                           <name reg="Ἑρμίας">Ἑρμήου</name>
+                        </persName>
+                     </persName><lb n="25"/><w lemma="καί">καὶ</w>
+                     <persName type="aphrodisian" full="yes">
+                        <name reg="  Σαβάθιος">Σαβάθιος</name>
+                        <w lemma="νεκτάριος">νεκτάρις</w>
+                     </persName>
+                     <handShift/><lb n="26"/><w lemma="καί"><supplied reason="lost" cert="low">κα</supplied>ὶ</w>
+                     <persName type="aphrodisian" full="yes">
+                        <del rend="erasure" status="unremarkable">
+                           <name reg="Σαμουηλ">
+                              <unclear reason="damage">Σαμο</unclear>
+                              <supplied reason="omitted">υ</supplied>
+                              <unclear reason="undefined">ηλ</unclear>
+                           </name> <w lemma="πρεσβευτής">
+                              <unclear reason="undefined">πρεσ</unclear>
+                              <lb n="27" type="worddiv"/>
+                              <unclear reason="damage">βευτὴς</unclear>
+                           </w> <w lemma="ἱερεύς">
+                              <unclear reason="damage">ἱερεύς</unclear>
+                           </w>
+                        </del>
+                     </persName></ab>
+               </div>
+               <div type="textpart_section" n="ii">
+                  <ab>
+                     <lb n="1"/>
+                     <note lang="en" place="not  specified" anchored="yes">If cut when the stele was
+                        standing:</note>
+                     <w>
+                        <orig n="unresolved">ΝΜ<unclear reason="damage">Δ</unclear></orig>
+                     </w>
+                     <lb n="1a"/>
+                     <note lang="en" place="not  specified" anchored="yes">If cut upside down to the
+                        main text:</note>
+                     <w>
+                        <orig n="unresolved"><unclear reason="damage">Π</unclear>ΩΝ</orig>
+                     </w>
+                  </ab>
+               </div>
+               <div type="textpart_section" n="iii">
+                  <ab>
+                     <add place="left">
+                        <lb n="9"/>
+                        <handShift/>
+                        <persName type="aphrodisian" full="yes">
+                           <name reg="Σαμουηλ">Σα<lb n="10" type="worddiv"/>μου<lb n="11" type="worddiv"/>ηλ</name>
+                           <lb n="12"/>
+                           <w lemma="πρεσβευτής">πρεσ<lb n="13" type="worddiv"/>βευ<lb n="14" type="worddiv"/>τὴς</w>
+                           <lb n="15"/>
+                           <placeName reg="Περγεούς">Περ<lb n="16" type="worddiv"/>γε<lb n="17" type="worddiv"/>ούς
+                        </placeName></persName>
+                     </add>
+                  </ab>
+               </div>
+            </div>
+            <div type="textpart_column" n="b">
+               <ab>
+                  <lb n="1"/>
+                  <gap extent="1" reason="lost" dim="top" unit="line"/>
+                  <lb n="2"/>
+                  <gap dim="left" extent="8" unit="character" reason="lost"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name type="        " reg="Σεραπίων"><supplied reason="lost">Σ</supplied>εραπίωνος</name>
+                  </persName>
+                  <space dim="horizontal"/>
+                  <supplied reason="lost">
+                     <space dim="horizontal"/>
+                  </supplied>
+                  <lb n="3"/>
+                  <del status="unremarkable">
+                     <gap reason="lost" extent="1" unit="line"/>
+                  </del>
+                  <lb n="4"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰωσηφ"><supplied reason="lost">Ἰωση</supplied>φ</name>
+                     <persName type="aphrodisian">
+                        <name reg="Ζήνων">Ζήνωνος</name>
+                     </persName>
+                  </persName>
+                  <space dim="horizontal"/>
+                  <lb n="5"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ζήνων"><supplied reason="lost">Ζή</supplied>νων</name>
+                  </persName>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰακωβ">Ἰακωβ</name>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Μανασῆς">Μανασῆς</name>
+                  </persName>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰωφ">Ἰωφ</name>
+                  </persName>
+                  <note place="not  specified" anchored="yes">sic</note>
+                  <lb n="6"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰούδας">Ἰούδας</name>
+                     <persName type="aphrodisian">
+                        <name reg="Εὐσέβιος">Εὐσεβίου</name>
+                     </persName>
+                  </persName>
+                  <space extent="6"/>
+                  <lb n="7"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἑορτάσιος">Ἑορτάσιος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Καλλίκαρπος">Καλλικάρπου</name>
+                     </persName>
+                  </persName>
+                  <space unit="character" extent="1"/>
+                  <lb n="8"/>
+                  <persName type="aphrodisian" full="yes">
+                     <w lemma="βιωτικός">Βιωτικός</w>
+                     <g type="stop"/>
+                     <name reg="Ἰούδας">Ἰούδας</name>
+                     <persName type="aphrodisian">
+                        <name reg="Ἀμφιανός">Ἀμφιανοῦ</name>
+                     </persName>
+                  </persName>
+                  <lb n="9"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐγένιος">Εὐγένιος</name>
+                     <w lemma="χρυσοχόος">χρυσοχόος</w>
+                  </persName>
+                  <space extent="4"/>
+                  <lb n="10"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Πραοίλιος">Πραοίλιος</name>
+                     <g type="stop"/>
+                     <name reg="Ἰούδας">Ἰούδας</name>
+                     <persName type="aphrodisian">
+                        <name reg="Πραοίλιος">Πραοιλίου</name>
+                     </persName>
+                  </persName>
+                  <lb n="11"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ῥοῦφος">Ῥοῦφος</name>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ὀξυχόλιος">Ὀξυχόλιος</name>
+                  </persName>
+                  <w lemma="γερῶν">γέρων</w>
+                  <lb n="12"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀμάντιος">Ἀμάντιος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Χαρῖνος">Χαρίνου</name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Μύρτιλος">Μύρτιλος</name>
+                  </persName>
+                  <lb n="13"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰακω">Ἰακω</name>
+                     <w lemma="προβατονόμος"><expan><abbr>προβατον</abbr><supplied reason="abbreviation">όμος</supplied></expan></w>
+                     <g type="stop"/>
+                     <name reg="Σεβῆρος">Σεβῆρος</name>
+                  </persName>
+                  <space extent="2"/>
+                  <lb n="14"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὔοδος">Εὔοδος</name>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰάσων" type="        ">Ἰάσων</name>
+                     <persName type="aphrodisian">
+                        <name reg="Εὔοδος">Εὐόδου</name>
+                     </persName>
+                  </persName>
+                  <space extent="2"/>
+                  <lb n="15"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐσαββάθιος">Εὐσαββάθιος</name>
+                     <w lemma="λαχανοπώλης"><expan><abbr>λαχα</abbr><supplied reason="abbreviation">νοπώλης</supplied></expan></w>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀνύσιος">Ἀνύσιος</name>
+                  </persName>
+                  <lb n="16"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐσαββάθιος">Εὐσαββάθιος</name>
+                     <w lemma="ξένος">ξένος</w>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Μίλων">Μίλων</name>
+                  </persName>
+                  <lb n="17"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ὀξυχόλιος">Ὀξυχόλιος</name>
+                     <w lemma="νεώτερος">νεώτερος</w>
+                  </persName>
+                  <space extent="6"/>
+                  <lb n="18"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Διογένης">Διογένης</name>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐσαββάθιος">Εὐσαββάθιος</name>
+                     <name reg="Διογένης"><expan><abbr>Διογέν</abbr><supplied reason="abbreviation">ους</supplied></expan></name>
+                  </persName>
+                  <lb n="19"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰούδας">Ἰούδας</name>
+                     <persName type="aphrodisian">
+                        <name reg="Παῦλος">Παύλου</name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Θεόφιλος">Θεόφιλος</name>
+                  </persName>
+                  <space extent="3"/>
+                  <lb n="20"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰακωβ">Ἰακωβ</name>
+                     <w lemma="ὁ">ὁ</w>
+                     <w lemma="καί">κὲ</w>
+                     <name reg="Ἀπελλίων">
+                        <expan>
+                           <abbr>Ἀπελλί</abbr><supplied reason="abbreviation">ων</supplied>
+                        </expan>
+                     </name>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ζαχαρίας">Ζαχαρίας</name>
+                     <w lemma="μονοπώλης">
+                        <expan>
+                           <abbr>μονο</abbr><supplied reason="abbreviation">πώλης</supplied>
+                        </expan>
+                     </w>
+                  </persName>
+                  <lb n="21"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Λεόντιος">Λεόντιος</name>
+                     <persName type="aphrodisian">
+                        <name type="        " reg="Λεόντιος">Λεοντίου</name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Γέμελλος">Γέμελλος</name>
+                  </persName>
+                  <lb n="22"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰούδας">Ἰούδας</name>
+                     <persName type="aphrodisian">
+                        <name reg="Ἀχόλιος">Ἀχολίου</name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Δαμόνικος">Δαμόνικος</name>
+                  </persName>
+                  <space unit="character" extent="1"/>
+                  <lb n="23"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐτάρκιος">Εὐτάρκιος</name>
+                  </persName>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰούδας">Ἰούδα</name>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes"><name reg="Ἰωσηφ">Ἰωσηφ</name></persName>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Φιληρ" type="        ">Φιληρ</name>
+                  </persName>
+                  <lb n="24"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐσαββάθιος">Εὐσαββάθιος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Εὐγένιος">Εὐγενίου</name>
+                     </persName>
+                  </persName>
+                  <space extent="5"/>
+                  <lb n="25"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Κύρυλλος">Κύρυλλος</name>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐτύχιος">Εὐτύχιος</name>
+                     <w lemma="χαλκοτύπος">χαλκοτύπος</w>
+                  </persName>
+                  <lb n="26"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰωσηφ">Ἰωσηφ</name>
+                     <w lemma="παστιλλάριος">
+                        <expan>
+                           <abbr>παστι</abbr><supplied reason="abbreviation">λλάριος</supplied>
+                        </expan>
+                     </w>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ῥουβην">Ῥουβην</name>
+                     <w lemma="παστιλλάριος">
+                        <expan>
+                           <abbr>παστ</abbr><supplied reason="abbreviation">ιλλάριος</supplied>
+                        </expan>
+                     </w>
+                  </persName>
+                  <lb n="27"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰούδας">Ἰούδας</name>
+                     <persName type="aphrodisian">
+                        <name reg="Ὁρτάσιος">
+                           <expan>
+                              <abbr>Ὁρτασί</abbr><supplied reason="abbreviation">ου</supplied>
+                           </expan>
+                        </name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐτύχιος">Εὐτύχιος</name>
+                     <w lemma="ὀρνιθοπώλης"><expan><abbr>ὀρν</abbr><supplied reason="abbreviation">ιθοπώλης</supplied>
+                        </expan>
+                     </w>
+                  </persName>
+                  <lb n="28"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἰούδας">Ἰούδας</name>
+                     <w lemma="ὁ">ὁ</w>
+                     <w lemma="καί">κὲ</w>
+                     <name type="  " reg="Ζωσι">Ζωσι</name>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ζήνων">Ζήνων</name>
+                     <w lemma="γρυτοπώλης">γρυτοπώλης</w>
+                  </persName>
+                  <lb n="29"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀμμιανός">Ἀμμιανὸς</name>
+                     <w lemma="χιλᾶς">χιλᾶς</w>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Αἰλιανός">Αἰλιανὸς</name>
+                     <persName type="aphrodisian">
+                        <name reg="Αἰλιανός">
+                           <expan>
+                              <abbr>Αἰλια</abbr><supplied reason="abbreviation">νοῦ</supplied>
+                           </expan>
+                        </name>
+                     </persName>
+                  </persName>
+                  <lb n="30"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Αἰλιανός">Αἰλιανὸς</name>
+                  </persName>
+                  <w lemma="ὁ">ὁ</w>
+                  <w lemma="καί">καὶ</w>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Σαμουηλ">Σαμουηλ</name>
+                  </persName>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Φίλανθος">Φίλανθος</name>
+                  </persName>
+                  <lb n="31"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Γοργόνιος">Γοργόνιος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Ὀξυχόλιος">
+                           <expan>
+                              <abbr>Ὀξυ</abbr><supplied reason="abbreviation">χολίου</supplied>
+                           </expan>
+                        </name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἑορτάσιος">Ἑορτάσιος</name>
+                     <name reg="Ἀχιλλεύς">
+                        <expan>
+                           <abbr>Ἀχιλλέ</abbr><supplied reason="abbreviation">ως</supplied>
+                        </expan>
+                     </name>
+                  </persName>
+                  <lb n="32"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐσαββάθιος">Εὐσαββάθιος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Ὀξυχόλιος">
+                           <expan>
+                              <abbr>Ὀξυχ</abbr><supplied reason="abbreviation">ολίου</supplied>
+                           </expan>
+                        </name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Παρηγόριος">Παρηγόριος</name>
+                  </persName>
+                  <lb n="33"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἑορτάσιος">Ἑορτάσιος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Ζωτικός">Ζωτικοῦ</name>
+                     </persName>
+                  </persName>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Συμεών">Συμεών</name>
+                  </persName>
+                  <persName type="aphrodisian" full="yes">
+                     <name type="  " reg="Ζην">Ζην</name>
+                  </persName>
+                  <lb n="33a"/>
+                  <space unit="line" extent="3" dim="vertical"/>
+                  <lb n="34"/>
+                  <w lemma="καί">Καὶ</w>
+                  <w lemma="ὅσος">ὅσοι</w>
+                  <persName type="aphrodisian" full="yes">
+                     <w lemma="θεοσεβής">θεοσεβῖς</w> <g type="stop"/>
+                     <name reg="Ζήνων">Ζήνον</name>
+                  </persName>
+                  <w lemma="βουλευτής"><expan><abbr>βουλ</abbr><supplied reason="abbreviation">ευτής</supplied></expan></w>
+                  <lb n="35"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Τέρτυλλος">Τέρτυλλος</name>
+                     <w lemma="βουλευτής"><expan><abbr>βουλ</abbr><supplied reason="abbreviation">ευτής</supplied></expan></w>
+                  </persName> <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Διογένης">Διογένης</name>
+                     <w lemma="βουλευτής"><expan><abbr>βουλ</abbr><supplied reason="abbreviation">ευτής</supplied></expan></w>
+                  </persName>
+                  <lb n="36"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ὀνήσιμος">Ὀνήσιμος</name>
+                     <w lemma="βουλευτής"><expan><abbr>βουλ</abbr><supplied reason="abbreviation">ευτής</supplied></expan></w>
+                  </persName> <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ζήνων">Ζήνων</name>
+                     <persName type="aphrodisian">
+                        <name reg="Λογγιανός"><expan><abbr>Λονγι</abbr><supplied reason="abbreviation">ανοῦ</supplied></expan></name>
+                     </persName>
+                     <w lemma="βουλευτής"><expan><abbr>βου<supplied reason="lost">λ</supplied></abbr><supplied reason="abbreviation">ευτής</supplied></expan></w>
+                  </persName>
+                  <lb n="37"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀντιπέος">Ἀντιπέος</name>
+                     <w lemma="βουλευτής"><expan><abbr>βουλ</abbr><supplied reason="abbreviation">ευτής</supplied></expan></w></persName> <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀντίοχος">Ἀντίοχος</name>
+                     <w lemma="βουλευτής"><expan><abbr>βουλ</abbr><supplied reason="abbreviation">ευτής</supplied></expan></w>
+                  </persName>
+                  <lb n="38"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ῥωμανός">Ῥωμανὸς</name>
+                     <w lemma="βουλευτής"><expan><abbr>βουλ</abbr><supplied reason="abbreviation">ευτής</supplied></expan></w></persName> <g type="stop"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀπονήριος">Ἀπονήριος</name>
+                     <w lemma="βουλευτής"><expan><abbr>βουλ</abbr><supplied reason="abbreviation">ευτής</supplied></expan></w>
+                  </persName>
+                  <lb n="39"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name type="  " reg="Εὐπίθιος">Εὐπίθιος</name>
+                     <w lemma="πορφυρᾶς"><expan><abbr>πορφυρ</abbr><supplied reason="abbreviation">ᾶς</supplied></expan></w></persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Στρατήγιος">Στρατήγιος</name>
+                  </persName>
+                  <lb n="40"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ξάνθος">Ξάνθος</name>
+                  </persName><space/> <g type="stop"/>
+                  <space/> <persName type="aphrodisian" full="yes">
+                     <name reg="Ξάνθος">Ξάνθος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Ξάνθος">Ξάνθου</name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/><lb n="41"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀπονήριος">Ἀπονήριος</name>
+                     <persName type="aphrodisian">
+                        <name type="        " reg="Ἀπονήριος"><expan><abbr>Ἀπον</abbr><supplied reason="abbreviation">ηρίου</supplied></expan></name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Ὑψικλῆς">Ὑψικλῆς</name>
+                     <name reg="Μελ">Μελ</name>
+                  </persName>
+                  <g type="stop"/><lb n="42"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Πολυχρόνιος">Πολυχρόνιος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Ξάνθος"><expan><abbr>Ξάν</abbr><supplied reason="abbreviation">θου</supplied></expan></name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀθηνίων">Ἀθηνίων</name>
+                     <persName type="aphrodisian">
+                        <name reg="Αἰλιανός"><expan><abbr>Αἰ</abbr><supplied reason="abbreviation">λιανοῦ</supplied></expan></name>
+                     </persName>
+                  </persName>
+                  <lb n="43"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Καλλίμορφος">Καλλίμορφος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Καλλίμορφος"><expan><abbr>Καλ</abbr><supplied reason="abbreviation">λιμόρφου</supplied></expan></name>
+                     </persName>
+                     
+                        <g type="stop"/> <orig n="unresolved">ιο<unclear reason="undefined">υ</unclear>νβαλος</orig>
+                     
+                  </persName>
+                  <lb n="44"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Τυχικός">Τυχικὸς</name>
+                     <persName type="aphrodisian">
+                        <name reg="Τυχικός"><expan><abbr>Τυχι</abbr><supplied reason="abbreviation">κοῦ</supplied></expan></name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Γληγόριος">Γληγόριος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Τυχικός"><expan><abbr>Τυχι</abbr><supplied reason="abbreviation">κοῦ</supplied></expan></name>
+                     </persName>
+                  </persName>
+                  <lb n="45"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Πολυχρόνιος">Πολυχρόνιος</name>
+                     <w><abbr>βελ</abbr></w>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Χρύσιππος">Χρύσιππος</name>
+                  </persName>
+                  <lb n="46"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Γοργόνιος">Γοργόνιος</name>
+                     <w lemma="χαλκοτύπος"><expan><abbr>χαλ</abbr><supplied reason="abbreviation">κοτύπος</supplied></expan></w>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Τατιανός">Τατιανὸς</name>
+                     <persName type="aphrodisian">
+                        <name reg="Ὀξυχόλιος"><expan><abbr>Ὀξυ</abbr><supplied reason="abbreviation">χολίου</supplied></expan></name>
+                     </persName>
+                  </persName>
+                  <lb n="47"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀπελλᾶς">Ἀπελλᾶς</name>
+                     <name reg="Ἡγεμονεύς"><expan><abbr>Ἡγε</abbr><supplied reason="abbreviation">μονέως</supplied></expan></name>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Βαλεριανός">Βαλεριανὸς</name>
+                     <w lemma="πενακᾶς"><expan><abbr>πεν</abbr><supplied reason="abbreviation">ακᾶς</supplied></expan></w>
+                  </persName>
+                  <lb n="48"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐσαββάθιος">Εὐσαββάθιος</name>
+                     <name reg="Ἠδυχροῦς"><expan><abbr>Ἡδ</abbr><supplied reason="abbreviation">υχρόος</supplied></expan></name>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian"><name reg="Μανικιος">Μανικιος</name>
+                  <persName type="aphrodisian">
+                     <name reg="Ἄτταλος"><expan><abbr>Ἀττά</abbr><supplied reason="abbreviation">λου</supplied></expan></name>
+                  </persName></persName>
+                  <lb n="49"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ὁρτάσιος">Ὁρτάσιος</name>
+                     <w lemma="λατύπος"><expan><abbr>λατύ</abbr><supplied reason="abbreviation">πος</supplied></expan></w></persName>
+                  
+                     <g type="stop"/> <w lemma="βραβέυς">βραβέυς</w>
+                  
+                  <space extent="5"/><lb n="50"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Κλαυδιανός">Κλαυδιανὸς</name>
+                     <name reg="Καλλίμορφος"><expan><abbr>Καλ</abbr><supplied reason="abbreviation">λιμόρφου</supplied></expan></name>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀλέξανδρος">Ἀλέξανδρος</name>
+                  </persName>
+                  <w><abbr cert="low">πυ</abbr></w>
+                  <lb n="51"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀππιανός">Ἀππιανὸς</name>
+                     <w><abbr>λευ</abbr></w>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Ἀδόλιος">Ἀδόλιος</name>
+                     <w lemma="ἰσικιάριος">ἰσικιάριος</w>
+                  </persName>
+                  <lb n="52"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ζωτικός" type="        ">Ζωτικὸς</name>
+                     <w lemma="ψελλός"><expan><abbr>ψελ</abbr><supplied reason="abbreviation">λὸς</supplied></expan></w>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Ζωτικός" type="        ">Ζωτικὸς</name>
+                     <w lemma="γρύλλος">γρύλλος</w>
+                  </persName>
+                  <lb n="53"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name type="  " reg="Εὐπίθιος">Εὐπίθιος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Εὐπίθιος"><expan><abbr>Εὐπι</abbr><supplied reason="abbreviation">θίου</supplied></expan></name>
+                     </persName>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Πατρίκιος" type="cognomen">Πατρίκιος</name>
+                     <w lemma="χαλκοτύπος"><expan><abbr>χαλκο</abbr><supplied reason="abbreviation">τύπος</supplied></expan></w>
+                  </persName>
+                  <lb n="54"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Ἐλπιδιανός">Ἐλπιδιανὸς</name>
+                     <w lemma="ἀθλητής"><expan><abbr>ἀθλη</abbr><supplied reason="abbreviation">τής</supplied></expan></w>
+                     <name reg="Ἠδυχροῦς">Ἠδυχροῦς</name>
+                  </persName>
+                  <space extent="3"/><lb n="55"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐτρόπιος">Εὐτρόπιος</name>
+                     <name reg="Ἠδυχροῦς"><expan><abbr>Ἡδυχ</abbr><supplied reason="abbreviation">ρόος</supplied></expan></name>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Καλλίνικος">Καλλίνικος</name>
+                  </persName>
+                  <space dim="horizontal"/>
+                  <lb n="56"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Βαλεριανός">Βαλεριανὸς</name>
+                     <w lemma="ἀρκάριος"><expan><abbr>ἀρκά</abbr><supplied reason="abbreviation" cert="low">ριος</supplied></expan></w>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Εὕρετος">Εὕρετος</name>
+                     <persName type="aphrodisian">
+                        <name reg="Ἀθηναγόρας"><expan><abbr>Ἀθηναγ</abbr><supplied reason="abbreviation">όρου</supplied></expan></name></persName></persName>
+                  <lb n="57"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Παράμονος">Παράμονος</name>
+                     <w lemma="ἰκονογράφος">
+                        <expan>
+                           <abbr>ἰκονο</abbr><supplied reason="abbreviation" cert="low">γράφος</supplied></expan></w></persName>
+                  <g type="stop"/> <space dim="horizontal" extent="9"/>
+                  <lb n="58"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Εὐτυχιανός">Εὐτυχιανὸς</name>
+                     <w lemma="γναφεύς"><expan>
+                        <abbr>γναφ</abbr><supplied reason="abbreviation">εύς</supplied>
+                     </expan></w>
+                  </persName>
+                  <g type="stop"/>
+                  <add>
+                     <persName type="aphrodisian" full="yes">
+                        <name reg="Προκόπιος">Προκόπιος</name>
+                     </persName>
+                     <w lemma="τραπεζίτης">
+                        <expan>
+                           <abbr>τρα</abbr><supplied reason="abbreviation" cert="low">πεζίτης</supplied>
+                        </expan>
+                     </w>
+                  </add>
+                  <handShift/>
+                  <lb n="59"/>
+                  <persName type="aphrodisian" full="yes">
+                     <name reg="Προυνίκιος">Προυνίκιος</name>
+                     <w lemma="γναφεύς">
+                        <expan>
+                           <abbr>γναφ</abbr><supplied reason="abbreviation">εύς</supplied>
+                        </expan>
+                     </w>
+                  </persName>
+                  <g type="stop"/> <persName type="aphrodisian" full="yes">
+                     <name reg="Στρατόνικος">Στρατόνικος</name>
+                     <w lemma="γναφεύς">
+                        <expan>
+                           <abbr>γναφ</abbr><supplied reason="abbreviation">εύς</supplied>
+                        </expan>
+                     </w>
+                  </persName>
+                  <lb n="60"/>
+                  <handShift/>
+                  <add>
+                     <persName type="aphrodisian" full="yes">
+                        <name reg="Ἀθηναγόρας">Ἀθηναγόρας</name>
+                        <w lemma="τέκτων"><expan><abbr>τέκτω</abbr><supplied reason="abbreviation">ν</supplied></expan></w>
+                     </persName>
+                  </add>
+                  <lb n="61"/>
+                  <add>
+                     <persName type="aphrodisian" full="yes">
+                        <name reg="Μελίτων">Μελίτων</name>
+                        <persName type="aphrodisian">
+                           <name reg="Ἀμαζόνιος">Ἀμαζονίου</name>
+                        </persName>
+                     </persName>
+                  </add>
+                  <lb n="61a"/>
+                  <space dim="vertical" extent="1" unit="line"/>
+               </ab>
+            </div>
+         </div>
+
+
+
+
+
+         <div type="translation">
+            <head>Translation</head>
+            <p>a. i. God help us. Donors to the soup kitchen. Below are listed the members of the
+               decany of the students of the law, also known as those who fervently praise God, who
+               erected, for the relief of suffering in the community, at their personal expense,
+               this memorial <supplied reason="subaudible">building</supplied>. Jael, prostates,
+               with her son Josua,
+               magistrate, Theodotos, former palace employee, with his son Hilarianos, Samuel,
+               president of the dekania, a proselyte, Joses, son of Jesseas, Benjamin, the psalm
+               singer, Judas the good-tempered, Joses, proselyte, Sabbatios, son of Amchios,
+               Emmonios, godfearer, Antoninos, godfearer, Samuel, son of Politianos, Joseph, son of
+               Eusebios, proselyte, and Judas, son of Theodoros, and Antipeos, son of Hermias, and
+               Sabbatios the sweet, and Samuel the older, priest.</p>
+            <p>a. ii. Samuel the older, from Perge.</p>
+            <p>b. <gap dim="left" unit="character" reason="lost"/> Serapionos, <gap unit="character" reason="lost"/> Joseph, son of Zenon, Zenon, Jacob, Manases, Ioph, Judas, son of
+               Eusebios, Heortasios, son of Kallikarpos, Biotikos, Judas, son of Amphianos,
+               Eugenios, goldsmith, Praoilios, Judas, son of Praoilios, Rufos the old, Amantios, son
+               of Charinos, Murtilos, Jacob, sheepfarmer, Seberos, Euodos, Jason, son of Euodos,
+               Eusabbathios, greengrocer, Anusios, Eusabbathios, the foreigner, Milo, Oxucholios,
+               the younger, Diogenes, Eusabbathios, son of Diogenes, Judas, son of Paulos,
+               Theophilos, Jacob, also called Apellios, Zacharias, <seg cert="low">mono</seg>,
+               Leontios, son of Leontios, Gemellos, Judas, son of Acholios, Damonikos, Eutarkios,
+               son of Judas, Joseph, son of Philer, Eusabbathios, son of Eugenios, Kurullos,
+               Eutuchios, bronze-smith, Joseph, confectioner, Ruben, confectioner, Judas, son of
+               Hortasios, Eutuchios, poulterer, Judas, also called Zosi, Zenon, recycler, Ammianos,
+               stockfeeder, Ailianos, son of Ailianos, Ailianos, also called Samuel, Philanthos,
+               Gorgonios, son of Oxucholios, Heortasios, son of Achilles, Eusabbathios, son of
+               Oxucholios, Paregorios, Heortasios, son of Zotikos, Sumeon, son of Zenon </p>
+            <p><note>6 lines blank</note></p>
+            <p>And the following Godfearers: Zenon, councillor, Tertullos, councillor, Diogenes,
+               councillor, Onesimos, councillor, Zenon, son of Longianos, councillor, Antipeos,
+               councillor, Antiochos, councillor, Romanos, councillor, Aponerios, councillor,
+               Eupithios, purple-seller, Strategios, Xanthos, Xanthos, son of Xanthos, Aponerios,
+               son of Aponerios, Hupsikles son of <seg cert="low">Mel</seg>, Poluchronios, son of
+               Xanthos, Athenios, son of Ailianos, Kallimorphos, son of Kallimorphos, Junbalos,
+               Tuchikos, son of Tuchikos, Poluchronios, missile-maker, Chrusippos, Gorgonios,
+               bronze-smith, Tatianos, son of Oxucholios, Apellas, son of Hegemoneos, Balerianos,
+               tablet-maker, Eusabbathios, son of Heduchroos, Manikios, son of Attalos, Hortasios,
+               stone-carver, Brabeus, Klaudianos, son of Kallimorphos, Alexandros, boxer, Appianos,
+               plasterer, Adolios, mincer, Zotikos, armband-maker, Zotikos, comedian, Eupithios, son
+               of Eupithios, Patrikios, bronze-smith, Elpidianos, athlete, Heduchroos, Kallinikos,
+               Balerianos, treasurer, Heuretos, son of Athenagoros, Paramonos, portrait-painter,
+               Eutuchianos, fuller, Prokopios money-changer, Prunikios, fuller, Stratonikos, fuller,
+               Athenagoras, carpenter, Meliton, son of Amazonios.</p>
+         </div>
+
+         <div type="commentary">
+            <head>Commentary</head>
+            <p> There is a full discussion of this text in <bibl n="JandG">Reynolds &amp;
+                  Tannenbaum</bibl>, ad loc.; since then the text has been the subject of lively
+               debate, on which see especially <bibl n="ac2002">Chaniotis</bibl> (below).</p>
+         </div>
+
+         <div type="history" n="locations">
+            <head>Locations</head>
+            <p><rs type="found"><rs type="monuList">City, Village</rs>: New Museum excavations, east of what is
+                  now the entrance.</rs> Original location <rs type="origLocation">Unknown</rs>.
+               Last recorded in <rs type="lastLocation">Museum</rs></p>
+         </div>
+
+         <div type="history" n="text-constituted-from">
+            <head>Text Constituted From</head>
+            <p>Transcription (Reynolds).</p>
+         </div>
+         <div type="history" n="record">
+            <head>History of Recording</head>
+            <p>Found in the winter of 1975-6; recorded by the NYU expedition in 1976 (<rs type="invNo">76.1</rs>).</p>
+         </div>
+
+         <div type="bibliography">
+            <head>Bibliography</head>
+            <p>Discovery reported in <bibl type="primary">K. T. Erim, <title level="j">AJA</title>
+                  81 (1977), 306</bibl> and <bibl type="primary">Erim, <title level="j">AS</title>
+                  27 (1977), 31</bibl>. Published by <bibl n="JandG" rend="primary" type="hbi">Reynolds &amp; Tannenbaum, <title level="m">Jews and Godfearers at
+                     Aphrodisias</title>
+                  <biblScope>principal inscription</biblScope></bibl>, whence <bibl n="be">BE
+                     <biblScope>1988.888</biblScope></bibl>; <bibl n="seg">SEG
+                  <biblScope>1976.970</biblScope></bibl>, <bibl n="PHI">
+                  <author>McCabe</author>
+                  <title level="m">PHI Aphrodisias</title>
+                  <biblScope n="257067">188</biblScope>
+               </bibl>; mentioned by <bibl n="ktejmr1991">K. T. Erim and J. M. Reynolds, 'Sculptors of Aphrodisias', 529-31, nos. <biblScope>21</biblScope>, <biblScope>22</biblScope>, <biblScope>23</biblScope></bibl>; for discussion and full bibliography see <bibl n="ac2002">Chaniotis, <title level="j">Scripta Classica Israelica</title> 21 (2002), 209-242</bibl>.</p>
+         </div>
+
+         <div type="figure" n="photographs">
+            <head>Photographs</head>
+            <p>
+               <figure href="77_B_15A">
+                  <figDesc>Face a (1977)</figDesc>
+               </figure>
+               <figure href="JangG_01">
+                  <figDesc>Stone, showing face a (2002)</figDesc>
+               </figure>
+               <figure href="77_B_16A">
+                  <figDesc>Face a, upper part (1977)</figDesc>
+               </figure>
+               <figure href="77_B_17A">
+                  <figDesc>Face a, lower part (1977)</figDesc>
+               </figure>
+               <figure href="80_A_07">
+                  <figDesc>Face a, showing text (1980)</figDesc>
+               </figure>
+               <figure href="JangG_02">
+                  <figDesc>Face a, ll. 1-15 (2002)</figDesc>
+               </figure>
+               <figure href="JangG_03">
+                  <figDesc>Face a, ll. 1-12 (2002)</figDesc>
+               </figure>
+               <figure href="JangG_04">
+                  <figDesc>Face a, ll. 1-11 (2002)</figDesc>
+               </figure>
+               <figure href="JangG_05">
+                  <figDesc>Face a, ll. 2-11 (2002)</figDesc>
+               </figure>
+               <figure href="JangG_06">
+                  <figDesc>Face a, ends of ll. 2-5 (2002)</figDesc>
+               </figure>
+               <figure href="JangG_07">
+                  <figDesc>Face a, ll. 9-21 (2002)</figDesc>
+               </figure>
+               <figure href="76_E_17">
+                  <figDesc>Face b, upper part (1976)</figDesc>
+               </figure>
+               <figure href="76_E_18">
+                  <figDesc>Face b, lower part (1976)</figDesc>
+               </figure>
+               <figure href="76_E_21">
+                  <figDesc>Face b, showing stone (1976)</figDesc>
+               </figure>
+               <figure href="JangG_08">
+                  <figDesc>Face b, ll. 1-17 (2002)</figDesc>
+               </figure>
+               <figure href="JangG_09">
+                  <figDesc>Face b, ll. 17-30 (2002)</figDesc>
+               </figure>
+               <figure href="JangG_10">
+                  <figDesc>Face b, ll. 23-33 (2002)</figDesc>
+               </figure>
+               <figure href="JangG_11">
+                  <figDesc>Face b, ll. 34-44 (2002)</figDesc>
+               </figure>
+               <figure href="JangG_12">
+                  <figDesc>Face b, ll. 45-56 (2002)</figDesc>
+               </figure>
+               <figure href="JangG_13">
+                  <figDesc>Face b, ll. 52-61 (2002)</figDesc>
+               </figure>
+               <figure href="76_E_22">
+                  <figDesc>Face c, stone (1976)</figDesc>
+               </figure>
+            </p>
+         </div>
+
+      </body>
+   </text>
+</TEI>

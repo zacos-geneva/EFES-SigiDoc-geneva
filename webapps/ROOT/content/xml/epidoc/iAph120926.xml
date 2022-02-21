@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120926" n="iAph0660 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for the People of Kibyra</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>No description; presumably a <rs type="objectType">statue base</rs>.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>No description</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>No description</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0225" notAfter="0275"> Mid third century</date>
+(<rs type="criteria">prosopography</rs>)</p>
+
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="ὁ">τῆς</w> <w lemma="λαμπρός">λαμ<lb type="worddiv" n="2"/>προτάτης</w> <placeName type="ethnic" reg="Ἀφροδεισιεύς">Ἀφρο<lb type="worddiv" n="3"/>δεισιέων</placeName> <w lemma="πόλις">πόλε<lb type="worddiv" n="4"/>ως</w> <w lemma="ὁ">τὸν</w> <w lemma="λαμπρός">λαμπρό<lb type="worddiv" n="5"/>τατον</w>  <w lemma="δῆμος">δῆμον</w> <lb n="6"/><space extent="3" unit="character" dim="horizontal"/> <placeName type="ethnic" reg="Κιβυρατής">Κιβυρατῶν</placeName> <space extent="3" unit="character" dim="horizontal"/>  <lb n="7"/> <w lemma="συνθύω">συνθύσαντα</w> <w lemma="ἐπί">ἐπὶ</w> <lb n="8"/> <w lemma="ὁ">τῇ</w> <w lemma="δίδωμι">δεδομένῃ</w> <w lemma="ὁ">τοῦ</w> <lb n="9"/> <w lemma="ἱερός">ἱεροῦ</w> <w lemma="ἀγών">ἀγῶνος</w> <w lemma="δίδωμι">δω<lb type="worddiv" n="10"/><space extent="3" unit="character" dim="horizontal"/></w>  <w>ρεᾷ</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="11"/> <w lemma="προνοέομαι">προνοησαμένου</w> <persName type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μ</abbr><supplied reason="abbreviation">άρκου</supplied></expan></name>  <name reg="Αὐρήλιος" type="nomen"><expan><abbr>Α<supplied reason="lost">ὐ</supplied>ρ</abbr><supplied reason="abbreviation">ηλίου</supplied></expan></name>  <lb n="12"/> <name reg="Παπίας">Παπίου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Παπίας">Παπίου</name> <w>δ´</w> <w lemma="ὁ">τοῦ</w> <lb n="13"/> <persName type="aphrodisian"><name reg="Διογένης">Διογένους</name></persName></persName></persName> <w lemma="ὁ">τοῦ</w> <w lemma="πρωτόλογος">πρ<unclear reason="damage">ω</unclear>το  <lb type="worddiv" n="14"/>λόγου</w> <w lemma="ἄρχων">ἄρχοντος</w> <w lemma="ὁ">τὸ</w> <num value="2">β</num> <lb n="15"/>  <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 7,  <foreign lang="grc">ΣΗΝΤΑ</foreign> Sherard</p>
+<p>l. 11,  <foreign lang="grc">ΜΑΡ</foreign> Sherard</p>
+<p>l. 13,  <foreign lang="grc">ΠΡΟ</foreign> Sherard</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>The People of the most splendid city of the Aphrodisians (honoured) the most splendid People of the Kibyrates, who joined in the sacrifice for the giving of the grant of the sacred contest. Under the supervision of Marcus Aurelius Papias son of Papias son of Papias son of Papias son of Papias son of Papias son of Diogenes, first Archon for the second time.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>This is one of a group of dedications for neighbouring communities: see <xref type="inscription" n="658" href="120924">12.924</xref>, <xref type="inscription" n="659" href="120925">12.925</xref>, <xref type="inscription" n="661" href="120927">12.927</xref>, <xref type="inscription" n="662" href="120928">12.928</xref>, <xref type="inscription" n="663" href="120929">12.929</xref> and <xref type="inscription" n="664" href="120930">12.930</xref>. See further Roueché PPA, ad loc. </p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found">Perhaps <rs type="monuList" cert="low">Walls, West</rs></rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot (1716)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; notebooks.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+
+<p>Copied by Sherard in 1716 (BM Add. 10101, 128); not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="CIGII">Boeckh, from Sherard, CIG <biblScope>2764</biblScope></bibl>, whence <bibl n="texier1839">Texier, Description, 156 no.<biblScope>3</biblScope></bibl>, <bibl n="liermann1889">Liermann, Analecta <biblScope>34</biblScope></bibl>. Published by <bibl n="PPA">Roueché, PPA <biblScope>60</biblScope></bibl></p>
+</div>
+<div type="figure" n="none">
+<head>Photographs</head>
+<p>None </p>
+</div></body></text>
+</TEI>

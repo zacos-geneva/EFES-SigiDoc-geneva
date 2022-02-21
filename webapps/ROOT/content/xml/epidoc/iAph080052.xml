@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080052" n="iAph1268 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="statue dedication">Statue dedication</rs> of a statue of Demos by Nikomachos and Menodotos.</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">statue base</rs> with elaborate moulding above and below, chipped at the upper right corner (<measure type="length" unit="metre" dim="width">0.84</measure> × <measure type="length" unit="metre" dim="height">0.68</measure> × <measure type="length" unit="metre" dim="depth">0.84</measure>). The statue of the Demos was found with it.</p>
+</div>
+<div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div><div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.025</measure>; circular stops.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0200" exact="none">First to second centuries A.D.</date> (<rs type="criteria">titulature</rs>, <rs type="criteria">nomenclature</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <persName type="divine" full="yes"><name reg="Ἀφροδίτη">Ἀφροδίτῃ</name></persName>  <w lemma="θεός">θεοῖς</w>  <persName type="emperor" full="yes">Σεβαστοῖς</persName>  <lb n="2"/> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">Δήμῳ</w> <w lemma="ὁ">τὸ</w> <w lemma="ἄγαλμα">ἄγαλμα</w> <w lemma="ὁ">τοῦ</w> <w>Δή<lb n="3" type="worddiv"/>μου</w>  <persName type="aphrodisian" full="yes"><name reg="Νικόμαχος">Νικόμαχος</name>  <persName type="aphrodisian"><name reg="Μηνόδοτος">Μηνοδότου</name>  <lb n="4"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μενάνδρου</name></persName></persName></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian" full="yes"><name reg="Μηνόδοτος">Μηνόδο<lb n="5" type="worddiv"/>τος</name>  <persName type="aphrodisian"><name reg="Νικόμαχος">Νικομάχου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Μηνόδοτος">Μηνοδό<lb n="6" type="worddiv"/>του</name></persName></persName></persName> <w lemma="καθώς">καθὼς</w> <w lemma="ἐπαγγέλλω"><orig reg="ἐπηγγείλαντο">ἐπηνγίλαντο</orig></w>      <g type="star"/>  </ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>For Aphrodite, the gods Augusti, the People: the statue of the People Nikomachos son of Menodotos the son of Menandros and Menodotos son of Nikomachos the son of Menodotos <supplied reason="subaudible">put up</supplied> as they promised.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Strictly the date should be after the deification of Livia Augusta, but it is possible to envisage a dedication of this sort in the east much earlier. On statues of Demos see <bibl>NPMilner, AS 38, (1988), 137</bibl>.</p><p>For another dedication of a statue of Demos see <xref type="inscription" n="817" href="020111">2.111</xref> (=62.452) (mentioned by Erim and Smith)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="origLocation"><rs type="monuList">Theatre</rs></rs>
+<rs type="found"><rs type="monuList">Theatre</rs></rs>
+<rs type="lastLocation">Museum, on display next to the statue of the Demos</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1970 (<rs type="invNo">70.1023</rs>; SBI <rs type="sbi">151</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published (in majuscule) with the statue, by <bibl><author>K.T. Erim &amp; R. R. R. Smith</author>, <title>Aphrodisias Papers</title> 2, 74</bibl>, whence <bibl n="seg">SEG <biblScope>1991.921</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="AG_Demosbase"><figDesc>Face (2005)</figDesc></figure></p>
+</div></body></text>
+</TEI>

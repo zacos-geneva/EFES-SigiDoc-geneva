@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130105" n="iAph1029 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> <rs type="textType">honours</rs> for Peritas Kallimedes  and his wife Tatia</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date>2005-02-16</date><respStmt><name>Artemis Papakostouli</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs reg="sarcophagus" type="objectType">sarcophagus</rs> (<measure type="length" unit="metre" dim="width">2.66</measure>   × <measure type="length" unit="metre" dim="height">1.19</measure>   × <measure type="length" unit="metre" dim="depth">1.36</measure>: interior <measure type="length" unit="metre" dim="width">2.15</measure>   × <measure type="length" unit="metre" dim="height">0.87</measure>   × <measure type="length" unit="metre" dim="depth">1.00</measure>).  The front face has an elaborately carved <rs type="decoration">garland</rs> running along the upper edge and part-way down the two sides, and a simple moulding below. On the face busts, a <rs type="decoration">bearded male</rs> (to the left) and a <rs type="decoration">veiled female</rs> (to the right), are carved in relief profile, facing one another, each on a rectangular pedestal, with moulding above and below. See further Smith (below)</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>The texts are <rs type="execution" key="scalpro">inscribed</rs> on the face to the left of the male bust (i); between the two (ii) and to the right of the female bust (iii).</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p>i: <measure dim="height" type="length" unit="metre">0.03</measure>; ii: <measure dim="height" type="length" unit="metre">0.0225-0.025</measure>; iii: <measure dim="height" type="length" unit="metre">0.02-0.025</measure>.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p><date notBefore="0161" notAfter="0300" exact="none">Late second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">sculpture</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+
+<div type="textpart_section" n="i"><ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτείμη<lb n="2" type="worddiv"/>σαν</w> <w lemma="καί">καὶ</w> <w lemma="μεταλλάζω">μετηλλακχότα</w> <w lemma="ὁ">ταῖς</w> <lb n="3"/> <w lemma="καλός">καλλίσταις</w> <w lemma="καί">καὶ</w> <w lemma="πρέπω">πρεπούσαις</w> <lb n="4"/> <w lemma="τιμή">τειμαῖς</w> <persName type="aphrodisian" full="yes"><name reg="Περείτας">Περείταν</name>  <persName type="aphrodisian" full="yes"><persName type="aphrodisian" full="yes"><name reg="Διογένης">Διογένους</name></persName>  <lb n="5"/> <w lemma="ὁ">τοῦ</w> <name reg="Ἀπολλώνιος">Ἀπολλωνίου</name></persName>    <name reg="Καλλιμήδης">Καλλιμήδην</name></persName>  <lb n="6"/> <w lemma="ἀνήρ">ἄνδρα</w> <w lemma="ἐνάρετος">ἐνάρετον</w> <w lemma="ζάω">ζήσαντα</w> <lb n="7"/> <w lemma="ἐνδόξως">ἐνδόξως</w> <w lemma="καί">καὶ</w> <w lemma="ἐπιφανής">ἐπιφανῶς</w> <w lemma="καί">καὶ</w> <lb n="8"/> <w lemma="κόσμιος">κοσμίως</w> <w lemma="γίγνομαι">γενόμενον</w> <w lemma="ἐν">ἔν</w> <w lemma="τε">τε</w> <lb n="9"/> <w lemma="λειτουργία">λειτουργίαις</w> <w lemma="καί">καὶ</w> <w lemma="ἀρχή">ἀρχαῖς</w> <w lemma="καί">καὶ</w> <lb n="10"/> <w lemma="πρεσβεία">πρεσβείαις</w> <w lemma="νεοποιέω">νεωποιήσαντά</w> <lb n="11"/> <w lemma="τε">τε</w> <w lemma="μεγαλοπρεπής">μεγαλοπρεπῶς</w> <w lemma="καί">καὶ</w> <w lemma="κόσμιος">κοσμί<lb n="12" type="worddiv"/>ως</w> <w lemma="καί">καὶ</w> <w lemma="ἐπιφανής">ἐπιφανῶς</w> <w lemma="καί">καὶ</w> <w lemma="πᾶς">πάντα</w> <lb n="13"/> <w lemma="ποιέω">ποιήσαντα</w> <w lemma="ἀναλογούντως">ἀναλογούντως</w> <lb n="14"/> <w lemma="ὁ">τῷ</w> <w lemma="ὁ">τοῦ</w> <w lemma="γένος">γένους</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="ἀξίωμα">ἀξιώματι</w> <lb n="15"/> <w lemma="ἐπί">ἐφ'</w> <w lemma="ὅς">οἷς</w> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="ἐπιβοάω">ἐπεβό<lb n="16" type="worddiv"/><g type="scroll"/>  ησαν</w> <w lemma="τιμάω">τειμηθῆναι</w> <w lemma="αὐτός">αὐτὸν</w> <w lemma="καί">καὶ</w> <lb n="17"/><g type="scroll"/> <w lemma="μεταλλάζω">μετηλλακχότα</w> <g type="leaf"/></ab></div><div type="textpart_section" n="ii"><ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Μᾶρκος"><expan><abbr>Μᾶρ</abbr><supplied reason="abbreviation">κον</supplied></expan></name>  <name reg="Αὐρήλιος" type="nomen">Αὐρήλιον</name>  <lb n="2"/><name reg="Διόδωρος">Διόδωρον</name>  <name reg="Καλλιμήδης">Καλ<lb n="3" type="worddiv"/>λιμήδην</name></persName> <w lemma="ἀνήρ">ἄνδρα</w> <lb n="4"/> <w lemma="ἐνάρετος">ἐνάρετον</w> <w lemma="ζάω">ζή<lb n="5" type="worddiv"/>σαντα</w> <w lemma="ἐνδόξως">ἐνδόξως</w> <lb n="6"/> <w lemma="καί">καὶ</w> <w lemma="ἐπιφανής">ἐπιφανῶς</w> <lb n="7"/> <w lemma="καί">καὶ</w> <w lemma="κόσμιος">κοσμίως</w> <w lemma="γίγνομαι">γε<lb n="8" type="worddiv"/>νόμενον</w> <w lemma="ἐν">ἐν</w> <w lemma="λειτουργία">λει<lb n="9" type="worddiv"/>τουργίαις</w> <w lemma="καί">καὶ</w> <w lemma="ἀρχή">ἀρ<lb n="10" type="worddiv"/>χαῖς</w> <w lemma="καί">καὶ</w> <w lemma="πρεσβεία">πρεσβεί<lb n="11" type="worddiv"/>αις</w> <w lemma="καί">καὶ</w> <w lemma="πᾶς">πάντα</w> <w lemma="ποιέω">ποι<lb n="12" type="worddiv"/>ήσαντα</w>  <w lemma="ἀναλογούντως">ἀναλο<lb n="13" type="worddiv"/>γούντως</w> <w lemma="ὁ">τῷ</w> <w lemma="ὁ">τοῦ</w> <lb n="14"/> <w lemma="γένος">γένους</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="ἀξίωμα">ἀξι<lb n="15" type="worddiv"/>ώματι</w> <w lemma="ὁ">τὸν</w> <w lemma="ὄντως">ὄντως</w> <lb n="16"/><space extent="1" unit="character" dim="horizontal"/> <w lemma="φιλόσοφος">φιλόσοφον</w> <space extent="1" unit="character" dim="horizontal"/></ab></div><div type="textpart_section" n="iii"><ab><lb n="1"/><w lemma="ὁ">ἡ</w>  <w lemma="βουλή">βουλὴ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δῆμος</w>  <lb n="2"/><space extent="4" unit="character" dim="horizontal"/>  <w lemma="τιμάω">ἐτείμησεν</w>  <space extent="4" unit="character" dim="horizontal"/><lb n="3"/><persName type="aphrodisian" full="yes"><name reg="Τατία">Τατίαν</name>  <name reg="Διογένης">Διογένους</name>  <w lemma="ὁ">τοῦ</w>  <lb n="4"/><persName type="aphrodisian"><name reg="Διογένης">Διογένους</name> <w lemma="ὁ">τοῦ</w>  <persName type="aphrodisian"><name reg="Δημήτριος">Δημητρί<lb n="5" type="worddiv"/>ου</name></persName></persName> <name reg="Φιλήμων">Φιλήμονος</name></persName>  <w lemma="σώφρων">σώφρονα</w>  <lb n="6"/><w lemma="καί">καὶ</w>  <w lemma="φίλανδρος">φίλανδρον</w>  <w lemma="καί">καὶ</w>  <w lemma="φιλότεκνος">φιλότε<lb n="7" type="worddiv"/>κνον</w>  <w lemma="καί">καὶ</w>  <w lemma="πᾶς">πάσῃ</w>  <w lemma="διά">διὰ</w>  <w lemma="πᾶς">παν<lb n="8" type="worddiv"/>τὸς</w>  <w lemma="ὁ">τοῦ</w>  <w lemma="βίος">βίου</w>  <w lemma="κοσμέω">κοσμηθεῖ<lb n="9" type="worddiv"/>σαν</w>  <w lemma="σεμνότις">σεμνότητι</w>  <w lemma="καί">καὶ</w>  <w lemma="ἀρετή">ἀρετῇ</w>  <lb n="10"/><w lemma="γυνή">γυναῖκα</w>  <w lemma="δέ">δὲ</w>  <w lemma="γίγνομαι">γενομένην</w>  <lb n="11"/><persName type="aphrodisian" full="yes"><name reg="Περείτας">Περείτου</name>  <w lemma="ὁ">τοῦ</w>  <persName type="aphrodisian"><name reg="Διογένης">Διογένους</name>  <lb n="12"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀπολλώνιος">Ἀπολλωνίου</name>  <name reg="Καλλιμήδης">Καλλιμή<lb n="13" type="worddiv"/>δους</name></persName></persName></persName>  <w lemma="ἀνήρ">ἀνδρὸς</w>  <w lemma="ἐν">ἔν</w>  <w lemma="τε">τε</w>  <w lemma="ἀρχή">ἀρχαῖς</w>  <lb n="14"/><w lemma="καί">καὶ</w>  <w lemma="πρεσβεία">πρεσβείαις</w>  <w lemma="καί">καὶ</w>  <w lemma="λειτουργία">λειτουργί<lb n="15" type="worddiv"/>αις</w>  <w lemma="γίγνομαι">γεγονότος</w>  <w lemma="καί">καὶ</w>    <w lemma="νεοποιέω">νεοποιή<lb n="16" type="worddiv"/>σαντος</w>  <w lemma="εὐσεβῶς">εὐσεβῶς</w>  <w lemma="καί">καὶ</w>  <w lemma="φιλοτίμως">φιλο<lb n="17" type="worddiv"/>  <g type="scroll"/>    τείμως</w>      <g type="leaf"/></ab></div></div>
+
+
+
+<div type="translation">
+<head>Translation</head>
+<p>i.  The Council and the People honoured also after his death with the most splendid and fitting honours Peritas Kallimedes son of Diogenes the son of Apollonios, a man of virtue, who won esteem and note for his way of life, was well-ordered in his conduct of liturgies and offices and embassies, generous and well-ordered and notable as a neopoios, and acted always as was appropriate to the honour of his family.  For these reasons the Council and the People voted by cheering (?by acclamation) for honours to be paid to him also after his death.
+
+</p><p>ii. (The Council and the People honoured) Marcus Aurelius Diodoros Kallimedes, a man of virtue who won esteem and note for his way of life, was well-ordered in his conduct of liturgies and ofices and embassies, and acted always as was appropriate to the honour of his family, a man who was genuinely a philosopher.
+
+</p><p>iii. The Council and the People honoured Tatia daughter of Diogenes Philemon the son of Diogenes the son of Demetrios, a prudent woman, devoted to her husband and her children, and adorned throughout her life with outstanding dignity and virtue; she was the wife of Peritas Kallimedes son of Diogenes the son of Apollonios, a man who undertook offices and embassies and liturgies and was a pious and munificent neopoios.</p></div>
+
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p>No commentary yet (2007)</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Necropolis, North-east</rs>: 'in a large heroon east of the village' (MAMA); found with <xref type="inscription" n="1573" href="130104">13.104</xref> (=MAMA 571).</rs> <rs type="origLocation">Findspot</rs> <rs type="lastLocation">Museum</rs></p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); Gaudin's squeeze; publications.</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by K&amp;R (K.III.19, Abklatsch 107); recorded by Gaudin (160); by the MAMA expedition; by the NYU expedition</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="kubreich1893">Kubitschek &amp; Reichel, AAWW 1893, 102, no. <biblScope>8</biblScope></bibl>, whence <bibl>Buresch, RhMus 1894, p.431</bibl>; by <bibl n="reinach">Reinach, from Gaudin's squeeze, REG 19, 1906, 137-139, no. <biblScope>70</biblScope>, a-c</bibl>; by <bibl n="MAMA8">Cormack from the MAMA records, MAMA 8, no. <biblScope>499</biblScope>, a-c</bibl> whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257401">523</biblScope>, <biblScope n="257324">446</biblScope>, <biblScope n="257414">534</biblScope></bibl>; sarcophagus published  by<bibl n="rrrs2006"> <author>Smith</author>, <title>Roman Portrait Statuary from Aphrodisias</title>,  <biblScope>Sarcophagus 10</biblScope></bibl></p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="73_X_22A"><figDesc>Monument (1973)</figDesc></figure></p></div><div type="figure" n="transcriptions">
+<head>Representations</head>
+<p><figure href="K_III_19"><figDesc>Kubitschek notebook III, 19</figDesc></figure><figure href="K_III_19v"><figDesc>Kubitschek notebook III, 19v</figDesc></figure></p>
+</div></body>
+</text>
+
+</TEI>

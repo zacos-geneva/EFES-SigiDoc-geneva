@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010120" n="iAph0391 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><seg cert="low"><rs type="textType">Funerary</rs></seg> fragment from Temple</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-06-19</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2005-07-28</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment of a  <rs type="material" key="marmor">white marble</rs> <rs type="objectType">panel</rs>, back surviving, but no edges (<measure type="length" unit="metre" dim="width">0.10</measure>   ×  <measure type="length" unit="metre" dim="height">0.12</measure>   ×  <measure type="length" unit="metre" dim="depth">0.035</measure>).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p> Inscribed on one face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p> <measure dim="height" type="length" unit="metre">0.015</measure>.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p> Possibly <date notAfter="0100" notBefore="0001" exact="none" cert="low">first century A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+
+<ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">β</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ε</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="3"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ο</unclear>υ<unclear reason="damage">α</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><w lemma="ἕτερος">ἕτερ<supplied reason="lost">ος</supplied></w>  <supplied reason="lost"><w lemma="δέ">δὲ</w>  <w lemma="οὐδείς">οὐδεὶς</w>  <note place="not  specified" anchored="yes">κτλ</note></supplied><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="5"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ε<unclear reason="damage">κ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="5a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab>
+</div>
+
+
+
+<div type="translation">
+<head>Translation</head>
+<p><gap dim="left" reason="lost"/><supplied reason="lost">no one</supplied> else <supplied reason="explanation">shall be buried here</supplied><gap dim="right" reason="lost"/></p></div>
+
+ <div type="commentary">
+<head>Commentary</head>
+<p>No comment.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Temple/Church</rs> 'T.Aph. 4, Str. 2 I</rs> <rs type="origLocation">Unknown</rs> <rs type="lastLocation">Museum</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (<rs type="invNo">62.77</rs>).</p>
+  </div>
+
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="figure" n="photographs"><head>Photographs</head><p><figure href="77_E_20"><figDesc>Face (1977)</figDesc></figure><figure href="77_I_37"><figDesc>Face (1977)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

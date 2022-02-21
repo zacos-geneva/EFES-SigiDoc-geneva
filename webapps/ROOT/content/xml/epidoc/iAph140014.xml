@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph140014" n="iAph0167 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><seg cert="low"><rs type="textType" reg="funerary">Epitaph</rs> of <rs type="personType">bishop</rs> of Stratonicaea</seg></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language><language id="de">German</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-06-02</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-29</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A <rs type="material" key="marmor">marble</rs> <rs type="objectType">masonry block</rs>, broken above and to right (<measure type="length" unit="metre" dim="height">0.32</measure> × <measure type="length" unit="metre" dim="width">0.69</measure> × <measure type="length" unit="metre" dim="depth">0.09</measure>).</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> on the face; an iron clamp obscures part of the
+text.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>'<foreign lang="de">Schrift tief und bestimmt</foreign>'; <measure type="length" unit="metre" dim="height">0.025-0.05</measure>: dash for abbreviation;
+<term>stigma</term> for <foreign lang="grc">ΣΤ</foreign>; at end, <foreign lang="grc">Υ</foreign> above <foreign lang="grc">ΤΟ</foreign>.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notAfter="0700" notBefore="0601">Seventh century</date> or later (<rs type="criteria">lettering</rs>)</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+        <ab>
+		  	<lb n="1"/><gap reason="lost" dim="top" extent="unknown" unit="line"/>
+			<lb n="2"/><gap reason="lost" dim="left" extent="unknown" unit="character"/> <rs key="bishop" type="official-relig"><w lemma="ἐπίσκοπος"><expan><abbr><supplied reason="lost">ἐπι</supplied>σκόπ</abbr><supplied reason="abbreviation">ου</supplied></expan></w></rs> <placeName reg="Στρατονικεία" type="geog" full="yes" key="Stratonicea">Στ<supplied reason="lost">ρ</supplied>ατονικείας</placeName> <w lemma="ὁ"><expan><abbr>τ</abbr><supplied reason="abbreviation">οῦ</supplied></expan></w> <space dim="horizontal"/>
+			<lb n="3"/><space dim="vertical"/></ab>
+	  </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab><supplied reason="lost" cert="low">Tomb of so-and -so</supplied> bishop of Stratonicaea.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="IX.44">IX.37</xref></p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p> <rs type="found"><rs type="monuList">Karaçasu</rs>: re-used in a fountain: '<foreign lang="de">Brunnen</foreign>':
+'<foreign lang="de">heute zu einem Brustungsstein umgearbeitet</foreign>'.</rs> <rs type="origLocation">Unknown.</rs> <rs type="lastLocation">Findspot (1893).</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Copied by <rs type="visitor" key="kubitschek">Kubitschek</rs> (K.III.2, <foreign lang="de">Abklatsch</foreign> 97);
+not reported subsequently.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published from Kubitschek by <bibl type="hbi" n="cormack1964"><author>Cormack</author> (<date>1964</date>), no.<biblScope> 2</biblScope>, and p. 18</bibl>, whence <bibl type="hbi" n="robert1966"><author>Robert</author> (<date>1966</date>), 381 n. 4</bibl>,
+<bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> <biblScope>167</biblScope></bibl>; not in <bibl><title level="m">PHI</title></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Publications; Kubitschek notebook.</p>
+      </div>
+
+      <div type="figure" n="transcriptions">
+        <head>Representations</head>
+        <p><figure href="K_III_02"><figDesc>Transcription by Kubitschek (1893)
+notebook 3, p.2</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

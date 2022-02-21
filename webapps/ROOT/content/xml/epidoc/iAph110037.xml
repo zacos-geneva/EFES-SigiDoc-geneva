@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110037" n="iAph1562 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" cert="low">Funerary</rs> fragment</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> fragment <measure type="length" unit="metre" dim="width">0.38</measure>   × <measure type="length" unit="metre" dim="height">0.14</measure>   × <measure type="length" unit="metre" dim="depth">0.23</measure>, perhaps complete to left.
+</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.0125-0.02</measure>. ligatures: <foreign lang="grc">TH</foreign>, l.2 (twice)</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/> <w>ΕΙΣ</w> <w lemma="ὑπόκειμαι">ὑποκείσονται</w> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/> <w lemma="ὁ"><hi rend="ligature">τῇ</hi></w> <w lemma="θεά">θεᾷ</w> <persName type="divine"><name reg="Ἀφροδίτη">Ἀφροδεί<hi rend="ligature">τῃ</hi></name></persName> <unclear reason="damage">Ι</unclear><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <supplied reason="lost">τὸν</supplied>  <supplied reason="lost">κατὰ</supplied>  <lb n="3"/> <w lemma="καιρός">καιρὸν</w> <w lemma="νεοποιός">νεοποιὸι</w> <gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="4"/> <w><unclear reason="damage">θ</unclear>ης</w> <w lemma="εἰμί">ἐ<unclear reason="damage">σ</unclear><supplied reason="lost">τι</supplied>ν</w> <w lemma="ὁ">ὁ</w> <persName type="aphrodisian"><name reg="Τατιανός">Τατιανὸ<supplied reason="lost">ς</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 1,  <foreign lang="grc">κείσο<unclear reason="damage">ν</unclear>[ ...</foreign> Reichel</p><p>l. 2,  <foreign lang="grc">ΤΗΟΣΑ</foreign> Reichel</p><p>l. 4, perhaps <foreign lang="grc">ἐ[πὶ] <unclear reason="damage">Π</unclear>οτιτιαν<unclear reason="damage">ο</unclear>[ῦ</foreign> Cormack; <foreign lang="grc">Ε<unclear reason="damage">Τ</unclear>[ . ]ΙΟ ΤΑΤΙΑΝΟ[ ..</foreign> Reichel.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p> . . . ] will lie below[ ? penalty to be paid ] to the goddess Aphrodite { ? under the guidance of] the neopoioi then in office <gap extent="unknown" reason="lost" unit="character"/> is Tatianos</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> This may be an excerpt from a funerary penalty formula, but the expressions are unusual.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">City, Village</rs>: in a house wall' (MAMA)</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot (1934)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publication; Reichel</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by Reichel (1.17 and squeeze 73); recorded by the MAMA expedition; not reported subsequently</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>: Published by <bibl n="MAMA8">Cormack, from the MAMA records, MAMA 8, no. <biblScope>593</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257435">555</biblScope>
+</bibl>
+</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>None</p>
+</div><div n="Preliminary transcriptions" type="figure"><head>Representations</head><p><figure href="R_I_17"><figDesc>Reichel notebook I, 17</figDesc></figure></p></div></body></text>
+</TEI>

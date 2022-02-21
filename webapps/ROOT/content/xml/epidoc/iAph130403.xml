@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130403" n="iAph1691 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> inscription for Publia Calvisia Peritiane</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-04-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>DONE</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A <rs type="material">white marble</rs> <rs type="objectType">sarcophagus</rs> lid (<measure type="length" unit="metre" dim="width">1.90</measure>  × <measure type="length" unit="metre" dim="height">0.35</measure>  × <measure type="length" unit="metre" dim="depth">0.87</measure>). Beside it is the sarcophagus, broken and badly damaged, with columns at the corners; the <rs type="decoration">tabella ansata</rs> has been erased.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the upper rim (l. 1) on two pendants (l.2) and on lower rim (l.3); the state of the surface suggests that ll.1 and 3 were cut over an earlier, erased, text.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>l.2, well cut, <measure dim="height" type="length" unit="metre">0.065</measure>; ll.1 &amp; 3, irregular, ave. <measure dim="height" type="length" unit="metre">0.03</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ"><unclear reason="damage">ἡ</unclear></w> <w lemma="σορός"><unclear reason="damage">σορό</unclear>ς</w> <w lemma="εἰμί">ἐστιν</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="περί">περὶ</w> <w lemma="αὐτός">αὐτὴν</w> <w lemma="πλάτος"><unclear reason="damage">π</unclear>λά<unclear reason="damage">τ</unclear>ος</w> <persName type="aphrodisian"><name reg="Ποπλία">Ποπλίας</name> <name reg="Καλβισία">Κα<unclear reason="damage">λ</unclear>βισίας</name></persName> <lb n="2"/> <note>sic</note> <w>ΩΖ <milestone unit="block"/> ΣΙΝ</w> <lb n="3"/> <persName type="aphrodisian"><name reg="Περιτιανή">Περιτιανῆς</name></persName> <w lemma="ὁ">τῆς</w> <w lemma="ἔγγονος">ἐγγόνου</w> <persName type="aphrodisian"><name reg="Ἰουλιανός">Ἰουλιανοῦ</name></persName> <w lemma="ὁ">τῆς</w> <w lemma="καί">καὶ</w> </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>Line 1: <foreign lang="grc">πλατός</foreign> is generally taken to be used as an equivalent of <foreign lang="grc">πλατάς</foreign>, a platform for a tomb.</p><p>Line 2, clearly misinscribed for ζῶσιν.</p><p>Line 3: the text was presumably completed on the chest of the sarcophagus.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p> i. The sarcophagus and the surrounding platform belongs to Publia Calvisia Peritiane, the grandaughter of Iulianos; she also <gap extent="unknown" reason="lost" unit="character"/></p><p>ii. They live.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Line 2 is commonly taken to indicate that the owners of the tomb were still alive, and tthe formula used here for peritiane would accord with that possibility, although it has been thought by some that continued existence after burial is indicated. P. Calvisia Peritiane is not otherwise attested at present. It is unusual that she is identified in the first instance by reference to a gradfather. He too is not identifiable at present.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Necropolis, South</rs>: in a small Turkish graveyard due south of the central section of the southern city walls.</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1994)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (<rs type="siteNo">Walls 17</rs>).</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="81_F_37"><figDesc>Face (1981)</figDesc></figure><figure href="94_C_34"><figDesc>Face (1994)</figDesc></figure></p>
+</div></body></text>
+</TEI>

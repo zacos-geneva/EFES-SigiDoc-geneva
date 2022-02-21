@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010002" n="iAph0537 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Building dedication</rs> for Aphrodite by C. Julius Zoilos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr1982">Reynolds (<date>1982</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Three adjoining <rs type="material">white marble</rs> <rs type="objectType">lintel</rs> blocks (<measure type="length" unit="metre" dim="height">0.54</measure>, <measure type="length" unit="metre" dim="depth">0.64</measure>) a, left corner block, broken to right (<measure type="length" unit="metre" dim="height">1.14</measure>); b brokenin two fragments and at both ends (<measure type="length" unit="metre" dim="height">1.04</measure>); right corner block, c cut down (<measure type="length" unit="metre" dim="height">2.00</measure>), with elaborate moulding.
+
+</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on two fasciae; partly erased.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>l.1, <measure dim="none">0.08-0.09</measure>; l.2, <measure dim="none">0.06-0.07</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="-0001" notBefore="-0033" exact="none">Late first century B.C.</date>
+(<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Γάϊος">Γάϊος</name>  <name reg="Ἰούλιος">Ἰούλιος</name>  <name reg="Ζωΐλος" type="        ">Ζώ<supplied reason="lost">ι</supplied>λο<unclear reason="damage">ς</unclear></name></persName> <w lemma="ὁ">ὁ</w> <w lemma="ἱερεύς">ἱερεὺς</w> <w lemma="θεός">θ<unclear reason="damage">εο</unclear>ῦ  </w><persName type="divine" full="yes"><name reg="Ἀφροδίτη">Ἀφροδείτη<supplied reason="lost">ς</supplied></name></persName><lb n="2"/><space unit="character" dim="horizontal"/> <w lemma="σωτήρ">σωτὴρ</w> <w lemma="καί">καὶ</w> <w lemma="εὐεργέτης">εὐεργέτης</w> <w lemma="ὁ">τῆς</w> <w lemma="πατρίς">πατρίδος</w> <space extent="1" unit="character" dim="horizontal"/> <w lemma="ὁ">τὸ</w> <w lemma="ἱερός">ἱ<unclear reason="damage">ερ</unclear>ὸ<unclear reason="damage">ν</unclear></w>  <persName type="divine" full="yes"><name reg="Ἀφροδίτη">Ἀφροδ<unclear reason="damage">εί</unclear>τῃ</name></persName></ab>
+</div>
+
+<div type="apparatus">
+<head>Apparatus</head>
+<p>The line lengths, shorter than those suggested in the previous publication, have been established on architectural grounds after discussion with Dr. Dinu Theodorescu.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>C. Julius Zoilos, priest of the god Aphrodite, saviour and benefactor of his country <supplied cert="low" reason="subaudible">gave</supplied> the sanctuary to Aphrodite.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See Reynolds, ll.cc.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">Temple/Church</rs>: lying in the atrium</rs>
+<rs type="origLocation"><rs type="monuList">Temple/Church</rs>: probably architrave of main west door.</rs>: <rs type="lastLocation">Findspot (1980)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; Transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition (<rs type="siteNo">Temple 6</rs>).</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl type="primary" n="jmr1982"><author>Reynolds</author>, <title level="m">Aphrodisias &amp; Rome</title>, doc. <biblScope>37</biblScope></bibl>, whence <bibl n="seg">SEG <biblScope>1982.1097</biblScope></bibl>, <bibl n="be">BE <biblScope>1983.388</biblScope></bibl>, <bibl n="anep">AnnEpig <biblScope>1984.878</biblScope></bibl> whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="256959">81</biblScope></bibl>, <bibl n="rrrs1993">Smith, <title>Monument</title>, <biblScope>T.3</biblScope></bibl>; discussed by discussed by <bibl n="jmr1990"><author>Reynolds</author>, 'Inscriptions and the Building of the Temple', <title>Aphrodisias Papers </title>(Ann Arbor, 1990), 37-40, 37-8</bibl> , whence<bibl n="seg"><title level="m">SEG</title> <biblScope>1990.945</biblScope></bibl>. </p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="73_Y_33"><figDesc>Fragment a (1973)</figDesc></figure><figure href="80_D_04"><figDesc>Fragment a (1980)</figDesc></figure><figure href="80_D_05"><figDesc>Fragment a (1980)</figDesc></figure><figure href="73_Y_35"><figDesc>Fragment b (1973)</figDesc></figure><figure href="77_B_07A"><figDesc>Fragment b (1977)</figDesc></figure><figure href="77_B_04A"><figDesc>Fragment c (1977)</figDesc></figure><figure href="77_B_05A"><figDesc>Fragment c (1977)</figDesc></figure><figure href="80_F_32"><figDesc>Fragment c (1980)</figDesc></figure></p>
+</div></body></text>
+</TEI>

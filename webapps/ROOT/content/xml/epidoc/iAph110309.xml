@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110309" n="iAph0232 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m">Fragment <seg cert="low">of <rs type="textType">building inscription</rs></seg></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change><change><date>2003-06-02</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Tidied and regularised</item></change><change><date>2002-11-01</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Typed and tagged Greek</item></change><change>
+  <date>2003-09-03</date>
+  <respStmt><name>CMR</name></respStmt>
+  <item>tagged, lemmatised and corrected</item>
+  </change>
+  <change><date>2004-02-29</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>No description.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>No description.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Tall and rectangular, <measure type="length" unit="metre" dim="height">0.08</measure></p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0301" notAfter="0500">Fourth-fifth century</date> (<rs type="criteria">lettering</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<ab>
+		<lb n="0"/><gap dim="top" reason="lost" extent="unknown" unit="line"/>
+		<lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">χημα<unclear reason="damage">ι</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		<lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">κ</unclear>αμηλ<unclear reason="damage">λ</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		<lb n="3"/><gap dim="bottom" reason="lost" extent="unknown" unit="line"/>
+		</ab>
+	  </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>1. <foreign lang="grc"><supplied reason="lost">εὐ</supplied>χή</foreign> or <foreign lang="grc"><supplied reason="lost">τύ</supplied>χη</foreign>, and then a name, <persName full="yes">Ma<gap dim="right" reason="lost"/></persName>, in the genitive.</p>
+        <p>2. The <foreign lang="grc">κ</foreign> could be <foreign lang="grc">χ</foreign> or <foreign lang="grc">ψ</foreign>; but <foreign lang="grc"><supplied reason="lost">νι</supplied>κᾷ</foreign> is tempting. The second <foreign lang="grc">λ</foreign> is probably that, not <foreign lang="grc">α</foreign> or <foreign lang="grc">δ</foreign>.</p>
+        <p>e.g.: <foreign lang="grc"><supplied reason="lost">ἡ</supplied> <w lemma="τύχη"><supplied reason="lost">τύ</supplied>χη</w> <persName full="yes">Μα<gap reason="lost"/><supplied reason="lost">ου</supplied></persName> <w lemma="νικάω"><supplied reason="lost">νι</supplied>κᾷ</w> μηλλ<gap dim="right" reason="lost"/></foreign></p>
+      </div>
+
+      <div type="translation" n="none">
+        <head>Translation</head>
+        <ab>No terms determinable.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="XI.28">XI.28</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p><rs type="found"><rs type="monuList">City, South-east</rs>: '<foreign lang="fr">Gymnase, pavillon principal</foreign>' (Gaudin); this is the small structure lying south east of the Theatre .</rs>.  <rs type="origLocation">Unknown.</rs>.  <rs type="lastLocation">Findspot.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Recorded by <rs type="visitor" key="gaudin">Gaudin</rs> (173); not reported subsequently.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" rend="primary" n="reinach"><author>Reinach</author>, no. <biblScope>220</biblScope></bibl> from Gaudin, whence
+<bibl type="hbi" n="IGC"><author>Grégoire</author>, <title level="m">IGC</title> <biblScope>254</biblScope></bibl> whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257767">881</biblScope></bibl>; published by <bibl n="ala2004" rend="primary" type="hbi"><author>Roueché</author> (2004), <biblScope>232</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Publication, squeeze.</p>
+      </div>
+
+      <div type="figure" n="transcriptions">
+        <head>Representations</head>
+        <p><figure href="martin-ala232"><figDesc>Photograph of squeeze, by M. H. Martin, College de France</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

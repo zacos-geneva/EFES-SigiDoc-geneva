@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100102" n="iAph0632 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><title level="m"><rs type="textType">Gladiator memorial</rs> for Margaretes</title>
+ </title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A <rs type="material">white marble</rs> <rs type="objectType">altar-stele</rs> with moulding above and below (<measure dim="height" unit="metre" type="length">0.84</measure> x <measure dim="width" unit="metre" type="length">0.37</measure> x <measure dim="depth" unit="metre" type="length">0.28</measure>). The relief is of a heavily armed <rs type="decoration">gladiator</rs>, with short sword in right hand, long shield in left, and a helmet which obscures his face, advancing right.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Standard forms; <measure dim="height" type="length" unit="metre">0.02</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>(<rs type="criteria">content</rs>, <rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <persName type="aphrodisian"><name reg="Μαργαρέτης">Μαργαρέτης</name></persName> </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Margaretes</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>For the name, 'Pearl', see Sabbatini, Roma no. 54, and D. French, 'Two gladiatorial texts', no.1.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found">Robert assumed that this altar-stele was found with the others seen by Reichel, <xref type="inscription" n="625" href="120015">12.15</xref>, <xref type="inscription" n="626" href="120013">12.13</xref>, and <xref type="inscription" n="627" href="120016">12.16</xref>, all of which were found near the <rs type="monuList">Stadium</rs>; it is also copied by Kubitschek on an endpaper with <xref type="inscription" n="626" href="120013">12.13</xref> and <xref type="inscription" n="627" href="120016">12.16</xref>. But the location given by Reichel suggests that it was seen south of the <rs type="monuList">Walls, South (east part)</rs>, and should probably therefore be associated with <xref type="inscription" n="629" href="120621">12.621</xref>, <xref type="inscription" n="630" href="120622">12.622</xref>, and <xref type="inscription" n="631" href="120615">12.615</xref>, all found reused in that part of the city wall</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; Reichel notebook</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+
+<p>Copied by G. Doublet and G. Deschamps in 1887; copied by Reichel in 1892 'im Felde vor der Südmauer' (R.I.23) and mentioned by Kubitschek (K.III, endpaper); not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>published by <bibl n="dd1890">Doublet and Deschamps, BCH (1890), 613, no.<biblScope>12</biblScope></bibl>. Cited by <bibl n="kubreich1893">Kubitschek and Reichel, no.<biblScope>2</biblScope></bibl>, whence <bibl n="robertglad">Robert, <title>Gladiateurs</title> no.<biblScope>161</biblScope></bibl>; published from Reichel's notebook by <bibl n="hell5">Robert, Hell. V.93-5, no.16</bibl>; published by <bibl n="PPA">Roueché, PPA <biblScope>32</biblScope></bibl>.</p>
+</div><div type="figure" n="transcriptions">
+<head>Representations</head>
+<p><figure href="R_I_23"><figDesc>Reichel notebook, I.23</figDesc></figure><figure href="K_III_63"><figDesc>Kubitschek notebook, III, 63</figDesc></figure></p>
+</div></body></text>
+</TEI>

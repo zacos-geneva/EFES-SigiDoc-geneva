@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050210" n="iAph1189 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="statue dedication">Dedication</rs> of a <seg cert="low">caryatid</seg> by  Julia Paula, with <rs type="textType">sculptor's signature</rs></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>1991</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="ktejmr1991">Erim and Reynolds (<date>1991</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">statue base</rs> with <rs type="decoration">egg and dart moulding</rs> on three sides (<measure type="length" unit="metre" dim="width">0.645</measure> × <measure type="length" unit="metre" dim="height">0.75</measure> × <measure type="length" unit="metre" dim="depth">0.59</measure>).
+</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face (i) and on the right side (ii)</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.05</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0134" notAfter="0166" exact="none">Mid second century A.D.</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">monument group</rs>, <rs type="criteria">prosopography</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="i"><ab><lb n="1"/>  <persName reg="Ἰουλία  Παῦλα" full="yes" type="aphrodisian"><name reg="Ἰουλία">Ἰουλία</name>  <persName type="aphrodisian" full="yes"><name reg="Γάϊος">Γαί<lb n="2" type="worddiv"/>ου</name>  <name reg="Ἀπολλόδοτος">Ἀπολλο<lb n="3" type="worddiv"/>δότου</name></persName>  <w lemma="θυγάτηρ">θυ<lb n="4" type="worddiv"/>γάτηρ</w>  <name reg="Παῦλα">Παῦ<lb n="5" type="worddiv"/>λα</name></persName>  <w lemma="ἀρχιέρεια">ἀρχιέρει<lb n="6" type="worddiv"/>α</w>  <w lemma="ἀνθηφόρος">ἀνθηφό<lb n="7" type="worddiv"/>ρος</w></ab></div><div type="textpart_section" n="ii"><ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Ἀνδρόνεικος">Ἀνδρόνει<lb n="2" type="worddiv"/>κος</name></persName>  <w lemma="ποιέω">ἐποί<lb n="3" type="worddiv"/>ει</w></ab></div>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>i. Julia Paula, daughter of Gaius Apollodotos, high priestess, flower-bearer <supplied reason="subaudible">dedicated this</supplied>.</p><p>ii. Andronikos made <supplied reason="subaudible">the statue</supplied></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>One of the series of dedications from the East Court of the Hadrianic Baths:<xref type="inscription" n="1184" href="050209">5.209</xref>, <xref type="inscription" n="1185" href="050007">5.7</xref>, <xref type="inscription" n="1189" href="050210">5.210</xref>, <xref type="inscription" n="1190" href="050211">5.211</xref>, <xref type="inscription" n="1198" href="050212">5.212</xref>, <xref type="inscription" n="1205" href="050213">5.213</xref>, <xref type="inscription" n="1209" href="050008">5.8</xref>, and others, currently in preparation for publication by Joyce Reynolds;  all are by women, and apparently bore caryatids (see <xref type="inscription" n="1198" href="050212">5.212</xref>).</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation"><rs type="monuList">Hadrianic Baths, East court</rs>: <seg cert="low">Caryatid portico</seg></rs>
+Found: <rs type="found"><rs type="monuList">Hadrianic Baths</rs>: 'Thermes, façade'</rs>
+; Last known location: <rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); Gaudin's squeeze; publications.</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Gaudin (115); transcribed from Reinach by Boulanger (notebook A, 45 no.7); recorded by the NYU expedition (SBI <rs type="sbi">168</rs>).</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published from Gaudin by <bibl type="primary" n="reinach"><author>Reinach</author>, <biblScope>69</biblScope></bibl>, whence <bibl n="squarciapino1943">Squarciapino no. <biblScope>2</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257159">280</biblScope></bibl>. Published by <bibl type="primary" n="ktejmr1991"><author>Erim and Reynolds</author>, Sculptors, no. <biblScope>3</biblScope></bibl>, whence <bibl n="seg"><title>SEG</title> <biblScope>1990.926</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="JMR_2_1969_040"><figDesc>Face i (1969)</figDesc></figure><figure href="73_V_21"><figDesc>Face i (1973)</figDesc></figure><figure href="73_Y_14"><figDesc>Face i (1973)</figDesc></figure></p>
+<p>JMR 2.40</p></div></body></text>
+</TEI>

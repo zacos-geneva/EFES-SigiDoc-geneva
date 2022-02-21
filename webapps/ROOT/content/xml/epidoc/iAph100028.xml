@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100028" n="iAph0746 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Seat inscriptions</rs>: Stadium Block 29</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+<textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-08-07</date><respStmt><name>Eleonora Litta</name></respStmt><item>tidied expan</item></change><change><date>2007-03-26</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Stadium <rs type="objectType">seat</rs>s.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the seats. Row H: across entire row. Row P: at west end. Row R: at west end. Row S: across row. Row T: on one seat. Row AA: across row. </p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Row H: <measure type="length" unit="metre" dim="height">0.30</measure>. Row P: No measurements. Row R: <measure type="length" unit="metre" dim="height">0.04-0.05</measure>. Row S: <measure type="length" unit="metre" dim="height">0.055-0.075</measure>. Row T: <measure type="length" unit="metre" dim="height">0.10-0.16</measure>. Row AA: <measure type="length" unit="metre" dim="height">0.06-0.07</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0600" notBefore="0101" exact="none">Second-sixth century A.D.</date> (<rs type="criteria">context</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="H"><ab>
+ 
+<lb n="1"/><g type="steps"/> <milestone unit="block"/><persName type="aphrodisian"><name reg="Ἄτταλος"><supplied reason="lost">Ἀ</supplied><milestone unit="block"/><unclear reason="damage">τ</unclear><milestone unit="block"/>τ<milestone unit="block"/>ά<unclear reason="damage">λ</unclear><milestone unit="block"/>ο<milestone unit="block"/>υ</name></persName> <milestone unit="block"/> <w lemma="συνκλητικός"><expan><abbr><unclear reason="damage">σ</unclear><milestone unit="block"/>υ<milestone unit="block"/><supplied reason="lost">ν</supplied><milestone unit="block"/><unclear reason="damage">κ</unclear><milestone unit="block"/><unclear reason="damage">λ</unclear><milestone unit="block"/><unclear reason="damage">η</unclear>τ<milestone unit="block"/><unclear reason="damage">ι</unclear>κ</abbr><supplied reason="abbreviation">οῦ</supplied></expan></w> <milestone unit="block"/> 
+</ab></div><div type="textpart_section" n="P"><ab> 
+<lb n="1"/>
+ <gap dim="left" extent="unknown" reason="lost" unit="character"/><milestone unit="block"/> <orig n="unresolved"><unclear reason="damage">ι</unclear>α</orig> <milestone unit="block"/> <space extent="3" unit="character"/> <milestone unit="block"/> <orig n="unresolved"><unclear reason="damage">λ</unclear>ηι</orig> <milestone unit="block"/><g type="steps"/> 
+<lb n="2"/>
+<milestone unit="block"/>   <orig n="unresolved">ρ</orig>   <milestone unit="block"/><g type="steps"/></ab></div><div type="textpart_section" n="R"><ab>
+<lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><milestone unit="block"/>
+<orig n="unresolved"><unclear reason="damage">ο</unclear></orig> <milestone unit="block"/>
+<gap reason="lost" extent="1" unit="character"/>
+<milestone unit="block"/>
+<gap reason="lost" extent="1" unit="character"/>
+<milestone unit="block"/> <persName type="aphrodisian"><name reg="Ἐπίγονος">Ἐ<milestone unit="block"/><unclear reason="damage">π</unclear><milestone unit="block"/>ιγ<milestone unit="block"/>όν<milestone unit="block"/><supplied reason="lost">ου</supplied></name></persName>
+<milestone unit="block"/>
+<gap reason="lost" extent="2" unit="character"/>
+<milestone unit="block"/> <g type="steps"/>
+</ab></div><div type="textpart_section" n="S"><ab>
+<lb n="1"/><g type="steps"/> <milestone unit="block"/> <space extent="3"/> <milestone unit="block"/> <persName type="aphrodisian"><name reg="Ἀπολλώνιος ">Ἀ<milestone unit="block"/>πο<milestone unit="block"/>λλ<milestone unit="block"/>ω<milestone unit="block"/>νί<milestone unit="block"/>ου</name></persName> <milestone unit="block"/> <orig n="unresolved">ει</orig><milestone unit="block"/><note>5 seats</note><milestone unit="block"/> <orig n="unresolved">η</orig> <g type="palm"/> <milestone unit="block"/> <note>steps</note>
+</ab></div><div type="textpart_section" n="T"><ab>
+<lb n="1"/><milestone unit="block"/> <orig n="unresolved">ζβι</orig> <milestone unit="block"/>  <note>two seats</note> <milestone unit="block"/> <g type="steps"/> 
+
+</ab></div><div type="textpart_section" n="V"><note>Traces of letters</note></div><div type="textpart_section" n="X"><note>Traces of letters</note></div><div type="textpart_section" n="AA"><ab>
+<lb n="1"/><g type="steps"/>   <milestone unit="block"/> <gap extent="2" reason="lost" unit="character"/><milestone unit="block"/> <gap extent="1" reason="lost" unit="character"/> <orig n="unresolved">ν</orig> <milestone unit="block"/> <gap extent="1" reason="lost" unit="character"/> <milestone unit="block"/><w>τ<supplied reason="lost">ο</supplied><milestone unit="block"/>νί<milestone unit="block"/>κη<milestone unit="block"/></w> <orig n="unresolved"><unclear reason="damage">σ</unclear></orig> <w lemma="πυκτής"><expan><abbr>π<g type="palm"/>υ</abbr><supplied reason="abbreviation">κτοῦ</supplied></expan></w> <milestone unit="block"/> <gap extent="1" reason="lost" unit="character"/> <persName type="aphrodisian"><name><unclear>Α</unclear><milestone unit="block"/>ν<milestone unit="block"/>ου<milestone unit="block"/></name></persName><note>4 seats</note>  <milestone unit="block"/> <g type="steps"/></ab></div>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>Row T, The lunate sign in front of <foreign lang="grc">Π</foreign> is slightly raised, looking like an abbreviation mark.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>Row H: (Place) of Attalos, senator. </p><p>Row R: (Place of) Epigonos. </p><p>Row S: (Place) of Apollonios EI[... ]. </p><p>Row T: ?mention of a victorious boxer?</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See bibliography.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Stadium</rs>: seats, block 29.</rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Findspot</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds, Roueché). This edition: Roueché (2007).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="PPA">Roueché, PPA <biblScope>45.33</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="88_C_22A"><figDesc>Row P (1988)</figDesc></figure><figure href="88_C_23A"><figDesc>Row R (1988)</figDesc></figure><figure href="88_C_24A"><figDesc>Row R (1988)</figDesc></figure><figure href="77_Z_18"><figDesc>Row S, left end (1977)</figDesc></figure><figure href="77_Z_19"><figDesc>Row S  (1977)</figDesc></figure><figure href="77_Z_20"><figDesc>Row S  (1977)</figDesc></figure><figure href="77_Z_21"><figDesc>Row S  (1977)</figDesc></figure> <figure href="75_E_29"><figDesc>Row T  (1975)</figDesc></figure><figure href="77_Z_17"><figDesc>Row AA, central blocks (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI>

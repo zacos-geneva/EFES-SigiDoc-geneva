@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010111" n="iAph0312 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragment of a <seg cert="low">panel</seg> from Temple</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-02-27</date><respStmt><name>Gabriel Bodard</name></respStmt><item>DONE</item></change><change><date>2005-03-29</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment of  <seg cert="low"><rs type="objectType" reg="panel">panel</rs></seg>  (<measure type="length" unit="metre" dim="width">0.10</measure> × <measure type="length" unit="metre" dim="height">0.08</measure> × <measure type="length" unit="metre" dim="depth">0.04</measure>) with lower edge surviving.</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p> <measure dim="none">0.03</measure>.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p><date exact="none" notBefore="0001" notAfter="0100" cert="low">First century A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="1"/><gap reason="lost" dim="left" extent="unknown" unit="character"/><orig n="unresolved">ε<unclear reason="damage">ιιφ</unclear></orig><gap reason="lost" dim="right" extent="unknown" unit="character"/><lb n="2"/><gap reason="lost" dim="left" extent="unknown" unit="character"/><orig n="unresolved">ω</orig>  <space extent="unknown" unit="character" dim="horizontal"/><gap reason="lost" dim="right" extent="unknown" unit="character"/></ab>
+</div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+
+<div type="translation" sample="complete" org="uniform" n="none">
+<head>Translation</head>
+<p>No words discernible.</p></div>
+
+<div type="commentary" sample="complete" org="uniform" n="none">
+<head>Commentary</head>
+<p>No comment.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p>Found: <rs type="found"><rs type="monuList">Temple/Church</rs>: 'T.Aph. Tem. V, Tr. 1, Str. 1'</rs>. Original location: <rs type="origLocation">Unknown</rs>. Last recorded: <rs type="lastLocation">Museum (1977)</rs></p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (<rs type="invNo">65.132</rs>).</p>
+  </div>
+
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="77_P_34"><figDesc>Fragment (1977)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

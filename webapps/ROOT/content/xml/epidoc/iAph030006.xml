@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph030006" n="iAph0029 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="personType" reg="governor">Fl. Pelagius Ioannes</rs> gives a <rs type="textType" reg="column dedication">column</rs></title>
+</titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-22</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change><date>2003-06-22</date><respStmt><name>CMR</name></respStmt><item>tagged, tidied and corrected</item></change><change>
+  <date>2003-07-15</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-20</date><respStmt><name>CMR</name></respStmt><item>name tags reduced</item></change><change><date>2004-01-23</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A <rs type="material" key="marmor">white marble</rs> <rs type="objectType">column</rs> fluted above and smooth below. '<foreign lang="de">Höhe: <measure dim="height">154</measure>, Breite: <measure dim="width">220</measure>.</foreign>'.</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>Inscribed on the smooth surface, below the fluting.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.085</measure>; irregular, somewhat elongated; abbreviations: scroll in l.1, <foreign lang="grc">Ρ</foreign> above line in l. 3.</p>
+</div>
+
+<div type="description" n="date">
+<head>Date</head>
+<p><date exact="none" cert="low" notBefore="0368" notAfter="0400">Later fourth century</date> (<rs type="criteria">titulature</rs>, <rs type="criteria">lettering</rs>).</p>
+</div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><persName type="aphrodisian" key="pelagius" full="yes"><name type=" " reg="Φλάβιος"><expan><abbr>Φλ<orig><g type="scroll"/></orig></abbr><supplied reason="abbreviation">αουίου</supplied></expan></name>  <name type=" " reg="Πελάγιος">Πελαγίου</name> <lb n="2"/><name reg="Ἰωάννης">Ἰωάννου</name></persName> <lb n="3"/><w lemma="ὁ">τοῦ</w> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός"><expan><abbr>λαμπ<hi rend="superscript">ρ</hi></abbr><supplied reason="abbreviation">οτάτου</supplied></expan></w></rs> <lb n="4"/><rs type="official-secul" key="praeses"><w lemma="ἡγεμών">ἡγεμόνος</w></rs>
+</ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p><supplied cert="low" reason="subaudible">Gift of</supplied> Flavius Pelagius Ioannes, <term lang="la">clarissimus praeses</term>.</p>
+</div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>For Fl. Pelagius Ioannes see discussion at <xref type="eAla-text" n="III.32">III.32</xref>.</p>
+</div>
+
+<div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList">North Agora</rs>; south portico on the eighth column (counted from the east) '<foreign lang="de">der Rest der 8. Säule</foreign>' (Kubitschek). .</rs>. Original location: <rs type="origLocation">Findspot</rs>. Last recorded location: <rs type="lastLocation">This remnant has now disappeared, probably into the nearby water channel, which is lined with column fragments</rs>. </p></div>
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by <rs type="visitor" n="kubitschek">Kubitschek</rs> (K.III.38, Abklatsch xxx); not reported subsequently.</p>
+</div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl type="hbi" n="cormack1964"><author>Cormack</author>, <title level="j">ABSA</title> 59 (1964), no. <biblScope>22</biblScope></bibl>, from Kubitscheck's copy; whence <bibl type="hbi" n="robert1966"><author>Robert</author>, <title level="j">AC</title> 35, 1966, 381</bibl>, <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>29</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257489">608</biblScope></bibl>.</p>
+</div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publication.</p>
+</div>
+
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="85_A_35"><figDesc>North Agora, south portico: view (1985)</figDesc></figure></p>
+</div>
+
+<div n="transcriptions" type="figure"><head>Transcriptions</head><p><figure href="K_III_38"><figDesc>Kubitschek notebook 3, page 38</figDesc></figure></p></div>
+
+
+
+</body>
+</text>
+</TEI>

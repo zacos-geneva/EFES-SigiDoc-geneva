@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110401" n="iAph1230 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Statue and altar <rs type="textType" reg="dedication to Demos">dedication</rs> by Titus Flavius Staberianos, <rs type="textType">doctor</rs> </title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-07-04</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument
+
+
+</head>
+<p>Plain <rs type="material" key="marmor">white marble</rs> <seg cert="low"><rs type="objectType">statue base shaft</rs></seg> (<measure dim="none">0.46</measure>–<measure dim="none">0.43</measure> × <measure dim="none">0.83</measure> × <measure dim="none">0.445</measure>–<measure dim="none">0.43</measure>).</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on one face within a panel outlined by an incised line. Below is a slightly rougher area clearly not intended to be visible. The text must have begun on a crowning feature.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.035</measure>; overlapping the border in l. 11. Ligatures <foreign lang="grc">ΗΝ</foreign> l. 2.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0200" exact="none" cert="low">First to second centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/>  <persName type="aphrodisian" full="yes"><name reg="Τίτος" type="praenomen"><supplied reason="lost">Τίτος</supplied></name>  <name reg="Φλάβιος"><supplied reason="lost">Φλάβιος</supplied></name>  <name reg="Σταβεριανός"><supplied reason="lost">Στα</supplied><lb n="1" type="worddiv"/>βεριανὸς</name></persName> <w lemma="ὁ">τὸν</w> <persName type="divine" full="yes">Ἀσ<lb n="2" type="worddiv"/>κλεπιὸν</persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τ<hi rend="ligature">ὴν</hi></w><lb n="3"/><persName type="divine" full="yes"><name>Ὑγείαν</name></persName> <w lemma="σύν">σὺν</w> <w lemma="ὁ">τοὺς</w> <lb n="4"/> <w lemma="βωμός">βωμοὺς</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w>φι<lb n="5" type="worddiv"/>δίων</w> <w lemma="ἀνατίθημι">ἀνέθηκε</w> <w lemma="ὁ">τῷ</w><lb n="6"/> <w lemma="δῆμος">Δήμῳ</w> <w lemma="καθώς">καθῶς</w> <lb n="7"/><persName type="aphrodisian" full="yes"><name reg="Τίτος" type="praenomen">Τίτος</name>  <name reg="Φλάβιος">Φλάβιος</name>  <lb n="8"/><name reg="Σταβεριανός">Σταβερίανος</name></persName>  <w lemma="ἀρχιατρός">ἀρ<lb n="9" type="worddiv"/>χιατρὸς</w>  <w lemma="πόλις">πόλε<lb n="10" type="worddiv"/>ως</w> <w lemma="ὁ">ὁ</w> <w lemma="πατήρ">πατὴρ</w> <w lemma="αὐτός">αὐτοῦ</w><lb n="11"/><w lemma="ὑπισχνέομαι">ὑπέσχετο</w></ab>
+</div>
+
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 6, At the end <foreign lang="grc">TI</foreign> has been erased</p><p>l. 10, between <foreign lang="grc">I</foreign> and <foreign lang="grc">A</foreign> a second <foreign lang="grc">I</foreign> has been erased.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p><supplied reason="lost">Titus Flavius Sta</supplied>berianos dedicated the <supplied reason="subaudible">statues of</supplied> Asklepios and of Hygeia together with the altars to the People from his own funds, carrying out the promise made by his father, Titus Flavius Staberianos, the chief doctor.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See bibliography.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="origLocation">Unknown</rs> <rs type="found"><rs type="monuList">City, South-west</rs>: standing in a pile of stones c. 50m. north of the inside face of the south wall, near the southwest corner.</rs> <rs type="lastLocation">Museum (1975)</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Found by the NYU expedition in 1974 (<rs type="invNo">74.255</rs>; SBI <rs type="sbi">46</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="nutton1977">Nutton, PBSR 45, 1977, 192, no. <biblScope>1</biblScope></bibl>, whence <bibl n="seg">SEG <biblScope>1977.716</biblScope></bibl>; <bibl>Horsley, <title>New Documents</title> 2, p. 11, ad no. 2a</bibl> , <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257042">163</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="73_W_22"><figDesc>Face (1973)</figDesc></figure><figure href="75_J_35A"><figDesc>Face (1975)</figDesc></figure><figure href="HUMS003441"><figDesc>Face (2001)</figDesc></figure>
+</p>
+</div></body></text>
+</TEI>

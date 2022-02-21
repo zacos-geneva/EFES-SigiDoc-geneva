@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150201" n="iAph0216 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><seg cert="low">Sewer cover</seg> <seg cert="low"><rs type="textType" reg="prohibition">warning</rs> against filth</seg></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Juan Garcés</name></respStmt><item>Marked up inventory number(s)</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-06-02</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change>
+  <date>2003-08-30</date>
+  <respStmt><name>CMR</name></respStmt>
+  <item>tagged, lemmatised and corrected</item>
+  </change>
+  <change><date>2004-02-29</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Three fragments, which join, of a circular <rs type="material" key="marmor">white marble</rs>
+<rs type="objectType" reg="drain-cover">panel</rs> (<measure type="length" unit="metre" dim="height">0.42</measure> ×
+<measure type="length" unit="metre" dim="width">0.37</measure> × <measure type="length" unit="metre" dim="depth">0.055</measure>), of which the upper edge
+survives.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> across the face.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>The letters are outstandingly irregular, varying from
+<measure type="length" unit="metre" dim="height">0.04</measure> to <measure type="length" unit="metre" dim="height">0.08</measure>, and it is difficult even to
+determine their proper order. Cursive <term>sigma</term>, very ornate <term>pi</term>. <foreign lang="grc">ΟΥ</foreign> in ligature, double line above letter as
+abbreviation.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date cert="low" exact="none">Late imperial</date> (<rs type="criteria">lettering</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+        <ab>
+		  	<lb n="1"/><orig n="unresolved">ωτ<unclear reason="damage">ζ</unclear>η</orig>
+			<lb n="2"/> <w lemma="λάπη">λάπης</w> <orig n="unresolved"><unclear reason="damage">α</unclear></orig>
+			<lb n="3"/><gap reason="lost" dim="left" extent="unknown" unit="character"/><orig n="unresolved">τσλ</orig><gap reason="lost" dim="right" extent="1" unit="character"/>
+			<lb n="4"/><gap reason="lost" dim="left" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">σι</unclear>ω<unclear reason="damage">ι</unclear></orig><gap reason="lost" dim="right" extent="1" unit="character"/>
+			<lb n="5"/><gap reason="lost" dim="left" extent="unknown" unit="character"/><abbr><orig n="unresolved"><unclear reason="damage">γ</unclear></orig></abbr> <w lemma="ὁ">τ<hi rend="ligature">οῦ</hi></w> <abbr><orig n="unresolved">τ</orig></abbr> <gap reason="lost" dim="right" extent="1" unit="character"/>
+			<lb n="6"/><gap reason="lost" dim="left" extent="unknown" unit="character"/>θ<orig n="unresolved">κ<unclear reason="damage">δ</unclear></orig><gap reason="lost" dim="right" extent="2" unit="character"/>
+			<lb n="7"/><gap reason="lost" dim="left" extent="unknown" unit="character"/><orig n="unresolved">σ</orig><gap reason="lost" dim="right" extent="unknown" unit="character"/>
+			<lb n="8"/> <gap reason="lost" dim="bottom" extent="unknown" unit="line"/></ab>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab><gap dim="left" reason="lost"/> of filth <gap dim="right" reason="lost"/></ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head><p>See discussion at <xref type="eAla-text" n="XI.22">XI.22</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found">Stray finds.</rs>. Original location: <rs type="origLocation">Unknown.</rs>. Last recorded location: <rs type="lastLocation">Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Recorded by the NYU expedition in 1966,  1977, 1985 (<rs type="invNo">69.88</rs>, <rs type="invNo">77.101</rs>, <rs type="invNo">85.123</rs>).</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title>
+no. <biblScope>216</biblScope> and plate xlv</bibl>. Not in <bibl><title level="m">PHI</title></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="85_G_05"><figDesc>Assembled (1985)</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

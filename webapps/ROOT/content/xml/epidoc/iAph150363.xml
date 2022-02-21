@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150363" n="iAph0091 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m">Theophylaktos, imperial judge, <rs type="textType" reg="testament">witnesses a document</rs></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+		<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change><date>2003-08-24</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-10</date><respStmt><name>CMR</name></respStmt><item>checked</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p><seg cert="low">A funeral <rs type="objectType" reg="base">monument</rs></seg>, with <rs type="decoration">sculpture</rs>: 'This, tho' Christian, is cut on an '<term lang="la">ara sepulchrali</term>', big basis, and <supplied reason="explanation" cert="low">with</supplied> the <rs type="decoration">basreliefs</rs>' (Sherard).</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>No description.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>No measurements. Abbreviations: <foreign lang="grc">ΟΥ</foreign>, scroll, letter above line.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0568" notAfter="0633">Late sixth/early seventh century</date> (<rs type="criteria">titulature</rs>, <rs type="criteria" cert="low">prosopography</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<ab>
+		<lb n="0"/><gap dim="top" reason="lost" extent="unknown" unit="line"/>
+		<lb n="1"/><gap dim="left" extent="5" reason="lost" unit="character"/><orig n="unresolved">ιονανονυ</orig>
+		<lb n="2"/><orig n="unresolved">μον</orig><gap dim="internal" extent="1" reason="lost" unit="character"/><orig n="unresolved">νεμν</orig>
+		<lb n="3"/><w lemma="ὁ">τῶν</w> <w lemma="γίγνομαι">γενομένων</w>
+		<lb n="4"/><w lemma="καί">κὲ</w> <w lemma="κυρόω">κυρ<supplied reason="lost">ωθ</supplied>έν<supplied reason="lost">τ</supplied>ων</w>
+		<lb n="5"/><w lemma="ἐπί">ἐπὶ</w> <persName type="aphrodisian" key="Theophylact1" full="yes"><name reg="Θεοφύλακτος">Θεοφυλάκ<unclear reason="damage">τ</unclear><hi rend="ligature">ου</hi></name></persName>
+		<lb n="6"/><w lemma="ὁ">τοῦ</w> <rs type="dignity" key="endoxos"><w lemma="ἔνδοξος"><expan><abbr>ἐνδοξοτά</abbr><supplied reason="abbreviation">του</supplied></expan></w></rs>
+		<lb n="7"/><rs type="dignity" key="exeparch"><w lemma="ἀπό">ἀπὸ</w><w lemma="ἔπαρχος"> ἐπάρχων</w></rs>
+		<lb n="8"/><w lemma="καί">καὶ</w> <rs type="official-secul" key="pedaneusiudex"><w lemma="θεῖος">θίου</w> <w lemma="δικαστής">δικαστοῦ</w></rs>
+		<lb n="9"/><date><w lemma="ἰνδικτιών"><expan><abbr>ἰνδ</abbr><supplied reason="abbreviation">ικτιῶνος</supplied></expan></w> <num value="15"><hi rend="supraline">ιε</hi></num> <w lemma="μείς"><expan><abbr>μη</abbr><supplied reason="abbreviation">νὸς</supplied></expan></w></date> <num value="1"><hi rend="supraline">α</hi></num>
+		<lb n="10"/><persName key="theocharistus" type="aphrodisian" full="yes"><name>Θεοχάριστος</name></persName>
+		<lb n="11"/><persName key="achaeius" type="aphrodisian" full="yes"><name>Ἀχαείου</name></persName> <gap dim="right" extent="4" reason="lost" unit="character"/>
+		<lb n="12"/><gap dim="internal" extent="1" reason="lost" unit="line"/>
+		<lb n="13"/><gap dim="left" extent="5" reason="lost" unit="character"/> <persName key="nounechius" type="aphrodisian" full="yes"><name reg="Νουνέχιος">Νου<supplied reason="lost">ν</supplied><unclear reason="damage">έ</unclear>χ<supplied reason="lost">ι</supplied>ος</name></persName>
+		<lb n="14"/><persName key="phaboulius" type="aphrodisian" full="yes"><name reg="Φαβούλιος">Φαβουλίου</name></persName>,
+		<lb n="15"/><persName key="Procopius1" type="aphrodisian" full="yes"><name reg="Προκόπιος">Προκόπιος</name></persName> <w lemma="καί"><supplied reason="lost" cert="low">καὶ</supplied></w>
+		<lb n="16"/><persName key="Theodorus1" type="aphrodisian" full="yes"><name reg="Θεόδορος">Θεόδορος</name></persName> <rs type="official-relig" key="lector"><w lemma="ἀναγνώστης">ἀνα
+		<lb n="17" type="worddiv"/><supplied reason="lost">γ</supplied>νόστης</w></rs> <w lemma="ὁ">ο<supplied reason="lost">ἱ</supplied></w> <persName type="aphrodisian" key="rufus1" full="yes"><name reg="Ῥοῦφος">Ῥού
+		<lb n="18" type="worddiv"/><supplied reason="lost">φου</supplied></name></persName> <rs key="doctor" type="profession"><w lemma="ἰατρός">ἰατροῦ</w></rs>,
+		<lb n="19"/><persName key="Theophylact2" type="aphrodisian" full="yes"><name reg="Θεοφύλακτος">Θεοφύλακτος</name></persName>
+		<lb n="20"/><rs type="official-relig" key="deacon"><w lemma="διάκονος"><expan><abbr>διάκο</abbr><supplied reason="abbreviation">νος</supplied></expan></w></rs>, <persName key="marianus1" type="aphrodisian" full="yes"><name>Μαριανὸς</name></persName>
+		<lb n="21"/><rs type="official-relig" key="deacon"><w lemma="διάκονος"><expan><abbr>διάκο</abbr><supplied reason="abbreviation">νος</supplied></expan></w></rs>, <persName key="george1" type="aphrodisian" full="yes"><name>Γεόργις</name></persName>
+		<lb n="22"/><w lemma="ὁ">ὁ</w> <w lemma="ἀδελφός">ἀδελφὸς</w> <persName type="aphrodisian" key="abelcius" full="yes"><name reg="Ἀβέλκιος">Ἀβελ<lb n="23" type="worddiv"/>κίου</name></persName> <space dim="horizontal"/>
+		</ab>
+      </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>ll. 1-2: <foreign lang="grc">τὸν ανόνυ<lb/>μον</foreign> Ramsay.</p>
+        <p>l. 4,  <foreign lang="grc">ΚΕΚΥΡΕΝΔΟΝ</foreign> Sherard; <foreign lang="grc">κεκυρ<supplied reason="lost">ωμέν</supplied>ον</foreign> Kirchhoff; <foreign lang="grc">κὲ κυρ<supplied reason="abbreviation">ωθέντα</supplied></foreign> Ramsay.</p>
+        <p>l. 5,  <foreign lang="grc">ΥΕΟΦΥΛΑΚΙȢ</foreign> Sherard; <foreign lang="grc">Θεοφυλακίου</foreign> Kirchhoff, Ramsay: <foreign lang="grc">Θεοφυλάκτου</foreign> Grégoire.</p>
+        <p>l.8. <foreign lang="grc">ΒΙΟΥ</foreign> Sherard; <foreign lang="grc">βίου</foreign>Kirchhoff, Ramsay; <foreign lang="grc">θίου</foreign> Grégoire.</p>
+        <p>l.11. <foreign lang="grc">ΑΧΑΕΙΟΥ</foreign> Sherard; <foreign lang="grc">Ἀγαθίου</foreign>? Grégoire.</p>
+        <p>1.13 <foreign lang="grc"><gap dim="left" reason="lost"/>ΝΟΥΣΧΟΣ</foreign> Sherard; <foreign lang="grc"><supplied reason="lost">Μό</supplied>σχος</foreign> Kirchhoff; <foreign lang="grc"><supplied reason="lost">Παφ</supplied>νού<supplied reason="lost">θι</supplied>ος</foreign>? Grégoire,</p>
+        <p><foreign lang="grc">Νου<supplied reason="lost">ν</supplied><unclear reason="undefined">έ</unclear>χ<supplied reason="lost">ι</supplied>ος</foreign> cj. J. M. Reynolds.</p>
+        <p>l.15. After <foreign lang="grc">Προκόπιος</foreign>, nothing in Sherard; <foreign lang="grc"><gap reason="lost"/></foreign> Kirchhoff; <foreign lang="grc"><supplied reason="lost">ὁ καὶ</supplied></foreign> Ramsay, Grégoire.</p>
+        <p>l.17, <foreign lang="grc">τΗΣΟΡΟΣ</foreign> Sherard; <foreign lang="grc">ΣΟ</foreign> overlap slightly in the original copy (BL Add. 10101) and markedly in the fair copy (BL Harl. 7509), from which <bibl>Müller</bibl> transcribed <foreign lang="grc">Ω</foreign>, which appears in all the subsequent publications: <foreign lang="grc">ἀνα<supplied reason="lost">γ</supplied>νόστη<supplied reason="lost">ς</supplied> Ῥούφ<gap reason="lost"/></foreign> Kirchhoff; <foreign lang="grc">ἀνα<supplied reason="lost">γ</supplied>νόστη<supplied reason="lost">ς ὁ</supplied> Ῥού<supplied reason="lost" cert="low">φου</supplied></foreign> Ramsay; <foreign lang="grc">ἀνα<supplied reason="lost">γ</supplied>νόστη<supplied reason="abbreviation">ς</supplied> Ὥρου</foreign> Grégoire.</p>
+        <p>l.18. <foreign lang="grc">ΕΠΙΑΤΡΟΥ</foreign> Sherard; <foreign lang="grc">Ἐπιάτρου</foreign> edd.</p>
+        <p>l.19. <foreign lang="grc">ΘΕΟΦΥΛΑΚΙΟΣ</foreign> Sherard; <foreign lang="grc">Θεοφυλάκιος</foreign> Kirchhoff, Ramsay; <foreign lang="grc">Θεοφύλακτος</foreign> Grégoire.</p>
+        <p>l.23. <foreign lang="grc">ΑΒΕΛΚΙΟΥ</foreign> Sherard; for <foreign lang="grc">Ἀβερκίου</foreign> Ramsay; for <foreign lang="grc">Ἀβεακίου</foreign> Grégoire</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab><supplied reason="lost" cert="low">Witnesses</supplied> of the things which have taken place and been confirmed under Theophylaktos, <term lang="la">gloriosissimus</term>, ex-prefect and imperial judge, in the first month of the fifteenth indiction. Theocharistos <supplied reason="subaudible">son</supplied> of <seg cert="low">Achaios</seg>; <gap reason="illegible"/> Nounechios <supplied reason="subaudible">son</supplied> of Phaboulios; Prokopios <supplied reason="lost" cert="low">and</supplied> Theodoros. lector, <supplied reason="subaudible" cert="low">sons</supplied> of Rouphos, <seg cert="low">doctor</seg>; Theophylaktos, deacon; Marianos, deacon; Georgios the brother of Abelkios.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="VI.42">VI.42</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found">In or near Aphrodisias: 'along the way' (Sherard).</rs>. Original location: <rs type="origLocation">Unknown.</rs>. Last recorded location: <rs type="lastLocation">Unknown.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Copied in <date value="1716" notBefore="1716" notAfter="1716" exact="both">1716</date> by <rs type="visitor" key="sherard">Sherard</rs> (BM Add. 10101 f. 129v); not reported subsequently.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published from Sherard by <bibl type="hbi" n="CIGIV"><author>Kirchhoff</author>, <title level="s">CIG</title> <biblScope>8644</biblScope></bibl>, whence <bibl type="hbi" n="ramsay1897"><author>Ramsay</author>, <title level="s">Cities &amp; Bishoprics</title> 556, no. <biblScope>431</biblScope></bibl>, <bibl type="hbi" n="IGC"><author>Grégoire</author>, <title level="s">IGC</title> <biblScope>247</biblScope></bibl>, <bibl><author>Cabrol</author>, <title level="s" type="abbreviated">Dict.</title> vol. 14, col. 796, no. 25</bibl>; from Sherard by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>91</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257515">633</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Sherard papers; publications.</p>
+      </div>
+
+      <div type="figure" n="transcriptions">
+        <head>Representations</head>
+        <p>None</p>
+      </div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

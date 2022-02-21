@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080609" n="iAph0044 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m">Ampelios, father of the city, undertakes <rs type="textType" reg="building inscription" cert="low">restoration work</rs> in the Theatre Baths</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+		<langUsage>
+			<language id="en">English</language>
+			<language id="fr">French</language>
+			<language id="de">German</language>
+			<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+			<language id="el">Modern Greek</language>
+			
+			<language id="it">Italian</language>
+			<language id="la">Latin</language>
+			<language id="es">Spanish</language>
+			<language id="tr">Turkish</language>
+		</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Juan Garcés</name></respStmt><item>Marked up inventory number(s)</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change><date>2003-08-20</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-23</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Four fragments (two of which join) of <rs type="material" key="marmor">white marble</rs> <rs type="objectType">revetment</rs>. a and b both have an upper edge surviving;
+otherwise, all sides are broken. b is made up of two joining pieces.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> on two faces.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Face 1 has letters with clear triangular trenches, which are probably the earlier inscription; cut at <measure type="length" unit="metre" dim="height">0.165</measure> from the upper edge, they are <measure type="length" unit="metre" dim="height">0.175</measure> high. Face 2 has letters cut <measure type="length" unit="metre" dim="height">0.085</measure> from the upper edge; they have broad flat trenches, and measure <measure type="length" unit="metre" dim="height">0.275</measure>.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p>Face 2 perhaps <date exact="none" precision="circa" notBefore="0434" notAfter="0467">mid fifth century</date> (<rs type="criteria">prosopography</rs>).</p>
+      </div>
+
+      <div lang="grc" n="text" type="edition">
+        <head lang="en">Edition</head>
+		
+			<div type="textpart_section" n="1"><div type="textpart_fragment" n="a"><ab><lb n="1"/><gap dim="left" reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">κ</unclear>αι<unclear reason="damage">τ</unclear></orig><gap dim="right" reason="lost" unit="character" extent="unknown"/></ab></div><div type="textpart_fragment" n="b"><ab><lb n="1"/><gap dim="left" reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ουτο</orig><gap dim="right" reason="lost" unit="character" extent="unknown"/>
+			</ab></div><div type="textpart_fragment" n="c"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ο<unclear reason="damage">λ</unclear></orig><gap dim="right" reason="lost" unit="character" extent="unknown"/></ab></div></div>
+		
+		
+			<div type="textpart_section" n="2"><div type="textpart_fragment" n="a"><ab><lb n="1"/><gap dim="left" reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear reason="damage">χ</unclear>αι<unclear reason="damage">σ</unclear></orig><gap dim="right" reason="lost" unit="character" extent="unknown"/></ab></div><div type="textpart_fragment" n="b"><ab><lb n="1"/><gap dim="left" reason="lost" unit="character" extent="unknown"/><persName key="Ampelius" type="aphrodisian" full="yes"><name><orig n="unresolved">αμπ<unclear reason="damage">ε</unclear></orig></name></persName><gap dim="right" reason="lost" unit="character" extent="unknown"/></ab></div><div type="textpart_fragment" n="c"><ab><lb n="1"/><gap dim="left" reason="lost" unit="character" extent="unknown"/><orig n="unresolved">ο</orig><gap dim="right" reason="lost" unit="character" extent="unknown"/></ab></div></div>
+		
+	  </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>Face 2 of b is most easily read as <foreign lang="grc">Ἀμπε<supplied reason="lost">λιο-</supplied></foreign> a reference to Ampelius. The final surviving letter might be <foreign lang="grc">Η</foreign> rather than <foreign lang="grc">Ε</foreign>, but the traces do not seem to suggest <foreign lang="grc">Ρ</foreign>, the only other real possibility.</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+		<p>1.a. This too  <gap dim="right" extent="unknown" reason="lost"/></p><p>2.b. <gap dim="left" extent="unknown" reason="lost"/> Ampe<supplied reason="lost">lios</supplied> <gap reason="lost"/></p>
+      </div><div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="IV.21">IV.21</xref> following.</p>
+        <p>For Ampelios, see also <xref type="inscription" n="38" href="040202">4.202</xref>, <xref type="inscription" n="22" href="120101">12.101</xref>.ii and <xref type="inscription" n="43" href="020019">2.19</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList" key="ThBaths">Theatre Baths</rs>: south Aula Thermale, stratum 2, trench 3, at floor level.</rs>. Original location: <rs type="origLocation">Unknown; probably findspot.</rs>. Last recorded location: <rs type="lastLocation">Museum (1977).</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition in <date value="1974" notBefore="1974" notAfter="1974" exact="both">1974</date> (<rs type="invNo">74.198</rs>).</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>44</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257503">621</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcriptions (Reynolds, Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="77_H_28A"><figDesc>44.a.1 Face, with 74.198 a.2 (1977)</figDesc></figure><figure href="77_H_29A"><figDesc>44.a.2 Face, with 74.198 b (1977)</figDesc></figure></p></div>
+
+      
+
+      
+
+    </body>
+  </text>
+</TEI>

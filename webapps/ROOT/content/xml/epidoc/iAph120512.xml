@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120512" n="iAph1765 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for Teimokles</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>J.  M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-07-11</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>
+No description; probably a  <seg cert="low">statue base</seg>
+</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>No description</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0200" exact="none">First to second centuries A.D.</date>
+(<rs type="criteria">terminology</rs>, <rs type="criteria">nomenclature</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω"><supplied reason="lost">ἐτεί</supplied><lb n="2" type="worddiv"/>μησαν</w> <w lemma="ὁ">ταῖς</w> <w lemma="καλός">καλλίσταις</w> <lb n="3"/> <w lemma="καί">καὶ</w> <w lemma="μέγας">μεγίσταις</w> <w lemma="τιμή">τειμαῖς</w> <g type="star"/>  <lb n="4"/> <persName type="aphrodisian"><name reg="Τιμοκλῆς">Τειμοκλέα</name> <persName type="aphrodisian"><name reg="Ἀπολλώνιος ">Ἀπολλωνίου</name> <lb n="5"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ὑψικλῆς">Ὑψικλέους</name></persName></persName></persName> <w lemma="ἀνήρ">ἄνδρα</w> <w lemma="σοφός">σοφὸν</w> <lb n="6"/> <w lemma="καλός">καλὸν</w> <w lemma="καί">καὶ</w> <w lemma="ἀγαθός">ἀγαθόν</w> <w lemma="γένος">γένους</w> <lb n="7"/> <w lemma="πρῶτος">πρώτου</w> <w lemma="καί">καὶ</w> <w lemma="ἔνδοξος">ἐνδοξοτάτου</w> <lb n="8"/> <w lemma="γυμνασιαρχέω">γυμνασιαρχήσαντα</w> <w lemma="καί">καὶ</w> <lb n="9"/> <w lemma="στεφανηφορέω">στεφανοφ<unclear reason="damage">η</unclear>ρήσαντα</w> <w lemma="μεγαλόψυχος">με<lb n="10" type="worddiv"/>γαλοψύχως</w> <w lemma="καί">καὶ</w> <w lemma="φιλόδοξος">φιλοδόξως</w> <lb n="11"/> <w lemma="καί">καὶ</w> <w lemma="ἀρχιερατεύω">ἀρχιερατεύσαντα</w> <w lemma="ὁ">τοῦ</w> <lb n="12"/> <w lemma="αὐτοκράτωρ">Αὐτοκράτορος</w> <w lemma="καί">καὶ</w> <w lemma="ἀγωνοθετέω">ἀγωνο<lb n="13" type="worddiv"/>θετήσαντα</w> <w lemma="καί">καὶ</w> <w lemma="δίς">δὶς</w> <w lemma="ἑστιάω">ἑστιάσ<lb n="14" type="worddiv"/>αντα</w> <w lemma="ὁ">τὸν</w> <w lemma="δῆμος">δῆμον</w> <w lemma="καί">καὶ</w> <w lemma="πᾶς">πάν<lb n="15" type="worddiv"/>τα</w> <w lemma="ποιέω">ποιήσαντα</w> <w lemma="μεγαλομερής">μεγαλομε<lb n="16" type="worddiv"/>ρῶς</w> <w lemma="λαμπρός">λάμπρότατα</w> <w lemma="καί">καὶ</w> <w lemma="πολυτελής">πολυ<lb n="17" type="worddiv"/>τελέστατα</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w> <w lemma="ἴδιος">ἰδίων</w> <w lemma="ἀξίως">ἀξίως</w> <lb n="18"/> <w lemma="καί">καὶ</w> <w lemma="ἀναλογούντως">ἀναλογούντως</w> <w lemma="ὁ">τῆι</w> <w lemma="πατρίς">πατρ<unclear reason="damage">ί</unclear><lb n="19" type="worddiv"/><space extent="3" unit="character" dim="horizontal"/> δι</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῶι</w> <w lemma="γένος">γένει</w> <g type="leaf"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>ll.1-2: δῆμος| .... μησαν S. δῆμος .... | μησαν W. δῆμος| ἐτείμησαν Boeckh</p><p>l. 3,  star in S and W, omitted by Boeckh.</p><p>l. 9,  ΝΟΦΟ S.</p><p>l. 4,  ΤΕΜ S, ΤΕΙΜ W.l. 7,  ΧΙΣ S, ΧΗΣ W.; ΓΥΜΝ S, ΓΥΝ W.</p><p>l. 10,  ΜΕΓΑΛΟΧΩΣ S, ΦΙΛΟΔΟΞΩΝ S</p><p>.l. 16,  ΛΑΝ W.</p><p>l. 18,  ΓΟΥΤΩΣ, ΠΑΤΡΗ S.</p><p>l. 18,  ΤΩΙΙ S.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>The Council and the People honoured with the finest and greatest honours Timokles son of Apollonios the son of Hypsikles, a wise man, fine and good, of a leading family of highest repute, who was a generous and beneficent gymnasiarch and stephanephorus, a high priest of the Augusti, a president of games, twice feasted the people, and did all with magnificence, splenour and lavishness from his own funds in a manner worthy and appropriate to the fatherland and his family.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p><xref type="iAph">1717</xref> (64.117+) is an identical text, but with a different layout.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">Walls, south-east</rs>:  in the same area as <xref type="inscription" n="525" href="080114">8.114</xref> (MAMA 424).</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Sherard papers; Wood; publications.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by  Picenini (10102, 31 and, from Tisser, 56), whence Sherard (10101, 42) and in 1705; by Wood in 1750 (vol. 14, 45v.) Not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="CIGII">Boeckh, from Sherard papers, CIG <biblScope>2766</biblScope></bibl>, whence Liermann, Analecta IV, p. 19, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257207">329</biblScope>
+</bibl>.</p>
+</div><div type="figure" n="transcriptions">
+<head>Representations</head>
+<p><figure href="Wood_14_45v"><figDesc>Wood notebook 14, page 45v</figDesc></figure></p>
+</div></body></text>
+</TEI>

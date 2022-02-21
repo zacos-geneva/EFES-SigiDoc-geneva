@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010119" n="iAph0362 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragment of <rs type="textType" cert="low">honours</rs>  from Temple</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-03-07</date><respStmt><name>Gabriel Bodard</name></respStmt><item>DONE</item></change><change><date>2005-06-09</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragments of a  <rs type="material" key="marmor">white marble</rs> <rs type="objectType">base</rs>, battered. a., without edges  (<measure type="length" unit="metre" dim="width">0.50</measure>   ×  <measure type="length" unit="metre" dim="height">0.38</measure>   ×  <measure type="length" unit="metre" dim="depth">0.50</measure>); b., from the left edge, which is chipped (no measurements).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face; a. surviving face: <measure type="length" unit="metre" dim="width">0.15</measure>   ×  <measure type="length" unit="metre" dim="height">0.30</measure>.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p>a. ll. 1-2, <measure dim="none">0.04</measure>; ll. 3, 5, <measure dim="none">0.035</measure>; l. 4, <measure dim="none">0.03</measure>; b. <measure dim="height" type="length" unit="metre" precision="circa">0.035-0.04</measure>. Diaeresis and apex on initial Ι, l. 3.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p>        <date exact="none" notBefore="0001" notAfter="0200">First to second centuries A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<div type="textpart_fragment" n="a"><ab><lb n="0"/><gap reason="lost" unit="line" dim="top" extent="unknown"/><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ρα<unclear reason="damage">γι</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <orig n="unresolved"><unclear reason="damage">κ</unclear>ησα</orig>  <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="3"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ιδια</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">νπ<unclear reason="damage">λ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="5"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ο</unclear>τε</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="6"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="3" dim="internal" unit="character"/></rdg><rdg resp="previous"><orig n="unresolved">γυν</orig></rdg></app><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="7"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><app type="previouslyread"><rdg resp="autopsy"><gap reason="lost" extent="2" dim="internal" unit="character"/></rdg><rdg resp="previous"><orig n="unresolved">ιν</orig></rdg></app><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="7a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab></div><div type="textpart_fragment" n="b"><ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1"/><gap dim="left" extent="1" reason="lost" unit="character"/><orig n="unresolved">κ</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><gap dim="left" extent="1" reason="lost" unit="character"/><orig n="unresolved">τη</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="3"/><gap dim="left" extent="1" reason="lost" unit="character"/><orig n="unresolved">φιλο</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4"/><gap dim="left" extent="1" reason="lost" unit="character"/><w lemma="καί">καὶ</w><orig n="unresolved">ε</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="5"/><gap dim="left" extent="1" reason="lost" unit="character"/><space extent="2" unit="character" dim="horizontal"/><unclear reason="damage"><g type="denarius"/></unclear><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="5a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab></div> 
+
+ 
+ 
+</div><div type="apparatus"><head>Apparatus</head><p>a. l. 2, perhaps from <foreign lang="grc">γυμνασιαρχήσαντα</foreign></p><p>a. ll. 6-7, known only from Gaudin's squeeze</p></div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); Gaudin's squeeze(a. only).</p>
+</div>
+
+<div type="translation" n="none">
+<head>Translation</head>
+<p>No words discernible.</p></div>
+
+<div type="commentary" n="none">
+<head>Commentary</head>
+<p>[[To consider: is <xref type="inscription" n="361" href="010118">1.118</xref> (=Reinach 114+) the epimelete of this text? cf. Temple 106 a &amp; b; Reinach 120]]</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p>Found: <rs type="found"><rs type="monuList">Temple/Church</rs>, east end: probably re-used in the  Byzantine bema</rs>. Original location: <rs type="origLocation">Unknown</rs>. Last recorded: <rs type="lastLocation">a. Temple; b. Museum (1977)</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>a. recorded by Gaudin (34b);  recorded by the NYU expedition, with b.</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>a.  published from Gaudin's squeeze by <bibl type="primary" n="reinach"><author>Reinach</author>, <biblScope>119</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257251">373</biblScope></bibl>.</p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="77_B_28A"><figDesc>Fragment a (1977)</figDesc></figure><figure href="77_R_01A"><figDesc>Fragment b (1977)</figDesc></figure></p><p>66.i.74</p><p>R_66_1_27</p></div></body>
+</text>
+
+</TEI>

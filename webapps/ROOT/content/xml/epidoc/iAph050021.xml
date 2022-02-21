@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050021" n="iAph0050 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m">Flavius <gap reason="lost"/> undertakes <rs type="textType" reg="building inscription">building works</rs> in the Hadrianic Baths</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+		<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change>
+  <date>2003-07-16</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-20</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-25</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A <rs type="material" key="marmor">white marble</rs> <rs type="objectType">revetment</rs> panel (<measure type="length" unit="metre" dim="height">0.30</measure> ×  <measure type="length" unit="metre" dim="width">0.41</measure>) with only lower edge surviving.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> in one line on the face.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p><measure type="length" unit="metre" dim="height">0.205</measure>; tall and ornate; triangular trenches.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0301" notAfter="0600">Fourth/fifth/sixth century</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<ab>
+		<lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/> <space dim="horizontal"/> <w lemma="ἐπί">ἐπὶ</w> <persName type="aphrodisian" key="flavius2" full="yes"><name reg="Φλάβιος"><expan><abbr>Φ<unclear reason="damage">λ</unclear></abbr><supplied reason="abbreviation">αβίου</supplied></expan></name></persName> <gap dim="right" extent="unknown" reason="lost" unit="character"/>
+		</ab>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+		<ab>
+		<gap dim="left" extent="unknown" reason="lost"/>  under Flavius <gap dim="right" extent="unknown" reason="lost"/>
+		</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+		<p>See discussion at <xref type="eAla-text" n="IV.37">IV.37</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs key="HadrBath" type="monuList">Hadrianic Baths</rs>: re-used in the flooring.</rs>. Original location: <rs type="origLocation"><rs key="HadrBath" type="monuList" cert="low">Hadrianic Baths</rs>.</rs>. Last recorded location: <rs type="lastLocation">Findspot (1973).</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>50</biblScope> and plate xii</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257480">599</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+		<p>Transcription (Roueché)</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="73_W_26"><figDesc>Face (1973)</figDesc></figure></p></div>
+
+      
+
+      
+
+    </body>
+  </text>
+</TEI>

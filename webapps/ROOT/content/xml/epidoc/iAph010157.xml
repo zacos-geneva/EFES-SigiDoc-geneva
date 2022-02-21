@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010157" n="iAph1023 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Honours </rs> for anonymous, <seg cert="low">erected</seg> by <seg cert="low">Dio[doros]</seg></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-02-16</date><respStmt><name>Artemis Papakostouli</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Lower left coner of a <rs type="material" key="marmor">white marble</rs><rs type="objectType"> statue base</rs> with heavy moulding (<measure type="length" unit="metre" dim="width">0.44</measure> × <measure type="length" unit="metre" dim="height">0.38</measure> × <measure type="length" unit="metre" dim="depth">0.26</measure>).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p> Inscribed on the face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure type="length" dim="none">0.025</measure></p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="0a"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="0b"/><gap dim="left" extent="5" reason="lost" unit="character"/><supplied reason="lost"><w lemma="ὁ">τὴν</w>  <w lemma="ἀνάστασις">ἀνάστασιν</w></supplied><lb n="1"/><w lemma="ὁ">τοῦ</w>  <w lemma="ἀνδρίας">ἀνδρ<supplied reason="lost">ιάντος</supplied></w>    <gap dim="internal" extent="2" reason="lost" unit="character"/><w lemma="ποιέω"><supplied reason="lost">πε</supplied><lb n="2" type="worddiv"/>ποιῆσθαι</w>  <gap dim="internal" extent="3" reason="lost" unit="character"/><w lemma="ὁ"><supplied reason="lost">τὸν</supplied></w>  <w lemma="πατήρ"><supplied reason="lost">πατέ</supplied><lb n="3" type="worddiv"/>ρα</w>  <w lemma="αὐτός">αὐτοῦ</w>  <persName type="aphrodisian" full="yes"><name reg="Διόδωρος">Διό<supplied reason="lost" cert="low">δωρον</supplied></name></persName>  <gap dim="right" extent="2" reason="lost" unit="character"/><lb n="4"/><g type="star"/>    <w lemma="παρά">παρ'</w>  <w lemma="ἑαυτοῦ">ἑαυτ<unclear reason="damage">ο</unclear><supplied reason="lost">ῦ</supplied></w></ab> 
+    
+ 
+</div>
+
+
+
+<div type="apparatus"><head>Apparatus</head><p>The surface of the  stone has been further damaged since it was recorded in 1934.</p></div><div n="notyet" type="translation">
+<head>Translation</head>
+<p>No translation yet (2007)</p></div>
+
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p>No commentary yet (2007)</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">Temple/Church</rs>, in the chancel</rs><rs type="origLocation">Unknown</rs> <rs type="lastLocation">Museum</rs></p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Gaudin (48); by the MAMA expedition; by the NYU expedition.</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="reinach" type="primary"><author>Reinach</author>, from Gaudin, REG  19, 1906, 210, no. <biblScope>89</biblScope></bibl>; by <bibl n="MAMA8" type="primary"><author>Cormack</author>, from the MAMA records, MAMA 8, no. <biblScope>493</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257145">266</biblScope></bibl>.</p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_A_20"><figDesc>Face (1977)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

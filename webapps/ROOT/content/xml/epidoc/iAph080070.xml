@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080070" n="iAph0777 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><title><rs type="textType">Seat inscriptions</rs>: Theatre, loose block</title>
+ </title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+<textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-26</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Theatre seat with a back, broken away above, with a deliberate hole created either for awning support, or for subsequent re-use; it bears traces of cement from later use.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>Inscribed on the seat.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>letters <measure type="length" unit="metre" dim="height">0.025</measure> - <measure type="length" unit="metre" dim="height">0.05</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0600" exact="none">Second to sixth centuries A.D.</date> (<rs type="criteria">context</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab>
+<lb n="1"/>
+<orig n="unresolved">η</orig> 
+<lb n="2"/>
+<w lemma="νικάω">νικᾷ</w> <space extent="3" unit="character"/> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχ<supplied reason="lost">η</supplied></w> 
+<lb n="3"/>
+<w lemma="ὁ">τῆς</w> <space extent="3" unit="character"/> <g type="hole"/> <orig n="unresolved"><unclear reason="damage">λ</unclear></orig> </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>Perhaps the final word was [πό]λ(εως).</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>The fortune of the [?city] triumphs!</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See Performers and Partisans, 46.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Theatre</rs>: seat, found loose</rs>
+<rs type="origLocation">In <rs type="monuList">Theatre</rs> cavea</rs>
+<rs type="lastLocation">in the storage field east of the Theatre.</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="PPA">Roueché, PPA <biblScope>46.X.7</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="76_B_17"><figDesc>Face (1976)</figDesc></figure> </p>
+</div></body></text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161359">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> inscription for Hilarianos <supplied reason="lost">descendant of</supplied> Zenon</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Piece from the bottom of a simply moulded <rs type="objectType">panel</rs> (<measure type="length" unit="metre" dim="width">0.18</measure>   × <measure type="length" unit="metre" dim="height">0.27</measure>   × <measure type="length" unit="metre" dim="depth">0.08</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.015</measure>; ligatured <foreign lang="grc">ΗΝ</foreign>, l. 1, <foreign lang="grc">ΗΝ</foreign> l. 6; diairetic dots on <foreign lang="grc">Ι</foreign>, l. 5.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p><date notBefore="0101" notAfter="0200" exact="none">Second century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/>  <gap reason="lost" extent="unknown" unit="line" dim="top"/>  <lb n="1"/><orig n="unresolved"><hi rend="ligature">ην</hi></orig><gap reason="lost" extent="6" unit="character"/><gap extent="1" unit="character" reason="illegible"/><orig n="unresolved"><unclear reason="damage">ν</unclear></orig><gap extent="1" unit="character" reason="illegible"/><orig n="unresolved"><unclear reason="damage">ι</unclear></orig><gap reason="lost" extent="6" unit="character"/>  <supplied reason="lost"><w>καὶ</w></supplied>  <supplied reason="lost"><w>ὧν</w></supplied>  <supplied reason="lost"><w>ἂν</w></supplied>  <lb n="2"/><supplied reason="lost"><w>αὐτὸς</w></supplied>  <w><supplied reason="lost">β</supplied><orig n="unresolved">ο</orig>υληθῆ</w> <w lemma="ἤ"><unclear reason="damage">ἢ</unclear></w> <supplied reason="lost"><w>διατάξηται</w></supplied>  <lb n="3"/><w><supplied reason="lost">κατὰ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>ὴν</w>  <w>δοθεῖσ<supplied reason="lost">αν</supplied></w>  <w><supplied reason="lost">αὐτῷ</supplied></w>  <lb n="4"/><w><supplied reason="lost">συγχώρ</supplied><unclear reason="damage">η</unclear>σιν</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">το<supplied reason="lost">ῦ</supplied></w>  <w><supplied reason="lost">χρεοφυλ</supplied><lb n="5" type="worddiv"/><supplied reason="lost">ακί</supplied>ου</w>  <g type="stop"/> <w lemma="ὑπό">ὑπὸ</w> <persName type="aphrodisian" full="yes"><name>Ἱλα<unclear reason="damage">ρ</unclear><supplied reason="lost" cert="low">ιανοῦ</supplied></name>    <lb n="6"/><gap reason="lost" extent="6" unit="character" dim="left"/> <w lemma="ὁ">τοῦ</w> <name reg="Ζήνων">Ζ<hi rend="ligature">ήν</hi>ωνο<supplied reason="lost">ς</supplied></name>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="7"/><name><gap reason="lost" extent="6" unit="character" dim="left"/>λου</name> <w lemma="φύσις">φύσει</w> <w lemma="δέ">δ<unclear reason="damage">ὲ</unclear></w> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="8"/><gap reason="lost" extent="6" unit="character" dim="left"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name>Εὐκράτ<unclear reason="damage">ο</unclear><supplied reason="lost">υς</supplied></name></persName></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p><note>Elements from a funerary penalty formula; mentions of</note> Hilar<supplied reason="lost">ianos</supplied>, Zenon, Eukrates
+
+</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> ...</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Theatre</rs>: stray</rs>
+
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1977)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1969 (<rs type="invNo">69.22</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_E_22"><figDesc>Face (1977)</figDesc></figure><figure href="77_O_31"><figDesc>Face (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

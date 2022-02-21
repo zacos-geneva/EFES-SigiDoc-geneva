@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020015" n="iAph1927 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title>Fragment</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr2003">Reynolds and Isik (<date>2007</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>2007-03-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date>2007-07-31</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="criteria">White marble</rs> <rs type="objectType">revetment</rs> fragment.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>Inscribed on the face before re-use.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>second to third centuries; quite large.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><gap extent="unknown" unit="character" reason="lost" precision="exact"/><orig n="unresolved">ωδ</orig><gap extent="unknown" unit="character" reason="lost" precision="circa"/> </ab>
+</div>
+
+<div type="translation" n="none">
+<head>Translation</head>
+<p>No translation possible</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>It is inevitably tempting to suggest that this was part of the word <foreign lang="grc">ὠδεῖον</foreign>, but there are alternatives - e.g. <foreign lang="grc">[τ]ῳ δ[ήμῳ]</foreign>, so that the temptation should be resisted.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Bouleuterion/Odeon</rs>: reused to patch the floor of the orchestra.</rs>
+<rs type="origLocation"> Findspot: first use unknown</rs>
+<rs type="lastLocation">Findspot</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition  (<rs type="siteNo">Odeon 14</rs>).</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p><bibl n="jmr2003">Reynolds, 'Inscriptions of the Odeon' in Ratté, forthcoming.</bibl>.</p>
+</div>
+<div type="figure">
+<head>Photographs</head>
+<p> ...</p>
+</div></body></text>
+</TEI>

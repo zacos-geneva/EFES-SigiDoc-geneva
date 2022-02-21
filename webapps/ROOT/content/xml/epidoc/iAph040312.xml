@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph040312" n="iAph0173 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="funerary">Epitaph</rs> of Nikolaos</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language><language id="de">German</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-06-02</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  
+  <change><date>2003-08-29</date><respStmt><name>CMR</name></respStmt><item>tagged, lemmatised and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A large <rs type="material" key="marmor">white marble</rs> <rs type="objectType">plaque</rs> (<measure type="length" unit="metre" dim="height">0.90</measure> × <measure type="length" unit="metre" dim="width">1.10</measure> × <measure type="length" unit="metre" dim="depth">0.16</measure>) broken either end; the right end has been
+further broken since 1893.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> across the centre of the face.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p><measure type="length" unit="metre" dim="height">0.03-0.07</measure>;
+abbreviations: last letter above line, and apostrophe.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="1000" exact="none" notBefore="0901">Tenth century</date> or later (<rs type="criteria">lettering</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+        <ab><lb n="1"/><w lemma="ἐνταῦθα"><expan><abbr><supplied reason="lost">ἐν</supplied>ταῦθ</abbr><supplied reason="abbreviation">α</supplied></expan></w> <w lemma="κεῖμαι"><expan><abbr>κεῖτ</abbr><supplied reason="abbreviation">αι</supplied></expan></w> <w lemma="ὁ">τὸ</w> <w lemma="λείμψανον">λείμψανον</w> <g type="stop"/> <persName type="aphrodisian" key="nicolaus1" full="yes"><name reg="Νικόλαος"><expan><abbr>Νικολ<app type="previouslyread"><rdg resp="previous"><hi rend="superscript">ά</hi></rdg><rdg resp="autopsy"><gap reason="lost" extent="1" unit="character"/></rdg></app></abbr><supplied reason="abbreviation">ου</supplied></expan></name></persName></ab>
+	
+      </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>The last letter was read by Kubitschek, but is
+not now visible. As it was written above the line, and with an
+apostrophe, it is presumably an abbreviation of <foreign lang="grc">Νικολά<supplied reason="abbreviation">ου</supplied></foreign> rather than <foreign lang="grc">Νικόλα</foreign> read by Cormack.</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>Here lie the remains of <persName full="yes">Nikolaos</persName>.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="IX.44">IX.44</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p> <rs type="found">, '<foreign lang="de">W<supplied reason="abbreviation">estlich</supplied> von der Säulenruine</foreign>' (Kubitschek); <rs type="monuList">South Agora, Agora Gate</rs>, during clearing (NYU).</rs> <rs type="origLocation">Unknown.</rs> <rs type="lastLocation">Museum (1980)</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Copied by <rs type="visitor" key="kubitschek">Kubitschek</rs> (K.III.22, Abklatsch
+viii); recorded by the NYU expedition in <date value="1980" notBefore="1980" notAfter="1980" exact="both">1980</date>.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="cormack1964"><author>Cormack</author>, in
+<title level="m">ABSA</title> 59 (<date value="1964" notBefore="1964" notAfter="1964" exact="both">1964</date>), <biblScope>11</biblScope></bibl>, from Kubitschek, whence <bibl type="hbi" n="robert1966"><author>L. Robert</author>,
+<title level="m">AC</title>. <date value="1966" notBefore="1966" notAfter="1966" exact="both">1966</date>, 281 n. 3</bibl>; by <bibl type="hbi" n="ALA"><author>Roueché</author>,
+<title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>173</biblScope> and plate xxix</bibl>; not in <bibl><title level="m">PHI</title></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché); publications.</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="80_D_18"><figDesc>Face (1980)</figDesc></figure></p></div>
+
+    <div type="figure" n="transcriptions"><head>Representations</head>
+        <p><figure href="K_III_22"><figDesc>Transcription by Kubitschek (1893), notebook 3, p. 22</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

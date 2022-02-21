@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010196" n="iAph0073 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType">Verse</rs> <rs type="textType">honours</rs> for Ioannes, leader of the Council </title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+		<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Juan Garcés</name></respStmt><item>Marked up inventory number(s)</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change>
+  <date>2003-07-17</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-23</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-28</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A rectangular <rs type="material" key="marmor">white marble</rs> <rs type="objectType"><rs type="objectType">statue base</rs> shaft</rs>, broken in two (total <measure type="length" unit="metre" dim="height">1.27</measure> × <measure type="length" unit="metre" dim="width">0.50</measure> × <measure type="length" unit="metre" dim="depth">0.40</measure>), with panels within moulded edges on three sides.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> within the central panel.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Av. <measure type="length" unit="metre" dim="height">0.04</measure>, ll.9-10, <measure type="length" unit="metre" dim="height">0.03</measure>; irregular; <foreign lang="grc">Ε</foreign> lunate and square; ligature, <foreign lang="grc">ΝΗ</foreign> in l.2</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0468" notAfter="0600">Late fifth/sixth century</date> (language).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<lg met="dactylic hexameter">
+		<lb n="1"/>
+		<l><g type="cross"/> <w lemma="πατρίς">Πατρὶς</w>
+		<lb n="2"/><persName key="Ioannes3" type="aphrodisian" full="yes"><name reg="Ἰωάννης">Ἰωάν<hi rend="ligature">νη</hi>ν</name></persName>
+		<lb n="3"/><w lemma="πρωτόθρονος">πρωτόθρο
+		<lb n="4" type="worddiv"/>νον</w> <w lemma="ἀνήρ">ἀνέρα</w>
+		<lb n="5"/><rs type="subject" key="boule"><w lemma="βουλή">βουλῆς</w></rs></l>
+		<lb n="6"/>
+		<l><w lemma="ἵστημι">στῆσεν</w>
+		<lb n="7"/><w lemma="δέχομαι">δεξαμένη</w>
+		<lb n="8"/><w lemma="θρεπτήριος">θρεπτήρια</w>
+		<lb n="9"/><w lemma="πολλάκις">πολλάκι</w>
+		<lb n="10"/><w lemma="πολύς">πολλά</w>.</l>
+		</lg>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>The fatherland set up <supplied reason="subaudible">this statue of</supplied> Ioannes, who has the first seat in the Council, having often received from him many repayments for his rearing.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="V.51">V.51</xref> following.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList">Temple/Church</rs>: re-used face downwards as a step at the north-west corner of the Bema.</rs>. Original location: <rs type="origLocation">Unknown; <seg cert="low"><rs key="Boul" type="monuList">Bouleuterion</rs></seg>.</rs>. Last recorded location: <rs type="lastLocation">Temple-Church.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition in 1965 (<rs type="invNo">65.511</rs>).</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>73</biblScope></bibl> and plate xviii, whence <bibl type="hbi" n="steinepig"><title level="m">Steinepigramme</title> <biblScope>02/09/13</biblScope></bibl>; not in <title level="m">PHI</title>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs"><head>Photographs</head><p><figure href="NY_pr_078"><figDesc>Face</figDesc></figure><figure href="NY_94_54_25"><figDesc>Top of base (1994)</figDesc></figure><figure href="DSCN0218"><figDesc>Lower face, right  and underside
+(2004)</figDesc></figure></p></div>
+
+      
+
+    </body>
+  </text>
+</TEI>

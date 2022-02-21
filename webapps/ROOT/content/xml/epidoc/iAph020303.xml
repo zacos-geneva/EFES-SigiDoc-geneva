@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020303" n="iAph1143 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Building inscription</rs> by [—]nius Lysias</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-04-04</date><respStmt><name>GB</name></respStmt><item>DONE</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment of <rs type="material" key="marmor">white marble</rs> <rs type="objectType">architrave</rs> block (<measure precision="circa" type="length" unit="metre" dim="width">1.14</measure> x <measure precision="circa" type="length" unit="metre" dim="height">0.80</measure> x <measure precision="circa" type="length" unit="metre" dim="depth">1.30</measure>), with moulding above; badly damaged. </p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> area <measure type="length" unit="metre" dim="width">0.71</measure> x <measure precision="circa" type="length" unit="metre" dim="height">0.08</measure>.
+
+</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.04</measure>; <foreign lang="grc">Υ</foreign> with crossbar.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>Perhaps
+<date notBefore="0001" notAfter="0200" exact="none">first to second centuries A.D.</date>
+(letter-forms)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>    <persName type="aphrodisian" full="yes"><name><gap reason="lost" extent="unknown" dim="left" unit="character"/>νίου</name>  <name reg="Λυσίας">Λυσίου</name></persName>  <w lemma="ὁ"><unclear reason="damage">τῶ</unclear>ν</w>  <orig n="unresolved"><unclear reason="damage">λ</unclear></orig><gap reason="lost" dim="right" unit="character" extent="unknown"/></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p><gap reason="lost" extent="unknown" dim="left" unit="character"/> <supplied reason="lost" cert="low">Anto</supplied>nius Lysias <gap reason="lost" dim="right" unit="character" extent="unknown"/></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Probably from a Roman citizen's name (e.g. Antonius Lysias).</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Bouleuterion/Odeon, North area</rs>, north-east.</rs>. <rs type="origLocation">Unknown</rs> <rs type="lastLocation">Findspot</rs>.</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Τranscription (Reynolds).</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>
+Recorded by the NYU expedition in 1972 (<rs type="siteNo">Odeon 22</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>None</p>
+</div></body></text>
+</TEI>

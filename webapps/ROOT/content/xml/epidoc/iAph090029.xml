@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090029" n="iAph1291 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for 
+Gaius Caesar</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">statue base</rs> with moulding above and below on three sides (<measure type="length" unit="metre" dim="width">0.775</measure> × <measure type="length" unit="metre" dim="height">0.28</measure> × <measure type="length" unit="metre" dim="depth">0.54</measure>).</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.04</measure> </p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0014" notAfter="0069" exact="both">Julio-Claudian</date>
+(<rs type="criteria">context</rs>, <rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <persName type="emperor" full="yes"><name reg="Γάϊος" type="praenomen">Γάιον</name>  <lb n="2"/><name reg="Καῖσαρ">Καίσαρα</name></persName>  </ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>(Statue of) Gaius Caesar</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>One of the Sebasteion group of dedications to the imperial family (<xref type="inscription" n="1315" href="090037">9.37</xref>=72.224, <xref type="inscription" n="1316" href="090038">9.38</xref>=72.237, <xref type="inscription" n="1317" href="090039">9.39</xref>=72.275, <xref type="inscription" n="1318" href="090040">9.40</xref>=73.145, <xref type="inscription" n="1296" href="090033">9.33</xref>=77.123, <xref type="inscription" n="1288" href="090026">9.26</xref>=80.172, <xref type="inscription" n="1289" href="090027">9.27</xref>=82.108, <xref type="inscription" n="1298" href="090035">9.35</xref>=82.109, <xref type="inscription" n="1290" href="090028">9.28</xref>=82.116, <xref type="inscription" n="1297" href="090034">9.34</xref>=82.117, <xref type="inscription" n="1291" href="090029">9.29</xref>=82.118, <xref type="inscription" n="1299" href="090036">9.36</xref>=82.210, <xref type="inscription" n="1293" href="090030">9.30</xref>=84.30, <xref type="inscription" n="1294" href="090031">9.31</xref>=84.31, and  <xref type="inscription" n="1295" href="090032">9.32</xref>=84.41). On these see <bibl n="jmr1996b"><author>Reynolds</author> (1996), <title level="a">Ruler-cult at Aphrodisias</title></bibl>.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+Found: <rs type="found"><rs type="monuList">Sebasteion</rs>: NW SEB II-82, IIB, 0.70</rs>
+<rs type="lastLocation">Dighouse garden</rs>
+<rs type="origLocation"><rs type="monuList">Sebasteion</rs></rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1982 (<rs type="invNo">82.118</rs>; SBI <rs type="sbi">85s</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>mentioned by <bibl>Reynolds, StudClas 24, 1986, 112</bibl>; by <bibl>Smith, JRS 77, 1987, 95</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257072">193</biblScope></bibl> .</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="83_F_05"><figDesc>Face (1983)</figDesc></figure></p>
+</div></body></text>
+</TEI>

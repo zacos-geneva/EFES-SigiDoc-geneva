@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150279" n="iAph0618 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Gladiator memorial</rs> for Narkissos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A <rs type="material">white marble</rs> <rs type="objectType">altar-stele</rs> with very simple moulding above and below on three sides (<measure dim="height" type="length" unit="metre">0.83</measure> x <measure dim="width" type="length" unit="metre">0.42</measure> x <measure dim="depth" type="length" unit="metre">0.395</measure>). The upper right corner is broken, and the entire face has been pitted to take plaster. On the face the very damaged relief of a <rs type="decoration">gladiator</rs>, facing right.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the upper moulding (ll.1-2) and on the face (l.3) above the relief</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>standard forms, <measure dim="height" type="length" unit="metre">0.02</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
+ (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><persName type="aphrodisian"><name reg="Νάρκισσος">Νάρκισσο<unclear reason="damage">ς</unclear></name></persName>    <w lemma="πάλος"><supplied reason="lost" cert="low">πάλου</supplied></w>    <lb n="2"/> <w lemma="ὑπό">ὑπὸ</w> <persName type="aphrodisian"><name reg="Χρυσο-">Χρυσ<unclear reason="damage">ο</unclear><gap reason="lost" extent="5" unit="character"/></name></persName>  <w lemma="πάλος"><supplied reason="lost">πά</supplied><lb n="3" type="worddiv"/> λου</w>   <g type="head"/> <num value="3">γ</num> </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Narcissus [? of brigade so-and-so] by Chryso[-] of brigade 3.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>For the name Narcissus see Robert, Gladiateurs, 79 no. 12, and 301, Sabbatini, Roma, no.111; there are several possible resolutions of Chryso-.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found">Stray</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>transcriptions (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+
+<p>Stray find by the NYU expedition</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="PPA">Roueché, PPA <biblScope>18</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_F_36"><figDesc>Face (1978)</figDesc></figure><figure href="89_B_22"><figDesc>Face (1989)</figDesc></figure> </p>
+</div></body></text>
+</TEI>

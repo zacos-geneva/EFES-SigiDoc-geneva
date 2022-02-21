@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150288" n="iAph0874 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for anonymous</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-07-24</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
+  
+  <change><date>2007-03-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+  
+  <change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Right side of a <rs type="material">white marble</rs> <rs type="objectType">statue base</rs> (<measure type="length" unit="metre" dim="width">0.32</measure>   × <measure type="length" unit="metre" dim="height">0.37</measure>   × <measure type="length" unit="metre" dim="depth">0.50</measure>) with moulding above and below at the front and on the right face, and ahole for attachment on top.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on <term>fasciae</term> of upper and lower mouldings (ll.1, 2, 9), and on face, which is lightly drafted.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Lightly cut; second century A.D.; ave. <measure type="length" unit="metre" dim="height">0.02</measure>; Ligatures: <foreign lang="grc">ΗΜ</foreign>ll.1, 5 ;  <foreign lang="grc">ΗΝ</foreign> ll.5, 8.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0200" exact="none">Second century A.D.</date>
+(<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><w lemma="ὁ"><supplied reason="lost">ἡ</supplied></w>  <w lemma="βουλή"><supplied reason="lost">βουλὴ</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w>  <w lemma="δῆμος"><supplied reason="lost">δ</supplied><unclear reason="damage">ῆ</unclear>μος</w> <w lemma="τιμάω">ἐ<supplied reason="lost">τ</supplied>εί <space unit="character" extent="1"/><lb type="worddiv" n="2"/><supplied reason="lost">μησαν</supplied></w>  <persName type="aphrodisian"><name reg="Ζήνων"><supplied reason="lost" cert="low">Ζήνω</supplied>να</name> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἀττάλου</name></persName><lb n="3"/><w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <w lemma="ὁ"><gap reason="lost" extent="7" unit="character"/>τοῦ</w> <persName type="aphrodisian"><name reg="Δημέας">Δημέου</name></persName></persName>  <lb n="4"/><w lemma="ἀνδρεία"><supplied reason="lost" cert="low">ἁνδρα</supplied></w>  <w lemma="γίγνομαι"><supplied reason="lost">γενό</supplied>μενο<unclear reason="damage">ν</unclear></w> <w lemma="γένος">γέ<space unit="character" extent="1"/><lb type="worddiv" n="5"/><supplied reason="lost">νους</supplied></w>  <w lemma="ἔνδοξος"><supplied reason="lost">ἐνδό</supplied>ξου</w> <w lemma="ὁ">τ<hi rend="ligature">ὴν</hi></w> <w lemma="δέ">δὲ</w> <w lemma="τιμή">τει<lb type="worddiv" n="6"/><supplied reason="lost">μὴν</supplied></w>  <w><gap extent="6" reason="lost" unit="character"/><unclear reason="damage">α</unclear>το</w> <w lemma="γίγνομαι">γένεσθαι</w> <orig n="unresolved"><unclear reason="damage">Ι</unclear></orig> <lb n="7"/><gap reason="lost" extent="8" unit="character"/>  <supplied reason="lost"><w lemma="ὁ">ὁ</w></supplied> <w lemma="υἱός"><supplied reason="lost">υ</supplied>ἱὸς</w> <w lemma="αὐτός">αὐτοῦ</w> <orig n="unresolved">οκα</orig> <space extent="1" unit="character" dim="horizontal"/>  <lb n="8"/><gap reason="lost" extent="8" unit="character"/> <w lemma="ἐκ">ἐκ</w> <w lemma="μέρος">μέρους</w> <w lemma="ὁ">τ<hi rend="ligature">ὴν</hi></w> <space extent="1" unit="character" dim="horizontal"/>  <lb n="9"/><gap reason="lost" extent="8" unit="character"/> <w><unclear reason="damage">ν</unclear></w> <w lemma="κρήνη">κρήνην</w> <g type="leaf"/><space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l.2, Ζήνων  is a name of the right length and common at Aphrodisias.</p><p>l. 4, <foreign lang="grc">ΜΕΝΟΙΙ</foreign>: the <foreign lang="grc">Ν</foreign>  has no diagonal stroke.</p><p>l.6 perhaps ἐπεμελήσατο.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>[The council and the] People honoured [?Zenon] the son of Attalos [the son of ? . . .]the son of Demeas [a man who came] of a distinguished family. His son [name ?saw to it] that the monument was erected [who had also] in part [paid for ] the fountain.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>The family of the honorand is not at present otherwise known. Presumably his son took responsibility for erecting the statue, which was to be placed near a fountain, which the honorand had established with some financial contribution from the son. Which of the several known fountains is nmmeant is not clear.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Stray</rs> find from 'fortification area'.</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1980)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1977 (<rs type="invNo">77.138</rs>)</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_H_15"><figDesc>Face (1978)</figDesc></figure><figure href="80_F_08"><figDesc>Face (1980)</figDesc></figure></p>
+</div></body></text>
+</TEI>

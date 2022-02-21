@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080410" n="iAph0062 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m">The city <rs type="textType">honours</rs> Fl. Palmatos, <rs type="personType">governor</rs></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2007-08-07</date><respStmt><name>Eleonora Litta</name></respStmt><item>tidied expan</item></change><change><date>2004-06-09</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change>
+  <date>2003-07-17</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-23</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-28</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A rectangular <rs type="material" key="marmor">white marble</rs> <rs type="objectType"><rs type="objectType">statue base</rs> shaft</rs> (<measure type="length" unit="metre" dim="height">1.01</measure> × <measure type="length" unit="metre" dim="width">0.48</measure> × <measure type="length" unit="metre" dim="depth">0.60</measure>) with moulding, broken above and below. The stone was re-used; on the opposite face there is a half-moon in relief, suggesting that it perhaps had had a religious function. It stood rather awkwardly on a plinth formed by cutting down another base.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> on upper moulding (line 1) and on face below (lines 2 ff.)</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Av. <measure type="length" unit="metre" dim="height">0.04</measure>, clear but irregular; abbreviations: scroll in ll.5, 6, 7, 8, 9, 10: letter above line in ll. 3, 6, 10; l. 6, <foreign lang="grc">Κ<g type="scroll"/></foreign>, line above second <foreign lang="grc">Ο</foreign> in <foreign lang="grc">ΕΠΑΙΧΟ</foreign>.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0533" exact="none" notBefore="0468">Late fifth/early sixth century</date> (<rs type="criteria">titulature</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+        <ab>
+		<lb n="1"/><supplied reason="lost"><g type="cross"/></supplied> <persName key="agty" type="divine" full="yes"><w lemma="ἀγαθός"><unclear reason="damage">Ἀ</unclear>γαθῆι</w> <g type="cross"/> <w lemma="τύχη">Τύχηι</w></persName> <g type="cross"/>
+		<lb n="2"/><w lemma="ὁ">τὸν</w> <w lemma="ἀνανεωτής">ἀνανεωτὴν</w>
+		<lb n="3"/><w lemma="καί">καὶ</w> <w lemma="κτίστης">κτίστην</w> <w lemma="ὁ">τῆς</w> <rs type="subject" key="capital"><w lemma="μητρόπολις"><expan><abbr>μητροπό</abbr><supplied reason="abbreviation">λεως</supplied></expan></w></rs>
+		<lb n="4"/><w lemma="καί">καὶ</w> <w lemma="εὐεργέτης">εὐεργέτην</w> <w lemma="πᾶς">πάσης</w>
+		<lb n="5"/><placeName key="Caria" full="yes" reg="Καρία">Καρίας</placeName> <persName reg="Φλάβιος Παλμᾶτος" key="Palmatus" type="aphrodisian" full="yes"><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άβιον</supplied></expan></name> <name reg="Παλμᾶτος">Παλμᾶτον</name></persName>
+		<lb n="6"/><w lemma="ὁ">τὸν</w> <rs type="dignity" key="spectabilis"><w lemma="περίβλεπτος"><expan><abbr>περίβλ</abbr><supplied reason="abbreviation">επτον</supplied></expan></w></rs> <w lemma="ὑπατικός"><rs type="official-secul" key="consularis"><expan><abbr>ὑπα</abbr><supplied reason="abbreviation">τικὸν</supplied></expan></rs></w> <w lemma="καί"><expan><abbr>κ</abbr><supplied reason="abbreviation">αὶ</supplied></expan></w> <w lemma="ἐπέχω"><expan><abbr>ἐπαίχο</abbr><supplied reason="abbreviation">ντα</supplied></expan></w>
+		<lb n="7"/><w lemma="ὁ">τὸν</w> <w lemma="τόπος">τόπον</w> <w lemma="ὁ">τοῦ</w> <rs type="dignity" key="magnificentissimus"><w lemma="μεγαλοπρεπής"><expan><abbr>μεγαλοπρ</abbr><supplied reason="abbreviation">επεστάτου</supplied></expan></w></rs>
+		<lb n="8"/><rs type="official-secul" key="vicar"><w lemma="βικάριος">βικαρίου</w></rs>, <persName key="atheneos" reg="Φλάβιος Ἀθήνεος" full="yes" type="aphrodisian"><name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άβιος</supplied></expan></name> <name reg="Ἀθήνεος">Ἀθήνεος</name></persName>
+		<lb n="9"/><w lemma="ὁ">ὁ</w> <rs type="dignity" key="clarissimus"><w lemma="λαμπρός"><expan><abbr>λαμπρ</abbr><supplied reason="abbreviation">ότατος</supplied></expan></w></rs> <rs type="official-secul" key="pater"><w lemma="πατήρ">πατὴρ</w> <w lemma="ὁ">τῆς</w>
+		<lb n="10"/><w lemma="λαμπρός"><expan><abbr>λαμπρ</abbr><supplied reason="abbreviation">οτάτης</supplied></expan></w> <w lemma="Ἀφροδεισιεύς"><placeName type="ethnic" full="yes" reg="Ἀφροδεισιεύς"><expan><abbr>Ἀφροδ</abbr><supplied reason="abbreviation">εισιέων</supplied></expan></placeName></w> <w lemma="μητρόπολις"><expan><abbr>μητροπό</abbr><supplied reason="abbreviation">λεως</supplied></expan></w></rs>
+		<lb n="11"/><w lemma="εὐχαριστέω">εὐχαριστῶν</w> <w lemma="ἀνατίθημι">ἀνέθη
+		<lb n="12" type="worddiv"/><space dim="horizontal"/>κεν</w> <g type="leaf"/>
+		</ab>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>To Good Fortune. The renewer and founder of the metropolis and benefactor of all Caria, Flavius Palmatus, <foreign lang="la">spectabilis</foreign> consular, also holding the position of the <foreign lang="la">magnificentissimus</foreign> vicar; Flavius Atheneus, the <foreign lang="la">clarissimus pater</foreign> of the most splendid <supplied reason="explanation"><foreign lang="la">clarissima</foreign></supplied> metropolis of the Aphrodisians, set up <supplied reason="subaudible">this statue of Palmatus</supplied> in gratitude.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See also <xref type="inscription" n="63" href="150360">15.360</xref> and discussion at <xref type="eAla-text" n="V.33">V.33</xref>.</p>
+        
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: standing against the east side of the northernmost column of the west colonnade; several other inscribed bases (<xref type="inscription" n="64" href="080407">8.407</xref>, and probably <xref type="inscription" n="20" href="080405">8.405</xref> and <xref type="inscription" n="21" href="080406">8.406</xref>) stood in similar positions against other columns of this colonnade; </rs>. Original location: <rs type="origLocation">Findspot.</rs>. Last recorded location: <rs type="lastLocation">Findspot; statue in Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition in <date value="1972" notBefore="1972" notAfter="1972" exact="both">1972</date> (SBI <rs type="sbi">1</rs>) together with its accompanying statue.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl><author>Erim</author> in <title level="m">Porträtplastik</title>, 238, no. <biblScope>208</biblScope></bibl>, whence <bibl n="anep"><title level="j">An.Ép.</title> <biblScope>1977.605</biblScope></bibl>; by <bibl type="hbi" n="cmr1979"><author>Roueché</author> (<date>1979</date>), <biblScope>173</biblScope></bibl> with plate, whence <bibl n="seg"><title level="j">SEG</title> <biblScope>1979.1070</biblScope></bibl>, <bibl n="be"><title level="j">BE</title> <biblScope>1980.473</biblScope></bibl>, <bibl n="seg"><title level="j">SEG</title> <biblScope>1982.1102</biblScope></bibl>; republished by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>62</biblScope> and plate xvi</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257553">670</biblScope></bibl>.</p>
+        <p>Statue published by <bibl><author>Erim</author>, <title level="m">Porträtplastik</title>, 236 - 8, no. <biblScope>208</biblScope></bibl>; discussed by <bibl type="hbi" n="rrrs1999"><author>Smith</author> (<date>1999</date>), <biblScope>168</biblScope> and fig. 9, plate iii.</bibl></p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs"><head>Photographs</head><p><figure href="76_B_28"><figDesc>Base in position, with ALA 64 (1976)</figDesc></figure><figure href="76_B_26"><figDesc>Base in position (1976)</figDesc></figure><figure href="80_A_17"><figDesc>Base alone (1980)</figDesc></figure><figure href="72_F_13A"><figDesc>Text (1972)</figDesc></figure><figure href="NY_93_75_35"><figDesc>Back of base (1993)</figDesc></figure><figure href="NY_93_75_36"><figDesc>Top of base (1993)</figDesc></figure></p></div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="smith-ala62"><figDesc>Statue and base: Drawing: K.Gorkay, from Smith (1999)</figDesc></figure></p></div>
+
+      
+
+	  </body>
+  </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050117" n="iAph1215 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Votive</rs> offering to Asklepios</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-08-12</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">panel</rs>/<rs type="objectType">Votive relief</rs>, approximately square (<measure type="length" unit="metre" dim="width">0.155</measure> × <measure type="length" unit="metre" dim="height">0.14</measure> × <measure type="length" unit="metre" dim="depth">0.06</measure>).</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on one face, in a rectangular area above a relief of <rs type="decoration">two breasts</rs>.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>ave <measure type="length" unit="metre" dim="height">0.01</measure>; square sigma, omega; badly cut and poorly aligned.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" exact="none" notAfter="0300" notBefore="0201">Third century A.D.</date>
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <w lemma="εὐεπήκοος">εὐεπηκόῳ</w>  <persName type="divine" full="yes"><name reg="Ἀσκλήπιος">Ἀ<lb n="2" type="worddiv"/>σκληπίῳ</name></persName>  <persName type="aphrodisian" full="yes"><name reg="Εὐγενία">Εὐγενί<lb n="3" type="worddiv"/>α</name></persName>  <w lemma="εὐχή">εὐχὴν</w>  <w lemma="ἀνατίθημι">ἀνέθηκεν</w>  </ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>To Asklepios who listens well: Eugenia dedicated (in payment of) a vow</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>One of a group of votive offerings dedicated to Asclepius: three reliefs, <xref type="inscription" n="1214" href="050112">5.112</xref> (=63.568), <xref type="inscription" n="1215" href="050117">5.117</xref> (=63.570), <xref type="inscription" n="1216" href="150240">15.240</xref> (=70.551), and a base, <xref type="inscription" n="1224" href="040113">4.113</xref> (=90.26); the three with provenance were found in or near the Baths of Hadrian.</p><p>The cult title is quite common, and implies that the prayer had been answered; it was probably for a child rather than for cure of trouble in the breasts.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+; Original location: <rs type="origLocation">Unknown</rs>
+Found: <rs type="found"><rs type="monuList">Hadrianic Baths</rs>: south west sector.</rs>
+; Last known location: <rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds) </p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1963 (<rs type="invNo">63.570</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>66a.1.48, 49; KTE 62/64.66.11</p>
+</div></body></text>
+</TEI>

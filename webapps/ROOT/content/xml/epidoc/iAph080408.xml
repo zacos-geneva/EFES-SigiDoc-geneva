@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080408" n="iAph0075 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType">Acclamation</rs>s for <seg cert="low"><rs type="personType">governor</rs>s</seg></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+		<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change>
+  <date>2003-07-17</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-24</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-28</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Several <rs type="objectType">column</rs>s (diam. <measure dim="diameter" type="length">0.46</measure>) of <rs type="material" key="marmor">blue marble</rs>, from the western portico of the Tetrastoon. Several of these columns showed traces of paint, but on only two could anything be deciphered. Even on these little can be made out; not only have they suffered from re-use, but it is clear that there had, as in <xref type="inscription" n="77" href="080508">8.508</xref> and <xref type="inscription" n="78" href="080268">8.268</xref>, been several layers of plaster.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>Painted in red on several layers of white plaster.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>In the flowing style characteristic of these painted texts; <measure type="length" unit="metre" dim="height">0.035</measure>.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0600" exact="none" cert="low" notBefore="0401">Fifth to sixth centuries</date> (<rs type="criteria">terminology</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<div type="textpart_section" n="i"><note place="not specified" anchored="yes">Only one level of text decipherable.</note><ab>
+		
+		 <lb n="0"/><gap dim="top" reason="lost" unit="line" extent="unknown"/>
+		 <lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ν<unclear reason="damage">λ</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">υι</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="2a"/><g type="cross"/></ab></div><div type="textpart_section" n="ii"><note place="not specified" anchored="yes">Only one level of text decipherable but there are substantial traces of another lying beneath.</note><ab>
+		 <lb n="1"/><rs type="subject" key="acclamations"><supplied cert="low" reason="lost"><w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w></supplied>
+		 <lb n="2"/><w lemma="ἔτος"><supplied reason="lost">ἔτη</supplied></w></rs> <w lemma="ὁ"><unclear reason="damage">τ</unclear>ῶ<unclear reason="damage">ν</unclear></w>
+		 <lb n="3"/><rs type="official-secul" key="eparch"><w lemma="ἔπαρχος"><supplied reason="lost">ἐ</supplied>πάρχ<unclear reason="damage">ω</unclear><supplied reason="lost" cert="low">ν</supplied></w></rs>
+		</ab></div>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>ii.  <supplied reason="lost" cert="low">Many years for</supplied> the <term lang="grc-Latn">eparchs</term>!</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="V.56">V.56</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList" key="Theatre">Theatre</rs>: east side: re-used in the Byzantine defence wall, across the southern parodos entrance. </rs>. Original location: <rs type="origLocation"><rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: <seg cert="low">west portico</seg>.</rs>. Last recorded location: <rs type="lastLocation">Re-erected as the ninth (i) and tenth (ii) columns from the south in the west portico of the Tetrastoon: </rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Found during the dismantling of the wall by the NYU expedition in <date value="1982" notBefore="1982" notAfter="1982" exact="both">1982</date>.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA" rend="primary"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>75</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> nos. <biblScope n="257694">808</biblScope>, <biblScope n="257695">809</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs"><head>Photographs</head><p><figure href="83_C_34"><figDesc>i. Column (1983)</figDesc></figure><figure href="83_C_35"><figDesc>i. Detail (1983)</figDesc></figure><figure href="83_C_33"><figDesc>ii. Column (1983)</figDesc></figure><figure href="83_C_36"><figDesc>ii. Detail (1983)</figDesc></figure><figure href="DSCN0166"><figDesc>ii. Column (2004)</figDesc></figure></p></div>
+
+      
+
+    </body>
+  </text>
+</TEI>

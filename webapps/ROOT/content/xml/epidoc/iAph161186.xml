@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161186">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="statue dedication">Dedication</rs> of a <seg cert="low">caryatid</seg> by Claudia Meltine, , with <rs type="textType">sculptor's signature</rs>, by Andronikos</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">statue base</rs> with <rs type="decoration">egg and dart moulding</rs> above on three sides (<measure type="length" unit="metre" dim="width">0.61</measure> × <measure type="length" unit="metre" dim="height">0.64</measure> × <measure type="length" unit="metre" dim="depth">0.59</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> (i) on central and (ii) on face to the right.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>i., irregular heights, ave. <measure dim="none">0.04</measure>; ligatured <foreign lang="grc">ΝΗ</foreign> in l.2; ii., <measure dim="none">0.03 - 0.035</measure>. Unusually for a sculptor's signature, the letters are not easily distinguishable from those on face ii.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0134" notAfter="0166" exact="none">Mid second century A.D.</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">monument group</rs>, <rs type="criteria">prosopography</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="i"><ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Κλαυδία">Κλαυδία</name>    <g type="scroll"/>  <lb n="2"/><name reg="Μελιτίνη">Μελιτί<hi rend="ligature">νη</hi></name></persName>  <w>γυ<lb n="3" type="worddiv"/>νὴ</w>  <persName type="aphrodisian" full="yes"><name reg="Τιβέριος" type="praenomen">Τιβερίου</name>  <lb n="4"/><name reg="Κλαύδιος">Κλαυδίου</name>    <unclear reason="damage"><g type="star"/></unclear>  <lb n="5"/><name reg="Ἄτταλος">Ἀττάλου</name> <space extent="1" unit="character" dim="horizontal"/>  <lb n="6"/><name reg="Ἀγαθεῖνος">Ἀγαθείνου</name>  </persName><lb n="7"/> <w lemma="ὁ">τῷ</w> <w>Δήμῳ</w> </ab></div><div type="textpart_section" n="ii"><ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Ἀνδρόνεικος">Ἀνδρόνεικος  </name><lb n="2"/><persName type="aphrodisian" full="yes"><name reg="Μουσαῖος">Μουσαίου</name></persName></persName> <space extent="3" unit="character" dim="horizontal"/>    <lb n="3"/><space extent="1" unit="character" dim="horizontal"/> <w lemma="ποιέω">ἐποίει</w> <space extent="4" unit="character" dim="horizontal"/>  </ab></div>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>i. Claudia Melitine wife of Tiberius Claudius Attalos Agatheinos, to the People.</p><p>ii. Andronikos son of Musaios made <supplied reason="subaudible">the statue</supplied></p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p><!--One of the series of dedications from the East Court of the Hadrianic Baths: <xref type="iAph">1184</xref>, <xref type="iAph">1185</xref>,, <xref type="iAph">1187</xref>, <xref type="iAph">1188</xref>, <xref type="iAph">1189</xref>, <xref type="iAph">1190</xref>, <xref type="iAph">1191</xref>, <xref type="iAph">1192</xref>, <xref type="iAph">1193</xref>, <xref type="iAph">1194</xref>, <xref type="iAph">1195</xref>, <xref type="iAph">1196</xref>, <xref type="iAph">1197</xref>, <xref type="iAph">1198</xref>, <xref type="iAph">1199</xref>, <xref type="iAph">1200</xref>, <xref type="iAph">1201</xref>, <xref type="iAph">1202</xref>, <xref type="iAph">1203</xref>, <xref type="iAph">1204</xref>, <xref type="iAph">1205</xref>, <xref type="iAph">1206</xref>, <xref type="iAph">1207</xref>, <xref type="iAph">1208</xref>, <xref type="iAph">1209</xref>, <xref type="iAph">1210</xref> ; all are by women, and apparently bore caryatids (see <xref type="iAph">1198</xref>). For the sculptor see <xref type="iAph">1189</xref> (=Reinach 69).--></p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation"><rs type="monuList">Hadrianic Baths, East court</rs>: ?Caryatid portico</rs> <rs type="found"><rs type="monuList">South Agora</rs>: Portico of Tiberius, at the west end of the 'pool'</rs> <rs type="lastLocation">Museum</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1989 (<rs type="siteNo">89.b</rs>, SBI <rs type="sbi">162</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="89_F_28A"><figDesc>Face i (1989)</figDesc></figure><figure href="89_F_29A"><figDesc>Face i (1989)</figDesc></figure><figure href="91_E_16A"><figDesc>Face i (1991)</figDesc></figure><figure href="89_F_24A"><figDesc>Face ii (1989)</figDesc></figure><figure href="89_F_25A"><figDesc>Face ii (1989)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

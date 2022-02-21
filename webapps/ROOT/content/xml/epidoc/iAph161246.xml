@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161246">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Dedication to Aphrodite</rs> and <rs type="textType" reg="dedication to Demos">Demos</rs></title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+
+
+
+<p><rs type="material" key="marmor">White marble</rs> building <rs type="objectType">block</rs> (<measure dim="width" type="length" unit="metre">0.68</measure> × <measure dim="height" type="length" unit="metre">0.77</measure> × <measure dim="depth" type="length" unit="metre">0.28</measure>).</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on one face, which has been pitted to receive plaster; the right side is also worn.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.02-0.025</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="-0066" notAfter="-0034">Mid first century B.C.</date>
+(<rs type="criteria">lettering</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <persName type="aphrodisian"><name reg="Ἀπολλώνιος">Ἀπολλώ<unclear reason="damage">ν</unclear><supplied reason="lost">ι</supplied><unclear reason="damage">ος</unclear></name></persName>  <name><gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="2"/>δωρου</name>  <w lemma="ὁ">τοῦ</w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="3"/><w>ἀστυνομῆσας</w>  <persName type="divine" full="yes"><unclear reason="damage">Ἀ</unclear>φρο<unclear reason="damage">δείτ</unclear><supplied reason="lost">ηι</supplied></persName><lb n="4"/><w lemma="καί">καὶ</w>  <w lemma="ὁ">τῶι</w>  <w>Δήμωι</w></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>Apollonios son of [ . . .-]doros the [son of . . .], after his term as <term lang="grc-Latn">astynomus</term>, to Aphrodite and the People.</p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p>No commentary yet (2007)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+; Original location: <rs type="origLocation">perhaps in facing of <rs type="monuList">Temple/Church</rs> precinct wall</rs>
+Found: <rs type="found"><rs type="monuList" n="Temple of Aphrodite / Church of Archangels area">Temple/Church</rs>: lying between Temple and Odeon.</rs>
+; Last known location: <rs type="lastLocation">Findspot</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished; mentioned by <bibl n="jmr1982">Reynolds, <title>Aphrodisias &amp; Rome</title>, p. 150, no. 6</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope>157</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><!--** Rosenbaum? **--> 66.1.17</p>
+</div></body></text>
+</TEI.2>

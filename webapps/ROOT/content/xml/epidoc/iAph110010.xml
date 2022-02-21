@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110010" n="iAph1528 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> inscription for Alypos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-02-08</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType">block</rs>, broken to right (0<measure dim="width" type="length" unit="metre">.545</measure> x <measure dim="height" type="length" unit="metre">0.026</measure> x depth not measurable), with tabella ansata (<measure dim="height" type="length" unit="metre">0.175</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.0175-0.02</measure>; omega upside down.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" notAfter="0200" notBefore="0001">First to second centuries A.D.</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">ὁ</w> <w lemma="πλάτας">πλάτας</w> <w lemma="εἰμί">ἐστὶν</w> <persName type="aphrodisian"><name reg="Ἄλυπος">Ἀ<unclear reason="damage">λ</unclear><supplied reason="lost">ύ</supplied><lb n="2" type="worddiv"/>που</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδράστου</name></persName></persName> <w lemma="καί">κ<supplied reason="lost">αὶ</supplied></w>  <persName type="aphrodisian"><name reg="Τατία"><supplied reason="lost">Τ</supplied><lb n="3" type="worddiv"/>ατίας</name></persName> <w lemma="γυνή">γυναικὸς</w> <w lemma="αὐτός">αὐτο<supplied reason="lost">ῦ</supplied></w>  <w lemma="καί"><supplied reason="lost">κ</supplied><lb n="4" type="worddiv"/>αὶ</w> <persName type="aphrodisian"><name reg="Μενεσθεύς">Μενεσθέος</name></persName> <w lemma="υἱός">ὑοῦ</w> <w lemma="καί">κ<supplied reason="lost">αὶ</supplied></w>  <w lemma="γένος"><supplied reason="lost">γ</supplied><lb n="5" type="worddiv"/>ένους</w> <w lemma="αὐτός">αὐτῶν</w><g type="stop"/> <g type="scroll"/> </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p> ...</p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p>No translation yet (2007)</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>No translation yet (2007)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">City, Village</rs>; reused in a house wall.</rs>
+<rs type="lastLocation">Museum (1977)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; Preliminary transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by Fellows; ? by Bailie; recorded by the MAMA expedition; by the NYU expedition</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="fellows1841">Fellows, Acct. 356-357, no. <biblScope>58</biblScope></bibl>, whence <bibl n="CIGIIc">CIG <biblScope>2825b</biblScope> (p. 1115)</bibl>, Bailie, Fasc. ii 64-65 and 333, no. 85, <bibl n="LBW">Waddington, LBW <biblScope>1644</biblScope></bibl>; published by <bibl n="MAMA8">Cormack, from the MAMA records, MAMA 8, no. <biblScope>535</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257294">416</biblScope>
+</bibl>
+</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_T_32A"><figDesc>Face (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI>

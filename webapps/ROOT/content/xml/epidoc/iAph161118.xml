@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161118">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Column dedication</rs> by Menandros</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>Fragment of a simple <rs type="material" key="marmor">white marble</rs> moulding, probably a <rs type="objectType">column base</rs>, broken at both ends (<measure type="length" unit="metre" dim="width">0.14</measure> × <measure type="length" unit="metre" dim="height">0.02</measure> × <measure type="length" unit="metre" dim="depth">0.051</measure>).</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> in two lines along the one simple fascia.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure type="length" unit="metre" dim="height">0.025</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0200" exact="none">Second century A.D.</date>
+(<rs type="criteria">monument</rs>, <rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear></orig> <persName type="aphrodisian"><name type="
+
+      " reg="Μένανδρος">Μενανδρ<gap dim="right" extent="unknown" reason="lost" unit="character"/></name></persName><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><w lemma="σύν"><supplied reason="lost">σὺν</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῷ</supplied></w>  <w><supplied reason="lost">σπ</supplied>ειροκεφάλῳ</w>  <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p><gap dim="left" extent="unknown" reason="lost" unit="character"/>Menandros <note place="not specified" anchored="yes">case not clear</note> <gap dim="internal" extent="unknown" reason="lost" unit="character"/><supplied reason="lost">with its</supplied> capital<gap dim="right" extent="unknown" reason="lost" unit="character"/></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Clearly the dedication of a column; probably one of the column base dedications from west portico of the East Court of the Hadrianic Baths. From north section: <xref type="iAph">1114</xref> (MiItal 8 i and ii), <xref type="iAph">1116</xref> (=Haussoullier1), <xref type="iAph">1119</xref> (=Boulanger A 73, no.11); from the south section <xref type="iAph">1115</xref> (=Boulanger B, 21 no.28), ?<xref type="iAph">1117</xref> (=Museum 154), ?<xref type="iAph">1120</xref> (=Museum 158); cf also <xref type="iAph">1118</xref> (=68.272)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>Found: <rs type="found">Stray find</rs>; 
+Original location: <rs type="origLocation">Unknown</rs>;
+Last known location: <rs type="lastLocation">Museum</rs>.</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1968 (<rs type="invNo">68.272</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_U_28"><figDesc>Face (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120312" n="iAph1013 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Posthumous <rs type="textType">honours</rs></rs> for  Attalos son of Makedon</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+  
+  <change><date>2005-02-16</date><respStmt><name>Artemis Papakostouli</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType" reg="block">block</rs> with a drafted margin at top and both sides (<measure type="length" unit="metre" dim="width">0.60</measure>   × <measure type="length" unit="metre" dim="height">1.21</measure> × <measure type="depth" dim="depth">0.44</measure>);</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure type="length" unit="metre" dim="height">
+0.02–0.0225</measure>; square sigma, cursive omega</p>
+</div>
+
+<div type="description" n="date">
+<head>Date</head>
+
+<p>Perhaps <date cert="low" exact="none" notAfter="0100" notBefore="0051">second half of the first century A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="καί">καὶ</w> <lb n="2"/> <w lemma="ὁ">ἡ</w> <w lemma="γερουσία">γερουσία</w> <space extent="1" unit="character" dim="horizontal"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">οἱ</w> <w lemma="νέος">νέοι</w> <space extent="1" unit="character" dim="horizontal"/><lb n="3"/> <w lemma="τιμάω">ἐτείμησαν</w> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἄτταλον</name>  <lb n="4"/><persName type="aphrodisian"><name reg="Μακεδών">Μακεδόνος</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀριστέας">Ἀριστέ<lb n="5" type="worddiv"/>ου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀλέξανδρος">Ἀλεξάνδρου</name>  <space extent="1" unit="character" dim="horizontal"/><lb n="6"/><name reg="Ἀπολλωνίδης">Ἀπολλωνίδου</name></persName></persName></persName></persName> <w lemma="διά">διά</w> <w lemma="τε">τε</w> <lb n="7"/> <w lemma="ὁ">τὴν</w> <w lemma="ἴδιος">ἰδίαν</w> <w lemma="ἀρετή">ἀρετὴν</w> <w lemma="καί">καὶ</w> <space extent="1" unit="character" dim="horizontal"/><lb n="8"/> <w lemma="ὁ">τὴν</w> <w lemma="ὁ">τῶν</w> <w lemma="πρόγονος">προγόνων</w> <w lemma="διά">διά</w> <lb n="9"/> <w lemma="τε">τε</w> <w lemma="φιλοδοξία">φιλοδοξιῶν</w> <w lemma="καί">καὶ</w> <w lemma="ἀνάθημα">ἀνα<lb n="10" type="worddiv"/>θημάτων</w> <w lemma="πρός">πρὸς</w> <w lemma="ὁ">τὸν</w> <w lemma="δῆμος">δῆ  <space extent="1" unit="character" dim="horizontal"/><lb n="11" type="worddiv"/>μον</w> <w lemma="εὔνοια">εὔνοιαν</w> <space extent="unknown" unit="character" dim="horizontal"/><lb n="11a"/><space extent="1" unit="line" dim="horizontal"/></ab>
+</div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; Sherard papers; Kubitschek squeeze; Gaudin squeeze.</p>
+</div>
+
+<div type="apparatus"><head>Apparatus</head><p>Sherard transcribed every two lines as if they were one.</p></div><div type="translation">
+<head>Translation</head>
+<p>The Council and the People and the Gerousia and the Young Men honoured Attalos son of Makedon son of Aristeas son of Alexandros <seg cert="low">Apollonidas</seg> for his own virtue and that of his ancestors, and the goodwill to the people shown through his public services and dedications.</p></div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>See <bibl type="primary" n="jmr1999"><author>Reynolds</author>, <title level="a">The first known Aphrodisian to hold a procuratorship</title>, <title level="m">Steine und Wege</title> (Vienna 1999), 327-334</bibl>.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">Walls, East (south part)</rs>: re-used just north of the South-east gate, north of <xref type="inscription" n="1308" href="120326">12.326</xref>, <xref type="inscription" n="1031" href="120325">12.325</xref> (=MAMA 501, 451)</rs>. <rs type="origLocation">unknown</rs><rs type="lastLocation">Findspot (1973)</rs></p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Sherard (10101, f.9) and Picenini (10102, 13v, 71); by Fellows; ?perhaps by Bailie; by Waddington; by Kubitschek and Reichel (Abklatsch 79, no notebook entry); by Gaudin; (100); by the MAMA expedition; by the NYU expedition.</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl type="hbi" n="CIGII"><author>Boeckh</author>, from Sherard (misrepresenting the line lengths) and Picenini, <title level="m">CIG</title> <biblScope>2781</biblScope>, </bibl>; by <bibl n="fellows1841"><author>Fellows</author>, Acct. 327-328, no. <biblScope>32</biblScope></bibl> whence <bibl n="CIGIIc"><title level="m">CIG</title> II p. 1111,</bibl> whence Bailie, Fasc. ii 18-19 and 278, no. 47; by <bibl n="LBW"><author>Waddington</author>, <title type="abbreviated">LBW</title> <biblScope>1600</biblScope></bibl>  mentioned by <bibl n="reinach"><author>Reinach</author>, <title level="j">REG</title> 19, 1906, 120, no. <biblScope>43</biblScope></bibl>by<bibl type="primary" n="MAMA8"><author>Cormack</author>, from the MAMA records, MAMA 8, no. <biblScope>479</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257124">245</biblScope></bibl>. Discussed by <bibl type="primary" n="jmr1999"><author>Reynolds</author>, <title level="a">The first known Aphrodisian to hold a procuratorship</title>, <title level="m">Steine und Wege</title> (Vienna 1999), 327-334</bibl>, Appendix C, no 2.</p>
+
+</div>
+
+
+
+
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="73_V_02"><figDesc>Face (1973)</figDesc></figure><figure href="73_Z_10"><figDesc>Face (1973)</figDesc></figure></p></div><div type="figure" n="Preliminary transcriptions"><head>Representations</head><p><figure href="gaudin_0020"><figDesc>Gaudin squeeze 100</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150102" n="iAph0145 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="prayer/invocation">Invocation</rs></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-29</date><respStmt><name>CMR</name></respStmt><item>tagged, lemmatised and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A <rs type="material" key="marmor">white marble</rs> <rs type="objectType" reg="sculpture"><rs type="decoration">head</rs></rs>, broken off from a lost statue, of a
+<rs type="decoration">bearded male</rs>, probably of the first half of the fifth century.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>The text is <rs type="execution" key="scalpro">cut</rs> on the top of the head, on the smooth area
+immediately behind the ridge of curly hair crowning the face, to be
+read from the front.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Carefully cut, but varying in size from <measure type="length" unit="metre" dim="height">0.01-0.015</measure> in the first line to
+<measure type="length" unit="metre" dim="height">0.0175</measure> to <measure type="length" unit="metre" dim="height">0.02</measure> (<term>beta</term>) and <measure type="length" unit="metre" dim="height">0.028</measure> (<term>eta</term>) in the second
+line.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0500" exact="none" notBefore="0301">Fourth to fifth centuries A.D.</date> (<rs type="criteria">content</rs>, <rs type="criteria">location</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<ab><lb n="1"/><w lemma="ΧΜΓ">ΧΜΓ</w> <lb n="2"/><w lemma="θεός"><persName type="divine" key="God" full="yes"><expan><abbr>Θ</abbr><supplied reason="abbreviation">ε</supplied><abbr>ὲ</abbr></expan></persName></w> <w lemma="βοηθέω">βοήθι</w>.</ab>
+      </div>
+
+     
+
+      <div><head>Apparatus</head>   <p>l. 1, perhaps <foreign lang="grc"><persName key="Christ" type="divine" full="yes"><expan><abbr>Χ</abbr><supplied reason="abbreviation">ριστὸν</supplied></expan></persName> <persName key="Mary" type="divine" full="yes"><expan><abbr>Μ</abbr><supplied reason="abbreviation">αρία</supplied></expan></persName> <expan><abbr>Γ</abbr><supplied reason="abbreviation">εννᾷ</supplied></expan></foreign></p></div><div type="translation">
+        <head>Translation</head>
+        <ab><seg cert="low">M<supplied reason="abbreviation">ary</supplied> b<supplied reason="abbreviation">ore</supplied> Ch<supplied reason="abbreviation">rist</supplied></seg>. God, help.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="VIII.20">VIII.20</xref>, and compare <xref type="inscription" n="31" href="030008">3.8</xref>.ii.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p> <rs type="found">No details; in <rs type="monuList">collection</rs>.</rs> <rs type="origLocation">Unknown.</rs> <rs type="lastLocation">Musée du Cinquentenaire, Brussels (1988)</rs></p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by <rs type="visitor" key="gaudin">Gaudin</rs>: on the provenance see <bibl><author>K. T. Erim</author>,
+'De Aphrodisiade', <title level="m">AM</title> 71 (<date value="1967" notBefore="1967" notAfter="1967" exact="both">1967</date>), 236</bibl>.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl><author>F. Cumont</author>, <title level="m">Catalogue des sculptures et
+inscriptions antiques des Musées Royaux du
+Cinquentenaire</title> (Brussels, <date value="1913" notBefore="1913" notAfter="1913" exact="both">1913</date>), 51, no. 41</bibl>, whence <bibl><author>Graindor</author>,
+<title level="m">Marbres et textes</title>, <title level="m">Rec. de trav. de la fac. de phil. de
+Gand</title>, fasc. 50, 18-19</bibl>; <bibl type="hbi" n="IGC"><author>Grégoire</author>, <title level="m">IGC</title>
+<biblScope>248bis</biblScope></bibl>; by <bibl><author>K. T. Erim</author> in lnan-Rosenbaum,
+<title level="m">Porträtplastik</title>, 232, no. <biblScope>204</biblScope></bibl>, whence <bibl n="seg"><title level="m">SEG</title> <biblScope>1982.1108</biblScope></bibl>; <bibl n="seg"><title level="m">SEG</title>
+<biblScope>1985.1082</biblScope></bibl>; <bibl><title level="m">Spätantike &amp; Frühes Christentum, Ausst.
+Frankfurt</title> (Frankfurt, <date value="1984" notBefore="1984" notAfter="1984" exact="both">1984</date>) 454-456, no. <biblScope>62</biblScope> with plate</bibl>;
+<bibl><author>Goette</author>, <title level="m">MDAIRA</title> 92 (<date value="1985" notBefore="1985" notAfter="1985" exact="both">1985</date>), 318, no. <biblScope>IV.3</biblScope></bibl>. Text published by
+<bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title>
+no. <biblScope>145</biblScope> and Plate xxxiii</bibl> whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257538">655</biblScope></bibl>. Text and statue discussed most recently by <bibl><author>Smith</author> (2002)</bibl></p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Publications; Description, photograph and squeeze provided by Professor
+J.-C. Balty.</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="Bruxelles01"><figDesc>Detail (1988)</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

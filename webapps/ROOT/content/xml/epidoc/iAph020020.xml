@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020020" n="iAph0056 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="verse"><rs type="textType" reg="honours">Epigram</rs></rs> for Pytheas</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+		<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Juan Garcés</name></respStmt><item>Marked up inventory number(s)</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change>
+  <date>2003-07-17</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-21</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-28</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Six fragments from a <rs type="material" key="marmor">white marble</rs> <rs type="objectType"><rs type="objectType">statue base</rs> shaft</rs> with panels within moulded edges on all sides (a <measure type="length" unit="metre" dim="height">1.40</measure> × <measure type="length" unit="metre" dim="width">0.51</measure> × <measure type="length" unit="metre" dim="depth">0.43</measure>).</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> on the front panel; the last letter of l. 11 cut on moulding.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Av. <measure type="length" unit="metre" dim="height">0.04</measure>; irregular, elongated: <foreign lang="grc">Ε</foreign> is both square and lunate; dot for stop.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0500" exact="none" notBefore="0468">Late fifth century</date> (<rs type="criteria">prosopography</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<lg met="elegaic">
+		<lb n="1"/>
+		<l met="hexameter" n="1"><w lemma="ἄστυ">ἄστ<supplied reason="lost">υ</supplied></w> <persName type="divine" key="Aphrodite" full="yes" reg="Παφίη"><w lemma="θεά">θεῆς</w>
+		<lb n="2"/><placeName type="ethnic" full="yes" reg="Παφίος">Παφίης</placeName></persName> <w lemma="καί">καὶ</w>
+		<lb n="3"/><persName key="Pytheas" type="aphrodisian" full="yes"><name reg="Πυθέας">Πυθέου</name></persName>, <w lemma="ὁ">ἡ</w> <w lemma="μέν">μὲν</w>
+		<lb n="4"/><w lemma="ὀρθόω">ὀρ<supplied reason="lost">θῶσ</supplied>α</w> <g type="stop"/></l>
+		<l met="pentameter" n="2"><w lemma="ὁ">τὴν</w>
+		<lb n="5"/><gap dim="internal" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">οιαθεη</orig>
+		<lb n="6"/><gap dim="internal" reason="lost" extent="unknown" unit="character"/> <w lemma="πόλις"><supplied reason="lost">π</supplied>όλιν</w>
+		<lb n="7"/><gap dim="internal" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ον</orig> <g type="stop"/>
+		</l>
+		<lb n="8"/>
+		<l met="hexameter" n="3"><orig n="unresolved"><unclear reason="damage">χορσ</unclear></orig><gap dim="internal" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ννηον</orig>
+		<lb n="9"/><w lemma="γάρ">γὰρ</w> <w lemma="ἐπασσύτερος">ἐπασ<supplied reason="lost">σ</supplied>υτέροι
+		<lb n="10" type="worddiv"/>σιν</w> <w lemma="ἐπί">ἐπ'</w> <w lemma="ἔργον">ἔργοις</w> <g type="stop"/>
+		</l>
+		<lb n="11"/>
+		<l met="pentameter" n="4"><w lemma="ὄλβος">ὄλβου</w> <w lemma="ἀφειδέω">ἀφειδείων</w>
+		<lb n="12"/><w lemma="κτίζω">κτίσσεν</w> <w lemma="ἀπάρχω">ἀπαρ
+		<lb n="13" type="worddiv"/>χόμενος</w> <g type="leaf"/>
+		</l>
+		</lg>
+      </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p><foreign lang="grc">ὀρ<supplied reason="lost">θῶσ</supplied>α</foreign> Cameron,
+<foreign lang="grc">ὁρ<supplied reason="lost">ῶσ</supplied>α</foreign> Merkelbach-Stauffer</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>City of the Paphian goddess and of Pytheas: she, for her
+part, having exalted <supplied reason="lost" cert="low">has given blessings</supplied> appropriate to a goddess
+<supplied reason="lost">to</supplied> the city <gap dim="internal" extent="unknown" reason="lost"/><supplied reason="lost" cert="low">while he</supplied> in addition to constant works,
+unsparing of his wealth, has built <gap dim="internal" extent="unknown" reason="lost" unit="character"/> as an offering.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>For Pytheas see ALA <xref type="inscription" n="55" href="110070">11.70</xref>, <xref type="inscription" n="57" href="080610">8.610</xref>, <xref type="inscription" n="58" href="050303">5.303</xref>, <xref type="inscription" n="250" href="150361">15.361</xref> and discussion at <xref type="eAla-text" n="V.18">V.18</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p><rs type="found"><rs type="monuList" key="Boul">Bouleuterion/Odeon</rs>: in the area of the stage; where the accompanying statue was also found.</rs>. <rs type="origLocation"><rs type="monuList">Bouleuterion/Odeon</rs>.</rs>. <rs type="lastLocation">One fragment in the back corridor of the Bouleuterion/Odeon; five in the Museum. Statue in the Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition in <date notBefore="01962" notAfter="01964" exact="both">1962-64</date>; statue excavated in <date notAfter="01963" exact="both" notBefore="01962">1962-3</date> (<rs type="invNo">62.484</rs>, <rs type="invNo">62.489</rs>, <rs type="invNo">63.72</rs>).</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>56</biblScope> and plate xiv</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257613">726</biblScope></bibl>, <bibl type="hbi" n="steinepig"><title level="m">Steinepigramme</title> <biblScope>02/09/19</biblScope></bibl>.</p>
+        <p>Statue published by <bibl><author>J. Inan</author> and <author>E. Alföldi</author>, <title level="m">Roman and early Byzantine portait sculpture from Asia Minor</title> (London, 1966), no. <biblScope>66</biblScope></bibl>; discussed by <bibl type="hbi" n="rrrs1999"><author>Smith</author> (<date>1999</date>), <biblScope>168</biblScope> and fig. 8, plate iv</bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+            <head>Photographs</head>
+            <p><figure href="72_D_30A"><figDesc>Left side fragments (1972)</figDesc></figure><figure href="rosen031"><figDesc>Centre fragments (1966)</figDesc></figure><figure href="76_J_26A"><figDesc>Right side and one left side fragments (1976)</figDesc></figure><figure href="rosen035"><figDesc>Right side (1966)</figDesc></figure><figure href="78_F_04"><figDesc>Lower right corner (1978)</figDesc></figure><figure href="76_J_12A"><figDesc>Fragment, lines 2-4 (1976)</figDesc></figure><figure href="77_L_15A"><figDesc>Fragment, lines 7-10 (1977)</figDesc></figure><figure href="72_C_15"><figDesc>Detail, lines 11-13 (1972)</figDesc></figure><figure href="77_L_14A"><figDesc>Fragment, lines 12-13 (1977)</figDesc></figure></p>
+         
+         
+         
+         
+         
+         
+         
+         
+         </div><div type="figure" n="transcriptions">
+            <head>Representations</head>
+            <p><figure href="smith-ala56"><figDesc>Statue and base: Drawing: K.Gorkay, from Smith (1999)
+</figDesc></figure></p>
+         
+         </div>
+
+      
+
+    </body>
+  </text>
+</TEI>

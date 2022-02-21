@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120707" n="iAph1006 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for  Tryphe</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+  
+  <change><date>2005-01-06</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>
+A plain <rs type="material" key="marmor">white marble</rs> <rs type="objectType" reg="block">statue base</rs> shaft (<measure dim="width" type="length" unit="metre">0.39</measure> × <measure dim="height" type="length" unit="metre">0.90</measure> × <measure type="length" unit="metre" dim="depth">0.37</measure>).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">
+Inscribed</rs> on the face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure type="length" unit="metre" dim="height">
+0.03</measure>; ligatured <foreign lang="grc">ΝΗ</foreign> in l. 3.</p>
+</div>
+
+<div type="description" n="date">
+<head>Date</head>
+<p>Possibly 
+<date exact="none" notBefore="0100" notAfter="0133" cert="low">early second century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="0"/><gap id="iaph2005-gap01" reason="lost" dim="top" unit="line" extent="unknown"/><certainty degree="low" locus="#gi" target="iaph2005-gap01"/><lb n="1"/><persName reg="Τρύφη  Μενοδότου" full="yes" type="aphrodisian"><name reg="Τρύφη">Τρύφην</name>  <persName type="aphrodisian"><name reg="Μηνόδοτος">Μη<lb n="2"/>νοδότου</name></persName></persName>  <w lemma="στεφανηφόρος">στε<lb n="3" type="worddiv"/>φα<hi rend="ligature">νη</hi>φόρον</w></ab></div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>  Preliminary transcription (Reynolds); publications.</p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p><gap reason="lost" dim="left"/> <supplied reason="lost" cert="low">honoured</supplied> Tryphe daughter of Menodotos, stephanephoros.</p>
+</div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>That there is rather more space between l. 1 and the top of the block than between ll. 1 and 2 or 2 and 3 suggests the possibility that the text is complete; but it seems more likely that the subject and a verb stood above—no doubt on another stone—very possibly the Council and the People honoured Tryphe. For Tryphe, see Name index.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found">reused in the  <rs type="monuList">Walls, South (west part)</rs>, near <xref type="inscription" n="689" href="120719">12.719</xref> (=MAMA 417), west of the area excavated in 1975</rs>  <rs type="lastLocation" reg="findspot">Findspot (1973)</rs> <rs type="origLocation">Unknown</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Doublet and Deschamps; Kubitschek and Reichel (no notebook reference); by the MAMA expedition; and by the NYU expedition in 1973.</p>
+</div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl><author>Doublet and Deschamps</author>, <title level="j">BCH</title> 14 (1890), no. <biblScope>11</biblScope></bibl>; from the MAMA record and Kubitschek and Reichel by <bibl n="MAMA8" rend="primary" type="hbi"><author>Cormack</author>, <title level="m">MAMA</title> 8, no. <biblScope>467</biblScope></bibl> whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257209">331</biblScope></bibl></p>
+</div>
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="73_W_20"><figDesc>Face (1973)</figDesc></figure></p></div>
+
+
+
+</body>
+</text>
+
+</TEI>

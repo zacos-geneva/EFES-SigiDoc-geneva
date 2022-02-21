@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110409" n="iAph1005 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for  Chaireas</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+  
+  <change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date>2005-01-06</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>
+<rs type="material" key="marmor">White marble</rs> <rs type="objectType" reg="block">block</rs> with moulding chipped away above (<measure type="length" unit="metre" dim="height">0.515</measure> × <measure type="length" unit="metre" dim="width">0.75</measure> × <measure type="length" unit="metre" dim="depth">0.46</measure>).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">
+Inscribed</rs> on the face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure type="length" unit="metre" dim="height">
+0.04</measure></p>
+</div>
+
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0200" exact="none">Second century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="0"/><gap id="iaph2005-gap01" reason="lost" dim="top" unit="line" extent="unknown"/><certainty degree="low" locus="#gi" target="iaph2005-gap01"/><lb n="1"/><w lemma="τιμάω"><orig reg="ἐτίμησεν"><supplied reason="lost">ἐ</supplied><unclear reason="damage">τ</unclear><supplied reason="lost">είμησεν</supplied></orig></w><lb n="2"/><persName reg="Χαιρέας" full="yes" type="aphrodisian"><name reg="Χαιρέας"><supplied reason="lost">Χ</supplied>αιρέαν</name></persName>  <lb n="3"/><w lemma="ὁ">τὸν</w> <w lemma="στεφανηφόρος">στε<lb n="4" type="worddiv"/>φανηφό<lb n="5" type="worddiv"/>ρον</w>.</ab></div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); notebooks; publication.</p>
+</div>
+
+<div type="apparatus"><head>Apparatus</head><p>Cormack saw the trace of an upright in l. 1, and so read <foreign lang="grc"><supplied reason="lost">ἐ</supplied>τ<supplied reason="lost">είμησεν</supplied></foreign>; but this might be a trace left by the moulding.</p></div><div type="translation">
+<head>Translation</head>
+<p><gap reason="lost" dim="left"/> <supplied reason="lost" cert="low">honoured</supplied> Chaireas the stephanephoros.</p>
+</div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>There may have been a verb of honouring on an upper feature; but the two texts, <xref type="inscription" n="1004" href="120602">12.602</xref> and <xref type="inscription" n="1005" href="110409">11.409</xref> (= MAMA 466, 467), both very similar, may perhaps be complete.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"> <rs type="monuList">City, South-west</rs>, reused as a well-head south west of the Theatre</rs> <rs type="lastLocation" reg="findspot">Findspot (1975)</rs> <rs type="origLocation">Unknown</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Kubitschek (III, 44) and noted by Reichel (I, 16v)l; by the MAMA expedition; and by the NYU expedition in 1973.</p>
+</div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published from the MAMA records by <bibl n="MAMA8" rend="primary" type="hbi"><author>Cormack</author>, <title level="m">MAMA</title> 8, no. <biblScope>466</biblScope></bibl> whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257142">263</biblScope></bibl></p>
+</div>
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="73_S_15"><figDesc>Front view (1973)</figDesc></figure><figure href="75_L_04"><figDesc>Face (1975)</figDesc></figure></p></div>
+
+
+
+<div n="transcriptions" type="figure"><head>Representations</head><p><figure href="K_III_44"><figDesc>Kubitschek notebook III, 44</figDesc></figure><figure href="R_I_16v"><figDesc>Reichel notebook I, 16v</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

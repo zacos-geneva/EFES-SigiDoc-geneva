@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120518" n="iAph1798 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Posthumous <rs type="textType">honours</rs></rs> for Claudia Tryphosa Paulina</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>No description (<rs type="objectType" cert="low">statue base</rs>)</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>No description.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Ligatures: <foreign lang="grc">ΤΗΝ</foreign>, ll.6, 8; <foreign lang="grc">ΗΝ</foreign> l.9</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0200" notBefore="0100" cert="low"> First to second centuries A.D.</date>
+(<rs type="criteria">nomenclature</rs>, <rs type="criteria">prosopography</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καΐ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="τιμάω">ἐτεί<lb n="2" type="worddiv"/>μησαν</w> <w lemma="καί">καὶ</w> <w lemma="μεταλλάσσω">μετηλλαχυῖ<lb n="3" type="worddiv"/>αν</w> <persName type="aphrodisian"><name reg="Κλαυδία">Κλαυδίαν</name> <persName type="aphrodisian"><name reg="Κλαύδιος">Κλαυδίου</name> <name reg="Ἀπολλώνιος ">Ἀπολ<lb n="4" type="worddiv"/>λωνίου</name></persName></persName> <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <w lemma="θυγάτηρ">θυγατέρα</w> <lb n="5"/> <persName type="aphrodisian"><name reg="Τρυφῶσα">Τρυφῶσαν</name> <name reg="Παυλεῖνα">Παυλεῖναν</name></persName> <w lemma="ἀρχιέρεια">ἀρχι<lb n="6" type="worddiv"/>έρειαν</w> <w lemma="διά">διά</w> <w lemma="τε">τε</w> <w lemma="ὁ">τὴν</w> <w lemma="ὁ">τοῦ</w> <w lemma="πατήρ">πατρὸς</w> <lb n="7"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῶν</w> <w lemma="πρόγονος">προγόνων</w> <w lemma="αὐτός">αὐτῆς</w> <w lemma="εἰς">εἰς</w> <lb n="8"/> <w lemma="ὁ">τὴν</w> <w lemma="πατρίς">πατρίδα</w> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶσι</w> <w lemma="φιλοτιμία">φιλοτει<lb n="9" type="worddiv"/>μείαν</w> <w lemma="καί">καὶ</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τὴν</w> <w lemma="ἑαυτοῦ">ἑαυτῆς</w> <w lemma="κοσμιότης">κοσ<lb n="10" type="worddiv"/>μιότητα</w> <w lemma="κάλλος">κάλλει</w> <w lemma="διαφέρω">διενενκοῦ<lb n="11" type="worddiv"/>σαν</w> <w lemma="καί">καὶ</w> <w lemma="τελευτάω">τελευτήσασαν</w> <w lemma="παρθένος">παρ<lb n="12" type="worddiv"/>  <space extent="3" unit="character" dim="horizontal"/> θένον</w> <w lemma="ἔτι">ἔτι</w> <g type="leaf"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 3,  Sherard omits <foreign lang="grc">ΑΠΟΛ</foreign>, which he places in l.4. <foreign lang="grc">ΑΠΟΛΛ/ΩΝΙΟΥ</foreign> Wood. <foreign lang="grc">ΑΠΟΛ/ΛΩΝΙΟΥ</foreign> Waddington l. 10,  Sherard read <foreign lang="grc">ΑΙΕΝΕΝΡΟΥ</foreign>, corrected by Boeckh; <foreign lang="grc">ΔΙΕΝΕΝΚΟΥ</foreign> Loew. l. 12,  leaf only in Sherard (not shown by Boeckh)</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>The Council and the People honoured even after death Claudia Tryphosa Paulina daughter of Claudius Apollonios, high priest, because of the benificence of her father and ancestors to the homeland on all occasions, and for her own decorous behaviour: she was outstandingly beautiful and died still a virgin.</p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p>For the family see name index.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">Walls, South-east</rs>: re-used in the south-east stretch</rs>
+<rs type="lastLocation">Findspot (1850)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Sherard papers; Wood; publications.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Transcribed in 1705 by Picenini (10102.24 and, from Tisser,  74v), whence Sherard (10101.13v) ; by Wood in 1750 (14, 45v); by Fellows; ?by Texier p.158; by Loew; ? by Bailie; by Waddington in 1850; not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="CIGII">Boeckh, from Sherard and Picenini, CIG <biblScope>2819</biblScope></bibl>; by <bibl n="fellows1841">Fellows no. <biblScope>23</biblScope></bibl>, whence <bibl n="CIGIIc">CIG p.1114</bibl>, ? whence <bibl n="texier1839">Texier p.158</bibl>, <bibl n="bailie1846">Bailie no. <biblScope>50</biblScope></bibl>; comment by <bibl n="franz1847">Franz, from Loew, <biblScope>a.2</biblScope></bibl>; by <bibl n="LBW">Waddington, LBW <biblScope>1607</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257372">494</biblScope>
+</bibl>.</p>
+</div><div type="figure" n="none">
+<head>Photographs</head>
+<p>No photographs
+</p>
+</div><div type="figure" n="Preliminary transcriptions"><head>Representations</head><p><figure href="Wood_14_45v"><figDesc>Wood notebook 14, page 45v</figDesc></figure></p></div></body></text>
+</TEI>

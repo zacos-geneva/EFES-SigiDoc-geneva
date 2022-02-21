@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph160915">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Honours</rs> for Hierokles</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>2007-04-23</date><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-04-19</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Plain <rs type="material">white marble</rs> <rs type="objectType">statue base</rs>, with a variety of clamp-holes on top (<measure type="length" unit="metre" dim="width">0.73</measure> x <measure type="length" unit="metre" dim="height">0.265</measure> x <measure type="length" unit="metre" dim="depth">0.59</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>ll. 4,5, <measure type="length" unit="metre" dim="height">0.025</measure>; ll.2,3, <measure type="length" unit="metre" dim="height">0.02</measure>; final omicron in ll.1, 2 smaller; last letter in l.4 crowded.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" exact="none" notBefore="-0027" notAfter="0068">Julio-Claudian</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w>ἡ</w> <w>γερουσία</w> <w>καὶ</w> <w>ἡ</w> <w>βουλὴ</w> <w>καὶ</w> <w>ὁ</w> <w>δῆμος</w> <lb n="2"/> <w>ἐτείμησαν</w> <persName type="aphrodisian"><name>Ἱεροκλέα</name> <persName type="aphrodisian"><name>Ἱεροκλέους</name> <lb n="3"/> <w>τοῦ</w> <persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδράστου</name></persName></persName></persName> <w>ἄνδρα</w> <w>καλὸν</w> <w>καὶ</w> <lb n="4"/> <w>ἀγαθὸν</w> <w>διὰ</w> <w>προγόνων</w> <w>φιλαγάθως</w> <lb n="5"/> <w>διατεθέντα</w> <w>τῇ</w> <w>γερουσίᾳ</w> <g type="scroll"/> <space extent="3" unit="character"/>  </ab>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>This man and his brother, honoured in  <xref type="iAph">914</xref> (= 87.371) are not otherwise known</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">South Agora</rs>, BS 87-1, with 87.371</rs>
+<rs type="lastLocation">Museum</rs>
+
+
+
+<rs type="origLocation">Unknown</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1987 (<rs type="invNo">87.372</rs>;SBI <rs type="sbi">77</rs>)</p>
+</div>
+<div type="bibliography" n="none">
+<head>Bibliography</head>
+<p>Unpublished</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="88_B_22"><figDesc>Face (1988)</figDesc></figure><figure href="88_B_23"><figDesc>Face (1988)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

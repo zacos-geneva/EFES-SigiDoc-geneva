@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080038" n="iAph0568 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for Hosidius Ioulianos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Two blocks: a (in two pieces) <measure dim="width" type="length" unit="metre">0.98</measure>, marked <foreign lang="grc">ΓΑ</foreign> ; b <measure dim="width" type="length" unit="metre">1.27</measure>, marked <foreign lang="grc">ΔΑ</foreign>.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> in two lines on the fascia, which has an extra moulding above the text, only here.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>
+<measure type="length" unit="metre" dim="height">0.025</measure>-<measure type="length" unit="metre" dim="height">0.03</measure>; dot for stop; Diaresis; on first A of ἀναθέντα, l.1. Ligatures: ΗΜ, l.1, ΝΝ, l.2;.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0200" exact="none">Second century A.D.</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">institutions</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="1"><ab><lb n="1"/> <w lemma="ὁ">Ἡ</w> <w lemma="γερουσία">γερουσία</w> <unclear reason="damage">ἐκ</unclear> <w lemma="ὁ">τῶν</w> <w lemma="ἴδιος">ἰδίων</w> <persName type="aphrodisian"><name reg="Γάϊος" type="praenomen">Γάιον</name> <name reg="Ὁσίδιος">Ὁσίδιον</name><name reg="Ἰουλιανός"> Ἰουλιανὸ<milestone unit="block"/>ν</name></persName> <w lemma="ἀνατίθημι">ἀναθέντα</w> <w lemma="ὁ">τῇ</w> <w lemma="πατρίς">πατρίδι</w> <w lemma="ἀγών">ἀγῶνα</w> <w lemma="ἡμιταλαντιαῖος">εἱμιταλαντιαῖον</w> <g type="stop"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῇ</w> <w lemma="θεός">θεῷ</w> <w lemma="ἀνάθημα">ἀναθήματα</w> </ab></div><div type="textpart_section" n="2"><ab><lb n="2"/><w lemma="ἐπιμελέω">ἐπιμεληθ<unclear reason="damage">έ</unclear><supplied reason="lost">ν</supplied>τος</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μενάνδρου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδ<supplied reason="lost">ώρ</supplied><unclear reason="damage">ου</unclear></name>  <milestone unit="block"/>  <w lemma="ὁ"><supplied reason="lost">το</supplied>ῦ</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μενάνδρου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδώρου</name> <persName type="aphrodisian"><name reg="Κικιννᾶς" n="2">Κικιννᾶ</name></persName></persName></persName></persName></persName> <w lemma="γραμματεύς">γραμμ<unclear reason="damage">α</unclear>τέω<supplied reason="lost">ς</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τ</supplied>ὸ</w> <num value="2">β</num> <g type="leaf"/>  </ab></div>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p><foreign lang="grc">Ἀρτεμι<supplied reason="lost">δώ</supplied>ρ<unclear reason="damage">ου</unclear></foreign> (block end) <foreign lang="grc"><supplied reason="lost">τ</supplied>οῦ Κικίννα</foreign> PPA</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>The Gerousia, from their own funds, (honoured) Gaius Hosidius Iulianos, who dedicated for his fatherland a contest in the half-talent category, and dedications for the goddess; the overseer was Menandros son of Artemidoros son of Menandros son of Artemidoros son of Kikinnas, secretary for the second time.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>The same man was honoured by Council and People, in <xref type="inscription" n="569" href="080039">8.39</xref>, apparently in an adjoining text: the first block of <xref type="inscription" n="569" href="080039">8.39</xref> continues the moulding found above the text in <xref type="inscription" n="568" href="080038">8.38</xref>. See Roueché, loc. cit.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Theatre</rs>: stage area</rs>
+<rs type="origLocation"><rs type="monuList">Theatre</rs> proskenion frieze. Inscribed on the blocks which make up the cornice, of the Doric order, above <xref type="inscription" n="536" href="080001">8.1</xref>,  the inscription of Zoilos, across the back of the Theatre stage. The blocks have simple moulding above, supporting water spouts in the form of lions' heads; the underside has a decoration of mutules.</rs>
+<rs type="lastLocation">Findspot; Now restored on the tenth and eleventh blocks from the north</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1971 (a: <rs type="invNo">71.430</rs> &amp; <rs type="invNo">71.478</rs>; b: <rs type="invNo">71.1024</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="PPA">Roueché, PPA <biblScope>55a</biblScope></bibl>, whence <bibl>PHI</bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="80_G_36"><figDesc>a (1980)</figDesc></figure><figure href="73_Q_15A"><figDesc>a and b (1973)</figDesc></figure><figure href="89_E_14A"><figDesc>Assembled in situ (1989)</figDesc></figure></p>
+</div></body></text>
+</TEI>

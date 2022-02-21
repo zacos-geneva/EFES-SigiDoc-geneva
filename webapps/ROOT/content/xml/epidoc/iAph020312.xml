@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020312" n="iAph1670 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> inscription for Zotikos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-07</date><respStmt><name>Charlotte Tupman</name></respStmt><item>DONE</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType">sarcophagus</rs> lid re-used as a trough (<measure dim="width" type="length" unit="metre">1.965</measure> x <measure dim="height" type="length" unit="metre">0.29</measure>  x <measure dim="depth" type="length" unit="metre">0.81</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the edge of the sarcophagus lid (<measure dim="width" type="length" unit="metre">1.965</measure> x <measure dim="height" type="length" unit="metre">0.08</measure>), which is rubbed in places and pierced by several holes; some of the damage was done before the inscription was cut. The text must have continued on the box of the sarcophagus.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.02</measure>; ligatured <foreign lang="grc">MM</foreign>, l. 2.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date exact="none" cert="low" notAfter="0300" notBefore="0201"> Probably third century A.D.</date>
+(<rs type="criteria">lettering</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <w lemma="ὁ">τὴν</w> <w lemma="σορός">σ<supplied reason="lost">ο</supplied>ρὸν</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰς</w> <supplied reason="lost">εν αὐτ<unclear reason="damage">ῇ</unclear></supplied>  <w lemma="εἰσώστη">εἰσῶστας</w> <w lemma="κατασκευάζω">κατε<supplied reason="lost">σ</supplied>κεύασεν</w> <persName type="aphrodisian"><name reg="Τίτος" type="praenomen">Τίτος</name> <gap reason="lost" extent="unknown" unit="character"/> <name reg="Αἴλιος">Αἴλιος</name> <name reg="Ζωτικός" type="        ">Ζωτ<supplied reason="lost">ικ</supplied>ὸ<unclear reason="damage">ς</unclear></name></persName> <g type="arabesque"/> <lb n="2"/>  <w lemma="εἰς">εἰς</w> <w lemma="ὅς">ἣν</w> <w lemma="σορός">σορὸν</w> <w lemma="θάπτω">τεθά<supplied reason="lost"><space extent="8" precision="circa"/></supplied>πται</w> <persName type="aphrodisian"><name reg="Φίλητος"><unclear>Φ</unclear>ίλητος</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Ἀμμία">Ἀ<hi rend="ligature">μμ</hi>ία</name></persName> <w lemma="τέκνον">τέκνα</w> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Αἴλιος"><supplied reason="lost" cert="low">Αἰλίου</supplied></name> <name reg="Ζωτικός">Ζωτικοῦ</name></persName> <w lemma="οὐδείς">οὐδεὶς</w> <w lemma="δέ">δὲ</w> <lb n="2a"/><supplied reason="lost"><w lemma="ἕτερος">ἕτερος</w> <note>κτλ.</note></supplied>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p> Titus <gap reason="lost" extent="unknown" unit="character"/> Ailius Zotikos prepared the tomb and the subsidiary niches.  In the tomb his children Philetos and Ammia have been buried but no-one else <supplied reason="lost">shall be placed therein</supplied> <gap reason="lost" extent="unknown" unit="character"/></p>
+</div>
+<div type="commentary" n="none">
+<head>Commentary</head>
+<p> No comment.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found">: In the excavation of the <rs type="monuList">Bouleuterion/Odeon, North Area</rs></rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">In the area behind the Bouleterion/Odeon (1978)</rs>.</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (<rs type="siteNo">Odeon 8</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_F_05"><figDesc>Face (1978)</figDesc></figure><figure href="78_G_33"><figDesc>Face (1978)</figDesc></figure></p>
+</div></body></text>
+</TEI>

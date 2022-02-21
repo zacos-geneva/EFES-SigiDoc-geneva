@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010169" n="iAph1850 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragment of <rs type="textType">honours</rs></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-06</date><respStmt><name>GB</name></respStmt><item>DONE</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>Right side fragment from a plain <rs type="material">marble</rs> <rs type="objectType">block</rs> (<measure dim="width" type="length" unit="metre">0.16</measure>  × <measure dim="height" type="length" unit="metre">0.27</measure>  × <measure dim="depth" type="length" unit="metre">0.09</measure>). </p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+
+<p>Elaborately serifed; uneven in size and spacing; <measure dim="height" type="length" unit="metre" precision="circa">0.02</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" exact="none" notAfter="0200" notBefore="0101">Second century A.D.</date>
+(<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/>
+<gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">σ<unclear reason="damage">ε</unclear></orig> <gap extent="1" reason="lost" unit="character"/><lb n="2"/> <gap dim="left" extent="unknown" reason="lost" unit="character"/><w lemma="ὁ">τῇ</w> <w lemma="πατρίς">πα<supplied reason="lost">τ</supplied><lb n="3" type="worddiv"/><supplied reason="lost" cert="low">ρίδι</supplied></w> <gap dim="left" extent="unknown" reason="lost" unit="character"/> <orig n="unresolved"><unclear reason="damage">ι</unclear></orig> <w lemma="προσ-">προσ<lb n="4" type="worddiv"/><gap dim="left" extent="unknown" reason="lost" unit="character"/></w><orig n="unresolved"><unclear reason="damage">τ</unclear>ουσ</orig><lb n="5"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ο</unclear>ν</orig> <space unit="character" extent="1"/><lb n="5a"/><gap dim="left" extent="unknown" reason="lost" unit="character"/> <space unit="line" dim="vertical"/> </ab>
+</div><div type="apparatus"><head>Apparatus</head><p>l. 1, either letter could be <foreign lang="grc">Ε</foreign> or <foreign lang="grc">Σ</foreign>.</p></div>
+
+<div type="translation">
+<head>Translation</head>
+<p><gap dim="left" extent="unknown" reason="lost" unit="character"/> to <supplied reason="subaudible">his or her</supplied> country <gap dim="right" extent="unknown" reason="lost" unit="character"/></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> An unknown benefactor dedicates to their country.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+
+
+<rs type="found">Loose find in Museum; perhaps in <rs type="monuList">Temple/Church</rs> N. Temenos area.</rs><rs type="lastLocation">Museum (1977)</rs>
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (<rs type="siteNo">Museum 110</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_Q_07"><figDesc>Face (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI>

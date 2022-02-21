@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080268" n="iAph0078 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m">Fragmentary <rs type="textType">acclamation</rs>s</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+		<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change>
+  <date>2003-07-17</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-24</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-28</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Two fragments from two separate rectangular <rs type="material" key="marmor">white marble</rs> (<rs type="objectType">column</rs>) blocks, which look very much like doorposts. i. Upper part (<measure type="length" unit="metre" dim="height">0.87</measure> × <measure type="length" unit="metre" dim="width">0.81</measure> × <measure type="length" unit="metre" dim="depth">0.42</measure>) broken below. ii. Lower part (<measure type="length" unit="metre" dim="height">0.60</measure> × <measure type="length" unit="metre" dim="width">0.51</measure> × <measure type="length" unit="metre" dim="depth">0.38</measure>) broken above.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>i:. Just above the break a rectangular area of white plaster was outlined in red (H. <measure type="length" unit="metre" dim="height">0.33</measure>, W. <measure type="length" unit="metre" dim="width">0.55</measure>) and inscribed with a painted text; there are at least two levels of text (as in <xref type="inscription" n="75" href="080408">8.408</xref>, <xref type="inscription" n="77" href="080508">8.508</xref>). ii. A similar rectangular area is outlined below the break (H. <measure type="length" unit="metre" dim="height">0.17</measure>, W. <measure type="length" unit="metre" dim="width">0.53</measure>); only one level of text can be deciphered.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Flowing and elegant. i.a, <measure type="length" unit="metre" dim="height">0.04</measure>; i.b, <measure type="length" unit="metre" dim="height">0.05</measure>; ii, <measure type="length" unit="metre" dim="height">0.04</measure></p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth/sixth century</date> (<rs type="criteria">terminology</rs>).</p>
+      </div>
+
+      <div type="edition" lang="grc">
+        <head lang="en">Edition</head>
+		
+		  <div type="textpart_section" n="i"><div type="textpart_fragment" n="a"><ab>
+		  
+		 <lb n="0"/><gap dim="top" reason="lost" extent="unknown" unit="line"/>
+		 <lb n="1"/><orig n="unresolved">του</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="2"/><gap dim="bottom" reason="lost" extent="unknown" unit="line"/>
+		  </ab></div><div type="textpart_fragment" n="b"><ab>
+		 <lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/> <rs key="acclamations" type="subject"><w lemma="νικάω"><supplied reason="lost" cert="low">νικᾷ</supplied></w> <w lemma="ὁ"><supplied reason="lost">ἡ</supplied></w> <w lemma="τύχη">τύχῃ</w></rs>  <gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/> <w lemma="εἰς"><supplied reason="lost" cert="low">εἰς</supplied></w> <w lemma="αἰών"><supplied reason="lost">αἰ</supplied>ῶνα</w> <orig n="unresolved"><unclear reason="damage">η</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="3"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ιρ<hi rend="ligature">ουσ</hi><unclear reason="damage">ιαιια</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="4"/>
+		  </ab></div>
+		 
+		   </div><div type="textpart_section" n="ii"><ab>
+		  <lb n="0"/><gap dim="top" reason="lost" extent="unknown" unit="line"/>
+		  <lb n="1"/><orig n="unresolved"><unclear reason="damage">ιιηι</unclear>ην<gap dim="internal" extent="2" reason="lost" unit="character"/><unclear reason="damage">ι</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		  <lb n="2"/><space dim="vertical" id="space1"/><certainty locus="#gi" target="space1" assertedValue="gap" degree="low"/>
+		   </ab></div>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <p>For translations of the recognizable phrases, see discussion.</p>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="V.59">V.59</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList" key="Theatre">Theatre</rs>: reused in the Byzantine defence wall built across the east side of the Theatre, in the stretch blocking the south parodos.</rs>. Original location: <rs type="origLocation">There is no indication of original provenance; but we know that materials for this wall were brought from as far away as the Sebasteion complex.</rs>. Last recorded location: <rs type="lastLocation">On site.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated during dismantling of the defence wall in <date value="1982" notBefore="1982" notAfter="1982" exact="both">1982</date>.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>78</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257708">822</biblScope>, <biblScope n="257709">823</biblScope>, <biblScope n="257710">824</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs"><head>Photographs</head><p><figure href="83_E_15"><figDesc>i. Detail (1983)</figDesc></figure><figure href="83_E_16"><figDesc>i. Face (1983)</figDesc></figure><figure href="83_E_17"><figDesc>ii. Face (1983)</figDesc></figure></p></div>
+
+      
+
+    </body>
+  </text>
+</TEI>

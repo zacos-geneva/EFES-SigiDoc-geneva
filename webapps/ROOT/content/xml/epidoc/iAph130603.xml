@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130603" n="iAph1442 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> inscription for Marcus Aurelius Attikos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr2003">Reynolds and Isik (<date>2007</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> <rs type="decoration">garland</rs> <rs type="objectType">sarcophagus</rs> (with lid) with 2 <rs type="decoration">eagle <rs type="decoration">medallions</rs></rs>; for full description see Isik 127.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on a <rs type="decoration">tabella</rs> (<measure type="length" unit="metre" dim="width">0.46</measure>   × <measure type="length" unit="metre" dim="height">0.58</measure>, die <measure type="length" unit="metre" dim="width">0285</measure>   × <measure type="length" unit="metre" dim="height">0.40</measure>). In the inscribed area the spaces between guide lines for ll. 2-6 are slightly sunk; at the right (and possibly the left) end of the sunk area containing l. 6 the cutter has added a 'handle', as if under the impression that he was supposed to make a tabella ansata here.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure type="length" unit="metre" dim="height">0.03</measure>; square sigma</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>Probably
+<date notBefore="0201" notAfter="0300" exact="none" cert="low"> third century A.D.</date>
+ (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <w lemma="ὁ">ἡ</w>  <w lemma="σορός">σορός</w>    <w lemma="εἰμί">ἐστιν</w>  <lb n="2"/><w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="τόπος">τόπος</w>    <persName type="aphrodisian" full="yes"><name reg="Μᾶρκος"><expan><abbr>Μάρ</abbr><supplied reason="abbreviation">κου</supplied></expan></name>  <lb n="3"/><name reg="Αὐρήλιος" type="nomen"><expan><abbr>Αὐρ</abbr><supplied reason="abbreviation">ηλίου</supplied></expan></name>  <g type="stop"/>  <name reg="Ἀττικός">Ἀττικοῦ</name>  <g type="stop"/>  <w lemma="ὁ">τοῦ</w>  <lb n="4"/><persName type="aphrodisian" full="yes"><name reg="Ἀττικός">Ἀττικοῦ</name>  <w lemma="ὁ">τοῦ</w>  <space extent="3" unit="character" dim="horizontal"/>  <lb n="5"/><persName type="aphrodisian" full="yes"><name reg="Ὀφέλλιος">Ὀφελλίου</name>  <space extent="4" unit="character" id="space2" dim="horizontal"/><certainty target="space2" locus="#gi" degree="low"/><lb n="6"/><del cert="low"><gap reason="lost" extent="2" unit="character"/></del> <unclear reason="damage"><g type="handle"/></unclear>  <name reg="Χριστός">Χριστου</name></persName></persName></persName>   <g type="handle"/><note place="not  specified" anchored="yes">  of  tabella  ansata</note>  <lb n="7"/><g type="leaf"/></ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>The sarcophagus and the place (on which it stands) is (the property) of Marcus Aurelius Attikos, son of Attikos, the son of Ophellios Christos.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>For this family see the commentary on <xref type="inscription" n="1441" href="130602">13.602</xref>.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Necropolis, West</rs>: near New Geyre, with <xref type="inscription" n="1441" href="130602">13.602</xref> (=S.8) and <xref type="inscription" n="1443" href="130604">13.604</xref> (=11).</rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the Aphrodisias Museum in 1989 (Sarcophagus catalogue <rs type="sarcCat">10</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="tulay1990">A. S. Tulay, 'Kabalar kurtama kasısı 1989', Müze Kurtama Kazıları Semineri I (Ankara 1990), 25-39, <biblScope>27</biblScope></bibl>, whence <bibl n="seg">SEG <biblScope>1990.947</biblScope></bibl>, <bibl n="be">BullEp <biblScope>1992.437</biblScope></bibl>; by <bibl n="jmr2003">Reynolds and Isik, no. <biblScope>127</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="90_E_07"><figDesc>Sarcophagus (1990)</figDesc></figure><figure href="90_E_08"><figDesc>Inscription (1990)</figDesc></figure></p>
+</div></body></text>
+</TEI>

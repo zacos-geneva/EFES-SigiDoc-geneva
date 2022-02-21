@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010174" n="iAph1253 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Building dedication</rs> for Hadrian</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-04-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>DONE</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">architrave</rs> blocks with decoration, above, of <rs type="decoration">scroll</rs>s in relief between bands of <rs type="decoration">egg and dart moulding</rs>; below, two fasciae. The inscription has been erased on all blocks except b, and several others which were inscribed, are not now legible; some of the blocks were also recut for re-use. b (Doruk A 12): <measure type="length" unit="metre" dim="width">2.50</measure>   × <measure type="length" unit="metre" dim="height">0.64</measure> visible x depth not measurable; e, left end survives, broken at right, <measure type="length" unit="metre" dim="width">0.84</measure>   × <measure type="length" unit="metre" dim="height">0.61</measure>   × <measure type="length" unit="metre" dim="depth">0.50</measure>; e: Doruk A 11) g: Doruk A 12.</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on the upper of two fasciae.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.09</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0117" notAfter="0138" exact="both">A.D. 117/138</date>
+(<rs type="criteria">reign</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+
+<div type="textpart_fragment" n="abc"><ab><lb n="1"/>    <gap dim="left" extent="unknown" reason="lost" unit="character"/><persName type="emperor" full="yes"><w lemma="αὐτοκράτωρ"><supplied reason="lost">αὐ</supplied><milestone unit="block"/>τοκράτορι</w>  <name type=" " reg="Καῖσαρ">Καίσαρι</name>  <name reg="Τραιανός">Τρ<supplied reason="lost">α<milestone unit="block"/>ϊα</supplied>νῷ</name>  <name reg="Ἁδριανός">Ἁδριανῷ</name>  <w lemma="σεβαστός">Σεβαστ<milestone unit="block"/>ῷ</w></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τ<gap dim="right" extent="unknown" reason="lost" unit="character"/></w></ab></div><div type="textpart_fragment" n="d"><ab><lb n="1"/>    <gap dim="left" extent="unknown" reason="lost" unit="character"/><milestone unit="block"/><w lemma="ὁ">τὸ</w> <w lemma="γυμνάσιον">γυμνάσιον</w> <w lemma="ὁ">τῶν</w> <w lemma="νέος">νέων</w> <w lemma="καί">καὶ</w> <orig n="unresolved">τ<unclear reason="damage">ο</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/></ab></div><div type="textpart_fragment" n="e"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ιο</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/></ab></div><div type="textpart_fragment" n="f"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <persName type="aphrodisian" full="yes"><name reg="Νεικότειμος"><supplied reason="lost">Ν</supplied><milestone unit="block"/>εικοτείμου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian" full="yes"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδώρου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian" full="yes"><name reg="Ζήνων">Ζήνωνος</name></persName></persName></persName>  <milestone unit="block"/>  <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab></div><div type="textpart_fragment" n="g"><ab><lb n="1"/><persName type="aphrodisian"><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <w lemma="ὁ"><supplied reason="lost">το</supplied><milestone unit="block"/>ῦ</w> <persName type="aphrodisian"><name reg="Μένανδρος">Μενάνδρου</name></persName></persName> <w lemma="ὁ"><unclear reason="damage">τ</unclear><milestone unit="block"/><supplied reason="lost">οῦ</supplied></w>  <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab></div>
+
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>To the emperor Caesar Traianus Hadrianus Augustus <gap dim="left" extent="unknown" reason="lost" unit="character"/> the gymnasium of the Young Men and the <gap dim="left" extent="unknown" reason="lost" unit="character"/> son of Nikotimos son of Artemidoros son of Zenon <gap dim="left" extent="unknown" reason="lost" unit="character"/> son of Menandros.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>There are several other blocks from this series, too effectively erased to be read.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="origLocation">?In a gymnasium building</rs>
+<rs type="found"><rs type="monuList">Temple/Church</rs>: b reused in the north wall of Temple Church Atrium; e excavated in 1993 at the NW side of the temple; other blocks lying loose.</rs><rs type="lastLocation">on site (1978)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition (<rs type="siteNo">Temple 6a</rs> and <rs type="siteNo">Temple 12</rs>).</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Parts published by<bibl n="jmr1990"><author>Reynolds</author>, 'Inscriptions and the Building of the Temple', <title>Aphrodisias Papers </title>(Ann Arbor, 1990), 37-40, 39-40</bibl>; by <bibl type="primary"><author>Doruk</author>, <title>Aphrodisias Papers </title>(Ann Arbor, 1990), 73-74</bibl> , whence <bibl n="seg"><title level="m">SEG</title> <biblScope>1990.946</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="256993">114*5</biblScope></bibl></p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="72_F_09A"><figDesc>Fragment b (1972)</figDesc></figure><figure href="72_F_10A"><figDesc>Fragment b (1972)</figDesc></figure><figure href="77_D_04A"><figDesc>Fragment g (1977)</figDesc></figure><figure href="77_D_05A"><figDesc>Fragment g (1977)</figDesc></figure><figure href="78_L_21"><figDesc>Fragment g (1978)</figDesc></figure></p><p>g. KTE 71.30.7</p>
+</div></body></text>
+</TEI>

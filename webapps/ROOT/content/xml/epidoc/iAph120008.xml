@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120008" n="iAph1541 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType"><seg cert="low">Building inscription</seg></rs>  by Claudia</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-07-04</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2007-02-08</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>An <rs type="objectType">architrave</rs> block with moulding above <measure type="length" unit="metre" dim="width">0.98</measure>   × <measure type="length" unit="metre" dim="height">0.19</measure>   × <measure type="length" unit="metre" dim="depth">0.32</measure>
+</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>Inscribed on the single  fascia.
+</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>I-II century standard forms<measure dim="height" type="length" unit="metre">0.04</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0200" exact="none">First to second centuries A.D.</date>
+lettering</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <persName type="aphrodisian"><name reg="Κλαυδία">Κλαυδία</name><persName type="aphrodisian"> <name reg="Κλαύδιος">Κλαυδίου</name> <name reg="Ζήνων">Ζήνωνος</name></persName></persName> <supplied reason="lost">—</supplied>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Claudia, (?daughter) of Claudius Zenon <gap extent="unknown" reason="lost" unit="character"/> </p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>It is not clear why Cormack classified this text as funerary, although it could come from a funerary monument.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">Walls, North</rs>: built into an arch on the inside face at the north-east end of the Stadium.</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by Bailie; recorded by the MAMA expedition; by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by Bailie, Fasc. ii 43, no. 71, whence Waddington, LBW 1638; by <bibl n="MAMA8">Cormack, from the MAMA records, MAMA 8, no. <biblScope>540</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257373">495</biblScope>
+</bibl>
+</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="73_T_17"><figDesc>Face (1973)</figDesc></figure></p>
+</div></body></text>
+</TEI>

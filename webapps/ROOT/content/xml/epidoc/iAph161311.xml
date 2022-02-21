@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161311">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Statue dedication</rs> to 
+<rs type="textType" reg="Imperial reference">Nerva</rs></title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">statue base</rs> with moulding above and below on three sides (<measure type="length" unit="metre" dim="width">0.86</measure> × <measure type="length" unit="metre" dim="height">1.30</measure> × <measure type="length" unit="metre" dim="depth">0.77</measure>).</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on the face (<measure type="length" unit="metre" dim="width">0.61</measure>   × <measure type="length" unit="metre" dim="height">1.00</measure>). The lines are not centred.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.055-0.06</measure>; l.7, the sigma has been corrected. Ligatures: <foreign lang="grc">ΝΕ</foreign>, l.2.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0096" notAfter="0098" exact="both">A.D. 96-98, or later</date>
+(<rs type="criteria">...</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <persName type="emperor" full="yes"><w>Αὐτοκράτορα</w>  <lb n="2"/><name reg="Νέρβα" type="&#xA;&#xA;      "><hi rend="ligature">Νέ</hi>ρβαν</name>    <g type="leaf"/>  <name reg="Καῖσαρ">Καίσα  <lb n="3" type="worddiv"/>ρα</name>  <g type="arabesque"/>  <w lemma="σεβαστός">Σεβαστὸν</w></persName><lb n="4"/><w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δῆμος</w>  <w lemma="ἐκ">ἐκ</w>  <w lemma="ὁ">τῶν</w>  <lb n="5"/><persName type="aphrodisian"><name reg="Διογένης">Διογένους</name>    <g type="stop"/>  <w lemma="ὁ">τοῦ</w>  <lb n="6"/><persName type="aphrodisian"><name reg="Μένανδρος">Μενάνδρου</name>    <space extent="3" unit="character" dim="horizontal"/>  <lb n="7"/><w lemma="ὁ">τοῦ</w>  <persName type="aphrodisian"><name reg="Διογένης">Διογένους</name></persName></persName></persName>  <lb n="8"/><w>νεωτέρου</w>    <space extent="3" unit="character" dim="horizontal"/>  <lb n="8a"/></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>Imperator Nerva Caesar Augustus. The People (put up his statue) from the (funds) of Diogenes the younger, son of Menandros, son of Diogenes.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+
+<p>This base is approximately a pair with <xref type="iAph">1292</xref> (=83.75) (dedication to Hadrian). A further dedication from the same building, to Antoninus Pius (<xref type="iAph">1300</xref>=80.24) is a little different in style. Were all these among the <foreign lang="grc">τειμαὶ Σεβαστῶν</foreign> claimed by Diogenes, who built the gate? If so, he was precipitate in claiming to have dedicated them. Should the Nerva be taken to be as late as the latest in the group? If so, which - Antoninus Pius?</p><p>Diogenes the Younger also appears in <xref type="iAph">1254</xref></p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+Original location: <rs type="origLocation"><rs type="monuList">South Agora, Agora Gate</rs>: on the Agora Gate.</rs>
+Found: <rs type="found"><rs type="monuList">South Agora, Agora Gate</rs>, in tumble SE of gate.</rs>
+; Last known location: <rs type="lastLocation">Museum (1977)</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1977 (<rs type="invNo">77.34</rs>; SBI <rs type="sbi">29</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_S_26"><figDesc>Face (1977)</figDesc></figure><figure href="77_S_27"><figDesc>Text (1977)</figDesc></figure></p><p>squeeze in Cambridge 
+</p>
+</div></body></text>
+</TEI.2>

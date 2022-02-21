@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150280" n="iAph0624 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Gladiator memorial</rs> for Pheropes</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-08-07</date><respStmt><name>Eleonora Litta</name></respStmt><item>tidied expan</item></change><change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>The right side and lower edge of a <rs type="material">white marble</rs><rs type="objectType"> panel-stele</rs> without raised moulding (<measure dim="height" type="length" unit="metre">0.44</measure> x <measure dim="width" type="length" unit="metre">0.325</measure> x <measure dim="depth" type="length" unit="metre">0.165</measure>). The relief shows the lower part, from the chest downwards, of a <rs type="decoration">gladiator</rs> (a retiarius) wearing body armour, with bare legs, advancing to his left; he holds a short sword in his right hand and the staff of a trident (whose head is lost) in his left.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the lower edge</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>letters standard forms, but simple, and irregular in height, <measure dim="height" type="length" unit="metre">0.02</measure>-<measure dim="height" type="length" unit="metre">0.028</measure>. Α within Π as abbreviation</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><gap reason="lost" extent="5" unit="character"/> <persName type="aphrodisian"><name reg="Φέροπες">Φέροπες</name></persName> <w lemma="πάλος"><expan><abbr>πά</abbr><supplied reason="abbreviation">λου</supplied></expan></w>  <num value="8"><unclear reason="damage">η</unclear></num>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>The number might possibly be a gamma, but is far more easily read as eta.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>[.....] Pheropes of brigade 8 (?).</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Although there is room for a longer name, this is probably a version of the attested Φέροψ (Robert, Gladiateurs, 300; see also BullÉp 1966.256, from A. Balkanska, Archeologia 7 (1965), 32-5). See further PPA ad loc.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found">Stray</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>transcriptions (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+
+<p>Recorded by the NYU expedition in 1968 (excavation inventory no. <rs type="invNo">68.721</rs>).</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="PPA">Roueché, PPA <biblScope>24</biblScope></bibl>.</p>
+</div><div type="figure" n="photographs">
+<head>Photographs</head>
+<p> <figure href="78_K_34"><figDesc>Face (1978)</figDesc></figure></p>
+</div></body></text>
+</TEI>

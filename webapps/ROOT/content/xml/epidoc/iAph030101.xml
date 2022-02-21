@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph030101" n="iAph0545 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">   <rs type="textType">Honours</rs> for Marcus and Publius Vinicius</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>1982</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr1982">Reynolds (<date>1982</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-03-06</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date>2005-08-30</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Two <rs type="material" key="marmor">white marble</rs> <rs type="objectType">statue base</rs> shafts (i. <measure type="length" unit="metre" dim="width">0.89</measure> × <measure type="length" unit="metre" dim="height">0.79</measure> × depth not measurable; ii. <measure type="length" unit="metre" dim="width">0.805</measure> × <measure type="length" unit="metre" dim="height">0.86</measure> × depth not measurable).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.03</measure></p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p>  Statue base i: <date notAfter="-0015" notBefore="-0023" exact="both">Augustan</date> (<rs type="criteria">lettering</rs>).  Statue base ii: <date exact="both" notAfter="0037" notBefore="0014">Tiberian</date> (<rs type="criteria">lettering</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+
+<div type="textpart_section" n="i"><ab><lb n="1"/>          <persName type="aphrodisian" full="yes"><name reg="Μᾶρκος">Μᾶρκον</name>  <name reg="Οὐινούκιος">Οὐινούκιον</name></persName>  <lb n="2"/> <w lemma="ὁ">τὸν</w> <w lemma="ἀνθύπατος">ἀνθύπατον</w> <lb n="3"/><g type="scroll"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <g type="scroll"/>  <lb n="4"/> <w lemma="ὁ">τὸν</w> <w lemma="εὐεργέτης">εὐεργέτην</w></ab></div><div type="textpart_section" n="ii"><ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Πούπλιος" type="praenomen">Πούπλιον</name>  <g type="scroll"/><lb n="2"/><name reg="Οὐινούκιος">Οὐινούκιον</name></persName>  <lb n="3"/> <w lemma="ὁ">τὸν</w> <w lemma="ἀνθύπατος">ἀνθύπα<lb n="4" type="worddiv"/>τον</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <lb n="5"/> <w lemma="ὁ">τὸν</w> <w lemma="εὐεργέτης">εὐεργέτην</w></ab></div>
+
+</div>
+
+
+
+<div type="translation">
+<head>Translation</head>
+<p>i. Marcus Vinicius, the proconsul: the People <supplied reason="subaudible">set up this statue of</supplied> their benefactor</p><p>ii. Publius Vinicius, the proconsul: the People <supplied reason="subaudible">set up this statue of</supplied> their benefactor</p></div>
+
+ <div type="commentary">
+<head>Commentary</head>
+<p>...</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">North Agora</rs>: re-used in north portico wall, in east wall of west recess.</rs>.<rs type="origLocation">Unknown</rs>. <rs type="lastLocation">Findspot (1973)</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition  (SBI <rs type="sbi">125</rs>, <rs type="sbi">124</rs>)</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="jmr1982" type="primary"><author>Reynolds</author>, <title level="m">Aphrodisias &amp; Rome</title>, doc. <biblScope>45ab</biblScope></bibl>, whence <bibl n="seg">SEG <biblScope>1982.1097</biblScope></bibl>, <bibl n="be">BE <biblScope>1983.391</biblScope></bibl>, <bibl n="anep">AnnEpig <biblScope>1984.880a</biblScope>, <biblScope>1984.880b</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257192">313</biblScope>, <biblScope n="257193">314</biblScope></bibl></p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="figure" n="photographs"><head>Photographs</head><p><figure href="73_Y_27"><figDesc>i. Face (1973)</figDesc></figure><figure href="72_L_28A"><figDesc>i Face, detail (1972)</figDesc></figure><figure href="73_Y_31"><figDesc>ii. Face (1973)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

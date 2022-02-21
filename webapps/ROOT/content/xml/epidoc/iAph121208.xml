@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121208" n="iAph1050 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for anonymous</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date>2005-02-16</date><respStmt><name>Artemis Papakostouli</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Two fragments apparently from the same <rs type="material" key="marmor">white marble</rs> <seg cert="low"><rs type="objectType" reg="base">statue base</rs></seg>, without moulding.  a, apparently without edges, (<measure type="length" unit="metre" dim="width">0.38</measure>   × <measure type="length" unit="metre" dim="height">0.30</measure>   × <measure type="length" unit="metre" dim="depth">0.20</measure>); b, upper right corner fragment; chipped (<measure type="length" unit="metre" dim="width">0.40</measure>   × <measure type="length" unit="metre" dim="height">0.40</measure> x no measurement)</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure type="length" dim="none">0.0375-0.04</measure></p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<div type="textpart_section" n="a"><ab><lb n="1"/>        <gap dim="left" extent="unknown" reason="lost" unit="character"/>  <persName type="aphrodisian"><name reg="Ἀπολλ-">Ἀπο<supplied reason="lost">λλ</supplied><lb n="2" type="worddiv"/>  <gap dim="left" extent="unknown" reason="lost" unit="character"/></name></persName> <orig n="unresolved"><unclear reason="damage">υ</unclear></orig>  <persName type="aphrodisian"><name reg="Ἀντωνία">Ἀντω<supplied reason="lost">νι</supplied><lb n="3" type="worddiv"/>        <gap dim="left" extent="unknown" reason="lost" unit="character"/></name></persName><orig n="unresolved">ουκα</orig><gap dim="right" extent="1" reason="lost" unit="character"/><lb n="4"/>                              <gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">σα<unclear reason="damage">σ</unclear></orig><lb n="5"/>                              <gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">α<unclear reason="damage">ι</unclear></orig><gap dim="right" extent="1" reason="lost" unit="character"/><lb n="5a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab></div><div type="textpart_section" n="b"><ab><lb n="0"/><gap dim="top" extent="unknown" reason="lost" unit="line"/><lb n="1"/>              <gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ονομ</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="2"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <w lemma="καί"><unclear reason="damage">κ</unclear>αὶ</w>  <w lemma="λειτουργία">λειτου<unclear reason="damage">ρ</unclear><supplied reason="lost">γία</supplied><gap dim="right" extent="unknown" reason="lost" unit="character"/></w><lb n="3"/><gap dim="left" extent="unknown" reason="lost" unit="character"/>  <w lemma="πατρίς">πατρίδι</w>  <gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4"/>  <gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">υ</unclear>πο</orig><gap dim="right" extent="unknown" reason="lost" unit="character"/><lb n="4a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab></div></div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications; MAMA squeeze; Preliminary transcription (Reynolds)</p>
+</div>
+
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p>No translation yet (2007)</p></div>
+
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p>No commentary yet (2007)</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">Walls</rs>: 'in the city wall' MAMA.</rs><rs type="origLocation">Unknown</rs>  <rs type="lastLocation">a.Museum (1977); b Findspot (1934). </rs></p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>a and b recorded by the MAMA expedition; a recorded, with no provenance, by the NYU expedition (<rs type="invNo">77.558</rs>).</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="MAMA8">Cormack, from the MAMA records, MAMA 8, no. <biblScope>529</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257223">345</biblScope></bibl> </p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_U_34"><figDesc>Fragment a (1977)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

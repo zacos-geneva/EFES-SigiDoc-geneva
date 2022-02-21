@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120016" n="iAph0627 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Gladiator memorial</rs> for [?Margar]eites</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A <rs type="material">white marble</rs> <rs type="objectType"> altar-stele</rs>, with moulding above and below (H. <measure dim="height" type="length" unit="metre">0.88</measure>, W. <measure dim="width" type="length" unit="metre">0.43</measure>, D. <measure dim="depth" type="length" unit="metre">0.38</measure>). The relief is of a heavily armed <rs type="decoration">gladiator</rs>, with a short sword in right hand, a long shield in the left, and a crested helmet, advancing to the right.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the upper moulding, which is broken</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>lunate sigma and ?epsilon; <measure dim="height" type="length" unit="metre">0.035</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>(<rs type="criteria">content</rs>, <rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><gap reason="lost" extent="unknown" unit="character" dim="left"/><unclear reason="damage">Ε</unclear>ΙΤΗΣ  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>[?Margar]eites.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Robert conjectured [The]rsites, followed by Roueché; but both Kubitschek and Reichel read a lunate epsilon.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"> <rs type="monuList">Walls, North</rs>: to the north of the north wall of the Stadium (1892) with <xref type="inscription" n="625" href="120015">12.15</xref>, <xref type="inscription" n="626" href="120013">12.13</xref></rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publications;  notebooks.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p> Recorded by Reichel (R.I.21) with <xref type="inscription" n="625" href="120015">12.15</xref>, <xref type="inscription" n="626" href="120013">12.13</xref> and by Kubitschek (K.III, endpaper); not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Mentioned by <bibl n="kubreich1893">Kubitschek and Reichel, no.<biblScope>2</biblScope></bibl>, whence <bibl n="robertglad">Robert, Gladiateurs, no <biblScope>160</biblScope></bibl>; published from Reichel's notes by <bibl n="hell5">Robert, Hell. V, 93-5</bibl>. Published by <bibl n="PPA">Roueché, PPA <biblScope>27</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="none">
+<head>Photographs</head>
+<p> </p>
+</div><div type="figure" n="transcriptions">
+<head>Representations</head>
+<p><figure href="R_I_21"><figDesc>Reichel notebook, I.21</figDesc></figure><figure href="K_III_63"><figDesc>Kubitschek notebook, III, 63</figDesc></figure></p>
+</div></body></text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150356" n="iAph0171 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="funerary">Epitaph</rs> of Ioannes and others</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Juan Garcés</name></respStmt><item>Marked up inventory number(s)</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-06-02</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-29</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Left side of a <rs type="material" key="marmor">white marble</rs> <rs type="objectType">masonry block</rs> without moulding
+(<measure type="length" unit="metre" dim="height">0.28</measure> × <measure type="length" unit="metre" dim="width">0.18</measure> × <measure type="length" unit="metre" dim="depth">0.20</measure>). The left, upper, and lower
+sides, and the back survive.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> on the face (a) and on the underside
+(b) suggesting that the face perhaps lay upwards.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Irregular, clear and tall, <measure type="length" unit="metre" dim="height">0.025-0.03</measure>, cross <measure type="length" unit="metre" dim="height">0.05</measure>; <foreign lang="grc">Κ</foreign> with
+scroll on lower arm for <foreign lang="grc">καὶ</foreign>.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth to sixth centuries</date> or later (<rs type="criteria">dating</rs>, <rs type="criteria">lettering</rs>).</p>
+      </div>
+
+      <div type="edition" lang="grc">
+        <head lang="en">Edition</head>
+        
+        <div type="textpart_section" n="a"><ab>
+					  
+		  		<lb n="1"/><g type="cross"/> <date><w lemma="ἰνδικτιών"><expan><abbr>ἰν<supplied reason="lost">δ</supplied></abbr><supplied reason="abbreviation">ικτίωνος</supplied></expan></w></date><gap reason="lost" dim="internal" extent="unknown" unit="character"/> <supplied reason="lost"><w lemma="ἔνθα">ἔνθα</w></supplied><lb n="2"/><w lemma="κατάκειμαι"><supplied reason="lost">κ</supplied>ατάκ<unclear reason="damage">ε</unclear><supplied reason="lost">ιται</supplied></w> <gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="3"/><gap dim="left" extent="1" unit="character" reason="lost"/><orig n="unresolved">νδρ</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/><lb n="4"/><w lemma="καί"><expan><abbr>κ</abbr><supplied reason="abbreviation">αὶ</supplied></expan></w> <persName type="aphrodisian" key="athanasius2" full="yes"><name reg="Ἀθανάσιος">Ἀθ<unclear reason="damage">α</unclear><supplied reason="lost" cert="low">νάσιος</supplied></name></persName> <gap dim="internal" reason="lost" extent="unknown" unit="character"/> <w lemma="καί"><supplied reason="lost"><expan><abbr>κ</abbr><supplied reason="abbreviation">αὶ</supplied></expan></supplied></w><lb n="5"/> <persName type="aphrodisian" key="maximus1" full="yes"><name reg="Μάξιμος"><supplied reason="lost">Μά</supplied>ξιμ<supplied reason="lost" cert="low">ος</supplied></name></persName> <gap reason="lost" dim="right" extent="unknown" unit="character"/> 
+        	
+				</ab></div><div type="textpart_section" n="b"><ab><lb n="1"/> <orig n="unresolved"><unclear reason="damage">λ</unclear></orig><gap reason="lost" dim="right" extent="unknown" unit="character"/><lb n="2"/> <expan><abbr>κ</abbr><supplied reason="abbreviation">αὶ</supplied></expan> <persName key="Ioannes7" type="aphrodisian" full="yes"><name reg="Ἰωάννης">Ἰωά<supplied reason="lost">ννης</supplied></name></persName> <gap reason="lost" dim="right" extent="unknown" unit="character"/><lb n="3"/><space dim="horizontal"/> <orig n="unresolved">τη<unclear reason="damage">γ</unclear></orig> <gap reason="lost" dim="right" extent="unknown" unit="character"/></ab></div>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>a. <seg cert="low">lndiction</seg> <supplied cert="low" reason="lost">Here</supplied> lies <gap reason="lost"/> and Atha<supplied cert="low" reason="lost">nasios</supplied> and
+<gap reason="lost"/> <supplied reason="lost" cert="low">and</supplied> <supplied reason="lost" cert="low">Ma</supplied>ximos <gap reason="lost" dim="right"/></ab><ab>b.  <gap reason="lost" dim="left"/> and iannes <gap dim="right" reason="lost"/>.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="IX.44">IX.44</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found">Stray find.</rs>. Original location: <rs type="origLocation">Unknown.</rs>. Last recorded location: <rs type="lastLocation">Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Recorded by the NYU expedition in 1985 (<rs type="invNo">85.103</rs>).</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias</title> <biblScope>171</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title>
+<biblScope n="257635">748</biblScope>a</bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="85_A_37"><figDesc>a: Face (1985)</figDesc></figure><figure href="85_B_01"><figDesc>b: Face (1985)</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

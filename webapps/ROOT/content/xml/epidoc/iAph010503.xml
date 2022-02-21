@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010503" n="iAph0354 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+ <title level="m">Heading to <rs type="textType">decree</rs></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-03-01</date><respStmt><name>Gabriel Bodard</name></respStmt><item>DONE</item></change><change><date>2005-05-31</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">base capital</rs> (<measure type="length" unit="metre" dim="width">0.81</measure> × <measure type="length" unit="metre" dim="height">0.31</measure> × <measure type="length" unit="metre" dim="depth">0.76</measure>), re-used as a column base.</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs>  on the lower fascia (<measure dim="width" type="length" unit="metre">0.51</measure> × <measure dim="height" type="length" unit="metre">0.10</measure>). The main text containing the decision must have been inscribed on a base below.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.025</measure>; ligatured <foreign lang="grc">ΗΜ</foreign>, l. 2.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p>     Probably <date exact="none" notAfter="0300" notBefore="0201" cert="low">third century A.D.</date> (<rs type="criteria">lettering</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab>      <lb n="1"/><w lemma="καθά">καθὰ</w>  <w lemma="δοκέω">ἔδοξεν</w>  <w lemma="ὁ">τῇ</w>  <lb n="2"/><w lemma="βουλή">βουλῇ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">τῷ</w>  <w lemma="δῆμος">δήμῳ</w><lb n="2a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab>
+</div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>As it was decided by the Council and the People [...</p></div>
+
+<div type="commentary" n="none">
+<head>Commentary</head>
+<p>No comment.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p>Found: <rs type="found">Just north of the <rs type="monuList">Tetrapylon</rs></rs>. Original location: <rs type="origLocation">Unknown</rs>. Last recorded: <rs type="lastLocation">Findspot (1976)</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (<rs type="siteNo">Tetrapylon 1</rs>).</p>
+  </div>
+
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="75_L_08"><figDesc>Face (1975)</figDesc></figure><figure href="76_J_06A"><figDesc>Inscribed capital (1976)</figDesc></figure><figure href="76_J_06Abis"><figDesc>Re-use as column base (1976)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

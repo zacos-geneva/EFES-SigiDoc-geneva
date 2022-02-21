@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph060005" n="iAph0045 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="building inscription"/><rs type="textType">Verse</rs> <rs type="textType">honours</rs> for Ioannes, <seg cert="low"><rs type="personType">governor</rs></seg> of Caria</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+	  	<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change>
+  <date>2003-07-16</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-20</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-25</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Four fragments, none joining, from an <rs type="material" key="marmor">white marble</rs> <rs type="objectType">architrave</rs>, with a single <term>fascia</term> (<measure type="length" unit="metre" dim="height">0.10</measure>). There is one line of carved decoration below this <term>fascia</term>; above it is an <rs type="decoration">egg and dart moulding</rs>, and above that a panel of <rs type="decoration">scroll</rs> decoration. a: <measure type="length" unit="metre" dim="width">0.635</measure> × <measure type="length" unit="metre" dim="height">2.42</measure> × <measure type="length" unit="metre" dim="depth">0.65</measure>; decoration survives above and below, the right end is complete and so, probably, is the left. b: <measure type="length" unit="metre" dim="width">0.29</measure> × <measure type="length" unit="metre" dim="height">1.28</measure> × <measure type="length" unit="metre" dim="depth">0.24</measure>; broken both ends, decoration broken away above. c: <measure type="length" unit="metre" dim="width">0.23</measure> × <measure type="length" unit="metre" dim="height">0.64</measure> × <measure type="length" unit="metre" dim="depth">0.48</measure>; broken both ends; decoration above still buried; underside revealed with a decorative panel. d: <measure type="length" unit="metre" dim="width">0.33</measure> × <measure type="length" unit="metre" dim="height">0.86</measure> × <measure type="length" unit="metre" dim="depth">0.22</measure>; broken at both ends; decoration broken away above.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> in one line on the <term>fascia</term>, which shows traces (on a) of an earlier, erased inscription.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p><measure type="length" unit="metre" dim="height">0.08</measure>; ornate, varied; all four blocks have a characteristic <foreign lang="grc">Ρ</foreign> (only partly visible in a); square <term>sigma</term> in d, lunate in a.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0401" notAfter="0500">Fifth century</date> (<rs type="criteria">lettering</rs>; <rs type="criteria">titulature</rs>).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+		<div type="textpart_fragment" n="a"><ab>
+		<lb n="1"/><space dim="horizontal" id="space1"/><certainty locus="#gi" target="space1" assertedValue="gap" degree="low"/> <orig n="unresolved">Α</orig><gap dim="internal" extent="2" reason="lost" unit="character"/> <w lemma="δῖος">Δῖος</w> <g type="vertical line"/> <persName key="Ioannes2" type="aphrodisian" full="yes"><name reg="Ἰωάννης">Ἰωάννης</name> <placeName key="Caria" full="yes" type="admin" reg="Καρία">Καρίης</placeName></persName>
+			 <gap dim="right" extent="unknown" reason="lost" unit="character"/>
+		</ab></div><div type="textpart_fragment" n="b"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/> <w lemma="χῶρος">χώρωι</w> <g type="cross"/> <space dim="horizontal"/> <g type="cross"/> <orig n="unresolved">α<unclear reason="damage">υ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/>
+		</ab></div><div type="textpart_fragment" n="c"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/> <g type="cross"/> <w lemma="μαρμάρεος">μαρμαρ<supplied reason="lost">ε</supplied><gap dim="right" extent="unknown" reason="lost" unit="character"/></w></ab></div><div type="textpart_fragment" n="d"><ab><lb n="1"/><gap dim="left" extent="unknown" reason="lost" unit="character"/><orig n="unresolved">ονα σει<unclear reason="damage">ρ</unclear></orig><gap dim="right" extent="unknown" reason="lost" unit="character"/>
+		</ab></div>
+       </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p n="a">Cormack read the first letter as a <foreign lang="grc">Λ</foreign>, followed by one space, whence Robert conjectured <foreign lang="grc"><supplied reason="lost">Ἑ</supplied>λλ<supplied reason="lost">ά</supplied>διος</foreign>; but although the surface here is in bad condition, examination of the stone and of a squeeze shows that the letter is an <foreign lang="grc">Α</foreign>, with a distinctive scroll dependent on the dropped cross-bar, and measuring <measure type="length" dim="none">0.06</measure>. There is space for two letters between this and the <foreign lang="grc">Δ</foreign> of <foreign lang="grc">Δῖος</foreign>. Although the surface to the left is only superficially chipped, I can determine no trace of other letters. After <foreign lang="grc">Δῖος</foreign> there is a thin but clear vertical line traversing the <term>fascia</term>.</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <p>
+		a. <gap dim="left" extent="unknown" reason="lost"/> noble Iannes of Caria <gap dim="right" extent="unknown" reason="lost"/>
+        </p><p>b. <supplied reason="lost" cert="low">to this</supplied> place <gap dim="right" extent="unknown" reason="lost"/>
+        </p><p>c. <gap dim="left" extent="unknown" reason="lost"/> marble <gap dim="right" extent="unknown" reason="lost"/>
+        </p><p>d.  ?governor/governors <gap dim="right" extent="unknown" reason="lost"/></p>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="IV.35">IV.35</xref>.</p>
+        
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList">City, South-west</rs>: Fields, south-west of the Acropolis: a and c found partly buried, just east of the tall standing wall which lies 75 m east of the Triconch Church. b was found lying loose some 100 m north of a and c. d '<foreign lang="de">bei der Stadtmauer sudl. der Akropolis</foreign>' (Reichel)</rs>. <rs type="origLocation"><rs key="Basilica" type="monuList">Basilica</rs>, south end</rs>. Last recorded location: <rs type="lastLocation">Findspots (1975).</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>d copied by <rs type="visitor" key="reichel">Reichel</rs> (RI.28); a and b recorded by the <rs key="calder" type="visitor">MAMA expedition</rs>. a, b and c recorded by the NYU expedition.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>a and b published by Cormack, from the MAMA records, <bibl type="hbi" n="MAMA8"><title level="s">MAMA</title> 8, <biblScope>429</biblScope> and <biblScope>604</biblScope></bibl>, whence a discussed by <bibl type="hbi" n="hell13"><author>Robert</author>, <title level="j">Hellenica</title> 13, <biblScope>158</biblScope></bibl>, <bibl n="be"><title level="j">BE</title> <biblScope>1966.394</biblScope></bibl>; d published by Cormack, from Reichel, <bibl type="hbi" n="cormack1964"><author>Cormack</author> (1964), <biblScope>40</biblScope>; a - d</bibl> published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>45</biblScope> and plate xi (a and b)</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257593">706</biblScope></bibl>, <bibl type="hbi" n="steinepig"><title level="m">Steinepigramme</title> <biblScope>02/09/95</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p> Transcription (Roueché); Publications; Reichel notebook.</p>
+      </div>
+
+      <div type="figure" n="photographs"><head>Photographs</head><p><figure href="73_Y_15"><figDesc>a: Face (1973)</figDesc></figure><figure href="72_F_05A"><figDesc>a: Face (1975)</figDesc></figure><figure href="75_F_26A"><figDesc>b: Face (1975)</figDesc></figure><figure href="73_S_30"><figDesc>c: Face (1973)</figDesc></figure></p></div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="R_I_28"><figDesc>d: Transcription by Reichel, Ι.28</figDesc></figure></p></div>
+
+      
+
+      </body>
+  </text>
+</TEI>

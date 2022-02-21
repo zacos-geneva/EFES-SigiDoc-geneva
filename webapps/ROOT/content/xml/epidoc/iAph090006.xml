@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph090006" n="iAph0884 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Title</rs> for image of Hemera</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor> <date>1981</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr1981b">Reynolds (<date>1981</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2006-12-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+  
+  <change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="objectType">False 'base'</rs> in relief.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> below the moulding.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>1st century A.D.; letter heights ?</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0100" notBefore="0001" exact="none">1st-century A.D.</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <persName type="divine"><w>Ἡμέρα</w></persName> </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Day</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p> One of the series of false bases from the Sebasteion: see Reynolds loc. cit and  <bibl n="rrrs1988">R. R. R. Smith, Simulacra gentium: The Ethne from the Sebasteion at Aphrodisias (Jstor), Journal of Roman Studies 78 (1988) 50-77</bibl></p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Sebasteion</rs>: E. Seb. 80/2, at -2.5</rs>
+<rs type="origLocation"><rs type="monuList">Sebasteion</rs></rs>
+<rs type="lastLocation">Museum (1981)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1980 (<rs type="invNo">80.92</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="jmr1981b">Reynolds, ZPE 43 (1981), 317-27, no.<biblScope>12</biblScope></bibl>, whence <bibl n="seg">SEG 31, <biblScope>1981.922</biblScope></bibl>, <bibl n="be">BullEp <biblScope>1982.356</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257785">899</biblScope>
+</bibl>; mentioned SEG 35.1082.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="81_E_34"><figDesc>Face (1981)</figDesc></figure></p>
+</div></body></text>
+</TEI>

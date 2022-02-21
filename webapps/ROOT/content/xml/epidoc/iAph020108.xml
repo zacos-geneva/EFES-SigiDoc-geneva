@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020108" n="iAph1849 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Fragmentary <seg cert="low">honours</seg> from Bouleuterion/Odeon</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-04-02</date><respStmt><name>GB</name></respStmt><item>DONE</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p> One loose (<measure dim="width" type="length" unit="metre">0.20</measure>  × <measure dim="height" type="length" unit="metre">0.15</measure>  × <measure dim="depth" type="length" unit="metre">0.27</measure>) and two joining<rs type="material"> white marble</rs> fragments (<measure dim="width" type="length" unit="metre">0.29</measure>  × <measure dim="height" type="length" unit="metre">0.14</measure>  × <measure dim="depth" type="length" unit="metre">0.23</measure>) moulded above. </p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+
+<p>Rather crude; <measure dim="height" type="length" unit="metre">0.05</measure>; lunate epsilon.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
+(<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <gap dim="left" extent="unknown" reason="lost" unit="character"/> <w lemma="ἀνατίθημι">ἀ<supplied reason="lost">νέθη</supplied><unclear reason="damage">κ</unclear>εν</w> <space unit="character" extent="1"/> <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p><gap extent="unknown" reason="lost" unit="character"/> set up <gap extent="unknown" reason="lost" unit="character"/></p>
+</div>
+<div type="commentary" n="none">
+<head>Commentary</head>
+<p> No useful comment</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+
+
+<rs type="found">Loose find; <rs type="monuList" cert="low">Bouleuterion/Odeon</rs> </rs><rs type="lastLocation">Museum (2004)</rs>
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (<rs type="siteNo">Museum 104</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>[[66.2.11]]<figure href="77_Q_26"><figDesc>Left fragment (1977)</figDesc></figure><figure href="Aph2004_105"><figDesc>Left fragment (2004)</figDesc></figure><figure href="Aph2004_108"><figDesc>Right end fragment (2004)</figDesc></figure></p>
+</div></body></text>
+</TEI>

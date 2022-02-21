@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161219">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Statue dedication</rs> of Agathos Daimon  to Demos</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> block (<seg cert="low"><rs type="objectType">statue base</rs></seg>) broken in two (<measure type="length" unit="metre" dim="width">0.75</measure> × <measure type="length" unit="metre" dim="height">0.455</measure> × <measure type="length" unit="metre" dim="depth">0.54</measure>); the sides are rough, indicating that it was part of a composite monument, and at the lower edge there is a set back area, suggesting that the block acted as an upper frame to a niche or door.</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure type="length" unit="metre" dim="height">0.03-0.033</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="-0033" notAfter="0100" exact="none">Late first century B.C. to first century A.D.</date>
+(<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <w lemma="ὁ">τὸν</w>  <persName type="divine" full="yes"><w>Ἀγα<supplied reason="lost">θ</supplied>ὸν</w>  <w>Δαίμονα</w></persName>  <w lemma="ὁ">τῶι</w><lb n="2"/><space extent="4" unit="character" dim="horizontal"/> <w>δήμωι</w> <space extent="9" unit="character" dim="horizontal"/>  <lb n="3"/><persName full="yes" type="aphrodisian"><name>Ἀρίστων</name>  <persName type="aphrodisian"><name>Ἀρίστωνος</name></persName> <w lemma="ὁ">τοῦ</w> <space extent="1" unit="character" dim="horizontal"/><lb n="4"/><persName type="aphrodisian"><name>Ἀρίστωνος</name></persName></persName>  <w>φιλοκαίσαρ</w><lb n="5"/> <w lemma="ὁ">ὁ</w> <w>ἱερεὺς</w> <w lemma="αὐτός">αὐτοῦ</w> <space extent="6" unit="character" dim="horizontal"/></ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p>The Good Genius to the People: Ariston son of Ariston the son of Ariston, friend of Caesar, his priest (dedicated his statue).</p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p>[[Check function of block with NdeC]]</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+; Original location: <rs type="origLocation">Unknown</rs>
+Found: <rs type="found"><rs type="monuList">Theatre</rs>, North Parodos</rs>
+; Last known location: <rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1970 (<rs type="invNo">70.222</rs>; SBI <rs type="sbi">154</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_H_22"><figDesc>Face (1978)</figDesc></figure></p><p>KTE</p>
+</div></body></text>
+</TEI.2>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120612" n="iAph1500 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Decree</rs> of <rs type="textType" reg="honours">honours</rs> for Dionysios son of Papylos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-02-08</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> block (<measure type="length" unit="metre" dim="width">1.29</measure>   × <measure type="length" unit="metre" dim="height">0.68</measure>   × <measure type="length" unit="metre" dim="depth">0.28</measure>) apparently complete on all sides.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face; presumably continued on a lower block.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>
+<measure type="length" unit="metre" dim="height">0.02-0.03</measure>; l. 1, first word, <measure type="length" unit="metre" dim="height">0.07</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0200" exact="none">First to second centuries A.D.</date>
+ (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><g type="leaf"/> ψήφισμα <g type="leaf"/> <g type="scroll"/> <g type="scroll"/>  ἐπεὶ<lb n="2"/>
+<persName type="aphrodisian"><name reg="Διονύσιος">Διονύσιος</name> <persName type="aphrodisian"><name reg="Παπύλος" type="        ">Παπύλου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Παπύλος" type="        ">Παπύλου</name></persName></persName></persName> <w lemma="ὁ">ὁ</w> <w lemma="ἱερεύς">ἱερεὺς</w> <w lemma="ὁ">τοῦ</w> <persName type="divine"><name reg="Νινεύδιος">Νινευδίου</name> <name reg="Ζεύς">Διὸς</name></persName> <w lemma="ἀνήρ">ἀνὴρ</w><lb n="3"/>
+<w lemma="πατήρ">πατρὸς</w> <w lemma="καί">καὶ</w> <w lemma="πρόγονος">προγόνων</w> <w lemma="ὕπαρχος">ὑπάρχων</w> <w lemma="καλός">καλῶν</w> <w lemma="καί">καὶ</w> <w lemma="ἀγαθός">ἀγαθῶν</w> <w lemma="καί">καὶ</w> <w lemma="ἐν">ἐν</w> <w lemma="ἀρχή">ἀρχαῖς</w> <w lemma="καί">καὶ</w><lb n="4"/>
+<w lemma="φιλοδοξία">φιλοδοξίαις</w> <w lemma="γίγνομαι">γεγονότων</w> <w lemma="καί">καὶ</w> <w lemma="αὐτός">αὐτὸς</w> <w lemma="ἀπό">ἀπὸ</w> <w lemma="πρῶτος">πρώτης</w> <w lemma="ἡλικία">ἡλικίας</w> <w lemma="βίος">βίον</w> <w lemma="σεμνός">σεμνὸν</w><lb n="5"/>
+<w lemma="καί">καὶ </w><w lemma="ἐνάρετος">ἐνάρετον</w> <w lemma="αἱρέω">ἑλόμενος</w> <w lemma="ἱερατεία">ἱερατείαν</w> <w lemma="τε">τε</w> <w lemma="ὁ">τῶν</w> <w lemma="σεβαστός">Σεβαστ<choice type="correction"><sic>ο</sic><corr>ῶ</corr></choice>ν</w> <w lemma="καί">καὶ</w> <w lemma="ἀγοωνοθεσία">ἀγ<choice type="correction"><sic>ο</sic><corr>ω</corr></choice>νοθεσί<lb type="worddiv" n="6"/>
+αν</w> <w lemma="καί">καὶ</w> <w lemma="πρεσβεία">πρεσβείας</w> <w lemma="καί">καὶ</w> <w lemma="ἐφηβαρχία">ἐφηβαρχίαν</w> <w lemma="καί">καὶ</w> <w lemma="στρατηγία">στρατηγίαν</w> <w lemma="καί">καὶ</w> <w lemma="γραμματήα">γραμματήαν</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὰς</w><lb n="7"/>
+<w lemma="λοιπός">λοιπὰς</w> <w lemma="πᾶς">πάσας</w> <w lemma="ἀρχή">ἀρχὰς</w> <w lemma="σεμνός">σεμνῶς</w> <w lemma="καί">καὶ</w> <w lemma="εὐσεβῶς">εὐσεβῶς</w> <w lemma="καί">καὶ</w> <w lemma="νόμιμος">νομίμως</w> <w lemma="καί">καὶ</w> <w lemma="δικαίως">δικαίως</w><lb n="8"/>
+<w lemma="τελέω">τελέσας</w> <w lemma="καί">καὶ</w> <w lemma="ζάω">ζῶν</w> <w lemma="βίος">βίον</w> <w lemma="πᾶς">πάσῃ</w> <w lemma="καλοκαγαθία">καλοκαγαθίᾳ</w> <w lemma="κοσμέω">κοσμούμενον</w> <w lemma="καθώς">καθὼς</w> <w lemma="διά">δι<lb type="worddiv" n="9"/>
+ὰ</w> <w lemma="πλεῖστος">πλείστων</w> <w lemma="ἤδη">ἤδη</w> <w lemma="ψήφισμα">ψηφισμάτων</w> <w lemma="μαρτυρέω">μεμαρτύρηται</w> <w lemma="αὐτός">αὐτῷ</w> <w lemma="ὁ">τὰ</w> <w lemma="νῦν">νῦν</w> <w lemma="ἐπικαλέω">ἐπικλη<lb type="worddiv" n="10"/>
+<supplied reason="lost">θ</supplied>εὶς</w> <w lemma="ὑπό">ὑπὸ</w> <w lemma="ὁ">τοῦ</w> <w lemma="δῆμος">δήμου</w> <w lemma="καί">καὶ</w> <w lemma="αἱρέω">αἱρεθεὶς</w> <w lemma="ἀρχινεωποιός">ἀρχινεοποιὸς</w> <w lemma="χειροτονέω">κεχειροτόνηται</w> <w lemma="ἐπί">ἐ<lb type="worddiv" n="11"/>
+<supplied reason="lost">φ'</supplied></w> <w lemma="ὅς"><supplied reason="lost">οἷς</supplied></w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="ἀποδέχομαι">ἀποδεχόμενος</w> <w lemma="ὁ">τὴν</w> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶσιν</w> <w lemma="ὁ">τοῦ</w> <w lemma="ἀνήρ">ἀνδρὸς</w> <w lemma="φιλόπολις">φιλόπολιν</w> <w lemma="σπουδή">σπου<lb type="worddiv" n="12"/>
+<supplied reason="lost">δὴν</supplied></w> <supplied reason="lost">ἀ</supplied>γομένων <w lemma="ἀρχαιρεσία">ἀρχα<unclear reason="damage">ιρ</unclear><supplied reason="lost">εσιῶ</supplied><unclear reason="damage">ν</unclear></w> <w lemma="ὁμοθυμαδόν">ὁμοθυμαδὸν</w> <w lemma="ἐπιφέρω">ἐπηνέχθη</w> <w lemma="πάλιν">πάλιν</w> <w lemma="τιμάω">τειμῆ<lb type="worddiv" n="13"/>
+<supplied reason="lost">σαι</supplied></w> <w lemma="αὐτός"><supplied reason="lost">αὐτὸν</supplied></w> <gap dim="right" extent="unknown" reason="lost" unit="character"/></ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 5, <foreign lang="grc">Σεβαστον καὶ ἀγον</foreign> lapis</p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p>No translation yet (2007)</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p>No commentary yet (2007)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Walls, South (east part)</rs>: Lying on the south side of the  city wall, just west of the excavated stretch, near <xref type="inscription" n="1004" href="120602">12.602</xref> (=MAMA 465), <xref type="inscription" n="1578" href="120714">12.714</xref> (=561).</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); publications.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Gaudin (80); recorded by the MAMA expedition; by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="reinach">Reinach, from Gaudin's squeeze, <biblScope>8</biblScope></bibl>, whence discussed <bibl>A. Wilhelm, <title>Beiträge</title> 315</bibl>; by <bibl n="MAMA8">Cormack, from the MAMA records, MAMA 8, <biblScope>410</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="256911">33</biblScope>
+</bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="73_W_00A"><figDesc>Face (1973)</figDesc></figure></p>
+</div></body></text>
+</TEI>

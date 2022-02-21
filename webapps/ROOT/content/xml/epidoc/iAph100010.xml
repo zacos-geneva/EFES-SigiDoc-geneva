@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph100010" n="iAph0728 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Seat inscriptions</rs>: Stadium Block 11</title>
+ 
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+<textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-26</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Stadium <rs type="objectType">seat</rs>s; the block containing a tribunal.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the seats. Row F: at west end. Row G: at west end. Row H: at west end. Row N: on seats at west end. Row P: on one seat.. Row S: <measure type="length" unit="metre" dim="width">0.55</measure> x <measure type="length" unit="metre" dim="height">0.48</measure>. Row U: at west end.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Row F: ave. <measure type="length" unit="metre" dim="height">0.06</measure>, very faint. Row G: <measure type="length" unit="metre" dim="height">0.06-0.07</measure>. Row H: <measure type="length" unit="metre" dim="height">0.07-0.09</measure>. Row N: <measure type="length" unit="metre" dim="height">0.13 (phi)-0.08</measure>. Row P: <measure type="length" unit="metre" dim="height">0.14</measure>. Row U: very irregular, <measure type="length" unit="metre" dim="height">0.07-0.15</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date exact="none" notAfter="0600" notBefore="0101">Second-sixth century A.D.</date>
+(<rs type="criteria">context</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="F"><ab>
+<lb n="1"/><gap reason="lost" extent="2" unit="character"/><orig n="unresolved">αυ<unclear reason="damage">πι</unclear></orig>
+<milestone unit="block"/>
+<gap reason="lost" extent="unknown" unit="character"/>
+<w lemma="οἰκόνομος"><unclear reason="damage">οἰκο</unclear>
+<milestone unit="block"/>νόμου</w> <space extent="3" unit="character"/> <milestone unit="block"/>  <space extent="3" unit="character"/> <milestone unit="block"/> <g type="tribunal"/>
+</ab></div><div type="textpart_section" n="G"><ab> 
+
+<lb n="1"/><w lemma="τόπος">τόπ<supplied reason="lost">ος</supplied></w>
+<milestone unit="block"/>
+<gap reason="lost" extent="5" unit="character"/>
+<unclear reason="damage">Υ</unclear> <w lemma="οἰκόνομος"><expan><abbr>οἰκονό<unclear reason="damage">μ</unclear></abbr><supplied reason="abbreviation">ου</supplied></expan></w><milestone unit="block"/>  <space extent="3" unit="character"/> 
+
+</ab></div><div type="textpart_section" n="H"><ab> 
+
+<lb n="1"/><gap reason="lost" extent="4" unit="character"/> <space extent="3" unit="character"/> <orig n="unresolved">μ</orig> <milestone unit="block"/> <orig n="unresolved">ου</orig> <space extent="3" unit="character"/> <orig n="unresolved"><unclear reason="damage">ιι</unclear>μου</orig> <space extent="3" unit="character"/> <milestone unit="block"/> 
+
+</ab></div><div type="textpart_section" n="N"><ab><lb n="1"/><g type="steps"/> <milestone unit="block"/> <gap extent="3" reason="lost" unit="character"/> <orig n="unresolved">ιτεασ</orig> <milestone unit="block"/> <gap reason="lost" extent="1" unit="character"/> <milestone unit="block"/> <space extent="3" unit="character"/> <orig n="unresolved"><unclear reason="damage">αυ</unclear></orig> <milestone unit="block"/> <space extent="3" unit="character"/><orig n="unresolved">φια</orig><gap reason="lost" unit="character" extent="3"/> <milestone unit="block"/></ab></div><div type="textpart_section" n="P"><ab>
+<lb n="1"/><orig n="unresolved">υ</orig></ab></div><div type="textpart_section" n="S"><note>Design, type 3Rows1 in a frame.</note></div><div type="textpart_section" n="U"><ab><lb n="1"/><g type="steps"/> <milestone unit="block"/> <gap reason="lost" unit="line" extent="1"/> <milestone unit="block"/> <orig n="unresolved"><unclear reason="damage">ι</unclear>ου</orig> <orig n="unresolved"><unclear reason="damage">τ</unclear>ε<unclear reason="damage">ιιι</unclear></orig> <milestone unit="block"/><gap extent="1" reason="lost" unit="character"/> <orig n="unresolved"><unclear reason="damage">ιεη</unclear>γ</orig> <milestone unit="block"/> <w lemma="τις">του</w> <milestone unit="block"/> <space extent="3"/> <persName type="aphrodisian"><name reg="Ἰγνατίη"><unclear reason="damage">Ἰ</unclear>γνατ<supplied reason="lost" cert="low"><space extent="3"/></supplied><milestone unit="block"/>ί̣η</name></persName> <unclear reason="damage">κὲ</unclear> <milestone unit="block"/> <persName type="aphrodisian"><name reg="Ὑψικλῆς">Ὑψι<unclear reason="damage">κ</unclear>λ<unclear reason="damage">ει</unclear>ς</name></persName> <gap reason="lost" extent="2" unit="character"/><orig n="unresolved">ιοκ<unclear reason="damage">ιι</unclear>ν</orig><gap reason="lost" extent="2" unit="character"/><orig n="unresolved"><unclear reason="damage">ιι</unclear>ανου</orig> <milestone unit="block"/> <gap reason="lost" extent="3" unit="character"/></ab>
+</div></div>
+<div type="apparatus" n="none">
+<head>Apparatus</head>
+<p> ...</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>Row F: (Place of) ?Au(relius) P[...], oeconomus.</p>
+<p>Row G: Place of [.....], oeconomus.</p>
+<p>Row U: - ]Ignatia and Hypsikleis [ -</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See bibliography.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Stadium</rs>: seats, block 11, which contains a built-up 'seat of honour' in Rows E and F, </rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Findspot</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds, Roueché). This edition: Roueché (2007)..</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="PPA">Roueché, PPA <biblScope>45.11</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_X_27"><figDesc>Row F (1977)</figDesc></figure><figure href="77_X_28"><figDesc>Row F (1977)</figDesc></figure><figure href="77_X_29"><figDesc>Rows F and G (1977)</figDesc></figure><figure href="77_X_25"><figDesc>Row H (1977)</figDesc></figure><figure href="77_X_26"><figDesc>Row H (1977)</figDesc></figure><figure href="77_V_32A"><figDesc>Row U, left end (1977)</figDesc></figure><figure href="77_V_33A"><figDesc>Row U (1977)</figDesc></figure><figure href="77_V_34A"><figDesc>Row U (1977)</figDesc></figure><figure href="77_V_35A"><figDesc>Row U (1977)</figDesc></figure><figure href="77_V_36A"><figDesc>Row U (1977)</figDesc></figure><figure href="88_F_36"><figDesc>Row U, right end (1988)</figDesc></figure></p>
+</div></body></text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150218" n="iAph0344 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">  Circular fragment, stray</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-03-01</date><respStmt><name>Gabriel Bodard</name></respStmt><item>DONE</item></change><change><date>2005-05-24</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Flat circular feature, with about one third broken away (diameter <measure dim="diameter" type="length">0.24</measure>; <measure type="length" unit="metre" dim="depth">0.12</measure>) with a hole in the centre that does not pierce the stone.</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> perhaps  in one line around the edge of the face, but perhaps showing two independent sets of letters.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.023</measure>.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p> <date exact="none" notAfter="0500" notBefore="0001" cert="low">Imperial</date> (<rs type="criteria">lettering</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="1"/><gap reason="lost" unit="character" extent="unknown"/><orig n="unresolved"><unclear>β</unclear>o<unclear reason="damage">νσυ</unclear></orig><space extent="2"/><orig n="unresolved">μενα</orig><gap reason="lost" extent="unknown" dim="internal" unit="character"/></ab>
+</div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+
+<div type="translation" n="none">
+<head>Translation</head>
+<p>No words discernible.</p></div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>The very rough lettering suggests a graffito, possibly by two writers.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p>Found: <rs type="found">stray find in 1961</rs>. Original location: <rs type="origLocation">Unknown</rs>. Last recorded: <rs type="lastLocation">Museum (1977)</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (<rs type="invNo">61.110</rs>).</p>
+  </div>
+
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="77_T_00A"><figDesc>Face (1977)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

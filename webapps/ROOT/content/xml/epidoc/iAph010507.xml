@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010507" n="iAph0245 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><seg cert="low"><rs type="textType">Building inscription</rs></seg></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change><change><date>2003-06-02</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Tidied and regularised</item></change><change><date>2002-11-01</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Typed and tagged Greek</item></change><change>
+  <date>2003-09-03</date>
+  <respStmt><name>CMR</name></respStmt>
+  <item>tagged, lemmatised and corrected</item>
+  </change>
+  <change><date>2004-02-29</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Lower right corner fragment of a <rs type="material" key="marmor">white marble</rs> <rs type="objectType">panel</rs> featuring a sunken face surrounded by a broad flat border (<measure type="length" unit="metre" dim="height">0.19</measure> × <measure type="length" unit="metre" dim="width">0.21</measure> × <measure type="length" unit="metre" dim="depth">0.05</measure>).</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> on the lower border.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Well cut but varying greatly in size, <measure type="length" unit="metre" dim="height">0.025</measure> - <measure type="length" unit="metre" dim="height">0.035</measure>.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+		<p><date cert="low" exact="none" notBefore="0401" notAfter="0600">Fifth-sixth century</date> (<rs type="criteria">lettering</rs>)</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+        <ab>
+		<lb n="0"/><gap dim="top" reason="lost" extent="unknown" unit="line"/>
+		<lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/> <w lemma="ἐπί"><unclear reason="damage">ἐ</unclear>πὶ</w> <persName key="euthal-" reg="Εὐθάλιος" type="aphrodisian" full="yes"><name reg="Εὐθάλιος">Εὐθαλ<unclear reason="damage">ί</unclear><supplied reason="subaudible">ου</supplied></name></persName>
+		<lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><w lemma="οἶκος">οἴκου</w> <space dim="horizontal"/>
+		</ab>
+      </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>In l. 1 the reading at the end is not quite certain.</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab><gap dim="left" reason="lost"/> <seg cert="low">under</seg> Euthali<seg cert="low">os</seg> <gap reason="lost"/> house <space dim="horizontal"/></ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>Probably to be associated with <xref type="inscription" n="72" href="010505">1.505</xref>; see discussion at <xref type="eAla-text" n="V.50">V.50</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList" key="Tetrapylon">Tetrapylon</rs> area: ARN90.TDS.Find 1.</rs>. Original location: <rs type="origLocation">Unknown.</rs>. Last recorded location: <rs type="lastLocation">Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition in 1990.</p>
+      </div>
+
+      <div type="bibliography"><head>Bibliography</head><p>Published by <bibl n="ala2004" rend="primary" type="hbi"><author>Roueché</author> (2004), <biblScope>245</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs"><head>Photographs</head><p><figure href="90_A_16A"><figDesc>Face (1990)</figDesc></figure></p></div>
+
+      
+
+    </body>
+  </text>
+</TEI>

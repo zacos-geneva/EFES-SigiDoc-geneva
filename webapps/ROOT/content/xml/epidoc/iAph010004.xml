@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010004" n="iAph1121 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Column dedication</rs>  by Eumachos and Amias</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-19</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p><rs type="material" key="marmor">White marble</rs> <rs type="decoration">tabella ansata</rs> (<measure type="length" unit="metre" dim="width">0.71</measure> × <measure type="length" unit="metre" dim="height">0.42</measure>) cut on fluted <rs type="objectType">column</rs>.</p></div><div type="description" n="text"><head>Description of Text</head><p> Cut on the second drum from the base of the column.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure type="length" unit="metre" dim="height">0.02-0.03</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0033" exact="none">Early first century A.D.</date>
+(<rs type="criteria">lettering</rs>, <rs type="criteria">context</rs>, <rs type="criteria">prosopography</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Εὔμαχος">Εὔμαχος</name>  <persName type="aphrodisian"><name reg="Ἀθηναγόρας">Ἀθηναγό<lb n="2" type="worddiv"/>ρου</name> <w lemma="ὁ">τοῦ</w><persName type="aphrodisian"> <name reg="Ἀθηναγόρας">Ἀθηναγόρου</name><lb n="3"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Εὔμαχος">Εὐμάχου</name></persName></persName></persName>  <name reg="Διογένης">Διογένη<lb n="4" type="worddiv"/>ς</name>  <w lemma="Φιλόκαισαρ">Φιλόκαισαρ</w></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian" full="yes"><name reg="Ἀμιάς">Ἀμιὰς</name>    <space extent="1" unit="character" dim="horizontal"/><lb n="5"/><persName type="aphrodisian"><name reg="Διονύσιος">Διονυσίου</name></persName> <w lemma="φύσις">φύσι</w> <w lemma="δέ">δὲ</w> <persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδρά<supplied reason="omitted">σ</supplied>του</name>  <lb n="6"/> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Μόλων">Μόλωνος</name></persName></persName>  <name reg="Ὀλυνπιάς">Ὀλυνπιὰς</name></persName>  <lb n="7"/> <w lemma="ὁ">τὸν</w> <w lemma="κίων">κίονα</w> <w lemma="θεά">θεᾷ</w> <persName type="divine" full="yes"><name reg="Ἀφροδίτη">Ἀφροδίτῃ</name></persName>  <lb n="8"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">Δήμῳ</w>  <space extent="7" unit="character" dim="horizontal"/></ab>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); publications; Gaudin's squeeze</p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Eumachos Diogenes son of Athenagoras the son of Athenagoras the son of Eumachos, (entitled) Friend of Caesar, and Amias Olympias, daughter of Dionysios, by birth of Adrastos, the son of Molon (dedicated) the column for the goddess Aphrodite and the People.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>One of the group of column dedications from the Temple of Aphrodite: <xref type="inscription" n="1121" href="010004">1.4</xref> (=MAMA 437), <xref type="inscription" n="1122" href="010005">1.5</xref> (=MAMA 438), <xref type="inscription" n="1123" href="010006">1.6</xref> (=Reinach 122), <xref type="inscription" n="1124" href="010007">1.7</xref> (=MAMA 450), <xref type="inscription" n="1125" href="010008">1.8</xref> (=KRC 37+);  discussed by <bibl n="jmr1990"><author>Reynolds</author>, 'Inscriptions and the Building of the Temple', <title>Aphrodisias Papers </title>(Ann Arbor, 1990), 37-40, 38</bibl>; see also <bibl n="jmr1999">Reynolds, 'The first known Aphrodisian to hold a procuratorship', <title level="m">Steine und Wege</title> (Vienna, 1999), 327-334, 334, C.1</bibl>.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="origLocation"><rs type="monuList">Temple/Church</rs> findspot.</rs>
+<rs type="found"><rs type="monuList">Temple/Church</rs>: 7th column from west end of north colonnade</rs>;  <rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Noted in 1705 by Picenini (10102, 20) and Sherard (10101, 12); copied by Deering (8, no.33); copied by Bailie; copied by Le Bas; recorded by K&amp;R (no notebook entry); recorded by Gaudin (181); recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl type="primary" n="bailie1846"><author>Bailie</author>, <biblScope>68</biblScope></bibl>; by <bibl type="primary" n="LBW"><author>Waddington</author>, from Le Bas, LBW <biblScope>590</biblScope></bibl>; by <bibl type="primary" n="reinach"><author>Reinach</author>, from Gaudin, <biblScope>123</biblScope></bibl>; by <bibl type="primary" n="MAMA8"><author>Cormack</author>, from the MAMA records, <biblScope>437</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="256986">108</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="73_P_22A"><figDesc>Face (1973)</figDesc></figure><figure href="AG_MAMA437III"><figDesc>Face (2005)</figDesc></figure><figure href="76_C_18A"><figDesc>Column (1976)</figDesc></figure></p></div><div n="transcriptions" type="figure"><head>Representations</head><p><figure href="Deering_08"><figDesc>Deering notebook 8</figDesc></figure></p></div></body></text>
+</TEI>

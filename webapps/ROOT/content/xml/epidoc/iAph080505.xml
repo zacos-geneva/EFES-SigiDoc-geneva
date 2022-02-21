@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080505" n="iAph0619 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Gladiator memorial</rs> for <gap extent="unknown" reason="lost" unit="character"/>enis</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-08-07</date><respStmt><name>Eleonora Litta</name></respStmt><item>tidied expan</item></change><change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Upper part of a <rs type="material">white marble</rs> <rs type="objectType">panel-stele</rs> (<measure dim="height" unit="metre" type="length">0.45</measure> x <measure dim="width" unit="metre" type="length">0.46</measure> x <measure dim="depth" unit="metre" type="length">0.16</measure>) broken below and chipped on all edges. The relief, which is broken at the waist, is of a facing <rs type="decoration">gladiator</rs>, with his head turned slightly to his right. He wears a highly decorated cuirass, with a rose and other designs on it in relief, and a decorated belt. On his left arm he holds a long shield with a decorated rim and the letter Γ in the top right corner. His right arm has an arm guard on the upper arm, which is all that survives. In the field on either side of the head are two wreaths, each decorated with a ribbon.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the upper moulding, which is broken</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>standard forms, <measure dim="height" type="length" unit="metre">0.02</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/><persName type="aphrodisian"><name><gap reason="lost" extent="5" unit="character"/>ενις</name></persName>  <g type="stop"/>  <w lemma="πάλος"><expan><abbr>πά</abbr><supplied reason="abbreviation">λου</supplied></expan></w> <num value="1">α</num> </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>[.....]enis of brigade 1</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>The figure on the shield of the gladiator in the relief makes it clear that he belonged to the third brigade; this suggests that the name in the inscription is that of the man who put up the monument. See further PPA.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">Tetrastoon</rs>, in the topsoil.</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>transcriptions (Reynolds, Roueché)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p> </p>
+<p>Recorded by the NYU expedition in 1972 (excavation inventory no. <rs type="invNo">72.140</rs>).</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="PPA">Roueché, PPA <biblScope>19</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p> <figure href="77_W_35"><figDesc>Face (1977)</figDesc></figure><figure href="78_K_33"><figDesc>Face (1978)</figDesc></figure></p>
+</div></body></text>
+</TEI>

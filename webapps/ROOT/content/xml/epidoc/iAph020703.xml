@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph020703" n="iAph0825 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Sculptor's signature</rs></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>1991</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="ktejmr1991">Erim and Reynolds (<date>1991</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-04-17</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+  
+  <change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment from the lower edge of a piece of <rs type="material" key="marmor">white marble</rs>, plausibly to be seen as part of a <rs type="objectType">statue plinth</rs> ( <measure dim="width" type="length" unit="metre">0.09</measure>   × <measure dim="height" type="length" unit="metre">0.14</measure>   × <measure dim="depth" type="length" unit="metre">0.10</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>l.1, <measure type="length" unit="metre" dim="height">0.015</measure>; l.2, <measure type="length" unit="metre" dim="height">0.001</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0200" notBefore="0001" exact="none" cert="low">First to second centuries A.D.</date>
+(<rs type="criteria">lettering</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="character" dim="top"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/> <orig n="unresolved">οσχι</orig> <gap reason="lost" extent="unknown" unit="character" dim="right"/><lb n="2"/><gap reason="lost" extent="unknown" unit="character" dim="left"/>  <w lemma="ἐπί"><supplied reason="lost">ἐπ</supplied></w>  <w>οίησ<unclear reason="damage">ε</unclear><supplied reason="lost">ν</supplied><gap dim="right" extent="unknown" reason="lost" unit="character"/></w></ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>Probably [Ἀπολλώνι]ος Χρ[υσίππου Ἀστὴρ ἐπ]οίησε[ν</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>[Apolloni]os [Aster, son of] Ch[rysippos], made (this)</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See Erim-Reynolds, loc. cit., proposing the restoration on the basis of  <xref type="inscription" n="824" href="020702">2.702</xref> (72.439).</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"> <rs type="monuList">Bouleuterion/Odeon, East Area</rs>, in topsoil.</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum (1977)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1972 (<rs type="invNo">72.472</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="ktejmr1991">Erim-Reynolds, 'Sculptors' no.<biblScope>11</biblScope></bibl>, whence <bibl n="seg"><title level="j">SEG</title> 40 <biblScope>1990.934</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_D_11A"><figDesc>Face (1977)</figDesc></figure><figure href="77_N_25A"><figDesc>Face (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI>

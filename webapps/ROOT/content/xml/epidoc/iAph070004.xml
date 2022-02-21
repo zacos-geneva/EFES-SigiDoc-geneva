@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph070004" n="iAph0377 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">  <rs type="textType" reg="funerary" cert="low">Funerary</rs> inscription for Elpides</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date>2005-07-27</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">block</rs> (<measure type="length" unit="metre" dim="width">0.38</measure> × <measure type="length" unit="metre" dim="height">0.17</measure> × <measure type="length" unit="metre" dim="depth">0.26</measure>).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p> <rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.045</measure></p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p> <date notAfter="0200" notBefore="0001" exact="none">First to second centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="1"/><persName type="aphrodisian"><name reg="Ἔλπιδες">Ἔλπιδες</name></persName><gap dim="right" extent="unknown" reason="lost" unit="character" id="gap01"/><certainty target="gap01" locus="#gi" degree="low"/><lb n="2"/><persName type="aphrodisian"><name reg="Εἰδαῖος">Εἰδαίου</name></persName><gap dim="right" extent="unknown" reason="lost" unit="character" id="gap02"/><certainty target="gap02" locus="#gi" degree="low"/><lb n="2a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line" id="gap03"/><certainty target="gap03" locus="#gi" degree="low"/></ab>
+</div>
+
+
+
+<div type="translation">
+<head>Translation</head>
+<p>Elpides [... ? ...] (?son of) Eidaios [?...]</p></div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>Reinach suggested tentatively that this might be funerary.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">Martyrion</rs>, apparently re-used in the inner narthex wall</rs>. <rs type="origLocation">Unknown</rs>. <rs type="lastLocation">Findspot</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by K&amp;R (no notebook entry);     by Gaudin (165); by the NYU expedition.</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published from Gaudin's squeeze by <bibl n="reinach" type="primary">Reinach, REG 19, 1906, 288-289, no <biblScope>188</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257349">471</biblScope></bibl>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Publication; Gaudin's squeeze (red book 45v); Preliminary transcription (Reynolds).</p>
+</div><div type="figure" n="photographs"><head>Photographs</head><p><figure href="73_S_13"><figDesc>Face (1973)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

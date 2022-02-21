@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph070015" n="iAph1325 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> for Marcus Aurelius Antiochus  son of Eis<supplied reason="lost" cert="low">agoras</supplied></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr2003">Reynolds and Isik (<date>2007</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment from the front of a <rs type="material" key="marmor">white marble</rs> garland <rs type="objectType">sarcophagus</rs> <measure type="length" unit="metre" dim="width">0.75</measure>   × <measure type="length" unit="metre" dim="height">0.42</measure>   × <measure type="length" unit="metre" dim="depth">0.13</measure>; for decription see <bibl>Isik 170</bibl>
+</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face within a tabella (die, <measure dim="width" type="length" unit="metre">0.26</measure>   × <measure dim="height" type="length" unit="metre">0.22</measure>), impinging on the right-hand moulding; the surface is badly worn.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.015</measure>; moderate quality, poorly aligned, but wear has obscured detail.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>Perhaps 
+<date notBefore="0201" notAfter="0250" exact="none" cert="low"> first half of the third century</date>
+ (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <w lemma="ὁ">ἡ</w>  <w lemma="σορός">σορός</w>  <w lemma="εἰμί">ἐστιν</w>  <lb n="2"/><persName type="aphrodisian" full="yes"><name reg="Μᾶρκος">Μάρκ<unclear reason="damage">ου</unclear></name>  <name reg="Αὐρήλιος"><unclear reason="damage">Αὐ</unclear>ρηλι<lb n="3" type="worddiv"/>ου</name>  <name reg="Ἀντίοχος">Ἀντιόχου</name> <w lemma="ὁ">τοῦ</w> <lb n="4"/><persName type="aphrodisian"><name reg="Εἰσαγόρας"><orig n="unresolved"><unclear reason="damage">εισα</unclear></orig><gap reason="lost" extent="8" unit="character" dim="right"/>  </name></persName></persName><lb n="5"/><orig n="unresolved">ω</orig>  <gap reason="lost" extent="1" unit="character"/>  <orig n="unresolved"><unclear reason="damage">λ</unclear></orig>  <gap reason="lost" extent="9" unit="character" dim="right"/>  <lb n="5a"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/>  </ab>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>The sarcophagus belongs to Marcus Aurelius Antiochus the son of Eis[- ... <note>(perhaps Eisagoras)</note></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+
+<p>Probably one of the shorter type texts; but the owner, although apparently possessing only the sarcophagus, gave his Roman name in full and cited at least his father's name in the Greek manner, suggesting a date not too long after the Edict of Caracalla in A.D. 212.</p></div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Martyrion</rs>: SW Complex 5, N. Apse</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1962 (<rs type="invNo">62.358</rs>)</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="jmr2003">Isik and Reynolds, no. <biblScope>170</biblScope></bibl></p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>Isik?</p>
+</div></body></text>
+</TEI>

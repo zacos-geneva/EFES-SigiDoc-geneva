@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050208" n="iAph1558 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">Building <rs type="textType">dedication</rs> to Aphrodite and Hadrian by Pereitas Attalos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType">lintel</rs> block, with <rs type="decoration">egg and dart</rs> moulding above three fasciae, now broken into two fragments.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on all three fasciae, two lines on the upper fascia and one each on the lower two.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Regular hand, without the variations in size of the matching inscription, <xref type="inscription" n="1555" href="050207">5.207</xref> (=168a); <measure dim="height" type="length" unit="metre">0.025</measure>; ligatures: in l.3, second <foreign lang="grc">ΗΝ</foreign>, <foreign lang="grc">ΚΕ</foreign>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0138" notBefore="0117">A.D. 117-138</date> (<rs type="criteria">reign</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="θεά"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="3" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">θεᾷ
+</rdg>
+</app></w> <persName type="divine"><name reg="Ἀφροδίτη"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="4" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">Ἀφρο
+</rdg>
+</app>δείτῃ</name></persName> <w lemma="καί">καὶ</w> <persName type="emperor"><w lemma="αὐτοκράτωρ">Αὐ<app type="previouslyread"><rdg resp="autopsy">
+<gap extent="5" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">τοκρά</rdg>
+</app>τορι</w> <name reg="Καῖσαρ">Καίσαρι</name> <w lemma="θεός">θεοῦ</w> <name reg="Τραιανός">Τραϊανοῦ</name> <w lemma="υἱός">υἱῷ</w> <w lemma="θεός">θεοῦ</w> <name reg="Νέρβα">Νέρβα</name> <lb n="2"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="υἱωνός">υἱωνῷ</w> <name reg="Τραιανός">Τ<app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="5" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">ραϊαν
+</rdg>
+</app>ῷ</name> <name reg="Ἁδριανός">Ἁδριανῷ</name> <w lemma="σεβαστός">Σεβαστῷ</w></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῷ</w> <w lemma="δῆμος">δήμῳ</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="3"/> <persName type="aphrodisian"><name reg="Περίτας"><app type="previouslyread">
+<rdg resp="autopsy">
+<gap extent="3" reason="lost" unit="character"/>
+</rdg>
+<rdg resp="previous">
+Περ</rdg>
+</app>είτας</name> <persName type="aphrodisian"><name reg="Ζήνων">Ζήνωνος</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ζήνων">Ζ<hi rend="ligature">ήν</hi>ωνος</name></persName></persName> <name reg="Ἄτταλος">Ἄτταλος</name></persName> <w lemma="ὁ">το</w> <w lemma="περιφλίωμα">περιφλίωμα</w> <w lemma="ἀνατίθημι">ἀνέθη<hi rend="ligature">κε</hi></w> <lb n="4"/>  <space extent="3" unit="character" dim="horizontal"/>  <w lemma="ἐκ">ἐ<supplied reason="lost">κ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῶν</supplied></w> <w lemma="ἴδιος">ἰδίων</w> <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>Letters highlighted were recorded by Boulanger, but not subsequently.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>To the goddess Aphrodite, to the Imperator Hadrian Augustus son of the god Trajan, grandson of the god Nerva, to the People: Pereitas Attalos son of Zenon the son of Zenon dedicated the ?decoration of the doorway at his own expense.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>The same text was inscribed on the south-east doorway (<xref type="inscription" n="1555" href="050207">5.207</xref> = Mendel, 168a) with differences in layout and a different hand.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Hadrianic Baths, East Court</rs>: fallen at the north doorway, connecting the Galerie de l'Est with the south portico of the court.</rs>
+<rs type="origLocation"><rs type="monuList">Hadrianic Baths, East Court</rs> over the north door</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcriptions (Drew-Bear, Reynolds); notebook.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by Mendel in 1905; copied by Boulanger (notebook A, p.3); recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="mendel1906">Mendel, CRAI 1906, <biblScope>168</biblScope> note 1b</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="256991">113</biblScope>
+</bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p> <figure href="85_D_20"><figDesc>Right hand fragment (1985)</figDesc></figure><figure href="85_D_21"><figDesc>Right hand fragment, left end (1985)</figDesc></figure><figure href="85_D_22"><figDesc>Right hand fragment, centre (1985)</figDesc></figure><figure href="85_D_23"><figDesc>Right hand fragment, right end (1985)</figDesc></figure><figure href="85_E_01"><figDesc>Left hand fragment (1985)</figDesc></figure></p>
+</div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Boulanger_A_02"><figDesc>Boulanger notebook A, page 3: Fair copy</figDesc></figure></p></div></body></text>
+</TEI>

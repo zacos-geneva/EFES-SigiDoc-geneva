@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080607" n="iAph0111 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType" reg="prohibition">Warning</rs> against theft</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Juan Garcés</name></respStmt><item>Marked up inventory number(s)</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-29</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change><change><date>2003-11-06</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Corrected errors in Greek</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change><date>2003-08-25</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change><date>2004-02-25</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A smooth <rs type="material" key="marmor">white marble</rs> <rs type="objectType">column</rs> drum (H. <measure dim="none">1,42</measure>, diam.
+<measure dim="none">0.60</measure>).</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>Painted in red paint on a white background, below the upper edge.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p><measure type="length" unit="metre" dim="height">0.045</measure>;
+simple; square <foreign>sigma</foreign>. There are some traces of further painted decoration.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0600" exact="none" cert="low" notBefore="0401">Fifth/sixth century</date> (lettering, findspot).</p>
+      </div>
+
+      <div n="text" lang="grc" type="edition">
+        <head lang="en">Edition</head>
+        <ab>
+		  		<lb n="1"/><g type="cross"/> <w lemma="ἔχω">σχῇ</w> <w lemma="πρός">πρὸς</w> <w lemma="ὁ">τὸ</w> <w lemma="βῆμα">βῆμα</w> <w lemma="ὁ">τοῦ</w><lb n="2"/> <persName key="Christ" type="divine" full="yes"><name reg="Χριστός">Χριστοῦ</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τὴν</w> <w lemma="αἰώνιος">ἐωνίαν</w><lb n="3"/> <w lemma="κρίσις">κρίσιν</w> <w lemma="ὁ">ὁ</w> <w lemma="κλέπτω">κλέπτον</w> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τοῦ</w><lb n="4"/> <w lemma="τόπος">τόπου</w> <w lemma="οὗτος">τούτου</w> <w lemma="τις">τί</w> <w lemma="ποτε">ποτε</w>. 
+		  </ab>
+      </div>
+
+      
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>
+		  		May he face the tribunal of Christ and the eternal
+judgement, he who steals anything at all from this place.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head><p>See discussion at <xref type="eAla-text" n="VII.30">VII.30</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs key="Theatre" type="monuList">Theatre</rs>: re-used in the Byzantine fortification wall
+constructed across the eastern end of the Theatre apparently in the
+seventh century.</rs>. Original location: <rs type="origLocation">Unknown; perhaps <rs type="monuList" key="ThBaths" cert="low">Theatre Baths</rs>.</rs>. Last recorded location: <rs type="lastLocation">Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition in <date value="1972" notBefore="1972" notAfter="1972" exact="both">1972</date> (<rs type="invNo">72.238</rs>).</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>111</biblScope></bibl> whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257650">763</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcriptions (Reynolds, Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="NY_pr_069"><figDesc>Monument  (1972)</figDesc></figure><figure href="76_A_20A"><figDesc>Left side (1976)</figDesc></figure><figure href="76_A_22A"><figDesc>Right side (1976)</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

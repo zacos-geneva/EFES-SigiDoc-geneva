@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110212" n="iAph1921 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Title</rs>s for images on the <rs type="textType">funerary</rs> monument of Zoilos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>1982</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr1982">Reynolds (<date>1982</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-07-24</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2007-01-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date>2005-07-28</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p> <rs type="material">White marble</rs> <rs type="objectType">relief</rs> panels  from a monumental public tomb, with sculpted <rs type="decoration">figure</rs>s ; <measure dim="height" type="length" unit="metre">1.85</measure>; width of panels <measure dim="width" type="length" unit="metre">0.75</measure>-<measure dim="width" type="length" unit="metre">1.30</measure>. The maximum depth of the panels is <measure dim="depth" type="length" unit="metre">0.40</measure>-<measure dim="depth" type="length" unit="metre">0.50</measure>.</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face next to the figures. Numbers for fitting the blocks survive (<measure dim="height" type="length" unit="metre">0.02</measure>-<measure dim="height" type="length" unit="metre">0.03</measure>) normally on the upper face of the blocks, but in some cases on the face. </p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.04-0.05</measure></p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p> <date exact="none" notAfter="0100" notBefore="0067">Late first century A.D.</date> (<rs type="criteria">career</rs>, <rs type="criteria">sculpture</rs>, <rs type="criteria">lettering</rs>)</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+
+<div type="textpart_face" n="A"><note>Numbers (Blocks 1-5)</note><ab><lb n="1"/><milestone unit="block" n="1"/><num value="6">ζ</num> <space/> <num value="5"><supplied reason="lost">ε</supplied></num> <milestone unit="block" n="2"/> <num value="5">ε</num> <gap unit="character" reason="lost" extent="3"/> <num value="4">δ</num> <milestone unit="block" n="3"/> <num value="4">δ</num> <space/> <num value="3">γ</num> <milestone unit="block" n="4"/><num value="3">γ</num> <space/> <num value="2"><supplied reason="lost">β</supplied></num> <milestone unit="block" n="5"/> <num value="2">β</num> <space/> <num value="1">α</num><milestone unit="block" n="6"/></ab><div type="textpart_block" n="1-5"><ab><lb n="1"/>
+<w lemma="ἀνδρεία">Ἀνδρήα</w>   <space extent="2"/> <milestone unit="block" n="2"/> <persName type="aphrodisian"><name reg="Ζωΐλος">Ζώιλος</name></persName>  <note>sculpture</note>   <w lemma="τιμή">Τιμῆ<milestone unit="block" n="3"/>ι</w>     <note>sculpture</note>     <w lemma="δῆμος">Δῆμο<supplied reason="lost">ς</supplied></w>  <milestone unit="block" n="4"/> <persName type="aphrodisian"><name reg="Ζωΐλος">Ζώιλος</name></persName> <note>heads</note> <milestone unit="block" n="5"/> <w>Πόλις</w></ab></div></div><div type="textpart_face" n="B-D">
+<div type="textpart_block" n="7"><ab><lb n="1"/>Αἰών</ab></div>
+<div type="textpart_block" n="8"><ab><lb n="1"/>Μνήμη</ab></div>
+<div type="textpart_block" n="9"><ab><lb n="1"/>Μείνω<supplied reason="lost">ς</supplied> </ab></div>
+<div type="textpart_block" n="12"><ab><lb n="1"/><persName type="aphrodisian"><name reg="Ζωΐλος"><supplied reason="lost">Ζ</supplied>ώιλος</name></persName></ab></div>
+<div type="textpart_block" n="13"><ab><lb n="1"/> <w>Ἀ<unclear reason="damage">ρ</unclear>̣<supplied reason="lost">ετή</supplied></w>
+</ab></div>
+<div type="textpart_block" n="14"><ab><lb n="1"/><w lemma="πίστις">Πίστις</w></ab></div></div></div>
+
+
+
+<div type="translation">
+<head>Translation</head>
+<p>A: Courage, Zoilos, Honour, The People, Zoilos, The City</p><p>B-D: 7: Eternity. 8. Memory. 9. Minos 10. Zoilos. 13. Virtue. 14. Faith</p></div>
+
+ <div type="commentary">
+<head>Commentary</head>
+<p>For commentary see R. R. R. Smith, op.cit.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="found"><rs type="monuList">City, Water Channel Area</rs></rs>. <rs type="origLocation">Unknown</rs> <rs type="lastLocation">Museum, reassembled (1989)</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>2, 3 5 and 7 recorded by A. Guiliano in 1956: other fragments recorded by  the NYU expedition over several years: 1: <rs type="invNo">61.61</rs>; 4, <rs type="invNo">61.62</rs>; 8, <rs type="invNo">77.147</rs>; 9 found 1984; 12 <rs type="invNo">66.234</rs>. 13 <rs type="invNo">64.242</rs></p>
+  </div>
+
+<div type="bibliography"><head>Bibliography</head><p>Published by <bibl n="jmr1982">Reynolds, A&amp;R <biblScope>34</biblScope></bibl> whence <bibl n="be">BE <biblScope>1983.391</biblScope></bibl>, <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title>  <biblScope n="257781">895</biblScope>
+</bibl>.</p><p>Republished, with the whole monument, by <bibl n="rrrs1993"><author>R. R. R. Smith</author>, <title>Aphrodisias I. The monument of C. Julius Zoilos</title> (Mainz, 1993)</bibl></p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div><div type="figure" n="photographs"><head>Photographs</head><p><figure href="80_G_30"><figDesc>9, Face (1980)</figDesc></figure><figure href="80_A_14"><figDesc>8, Face (1980)</figDesc></figure><figure href="89_C_23"><figDesc>14, Face (1989)</figDesc></figure> </p></div></body>
+</text>
+
+</TEI>

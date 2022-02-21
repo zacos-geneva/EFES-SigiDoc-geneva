@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080054" n="iAph0760 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Seat inscriptions</rs>: Theatre, Block B</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PPA">Roueché (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+<textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="cetera">Agonistic</rs></term><term><rs type="textType" key="cetera">Factional</rs></term><term><rs type="textType" key="cetera">Acclamation</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-3-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Theatre, <rs type="objectType">seat</rs>s</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>Row 1: on one seat at east end of row, at right angles to edge. Row 2:iii, on one seat whose surface is partially lost, at right angles to edge. s. Row 19: at the edge of the seat, with the letters broken off below.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Row 1: cursive, ll.1-2 <measure type="length" unit="metre" dim="height">0.025</measure>, ll.3-4, <measure type="length" unit="metre" dim="height">0.03-0.055</measure>. The end of l.1, all of l.2 and much of l.4 seem to have been deliberately erased. Row 2:iii, very worn, <measure type="length" unit="metre" dim="height">0.04-0.06</measure>; perhaps from different texts. Row 15: ave. <measure type="length" unit="metre" dim="height">0.13</measure>. Rho, <measure type="length" unit="metre" dim="height">0.19</measure>, is probably an intrusion from another text. 13.ii: <measure dim="height" type="length" unit="metre"> 0.06 - 0.11</measure>. Row 16.i letters <measure type="length" unit="metre" dim="height">0.18-0.22</measure>. Row 19: letters truncated; <measure type="length" unit="metre" dim="height">0.11</measure>
+</p><p>Designs: Row 2.i: <measure dim="width" type="length" unit="metre">0.66</measure> x <measure dim="height" type="length" unit="metre">0.50</measure>. 2.ii: <measure dim="width" type="length" unit="metre">0.36</measure> x <measure dim="height" type="length" unit="metre">0.215</measure>. 6: <measure dim="diameter">0.27</measure>. 7:  <measure dim="width" type="length" unit="metre">0.255</measure> x <measure dim="height" type="length" unit="metre">0.17</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notAfter="0600" notBefore="0101" exact="none">Second-sixth century A.D.</date> (<rs type="criteria">context</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<div type="textpart_section" n="1"><ab>
+<lb n="1"/>
+
+<w lemma="νικάω">Νικᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> <w lemma="ὁ"><unclear reason="damage">τ</unclear>ῶν</w> 
+
+ 
+<lb n="2"/>
+<w lemma="νικάω"><unclear reason="damage">Νι</unclear>κᾷ</w> <w lemma="ὁ">ἡ</w> <w lemma="τύχη">τύχη</w> 
+<lb n="3"/>
+<w lemma="ὁ"><unclear reason="damage">των</unclear></w> <w lemma="πράσινος"><supplied reason="lost">Πρασ</supplied>ίνων</w> 
+</ab></div><div type="textpart_section" n="2"><div type="textpart_column" n="i"><note>Design, type 3Rows2, within a frame</note></div><div type="textpart_column" n="ii"><note>Design, type H4, within a frame</note></div><div type="textpart_column" n="iii"><ab> 
+<lb n="1"/>
+<gap reason="lost" extent="unknown" unit="character"/> <orig n="unresolved">μ</orig> <gap reason="lost" extent="2" unit="character"/> <space extent="3" unit="character"/> <orig n="unresolved">η</orig> 
+<lb n="2"/>
+<orig n="unresolved">το<unclear reason="damage">σλι</unclear></orig>
+<gap reason="lost" extent="2" unit="character"/>
+<orig n="unresolved"><unclear reason="damage">σ</unclear>σου</orig><lb n="3"/><orig n="unresolved"><unclear reason="damage">ιω</unclear>ν</orig> <w>κῦρ</w></ab></div></div><div type="textpart_section" n="6"><note>Design, type C2 </note></div><div type="textpart_section" n="13"><div type="textpart_column" n="i"><note>A cross, carefully cut, with triangular ends to each arm</note></div><div type="textpart_column" n="ii"><ab><note>On the adjacent seat traces of letters</note>.</ab></div></div><div type="textpart_section" n="14"><note>Design, type C2 
+</note></div><div type="textpart_section" n="15"><ab><lb n="1"/><w lemma="κατέχω">κ<orig n="unresolved">ρ</orig>α<milestone unit="block"/><supplied reason="lost">τέχεται</supplied></w> ... 
+</ab></div><div type="textpart_section" n="16"><div type="textpart_column" n="i"><ab><lb n="1"/><space extent="3"/>ΚΚ<space extent="3"/></ab></div><div type="textpart_column" n="ii"><note>Traces of letters 
+</note></div></div><div type="textpart_section" n="19"><ab><lb n="1"/>
+ <milestone unit="block"/> <note>Design, type S.1</note><lb n="2"/> 
+
+<milestone unit="block"/><w lemma="κατέχω">κατ<milestone unit="block"/><supplied reason="lost">έχεται</supplied></w> 
+</ab></div><div type="textpart_section" n="21"><note>
+Traces of letters 
+</note></div><div type="textpart_section" n="22"><note>
+Traces of letters 
+</note></div><div type="textpart_section" n="23"><note>There is a well-cut picture of a scorpion. 
+</note></div><div type="textpart_section" n="25"><div type="textpart_column" n="I"><note>Design, one type C2 
+</note></div><div type="textpart_column" n="II"><note>Design</note></div></div><div type="textpart_section" n="26"><note>
+Traces of letters</note></div>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p/>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>Row 1: The fortune of the [ - ] triumphs ! The fortune of the Greens triumphs !</p>
+<p>Row 15: Reserved.</p>
+<p>Row 19: Reserved.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>See bibliography.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Theatre</rs>: seats, block B, </rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Findspot</rs>
+
+
+
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds, Roueché).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Row 1: published by <bibl n="ALA">Roueché, ALA <biblScope>181.i</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257712">826</biblScope></bibl> ; all published by <bibl n="PPA">Roueché, PPA <biblScope>46.B</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="75_H_06"><figDesc>Row 1 (1975)</figDesc></figure><figure href="75_H_07"><figDesc>Row 2.iii (1975)</figDesc></figure><figure href="75_H_09"><figDesc>Row 13.i (1975)</figDesc></figure><figure href="75_H_08"><figDesc>Row 13.ii (1975)</figDesc></figure><figure href="75_H_11"><figDesc>Row 16.i (1975)</figDesc></figure><figure href="75_H_12"><figDesc>Row 19 (1975)</figDesc></figure><figure href="88_F_07"><figDesc>Row 22 (1988)</figDesc></figure><figure href="75_H_13"><figDesc>Row 23 (1975)</figDesc></figure></p>
+</div></body></text>
+</TEI>

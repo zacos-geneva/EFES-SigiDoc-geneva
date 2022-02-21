@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130155" n="iAph1491 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> inscription for M. Aurelius Papias</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr2003">Reynolds and Isik (<date>2007</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-02-06</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType">sarcophagus</rs> (<measure type="length" unit="metre" dim="width">2.14</measure>   × <measure type="length" unit="metre" dim="height">0.90</measure>   × <measure type="length" unit="metre" dim="depth">0.90</measure>) and lid; for further description see Isik 106.
+</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> in the moulded central <rs type="decoration">tabella</rs>.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p> Quite well-designed, but only moderately well-aligned, not easy to date but perhaps of the first half of the third century, <measure type="length" unit="metre" dim="height">0.025-0.03</measure>; for sigma, Ω for omega; unconventional spelling in ll.1, 3.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" exact="none" notAfter="0300" notBefore="0234">Middle to late third century A.D.</date>
+ (<rs type="criteria">lettering</rs> and <rs type="criteria">nomenclature</rs>), but this inscription is probably secondary, since the sarcophagus was certainly intended for a husband and wife.</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="σορός">σορός</w> <w lemma="εἴμι">ἐσστιν</w> <lb n="2"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="τόπος">τόπος</w> <lb n="3"/> <w lemma="ἐν">ἐν</w> <w>ᾧ</w> <w lemma="ἐπίκειμαι">ἐπίκειτε</w> <lb n="4"/> <persName type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μάρ</abbr><supplied reason="abbreviation">κου</supplied></expan></name> <name reg="Αὐρήλιος" type="nomen"><expan><abbr>Αὐ</abbr><supplied reason="abbreviation">ρηλίου</supplied></expan></name> <name reg="Παπίας">Παπίου</name> <lb n="5"/> <w lemma="ὁ">τοῦ</w> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Μελίτων">Μελί<lb n="6" type="worddiv"/>τωνος</name></persName></persName></ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>The sarcophagus and the plot on which it stands belong to Marcus Aurelius Papias, also called Meliton.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>The owner is otherwise unknown. The unusual abbreviation of his nomen, like the shortness of the text, could suggest a later date.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">Necropolis, North-east</rs>: 'Bagharassi, extra muros' (Gaudin); 'In a field 10 min east of the Heraclean gate' (MAMA)</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); publications.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Gaudin (169); by the MAMA expedition; by the NYU expedition (Sarcophagus catalogue <rs type="sarcCat">45</rs>).</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="reinach">Reinach, from Gaudin's squeeze, REG 19, 1906, 277, no. <biblScope>171</biblScope></bibl>; by <bibl n="MAMA8">Cormack, from the MAMA records, MAMA 8, no. <biblScope>556c</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257337">459</biblScope>
+</bibl>; by <bibl n="jmr2003">Reynolds and Isik <biblScope>106</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="JMR_1_1968_032"><figDesc>Face (1968)</figDesc></figure><figure href="73_X_25A"><figDesc>Face (1973)</figDesc></figure><figure href="80_D_09"><figDesc>View (1980)</figDesc></figure></p>
+</div></body></text>
+</TEI>

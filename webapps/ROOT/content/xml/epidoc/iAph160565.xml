@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph160565">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for Attalos Adrastos</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-01-12</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Four <rs type="material">white marble</rs> <rs type="objectType"> frieze blocks</rs>, one in two fragments. a: a corner block; to the left, the last letters of <xref type="iAph">564</xref>. The block then juts forward, and<xref type="iAph"> 565</xref> begins on the front, protruding face (<measure dim="width" type="length" unit="metre">0.89</measure>). b: one block in two fragments. c: complete; d: two fragments. The lower edge is damaged, but the text can be restored from <xref type="iAph">569</xref>.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> in three lines on the fascia.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p> </p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date> </date>
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<cb n="1"/><ab><lb n="1"/> <w lemma="ὁ">ἡ</w> <w lemma="βουλή">βουλὴ</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> <w>γε<milestone unit="block"/>ρουσία</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">οἱ</w> <w>νέοι</w> <w lemma="τιμάω">ἐτείμησαν</w> <persName type="aphrodisian"><name reg="Ἄτταλος">Ἄτταλον</name> <persName type="aphrodisian"><name reg="Ἄδραστος">Ἀδράστο<milestone unit="block"/>υ</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Νεικότειμος">Νεικοτείμου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀρτεμίδωρος">Ἀρτεμιδώρου</name> <w lemma="ὁ">το<milestone unit="block"/>ῦ</w> <persName type="aphrodisian"><name reg="Ζήνων">Ζήνωνος</name> <persName type="aphrodisian"><name reg="Ἱέραξ">Ἱέρακος</name></persName></persName></persName></persName></persName> <name reg="Ἄδραστος">Ἄδραστον</name></persName> <w>γυμνασιαρχὸν</w> <space extent="1" unit="character" dim="horizontal"/>  <cb n="2"/><lb n="2"/> <w lemma="καί">καὶ</w> <w>στεφανήφορον</w> <w>δι᾿</w> <w>αἰῶν<milestone unit="block"/>ος</w> <w lemma="πολύς">πολλὰ</w> <w lemma="καί">καὶ</w> <w>μεγάλα</w> <w lemma="καί">καὶ</w> <w>παρ᾿</w> <w>ὃν</w> <w>ἔζη</w> <w>χρόνον</w> <milestone unit="block"/> <w>παρασχόντα</w> <w lemma="καί">καὶ</w> <w>ἀναθέντα</w> <w lemma="ὁ">τῇ</w> <w lemma="τε">τε</w> <w lemma="θεός">θεῷ</w> <milestone unit="block"/> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῇ</w> <w lemma="πατρίς">πατρίδι</w> <w>εἴς</w> <w lemma="τε">τε</w> <w>θυσίας</w> <w lemma="καί">καὶ</w> <w>ἑστιάσεις</w> <w lemma="ὁ">τῶν</w> <space extent="3" unit="character" dim="horizontal"/>  <cb n="3"/><lb n="3"/><w><supplied reason="lost">π</supplied>ολειτῶν</w> <w lemma="καί">καὶ</w> <w lemma="εἰς">εἰς</w> <w>τὰς</w> <w><supplied reason="lost">αἰων<milestone unit="block"/><milestone unit="block"/>ίους</supplied></w>  <w><supplied reason="lost">γυμνασιαρ</supplied>χίας</w> <w lemma="καί">καὶ</w> <w>στεφανηφορίας</w> <w lemma="καί">καὶ</w> <w lemma="διά">διὰ</w><milestone unit="block"/> <w lemma="ὁ">τῆς</w> <w>διαθηκῆς</w> <w>σχ<supplied reason="lost">εδὸν</supplied></w> <w lemma="πᾶς">πᾶσαν</w> <w lemma="ὁ">τὴν</w> <w>οὐσ|<supplied reason="lost">ία</supplied>|ν</w>  <w>καταλιπόντα</w>  <w lemma="ὁ">τῇ</w>  <w lemma="πατρίς">πατρίδι</w>  <g type="leaf"/>    <space extent="3" unit="character" dim="horizontal"/>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>The Council and the People and the Gerousia and the Young Men honoured Attalos Adrastos, son of Adrastos son of Neikoteimos son of Artemidoros son of Zenon Hierax, gymnasiarch, and stephanephorus in perpetuity, having given and dedicated, during his life time, many and great things to both the Goddess and his fatherland, for both sacrifices and feasts for the citizens, and for perpetual gymnasiarchies and stephanephorates, and, by his will, having left nearly all his wealth to his fatherland.</p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p><!--The text is identical to <xref type="iAph">570</xref>.--></p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Theatre</rs>: stage area</rs>
+<rs type="origLocation"><rs type="monuList">Theatre</rs> proskeneion frieze. at north end. Inscribed on the blocks which make up the cornice, of the Doric order, above <xref type="iAph">536</xref>,  the inscription of Zoilos, across the back of the Theatre stage. The blocks have simple moulding above, supporting water spouts in the form of lions' heads; the underside has a decoration of mutules. </rs>
+<rs type="lastLocation">Findspot, restored at north end.</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1967 (a: <rs type="invNo">67.540</rs>; b: <rs type="invNo">67.541</rs>&amp; <rs type="invNo">67.542</rs>; c: <rs type="invNo">67.543</rs>; d: <rs type="invNo">67.544</rs> &amp; 545))</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div><div type="figure" n="photographs"><head>Photographs</head><p><figure href="89_E_11A"><figDesc>Assembled, in situ (1989)</figDesc></figure></p><p>?Others? KTE</p></div></body></text>
+</TEI.2>

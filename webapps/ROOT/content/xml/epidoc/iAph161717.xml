@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161717">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for Teimokles, son of Apollonios</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-06</date><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>Three fragments (not joining) from two adjoining <rs type="material">white marble</rs> <rs type="objectType">block</rs>s, with upper edge surviving, badly chipped. Height of all three <measure dim="height" type="length" unit="metre">0.295</measure>. a:: broken at both sides, <measure dim="width" type="length" unit="metre">0.19</measure> x <measure dim="depth" type="length" unit="metre">0.25</measure>; b: broken at left, chipped at right, <measure dim="width" type="length" unit="metre">0.67</measure> x <measure dim="depth" type="length" unit="metre">0.67</measure>; c: <measure dim="width" type="length" unit="metre">0.18</measure> x <measure dim="depth" type="length" unit="metre">0.24</measure>.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.02</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date cert="low" exact="none" notAfter="0100" notBefore="0001">First century A.D.</date>
+ <rs type="criteria">lettering</rs></p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>    <supplied reason="lost" cert="low"><space extent="2"/></supplied> <w><unclear reason="damage">ἡ</unclear></w> <w>γε<supplied reason="lost">ρου</supplied><unclear reason="damage">σί</unclear><supplied reason="lost">α</supplied></w>  <supplied reason="lost">καὶ</supplied>  <supplied reason="lost">ἡ</supplied>  <supplied reason="lost">βουλὴ</supplied>  <supplied reason="lost">καὶ</supplied>  <supplied reason="lost">ὁ</supplied>  <w lemma="δῆμος"><supplied reason="lost">δῆ</supplied>μ<supplied reason="lost">ος</supplied></w>  <w lemma="τιμάω"><supplied reason="lost">ἐτ</supplied>είμ<supplied reason="lost">η</supplied><unclear reason="damage">σ</unclear><supplied reason="lost">αν</supplied></w> <w lemma="ὁ">ταῖς</w> <w>κα<supplied reason="lost">λλισ</supplied><lb n="2" type="worddiv"/><supplied reason="lost">ταις</supplied></w>  <w lemma="καί"><supplied reason="lost">κ</supplied>αὶ</w> <w>μεγίσταις</w> <w>τ<supplied reason="lost">ειμαῖς</supplied></w>  <supplied reason="lost"><g type="star"/></supplied>  <persName type="aphrodisian"><name><supplied reason="lost">Τειμοκ</supplied>λέα</name> <persName type="aphrodisian"><name reg="Ἀπολλώνιος ">Ἀπολλωνίου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ὑψικλῆς">Ὑψικλ<supplied reason="lost">έους</supplied></name></persName></persName></persName>  <lb n="3"/><supplied reason="lost" cert="low">vac.</supplied> <w lemma="ἀνήρ">ἄνδρα</w> <w lemma="σοφός">σοφὸν</w> <w>καλ<supplied reason="lost">ὸν</supplied></w>  <supplied reason="lost">καὶ</supplied>  <supplied reason="lost">ἀγαθὸν</supplied>  <w><supplied reason="lost">γ</supplied>ένους</w> <w lemma="πρῶτος">πρώτου</w> <w lemma="καί">καὶ</w> <w lemma="ἔνδοξος">ἐνδοξοτ<supplied reason="lost">άτου</supplied></w>  <lb n="4"/><w><supplied reason="lost">γυμνα</supplied><unclear reason="damage">σ</unclear>ιαρχήσαντα</w>  <w lemma="καί">κα<supplied reason="lost">ὶ</supplied></w>  <w><supplied reason="lost">στεφανηφορήσ</supplied>αντα</w> <w>μεγαλοψύχως</w> <w lemma="καί">καὶ</w> <w>φιλο<supplied reason="lost">δόξως</supplied></w>  <lb n="5"/><w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w>ἀρχιερατεύσαντ<supplied reason="lost">α</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>  <w><supplied reason="lost">Ἀυτοκρά</supplied><unclear reason="damage">τ</unclear>όρος</w> <w lemma="καί">καὶ</w> <w>ἀγωνοθετήσαντα</w> <w lemma="καί">κα<supplied reason="lost">ὶ</supplied></w>  <w><supplied reason="lost">δὶς</supplied></w>  <lb n="6"/><w><supplied reason="lost">ἑστι</supplied><unclear reason="damage">ά</unclear>σαντα</w> <w lemma="ὁ">τὸν</w> <w>δῆμ<supplied reason="lost">ὸν</supplied></w>  <supplied reason="lost">καὶ</supplied>  <supplied reason="lost">πάντα</supplied> <w>ποιήσαντα</w> <w>μεγαλομερῶς</w> <w lemma="λαμπρός">λα<unclear reason="damage">μ</unclear><supplied reason="lost">πρ</supplied><lb n="7" type="worddiv"/><supplied reason="lost">ότα</supplied><unclear reason="damage">τ</unclear>α</w> <w lemma="καί">καὶ</w> <w>πολυτελε<supplied reason="lost">στατα</supplied></w>  <w lemma="ἐκ"><supplied reason="lost">ἐκ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῶ</supplied>ν</w> <w>ἰδίων</w> <w>ἀξίως</w> <w lemma="καί">καὶ</w> <w>ἀναλογούντω<supplied reason="lost">ς</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῇ</supplied></w>  <lb n="8"/>  <space extent="3" unit="character" dim="horizontal"/><w lemma="πατρίς">πα<supplied reason="lost">τρίδι</supplied></w>  <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>  <w><supplied reason="lost">γ</supplied>ένει</w><g type="leaf"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p> ...</p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Restored from the twin text, <xref type="iAph">1765</xref>, which was last seen in 1750.</p><p>For the dedicating bodies, compare MAMA 488</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found">a and c: stray in 1964 and 1982; b: <rs type="monuList">South Agora, Agora Gate</rs>: in excavations of west facade of the Agora Gate.</rs>
+<rs type="lastLocation">Museum (1990)</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition between 1964 and 1982 (a: <rs type="invNo">64.117</rs>; b: <rs type="invNo">75.198</rs>; c. no number)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_S_07"><figDesc>a (1977)</figDesc></figure><figure href="75_K_07A"><figDesc>b (1975)</figDesc></figure><figure href="90_C_04A"><figDesc>c (1990)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

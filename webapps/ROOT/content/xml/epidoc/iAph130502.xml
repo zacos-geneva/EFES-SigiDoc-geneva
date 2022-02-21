@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130502" n="iAph0379 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m">  <rs type="textType" reg="funerary">Funerary</rs> inscriptions for Tatis and Herodotos (mother and child)</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-04-17</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date>2005-07-27</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material" key="marmor">White marble</rs> <rs type="objectType">block</rs> with a narrow rebate at either side of face (<measure type="length" unit="metre" dim="width">0.485</measure>   ×  <measure type="length" unit="metre" dim="height">0.56</measure>   ×  <measure type="length" unit="metre" dim="depth">0.58</measure>).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro"> Inscribed</rs> on the face; surface to left in area between ll. 4 and 5 has been scratched but suggestion of letters on the photograph is probably misleading.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.025 – 0.03</measure></p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p> <date notAfter="-0001" notBefore="-0125" exact="none" cert="low">Late Hellenistic to Augustan</date> (<rs type="criteria">lettering</rs>); perhaps even second century B.C.</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="1"/><persName type="aphrodisian" full="yes"><name reg="Τατι">Τατι</name>  <persName type="aphrodisian" full="yes"><name reg="Περιγένης">Περιγένου</name></persName>  <w lemma="γυνή">γυ<lb n="2" type="worddiv"/>νὴ</w>  <w lemma="δέ">δὲ</w>  <persName type="aphrodisian" full="yes"><name reg="Ἀπολλώνιος">Ἀπολλωνίου</name></persName></persName>  <lb n="2a"/><space extent="1" unit="line" dim="horizontal"/><lb n="3"/><persName type="aphrodisian" full="yes"><name reg="Ἡρόδοτος">Ἡρόδοτε</name>  <persName type="aphrodisian" full="yes"><name reg="Ἀπολλώνιος">Ἀπολλ<lb n="4" type="worddiv"/>ωνίου</name></persName></persName>  <lb n="4a"/><space extent="1" unit="line" dim="horizontal"/><lb n="5"/><w lemma="χαίρω">χαίρετε</w></ab>
+</div>
+
+
+
+<div type="translation">
+<head>Translation</head>
+<p>Tatis, daughter of Perigenes and wife of Apollonios; Herodotos son of Apollonios.</p><p>Farewell.</p></div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>That mother and son are buried together suggests death in childbirth, but subsequent illness also remains possible.</p><p>Of the names, Tatis is one of the names of indigenous origin widely disseminated in Asia Minor (see Zgusta 1517, especially section 7, Blumeh 1992, p. 25; for this vocative, SEG 6.345, MAMA I, 159, 202; MAMA 7, 96.I.339). The other three names are Greek: Apollonios, which is quite common at Aphrodisias, Perigenes and Herodotos, which are, at present, the only examples found there.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">Necropolis, South-west</rs>: 'In a Reservoir 3 km west of the wall' (MAMA); found built into the wall of a house c. 2 km south of New Geyre, in 1976 (NYU)</rs><rs type="origLocation">Unknown, probably necropolis</rs><rs type="lastLocation">Findspot (1976)</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the MAMA expedition; by the NYU expedition in 1976.</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published from the MAMA records  by <bibl n="MAMA8" type="primary">Cormack, MAMA 8, no <biblScope>533</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257413">533</biblScope></bibl>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); publication.</p>
+</div><div type="figure" n="photographs"><head>Photographs</head><p><figure href="76_E_01"><figDesc>Face (1976)</figDesc></figure><figure href="76_E_02"><figDesc>Text (1976)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

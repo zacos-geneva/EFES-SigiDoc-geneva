@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121109" n="iAph1615 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> inscription for Chares son of Zenon</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>A rectangular <rs type="objectType">block</rs> (<measure dim="width" type="length" unit="metre">1.045</measure> x <measure dim="height" type="length" unit="metre">0.76</measure>; depth not measurable).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the exposed face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.03</measure>. Ligatures: l. 1,  ΜΝΗ; l. 8,  ΜΗ; l. 10,  ΜΗ, ΝΜΗ, ΤΗ; l. 15,  ΜΗΝ</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">τὸ</w> <w lemma="μνημεῖον">μνημεῖον</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> <w>ἐπ᾿</w><w lemma="αὐτός">αὐτῷ</w> <w lemma="σορός">σορός</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="2"/> <persName type="aphrodisian"><name reg="Χάρης">Χάρητος</name> <w lemma="τετράκις">τετράκι</w> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ζήνων">Ζήνωνος</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Ἀρτέμων">Ἀρτέμω<lb n="3" type="worddiv"/>νος</name> <name reg="Αἰνείας">Αἰνείου</name></persName></persName></persName> <space extent="1" unit="character" dim="horizontal"/> <w lemma="εἰς">εἰς</w> <w lemma="ὅς">ἣν</w> <w lemma="σορός">σορὸν</w> <w lemma="κηδεύω">κεκήδευται</w> <persName type="aphrodisian"><name reg="Χάρης">Χάρης</name></persName> <lb n="4"/> <w lemma="ὁ">ὁ</w> <w lemma="πατήρ">πατὴρ</w> <w lemma="ὁ">ὁ</w> <persName type="aphrodisian"><name reg="Αἰνείας">Αἰνείου</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Χάρης">Χάρης</name></persName> <w lemma="καί">καὶ</w><persName type="aphrodisian"> <name reg="Ἀπφία">Ἀπφία</name></persName> <w lemma="ὁ">οἱ</w> <w lemma="πάππος">πάππο<app type="previouslyread"><rdg resp="previous">ι</rdg><rdg resp="autopsy"><gap reason="lost" extent="1" unit="character"/></rdg></app></w> <lb n="5"/> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Γλύκων">Γλύκων</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="θεῖοσ1">θεῖος</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="μόνος">μόνων</w> <w lemma="ἐπικηδεύω">ἐ<unclear reason="damage">πὶ</unclear>κη<lb n="6" type="worddiv"/>δευθησομένων</w> <persName type="aphrodisian"><name reg="Ἀπφία">Ἀπφίας</name></persName> <w lemma="ὁ">τῆς</w> <w lemma="μήτηρ">μητρὸς</w> <w lemma="ὁ">τῆς</w> <persName type="aphrodisian"><name reg="Αἰνείας">Αἰ<lb n="7" type="worddiv"/>νείου</name></persName> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Αἰνείας">Αἰνείου</name></persName> <w lemma="καί">καὶ</w> <w lemma="ὁ">τῆς</w> <w lemma="γυνή">γυναικὸς</w> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="καί">καὶ</w> <lb n="8"/> <w lemma="φυσικός">φυσικῶν</w> <w lemma="τέκνον">τέκνων</w> <w lemma="αὐτός">αὐτοῦ</w> <space extent="1" unit="character" dim="horizontal"/> <w lemma="μηδείς">μηδενὸς</w> <w lemma="ἔχω">ἔ<lb n="9" type="worddiv"/>χοντος</w> <w lemma="ἐξουσία">ἐξουσίαν</w> <w lemma="ἄλλος">ἄλλον</w> <w lemma="τις">τινὰ</w> <w lemma="ἐνθάπτω">ἐνθάψα<app type="previouslyread"><rdg resp="previous">ι</rdg><rdg resp="autopsy"><gap reason="lost" extent="1" unit="character"/></rdg></app></w> <lb n="10"/> <w lemma="μήτε">μήτε</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὸν</w> <w lemma="βωμός">βωμὸν</w> <w lemma="μήτε">μήτε</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὴν</w> <w lemma="σορός">σορὸν</w> <lb n="11"/> <w lemma="ἐπεί">ἐπεὶ</w> <w lemma="ὁ">ὁ</w> <w lemma="ἐνθάπτω">ἐνθάψας</w> <w lemma="ἀποτίνω">ἀποτεισάτω</w> <w lemma="ὁ">τῷ</w> <w lemma="ἱερός">ἱερωτάτῳ</w> <w lemma="ταμεῖον">τα<lb n="12" type="worddiv"/>μείῳ</w> <w lemma="δηνάριον"><expan><abbr><orig><g type="denarius"/></orig></abbr><supplied reason="abbreviation">δηνάρια</supplied></expan></w> <w lemma="δισχειλιος">δισχείλια</w> <w lemma="πεντακόσιοι">πεντακόσια</w> <w lemma="οὗτος">ταύτη<app type="previouslyread"><rdg resp="previous">ς</rdg><rdg resp="autopsy"><gap reason="lost" extent="1" unit="character"/></rdg></app></w> <lb n="13"/> <w lemma="ὁ">τῆς</w> <w lemma="ἐπιγραφή">ἐπιγραφῆς</w> <w lemma="ἀποτίθημι">ἀπετέθη</w> <w lemma="ἀντίγραφον">ἀντίγραφον</w> <w lemma="εἰς">εἰς</w> <w lemma="ὁ">τὸ</w> <w lemma="χρεωφυλάκιον">χρ<unclear reason="damage">ε</unclear><lb n="14" type="worddiv"/>οφυλάκιον</w> <w lemma="ἐπί">ἐπὶ</w> <w lemma="στεφανηφόρος">στεφανηφόρου</w> <w lemma="ὁ">τὸ</w> <num value="9">θ</num> <persName type="aphrodisian"><name reg="Ἀτταλίς">Ἀττα<lb n="15" type="worddiv"/>λίδος</name> <w lemma="ὁ">τῆς</w> <persName type="aphrodisian"><name reg="Μενεκράτης">Μενεκράτους</name></persName></persName> <w lemma="μείς">μηνὸς</w> <rs type="month"><w lemma="Γορπιαῖος">Γορπιέου</w></rs> </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 9· Letters highlighted were seen by Waddington, but not by us.</p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p>No translation yet (2007)</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p>No commentary yet (2007)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">Walls, North-west</rs>: in the standing stretch of wall north of the West gate with <xref type="inscription" n="1550" href="121102">12.1102</xref>, <xref type="inscription" n="1548" href="121112">12.1112</xref> (=MAMA 461, 552)</rs>
+<rs type="lastLocation">Findspot (1973)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); notebooks; publications.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Fellows; by Waddington in 1850; by Kubitschek (K III.6d); by the NYU expedition.
+</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>
+Published by <bibl type="hbi" rend="primary" n="fellows1841"><author>Fellows</author> <biblScope>54</biblScope></bibl>, whence <bibl n="CIGIIc">CIG <biblScope>2837b</biblScope>, p.1117</bibl>; <bibl n="bailie1846">Bailie no.<biblScope>76</biblScope></bibl>; by Waddington <bibl n="LBW">LBW <biblScope>1634</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257293">415</biblScope></bibl>.</p>
+</div>
+
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="73_P_20A"><figDesc>Face (1973)</figDesc></figure></p>
+</div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="K_III_06d"><figDesc>Kubitschek notebook III, 6d</figDesc></figure></p></div></body></text>
+</TEI>

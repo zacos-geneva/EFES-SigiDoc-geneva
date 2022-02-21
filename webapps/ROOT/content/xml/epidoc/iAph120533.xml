@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120533" n="iAph1779 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for Aelia Laevilla</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>
+No description; presumably a <rs type="objectType" cert="low">statue base</rs> 
+</p>
+
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>No description</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Ligatures: <foreign lang="grc">ΤΗ</foreign> l.3</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p><date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">nomenclature</rs>, <rs type="criteria">titulature</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <persName type="aphrodisian"><name reg="Αἰλία">Αἰλίαν</name> <name reg="Λαίβιλλα">Λαιβίλλαν</name></persName> <lb n="2"/> <placeName reg="Ἀσία">Ἀσίας</placeName> <w lemma="ἀρχιέρεια">ἀρχιέρειαν</w> <lb n="3"/> <w lemma="καί">καὶ</w> <w lemma="κοσμήτειρα">κοσμήτειραν</w> <w lemma="ὁ"><hi rend="ligature">τῆ</hi>ς</w> <lb n="4"/> <persName type="divine"><w lemma="Εφέσιος">Εφεσίας</w> <name reg="Ἄρτεμις">Ἀρτέμιδος</name></persName> <lb n="5"/> <w lemma="καί">καὶ</w> <w lemma="ἀρχιέρεια">ἀρχιέρειαν</w> <w lemma="ὁ">τῆς</w> <lb n="6"/> <w lemma="λαμπρός">λαμπροτάτης</w> <placeName reg="Ἀφροδεισιεύς"><w lemma="Ἀφροδεισιεύς">Ἀφρο<lb n="7" type="worddiv"/>δισ<unclear reason="damage">ιέ</unclear>ων</w></placeName> <w lemma="πόλις">πόλεως</w> <lb n="8"/> <w lemma="γυνή">γυναῖκα</w> <w lemma="γίγνομαι">γενομένην</w> <lb n="9"/> <persName type="aphrodisian"><name reg="Σεπτίμιος">Σεπτιμίου</name> <name reg="Ὑψικλῆς">Ὑψικλέους</name></persName> <lb n="10"/>  <space extent="3" unit="character" dim="horizontal"/> <w lemma="ἀρχιερεύς">ἀρχιερέως</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="11"/> <persName type="aphrodisian"><name reg="Σεπτιμία">Σεπτιμία</name> <name reg="Αἰλία">Αιλία</name> <name reg="Φλάβιος">Φλα</name> <lb n="12"/><gap reason="lost" extent="2" unit="character"/><orig n="unresolved">ι</orig>  <name reg="Λαίβιλλα">Λαιβίλλα</name></persName> <gap reason="lost" extent="1" unit="character"/> <w lemma="ὁ">αἱ</w> <w lemma="θυγάτηρ">θυγατ<unclear reason="damage">έ</unclear>ρ<unclear reason="damage">ε</unclear>ς</w> </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 7, <foreign lang="grc">ΣΕΙΩΝ</foreign> S.</p><p>ll. 11-12, It is not clear whether the stops in the MS after each name indicate stops on the stone or missing letters. Boeckh restored <foreign lang="grc">Φλα<supplied reason="lost">βία</supplied> Λαιβίλλα<supplied reason="lost">ι</supplied></foreign></p><p>l. 12, <foreign lang="grc">ΤΗΡΗΣ</foreign></p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p>No translation yet (2007)</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> No commentary yet (2007)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">Walls, South-east</rs>: south of the east gate 'to ye south of ye east gate, on ye wall' (Sherard) near <xref type="inscription" n="1031" href="120325">12.325</xref>, <xref type="inscription" n="1014" href="120307">12.307</xref> (=MAMA 501, 480)</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Sherard papers; publications.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by Sherard in 1705 (10101, 16). Not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>, Published by <bibl n="CIGII">Boeckh, from Sherard papers, CIG <biblScope>2823</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257104">225</biblScope>
+</bibl>.</p>
+</div></body></text>
+</TEI>

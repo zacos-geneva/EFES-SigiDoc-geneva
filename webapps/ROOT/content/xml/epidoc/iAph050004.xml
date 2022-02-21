@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050004" n="iAph1636 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="prohibition">Warning</rs> against theft</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="objectType">Pilaster</rs> block.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> (<measure type="length" unit="metre" dim="width">0.29</measure>  × <measure type="length" unit="metre" dim="height">0.175</measure>) at <measure dim="height" type="length" unit="metre">2.30</measure> above present ground level.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>
+<measure type="length" unit="metre" dim="height">0.02</measure>; Second to third centuries A.D. standard forms</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date>
+ (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ἐάν">ἐάν</w> <w lemma="τις">τις</w> <w lemma="ἔχω">ἔχων</w> <lb n="2"/> <w lemma="χαλκός">χαλκὸν</w> <w lemma="μή">μὴ</w> <w lemma="παραδείκνυμι"><choice type="correction"><sic resp="ιι"/><corr>π</corr></choice>α<lb type="worddiv" n="3"/>ραδείξῃ</w>  <w lemma="ἤτε">ἢτε</w> <w lemma="ἐν">ἐν</w> <lb n="4"/> <w lemma="φοῦνδα">φούνδῃ</w> <w lemma="ἤτε">ἢτε</w> <w lemma="ἐν">ἐν</w> <lb n="5"/> <w lemma="κάμπιστρον">καμπίστρῳ</w> <w lemma="αὐτός">αὐ<lb type="worddiv" n="6"/>τὸν</w>  <w lemma="αἰτιάομαι">αἰτιάσεται</w> </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 2, <foreign lang="grc">ΙΙ</foreign> for <foreign lang="grc">Π</foreign>.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>If anyone having money (on him), whether in purse or belt, does not present it, it will be his own responsibility.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Another version of the text is <xref type="inscription" n="1722" href="050102">5.102</xref> (=Baths 1).</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Hadrianic Baths</rs>: on the east face of the second square column from the East at the north gate of the Baths.</rs>
+<rs type="origLocation">Findspot</rs>
+<rs type="lastLocation">Findspot (1972)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); notebooks.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Seen and copied by Kubitschek (K III, 46; Abklatsch: 37). Recorded by Gaudin (74 and 140). Copied by Boulanger in 1905 (notebook p.39); recorded by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="kubreich1893">K&amp;R, no. <biblScope>3</biblScope></bibl>, <bibl n="reinach">Reinach (from Gaudin), <biblScope>17</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257817">930</biblScope>
+</bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="HUMS003596"><figDesc>Face (2001)</figDesc></figure><figure href="HUMS003597"><figDesc>Face (2001)</figDesc></figure></p>
+</div><div type="figure" n="transcriptions">
+<head>Representations</head>
+<p><figure href="K_III_46"><figDesc>Kubitschek notebook III, 46</figDesc></figure><figure href="gaudin_0053"><figDesc>Gaudin squeeze </figDesc></figure><figure href="Boulanger_A_39"><figDesc>Boulanger notebook A, 39</figDesc></figure></p>
+</div></body></text>
+</TEI>

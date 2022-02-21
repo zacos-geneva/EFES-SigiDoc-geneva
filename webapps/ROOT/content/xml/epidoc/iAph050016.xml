@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph050016" n="iAph0085 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m">First <rs type="textType">honours</rs> for Rhodopaios, in <rs type="textType">verse</rs></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+		<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change>
+  <date>2003-07-18</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2003-08-24</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-01-10</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>A rectangular <rs type="objectType"><rs type="objectType">statue base</rs> shaft</rs>, without moulding, of <rs type="material" key="marmor">bluish marble</rs>, chipped at upper right corner, and broken in two (<measure precision="circa" type="length" unit="metre" dim="height">1.53</measure> × <measure type="length" unit="metre" dim="width">0.50</measure> × <measure type="length" unit="metre" dim="depth">0.37</measure>).</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>The inscription is laid out with unusual elegance: the epigram itself is cut within a decorative margin, and each couplet is inscribed in four lines (five for the third) with each line starting slightly to the right of the one above, but returning to the margin at the start of the next couplet.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>l. 1. <measure type="length" unit="metre" dim="height">0.04</measure>; ll. 2 - 14, 0025, l. 13. <measure type="length" unit="metre" dim="height">0.05</measure>; neat and rounded, very similar to <xref type="inscription" n="88" href="050018">5.18</xref>, except for l.1, which is in an angular hand, more like that of <xref type="inscription" n="86" href="050017">5.17</xref> and <xref type="inscription" n="87" href="110515">11.515</xref>.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0600" exact="none" notBefore="0501">Sixth century</date> (<rs type="criteria">prosopography</rs>).</p>
+      </div>
+
+      <div lang="grc" n="text" type="edition">
+        <head lang="en">Edition</head>
+		
+		<lg met="elegaic">
+		<lb n="1"/><l n="0"><persName type="divine" key="agty" full="yes"><w lemma="ἀγαθός">Ἀγαθῇ</w> <w lemma="τύχη">Τύχ<supplied reason="lost">ῃ</supplied></w></persName>·</l><lb n="2"/>
+		<l met="hexameter" n="1"><w lemma="πολύς">πολλὰ</w> <w lemma="μέν">μέν</w>, <w lemma="ὦ">ὦ</w> <persName key="Rhodopaeus" type="aphrodisian" full="yes"><name reg="Ῥοδοπαῖος">Ῥοδοπαῖε</name></persName>,
+		<lb n="3"/><w lemma="σός">τεῇ</w> <w lemma="δωρέομαι">δωρήσαο</w> <w lemma="πάτρη">πάτρῃ</w></l>
+		<lb n="4"/>
+		<l n="2" met="pentameter"><w lemma="πολύς">πολλὰ</w> <w lemma="ὁ">τὰ</w> <w lemma="μήτε">μήτε</w> <w lemma="λέγω">λέγειν</w>
+		<lb n="5"/><w lemma="εὔκολος">εὔκολα</w> <w lemma="μήτε">μήτ'</w> <w lemma="ἀριθμέω">ἀριθμεῖν</w>·</l>
+		<lb n="6"/>
+		<l n="3" met="hexameter"><w lemma="ὁ">ἡ</w> <w lemma="δέ">δὲ</w> <rs type="subject" key="city"><w lemma="πόλις">πόλις</w></rs> <w lemma="σύ">σε</w>, <rs type="official-secul" key="pater"><w lemma="πατήρ">πάτερ</w></rs>,
+		<lb n="7"/><w lemma="μέγας">μεγάλαις</w> <w lemma="δωρέομαι">δωρήσατο</w> <w lemma="τιμή">τιμαῖς</w></l>
+		<lb n="8"/>
+		<l n="4" met="pentameter"><w lemma="ἱδρύω">ἱδρύσασα</w> <w lemma="τεός">τεὴν</w> <w lemma="εἰκών">εἰκόνα</w>
+		<lb n="9"/><w lemma="μαρμάρεος">μαρμαρ<unclear reason="damage">έη</unclear>ν</w></l>
+		<lb n="10"/>
+		<l n="5" met="hexameter"><w lemma="ὅπως">ὅππως</w> <w lemma="μήτε">μήτ'</w> <w lemma="ὁ">ὁ</w> <w lemma="χρόνος">χρόνος</w>
+		<lb n="11"/><w lemma="ὁ">τὴν</w> <w lemma="σός">σήν</w>, <w lemma="πολυφίλτατος">πολυφίλτατε</w>,
+		<lb n="12"/><w lemma="μορφή">μορφὴν</w></l>
+		<l met="pentameter" n="6"><w lemma="μηδείς">μηδὲν</w>
+		<lb n="13"/><w lemma="ἀμαυρόω">ἀμαυρώσῃ</w> <w lemma="λήθη">λήθῃ</w>
+		<lb n="14"/><w lemma="ἐπισκιάζω">ἐπισκιάσας</w>.</l>
+		<lb n="14a"/><l n="6a"><space dim="horizontal" extent="1" unit="line"/></l><lb n="15"/><l n="6b"><w lemma="εὐτυχής">ἐυτυχῶς</w>.</l></lg>
+		
+	  </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>To Good Fortune. You have made many presents to your country, Rhodopaios, so many that they are not easy to say or to count; and the city has presented you with great honours, father, having set up your image in <rs type="material" key="marmor">marble</rs> so that time may not obscure your image - you who are loved by many - overshadowing it with forgetfulness. With good fortune!</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>For Rhodopaeus, see <xref type="inscription" n="86" href="050017">5.17</xref>, <xref type="inscription" n="87" href="110515">11.515</xref>, and discussion at <xref type="eAla-text" n="VI.26">VI.26</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList" key="HadrBath">Hadrianic Baths, East Court</rs>: '<foreign lang="fr">Face E<supplied reason="abbreviation">st</supplied> du pylône N<supplied reason="abbreviation">ord</supplied></foreign>' (Boulanger).</rs>. Original location: <rs type="origLocation"><rs type="monuList" key="HadrBath" cert="low">Hadrianic Baths</rs></rs>. Last recorded location: <rs type="lastLocation">Lying loose in the East Court of the Hadrianic Baths.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by <rs type="visitor" key="boulanger">Boulanger</rs>, <date>16 October 1913</date> (notebook A, 69 no. 6, whence B, 31, no. 6; recorded by <rs type="visitor" key="robert">J. and L. Robert</rs>; recorded by the NYU expedition.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="hell4"><author>L. Robert</author>, <title level="j">Hellenica</title> 4, <biblScope>127</biblScope> and plate vii</bibl>,  from Boulanger and his own copy, whence <bibl n="be"><title level="j">BE</title> <biblScope>1949.178</biblScope></bibl>, <bibl n="be"><title level="j">BE</title> <biblScope>1972.473</biblScope></bibl>; by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>85</biblScope> and plate xxi</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257614">727</biblScope></bibl>, <bibl type="hbi" n="steinepig"><title level="m">Steinepigramme</title> <biblScope>02/09/22</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Boulanger notebooks; publications; transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs"><head>Photographs</head><p><figure href="72_B_11A"><figDesc>Upper part (1972)</figDesc></figure><figure href="72_B_12A"><figDesc>Lower part (1972)</figDesc></figure><figure href="NY_94_56_28"><figDesc>Top of base (1994)</figDesc></figure></p></div><div type="figure" n="transcriptions"><head>Representations</head><p><figure href="Boulanger_A_69"><figDesc>Transcription by Boulanger, Notebook A, p. 69</figDesc></figure></p></div>
+
+      
+
+    </body>
+  </text>
+</TEI>

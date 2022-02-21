@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080508" n="iAph0077 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m">Fragmentary <rs type="textType">acclamation</rs>s</title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+		<language id="en">English</language>
+		<language id="fr">French</language>
+		<language id="de">German</language>
+		<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+		<language id="el">Modern Greek</language>
+		
+		<language id="it">Italian</language>
+		<language id="la">Latin</language>
+		<language id="es">Spanish</language>
+		<language id="tr">Turkish</language>
+	  </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change>
+  <date>2004-03-24</date>
+  <respStmt>
+    <name>Gabriel Bodard</name>
+  </respStmt>
+  <item>Completed lemmatisation, checked figure ids, tagged keywords</item>
+</change>
+<change>
+  <date>2003-11-04</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Corrected errors in Greek</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  
+  
+  <change><date>2003-08-24</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change>
+  <date>2003-07-17</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>lemmatised</item>
+  </change><change><date>2004-01-28</date><respStmt><name>CMR</name></respStmt><item>tidied; image refs</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Seven <rs type="objectType" reg="column">column</rs>s (i, <measure dim="none">0.54</measure> diam.; others all <measure dim="none">0.29-0.30</measure> diam.)
+of <rs type="material" key="marmor">blue marble</rs>, mostly broken at both ends. All showed traces of white
+plaster, apparently applied to form a panel.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p>Painted in red on the plaster within a painted square. As
+in <xref type="inscription" n="75" href="080408">8.408</xref> and <xref type="inscription" n="78" href="080268">8.268</xref>, there
+seem to be several layers of plaster and of script. Decipherment is
+made more difficult by the condition of the surface after re-use in
+the wall. On only three of the columns could anything of substance be
+discerned: the readings are fragmentary and unsatisfactory.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+		<p>See text below.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date exact="none" cert="low" notBefore="0401" notAfter="0600">Fifth to sixth centuries A.D.</date> (<rs type="criteria">terminology</rs>).</p>
+      </div>
+
+      <div type="edition" lang="grc">
+        <head lang="en">Edition</head>
+		<div type="textpart_section" n="i"><note lang="en" place="not specified" anchored="yes">A complete column (dia. <measure dim="diameter" type="length">0.54</measure>, H. <measure type="length" unit="metre" dim="height">2.14</measure>). On the lowest discernible level of plaster, there are traces of letters and a cross.</note>
+		  <div type="textpart_fragment" n="a"><note lang="en" place="not specified" anchored="yes">The second level (letters <measure type="length" unit="metre" dim="height">0.03</measure>)</note><ab>
+		  
+		 <lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">η<unclear reason="damage">λ</unclear></orig><gap dim="internal" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ασν<unclear reason="damage">ι</unclear></orig>
+		 <lb n="2"/><rs type="dignity" key="magnificentissimus"><w lemma="μεγαλοπρεπής"><expan><abbr><supplied reason="lost">μεγα</supplied>λοπρ</abbr><supplied reason="abbreviation">επεστατ-</supplied></expan></w></rs>
+		 <lb n="3"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ων</unclear></orig><gap dim="internal" reason="lost" extent="3" unit="character"/><orig n="unresolved">τικ</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="4"/><w lemma="πολύς"><supplied reason="lost">πολ</supplied>λὰ</w> <rs key="acclamations" type="subject"><w lemma="ὁ"><supplied reason="lost">τὰ</supplied></w> <w lemma="ἔτος">ἔτ<supplied reason="lost">η</supplied></w></rs></ab></div><div type="textpart_fragment" n="b"><note lang="en" place="not specified" anchored="yes">The uppermost layer (letters <measure type="length" unit="metre" dim="height">0.04</measure>)</note><ab>
+		 <lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ων</unclear></orig><gap dim="internal" reason="lost" extent="unknown" unit="character"/><seg cert="low"><orig n="unresolved">η</orig></seg><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear>ουν</orig>
+		 <lb n="3"/><unclear reason="damage">ο</unclear><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="4"/><orig n="unresolved"><unclear reason="damage">ι</unclear>α</orig><gap dim="internal" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">υ<unclear reason="damage">ιο</unclear></orig>
+		 <lb n="5"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ω</unclear></orig></ab></div>
+		</div><div type="textpart_section" n="ii"><note lang="en" place="not specified" anchored="yes">A column broken at both ends (diam. <measure dim="diameter" type="length">0.305</measure>, H. <measure type="length" unit="metre" dim="height">1.42</measure>). Letters: <measure type="length" unit="metre" dim="height">0.045-0.05</measure></note>
+		  <div type="textpart_fragment" n="a"><ab>
+		  <note lang="en" place="not specified" anchored="yes">The lowest level</note>
+		 <lb n="1"/><rs type="subject" key="acclamations"><w lemma="πολύς">πολλὰ</w>
+		 <lb n="2"/><w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔ<supplied reason="lost">τη</supplied></w></rs>
+		 <lb n="3"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/></ab></div><div type="textpart_fragment" n="b"><note lang="en" place="not specified" anchored="yes">The second level</note><ab>
+		 <lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">δο</orig>
+		 <lb n="2"/><gap dim="internal" extent="1" reason="lost" unit="line"/>
+		 <lb n="3"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">χο</orig>
+		 <lb n="4"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/>
+		  </ab></div><div type="textpart_fragment" n="c"><note lang="en" place="not specified" anchored="yes">The uppermost level</note><ab>
+		 <lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear>ο</orig>
+		 <lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">α</orig>
+		 <lb n="3"/><gap dim="internal" extent="1" reason="lost" unit="line"/>
+		 <lb n="4"/><orig n="unresolved">ο</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		  </ab></div></div>
+		<div type="textpart_section" n="iii"><note lang="en" place="not specified" anchored="yes">A column broken at both ends (diam. <measure dim="diameter" type="length">0.31</measure>, H. <measure type="length" unit="metre" dim="height">1.26</measure>). Letters <measure type="length" unit="metre" dim="height">0.045-0.05</measure></note>
+		  <div type="textpart_fragment" n="a"><note lang="en" place="not specified" anchored="yes">The lowest level</note><ab>
+		  
+		 <lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/> <g type="cross"/>
+		 <lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">μ</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="3"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ο</orig><gap dim="internal" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ψ</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="4"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ο</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="5"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">ε</orig>
+		  </ab></div><div type="textpart_fragment" n="b"><note lang="en" place="not specified" anchored="yes">The second, upper level</note><ab>
+		 <lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ι</unclear>ο<unclear reason="damage">ι</unclear></orig> <space dim="horizontal"/> <orig n="unresolved">σε</orig>
+		 <lb n="2"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved">οιν<unclear reason="damage">ινδ</unclear></orig><gap dim="right" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="3"/><rs type="subject" key="acclamations"><w lemma="ὁ">ὁ</w> <w lemma="θεός">θεὸς</w> <w lemma="καλός">καλο͂ς</w>
+		 <lb n="4"/><supplied reason="lost"><w lemma="σύ">σε</w></supplied> <w lemma="φέρω">ἤνηγ<unclear reason="damage">κ</unclear>εν</w></rs>
+		 <lb n="4a"/><space dim="vertical" extent="1" unit="line"/>
+		 <lb n="5"/><rs type="subject" key="acclamations"><w lemma="πολύς">πολλ<supplied reason="lost">ὰ</supplied></w>
+		 <lb n="6"/><w lemma="ὁ">τὰ</w> <w lemma="ἔτος">ἔ<supplied reason="lost">τη</supplied></w></rs>
+		 <lb n="7"/><gap dim="left" reason="lost" extent="unknown" unit="character"/>
+		 <lb n="7a"/><gap dim="bottom" extent="unknown" reason="lost" unit="line"/>
+		  </ab></div></div>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>For translations of the recognizable phrases, see commentary.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="V.58">V.58</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList" key="Tetrastoon">Tetrastoon</rs>: reused in the Byzantine defence wall built across the east side of the Theatre, in the stretch blocking the north parodos. </rs>. Original location: <rs type="origLocation">There is no indication of original provenance; but we know that materials for this wall were brought from as far away as the Sebasteion complex.</rs>. Last recorded location: <rs type="lastLocation">On site.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated during dismantling of the defence wall in <date value="1976" notBefore="1976" notAfter="1976" exact="both">1976</date>.</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias in Late Antiquity</title> no. <biblScope>77</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257701">815</biblScope>, <biblScope n="257702">816</biblScope>, <biblScope n="257703">817</biblScope>, <biblScope n="257704">818</biblScope>, <biblScope n="257705">819</biblScope>, <biblScope n="257701">815</biblScope>, <biblScope n="257702">816</biblScope>, <biblScope n="257706">820</biblScope>, <biblScope n="257707">821</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcription (Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs"><head>Photographs</head><p><figure href="76_B_09"><figDesc>i. (1976)</figDesc></figure><figure href="76_F_11A"><figDesc>i. (1976)</figDesc></figure><figure href="76_F_12A"><figDesc>i. (1976)</figDesc></figure><figure href="76_B_13"><figDesc>Fragments (1976)</figDesc></figure><figure href="76_D_15"><figDesc>ii. (1976)</figDesc></figure><figure href="76_F_06A"><figDesc>iii. (1976)</figDesc></figure></p></div>
+
+      
+
+    </body>
+  </text>
+</TEI>

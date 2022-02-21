@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph121018" n="iAph1782 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for M. Fl. Karminios Athenagoras Livianos</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>A <rs type="material">white marble</rs> <rs type="objectType">statue base</rs> shaft with moulding on all sides, with the right side hollowed out to make the basin of a fountain. Now very worn by water, and with the right side (now the upper edge) broken.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the front face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Ligatures: l.2, HN; l.4, HK, HT; l.5, NK</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">prosopography</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <persName type="aphrodisian"><name reg="Μᾶρκος"><expan><abbr>Μᾶρ</abbr><supplied reason="abbreviation">κον</supplied></expan></name> <name reg="Φλάβιος"><expan><abbr>Φλ</abbr><supplied reason="abbreviation">άβιον</supplied></expan></name> <name reg="Καρμίνιος"><expan><abbr>Καρμ</abbr><supplied reason="abbreviation">ίνιον</supplied></expan></name> <lb n="2"/> <name reg="Ἀθηναγόρας">Ἀθηναγόραν</name> <lb n="3"/> <name reg="Λιβιανός">Λειουιανόν</name></persName> <lb n="4"/> <w lemma="συνκλητικός">συνκλητικὸν</w> <lb n="5"/> <w lemma="ὁ">τὸν</w> <w lemma="κράτιστος">κράτιστον</w> <lb n="6"/> <w lemma="ὁ">τόν</w> <w lemma="ἑαυτοῦ">ἑαυτῆς</w> <lb n="7"/> <w lemma="εὐεργέτης">εὐεργέτην</w> <lb n="8"/> <w lemma="ἐν">ἐν</w> <w lemma="πᾶς">πᾶσιν</w> <persName type="aphrodisian"><name reg="Καρμίνιος"><expan><abbr>Καρ</abbr><supplied reason="abbreviation">μινίου</supplied></expan></name> <lb n="9"/> <name reg="Ἀθηναγόρας">Ἀθηναγόρου</name> </persName><lb n="10"/> <w lemma="ὑπατικός">ὑπατικοῦ</w> <w lemma="υἱός">υἱ<lb n="11" type="worddiv"/>  <space extent="3" unit="character" dim="horizontal"/> ὸν</w> <space extent="3" unit="character" dim="horizontal"/>  <lb n="12"/> <w lemma="προνοέομαι">προνοησαμένου</w> <w lemma="ὁ">τῆς</w> <lb n="13"/> <w lemma="τιμή">τειμῆς</w> <persName type="aphrodisian"><name reg="Φλαβιανός">Φλαβιανοῦ</name></persName> <lb n="14"/> <w lemma="ὁ">τοῦ</w> <w lemma="φίλος">φίλου</w> <w lemma="αὐτός">αὐτοῦ</w> <lb n="15"/> <persName type="aphrodisian"><name reg="Καρμίνιος"><expan><abbr>Καρ</abbr><supplied reason="abbreviation">μινίου</supplied></expan></name> <name reg="Ἀθηναγόρας">Ἀθηναγόρου</name></persName> </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 8, ἐν πᾶσιν Καρ 1705</p>
+<p>The last line is barely visible</p></div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p>No translation yet (2007)</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+
+<p>No commentary yet (2007)</p></div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">Walls, West gate</rs>: Near the west gate by Sherard; in 1976 built into a fountain in <rs type="monuList">Karaçasu</rs></rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); Sherard papers; publications.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by Picenini in 1705 (10102, 15), by Sherard in 1705 and 1716 (10101, 12 and 127v); recorded by the NYU expedition</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="CIGII">Boeckh, from Sherard papers,CIG <biblScope>2783</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257200">321</biblScope>
+</bibl>
+</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="76_F_02A"><figDesc>Face (1976)</figDesc></figure><figure href="76_F_03A"><figDesc>Face (1976)</figDesc></figure></p>
+</div></body></text>
+</TEI>

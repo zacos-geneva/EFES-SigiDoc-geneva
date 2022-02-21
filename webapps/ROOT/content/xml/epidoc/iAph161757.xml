@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd"><TEI.2 lang="en" id="iAph161757">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Dedication</rs> of ? a statue</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><p><bibl>IAph <date>2008</date></bibl></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>
+<rs type="material">White marble</rs> <rs type="objectType"><rs type="objectType">statue base</rs> shaft</rs> with simple moulding above and below <measure type="length" unit="metre" dim="width">0.72</measure>  × <measure type="length" unit="metre" dim="height">0.45</measure>  × <measure type="length" unit="metre" dim="depth">0.555</measure>. Top apparently prepared for an upper feature.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>Inscribed on one face which has been badly damaged above</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>0.035 - 0.04</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date>perhaps Augustan-I A.D.</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/>  <gap reason="lost" extent="3" unit="character"/>?  <gap reason="lost" extent="3" unit="character"/>  <lb n="1"/>ΔΟ<gap reason="lost" extent="3" unit="character"/>  <lb n="2"/><unclear reason="damage">Π</unclear>Ε<unclear reason="damage">Ρ</unclear><gap reason="lost" extent="3" unit="character"/><supplied reason="lost">c</supplied>  <supplied reason="lost">9-10</supplied>  <gap reason="lost" extent="3" unit="character"/><unclear reason="damage">ΙΓ</unclear>ΟΝ  <lb n="3"/> <w lemma="ὁ">ὁ</w> <w>δῆμ<unclear reason="damage">ο</unclear><supplied reason="lost">ς</supplied></w>  <w lemma="ἀφιερόω">ἀ<supplied reason="lost">φιέ</supplied>ρωσεν</w>  <lb n="4"/> <w lemma="ἐπιμελέω">ἐπιμεληθέντος</w> <persName type="aphrodisian"><name reg="Μένιππος" type="&#xA;&#xA;      ">Με<lb n="5" type="worddiv"/>νίππου</name> <w lemma="ὁ">τοῦ</w> <persName type="aphrodisian"><name reg="Μένιππος" type="&#xA;&#xA;      ">Μενίπ<lb n="6" type="worddiv"/>που</name></persName> <w lemma="ὁ">τοῦ</w> <w lemma="φύσις">φύσει</w> <persName type="aphrodisian"><name>Ἀδράτου</name></persName></persName>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>Above l. 1, it is not certain that this area was inscribed</p><p>l. 2, <foreign lang="grc">Γ</foreign> might be <foreign lang="grc">Τ</foreign>, but, if correct, suggests <foreign lang="grc">στρατηγόν</foreign>.</p><p>l. 6, The final name may be miscut for <foreign lang="grc">Ἀδράστου</foreign></p>
+</div>
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p> ...</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p> ...</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">Theatre</rs>, Porta Regia North.</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1971 (<rs type="invNo">71.336</rs>; SBI <rs type="sbi">71</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_G_09"><figDesc>View showing left side (1978)</figDesc></figure><figure href="78_J_31"><figDesc>Face (1978)</figDesc></figure></p>
+</div></body></text>
+</TEI.2>

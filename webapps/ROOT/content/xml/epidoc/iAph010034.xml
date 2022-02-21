@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010034" n="iAph0133 ">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title level="m"><rs type="textType">Graffiti</rs>: names and <rs type="textType" reg="prayer/invocation">prayers</rs></title>
+        </titleStmt>
+      <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+      <sourceDesc><p>Originally published in <bibl n="ala2004">Roueché (<date>2004</date>)</bibl>.</p></sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+        <language id="en">English</language>
+        <language id="fr">French</language>
+        <language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+        <language id="la">Latin</language> </langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+  <revisionDesc><change><date>2004-06-08</date><respStmt><name>Juan Garcés</name></respStmt><item>Marked up inventory number(s)</item></change><change><date>2004-06-08</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Checked and fixed all image divs and refs</item></change><change><date>2004-04-06</date><respStmt><name>Juan Garcés</name></respStmt><item>Completed lemmatisation, checked figure ids, tagged keywords</item></change><change><date>2003-11-04</date><respStmt><name>John Lavagnino</name></respStmt><item>Converted beta code to Unicode</item></change>
+  <change>
+  <date>2003-05-27</date>
+  <respStmt><name>Gabriel Bodard</name></respStmt>
+  <item>tidied and corrected</item>
+  </change>
+  <change>
+  <date>2003-04-30</date>
+  <respStmt><name>Juan Garcés</name></respStmt>
+  <item>tagged Greek; tidied</item>
+  </change>
+  <change><date>2003-08-27</date><respStmt><name>CMR</name></respStmt><item>tagged and corrected</item></change><change><date>2004-02-27</date><respStmt><name>CMR</name></respStmt><item>checked; image refs.</item></change></revisionDesc></teiHeader>
+  <text>
+    <body>
+
+      <div type="description" n="monument">
+        <head>Description of Monument</head>
+        <p>Three fragments from a <rs type="material" key="marmor">white marble</rs> panel or a <rs type="objectType">coping stone</rs>
+polished at back and front, with upper and lower edges surviving in i
+and ii. Covered with small graffiti.</p>
+      </div>
+
+      <div type="description" n="text">
+        <head>Description of Text</head>
+        <p><rs type="execution" key="scalpro">Inscribed</rs> on the upper surface.</p>
+      </div>
+
+      <div type="description" n="letters">
+        <head>Description of Letters</head>
+        <p>Scratched letters <measure type="length" unit="metre" dim="height">0.015</measure>- <measure type="length" unit="metre" dim="height">0.02</measure>. There is a horizontal bar above the omega
+of <foreign lang="grc">ΑΠΩ</foreign> in ii.3.</p>
+      </div>
+
+      <div type="description" n="date">
+        <head>Date</head>
+        <p><date notAfter="0600" exact="none" notBefore="0401">Fifth-sixth century</date> or later (content, location).</p>
+      </div>
+
+      <div type="edition" lang="grc">
+        <head lang="en">Edition</head>
+        
+		<div type="textpart_section" n="i"><ab><lb n="1"/><persName type="aphrodisian" key="nicephorus1" full="yes"><name reg="Νικηφόρος"><expan><abbr><supplied reason="lost">Νι</supplied>κηφ</abbr><supplied reason="abbreviation">όρος</supplied></expan></name></persName>
+			<lb n="2"/><gap reason="lost" dim="left" extent="unknown" unit="character"/> <persName key="michael5" type="aphrodisian" full="yes"><name reg="Μιχαήλ"><expan><abbr>Μιχ</abbr><supplied reason="abbreviation">αὴλ</supplied></expan></name></persName> <rs type="official-relig" key="subdeacon"><w lemma="ὑποδιάκονος"><expan><abbr>ὑπ</abbr><supplied reason="abbreviation">ο</supplied><abbr>δ</abbr><supplied reason="abbreviation">ιάκονος</supplied></expan></w></rs> <w lemma="ὁ"><expan><abbr>τ</abbr><supplied reason="abbreviation">οῦ</supplied></expan></w> <space dim="horizontal"/> <persName type="aphrodisian" full="yes"><name reg="Μιχαήλ"><expan><abbr>Μιχ</abbr><supplied reason="abbreviation">αὴλ</supplied></expan></name></persName> <orig n="unresolved">πατ</orig> <gap reason="lost" dim="right" extent="unknown" unit="character"/>
+			<lb n="3"/><space dim="vertical" extent="1" unit="line"/>
+			<lb n="4"/><orig n="unresolved">βαδ<unclear reason="damage">κ</unclear>ν</orig> <persName type="aphrodisian" full="yes"><persName type="divine" key="Michael" full="yes"><name reg="Μιχαήλ"><expan><abbr>Μιχ</abbr><supplied reason="abbreviation">αήλ</supplied></expan></name></persName></persName> </ab></div>
+       
+			        
+		<div type="textpart_section" n="ii"><ab><lb n="1"/><g type="cross"/> <persName key="Ioannes6" type="aphrodisian" full="yes"><name reg="Ἰωάννης"><expan><abbr>Ἰω</abbr><supplied reason="abbreviation">άννης</supplied></expan></name></persName> <orig n="unresolved">το<unclear reason="damage">υο</unclear></orig> <gap dim="right" reason="lost" extent="unknown" unit="character"/></ab><note lang="en" place="not specified" anchored="yes">Lower down</note><ab>
+			<lb n="2"/><persName key="constantine3" type="aphrodisian" full="yes"><name reg="Κωνσταντῖνος"><expan><abbr>Κω</abbr><supplied reason="abbreviation">νσ</supplied><abbr>τ</abbr><supplied reason="abbreviation">αντῖνος</supplied></expan></name></persName></ab><note lang="en" place="not specified" anchored="yes">At lower edge</note><ab><lb n="3"/><persName type="aphrodisian" full="yes"><name reg="Μιχαήλ"><expan><abbr>Μιχ</abbr><supplied reason="abbreviation">αήλ</supplied></expan></name></persName> <gap dim="right" reason="lost" unit="character" extent="unknown"/><lb n="4"/>
+			<g type="cross"/> <persName type="aphrodisian" full="yes"><name reg="Κωνσταντῖνος"><expan><abbr>Κω</abbr><supplied reason="abbreviation">νσ</supplied><abbr>τ</abbr><supplied reason="abbreviation">αντῖνος</supplied></expan></name></persName> <orig n="unresolved">απω</orig> <orig n="unresolved">π<unclear reason="undefined">λ</unclear>ω</orig><gap dim="right" reason="lost" unit="character" extent="unknown"/></ab></div>
+			        
+			<div type="textpart_section" n="iii"><ab><lb n="1"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ιιι</unclear></orig> <g type="scroll"/><lb n="2"/><orig n="unresolved">πιστ</orig><gap dim="right" reason="lost" extent="unknown" unit="character"/></ab><note lang="en" place="not specified" anchored="yes">Lower down</note><ab><lb n="3"/>
+			<persName type="aphrodisian" full="yes"><name reg="Κωνσταντῖνος">Κωνσταντῖνος</name></persName> <w lemma="ὁ">ὁ</w> <w lemma="γράφω">γράψ<supplied reason="lost">ας</supplied></w> <gap dim="right" reason="lost" extent="unknown" unit="character"/>
+			<lb n="4"/><gap dim="left" reason="lost" extent="unknown" unit="character"/><orig n="unresolved"><unclear reason="damage">ιι</unclear>ω</orig>
+			<lb n="5"/><persName type="aphrodisian" full="yes"><name reg="Μιχαήλ">Μιχαὴλ</name></persName> <orig n="unresolved"><unclear reason="damage">υιλ</unclear></orig> <w lemma="ὁ"><expan><abbr>τ</abbr><supplied reason="abbreviation">ὸν</supplied></expan></w> <w lemma="δοῦλος"><expan><abbr>δ</abbr><supplied reason="abbreviation">οῦ</supplied><supplied reason="abbreviation">λον</supplied></expan></w> <persName key="Christ" type="divine" full="yes"><name reg="Χριστός"><expan><abbr>Χρ</abbr><supplied reason="abbreviation">ιστοῦ</supplied></expan></name></persName> </ab></div>
+        </div>
+
+      <div type="apparatus">
+        <head>Apparatus</head>
+        <p>There are further traces on all these stones.</p>
+      </div>
+
+      <div type="translation">
+        <head>Translation</head>
+        <ab>i. Nikephoros. Michael, <seg cert="low">subdeacon</seg>. Michael <gap dim="internal" reason="lost"/>
+Michael.</ab>
+        <ab>ii. John <gap dim="internal" reason="lost"/>. <seg cert="low">Konstantinos</seg>. Michael.
+<seg cert="low">Konstantinos</seg>.</ab>
+        <ab>iii. <seg cert="low">Konstantinos</seg> who wrote (this) <gap dim="internal" reason="lost"/>. Michael
+<gap dim="internal" reason="lost"/> the servant of Christ.</ab>
+      </div>
+
+      <div type="commentary">
+        <head>Commentary</head>
+        <p>See discussion at <xref type="eAla-text" n="VIII.13">VIII.13</xref>.</p>
+      </div>
+
+      <div type="history" n="locations"><head>Locations</head><p>Found: <rs type="found"><rs type="monuList">Temple/Church</rs>.</rs>. Original location: <rs type="origLocation"><rs type="monuList" cert="low">Temple/Church</rs>.</rs>. Last recorded location: <rs type="lastLocation">Museum.</rs>. </p></div>
+
+      
+
+      
+
+      <div type="history" n="record">
+        <head>History of Recording</head>
+        <p>Excavated by the NYU expedition in <date value="1966" notBefore="1966" notAfter="1966" exact="both">1966</date> (<rs type="invNo">66.126</rs>).</p>
+      </div>
+
+      <div type="bibliography">
+        <head>Bibliography</head>
+        <p>Published by <bibl type="hbi" n="ALA"><author>Roueché</author>, <title level="m">Aphrodisias
+in Late Antiquity</title> no. <biblScope>133</biblScope></bibl> whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title>
+<biblScope n="257677">791</biblScope>, <biblScope n="257678">792</biblScope>, <biblScope n="257679">793</biblScope></bibl>.</p>
+      </div>
+
+      <div type="history" n="text-constituted-from">
+        <head>Text Constituted From</head>
+        <p>Transcriptions (Reynolds, Roueché).</p>
+      </div>
+
+      <div type="figure" n="photographs">
+        <head>Photographs</head>
+        <p><figure href="85_E_32"><figDesc>i. Face (1985)</figDesc></figure><figure href="73_S_10"><figDesc>ii. Face (1973)</figDesc></figure><figure href="85_E_31"><figDesc>iii. Face (1985)</figDesc></figure></p></div>
+
+    
+
+      
+
+      </body>
+  </text>
+</TEI>

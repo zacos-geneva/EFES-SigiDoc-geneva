@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120410" n="iAph1001 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for Mithridates son of Athenagoras</title>
+</titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>1999</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="jmr1999a">Reynolds (<date>1999</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-02-13</date><respStmt><name>Charlotte Tupman</name></respStmt><item>hand tidied</item></change>
+  
+  <change><date>2004-12-23</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>
+<rs type="material" key="marmor">White marble</rs> building <rs type="objectType">block</rs> (<measure type="length" unit="metre" dim="height">0.34</measure> × <measure type="length" unit="metre" dim="width">0.47</measure> × <measure type="length" unit="metre" dim="depth">
+0.34</measure>) without moulding, but with a recessed edge on all sides.</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p>
+The inscription is cut on the face, some way down the stone, and runs into the frame on both sides.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure type="length" unit="metre" dim="height">
+0.02-0.025</measure></p>
+</div>
+
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0100" exact="none">First century A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+</div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+<ab><lb n="0"/><space unit="line" dim="vertical"/><lb n="1"/><w lemma="ὁ">ἡ</w>  <w lemma="βουλή">βουλὴ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δῆ<lb n="2" type="worddiv"/>μος</w>  <w lemma="τιμάω"><orig reg="ἐτίμησεν">ἐτείμησεν</orig></w><lb n="3"/><persName type="aphrodisian" full="yes"><name reg="Μιθραδάτης">Μιθραδάτην</name>  <persName type="aphrodisian"><name reg="Ἀθηναγόρας">Ἀθη<lb n="4" type="worddiv"/>ναγόρου</name></persName></persName>  <w lemma="ἀνήρ">ἄνδρα</w><lb n="5"/><w lemma="καλός">καλὸν</w>  <w lemma="καί">καὶ</w>  <w lemma="ἀγαθός">ἀγα<lb n="6" type="worddiv"/>θὸν</w>  <w lemma="καί">καὶ</w>  <w lemma="πᾶς">πάσῃ</w>  <w lemma="κοσμέω">κοσ<lb n="7" type="worddiv"/>μηθέντα</w>  <w lemma="ἀρετή">ἀρετῇ</w></ab>
+</div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); Gaudin/Reinach papers; publications.</p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>The council and the people honoured Mithradates son of Athenagoras, a fine and good man, and adorned with all virtue.</p>
+</div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>This text was one of a group cut on the family tomb whose elements were incorporated into the walls at the south east gate of the city: <xref type="inscription" n="1001" href="120410">12.410</xref> (= MAMA 462), <xref type="inscription" n="1010" href="130302">13.302</xref> (=474, 475, 476) and <xref type="inscription" n="369" href="120409">12.409</xref> (Walls 151) The group is published and discussed by <bibl n="jmr1991a">Reynolds 1999</bibl>.</p><p>.</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p> <rs type="origLocation">On the tomb from which it was found fallen</rs>, which had been <rs type="found">incorporated in the <rs type="monuList">Walls, South-east Gate</rs></rs>. <rs type="lastLocation">Museum (1978)</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Found during the clearing of the East Gate in 1904 and recorded by Gaudin (108), 'la face engagée dans la maçonnerie'; by the MAMA expedition; by the NYU expedition.</p>
+</div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published from Gaudin's squeeze by <bibl rend="primary" type="hbi" n="reinach"><author>Reinach</author>, <title level="j">REG</title> 19, 1906, 135, no <biblScope>66</biblScope></bibl>; from the MAMA records by <bibl rend="primary" n="MAMA8" type="hbi"><author>Cormack</author>, <title level="m">MAMA</title> 8, no. <biblScope>462</biblScope></bibl>, whence <bibl><author>Robert</author>, <title level="m">BCH</title> 107, <date>1983</date>, 505-506</bibl>, and <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257388">510</biblScope></bibl>; by published by <bibl n="jmr1999a">Reynolds, 'The first known Aphrodisian to hold a procuratorship',<title> Steine und Wege</title> (Vienna, 1999), 327-334, Appendix <biblScope>B.5</biblScope>.</bibl>, cited <bibl n="seg"><title level="j">SEG</title> 49 <biblScope>1999.1417</biblScope></bibl>.</p>
+</div>
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="78_B_13"><figDesc>Face (1978)</figDesc></figure><figure href="78_C_07"><figDesc>Face (1978)</figDesc></figure></p></div>
+
+
+
+</body>
+</text>
+
+</TEI>

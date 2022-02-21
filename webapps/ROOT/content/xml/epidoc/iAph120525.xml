@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120525" n="iAph1552 ">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title level="m"><rs type="textType">Funerary</rs> inscription for Zenon son of Zenon ... son of
+     Kallias</title>
+    </titleStmt>
+   <publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+   <sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <langUsage>
+    <language id="en">English</language>
+    <language id="fr">French</language>
+    <language id="de">German</language>
+    <language id="grc">Ancient Greek</language>
+    <language id="grc-Latn">Transliterated Greek</language>
+    <language id="el">Modern Greek</language>
+    <language id="it">Italian</language>
+    <language id="la">Latin</language>
+    <language id="es">Spanish</language>
+    <language id="tr">Turkish</language>
+   </langUsage>
+   <textClass>
+    <keywords>
+     <term>
+      <geogName type="ancientRegion" key="Asia">Asia</geogName>
+     </term>
+     <term>
+      <geogName type="modernCountry" key="TR">Turkey</geogName>
+     </term>
+     <term>
+      <placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName>
+     </term>
+     <term>
+      <placeName type="modernFindspot" key="Geyre">Geyre</placeName>
+     </term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+  <revisionDesc>
+   <change>
+    <date/>
+    <respStmt>
+     <name>GB</name>
+    </respStmt>
+    <item>hand tidied</item>
+   </change>
+   <change>
+    <date>2005-12-13</date>
+    <respStmt>
+     <name>Elliott Hall</name>
+    </respStmt>
+    <item>Batch converted Word2XML</item>
+   </change>
+  </revisionDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div type="description" n="monument" sample="complete" org="uniform">
+    <head>Description of Monument</head>
+    <p><rs type="material" key="marmor">White marble</rs> block (<measure dim="width" type="length" unit="metre">1.51</measure> x <measure dim="height" type="length" unit="metre">0.74</measure>
+     x depth not measurable).</p>
+   </div>
+   <div type="description" n="text" sample="complete" org="uniform">
+    <head>Description of Text</head>
+    <p>Inscribed on the face. </p>
+   </div>
+   <div type="description" n="letters" sample="complete" org="uniform">
+    <head>Letters</head>
+    <p>
+     <measure dim="height" type="length" unit="metre">0.025-0.03</measure>
+    </p>
+   </div>
+   <div type="description" n="date" sample="complete" org="uniform">
+    <head>Date</head>
+    <p>
+     <date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)</p>
+   </div>
+   <div type="edition" lang="grc">
+    <head lang="en">Edition</head>
+    <ab><lb n="1"/>
+     <w lemma="ὁ"><supplied reason="lost">ἡ</supplied></w>
+     <w lemma="σορός">
+      <supplied reason="lost">σορὸς</supplied>
+     </w>
+     <w lemma="καί">
+      <supplied reason="lost">καὶ</supplied>
+     </w>
+     <w lemma="ὁ">
+      <supplied reason="lost">ὁ</supplied>
+     </w>
+     <w lemma="βωμός"><supplied reason="lost">βω</supplied>μὸς</w>
+     <w lemma="καί">καὶ</w>
+     <w lemma="ὁ">αἱ </w><w lemma="ἐν">ἐν</w>
+     <w lemma="αὐτός">αὐτῷ</w>
+     <w lemma="εἰσωθέω">εἰσῶσταί</w>
+     <lb n="2"/><w lemma="εἰμί">
+      <supplied reason="lost">εἰσιν</supplied>
+     </w>
+     <persName type="aphrodisian"><name><supplied reason="lost">Μεν</supplied><gap extent="6" reason="lost" unit="character"/></name></persName>
+     <w lemma="καί"><supplied reason="lost">καὶ</supplied></w>
+     <persName type="aphrodisian">
+      <name reg="Ζήνων"><supplied reason="lost">Ζ</supplied>ήνωνος</name>
+      <w lemma="ὁ">τῶν</w>
+      <persName type="aphrodisian">
+       <name reg="Ζήνων">Ζήνωνος</name>
+       <w lemma="ὁ">τοῦ</w>
+       <lb n="3"/>
+       <persName type="aphrodisian"><gap reason="lost" extent="8" unit="character"/>
+        <w lemma="ὁ"><supplied reason="lost">τοῦ</supplied></w>
+        <persName type="aphrodisian"><name reg="Ζήνων"><supplied reason="lost">Ζ</supplied>ήνωνος</name>
+         <w lemma="ὁ">τοῦ</w>
+         <persName type="aphrodisian"><name reg="Καλλίας">Καλλίου</name></persName></persName></persName></persName></persName>
+     <w lemma="εἰς">εἰς</w>
+     <w lemma="ὅς">ἣν</w>
+     <w lemma="σορός">σο<lb n="4" type="worddiv"/><supplied reason="lost">ρὸν</supplied></w>
+     <w lemma="μηδείς">
+      <supplied reason="lost">μηδενὶ</supplied>
+     </w>
+     <w lemma="ἔξεστι"><supplied reason="lost">ἐξέ</supplied>σται</w>
+     <w lemma="ἐνθάπτω">ἐνταφῆναι</w>
+     <w lemma="ἕτερος">ἑτέρῳ</w>
+     <w lemma="χωρίς">χωρὶς</w> <persName type="aphrodisian"><name>Με<lb n="5" type="worddiv"/><supplied reason="lost">ν</supplied>
+     <gap reason="lost" extent="6" unit="character"/></name></persName>
+     <w lemma="καί">
+      <supplied reason="lost">καὶ</supplied>
+     </w>
+     <persName type="aphrodisian">
+      <name reg="Ζήνων"><supplied reason="lost">Ζήν</supplied>ωνος</name>
+     </persName>
+     <w lemma="ὁ">τῶν</w>
+     <w lemma="προγράφω">προγεγραμμένων</w>
+     <w lemma="καί">καὶ</w>
+     <lb n="6"/><gap reason="lost" extent="10" unit="character"/>
+     <persName type="aphrodisian">
+      <name reg="Ἄδραστος"><supplied reason="lost">Ἀ</supplied>δράστου</name>
+      <w lemma="ὁ">τῆς</w>
+      <persName type="aphrodisian">
+       <name reg="Ζήνων">Ζήνωνος</name>
+      </persName>
+     </persName>
+     <w lemma="γυνή">γυναικὸς</w>
+     <lb n="7"/><w lemma="καί">
+      <supplied reason="lost">καὶ</supplied>
+     </w>
+     <w lemma="ὁ">
+      <supplied reason="lost">τῶν</supplied>
+     </w>
+     <w lemma="τέκνον">
+      <supplied reason="lost">τέκνων</supplied>
+     </w>
+     <w lemma="εἰμί">ὧν</w>
+     <w lemma="ἐάν">ἂν</w>
+     <w lemma="αὐτός">αὐτοὶ</w>
+     <w lemma="βούλομαι">βουληθῶσιν</w>, <w lemma="εἰς">εἰς</w>
+     <w lemma="δέ">δὲ</w>
+     <lb n="8"/><w lemma="ὁ">
+      <supplied reason="lost">τὰς</supplied>
+     </w>
+     <w lemma="εἰσώστη">
+      <supplied reason="lost">εἰσώστας</supplied>
+     </w>
+     <w lemma="θάπτω"><supplied reason="lost">ταφ</supplied>ήσονται</w>
+     <w lemma="ὅς">οὓς</w>
+     <w lemma="ἐάν">ἂν</w>
+     <w lemma="αὐτός">αὐτοὶ</w>
+     <w lemma="βούλομαι">βουληθῶ<lb n="9" type="worddiv"/><supplied reason="lost">σιν</supplied></w>
+     <w lemma="ἐνθάπτω"><supplied reason="lost">ἐνταφῆν</supplied>αι</w>, <w lemma="ἕτερος">ἕτερος</w>
+     <w lemma="δέ">δὲ</w>
+     <w lemma="οὐδείς">οὐδεὶς </w><w lemma="ἔχω">ἕξει</w>
+     <w lemma="ἐξουσία">ἐξου<lb n="10" type="worddiv"/>
+      <supplied reason="lost">σίαν</supplied></w>
+     <w lemma="θάπτω">
+      <supplied reason="lost">θάψαι</supplied>
+     </w>
+     <w lemma="τις">
+      <supplied reason="lost">τινὰ</supplied>
+     </w>
+     <w lemma="οὔτε">οὔτε</w>
+     <w lemma="εἰς">εἰς</w>
+     <w lemma="ὁ">τὴν</w>
+     <w lemma="σορός">σορὸν</w>
+     <w lemma="οὔτε">οὔτε</w>
+     <w lemma="εἰς">εἰς</w>
+     <w lemma="ὁ">τὰς</w>
+     <lb n="11"/><w lemma="εἰσώστη">
+      <supplied reason="lost">εἰσώστας</supplied>
+     </w>
+     <w lemma="χωρίς">
+      <supplied reason="lost">χωρὶς</supplied>
+     </w>
+     <w lemma="εἰμί">ὧν</w>
+     <w lemma="ἐάν">ἂν</w>
+     <w lemma="αὐτός">αὐτοὶ</w>
+     <w lemma="βούλομαι">βουληθῶσιν</w>
+     <w lemma="ἐπεί">ἐπεὶ</w>
+     <lb n="12"/><w lemma="ἐάν">
+      <supplied reason="lost">ἐάν</supplied>
+     </w>
+     <w lemma="τις">
+      <supplied reason="lost">τις</supplied>
+     </w>
+     <w lemma="ἐνθάπτω">
+      <supplied reason="lost">ἐνθάψῃ</supplied>
+     </w>
+     <w lemma="τις">τινὰ</w>
+     <w lemma="ἀποτίνω">ἀποτείσει</w>
+     <w lemma="ὁ">τῷ</w>
+     <w lemma="κυριακός">κυριακῷ</w> φίσκῳ <lb n="13"/><supplied reason="lost">
+      <w lemma="δηνάριον">
+       <expan>
+        <abbr>
+         <orig>
+          <g type="denarius"/>
+         </orig>
+        </abbr><supplied reason="abbreviation">δηνάρια</supplied>
+       </expan>
+      </w>
+     </supplied>
+     <num>
+      <gap reason="lost" extent="1" unit="character"/>
+     </num>
+     <w lemma="οὗτος"><supplied reason="lost">ταύτης</supplied></w>
+     <supplied reason="lost">τῆς</supplied>
+     <w lemma="ἐπιγραφή"><supplied reason="lost">ἐ</supplied>πιγραφῆς</w>
+     <w lemma="ἀποτίθημι">ἀπετέθη</w>
+     <w lemma="ἀντίγραφον">ἀντίγραφον</w>
+     <w lemma="καί">καὶ</w>
+     <lb n="14"/><w lemma="εἰς"><supplied reason="lost">εἰς</supplied></w>
+     <w lemma="ὁ">
+      <supplied reason="lost">τὸ</supplied>
+     </w>
+     <w lemma="χρεωφυλάκιον"><supplied reason="lost">χρεοφυλάκ</supplied>ιον</w>
+     <w lemma="ἐπί">ἐπὶ</w>
+     <w lemma="στεφανηφόρος">στεφανηφόρου</w>
+     <w lemma="ὁ">τὸ</w>
+     <num value="9">θ</num>
+     <persName type="aphrodisian">
+      <name reg="Ἀτταλίς">Ἀτ<lb n="15" type="worddiv"/><supplied reason="lost">ταλίδος</supplied></name>
+      <w lemma="ὁ">
+       <supplied reason="lost">τῆς</supplied>
+      </w>
+      <persName type="aphrodisian">
+       <name reg="Μενεκράτης"><supplied reason="lost">Μεν</supplied>εκράτους</name>
+      </persName>
+      <name reg="Ἄπφιος">Ἀπφίου</name>
+     </persName> <w lemma="ἡρωίς">ἡρωΐδος</w>, <w lemma="μείς">μηνὸς</w> 
+     <lb n="15a"/><gap reason="lost" extent="13" unit="character"/>
+     <space extent="3" unit="character" dim="horizontal"/>
+     <rs type="month">
+      <w lemma="Κλαυδιῆος">Κλ<unclear reason="damage">αυδ</unclear>ιήου</w>
+     </rs>
+     <g type="leaf"/>
+    </ab>
+   </div>
+   <div type="apparatus" sample="complete" org="uniform">
+    <head>Apparatus</head>
+    <p/>
+   </div>
+   <div type="translation" sample="complete" org="uniform">
+    <head>Translation</head>
+    <p>No translation yet (2007)</p>
+   </div>
+   <div type="commentary" sample="complete" org="uniform">
+    <head>Commentary</head>
+    <p>No commentary yet (2007)</p>
+   </div>
+   <div type="history" n="locations" sample="complete" org="uniform">
+    <head>Locations</head>
+    <p>
+     <rs type="origLocation">Unknown</rs>
+     <rs type="found"><rs type="monuList">Walls, South-east</rs>: stretch south east of the east
+      gate, between <xref type="inscription" n="397" href="120520">12.520</xref>, <xref type="inscription" n="1281" href="120514">12.514</xref>, <xref type="inscription" n="1282" href="120515">12.515</xref> (MAMA 502 and 434, 447).</rs>
+     <rs type="lastLocation">Findspot (1973)</rs>
+    </p>
+   </div>
+   <div type="history" n="text-constituted-from" sample="complete" org="uniform">
+    <head>Text Constituted From</head>
+    <p>Preliminary transcription (Reynolds); publications.</p>
+   </div>
+   <div type="history" n="record" sample="complete" org="uniform">
+    <head>History of Recording</head>
+    <p>Recorded by Gaudin (77); by the MAMA expedition; by the NYU expedition</p>
+   </div>
+   <div type="bibliography" sample="complete" org="uniform">
+    <head>Bibliography</head>
+    <p><bibl n="reinach">Reinach, REG 19, 1906, 272-274, no. <biblScope>168</biblScope></bibl>; by
+      <bibl n="MAMA8">Cormack, from the MAMA records, MAMA 8, no.
+     <biblScope>556a</biblScope></bibl>, whence <bibl n="PHI">
+      <author>McCabe</author>
+      <title level="m">PHI Aphrodisias</title>
+      <biblScope n="257422">542</biblScope>
+     </bibl></p>
+   </div>
+   <div type="figure" n="photographs" sample="complete" org="uniform">
+    <head>Photographs</head>
+    <p>
+     <figure href="73_S_33">
+      <figDesc>Face (1973)</figDesc>
+     </figure>
+     <figure href="73_X_11A">
+      <figDesc>Face (1973)</figDesc>
+     </figure>
+    </p>
+   </div>
+  </body>
+ </text>
+</TEI>

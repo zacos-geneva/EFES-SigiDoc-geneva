@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010144" n="iAph0321 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="dedication">Dedication</rs> to Aphrodite, from Temple</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-02-28</date><respStmt><name>Gabriel Bodard</name></respStmt><item>DONE</item></change><change><date>2005-05-05</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Large <rs type="material" key="marmor">blue marble</rs>   <rs type="objectType">laver</rs> partly reconstructed from fragments (<measure type="length" dim="diameter" precision="circa">2.75</measure> across cord) with central boss (<measure type="length" dim="diameter" precision="circa">0.87</measure> across cord).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the boss. There is a pair, broken, and too damaged to show whether it also was inscribed.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p>Very worn;  <measure dim="height" type="length" unit="metre">0.095</measure>.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p> <date exact="none" notBefore="0101" notAfter="0300">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>, especially four-bar <foreign lang="grc">Σ</foreign> in ll. 3, 4).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="1"/><gap dim="left" extent="2" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">λ</unclear>υ</orig><gap dim="internal" extent="1" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ε</unclear></orig><lb n="2"/><orig n="unresolved"><unclear reason="damage">τ</unclear>ι</orig><gap dim="internal" extent="1" reason="lost" unit="character"/><orig n="unresolved"><unclear reason="damage">ωι</unclear></orig><gap dim="right" extent="3" reason="lost" unit="line"/><lb n="3"/><w lemma="ὁ">τοὺς</w>  <w lemma="δύο">δύ<unclear reason="damage">ω</unclear></w><lb n="4"/><w lemma="λουτήρ"><unclear reason="damage">λο</unclear>υτῆρας</w><lb n="5"/><w lemma="ἀνατίθημι">ἀνέθηκε</w></ab>
+</div>
+
+<div type="apparatus"><head>Apparatus</head><p>ll. 1, 2, the name and presumably patronymic are too badly damaged to yield sense.</p></div><div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p><gap dim="left" reason="lost" unit="character"/> dedicated the two lavers.</p></div>
+
+<div type="commentary">
+<head>Commentary</head>
+<p>Mentioned by <bibl><author>Reynolds</author>, <title level="j">Aphrodisias Papers</title> I, 39</bibl>. These lavers possibly belonged originally in the gymnasium mentioned on the architrave <xref type="inscription" n="1253" href="010174">1.174</xref> (=Temple 12).</p>
+</div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p>Found: <rs type="found"><rs type="monuList">Temple/Church</rs>: atrium</rs>. Original location: <rs type="origLocation">Unknown</rs>. Last recorded: <rs type="lastLocation">Findspot (1980)</rs></p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (<rs type="siteNo">Temple 7</rs>).</p>
+  </div>
+
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="77_S_32"><figDesc>Face (1977)</figDesc></figure><figure href="80_G_17"><figDesc>Face (1980)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

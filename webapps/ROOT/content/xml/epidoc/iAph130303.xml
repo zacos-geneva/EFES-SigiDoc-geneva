@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130303" n="iAph1701 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> inscription for Ti. Claudius Achilleus</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-04-30</date><respStmt><name>Charlotte Tupman</name></respStmt><item>DONE</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType">block</rs> (<measure dim="width" type="length" unit="metre">0.85</measure> x <measure precision="circa" dim="height" type="length" unit="metre">0.58</measure> x <measure precision="circa" dim="depth" type="length" unit="metre">0.55</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>Poorly designed although deeply cut; l.1, <measure dim="height" type="length" unit="metre">0.04</measure>; l.2, <measure dim="height" type="length" unit="metre">0.035</measure>; l.3, <measure dim="height" type="length" unit="metre">0.03</measure>; lunate sigma, epsilon, omega.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0400" exact="none">First to fourth centuries A.D.</date>
+(<rs type="criteria">lettering</rs>).</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ζάω">Ζῶσιν</w> <lb n="2"/> <w lemma="ὁ">ὁ</w> <w lemma="πλάτας">πλάτας</w> <w lemma="εἰμί">ἐστιν</w> <lb n="3"/> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen"><expan><abbr>Τι</abbr><supplied reason="abbreviation">βερίου</supplied></expan></name> <name reg="Κλαύδιος"><expan><abbr>Κλ</abbr><supplied reason="abbreviation">αυδίου</supplied></expan></name> <name reg="Ἀχιλλεύς">Ἀχιλλέ<lb n="4" type="worddiv"/>ως</name></persName>  </ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>They are living. The platform belongs to Ti(berius) Cl(audius) Achilleus ?[ . . . </p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>It is not clear from the record whether the text finished at this point, but the plural used in line 1 suggests that at least two persons were named as buried in the tomb concerned.</p>
+<p>There is almost certainly a Tib. Claudius Achilleus named in <xref type="inscription" n="1534" href="120524">12.524</xref> (=MAMA 559), where he is the grandfather of the wife of one of those to be buried in what seems to be quite an extensive tomb. It is possible that the Achilleus of <xref type="inscription" n="1578" href="120714">12.714</xref>  (=MAMA 570) was another (or became one on enfranchisement by his master, Ti. Cl. Attalos).</p></div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Necropolis, South-east</rs>: re-used upside down in a field wall east of the east wall</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Findspot</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds).</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition (DM; <rs type="siteNo">Walls 153</rs>).</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>[[?]]</p>
+</div></body></text>
+</TEI>

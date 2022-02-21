@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph120614" n="iAph1314 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for 
+<rs type="textType" reg="imperial">Titus Caesar</rs></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+
+<p>Plain <rs type="material" key="marmor">white marble</rs> <rs type="objectType">statue base shaft</rs> broken below and chipped at the upper left corner (<measure type="length" unit="metre" dim="width">0.72</measure> × <measure type="length" unit="metre" dim="height">1.16</measure> × <measure type="length" unit="metre" dim="depth">0.52</measure>)</p></div><div type="description" n="text"><head>Description of Text</head><p><rs type="execution" key="scalpro">Inscribed</rs> on the face. Two large squre cuttings on top</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>ll. 1, 2, 4-5, <measure type="length" unit="metre" dim="height">0.035</measure>; ll. 3, 6-7, <measure type="length" unit="metre" dim="height">0.03</measure>.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0069" notAfter="0079" exact="both">A.D. 69-79</date>
+(<rs type="criteria">reign</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+
+ <ab>
+ <lb n="1"/>
+  <persName type="emperor" full="yes"><w lemma="τιτυς"><supplied reason="lost">Τίτον</supplied></w>  <name reg="Καῖσαρ">Καίσαρα</name>
+   <persName type="emperor" full="yes"><w lemma="αὐτοκράτωρ">Αὐτοκράτ<supplied reason="lost">ο</supplied><lb n="2" type="worddiv"/><supplied reason="lost">ρ</supplied>ος</w>
+    <name reg="Καῖσαρ">Καίσαρος</name>  
+    <name reg="Οὐεσπασιανός">Οὐεσπασια<lb n="3" type="worddiv"/><supplied reason="lost">ν</supplied>οῦ</name>
+    <w lemma="σεβαστός">Σεβαστοῦ</w></persName>  <w lemma="υἱός">υἱὸν</w></persName>  <space extent="4" unit="character" dim="horizontal"/>
+  <lb n="4"/>
+  <space extent="2" unit="character" dim="horizontal"/> <w lemma="ὁ">ὁ</w> <w lemma="δῆμος">δῆμος</w> <g type="star"/> <w lemma="ἐκ">ἐκ</w> <w lemma="ὁ">τῶν</w>
+  <w lemma="ἀπολείπω">ἀπο<lb n="5" type="worddiv"/><supplied reason="lost">λ</supplied>ειφθέντων</w>
+  <w lemma="ὑπό">ὑπὸ</w> 
+  <persName type="aphrodisian" full="yes"><name reg="Ἀτταλίς">Ἀττα<g type="star"/><lb n="6" type="worddiv"/><unclear reason="damage">λ</unclear>ίδος</name>
+   <w lemma="ὁ">τῆς</w> <persName type="aphrodisian"><name reg="Μενεκράτης">Μενεκράτους</name>
+    <lb n="7"/>
+    <w lemma="ὁ">τοῦ</w>
+    <persName type="aphrodisian"><name reg="Ἄνδρων">Ἀνδρῶνος</name></persName></persName>
+   <name reg="Ἄπφιος">Ἀπφίου</name></persName>  <space extent="2" unit="character" dim="horizontal"/>
+ </ab>
+</div>
+
+
+<div type="translation">
+<head>Translation</head>
+<p><supplied reason="lost">Titus</supplied> Caesar, son of Imperator Caesar Vespasianus Augustus: the People (put up his statue) from the (funds) bequeathed by Attalis Apphion, daughter of Menekrates, the son of Andron.</p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p>...</p>
+
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+ <rs type="origLocation">Unknown</rs>  <rs type="found"><rs type="monuList">Walls, South (east part)</rs>: reused in the south city wall, in the excavations of the inside face, Trench 3.</rs> <rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1975 (<rs type="invNo">75.334</rs>; SBI <rs type="sbi">51</rs>).</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Mentioned by <bibl n="jmr1981"><author>Reynolds</author>, <title level="j">ZPE</title> 43, 1981, 320</bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257826">939</biblScope></bibl>.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="78_F_34"><figDesc>Face (1978)</figDesc></figure><figure href="78_G_18"><figDesc>Face (1978)</figDesc></figure><figure href="78_G_19"><figDesc>Face (1978)</figDesc></figure></p><p>  KTE</p>
+</div></body></text>
+</TEI>

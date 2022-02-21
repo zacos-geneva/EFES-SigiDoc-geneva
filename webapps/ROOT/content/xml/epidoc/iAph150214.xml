@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph150214" n="iAph0901 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title><rs type="textType">Honours</rs> for <seg cert="low">Papias</seg></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage>
+</profileDesc>
+<revisionDesc>
+<change><date>2007-07-10</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change><change><date>2007-04-23</date><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2007-04-19</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Upper right corner of a <rs type="material">white marble</rs> <rs type="objectType">panel</rs> (<measure type="length" unit="metre" dim="width">0.36</measure> x <measure type="length" unit="metre" dim="height">0.295</measure> x <measure type="length" unit="metre" dim="depth">0.21</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><foreign lang="grc">Ρ</foreign> with a tail; <measure type="length" unit="metre" dim="height">0.022</measure>
+</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="-0199" notAfter="-0001" exact="none" cert="low">Second or first century B.C.</date>
+ (<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/><gap reason="lost" extent="unknown" unit="character"/>  <lb n="1"/><gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost" cert="low">Πα</supplied>πίαν  <space extent="4"/><lb n="2"/>  <supplied reason="lost" cert="low"><w lemma="ἀνήρ">ἄνδρα</w>  <w lemma="καλός">καλὸν</w></supplied>  <w lemma="καί"><supplied reason="lost">κα</supplied>ὶ</w> <w lemma="ἀγαθός">ἀγαθὸν</w> <space extent="1"/> <lb n="3"/>    <gap reason="lost" extent="12" unit="character" precision="circa"/> <w lemma="πρός">πρὸς</w> <w lemma="ὁ">τὴν</w> <space unit="character" extent="1"/><lb n="4"/><w lemma="πατρίς"><supplied reason="lost" cert="low">πατρίδα</supplied></w>  <w lemma="γίγνομαι"><supplied reason="lost">γεγον</supplied>οτα</w>  <space extent="2"/><lb n="5"/>  <gap reason="lost" extent="12" unit="character" precision="circa"/>ΦΙΛΟΥ  <lb n="6"/><gap reason="lost" extent="12" unit="character" precision="circa"/> <orig n="unresolved"><unclear reason="damage">Α</unclear>Τ<unclear reason="damage">Α</unclear></orig>  <lb n="6a"/><gap reason="lost" extent="unknown" unit="character"/>  </ab>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>. . . Pa]pias [ . . a man noble and] good . . . ]towards the [ ?fatherland, having been] . . .</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>There may have been a line lost above.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Stray</rs></rs>
+<rs type="lastLocation">Museum</rs>
+
+
+
+<rs type="origLocation">Unknown</rs></p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1973 (<rs type="invNo">73.153</rs>)</p>
+</div>
+<div type="bibliography" n="none">
+<head>Bibliography</head>
+<p>Unpublished</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="77_L_05A"><figDesc>Face (1977)</figDesc></figure></p>
+</div></body></text>
+</TEI>

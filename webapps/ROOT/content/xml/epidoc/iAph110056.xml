@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110056" n="iAph1540 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Funerary</rs> inscription for Tiberius Julius ?</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-02-15</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p><rs type="material">White marble</rs> <rs type="objectType">block</rs> (<measure type="length" unit="metre" dim="width">1.00</measure>   × <measure type="length" unit="metre" dim="height">0.76</measure>   × <measure type="length" unit="metre" dim="depth">0.37</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.045</measure>; circular stop.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0201" notAfter="0233" exact="none"><seg cert="low">Early third century A.D.</seg></date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/> <w lemma="ὁ">ὁ</w> <w lemma="βωμός">βωμὸς</w> <w lemma="καί">καὶ</w> <w lemma="ὁ">ἡ</w> <w lemma="ἐπίκειμαι">ἐπικειμ<supplied reason="lost">ένη</supplied></w>  <w lemma="σορός"><supplied reason="lost">σορὸς</supplied></w>  <w lemma="κατασκευάζω"><supplied reason="lost">κατεσκευάσθησαν</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="2"/> <w lemma="ὑπό">ὑπὸ</w> <persName type="aphrodisian"><name reg="Τιβέριος" type="praenomen">Τιβερίου</name> <name reg="Ἰούλιος">Ἰουλίου</name></persName> <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="3"/> <persName type="aphrodisian"><name reg="Ἰουλιανός">Ἰουλιανοῦ</name></persName><g type="stop "/> <w lemma="εἰς">εἰς</w> <w lemma="ὅς"><hi rend="ligature">ἣν</hi></w> <w lemma="σορός">σορ<supplied reason="lost">ὸν</supplied></w>  <w lemma="θάπτω"><supplied reason="lost">ταφήσονται</supplied></w>  <w lemma="ὁ"><supplied reason="lost">ὁ</supplied></w>  <w lemma="πατήρ"><supplied reason="lost">πατὴρ</supplied></w>  <persName type="aphrodisian"><name><gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/> βιανὸς</name></persName> <g type="scroll"/> <w lemma="καί">καὶ</w> <persName type="aphrodisian"><name reg="Οὐλπία">Οὐλπία</name></persName><g type="stop"/> Κ<gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="5"/> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="ἕτερος">ἕτερος</w> <w lemma="δέ">δὲ</w> <w lemma="οὐδείς">οὐ<supplied reason="lost">δεὶς</supplied></w>  <w lemma="ἔχω"><supplied reason="lost">ἕξει</supplied></w>  <w lemma="ἐξουσία"><supplied reason="lost">ἐξουσίαν</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="6"/> <w lemma="αὐτός">αὐτ<hi rend="ligature">ήν</hi></w> <g type="stop"/> <w lemma="ἐάν">ἐὰν</w> <g type="stop"/> <w lemma="δέ">δέ</w> <w lemma="τις">τις</w> <w lemma="ἐπιχειρέω">ἐπ<supplied reason="lost">ιχειρήσῃ</supplied></w>  <w lemma="ἐνθάπτω"><supplied reason="lost">ἐνθάψαι</supplied></w>  <w lemma="ἤ"><supplied reason="lost">ἢ</supplied></w>  <w lemma="ἐκθάπτω"><supplied reason="lost">ἐκθάψαι</supplied></w>  <w lemma="τις"><supplied reason="lost">τινὰ</supplied></w>  <lb n="7"/> <w lemma="ὁ">τῶν</w> <w lemma="ἐγκηδεύω">ἐνκηδευθησ<unclear reason="damage">ο</unclear><supplied reason="lost">μένων</supplied></w>  <w lemma="σωματεῖον"><supplied reason="lost">σωματείων</supplied></w>  <w lemma="ἤ"><supplied reason="lost">ἢ</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="8"/> <w lemma="ὁ">τῶν</w> <w lemma="διατάσσω">διατεταγμέν<unclear reason="damage">ω</unclear><supplied reason="lost">ν</supplied></w>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="8a"/><gap reason="lost" extent="unknown" unit="character" dim="bottom"/>  </ab>
+</div>
+
+<div n="notyet" type="translation">
+<head>Translation</head>
+<p>No translation yet (2007)</p>
+</div>
+<div n="notyet" type="commentary">
+<head>Commentary</head>
+<p>No commentary yet (2007)</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">City, Village</rs>: 'Place du marché, devant le nouvel han' (Gaudin); 'in a stable wall in the village' (MAMA).</rs>
+<rs type="lastLocation">Museum (1978)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Preliminary transcription (Reynolds); publications.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Copied by Fellows; perhaps by Bailie; by Sterrett; by K&amp;R (no notebook reference); recorded by Gaudin (23); by the MAMA expedition; by the NYU expedition.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published by <bibl n="fellows1841">Fellows, Acct. 357, no. <biblScope>59</biblScope></bibl>, whence <bibl n="CIGIIc">CIG <biblScope>2832b</biblScope> (p. 1116)</bibl>, <seg cert="low"><bibl n="bailie1846">Bailie, Fasc. ii 63-64, no. <biblScope>84</biblScope></bibl></seg>; by <bibl n="Sterrett1888">Sterrett, Epigraphic Journey no. <biblScope>10</biblScope></bibl>; by <bibl n="reinach">Reinach, from Gaudin's squeeze, REG 19, 1906, 276-277, no. <biblScope>170</biblScope></bibl>; by <bibl n="MAMA8">Cormack, from the MAMA records, MAMA 8, <biblScope>551</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257370">492</biblScope>
+</bibl>
+</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="73_T_08"><figDesc>Face (1973)</figDesc></figure><figure href="78_D_11"><figDesc>Face (1978)</figDesc></figure></p>
+</div></body></text>
+</TEI>

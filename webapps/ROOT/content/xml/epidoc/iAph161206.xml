@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI.2 SYSTEM "../../dtd/epidoc/tei-epidoc.dtd">
+<TEI.2 lang="en" id="iAph161206">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType" reg="statue dedication">Dedication</rs> of a <seg cert="low">caryatid</seg> by Tryphe.</title>
+ <editor role="editor">Joyce Reynolds</editor>
+</titleStmt>
+<publicationStmt><date>2007</date><availability status="unknown"><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></availability></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-01-24</date><respStmt><name>Charlotte Tupman</name></respStmt><item>Hand tidied</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Upper part of a <rs type="material" key="marmor">white marble</rs> <rs type="objectType">statue base</rs> with <rs type="decoration">egg and dart</rs> moulding above on three sides, (<measure type="length" unit="metre" dim="width">0.55–0.65</measure>   × <measure type="length" unit="metre" dim="height">0.27</measure>   × <measure type="length" unit="metre" dim="depth">0.16</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure type="length" unit="metre" dim="height">0.042</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0100" exact="none">First century  A.D.</date>
+ <rs type="criteria">lettering</rs></p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <persName type="aphrodisian" full="yes"><name>Τρύφη</name>  <persName type="aphrodisian"><name reg="Μηνόδοτος">Μηνο<lb n="2" type="worddiv"/><unclear reason="damage">δό</unclear><supplied reason="lost">τ</supplied><unclear reason="damage">ο</unclear><supplied reason="lost">υ</supplied></name> <w><supplied reason="lost">τ</supplied><unclear reason="damage">ου</unclear></w><lb n="2a"/><name reg="Νεικόμαχος"><supplied reason="lost">Νεικομάχου</supplied></name></persName></persName><lb n="2b"/><gap reason="lost" extent="unknown" unit="line" dim="bottom"/></ab>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds); Boulanger notebooks.</p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>Tryphe <supplied reason="subaudible">daughter</supplied> of Menodotos, the son of <supplied reason="lost">Nikomachos</supplied> <gap reason="lost" extent="unknown" unit="line" dim="bottom"/></p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>One of the series of dedications from the East Court of the Hadrianic Baths: <xref type="iAph">1183</xref>,  <xref type="iAph">1184</xref>, <xref type="iAph">1186</xref>, <xref type="iAph">1187</xref>, <xref type="iAph">1188</xref>, <xref type="iAph">1189</xref>, <xref type="iAph">1190</xref>, <xref type="iAph">1191</xref>, <xref type="iAph">1192</xref>, <xref type="iAph">1193</xref>, <xref type="iAph">1194</xref>, <xref type="iAph">1195</xref>, <xref type="iAph">1196</xref>, <xref type="iAph">1197</xref>, <xref type="iAph">1198</xref>, <xref type="iAph">1199</xref>, <xref type="iAph">1200</xref>, <xref type="iAph">1201</xref>, <xref type="iAph">1202</xref>, <xref type="iAph">1203</xref>, <xref type="iAph">1204</xref>, <xref type="iAph">1205</xref>, <xref type="iAph">1207</xref>, <xref type="iAph">1208</xref>, <xref type="iAph">1209</xref>, <xref type="iAph">1210</xref> ; all are by women, and apparently bore caryatids (see <xref type="iAph">1198</xref>).</p><p>Boulanger's notebook sugggests that <xref type="iAph">1207</xref> (69.489) may be from the same base. <xref type="iAph">1185</xref> (=MiItal 6), a similar dedication, was set up by Attalis daughter of Menodotos, the son of Nicomachos, so perhaps this woman's sister; but although both bases have similar moulding, the lettering is markedly different. </p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+Found: <rs type="found"><rs type="monuList">Hadrianic Baths, East Court</rs>: 'devant la grande entrée'</rs>
+; Original location: <rs type="origLocation"><rs type="monuList">Hadrianic Baths</rs>: <seg cert="low">Caryatid portico</seg></rs>
+; Last known location: <rs type="lastLocation">in the SW corner of the Portico of Tiberius</rs></p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded <seg cert="low">by Mendel in 1905</seg>;  by Boulanger (Notebook A, 57, no 13a whence B, 15, no. 19);  by the NYU expedition in 1969 (<rs type="siteNo">Portico of Tiberius 4</rs>).</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p>KTE</p>
+</div><div type="figure" n="transcriptions">
+<head>Representations</head>
+<p> <figure href="Boulanger_A_57"><figDesc>Boulanger Notebook A, Page 57</figDesc></figure><figure href="Boulanger_B_15"><figDesc>Boulanger Notebook B, Page 15</figDesc></figure>
+</p>
+</div></body></text>
+</TEI.2>

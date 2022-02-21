@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph010179" n="iAph0360 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Honours</rs> for Marcus Aurelius Zenas</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-03-01</date><respStmt><name>Gabriel Bodard</name></respStmt><item>DONE</item></change><change><date>2007-01-11</date><respStmt><name>Charlotte Tupman</name></respStmt><item>tidied</item></change><change><date>2005-06-09</date><respStmt><name>Gabriel Bodard</name></respStmt><item>transferred to XML</item></change>
+  
+  <change><date>2004-11-18</date><respStmt><name>Gabriel Bodard</name></respStmt><item>Created dummy file</item></change></revisionDesc></teiHeader>
+
+<text>
+<body>
+
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Lower part of a ectangular <rs type="material" key="marmor">white marble</rs> <rs type="objectType">statue base</rs> with moulded panels on three sides, reconstructed from seven fragments and incomplete in the upper part (<measure type="length" unit="metre" dim="width">0.51</measure>   ×  <measure type="length" unit="metre" dim="height">1.135</measure>   ×  <measure type="length" unit="metre" dim="depth">0.51</measure>).</p>
+</div>
+
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> within the front  panel, which is complete above (die <measure dim="width" type="length" unit="metre">0.375</measure> × <measure dim="height" type="length" unit="metre">0.995</measure>). The text must have begun on a crowning feature, now lost.</p>
+</div>
+
+<div type="description" n="letters">
+<head>Description of Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.02</measure>. Ligatures: l.3, <foreign lang="grc">ΕΙ</foreign>; l.4, <foreign lang="grc">ΜΝ</foreign>; ll. 9, 19, 20, 24,<foreign lang="grc">TH</foreign>; l.17, <foreign lang="grc">ΗΝ</foreign>; l.25, <foreign lang="grc">ΝΗ</foreign>. Omicron in l. 20 cut small.</p>
+</div>
+
+<div type="description" n="date">
+ <head>Date</head>
+
+<p>       <date exact="none" notAfter="0300" notBefore="0201">Third centuries A.D.</date> (<rs type="criteria">lettering</rs>, <rs type="criteria">nomenclature</rs>).</p></div>
+
+<div n="text" lang="grc" type="edition">
+<head lang="en">Edition</head>
+
+<ab><lb n="1"/> <w lemma="παῖς">παῖδα</w> <w lemma="ὁ">τῶν</w> <w lemma="εὖ">εὐ</w> <w lemma="γίγνομαι">γε<lb n="2" type="worddiv"/>γονότω<unclear reason="damage">ν</unclear></w>  <w lemma="ἀνήρ">ἄνδρα</w><lb n="3"/> <w lemma="εὐγένεια">εὐγενείᾳ</w> <w lemma="καί">καὶ</w> <w lemma="ἦθος">ἤ<lb n="4" type="worddiv"/>θει</w> <w lemma="σεμνός">σεμνῷ</w> <w lemma="διαφέρω">διε<lb n="5" type="worddiv"/>νένκοντα</w>  <w lemma="ζάω">ζή<lb n="6" type="worddiv"/>σαντα</w> <w lemma="κόσμιος">κοσμίως</w> <lb n="7"/> <w lemma="καί">καὶ</w> <w lemma="αἰδήμων">αἰδημόνως</w> <lb n="8"/> <w lemma="πρός">πρὸς</w> <w lemma="ὑπόδειγμα">ὑπόδειγμα</w> <lb n="9"/> <w lemma="ἀρετή">ἀρετῆς</w> <g type="stop"/> <w lemma="καί">καὶ</w> <w lemma="ἐπαινέω">ἐπαι<lb n="10" type="worddiv"/>νεθέντα</w> <w lemma="ἐπί">ἐφ'</w> <w lemma="ὅς">αἷς</w><lb n="11"/><w lemma="μεγαλόψυχος">μεγαλοψύχως</w><lb n="12"/> <w lemma="ἐκτελέω">ἐξετέλεσε</w> <g type="stop"/>  <w lemma="ἀρχή">ἀρ<lb n="13" type="worddiv"/>χαῖς</w> <w lemma="καί">καὶ</w> <w lemma="λειτουργία">λιτουρ<lb n="14" type="worddiv"/>γίαις</w>  <supplied reason="lost"><g type="stop"/></supplied>  <w lemma="ἀνατίθημι"><supplied reason="lost">ἀ</supplied>ναθέν  <space extent="1" unit="character" dim="horizontal"/><lb n="15" type="worddiv"/>τα</w> <w lemma="δέ">δὲ</w> <persName type="aphrodisian"><name reg="Μᾶρκος"><supplied reason="lost">Μᾶρ</supplied>κον</name>  <name type="nomen" reg="Αὐρήλιος">Αυ<lb n="16" type="worddiv"/>ρήλιο<supplied reason="lost">ν</supplied></name>  <name type="" reg="Ζηνᾶς">Ζηνᾶν</name><lb n="17"/><persName type="aphrodisian"><name reg="Ζηνᾶς">Ζηνᾶ</name> <w lemma="ὁ">τοῦ</w> <persName reg="Διονύσιος" full="yes" type="aphrodisian"><name reg="Διονύσιος">Διονυ<lb n="18" type="worddiv"/>σίου</name></persName></persName></persName> <w lemma="ὁ">τὸν</w> <w lemma="πατήρ">πατέρα</w><lb n="19"/> <w lemma="αὐτός">αὐτοῦ</w> <w lemma="ὁ">τῇ</w> <w lemma="ἱερός">ίερωτ<lb n="20" type="worddiv"/>άτῃ</w> <w lemma="βουλή">βουλῇ</w> <g type="stop"/> <w lemma="εἰς">εἰς</w> <w lemma="αἰώνιος">αἰω<lb n="21" type="worddiv"/>νίους</w>  <w lemma="κλῆρος">κλήρους</w><lb n="22"/> <w lemma="ἀργύριον">ἀργυρίου</w> <w lemma="ἀρχαῖος">ἀρχαῖα</w><lb n="23"/><g type="scroll"/>  <w lemma="δηνάριον"><expan><abbr><orig><g type="denarius"/></orig></abbr><supplied reason="abbreviation">δηνάρια</supplied></expan></w>  <num value="2700">βφ</num>  <g type="scroll"/><lb n="24"/> <w lemma="καθώς">καθῶς</w> <w lemma="διά">διὰ</w> <w lemma="ὁ">τῆς</w> <w lemma="γίγνομαι">γε<lb n="25"/> νομένης</w> <w lemma="αὐτός">αὐτοῦ</w><lb n="26"/> <w lemma="ἀνάθεσις">ἀναθέσεως</w> <w lemma="δηλόω">δη<lb n="27" type="worddiv"/><g type="leaf"/> λοῦται</w> <g type="star"/><lb n="27a"/>                    <space extent="12"/></ab> 
+
+ 
+ 
+</div>
+
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds);  Gaudin's squeeze.</p>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+  <p><gap dim="left" reason="lost"/> descendant of well-born men, a man outstanding for good birth and reverend character; he lived with due order and with moderation to the point of being a demonstration of excellence; he was praised for the offices and liturgies in performance of which he acted magnanimously; and  his father Marcus Aurelius Zenas son of Zenas the son of Dionysios, who dedicated to the worshipful Council with a view to money distributions to lot-selected councillors in perpetuity, the sum of 2500 old denarii as is made clear in the dedication.</p></div>
+
+<div type="commentary">
+<head>Commentary</head>
+
+<p>The language of lines 2-14  is identical with that of <xref type="inscription" n="1770" href="120537">12.537</xref> (=CIG 2794), where the subject's personal name is also lost; but the father's name is different from the one here, and it was he who set up the statue of his son. Complete identity of the honorary descriptions in two texts is unusual, although substantial similarity of thought and language is common. For the establishment of funds to finance lotteries available to memebers of the city council see word index, s.v. κλήρος  </p></div>
+
+<div type="history" n="locations">
+<head>Locations</head>
+<p><rs type="found"><rs type="monuList">Temple/Church</rs>, east end: probably re-used in the Byzantine bema</rs>. <rs type="origLocation">Unknown</rs>. <rs type="lastLocation">Findspot (1977)</rs>.</p>
+</div>
+
+
+
+
+
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Three fragments recorded by Gaudin (34a, 29f, g); these fragments, further damaged, recorded by the NYU expedition with four additional fragments (<rs type="siteNo">Temple 16</rs>; SBI <rs type="sbi">89</rs>).</p>
+  </div>
+
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Three fragments published from Gaudin's squeeze by <bibl type="primary" n="reinach"><author>Reinach</author>, <biblScope>109</biblScope>, <biblScope>116</biblScope>, <biblScope>117</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257461">581</biblScope>, <biblScope n="257250">372</biblScope></bibl>.</p>
+</div>
+
+
+
+
+
+<div type="figure" n="photographs"><head>Photographs</head><p><figure href="JMR_1_1968_069"><figDesc>Lines 1-end (1968)</figDesc></figure><figure href="JMR_1_1968_045"><figDesc>Lines 1-end (1968)</figDesc></figure><figure href="77_Q_12"><figDesc>ll. 1-2, middle (1977)</figDesc></figure><figure href="77_G_01"><figDesc>ll. 3-6, right (1977)</figDesc></figure><figure href="78_L_14"><figDesc>ll. 11-17, left (1978)</figDesc></figure><figure href="77_B_18A"><figDesc>ll. 6-end (1977)</figDesc></figure><figure href="77_B_19A"><figDesc>ll. 6-end (1977)</figDesc></figure></p></div></body>
+</text>
+
+</TEI>

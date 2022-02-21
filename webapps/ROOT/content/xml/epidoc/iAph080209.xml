@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph080209" n="iAph1239 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Votive</rs> offering  to Kore Plyarei by Diogenes and Tatias</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Unpublished inscription. This version born digital.</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc><change><date>2007-03-06</date><respStmt><name>GB</name></respStmt><item>DONE</item></change><change><date>2005-04-7</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change></revisionDesc></teiHeader>
+<text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Rather crude <rs type="material" key="marmor">white marble</rs> <rs type="objectType">altar</rs> with very simple moulding above and below (<measure type="length" unit="metre" dim="width">0.25</measure> × <measure type="length" unit="metre" dim="height">0.62</measure> × <measure type="length" unit="metre" dim="depth">0.25</measure>).</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure dim="height" type="length" unit="metre">0.015-0.017</measure>; partly in counter-relief; poorly cut and shaped. Square and lunate <term lang="grc-Latn">epsilon</term>. <foreign lang="grc">ΝΗ</foreign> in ligature, l. 1.</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+Perhaps <date cert="low" exact="none" notAfter="-0101" notBefore="-0300">third to second centuries B.C.</date>
+(<rs type="criteria">lettering</rs>)</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <persName type="aphrodisian"><name reg="Διωγένης">Διωγέ<hi rend="ligature">νη</hi>ς</name></persName>  <lb n="2"/> <w lemma="μετά">μετὰ</w> <persName type="aphrodisian"><name reg="Παπίας">Τατιάς</name></persName>  <lb n="3"/><persName type="divine" full="yes"><name reg="Κόρη">Κούρῃ</name>  <placeName full="yes" reg="Πλυαρεύς">Πλυαρει</placeName></persName><lb n="4"/> <w lemma="εὐχή">ε<unclear reason="damage">ὐ</unclear>χήν</w> </ab>
+</div>
+
+<div type="apparatus">
+<head>Apparatus</head>
+<p>The  counter-relief makes the readings often difficult; it would be possible to argue for <foreign lang="grc">Διιωγένης</foreign> and <foreign lang="grc">Παπίας</foreign>.</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p>Diogenes with Tatias to the Koure of Plyara.</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>This seems likely to be one of the earliest inscriptions from the site. The letters are atypical but could be of the second century B.C. (though also much later). The deity (presumably Kore, the maiden) is described by an ethnic adjective relating her to a city known only from a text, probably of the second century B.C. (<foreign lang="grc">ὁ δῆμος ὁ Πλυαρέων</foreign> in <xref type="inscription" n="1892" href="020506">2.506</xref> (=BE 1973.398)), found at Aphrodisias; it must certainly have been a nearby place and to some the evidence suggests that it may have been Aphrodisias under an earlier name. This inscription can be taken to support this view.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+Found: <rs type="found"><rs type="monuList">Theatre</rs>: N. Analemma, during destruction of Mosque.</rs>
+; Original location: <rs type="origLocation">Unknown</rs>
+; Last known location: <rs type="lastLocation">Museum (1975)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div><div type="history" n="record">
+<head>History of Recording</head>
+<p>Excavated by the NYU expedition in 1975 (<rs type="invNo">75.28</rs>)</p>
+</div>
+<div type="bibliography" n="none"><head>Bibliography</head><p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="75_J_34A"><figDesc>Face (1975)</figDesc></figure></p>
+
+</div></body></text>
+</TEI>

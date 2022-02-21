@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph110405" n="iAph1863 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"> <rs type="textType">Honours</rs> for a priest of Athena P<supplied reason="lost" cert="low">olias</supplied></title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Charlotte M. <name type="surname">Roueché</name></editor> and <editor>Gabriel <name type="surname">Bodard</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc><p>Originally published in <bibl n="PHI">McCabe (<date>1993</date>)</bibl>.</p></sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="personType" key="imperatorius">Imperial</rs></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-03-26</date><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2005-12-13</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>
+A very badly worn block  perhaps a <rs type="objectType" cert="low">statue base</rs>); perhaps complete at the left in some places.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on one face.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p><measure type="length" unit="metre" dim="height">0.021</measure></p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0001" notAfter="0300" exact="none">First to third centuries A.D.</date> (<rs type="criteria">terminology</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="0"/>    <supplied reason="lost" cert="low"><w lemma="ὁ">ἡ</w>  <w lemma="βουλή">βουλὴ</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">ὁ</w>  <w lemma="δῆμος">δῆμος</w>  <w lemma="καί">καὶ</w>  <w lemma="ὁ">ἡ</w>  <w lemma="γερουσία">γερουσία</w></supplied>  <w lemma="τιμάω"><supplied reason="lost">ἐ</supplied><lb n="1" type="worddiv"/><supplied reason="lost">τεί</supplied>μησαν</w> <w lemma="ὁ">ταῖς</w> <supplied reason="lost" cert="low">μεγίσταις</supplied>  <supplied reason="lost">τειμαῖς</supplied><gap reason="lost" extent="4" unit="character"/>  <lb n="2"/><w lemma="ἱερεύς"><supplied reason="lost">ἱ</supplied>ερέα</w> <persName type="divine"><name>Ἀθηνᾶς</name> <w lemma="Πολιάς">Π<supplied reason="lost" cert="low">ολιάδος</supplied></w></persName>  <w lemma="διά"><supplied reason="lost">διὰ</supplied></w>  <w lemma="ὁ"><supplied reason="lost">τῶν</supplied></w>  <lb n="3"/><w lemma="εὐεργεσία"><supplied reason="lost">ε</supplied>ὐεργεσιῶν</w> <orig n="unresolved">επ<unclear reason="damage">ιλ</unclear></orig><gap reason="lost" extent="12" unit="character" extentmax="14"/>  <lb n="4"/><orig n="unresolved">ε</orig><gap reason="lost" extent="12" unit="character"/><orig n="unresolved">πρ</orig><gap reason="lost" extent="10" unit="character"/>  <lb n="5"/><gap reason="lost" extent="10" unit="character"/><orig n="unresolved">αιδε<unclear reason="damage">λ</unclear></orig><gap reason="lost" extent="10" unit="character"/>  <lb n="7"/><gap reason="lost" extent="12" unit="character"/><orig n="unresolved">ασ<unclear reason="damage">α</unclear></orig><gap reason="lost" extent="10" unit="character"/>  <lb n="8"/><gap reason="lost" extent="10" unit="character"/><w lemma="δίκαιος"><supplied reason="lost">  δι</supplied>καίῳ</w>  <w lemma="ἱερατεύω"><supplied reason="lost">ἱερα</supplied><lb n="9" type="worddiv"/><supplied reason="lost">τεύσα</supplied>ντα</w> <w lemma="ὁ">τῶν</w> <persName type="emperor"><w lemma="σεβαστός"><supplied reason="lost">Σεβαστῶν  </supplied></w></persName>  <lb n="10"/><orig n="unresolved">δ</orig><gap reason="lost" extent="2" unit="character"/><gap reason="illegible" extent="1" unit="character"/>  <w lemma="μηδέ">μηδὲ</w> <w lemma="ἐν">ἐν</w> <w lemma="ὁ">τοῖς</w> <gap reason="lost" extent="10" unit="character"/>  <lb n="11"/><gap reason="lost" extent="8" unit="character"/> <w lemma="ὁ">τὸν</w> <w lemma="δῆμος">δῆμ<supplied reason="lost">ον</supplied></w></ab>
+</div>
+
+<div type="translation">
+<head>Translation</head>
+<p>[ So and so] honoured with [?the greatest honours so and so, ] priest of Athena P[olias? ... 5 lines ...] having served as priest of the [Augusti ..] nor in the [...] the people [...]</p>
+</div>
+<div type="commentary" n="notyet">
+<head>Commentary</head>
+<p>No commentary</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="origLocation">Unknown</rs>
+<rs type="found"><rs type="monuList">City, South-west</rs>: in a vineyard, inside the walls, near the Baths area.</rs>
+<rs type="lastLocation">Findspot (1904)</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Gaudin's squeeze; publication.</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by Gaudin (179); not reported subsequently.</p>
+</div>
+<div type="bibliography">
+<head>Bibliography</head>
+<p>Published from Gaudin by <bibl n="reinach">Reinach, <biblScope>83</biblScope></bibl>, whence <bibl n="PHI"><author>McCabe</author> <title level="m">PHI Aphrodisias</title> <biblScope n="257229">351</biblScope>
+</bibl>
+</p>
+</div><div type="figure" n="photographs">
+<head>Photographs</head>
+<p>None</p>
+</div></body></text>
+</TEI>

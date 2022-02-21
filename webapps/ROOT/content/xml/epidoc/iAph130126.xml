@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:space="preserve" xml:lang="en" id="iAph130126" n="iAph1244 ">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title level="m"><rs type="textType">Funerary</rs> fragment</title>
+ </titleStmt>
+<publicationStmt><p><bibl><editor>Joyce M. <name type="surname">Reynolds</name></editor><date>2007</date></bibl></p><p>Creative Commons licence Attribution 2.5 (<xref>http://creativecommons.org/licenses/by/2.5/</xref>)</p><p>All reuse or distribution of this work must contain somewhere a link back to the URL <xref>http://insaph.kcl.ac.uk/</xref></p></publicationStmt>
+<sourceDesc>
+<p>Unpublished inscription.  This version born digital</p>
+</sourceDesc>
+</fileDesc>
+<profileDesc>
+<langUsage>
+<language id="en">English</language>
+<language id="fr">French</language>
+<language id="de">German</language>
+<language id="grc">Ancient Greek</language>
+<language id="grc-Latn">Transliterated Greek</language>
+<language id="el">Modern Greek</language>
+<language id="it">Italian</language>
+<language id="la">Latin</language>
+<language id="es">Spanish</language>
+<language id="tr">Turkish</language>
+</langUsage><textClass><keywords><term><geogName type="ancientRegion" key="Asia">Asia</geogName></term><term><geogName type="modernCountry" key="TR">Turkey</geogName></term><term><placeName type="ancientFindspot" key="Aphrodisias">Aphrodisias</placeName></term><term><placeName type="modernFindspot" key="Geyre">Geyre</placeName></term><term><rs type="textType" key="sacer">Religious</rs></term></keywords></textClass></profileDesc>
+<revisionDesc>
+<change><date>2007-07-11</date><respStmt><name>cmr</name></respStmt><item>DONE</item></change>
+<change><date/><respStmt><name>GB</name></respStmt><item>hand tidied</item></change>
+<change><date>2006-11-07</date><respStmt><name>Elliott Hall</name></respStmt><item>Batch converted Word2XML</item></change>
+</revisionDesc></teiHeader><text>
+<body>
+<div type="description" n="monument">
+<head>Description of Monument</head>
+<p>Fragment from the left side of a <rs type="material">white marble</rs> columnar <rs type="objectType">sarcophagus</rs> front (<measure type="length" unit="metre" dim="width">0.305</measure>   × <measure type="length" unit="metre" dim="height">0.40</measure>   × <measure type="length" unit="metre" dim="depth">0.43</measure>). On what survives of the left short end part of a draped female figure is visible beside a column at the corner.</p>
+</div>
+<div type="description" n="text">
+<head>Description of Text</head>
+<p><rs type="execution" key="scalpro">Inscribed</rs> on the lower part of the front face, above a carved lower edge; there are traces of sculptured decoration above.</p>
+</div>
+<div type="description" n="letters">
+<head>Letters</head>
+<p>standard forms, Second to third centuries A.D.; <measure type="length" unit="metre" dim="height">0.02</measure>
+</p>
+</div>
+<div type="description" n="date">
+<head>Date</head>
+<p>
+<date notBefore="0101" notAfter="0300" exact="none">Second to third centuries A.D.</date> (<rs type="criteria">lettering</rs>)
+</p>
+</div>
+<div type="edition" lang="grc">
+<head lang="en">Edition</head>
+<ab><lb n="1"/>  <space extent="3" unit="character" dim="horizontal"/>  <gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost" cert="low">ὃς</supplied>  <supplied reason="lost">ἂν</supplied>  <supplied reason="lost">πα</supplied>  <lb type="worddiv" n="2"/>ρὰ  ταῦτα<gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost" cert="low">ἀποτει</supplied>  <lb n="3"/><unclear reason="damage">σ</unclear>άτω  θ<unclear reason="damage">ε</unclear><supplied reason="lost">ᾷ</supplied>  <persName type="divine"><name reg="Ἀφροδίτη"><supplied reason="lost">Ἀφροδείτῃ</supplied></name></persName>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  <lb n="4"/><unclear reason="damage">Γ</unclear>Ω <w>ΤΟΥ</w> <gap reason="lost" extent="unknown" unit="character"/>  <supplied reason="lost" cert="low"/>  <supplied reason="lost">βουλή</supplied>  <lb n="5"/> <w>θη</w> <w lemma="ἤ">ἢ</w> δ<unclear reason="damage">ια</unclear><supplied reason="lost">τάξηται</supplied>  <gap reason="lost" extent="unknown" unit="character" dim="right"/>  </ab>
+</div>
+<div type="apparatus">
+<head>Apparatus</head>
+<p>l. 3, Γ might be Τ</p>
+</div>
+<div type="translation">
+<head>Translation</head>
+<p> [ . . .? whover acts] incrtavention of this <gap extent="unknown" reason="lost" unit="character"/> let him pay to the god[dess Aphrodite . . .] whatver he may wish or instruct [ . . .</p>
+</div>
+<div type="commentary">
+<head>Commentary</head>
+<p>Fragmetns from a standard funerary formula; perhaps from the same monument as <xref type="inscription" n="1302" href="130128">13.128</xref>.</p>
+</div>
+<div type="history" n="locations">
+<head>Locations</head>
+<p>
+<rs type="found"><rs type="monuList">Necropolis, North-east</rs>: stray find</rs>
+<rs type="origLocation">Unknown</rs>
+<rs type="lastLocation">Museum</rs>
+</p>
+</div>
+<div type="history" n="text-constituted-from">
+<head>Text Constituted From</head>
+<p>Transcription (Reynolds)</p>
+</div>
+<div type="history" n="record">
+<head>History of Recording</head>
+<p>Recorded by the NYU expedition in 1992 (<rs type="invNo">92.36</rs>; sarcophagus 211)</p>
+</div>
+<div type="bibliography" n="none"> <head>Bibliography</head> <p>Unpublished.</p>
+</div>
+<div type="figure" n="photographs">
+<head>Photographs</head>
+<p><figure href="92_A_33"><figDesc>Face and left side (1992)</figDesc></figure><figure href="92_A_17"><figDesc>Face (1992)</figDesc></figure></p>
+</div></body></text>
+</TEI>
