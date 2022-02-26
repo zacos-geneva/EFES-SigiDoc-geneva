@@ -19,6 +19,9 @@
                <xsl:when test="@type='inscription' and @n and not(@target) and not(@corresp)">
                   <a href="{@n}.html" target="_blank"><xsl:apply-templates/></a>
                </xsl:when>
+               <xsl:when test="@type='inscription' and not(@n) and not(@target) and not(@corresp)">
+                  <a target="_blank" href="{lower-case(translate(string(.), ' ', ''))}.html"><xsl:apply-templates/></a>
+               </xsl:when>
             </xsl:choose>
          </xsl:when>
          <xsl:otherwise>
