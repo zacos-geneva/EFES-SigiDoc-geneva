@@ -67,9 +67,14 @@
 .italic {
     font-style: italic;
     }
-    
+
+.rtl, .rtl * {
+    direction: rtl;
+    text-align-last: right;
+}
+
 h4.slimmer {
-    margin-bottom: 0.0em;
+    margin-bottom: -0.5em;
     }    
 
 h3.iospe {
