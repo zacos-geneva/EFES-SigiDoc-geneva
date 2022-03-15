@@ -5,7 +5,7 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- This XSLT transforms a set of EpiDoc documents into a Solr
-       index document representing an index of symbols in those
+       index document representing an index of mentioned places in those
        documents. -->
 
   <xsl:import href="epidoc-index-utils.xsl" />
@@ -27,7 +27,7 @@
           <field name="index_item_name">
             <xsl:value-of select="@ref" />
           </field>
-          <field name="index_ethnic">
+          <field name="index_item_type">
             <xsl:choose>
               <xsl:when test="@type='ethnic'"><xsl:text>Ethnic</xsl:text></xsl:when>
               <xsl:otherwise><xsl:text>Toponym</xsl:text></xsl:otherwise>
