@@ -10,16 +10,14 @@
 
   <kiln:child>
     <kiln:block name="title">
-      <i18n:text>home-title</i18n:text>
+      <i18n:text>SigiDoc: Home</i18n:text>
     </kiln:block>
 
     <kiln:block name="page-header">
       <div class="row">
         <div class="large-12 columns text-center">
           <h1>
-            <span class="round label">
-              <i18n:text i18n:key="home-title">Welcome to EFES!</i18n:text>
-            </span>
+            <i18n:text i18n:key="home-title">SigiDoc 1.1<i>dev</i></i18n:text>
           </h1>
         </div>
       </div>
@@ -28,45 +26,29 @@
     <kiln:block name="content-section">
       <main>
         <div class="row">
-          <div class="small-6 large-centered columns">
-            <p>Now that you have EFES up and running, it's time to
-            start building your project. Start with one of the options
-            listed below and go from there.</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 columns">
+          <div class="large-12 columns">
             <div class="panel radius">
-              <p><strong>Add your files</strong></p>
-
-              <p>Put your EpiDoc XML files in webapps/ROOT/content/xml/epidoc and go to the <a
-              href="{kiln:url-for-match('local-admin-home-page', (), 0)}">admin</a> and index them for searching. Then see how
-              they are displayed
-              
-              (<a
-              href="{kiln:url-for-match('local-epidoc-index-display', ($language), 0)}">Inscriptions</a>).</p>
+              <p>Seals are the only remnants of the written documents used for daily administration
+                and private correspondence from the 4th to the 15th C. in the Byzantine Empire – i.e.
+                the Christian eastern medieval empire centred upon Constantinople – whose public and
+                private archives are nearly entirely lost. As such seals do not supplement archival
+                material but have to substitute it, which explains the unique importance of
+                sigillography for Byzantine studies.</p>
             </div>
           </div>
-          <div class="large-4 columns">
+          <div class="large-12 columns">
             <div class="panel radius">
-              <p><strong>Customise the templates</strong></p>
-
-              <p>Change the look of this site by modifying the templates
-              in webapps/ROOT/assets/templates. The template for this
-              page is home.xml, and it builds on the base template
-              base.xml.</p>
-            </div>
-          </div>
-          <div class="large-4 columns">
-            <div class="panel radius">
-              <p><strong>Read the documentation</strong></p>
-
-              <p>The documentation and User Guide for  
-                EFES can be found on the project's <a href="https://github.com/EpiDoc/EFES/wiki/">GitHub Wiki pages</a>. 
-                Documentation for Kiln, the platform that EFES is based on, can be found both <a
-                  href="http://kiln.readthedocs.org/en/latest/">online</a>, and in source form, in the docs directory of your
-              installation. It explains how you can modify everything
-              about your project.</p>
+              <p>SigiDoc provides XML-based and TEI-compliant encoding standards for the description
+                and edition of Byzantine seals: as such, it aims to establish a set of rules and
+                guidelines to publish Byzantine seals in digital form. SigiDoc is intended for both
+                the creation of digital-born editions as well as digital conversion of paper
+                publications and has been conceived to provide the users with a common basis for
+                developing their projects and to give them the freedom to customise their
+                approach.</p>
+              <p>SigiDoc is largely based on the ongoing experience of EpiDoc and aims at becoming
+                the standard tool for the spreading of digital sigillography while delivering a
+                standard for the digital encoding of Byzantine seals. </p>
+              <p>GitHub repository available <a href="https://github.com/SigiDoc/SigiDoc" target="_blank">here</a>.</p>
             </div>
           </div>
         </div>
