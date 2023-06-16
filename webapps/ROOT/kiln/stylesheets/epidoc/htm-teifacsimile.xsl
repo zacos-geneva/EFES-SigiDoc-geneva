@@ -26,7 +26,7 @@
          suffix but does have a "." in it. -->
     <xsl:variable name="url-parts" select="tokenize(@url, '\.')" />
     <xsl:variable name="count-url-parts" select="count($url-parts)-1" />
-    <a href="{concat($parm-image-loc, @url)}">
+    <a href="{concat($parm-image-loc, @url)}" target="_blank"><!-- @target added by SigiDoc -->
       <img title="{t:desc}">
         <xsl:attribute name="src">
           <xsl:value-of select="$parm-image-loc" />
