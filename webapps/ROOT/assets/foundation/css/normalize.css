@@ -396,7 +396,66 @@ textarea {
  * Remove most spacing between table cells.
  */
 
-table {
+/*table.indices {
     border-collapse: collapse;
     border-spacing: 0;
+    width: 100%;
+    table-layout: fixed;
+    column-width: 70px;
+}*/
+
+/*table.image th {
+    background-color: #eee3e3;
+    color: black;
+    font-family: 'calibri';
+    font-size: 15px;
+    height: 20px;
+    text-align: center;
+} /\* sfondo della caption *\/
+
+table.image {
+    width: 40%;
+}
+
+table.image td {
+    padding: 10px;
+}
+
+table.image img:hover {
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+} /\* opacizza immagine quando si indica con il cursore *\/*/
+
+table thead {
+    text-align: left;
+    height: 30px;
+    background-color: #eee3e3;
+    color: black;
+    font-family: 'calibri';
+    font-size: 20px;
+    table-layout: fixed;
+}
+
+table tbody {
+    text-align: left;
+    height: 30px;
+    color: black;
+    font-family: 'calibri';
+    font-style: normal;
+    font-size: 20px;
+    table-layout: fixed;
+}
+
+/*tbody tr {
+    height: 30px;
+}
+
+table th {
+    background-color: #eee3e3;
+    font-family: 'calibri';
+    font-size: 20px;
+}*//* commented out to avoid conflits with the rules for the display of AthenaRuby font in the glyphs' index */
+
+tr:hover {
+    background-color: #f6f1f1;
 }
