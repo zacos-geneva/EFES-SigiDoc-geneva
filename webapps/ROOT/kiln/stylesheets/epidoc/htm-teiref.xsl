@@ -8,7 +8,7 @@
    <xsl:template match="t:ref" mode="#default inslib-dimensions inslib-placename sample-dimensions">
       <xsl:param name="parm-edn-structure" tunnel="yes" required="no"/>
       <xsl:choose>
-         <xsl:when test="$parm-edn-structure='inslib' or $parm-edn-structure='sample'">
+         <xsl:when test="$parm-edn-structure='inslib' or $parm-edn-structure='sample' or $parm-edn-structure='sigidoc'">
             <xsl:choose>
                <xsl:when test="@target">
                   <a href="{@target}" target="_blank"><xsl:apply-templates/></a>
