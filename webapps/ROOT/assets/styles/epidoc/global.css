@@ -185,13 +185,62 @@ div#edition.iospe {
 div.iospe {
   margin-left: 165px;
 }
-
 /* below this line: additions for images' and captions' display according to SigiDoc's htm-tpl-struct-sigidoc.xsl - AS 2020-05-27 */
 
 dl.box {
   float: left;
   width: 10%;
   padding: 1px;
+}
+
+/* div#images::after {
+  clear: both;
+  display: table;
+}*/
+
+div#images {
+  height: 250px;
+}
+
+dl.box dt {
+  float: none;
+  font-size: 12px;
+  font-weight: normal;
+  color: #183a37;
+  max-width: 100px;
+  vertical-align: baseline;
+  /*    width: 200px;*/
+  padding-left: 0px;
+  margin-bottom: auto;
+  padding-bottom: inherit;
+  font-family: "calibri";
+  overflow: auto;
+}
+
+/* below this line: additions for div footnotes' display according to SigiDoc's htm-tpl-struct-sigidoc.xsl - AS 2020-05-28 / AS 2020-07-25*/
+
+div#footnotes p {
+  font-size: 16px;
+  font-family: "calibri", "athenaruby";
+}
+
+div#footnotes {
+  font-size: 16px;
+  font-family: "calibri";
+}
+
+div.fnseparator {
+  border-bottom: 2px solid black;
+  padding-bottom: 10px;
+  width: 200px;
+}
+
+h4#notes {
+  font-family: "calibri";
+  font-size: 16px;
+  color: black;
+  max-width: 165px;
+  width: 165px;
 }
 
 .no-space {
