@@ -19,7 +19,7 @@
           <meta content="width=device-width" name="viewport" />
           <meta content="IE=edge,chrome=IE8" http-equiv="X-UA-Compatible" />
           <title>
-            <kiln:block name="title">EFES: </kiln:block>
+            <kiln:block name="title">SigiDoc:</kiln:block>
           </title>
           <kiln:block name="css">
             <link href="{$kiln:assets-path}/foundation/css/normalize.css"
@@ -43,15 +43,21 @@
       <kiln:block name="body">
         <body>
           <kiln:block name="navigation">
+            <div class="text-left">
+              <h1 id="site-title">
+                <a href="/">SigiDoc</a>
+              </h1>
+            </div>
             <nav class="top-bar">
               <kiln:block name="main-navigation">
                 <ul class="title-area">
                   <li class="name">
-                    <h1><a href="{kiln:url-for-match('local-language-home-page', ($language), 0)}">EFES</a></h1>
+                    <a href="{kiln:url-for-match('local-language-home-page', ($language), 0)}"
+                      >Home</a>
                   </li>
-                  <li class="toggle-topbar menu-icon">
+                  <!--<li class="toggle-topbar menu-icon">
                     <a href="#"><span>Menu</span></a>
-                  </li>
+                  </li>-->
                 </ul>
                 <section class="top-bar-section">
                   <ul class="left">
@@ -74,20 +80,57 @@
             <div class="row">
               <div class="large-12 columns">
                 <h1>
-                  <kiln:block name="page-heading"></kiln:block>
+                  <kiln:block name="page-heading"/>
                 </h1>
               </div>
             </div>
           </kiln:block>
           <kiln:block name="content-section">
             <main>
-              <kiln:block name="content" />
+              <kiln:block name="content"/>
             </main>
           </kiln:block>
           <kiln:block name="footer">
             <footer>
-              <p>Built on <a href="https://epidoc.stoa.org/">EpiDoc</a> and delivered by <a href="https://github.com/EpiDoc/EFES">EFES</a>.</p>
-              <p>Theme by <a href="http://foundation.zurb.com/">Foundation</a></p>
+              <p id="logos">
+                <a href="https://anr.fr/">
+                  <img style="height:3.0em; padding-right:1em" alt="ANR"
+                    src="{$kiln:assets-path}/images/anr.jpg"/>
+                </a>
+                <a href="https://www.dfg.de/">
+                  <img style="height:3.5em; padding-right:0.7em; padding-left:0.5em" alt="DFG"
+                    src="{$kiln:assets-path}/images/dfg.jpg"/>
+                </a>
+                <a href="https://cceh.uni-koeln.de/">
+                  <img style="height:3.5em; padding-right:1em; padding-left:0.5em"
+                    alt="CCeH - Cologne Center for eHumanities"
+                    src="{$kiln:assets-path}/images/cceh.png"/>
+                </a>
+                <a href="https://www.uni-koeln.de/">
+                  <img style="height:4.0em; padding-right:1.3em; padding-left:0.5em"
+                    alt="Universität zu Köln" src="{$kiln:assets-path}/images/uzk.png"/>
+                </a>
+                <a href="https://www.orient-mediterranee.com/">
+                  <img style="height:3.5em; padding-right:1.3em; padding-left:0.5em" alt="Orient et Méditerranée UMR 8167 CNRS"
+                    src="https://www.orient-mediterranee.com/wp-content/uploads/2023/02/logo-om_2.svg"/>
+                </a>
+              </p>
+              <div id="licence">
+                <span id="licenceSpan">
+                  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
+                    <img alt="CC BY NC SA"
+                     style="padding-left:0em; padding-right:1em; padding-bottom:0.2em"
+                     src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png"/>
+                  </a>
+                  ANR/DFG DigiByzSeal - Unlocking the Hidden Value of Seals: New Methodologies
+                  for Historical Research in Byzantine Studies
+                </span>
+              </div>
+              <p id="efes">Built on 
+                  <a href="https://epidoc.stoa.org/">EpiDoc</a> 
+                  and delivered by
+                  <a href="https://github.com/EpiDoc/EFES">EFES</a>.
+              </p>
             </footer>
           </kiln:block>
           <kiln:block name="end-js">
