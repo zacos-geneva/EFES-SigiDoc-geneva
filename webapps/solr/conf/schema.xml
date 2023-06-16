@@ -149,20 +149,19 @@
           multiValued="true" stored="true" required="false" />
    <field name="mentioned_people" type="string" indexed="true"
           multiValued="true" stored="true" required="false" />
-   <field name="source_repository" type="string" required="false"
-          multiValued="true" stored="true" indexed="true" />
-   <field name="mentioned_divinities" stored="true" indexed="true"
-     multiValued="true" required="false" type="string" />
-   <field name="person_name" stored="true" indexed="true"
-     multiValued="true" required="false" type="string" />   
-   <field name="mentioned_institutions" stored="true" indexed="true"
-     multiValued="true" required="false" type="string" />
-   <field indexed="true" multiValued="true" name="inscription_type"
-     required="false" stored="true" type="string" />
-
+   <field name="collection" type="string" required="false"
+     multiValued="true" stored="true" indexed="true" /><!-- added for SigiDoc -->
+   <field name="institution" type="string" required="false"
+     multiValued="true" stored="true" indexed="true" /><!-- added for SigiDoc -->
    <!-- User index fields. -->
    <field name="index_item_name" stored="true" indexed="true"
           multiValued="false" required="false" type="string" />
+   <field name="index_entry_type" stored="true" indexed="false"
+     multiValued="false" required="false" type="string" /><!-- added for SigiDoc -->
+   <field name="index_AR" stored="true" indexed="false"
+     multiValued="false" required="false" type="string" /><!-- added for SigiDoc -->
+   <field name="index_ext_reference" stored="true" indexed="false"
+     multiValued="false" required="false" type="string" /><!-- added for SigiDoc -->
    <field name="index_instance_location" stored="true" indexed="false"
           multiValued="true" required="false" type="string" />
    <field name="index_abbreviation_expansion" stored="true"
@@ -171,28 +170,51 @@
           multiValued="true" required="false" type="string" />
    <field name="index_numeral_value" stored="true" indexed="false"
           multiValued="false" required="false" type="string" />
-   <field name="index_item_role" stored="true" indexed="true"
-     multiValued="false" required="false" type="string" />
-   <field name="index_item_type" stored="true" indexed="true"
-     multiValued="false" required="false" type="string" />
    <field name="origin_date_evidence" required="false" indexed="true"
           multiValued="true" stored="true" type="string" />
    <!-- Concordance fields. -->
    <field name="concordance_bibliography_ref" stored="true" indexed="true"
           multiValued="false" required="false" type="string" />
-   <field name="concordance_bibliography_type" stored="true" indexed="true" 
-     multiValued="false" required="false" type="string" />
    <field name="concordance_bibliography_cited_range" stored="true"
           indexed="true" multiValued="false" required="false" type="string" />
-   <field name="concordance_bibliography_date" stored="true"
-     indexed="true" multiValued="false" required="false" type="string" />
    <field name="concordance_bibliography_item" stored="true" indexed="false"
           multiValued="true" required="false" type="string" />
-   <field name="concordance_bibliography_short" stored="true" indexed="false"
-     multiValued="false" required="false" type="string" />
-   <!-- the following field is needed to display just one entry for each bibliographic reference in the bibl. list -->
-   <field name="concordance_bibliography_listed" stored="true"
-     indexed="true" multiValued="false" required="false" type="string" />
+   <field name="sigidoc_id_number" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="persons" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />
+   <field name="place_names" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" />
+   <field name="dignities" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="civil_offices" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="ecclesiastical_offices" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="military_offices" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="titles" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="marian_terms" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="christ-related_terms" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="saints-related_terms" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="iconography" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="legend_case" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="personal_names" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="family_names" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="metrical" stored="true" indexed="true" 
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="monogram" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="milieu" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
 
    <!-- catchall field, containing all other searchable text fields
         (implemented via copyField further on in this schema -->

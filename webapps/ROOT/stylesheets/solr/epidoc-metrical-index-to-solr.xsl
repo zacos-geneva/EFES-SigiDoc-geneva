@@ -5,7 +5,7 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- This XSLT transforms a set of EpiDoc documents into a Solr
-       index document representing an index of institutions in those
+       index document representing an index of symbols in those
        documents. -->
 
   <xsl:import href="epidoc-index-utils.xsl" />
@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:rs[@type='institution']" group-by="concat(@key,'-',@type,'-',@role)">
+      <xsl:for-each-group select="//tei:lg[@met][@subtype][ancestor::tei:div/@type='textpart']" group-by="@met">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -25,13 +25,7 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="@key" />
-          </field>
-          <field name="index_item_type">
-            <xsl:value-of select="@type" />
-          </field>
-          <field name="index_item_role">
-            <xsl:value-of select="@role" />
+            <xsl:value-of select="concat ($base-uri, @ana)" />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
@@ -39,7 +33,7 @@
     </add>
   </xsl:template>
 
-  <xsl:template match="tei:rs">
+  <xsl:template match="tei:lg">
     <xsl:call-template name="field_index_instance_location" />
   </xsl:template>
 

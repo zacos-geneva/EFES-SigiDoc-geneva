@@ -5,17 +5,18 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- This XSLT transforms a set of EpiDoc documents into a Solr
-       index document representing an index of person names in those
+       index document representing an index of symbols in those
        documents. -->
 
   <xsl:import href="epidoc-index-utils.xsl" />
 
   <xsl:param name="index_type" />
   <xsl:param name="subdirectory" />
+  <xsl:variable name="dignities" select="doc('../../content/xml/authority/dignities.xml')"/>
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:name[@nymRef][ancestor::tei:div/@type='edition']" group-by="@nymRef">
+      <xsl:for-each-group select="//tei:rs[@type='dignity'][@ref][ancestor::tei:div/@type='textpart']" group-by="@ref">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -25,7 +26,8 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="@nymRef" />
+              <xsl:variable name="ref-id" select="substring-after(@ref,'#')"/>
+              <xsl:value-of select="$dignities//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']" />
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
@@ -33,7 +35,7 @@
     </add>
   </xsl:template>
 
-  <xsl:template match="tei:name">
+  <xsl:template match="tei:rs">
     <xsl:call-template name="field_index_instance_location" />
   </xsl:template>
 

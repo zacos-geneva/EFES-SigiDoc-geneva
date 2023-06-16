@@ -5,17 +5,18 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- This XSLT transforms a set of EpiDoc documents into a Solr
-       index document representing an index of divinities in those
+       index document representing an index of symbols in those
        documents. -->
 
   <xsl:import href="epidoc-index-utils.xsl" />
 
   <xsl:param name="index_type" />
   <xsl:param name="subdirectory" />
+  <xsl:variable name="cases" select="doc('../../content/xml/authority/legendsCases.xml')"/>
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:persName[@type='divine']" group-by="@key">
+      <xsl:for-each-group select="//tei:rs[@type='legendsCases'][@ref][ancestor::tei:div/@type='textpart']" group-by="@ref">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -25,7 +26,9 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="@key" />
+            <xsl:variable name="ref-id" select="substring-after(@ref,'#')"/>
+            <xsl:value-of select="$cases//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']" />
+            <!--here as well as in iconography we could find a way to change the language according to the main language of the page-->
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
@@ -33,7 +36,7 @@
     </add>
   </xsl:template>
 
-  <xsl:template match="tei:persName">
+  <xsl:template match="tei:rs">
     <xsl:call-template name="field_index_instance_location" />
   </xsl:template>
 

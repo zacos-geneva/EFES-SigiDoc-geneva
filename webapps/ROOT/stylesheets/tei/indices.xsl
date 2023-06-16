@@ -39,9 +39,10 @@
       <xsl:apply-templates select="str[@name='index_item_name']" />
       <xsl:apply-templates select="str[@name='index_abbreviation_expansion']"/>
       <xsl:apply-templates select="str[@name='index_numeral_value']"/>
+      <xsl:apply-templates select="str[@name='index_AR']"/>
+      <xsl:apply-templates select="str[@name='index_entry_type']"/>
+      <xsl:apply-templates select="str[@name='index_ext_reference']"/>
       <xsl:apply-templates select="arr[@name='language_code']"/>
-      <xsl:apply-templates select="str[@name='index_item_type']" />
-      <xsl:apply-templates select="str[@name='index_item_role']" />
       <xsl:apply-templates select="arr[@name='index_instance_location']" />
     </tr>
   </xsl:template>
@@ -75,7 +76,43 @@
       </xsl:choose>
     </th>
   </xsl:template>
-
+  
+  <xsl:template match="str[@name='index_entry_type']">
+    <td>
+      <xsl:value-of select="."/>
+    </td>
+  </xsl:template> 
+  
+  <xsl:template match="str[@name='index_ext_reference']"> <!--added by SigiDoc (Jan Bigalke) for external references in placeName and persName--> 
+    <td>
+      <xsl:variable name="bibls">
+        <xsl:choose>
+          <xsl:when test="contains(./text(),'|')">
+            <xsl:for-each select="tokenize(.,'\|')">
+              <val><xsl:value-of select="."/></val>
+            </xsl:for-each>
+          </xsl:when>
+          <xsl:otherwise>
+            <val><xsl:value-of select="."/></val>
+          </xsl:otherwise>
+        </xsl:choose>
+      </xsl:variable>
+      <xsl:for-each select="$bibls/val">
+        <xsl:variable name="tokens">
+          <text><xsl:value-of select="tokenize(.,'_')[1]"/></text>
+          <link><xsl:value-of select="tokenize(.,'_')[2]"/></link>
+        </xsl:variable><p>
+          <a target="_blank">
+            <xsl:attribute name="href">
+              <xsl:value-of select="$tokens/link/text()"/>
+            </xsl:attribute>
+            <xsl:value-of select="$tokens/text/text()"/>
+          </a>
+        </p>
+      </xsl:for-each>
+    </td>
+  </xsl:template>
+  
   <xsl:template match="arr[@name='index_instance_location']">
     <td>
       <ul class="index-instances inline-list">
@@ -84,19 +121,13 @@
     </td>
   </xsl:template>
   
-  <xsl:template match="str[@name='index_item_type']">
+  <xsl:template match="str[@name='index_numeral_value']">
     <td>
       <xsl:value-of select="."/>
     </td>
   </xsl:template>
   
-  <xsl:template match="str[@name='index_item_role']">
-    <td>
-      <xsl:value-of select="."/>
-    </td>
-  </xsl:template>
-
-  <xsl:template match="str[@name='index_numeral_value']">
+  <xsl:template match="str[@name='index_AR']">
     <td>
       <xsl:value-of select="."/>
     </td>

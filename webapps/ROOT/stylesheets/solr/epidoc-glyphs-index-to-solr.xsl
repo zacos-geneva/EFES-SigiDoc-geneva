@@ -5,17 +5,18 @@
                 xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 
   <!-- This XSLT transforms a set of EpiDoc documents into a Solr
-       index document representing an index of persons in those
+       index document representing an index of symbols in those
        documents. -->
 
   <xsl:import href="epidoc-index-utils.xsl" />
 
   <xsl:param name="index_type" />
   <xsl:param name="subdirectory" />
+  <xsl:variable name="glyph" select="doc('../../content/xml/authority/glyphs.xml')"/>
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:persName[@type!='divine'][ancestor::tei:div/@type='edition']" group-by="@key">
+      <xsl:for-each-group select="//tei:c[@type='glyph'][@ana][ancestor::tei:div/@type='textpart']" group-by="@ana">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -25,7 +26,11 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="@key" />
+            <xsl:variable name="ar-id" select="substring-after(@ref,'#')"/>
+            <xsl:value-of select="$glyph//tei:item[@xml:id = $ar-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']" />
+          </field>
+          <field name="index_AR">
+            <xsl:value-of select="@subtype"/>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
@@ -33,7 +38,7 @@
     </add>
   </xsl:template>
 
-  <xsl:template match="tei:persName">
+  <xsl:template match="tei:c">
     <xsl:call-template name="field_index_instance_location" />
   </xsl:template>
 
