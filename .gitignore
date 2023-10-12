@@ -9,3 +9,5 @@ docs/build
 *.DS_Store
 .DS_Store
 Thumbs.db
+webapps/ROOT/content/xml/authority
+webapps/ROOT/content/xml/epidoc
