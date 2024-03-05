@@ -2,15 +2,15 @@
 <?oxygen RNGSchema="../schema/menu/menu.rng" type="xml"?>
 <root xmlns="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
   xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
+  
   <menu label="Seals" match="local-epidoc-index-display" i18n:key="menu-seals"/>
+  
   <menu label="Indices" match="local-indices-type-display" params="epidoc" i18n:key="menu-indices">
-    
     <!--Prosopography and geography-->
     <item label="Persons" match="local-index-display-html" params="epidoc prosopography"
       i18n:key="menu-index-prosopography"/>
     <item label="Place names" match="local-index-display-html" params="epidoc placenames"
       i18n:key="menu-index-geography"/>
-
     <!--Dignities and offices-->
     <item label="Dignities" match="local-index-display-html" params="epidoc dignities"
       i18n:key="menu-index-dignities"/>
@@ -18,7 +18,6 @@
       i18n:key="menu-index-offices"/>
     <item label="Titles" match="local-index-display-html" params="epidoc titles"
       i18n:key="menu-index-titles"/>
-
     <!--Religious appellatives-->
     <item label="Marian terms" match="local-index-display-html" params="epidoc marianTerms"
       i18n:key="menu-index-marianTerms"/>
@@ -26,13 +25,11 @@
       i18n:key="menu-index-christTerms"/>
     <item label="Saints-related terms" match="local-index-display-html" params="epidoc saintsTerms"
       i18n:key="menu-index-saintsTerms"/>
-
     <!--Iconography and monograms-->
     <item label="Iconography" match="local-index-display-html" params="epidoc iconography"
       i18n:key="menu-index-iconography"/>
     <item label="Monograms" match="local-index-display-html" params="epidoc monogram"
       i18n:key="menu-index-monogram"/>
-
     <!--Words and legend’s features-->
     <item label="Lemmata" match="local-index-display-html" params="epidoc lemma"
       i18n:key="menu-index-lemma"/>
@@ -56,13 +53,15 @@
     <!--<item label="Legal entities" match="local-index-display-html" params="epidoc legalEntities" i18n:key="menu-index-legalEntities"/>-->
     <!--<item label="Military units" match="local-index-display-html" params="epidoc militaryUnits" i18n:key="menu-index-militaryUnits"/>-->
     <!--<item label="Devotional terms" match="local-index-display-html" params="epidoc devotional" i18n:key="menu-index-devotional"/>-->
-
   </menu>
+  
   <menu label="Bibliography" match="local-concordance-bibliography" i18n:key="menu-bibliography">
     <!--<item label="Bibliographic" match="local-concordance-bibliography"
           i18n:key="menu-concordance-bibliography" />-->
   </menu>
+  
   <menu label="Search" match="local-search" i18n:key="menu-search"/>
+  
   <menu label="Admin" language="" match="local-admin-home-page" i18n:key="menu-admin"/>
 
   <menu label="Language" i18n:key="menu-language">
