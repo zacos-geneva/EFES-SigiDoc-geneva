@@ -103,7 +103,7 @@ ul.index-instances {
 
 #site-title {
     overflow: hidden;
-    background: url("../images/seal.jpg") no-repeat;
+    background: url("../images/seal.jpg") center no-repeat;
     position: inherit;
     background-size: 1440px 300px;
     font-size: 45px;
