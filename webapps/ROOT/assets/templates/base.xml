@@ -142,6 +142,17 @@
             <script src="{$kiln:assets-path}/foundation/js/vendor/jquery.js" />
             <script src="{$kiln:assets-path}/foundation/js/foundation.min.js" />
             <script>$(document).foundation();</script>
+            <script>
+              $(document).ready(function(){
+                $(".hide-switch").on("click", function(){
+                  $(".hide-switch").toggleClass("hidden");
+                    var empty = $("dd:contains("+"―"+")")
+                    var sibling = $(empty).prev()
+                    $(empty).toggleClass("hidden");
+                    $(sibling).toggleClass("hidden");
+                });
+              })
+            </script>
           </kiln:block>
         </body>
       </kiln:block>
