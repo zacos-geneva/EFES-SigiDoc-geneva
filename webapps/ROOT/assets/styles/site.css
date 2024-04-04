@@ -326,3 +326,13 @@ dl.iospe dd,
 #footnotes {
     font-family: var(--base-font);
 }
+
+.hide-switch{
+    margin-top: 2em;
+    font-size: var(--fs-base);
+    font-weight: 400;
+}
+
+.hidden{
+    display:none;
+}
