@@ -40,6 +40,8 @@
         |
         <a href="javascript:window.print()">PDF</a>
       </div>
+        <a class="hide-switch">hide empty</a>
+        <a class="hide-switch hidden">show all</a>
     </kiln:block>
 
     <!--<kiln:block name="content">
