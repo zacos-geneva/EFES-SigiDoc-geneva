@@ -33,7 +33,11 @@
    </context-param-->
 
   <!-- Servlet Configuration ========================================== -->
-
+  <servlet>
+    <servlet-name>idgenerator</servlet-name>
+    <servlet-class>org.cceh.sigid.generator</servlet-class>
+  </servlet>
+  
   <servlet>
     <servlet-name>Cocoon</servlet-name>
     <display-name>Cocoon</display-name>
@@ -382,7 +386,12 @@
   </servlet>
 
   <!-- URL space mappings ============================================= -->
-
+  
+  <servlet-mapping>
+    <servlet-name>idgenerator</servlet-name>
+    <url-pattern>/generateid</url-pattern>
+  </servlet-mapping>
+  
   <!--
     Cocoon handles all the URL space assigned to the webapp using its sitemap.
     It is recommended to leave it unchanged. Under some circumstances though
