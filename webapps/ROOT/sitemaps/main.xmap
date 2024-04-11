@@ -51,9 +51,21 @@
                   type="image" />
       </map:match>
     </map:pipeline>
+    
+    
 
     <!-- Main display pipeline. -->
     <map:pipeline type="noncaching">
+      <!-- Seal Id generator -->
+      <map:match id="local-generat-id" pattern="newid.xml">
+        <map:aggregate element="aggregation">
+          <map:part src="cocoon://_internal/menu/main.xml?url={1}/newid.html" /> 
+          
+        </map:aggregate>
+        <map:transform src="cocoon://_internal/template/newid.xsl">
+        </map:transform>
+        <map:serialize />
+      </map:match>
       <!-- Home page (at /). -->
       <map:match id="local-home-page" pattern="">
         <map:redirect-to uri="{global:default-display-language}/"
