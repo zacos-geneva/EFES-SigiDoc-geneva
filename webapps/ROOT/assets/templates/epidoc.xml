@@ -42,6 +42,17 @@
       </div>
         <a class="hide-switch">hide empty</a>
         <a class="hide-switch hidden">show all</a>
+      <script>
+        $(document).ready(function(){
+        $(".hide-switch").on("click", function(){
+        $(".hide-switch").toggleClass("hidden");
+        var empty = $("dd:contains("+"―"+")")
+        var sibling = $(empty).prev()
+        $(empty).toggleClass("hidden");
+        $(sibling).toggleClass("hidden");
+        });
+        })
+      </script>
     </kiln:block>
 
     <!--<kiln:block name="content">
