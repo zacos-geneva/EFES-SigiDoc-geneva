@@ -33,11 +33,22 @@
             <link href="{$kiln:assets-path}/styles/site.css" rel="stylesheet"
                   type="text/css" />
             <link href="{$kiln:assets-path}/images/favicon.png" rel="shortcut icon" type="image/png"/>
+            <!-- relight rti viewer style -->
+            <link rel="stylesheet" href="{$kiln:assets-path}/relight/css/relight.css"/>
           </kiln:block>
           <kiln:block name="js">
             <script src="{$kiln:assets-path}/foundation/js/vendor/custom.modernizr.js">&#160;</script>
             <script src="{$kiln:assets-path}/scripts/cookieinfo.min.js" type="text/javascript" id="cookieinfo"></script>
             <script src="{$kiln:assets-path}/scripts/footnotes.js">&#160;</script>
+            
+            
+            <script src="{$kiln:assets-path}/foundation/js/vendor/jquery.js" />
+            <script src="{$kiln:assets-path}/foundation/js/foundation.min.js" />
+            <!-- Js scripts for relight rti viewer -->
+            <script src="{$kiln:assets-path}/scripts/jquery-ui.min.js"/>
+            <script src="{$kiln:assets-path}/relight/js/hammer.min.js"/>
+            <script src="{$kiln:assets-path}/relight/js/relight-viewer.min.js"/>
+            <script src="{$kiln:assets-path}/scripts/attrchange.js"/>
           </kiln:block>
           <kiln:block name="head-extra"></kiln:block>
         </head>
@@ -139,20 +150,9 @@
             <!-- Since we make use of jQuery for other purposes, there
                  is no reason to use Foundation's check whether to use
                  jQuery or Zepto. -->
-            <script src="{$kiln:assets-path}/foundation/js/vendor/jquery.js" />
-            <script src="{$kiln:assets-path}/foundation/js/foundation.min.js" />
             <script>$(document).foundation();</script>
-            <script>
-              $(document).ready(function(){
-                $(".hide-switch").on("click", function(){
-                  $(".hide-switch").toggleClass("hidden");
-                    var empty = $("dd:contains("+"―"+")")
-                    var sibling = $(empty).prev()
-                    $(empty).toggleClass("hidden");
-                    $(sibling).toggleClass("hidden");
-                });
-              })
-            </script>
+            
+        
           </kiln:block>
         </body>
       </kiln:block>
