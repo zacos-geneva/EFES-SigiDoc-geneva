@@ -33,9 +33,18 @@
    </context-param-->
 
   <!-- Servlet Configuration ========================================== -->
+  <!-- servlet class for sigi id generator -->
   <servlet>
     <servlet-name>idgenerator</servlet-name>
     <servlet-class>org.cceh.sigid.generator</servlet-class>
+  </servlet>
+  
+  <!-- servlet class for git repo webhook -->
+  <servlet>
+    <servlet-name>PullRepo</servlet-name>
+    <display-name>PullRepo</display-name>
+    <description>Servlet for webhook endpoint</description>
+    <servlet-class>org.cceh.PullRepo</servlet-class>
   </servlet>
   
   <servlet>
@@ -386,10 +395,16 @@
   </servlet>
 
   <!-- URL space mappings ============================================= -->
-  
+  <!--mapping for sigidoc id generator -->
   <servlet-mapping>
     <servlet-name>idgenerator</servlet-name>
     <url-pattern>/generateid</url-pattern>
+  </servlet-mapping>
+  
+  <!--mapping for git webhook -->
+  <servlet-mapping>
+    <servlet-name>PullRepo</servlet-name>
+    <url-pattern>githook</url-pattern>
   </servlet-mapping>
   
   <!--
