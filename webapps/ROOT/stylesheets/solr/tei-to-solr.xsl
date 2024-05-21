@@ -26,7 +26,7 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"
+  <!--<xsl:template match="tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"
     mode="facet_persons">
     <field name="persons">
       <xsl:variable name="prosopography"
@@ -49,27 +49,17 @@
         </xsl:otherwise>
       </xsl:choose>
     </field>
-  </xsl:template>
-  <xsl:template match="tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"
+  </xsl:template>-->
+  <xsl:template match="//tei:persName[@xml:lang='en']/tei:forename[ancestor::tei:listPerson/tei:person]"
     mode="facet_personal_names">
     <field name="personal_names">
-      <xsl:variable name="prosopography"
-        select="doc('../../content/xml/authority/prosopography.xml')"/>
-      <xsl:variable name="pers-id" select="substring-after(@ref, '#')"/>
-      <xsl:variable name="forename"
-        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:forename/tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
-      <xsl:value-of select="$forename[@xml:lang = 'grc' or @xml:lang = 'la']"/>
+      <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"
+  <xsl:template match="//tei:persName[@xml:lang='en']/tei:surname[ancestor::tei:listPerson/tei:person]"
     mode="facet_family_names">
     <field name="family_names">
-      <xsl:variable name="prosopography"
-        select="doc('../../content/xml/authority/prosopography.xml')"/>
-      <xsl:variable name="pers-id" select="substring-after(@ref, '#')"/>
-      <xsl:variable name="surname"
-        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:surname/tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
-      <xsl:value-of select="$surname"/>
+      <xsl:value-of select="."/>
     </field>
   </xsl:template>
   <xsl:template match="tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']"
@@ -88,7 +78,7 @@
       <xsl:variable name="dignities" select="doc('../../content/xml/authority/dignities.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$dignities//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']"
+        select="$dignities//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']"
       />
     </field>
   </xsl:template>
@@ -99,7 +89,7 @@
       <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$offices//tei:list[@type = 'civil']//tei:item[@xml:lang = 'grc' or @xml:lang = 'la']//tei:term[@xml:id = $ref-id]"
+        select="$offices//tei:list[@type = 'civil']//tei:item[@xml:lang = 'en']//tei:term[@xml:id = $ref-id]"
       />
     </field>
   </xsl:template>
@@ -110,7 +100,7 @@
       <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$offices//tei:list[@type = 'ecclesiastical']//tei:item[@xml:lang = 'grc' or @xml:lang = 'la']//tei:term[@xml:id = $ref-id]"
+        select="$offices//tei:list[@type = 'ecclesiastical']//tei:item[@xml:lang = 'en']//tei:term[@xml:id = $ref-id]"
       />
     </field>
   </xsl:template>
@@ -121,7 +111,7 @@
       <xsl:variable name="offices" select="doc('../../content/xml/authority/offices.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$offices//tei:list[@type = 'military']//tei:item[@xml:lang = 'grc' or @xml:lang = 'la']//tei:term[@xml:id = $ref-id]"
+        select="$offices//tei:list[@type = 'military']//tei:item[@xml:lang = 'en']//tei:term[@xml:id = $ref-id]"
       />
     </field>
   </xsl:template>
@@ -131,7 +121,7 @@
       <xsl:variable name="titles" select="doc('../../content/xml/authority/titles.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$titles//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']"
+        select="$titles//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']"
       />
     </field>
   </xsl:template>
@@ -142,7 +132,7 @@
       <xsl:variable name="appellatives" select="doc('../../content/xml/authority/appellatives.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$appellatives//tei:list[@type = 'marianTerms']//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']"
+        select="$appellatives//tei:list[@type = 'marianTerms']//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']"
       />
     </field>
   </xsl:template>
@@ -153,7 +143,7 @@
       <xsl:variable name="appellatives" select="doc('../../content/xml/authority/appellatives.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$appellatives//tei:list[@type = 'christTerms']//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']"
+        select="$appellatives//tei:list[@type = 'christTerms']//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']"
       />
     </field>
   </xsl:template>
@@ -164,7 +154,7 @@
       <xsl:variable name="appellatives" select="doc('../../content/xml/authority/appellatives.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of
-        select="$appellatives//tei:list[@type = 'saintsTerms']//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']"
+        select="$appellatives//tei:list[@type = 'saintsTerms']//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']"
       />
     </field>
   </xsl:template>
@@ -221,7 +211,7 @@
   
   <xsl:template name="extra_fields">
     <xsl:call-template name="field_sigidoc_id_number"/>
-    <xsl:call-template name="field_persons"/>
+    <!--<xsl:call-template name="field_persons"/>-->
     <xsl:call-template name="field_place_names"/>
     <xsl:call-template name="field_dignities"/>
     <xsl:call-template name="field_civil_offices"/>
@@ -244,17 +234,17 @@
   <xsl:template name="field_sigidoc_id_number">
     <xsl:apply-templates mode="facet_sigidoc_id_number" select="//tei:idno[@type = 'SigiDocID']"/>
   </xsl:template>
-  <xsl:template name="field_persons">
+  <!--<xsl:template name="field_persons">
     <xsl:apply-templates mode="facet_persons"
       select="//tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"/>
-  </xsl:template>
+  </xsl:template>-->
   <xsl:template name="field_personal_names">
     <xsl:apply-templates mode="facet_personal_names"
-      select="//tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"/>
+      select="//tei:persName[@xml:lang='en']/tei:forename[ancestor::tei:listPerson/tei:person]"/>
   </xsl:template>
   <xsl:template name="field_family_names">
     <xsl:apply-templates mode="facet_family_names"
-      select="//tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"/>
+      select="//tei:persName[@xml:lang='en']/tei:surname[ancestor::tei:listPerson/tei:person]"/>
   </xsl:template>
   <xsl:template name="field_place_names">
     <xsl:apply-templates mode="facet_place_names"
