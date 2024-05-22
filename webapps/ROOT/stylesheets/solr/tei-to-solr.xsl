@@ -50,17 +50,17 @@
       </xsl:choose>
     </field>
   </xsl:template>-->
-  <xsl:template match="//tei:persName[@xml:lang='en']/tei:forename[ancestor::tei:listPerson/tei:person]"
+  <xsl:template match="//tei:persName[@xml:lang='en']/tei:forename[ancestor::tei:listPerson/tei:person]" 
     mode="facet_personal_names">
     <field name="personal_names">
       <xsl:value-of select="."/>
-    </field>
+    </field> <!--MF changed the path for harvesting information according to the new listPerson-->
   </xsl:template>
   <xsl:template match="//tei:persName[@xml:lang='en']/tei:surname[ancestor::tei:listPerson/tei:person]"
     mode="facet_family_names">
     <field name="family_names">
       <xsl:value-of select="."/>
-    </field>
+    </field> <!--MF changed the path for harvesting information according to the new listPerson-->
   </xsl:template>
   <xsl:template match="tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']"
     mode="facet_place_names">
@@ -241,11 +241,11 @@
   <xsl:template name="field_personal_names">
     <xsl:apply-templates mode="facet_personal_names"
       select="//tei:persName[@xml:lang='en']/tei:forename[ancestor::tei:listPerson/tei:person]"/>
-  </xsl:template>
+  </xsl:template> <!--MF changed the path for harvesting information according to the new listPerson-->
   <xsl:template name="field_family_names">
     <xsl:apply-templates mode="facet_family_names"
       select="//tei:persName[@xml:lang='en']/tei:surname[ancestor::tei:listPerson/tei:person]"/>
-  </xsl:template>
+  </xsl:template> <!--MF changed the path for harvesting information according to the new listPerson-->
   <xsl:template name="field_place_names">
     <xsl:apply-templates mode="facet_place_names"
       select="//tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']"/>
