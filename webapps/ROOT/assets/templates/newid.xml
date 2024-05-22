@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<kiln:root xmlns:tei="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude"
+    xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
+    xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+    
+    <kiln:parent>
+        <xi:include href="base.xml" />
+    </kiln:parent>
+    
+    <kiln:child>
+    <kiln:block name="content">
+        <dl class="iospe">      
+            <div class="row">
+                <a id="newid">New ID: </a>
+            </div>
+            
+        <div class="row">
+            <dt width="150" align="left">Seal Id: </dt>
+            <dd id="sealid"></dd>
+        </div>
+            
+            <div class="row">
+                <dt width="150" align="left">Matrix Id: </dt>
+                <dd id="matrixid"></dd>
+            </div>
+        </dl>
+        
+        
+    </kiln:block>
+    </kiln:child>
+        <script>
+            $(document).ready(function(){
+                generateid();
+                $('#newid').on('click', function(){
+                generateid();
+                });
+            });
+            
+            function generateid(){
+            fetch('generateid',{
+            method: 'GET',
+            }).then(response => response.json()).then(
+            data =>{
+            $('#sealid').text(data.sealid);
+            $('#matrixid').text(data.matrixid);
+            })
+            }
+        </script>
+</kiln:root>
+    
