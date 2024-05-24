@@ -4,7 +4,7 @@
 
 <catalogue xml:lang="fr" xml:space="preserve">
     <message key="artifact">Artéfact</message>
-    <message key="type">Type d'objet</message>
+    <message key="type">Objekttyp</message>
     <message key="not-specified">Non précisé(e)</message><!-- ajouter d'autres façons d'indiquer cela -->
     <message key="not-available">Non disponible</message>
     <message key="undetermined">Indéterminé(e)</message>
@@ -118,4 +118,6 @@
     <message key="arrow-left">&#x021D0; précédent</message>
     <message key="arrow-right">suivant &#x021D2;</message>
     <message key="inscription-index-seals">Sceaux</message>
+    <message key="no-further-references"></message>
+    <message key="personal-names">Vornamen</message>
 </catalogue>
