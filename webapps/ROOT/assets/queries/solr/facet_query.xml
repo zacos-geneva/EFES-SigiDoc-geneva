@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<query q_fields="document_type" range_fields="origin_date">
+<query q_fields="document_type" range_fields="origin_date" xmlns:i18n="http://apache.org/cocoon/i18n/2.1">
   <df default="true">text</df>
   <q default="true">*</q>
   <document_type>(tei or epidoc)</document_type>
@@ -13,7 +13,7 @@
   <facet.field>origin_date_evidence</facet.field> 
   <facet.field>sigidoc_id_number</facet.field>-->
   <!--<facet.field>persons</facet.field>-->
-  <facet.field>personal_names</facet.field>
+  <i18n:text i18n:key="personal-names"><facet.field>personal_names</facet.field></i18n:text>
   <facet.field>family_names</facet.field>
   <facet.field>milieu</facet.field>
   <facet.field>place_names</facet.field>
