@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- LAST MODIFIED: 2023-03-08 -->
+<!-- LAST MODIFIED: 2024-05-27 -->
 
-<catalogue xml:lang="fr" xml:space="preserve">
+<catalogue xml:lang="de" xml:space="preserve">
     <message key="artifact">Artefakt</message>
     <message key="type">Objekttyp</message>
-    <message key="not-specified">Nicht angegeben</message><!-- ajouter d'autres façons d'indiquer cela -->
+    <message key="not-specified">Nicht angegeben</message>
     <message key="not-available">Nicht verfügbar</message>
     <message key="undetermined">Unbestimmt</message>
     <message key="not-applicable">Nicht zutreffend</message>
@@ -103,7 +103,7 @@
     <!--<message key="home-title">SigiDoc 1.0: un corpus modèle</message>-->
     <message key="bibliographic-concordance">Literatur</message>
     <message key="inscription-index-zip">Die SigiDoc-XML-Dateien der in der folgenden Liste aufgeführten Siegel-Editionen sind verfügbar in einem</message>
-    <message key="zip">komprimierten Ordner</message>
+    <message key="zip"> komprimierten Ordner</message>
     <message key="indices-type-prosopography-geography">Prosopographie und Toponymen</message>
     <message key="indices-type-dignities-offices">Würden und Ämter</message>
     <message key="indices-type-religious-appellatives">Religiöse Begriffe</message>
@@ -121,6 +121,6 @@
     <message key="arrow-left">&#x021D0; vor</message>
     <message key="arrow-right">nach &#x021D2;</message>
     <message key="inscription-index-seals">Siegel</message>
-    <message key="no.further-references">Keine weitere Literatur</message>
+    <message key="no-further-references">Keine weitere Literatur</message>
     <message key="personal-names">Vornamen</message>
 </catalogue>
