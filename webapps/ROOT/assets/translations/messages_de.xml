@@ -47,7 +47,8 @@
     <message key="collection-inventory">Sammlung und Inventarnummer</message>
     <message key="acquisition">Erwerb</message>
     <message key="previous-locations">Frühere Aufbewahrungsorte</message>
-    <message key="modern-observations">Moderne Sichtungen</message>    <message key="field-obverse">Avers</message>
+    <message key="modern-observations">Moderne Sichtungen</message>    
+    <message key="field-obverse">Avers</message>
     <message key="layout-field">Feldlayout</message>
     <message key="field-dimensions">Felddimensionen (mm)</message>
     <message key="iconography">Ikonographie</message>
@@ -101,8 +102,8 @@
     <message key="menu-index-invocation">Invokationen</message>
     <!--<message key="home-title">SigiDoc 1.0: un corpus modèle</message>-->
     <message key="bibliographic-concordance">Literatur</message>
-    <message key="inscription-index-zip">Die SigiDoc-XML-Dateien der in der folgenden Liste aufgeführten Siegel-Editionen sind verfügbar in einem
-</message>
+    <message key="inscription-index-zip">Die SigiDoc-XML-Dateien der in der folgenden Liste aufgeführten Siegel-Editionen sind verfügbar in einem</message>
+    <message key="zip">komprimierten Ordner</message>
     <message key="indices-type-prosopography-geography">Prosopographie und Toponymen</message>
     <message key="indices-type-dignities-offices">Würden und Ämter</message>
     <message key="indices-type-religious-appellatives">Religiöse Begriffe</message>
@@ -121,4 +122,5 @@
     <message key="arrow-right">nach &#x021D2;</message>
     <message key="inscription-index-seals">Siegel</message>
     <message key="no.further-references">Keine weitere Literatur</message>
+    <message key="personal-names">Vornamen</message>
 </catalogue>
