@@ -21,6 +21,7 @@
   <facet.field>civil_offices</facet.field>
   <facet.field>ecclesiastical_offices</facet.field>
   <facet.field>military_offices</facet.field>
+  <facet.field>institutions</facet.field>
   <!--<facet.field>titles</facet.field>-->
   <facet.field>marian_terms</facet.field>
   <facet.field>christ-related_terms</facet.field>
