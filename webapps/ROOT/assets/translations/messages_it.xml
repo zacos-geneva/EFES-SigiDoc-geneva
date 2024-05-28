@@ -122,5 +122,21 @@
     <message key="arrow-right">seguente &#x021D2;</message>
     <message key="inscription-index-seals">Sigilli</message>
     <message key="no-further-references">Nessun riferimento bibliografico</message>
-    <message key="personal-names">Nomi propri</message>
+    <message key="facet-holding_entity">Luogo di conservazione</message>
+    <message key="facet-collection">Collezione</message>
+    <message key="facet-personal_names">Nomi propri</message>
+    <message key="facet-family_names">Nomi di famiglia</message>
+    <message key="facet-milieu">Ambito dell'emittente</message>
+    <message key="facet-place_names">Toponimi</message>
+    <message key="facet-dignities">Dignità</message>
+    <message key="facet-civil_offices">Funzioni civili</message>
+    <message key="facet-ecclesiastical_offices">Funzioni ecclesiastiche</message>
+    <message key="facet-military_offices">Funzioni militari</message>
+    <message key="facet-marian_terms">Termini relativi alla Vergine</message>
+    <message key="facet-christ-related_terms">Termini relativi a Cristo</message>
+    <message key="facet-saints-related_terms">Termini relativi ai Santi</message>
+    <message key="facet-metrical">Legende metriche</message>
+    <message key="facet-monogram">Tipo di monogramma</message>
+    <message key="facet-legend_case">Casi delle legende</message>
+    <message key="facet-iconography">Iconografia</message>
 </catalogue>

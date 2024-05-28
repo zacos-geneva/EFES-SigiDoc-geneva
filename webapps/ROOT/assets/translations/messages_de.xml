@@ -122,5 +122,21 @@
     <message key="arrow-right">nach &#x021D2;</message>
     <message key="inscription-index-seals">Siegel</message>
     <message key="no-further-references">Keine weitere Literatur</message>
-    <message key="personal-names">Vornamen</message>
+    <message key="facet-holding_entity">Aufbewahrungsort</message>
+    <message key="facet-collection">Sammlung</message>
+    <message key="facet-personal_names">Vornamen</message>
+    <message key="facet-family_names">Familiennamen</message>
+    <message key="facet-milieu">Milieu</message>
+    <message key="facet-place_names">Toponymen</message>
+    <message key="facet-dignities">Würden</message>
+    <message key="facet-civil_offices">Zivile Ämter</message>
+    <message key="facet-ecclesiastical_offices">Ekklesiastische Ämter</message>
+    <message key="facet-military_offices">Militärische Ämter</message>
+    <message key="facet-marian_terms">Beinamen der Muttergottes</message>
+    <message key="facet-christ-related_terms">Beinamen Christi</message>
+    <message key="facet-saints-related_terms">Beinamen der Heilige</message>
+    <message key="facet-metrical">Metrische Inschriften</message>
+    <message key="facet-monogram">Monogrammtyp</message>
+    <message key="facet-legend_case">Kasus der Inschriften</message>
+    <message key="facet-iconography">Ikonographie</message>
 </catalogue>
