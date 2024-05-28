@@ -169,7 +169,6 @@
       <xsl:variable name="cases" select="doc('../../content/xml/authority/legendsCases.xml')"/>
       <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
       <xsl:value-of select="$cases//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']"/>
-      <!--here as well as in iconography we could find a way to change the language according to the main language of the page-->
     </field>
   </xsl:template>
   <xsl:template match="tei:collection[@xml:lang = 'en']" mode="facet_collection">
@@ -182,9 +181,16 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:lg[@met][@subtype][ancestor::tei:div/@type = 'textpart']" mode="facet_metrical">
+  <xsl:template match="//tei:lg/@met[ancestor::tei:div/@type = 'textpart']" mode="facet_metrical"> <!--only the 'yes' part was successful - MF-->
     <field name="metrical">
-      <xsl:value-of select="concat(@met, ' (', @subtype, ')' )"/>
+      <xsl:choose>
+        <xsl:when test="//tei:lg/@met[ancestor::tei:div/@type = 'textpart']">
+          <xsl:text>yes</xsl:text>
+        </xsl:when>
+        <xsl:when test="not(//tei:lg/@met[ancestor::tei:div/@type = 'textpart'])">
+          <xsl:text>no</xsl:text>
+        </xsl:when>
+      </xsl:choose>
     </field>
   </xsl:template>
   <xsl:template
@@ -303,9 +309,9 @@
     <xsl:apply-templates mode="facet_holding_entity"
       select="//tei:msIdentifier/tei:institution[@xml:lang = 'en']"/>
   </xsl:template>
-  <xsl:template name="field_metrical">
+  <xsl:template name="field_metrical"> <!--only the 'yes' part was successful - MF-->
     <xsl:apply-templates mode="facet_metrical" 
-      select="//tei:lg[@met][@subtype][ancestor::tei:div/@type = 'textpart']"/> 
+      select="//tei:lg/@met[ancestor::tei:div/@type = 'textpart']"/> 
   </xsl:template>
   <xsl:template name="field_monogram">
     <xsl:apply-templates mode="facet_monogram"
