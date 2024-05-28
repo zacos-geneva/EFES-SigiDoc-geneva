@@ -210,6 +210,16 @@
       </xsl:for-each>
     </field>
   </xsl:template>
+  <xsl:template match="tei:rs[@type = 'institutions'][@ref][ancestor::tei:div/@type = 'textpart']"
+    mode="facet_institutions">
+    <field name="institutions">
+      <xsl:variable name="institutions" select="doc('../../content/xml/authority/institutions.xml')"/>
+      <xsl:variable name="ref-id" select="substring-after(@ref, '#')"/>
+      <xsl:value-of
+        select="$institutions//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'en']"
+      />
+    </field>
+  </xsl:template>
 
   <!-- This template is called by the Kiln tei-to-solr.xsl as part of
        the main doc for the indexed file. Put any code to generate
@@ -223,7 +233,8 @@
     <xsl:call-template name="field_civil_offices"/>
     <xsl:call-template name="field_ecclesiastical_offices"/>
     <xsl:call-template name="field_military_offices"/>
-    <xsl:call-template name="field_titles"/>
+    <xsl:call-template name="field_institutions"/>
+    <!--<xsl:call-template name="field_titles"/>-->
     <xsl:call-template name="field_marian_terms"/>
     <xsl:call-template name="field_christ-related_terms"/>
     <xsl:call-template name="field_saints-related_terms"/>
@@ -320,5 +331,9 @@
   <xsl:template name="field_milieu">
     <xsl:apply-templates mode="facet_milieu"
       select="//tei:roleName[@role = 'issuer'][@type]"/>
+  </xsl:template>
+  <xsl:template name="field_institutions">
+    <xsl:apply-templates mode="facet_institutions"
+      select="//tei:rs[@type = 'institutions'][@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
 </xsl:stylesheet>
