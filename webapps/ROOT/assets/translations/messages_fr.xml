@@ -122,5 +122,21 @@
     <message key="arrow-right">suivant &#x021D2;</message>
     <message key="inscription-index-seals">Sceaux</message>
     <message key="no-further-references">Aucune autre mention</message>
-    <message key="personal-names">Prénoms</message>
+    <message key="facet-holding_entity">Prénoms</message>
+    <message key="facet-collection">Collection</message>
+    <message key="facet-personal_names">Prénoms</message>
+    <message key="facet-family_names">Noms de famille</message>
+    <message key="facet-milieu">Milieu</message>
+    <message key="facet-place_names">Lieux</message>
+    <message key="facet-dignities">Dignités</message>
+    <message key="facet-civil_offices">Fonctions civiles</message>
+    <message key="facet-ecclesiastical_offices">Fonctions ecclésiastiques</message>
+    <message key="facet-military_offices">Fonctions militaires</message>
+    <message key="facet-marian_terms">Termes se rapportant à la Vierge</message>
+    <message key="facet-christ-related_terms">Termes se rapportant au Christ</message>
+    <message key="facet-saints-related_terms">Termes se rapportant aux Saints</message>
+    <message key="facet-metrical">Légendes métriques</message>
+    <message key="facet-monogram">Typ de monogramme</message>
+    <message key="facet-legend_case">Cas des légendes</message>
+    <message key="facet-iconography">Iconographie</message>
 </catalogue>
