@@ -177,8 +177,8 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:msIdentifier/tei:institution[@xml:lang = 'en']" mode="facet_institution">
-    <field name="institution">
+  <xsl:template match="tei:msIdentifier/tei:institution[@xml:lang = 'en']" mode="facet_repository">
+    <field name="repository">
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
@@ -224,7 +224,7 @@
     <xsl:call-template name="field_iconography"/>
     <xsl:call-template name="field_legend_case"/>
     <xsl:call-template name="field_collection"/>
-    <xsl:call-template name="field_institution"/>
+    <xsl:call-template name="field_repository"/>
     <xsl:call-template name="field_personal_names"/>
     <xsl:call-template name="field_family_names"/>
     <xsl:call-template name="field_metrical"/>
@@ -299,8 +299,8 @@
   <xsl:template name="field_collection">
     <xsl:apply-templates mode="facet_collection" select="//tei:collection[@xml:lang = 'en']"/>
   </xsl:template>
-  <xsl:template name="field_institution">
-    <xsl:apply-templates mode="facet_institution"
+  <xsl:template name="field_repository">
+    <xsl:apply-templates mode="facet_repository"
       select="//tei:msIdentifier/tei:institution[@xml:lang = 'en']"/>
   </xsl:template>
   <xsl:template name="field_metrical">
