@@ -184,10 +184,10 @@
   <xsl:template match="//tei:lg/@met[ancestor::tei:div/@type = 'textpart']" mode="facet_metrical"> <!--only the 'yes' part was successful - MF-->
     <field name="metrical">
       <xsl:choose>
-        <xsl:when test="//tei:lg/@met[ancestor::tei:div/@type = 'textpart']">
+        <xsl:when test="//tei:div[@type = 'textpart']//tei:lg/@met">
           <xsl:text>yes</xsl:text>
         </xsl:when>
-        <xsl:when test="not(//tei:lg/@met[ancestor::tei:div/@type = 'textpart'])">
+        <xsl:when test="not(//tei:div[@type = 'textpart']//tei:lg/@met)">
           <xsl:text>no</xsl:text>
         </xsl:when>
       </xsl:choose>
@@ -201,14 +201,16 @@
     </field>
   </xsl:template>
   <xsl:template
-    match="tei:roleName[@role = 'issuer'][@type]"
+    match="tei:listPerson/tei:person/@role"
     mode="facet_milieu">
-    <field name="milieu">
-      <xsl:variable name="tokenize" select="tokenize(@type, ' ')"/>
+      <xsl:variable name="tokenize" select="tokenize(., ' ')"/>
       <xsl:for-each select="$tokenize">
-        <xsl:value-of select="."/>
+        <field name="milieu">
+          <xsl:variable name="normalized" select="replace(.,'-',' ')"/>
+        <xsl:value-of select="$normalized"/>
+        </field>
       </xsl:for-each>
-    </field>
+    
   </xsl:template>
   <xsl:template match="tei:rs[@type = 'institutions'][@ref][ancestor::tei:div/@type = 'textpart']"
     mode="facet_institutions">
@@ -322,7 +324,7 @@
   </xsl:template>
   <xsl:template name="field_metrical"> <!--only the 'yes' part was successful - MF-->
     <xsl:apply-templates mode="facet_metrical" 
-      select="//tei:lg/@met[ancestor::tei:div/@type = 'textpart']"/> 
+      select="//tei:div[@type = 'textpart']//tei:lg/@met"/> 
   </xsl:template>
   <xsl:template name="field_monogram">
     <xsl:apply-templates mode="facet_monogram"
@@ -330,7 +332,7 @@
   </xsl:template>
   <xsl:template name="field_milieu">
     <xsl:apply-templates mode="facet_milieu"
-      select="//tei:roleName[@role = 'issuer'][@type]"/>
+      select="//tei:listPerson/tei:person/@role"/>
   </xsl:template>
   <xsl:template name="field_institutions">
     <xsl:apply-templates mode="facet_institutions"
