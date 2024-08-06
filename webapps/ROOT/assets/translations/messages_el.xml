@@ -3,6 +3,9 @@
 <!-- LAST MODIFIED: 2024-05-27 -->
 
 <catalogue xml:lang="el" xml:space="preserve">
+    <message key="yes">oui</message>
+    <message key="no">non</message>
+    <message key="uncertain">uncertain</message>
     <message key="artifact">Τέχνεργο</message>
     <message key="type">Τύπος</message>
     <message key="not-specified">xx</message>

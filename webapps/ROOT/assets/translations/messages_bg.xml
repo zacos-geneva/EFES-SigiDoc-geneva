@@ -3,6 +3,9 @@
 <!-- LAST MODIFIED: 2024-05-27 -->
 
 <catalogue xml:lang="bg" xml:space="preserve">
+    <message key="yes">oui</message>
+    <message key="no">non</message>
+    <message key="uncertain">uncertain</message>
     <message key="artifact">Артефакт</message>
     <message key="type">Тип</message>
     <message key="not-specified">xx</message>

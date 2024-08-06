@@ -3,6 +3,9 @@
 <!-- LAST MODIFIED: 2024-05-27 -->
 
 <catalogue xml:lang="it" xml:space="preserve">
+    <message key="yes">oui</message>
+    <message key="no">non</message>
+    <message key="uncertain">uncertain</message>
     <message key="artifact">Manufatto</message>
     <message key="type">Tipo di oggetto</message>
     <message key="not-specified">Non specificato</message>
