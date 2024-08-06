@@ -217,6 +217,8 @@
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
    <field name="institutions" stored="true" indexed="true"
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="object_type" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
 
    <!-- catchall field, containing all other searchable text fields
         (implemented via copyField further on in this schema -->
