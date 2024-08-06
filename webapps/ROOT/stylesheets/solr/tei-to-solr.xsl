@@ -152,6 +152,11 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
+  <xsl:template match="tei:objectType/tei:term/tei:seg[@xml:lang = 'en']" mode="facet_object_type">
+    <field name="object_type">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
   <xsl:template match="tei:msIdentifier/tei:institution[@xml:lang = 'en']" mode="facet_holding_entity">
     <field name="holding_entity">
       <xsl:value-of select="."/>
@@ -224,6 +229,7 @@
     <xsl:call-template name="field_metrical"/>
     <xsl:call-template name="field_monogram"/>
     <xsl:call-template name="field_milieu"/>
+    <xsl:call-template name="field_object_type"/>
   </xsl:template>
   <xsl:template name="field_sigidoc_id_number">
     <xsl:apply-templates mode="facet_sigidoc_id_number" select="//tei:idno[@type = 'SigiDocID']"/>
@@ -288,6 +294,9 @@
   </xsl:template>
   <xsl:template name="field_collection">
     <xsl:apply-templates mode="facet_collection" select="//tei:collection[@xml:lang = 'en']"/>
+  </xsl:template>
+  <xsl:template name="field_object_type">
+    <xsl:apply-templates mode="facet_object_type" select="//tei:objectType/tei:term/tei:seg[@xml:lang = 'en']"/>
   </xsl:template>
   <xsl:template name="field_holding_entity">
     <xsl:apply-templates mode="facet_holding_entity"
