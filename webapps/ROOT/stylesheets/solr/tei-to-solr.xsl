@@ -162,9 +162,16 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="tei:msIdentifier/tei:institution[@xml:lang = 'en']" mode="facet_holding_entity">
+  <xsl:template match="tei:msIdentifier/tei:institution" mode="facet_holding_entity">
     <field name="holding_entity">
-      <xsl:value-of select="."/>
+      <xsl:choose>
+        <xsl:when test="normalize-space(.) != ''">
+          <xsl:value-of select="normalize-space(.)"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>No holding institution</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
   <xsl:template match="//tei:div[@type = 'textpart']" mode="facet_metrical"> 
@@ -308,7 +315,7 @@
   </xsl:template>
   <xsl:template name="field_holding_entity">
     <xsl:apply-templates mode="facet_holding_entity"
-      select="//tei:msIdentifier/tei:institution[@xml:lang = 'en']"/>
+      select="//tei:msIdentifier/tei:institution"/>
   </xsl:template>
   <xsl:template name="field_metrical"> 
     <xsl:apply-templates mode="facet_metrical" 
