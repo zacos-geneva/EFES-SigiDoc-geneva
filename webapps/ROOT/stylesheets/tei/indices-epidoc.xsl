@@ -42,9 +42,9 @@
     </xsl:variable>
     <li>
       <a href="{kiln:url-for-match($match_id, ($language, $location_parts[2]), 0)}">
-        <xsl:if test="$location_parts[5] = '1'">
+        <!--<xsl:if test="$location_parts[5] = '1'">
           <xsl:text>[</xsl:text>
-        </xsl:if>
+        </xsl:if>-->
         <span class="index-instance-file">
           <xsl:value-of select="$location_parts[2]" />
         </span>
@@ -58,9 +58,9 @@
         <span class="index-instance-line">
           <xsl:value-of select="$location_parts[4]" />
         </span>
-        <xsl:if test="$location_parts[5] = '1'">
+        <!--<xsl:if test="$location_parts[5] = '1'">
           <xsl:text>]</xsl:text>
-        </xsl:if>
+        </xsl:if>-->
       </a>
     </li>
   </xsl:template>
