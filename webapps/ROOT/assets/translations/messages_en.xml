@@ -139,4 +139,5 @@
     <message key="facet-monogram">Type of Monogram</message>
     <message key="facet-legend_case">Cases of legends</message>
     <message key="facet-iconography">Iconography</message>
+    <message key="facet-object_type">Object type</message>
 </catalogue>

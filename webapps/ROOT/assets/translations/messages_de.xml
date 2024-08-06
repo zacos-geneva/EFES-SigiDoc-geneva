@@ -142,4 +142,5 @@
     <message key="facet-monogram">Monogrammtyp</message>
     <message key="facet-legend_case">Kasus der Inschriften</message>
     <message key="facet-iconography">Ikonographie</message>
+    <message key="facet-object_type">Objekttyp</message>
 </catalogue>
