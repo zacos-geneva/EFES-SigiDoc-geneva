@@ -15,7 +15,7 @@
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:lg[@met][@subtype][ancestor::tei:div/@type='textpart']" group-by="@met">
+      <xsl:for-each-group select="//tei:lg[@met][ancestor::tei:div/@subtype='editorial']" group-by="concat(string-join(.//tei:lg, ''),'-',.)">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -25,7 +25,16 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="concat ($base-uri, @ana)" />
+            <xsl:for-each select="current-group()">
+              <xsl:variable name="text" select="string-join(./descendant-or-self::text(), '')" />
+              <xsl:variable name="normalized-text" select="normalize-space($text)" />
+              <xsl:value-of select="concat(upper-case(substring($normalized-text, 1, 1)), substring($normalized-text, 2))" />
+            </xsl:for-each>
+          </field>
+          <field name="index_meter">
+            <xsl:for-each select="current-group()">
+              <xsl:value-of select="@met" />
+            </xsl:for-each>
           </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
