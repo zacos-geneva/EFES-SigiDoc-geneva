@@ -152,6 +152,11 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
+  <xsl:template match="tei:material/tei:seg[@xml:lang = 'en']" mode="facet_material">
+    <field name="material">
+      <xsl:value-of select="."/>
+    </field>
+  </xsl:template>
   <xsl:template match="tei:objectType/tei:term/tei:seg[@xml:lang = 'en']" mode="facet_object_type">
     <field name="object_type">
       <xsl:value-of select="."/>
@@ -192,7 +197,6 @@
         <xsl:value-of select="$normalized"/>
         </field>
       </xsl:for-each>
-    
   </xsl:template>
   <xsl:template match="tei:rs[@type = 'institutions'][@ref][ancestor::tei:div/@type = 'textpart']"
     mode="facet_institutions">
@@ -230,6 +234,7 @@
     <xsl:call-template name="field_monogram"/>
     <xsl:call-template name="field_milieu"/>
     <xsl:call-template name="field_object_type"/>
+    <xsl:call-template name="field_material"/>
   </xsl:template>
   <xsl:template name="field_sigidoc_id_number">
     <xsl:apply-templates mode="facet_sigidoc_id_number" select="//tei:idno[@type = 'SigiDocID']"/>
@@ -294,6 +299,9 @@
   </xsl:template>
   <xsl:template name="field_collection">
     <xsl:apply-templates mode="facet_collection" select="//tei:collection[@xml:lang = 'en']"/>
+  </xsl:template>
+  <xsl:template name="field_material">
+    <xsl:apply-templates mode="facet_material" select="//tei:material/tei:seg[@xml:lang = 'en']"/>
   </xsl:template>
   <xsl:template name="field_object_type">
     <xsl:apply-templates mode="facet_object_type" select="//tei:objectType/tei:term/tei:seg[@xml:lang = 'en']"/>

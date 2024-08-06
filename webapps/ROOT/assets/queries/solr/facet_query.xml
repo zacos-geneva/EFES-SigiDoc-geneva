@@ -5,6 +5,7 @@
   <document_type>(tei or epidoc)</document_type>
   <facet>true</facet>
   <facet.field>object_type</facet.field>
+  <facet.field>material</facet.field>
   <facet.field>holding_entity</facet.field>
   <facet.field>collection</facet.field>
   <facet.field>personal_names</facet.field>
