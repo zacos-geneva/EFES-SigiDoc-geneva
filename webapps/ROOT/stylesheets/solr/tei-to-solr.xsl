@@ -26,41 +26,17 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <!--<xsl:template match="tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"
-    mode="facet_persons">
-    <field name="persons">
-      <xsl:variable name="prosopography"
-        select="doc('../../content/xml/authority/prosopography.xml')"/>
-      <xsl:variable name="pers-id" select="substring-after(@ref, '#')"/>
-      <xsl:variable name="forename"
-        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:forename/tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
-      <xsl:variable name="surname"
-        select="$prosopography//tei:person[@xml:id = $pers-id]//tei:surname/tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"/>
-      <xsl:choose>
-        <xsl:when test="$forename and $surname">
-          <xsl:value-of
-            select="concat($prosopography//tei:person[@xml:id = $pers-id]//$surname, ', ', $forename)"
-          />
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of
-            select="$prosopography//tei:person[@xml:id = $pers-id]//tei:reg[@xml:lang = 'grc' or @xml:lang = 'la']"
-          />
-        </xsl:otherwise>
-      </xsl:choose>
-    </field>
-  </xsl:template>-->
   <xsl:template match="//tei:persName[@xml:lang='en']/tei:forename[ancestor::tei:listPerson/tei:person]" 
     mode="facet_personal_names">
     <field name="personal_names">
       <xsl:value-of select="."/>
-    </field> <!--MF changed the path for harvesting information according to the new listPerson-->
+    </field>
   </xsl:template>
   <xsl:template match="//tei:persName[@xml:lang='en']/tei:surname[ancestor::tei:listPerson/tei:person]"
     mode="facet_family_names">
     <field name="family_names">
       <xsl:value-of select="."/>
-    </field> <!--MF changed the path for harvesting information according to the new listPerson-->
+    </field> 
   </xsl:template>
   <xsl:template match="tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']"
     mode="facet_place_names">
@@ -181,15 +157,16 @@
       <xsl:value-of select="."/>
     </field>
   </xsl:template>
-  <xsl:template match="//tei:lg/@met[ancestor::tei:div/@type = 'textpart']" mode="facet_metrical"> <!--only the 'yes' part was successful - MF-->
+  <xsl:template match="//tei:div[@type = 'textpart']" mode="facet_metrical"> 
     <field name="metrical">
       <xsl:choose>
+        <xsl:when test="//tei:div[@type = 'textpart']//tei:lg/@cert = 'low'">
+          <xsl:text>uncertain</xsl:text>
+        </xsl:when>
         <xsl:when test="//tei:div[@type = 'textpart']//tei:lg/@met">
           <xsl:text>yes</xsl:text>
         </xsl:when>
-        <xsl:when test="not(//tei:div[@type = 'textpart']//tei:lg/@met)">
-          <xsl:text>no</xsl:text>
-        </xsl:when>
+        <xsl:otherwise><xsl:text>no</xsl:text></xsl:otherwise>
       </xsl:choose>
     </field>
   </xsl:template>
@@ -229,14 +206,12 @@
   
   <xsl:template name="extra_fields">
     <xsl:call-template name="field_sigidoc_id_number"/>
-    <!--<xsl:call-template name="field_persons"/>-->
     <xsl:call-template name="field_place_names"/>
     <xsl:call-template name="field_dignities"/>
     <xsl:call-template name="field_civil_offices"/>
     <xsl:call-template name="field_ecclesiastical_offices"/>
     <xsl:call-template name="field_military_offices"/>
     <xsl:call-template name="field_institutions"/>
-    <!--<xsl:call-template name="field_titles"/>-->
     <xsl:call-template name="field_marian_terms"/>
     <xsl:call-template name="field_christ-related_terms"/>
     <xsl:call-template name="field_saints-related_terms"/>
@@ -253,18 +228,14 @@
   <xsl:template name="field_sigidoc_id_number">
     <xsl:apply-templates mode="facet_sigidoc_id_number" select="//tei:idno[@type = 'SigiDocID']"/>
   </xsl:template>
-  <!--<xsl:template name="field_persons">
-    <xsl:apply-templates mode="facet_persons"
-      select="//tei:persName[@ref][ancestor::tei:div/@type = 'textpart']"/>
-  </xsl:template>-->
   <xsl:template name="field_personal_names">
     <xsl:apply-templates mode="facet_personal_names"
       select="//tei:persName[@xml:lang='en']/tei:forename[ancestor::tei:listPerson/tei:person]"/>
-  </xsl:template> <!--MF changed the path for harvesting information according to the new listPerson-->
+  </xsl:template> 
   <xsl:template name="field_family_names">
     <xsl:apply-templates mode="facet_family_names"
       select="//tei:persName[@xml:lang='en']/tei:surname[ancestor::tei:listPerson/tei:person]"/>
-  </xsl:template> <!--MF changed the path for harvesting information according to the new listPerson-->
+  </xsl:template> 
   <xsl:template name="field_place_names">
     <xsl:apply-templates mode="facet_place_names"
       select="//tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']"/>
@@ -322,9 +293,9 @@
     <xsl:apply-templates mode="facet_holding_entity"
       select="//tei:msIdentifier/tei:institution[@xml:lang = 'en']"/>
   </xsl:template>
-  <xsl:template name="field_metrical"> <!--only the 'yes' part was successful - MF-->
+  <xsl:template name="field_metrical"> 
     <xsl:apply-templates mode="facet_metrical" 
-      select="//tei:div[@type = 'textpart']//tei:lg/@met"/> 
+      select="//tei:div[@type = 'textpart']"/> 
   </xsl:template>
   <xsl:template name="field_monogram">
     <xsl:apply-templates mode="facet_monogram"
