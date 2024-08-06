@@ -172,6 +172,8 @@
           multiValued="false" required="false" type="string" />
    <field name="origin_date_evidence" required="false" indexed="true"
           multiValued="true" stored="true" type="string" />
+   <field name="index_meter" stored="true" indexed="false"
+     multiValued="false" required="false" type="string" /><!-- added for SigiDoc -->
    <!-- Concordance fields. -->
    <field name="concordance_bibliography_ref" stored="true" indexed="true"
           multiValued="false" required="false" type="string" />
@@ -218,6 +220,8 @@
    <field name="institutions" stored="true" indexed="true"
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
    <field name="object_type" stored="true" indexed="true"
+     multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
+   <field name="material" stored="true" indexed="true"
      multiValued="true" required="false" type="string" /> <!-- added for SigiDoc -->
 
    <!-- catchall field, containing all other searchable text fields

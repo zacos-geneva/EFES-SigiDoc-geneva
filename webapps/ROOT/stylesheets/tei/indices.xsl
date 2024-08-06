@@ -42,6 +42,7 @@
       <xsl:apply-templates select="str[@name='index_AR']"/>
       <xsl:apply-templates select="str[@name='index_entry_type']"/>
       <xsl:apply-templates select="str[@name='index_ext_reference']"/>
+      <xsl:apply-templates select="str[@name='index_meter']"/>
       <xsl:apply-templates select="arr[@name='language_code']"/>
       <xsl:apply-templates select="arr[@name='index_instance_location']" />
     </tr>
@@ -57,6 +58,12 @@
   </xsl:template>
 
   <xsl:template match="str[@name='index_abbreviation_expansion']">
+    <td>
+      <xsl:value-of select="." />
+    </td>
+  </xsl:template>
+  
+  <xsl:template match="str[@name='index_meter']">
     <td>
       <xsl:value-of select="." />
     </td>
