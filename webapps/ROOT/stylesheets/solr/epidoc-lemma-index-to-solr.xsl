@@ -40,8 +40,7 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:value-of select="$lemma" />
-            <xsl:value-of select="count($w)" />
+            <xsl:value-of select="concat($lemma, ' (', count($w), ')')" />
           </field>
           <field name="language_code">
             <xsl:value-of select="$w[1]/ancestor-or-self::*[@xml:lang][1]/@xml:lang"/>
