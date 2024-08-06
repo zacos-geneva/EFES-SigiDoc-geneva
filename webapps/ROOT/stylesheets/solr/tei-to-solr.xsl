@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet exclude-result-prefixes="#all" version="2.0"
+                xmlns:i18n="http://apache.org/cocoon/i18n/2.1"
                 xmlns:kiln="http://www.kcl.ac.uk/artshums/depts/ddh/kiln/ns/1.0"
                 xmlns:tei="http://www.tei-c.org/ns/1.0"
                 xmlns:xd="http://www.oxygenxml.com/ns/doc/xsl"
@@ -161,12 +162,12 @@
     <field name="metrical">
       <xsl:choose>
         <xsl:when test="//tei:div[@type = 'textpart']//tei:lg/@cert = 'low'">
-          <xsl:text>uncertain</xsl:text>
+          <i18n:text i18n:key="uncertain"/>
         </xsl:when>
         <xsl:when test="//tei:div[@type = 'textpart']//tei:lg/@met">
-          <xsl:text>yes</xsl:text>
+          <i18n:text i18n:key="yes"/>
         </xsl:when>
-        <xsl:otherwise><xsl:text>no</xsl:text></xsl:otherwise>
+        <xsl:otherwise><i18n:text i18n:key="no"/></xsl:otherwise>
       </xsl:choose>
     </field>
   </xsl:template>
