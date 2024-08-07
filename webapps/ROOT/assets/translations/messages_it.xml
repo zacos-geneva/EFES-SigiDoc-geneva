@@ -143,4 +143,5 @@
     <message key="facet-legend_case">Casi delle legende</message>
     <message key="facet-iconography">Iconografia</message>
     <message key="facet-object_type">Tipo di oggetto</message>
+    <message key="facet-gender">Gender</message>
 </catalogue>

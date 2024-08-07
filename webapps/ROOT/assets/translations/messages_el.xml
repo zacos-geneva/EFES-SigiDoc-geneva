@@ -142,4 +142,5 @@
     <message key="facet-legend_case">Cas des légendes</message>
     <message key="facet-iconography">Iconographie</message>
     <message key="facet-object_type">Τύπος</message>
+    <message key="facet-gender">Gender</message>
 </catalogue>

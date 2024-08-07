@@ -38,6 +38,25 @@
       <xsl:value-of select="."/>
     </field> 
   </xsl:template>
+  <xsl:template match="//tei:listPerson/tei:person[@gender]"
+    mode="facet_gender">
+    <field name="gender">
+      <xsl:choose>
+        <xsl:when test="@gender = 'M'">
+          <xsl:text>male</xsl:text>
+        </xsl:when>
+        <xsl:when test="@gender = 'F'">
+          <xsl:text>female</xsl:text>
+        </xsl:when>
+        <xsl:when test="@gender = 'E'">
+          <xsl:text>eunuch</xsl:text>
+        </xsl:when>
+        <xsl:when test="@gender = 'U'">
+          <xsl:text>undetermined</xsl:text>
+        </xsl:when>
+      </xsl:choose>
+    </field> 
+  </xsl:template>
   <xsl:template match="tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']"
     mode="facet_place_names">
     <field name="place_names">
@@ -154,12 +173,12 @@
   </xsl:template>
   <xsl:template match="tei:material/tei:seg[@xml:lang = 'en']" mode="facet_material">
     <field name="material">
-      <xsl:value-of select="."/>
+      <xsl:value-of select="concat(lower-case(substring(., 1, 1)), substring(., 2))"/>
     </field>
   </xsl:template>
   <xsl:template match="tei:objectType/tei:term/tei:seg[@xml:lang = 'en']" mode="facet_object_type">
     <field name="object_type">
-      <xsl:value-of select="."/>
+      <xsl:value-of select="concat(lower-case(substring(., 1, 1)), substring(., 2))"/>
     </field>
   </xsl:template>
   <xsl:template match="tei:msIdentifier/tei:institution" mode="facet_holding_entity">
@@ -169,7 +188,7 @@
           <xsl:value-of select="normalize-space(.)"/>
         </xsl:when>
         <xsl:otherwise>
-          <xsl:text>No holding institution</xsl:text>
+          <xsl:text>no holding institution</xsl:text>
         </xsl:otherwise>
       </xsl:choose>
     </field>
@@ -255,6 +274,7 @@
     <xsl:call-template name="field_milieu"/>
     <xsl:call-template name="field_object_type"/>
     <xsl:call-template name="field_material"/>
+    <xsl:call-template name="field_gender"/>
   </xsl:template>
   <xsl:template name="field_sigidoc_id_number">
     <xsl:apply-templates mode="facet_sigidoc_id_number" select="//tei:idno[@type = 'SigiDocID']"/>
@@ -345,5 +365,9 @@
   <xsl:template name="field_institutions">
     <xsl:apply-templates mode="facet_institutions"
       select="//tei:rs[@type = 'institutions'][@ref][ancestor::tei:div/@type = 'textpart']"/>
+  </xsl:template>
+  <xsl:template name="field_gender">
+    <xsl:apply-templates mode="facet_gender"
+      select="//tei:listPerson/tei:person[@gender]"/>
   </xsl:template>
 </xsl:stylesheet>

@@ -140,4 +140,5 @@
     <message key="facet-legend_case">Cases of legends</message>
     <message key="facet-iconography">Iconography</message>
     <message key="facet-object_type">Object type</message>
+    <message key="facet-gender">Gender</message>
 </catalogue>
