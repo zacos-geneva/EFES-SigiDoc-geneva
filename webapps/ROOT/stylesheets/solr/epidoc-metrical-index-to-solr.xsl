@@ -26,10 +26,19 @@
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
             <xsl:for-each select="current-group()">
-                  <xsl:variable name="text" select="string-join(./descendant-or-self::text(), '')" />
+              <xsl:variable name="tokens">
+                    <xsl:for-each select="./descendant-or-self::text()">
+                      <xsl:choose>
+                        <xsl:when test="./following-sibling::tei:lb[@break='no']"><xsl:value-of select="replace(replace(., '\s+$',''), '\n', '')"/></xsl:when>
+                        <xsl:when test="normalize-space(.) = ''"><xsl:value-of select="."/></xsl:when>
+                        <xsl:otherwise><xsl:value-of select="."/></xsl:otherwise>
+                      </xsl:choose>
+                    </xsl:for-each>
+                  </xsl:variable>
+                <xsl:variable name="text" select="string-join($tokens, ' ')" />
                   <xsl:variable name="normalized-text" select="normalize-space($text)" />
                   <xsl:variable name="uppercase-text" select="translate($normalized-text, 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')" />
-                  <xsl:value-of select="concat(upper-case(substring($normalized-text, 1, 1)), substring($normalized-text, 2))" />
+                 <xsl:value-of select="concat(upper-case(substring($normalized-text, 1, 1)), substring($normalized-text, 2))" />           
             </xsl:for-each>
           </field>
           <field name="index_meter">
