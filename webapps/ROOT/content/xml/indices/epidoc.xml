@@ -36,10 +36,6 @@
           </list>
         </div>
 
-        <div type="notes">
-          <p>Square brackets [ ]
-            indicate that the name is partially or completely restored. Latin names are displayed first.</p>
-        </div>
       </div>
 
       <div xml:id="placenames">
@@ -228,6 +224,19 @@
           </list>
         </div>
 
+      </div>
+      
+      <div xml:id="symbols">
+        <head n="1">Symbols</head>
+        
+        <div type="headings">
+          <list>
+            <item>Symbol</item>
+            <item>Meaning</item>
+            <item>Seals</item>
+          </list>
+        </div>
+        
       </div>
 
     </body>
