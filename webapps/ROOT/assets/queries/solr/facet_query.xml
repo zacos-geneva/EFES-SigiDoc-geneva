@@ -10,6 +10,7 @@
   <facet.field>collection</facet.field>
   <facet.field>personal_names</facet.field>
   <facet.field>family_names</facet.field>
+  <facet.field>gender</facet.field>
   <facet.field>milieu</facet.field>
   <facet.field>place_names</facet.field>
   <facet.field>dignities</facet.field>
