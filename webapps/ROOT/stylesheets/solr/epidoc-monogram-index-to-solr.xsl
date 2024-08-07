@@ -12,11 +12,10 @@
 
   <xsl:param name="index_type" />
   <xsl:param name="subdirectory" />
-  <xsl:variable name="mg" select="doc('../../content/xml/authority/monogram.xml')"/>
 
   <xsl:template match="/">
     <add>
-      <xsl:for-each-group select="//tei:rs[@type='monogram'][@ref][ancestor::tei:div/@type='textpart']" group-by="@ref">
+      <xsl:for-each-group select="//tei:div[@type='textpart' and @subtype='face' and starts-with(@rend, 'monogram')]" group-by="@rend">
         <doc>
           <field name="document_type">
             <xsl:value-of select="$subdirectory" />
@@ -26,19 +25,31 @@
           </field>
           <xsl:call-template name="field_file_path" />
           <field name="index_item_name">
-            <xsl:variable name="ref-id" select="substring-after(@ref,'#')"/>
-            <xsl:value-of select="$mg//tei:item[@xml:id = $ref-id]//tei:term[@xml:lang = 'grc' or @xml:lang = 'la']" />
+                  <xsl:value-of select="normalize-space(translate(., 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'))"/>
           </field>
-          <field name="index_entry_type">
-            <xsl:value-of select="@subtype"/>
-          </field>
+              <field name="index_entry_type">
+                <xsl:choose>
+                  <xsl:when test="@rend = 'monogram-block'">
+                    <xsl:text>block monogram</xsl:text>
+                  </xsl:when>
+                  <xsl:when test="@rend = 'monogram-cross'">
+                    <xsl:text>cruciform monogram</xsl:text>
+                  </xsl:when>
+                  <xsl:when test="@rend = 'monogram-other'">
+                    <xsl:text>other shape</xsl:text>
+                  </xsl:when>
+                  <xsl:otherwise>
+                    <xsl:text>unknown monogram type</xsl:text>
+                  </xsl:otherwise>
+                </xsl:choose>
+              </field>
           <xsl:apply-templates select="current-group()" />
         </doc>
       </xsl:for-each-group>
     </add>
   </xsl:template>
 
-  <xsl:template match="tei:rs">
+  <xsl:template match="tei:div">
     <xsl:call-template name="field_index_instance_location" />
   </xsl:template>
 
