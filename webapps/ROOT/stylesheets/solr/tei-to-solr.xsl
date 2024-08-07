@@ -188,10 +188,23 @@
     </field>
   </xsl:template>
   <xsl:template
-    match="tei:rs[@type = 'monogram'][@subtype][@ref][ancestor::tei:div/@type = 'textpart']"
+    match="tei:div[@type='textpart' and @subtype='face' and starts-with(@rend, 'monogram')]"
     mode="facet_monogram">
     <field name="monogram">
-      <xsl:value-of select="@subtype"/>
+      <xsl:choose>
+        <xsl:when test="@rend = 'monogram-block'">
+          <xsl:text>block monogram</xsl:text>
+        </xsl:when>
+        <xsl:when test="@rend = 'monogram-cross'">
+          <xsl:text>cruciform monogram</xsl:text>
+        </xsl:when>
+        <xsl:when test="@rend = 'monogram-other'">
+          <xsl:text>other shape</xsl:text>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:text>unknown monogram type</xsl:text>
+        </xsl:otherwise>
+      </xsl:choose>
     </field>
   </xsl:template>
   <xsl:template
@@ -323,7 +336,7 @@
   </xsl:template>
   <xsl:template name="field_monogram">
     <xsl:apply-templates mode="facet_monogram"
-      select="//tei:rs[@type = 'monogram'][@subtype][@ref][ancestor::tei:div/@type = 'textpart']"/>
+      select="//tei:div[@type='textpart' and @subtype='face' and starts-with(@rend, 'monogram')]"/>
   </xsl:template>
   <xsl:template name="field_milieu">
     <xsl:apply-templates mode="facet_milieu"
