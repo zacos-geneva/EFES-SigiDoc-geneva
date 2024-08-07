@@ -125,7 +125,7 @@
         <xsl:text>, </xsl:text>
       </xsl:when>
       <xsl:otherwise>
-        <i18n:text i18n:key="epidoc-xslt-sigidoc-ed"><xsl:text> (ed</xsl:text>
+        <i18n:text i18n:key="epidoc-xslt-sigidoc-ed"/>
         <xsl:if test="preceding-sibling::tei:editor">
           <xsl:text>s</xsl:text>
         </xsl:if>
@@ -167,7 +167,7 @@
     "<xsl:apply-templates/>",
     <xsl:choose>
       <xsl:when test="following-sibling::tei:title[@level='m']">
-        <i18n:text i18n:key="epidoc-xslt-sigidoc-in"><xsl:text> in </xsl:text></i18n:text>
+        <i18n:text i18n:key="epidoc-xslt-sigidoc-in"/>
       </xsl:when>
       <xsl:when test="following-sibling::tei:title[@level='j']">
         <xsl:text></xsl:text>
@@ -178,10 +178,6 @@
     </xsl:choose>
   </xsl:template>
  
- <!--<xsl:template match="tei:biblScope[@unit='page']">
-   <xsl:value-of select="." />
-   <xsl:text>.</xsl:text>
- </xsl:template>-->
   
   <xsl:template match="tei:biblScope[@unit='page']">
     <xsl:choose>
@@ -195,23 +191,5 @@
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
- 
-
-  <!--<xsl:template match="tei:title[1]">
-    <xsl:text>, </xsl:text>
-    <xsl:value-of select="." />
-  </xsl:template>
-  
-  <xsl:template match="tei:title[2]">    <xsl:choose>
-      <xsl:when test="@level='j'">
-        <xsl:text>, </xsl:text>
-        <xsl:value-of select="." />
-      </xsl:when>
-      <xsl:otherwise>
-        <xsl:text>, in </xsl:text>
-        <xsl:value-of select="." />
-      </xsl:otherwise>
-    </xsl:choose>
-  </xsl:template>-->
   
 </xsl:stylesheet>
