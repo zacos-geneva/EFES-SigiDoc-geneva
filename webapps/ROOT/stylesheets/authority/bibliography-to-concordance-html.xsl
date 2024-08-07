@@ -129,7 +129,7 @@
         <xsl:if test="preceding-sibling::tei:editor">
           <xsl:text>s</xsl:text>
         </xsl:if>
-        <xsl:text>.), </xsl:text></i18n:text>
+        <xsl:text>.), </xsl:text>
       </xsl:otherwise>
     </xsl:choose>
   </xsl:template>
