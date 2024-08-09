@@ -6,6 +6,7 @@
   <facet>true</facet>
   <facet.field>object_type</facet.field>
   <facet.field>material</facet.field>
+  <facet.field>language</facet.field>
   <facet.field>holding_entity</facet.field>
   <facet.field>collection</facet.field>
   <facet.field>personal_names</facet.field>

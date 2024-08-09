@@ -57,6 +57,56 @@
       </xsl:choose>
     </field> 
   </xsl:template>
+  <xsl:template match="//tei:div[@type='edition' and @subtype='editorial']/tei:div[@type='textpart' and (@n='obv' or @n='rev')]"
+    mode="facet_language">
+    <field name="language">
+      <xsl:choose>
+        <xsl:when test="@xml:lang = 'grc'">
+          <xsl:text>Greek</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'la'">
+          <xsl:text>Latin</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'la-Grek'">
+          <xsl:text>Latin in Greek script</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'grc-la'">
+          <xsl:text>Greek and Latin</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'grc-Latn'">
+          <xsl:text>Greek in Latin script</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'grc-Arab'">
+          <xsl:text>Greek in Arabic script</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'grc-ara'">
+          <xsl:text>Greek and Arabic</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'ara-Grek'">
+          <xsl:text>Arabic in Greek script</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'grc-hye'">
+          <xsl:text>Greek and Armenian</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'hye-Grek'">
+          <xsl:text>Armenian in Greek script</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'grc-syr'">
+          <xsl:text>Greek and Syriac</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'syr-Grek'">
+          <xsl:text>Syriac in Greek script</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'grc-kat'">
+          <xsl:text>Greek and Georgian</xsl:text>
+        </xsl:when>
+        <xsl:when test="@xml:lang = 'kat-Grek'">
+          <xsl:text>Georgian in Greek script</xsl:text>
+        </xsl:when>
+          <xsl:otherwise><xsl:text>undetermined</xsl:text></xsl:otherwise>
+      </xsl:choose>
+    </field> 
+  </xsl:template>
   <xsl:template match="tei:placeName[@ref][ancestor::tei:div/@type = 'textpart']"
     mode="facet_place_names">
     <field name="place_names">
@@ -275,6 +325,7 @@
     <xsl:call-template name="field_object_type"/>
     <xsl:call-template name="field_material"/>
     <xsl:call-template name="field_gender"/>
+    <xsl:call-template name="field_language"/>
   </xsl:template>
   <xsl:template name="field_sigidoc_id_number">
     <xsl:apply-templates mode="facet_sigidoc_id_number" select="//tei:idno[@type = 'SigiDocID']"/>
@@ -369,5 +420,9 @@
   <xsl:template name="field_gender">
     <xsl:apply-templates mode="facet_gender"
       select="//tei:listPerson/tei:person[@gender]"/>
+  </xsl:template>
+  <xsl:template name="field_language">
+    <xsl:apply-templates mode="facet_language"
+      select="//tei:div[@type='edition' and @subtype='editorial']/tei:div[@type='textpart' and (@n='obv' or @n='rev')]"/>
   </xsl:template>
 </xsl:stylesheet>

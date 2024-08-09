@@ -144,6 +144,7 @@
     <message key="facet-iconography">Ikonographie</message>
     <message key="facet-object_type">Objekttyp</message>
     <message key="facet-gender">Geschlecht</message>
+    <message key="facet-language">Sprache</message>
     <message key="grc">Griechisch</message>
 <message key="la">Latein</message>
 <message key="la-Grek">Latein in griechischer Schrift</message>
