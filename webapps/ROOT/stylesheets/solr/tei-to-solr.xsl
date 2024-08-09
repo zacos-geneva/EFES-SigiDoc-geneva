@@ -237,7 +237,7 @@
         </field>
       </xsl:for-each>
   </xsl:template>
-  <xsl:template match="tei:rs[@type = 'institutions'][@ref][ancestor::tei:div/@type = 'textpart']"
+  <xsl:template match="tei:rs[@type = 'institution'][@ref][ancestor::tei:div/@type = 'textpart']"
     mode="facet_institutions">
     <field name="institutions">
       <xsl:variable name="institutions" select="doc('../../content/xml/authority/institutions.xml')"/>
@@ -364,7 +364,7 @@
   </xsl:template>
   <xsl:template name="field_institutions">
     <xsl:apply-templates mode="facet_institutions"
-      select="//tei:rs[@type = 'institutions'][@ref][ancestor::tei:div/@type = 'textpart']"/>
+      select="//tei:rs[@type = 'institution'][@ref][ancestor::tei:div/@type = 'textpart']"/>
   </xsl:template>
   <xsl:template name="field_gender">
     <xsl:apply-templates mode="facet_gender"
