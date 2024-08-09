@@ -143,4 +143,18 @@
     <message key="facet-iconography">Iconographie</message>
     <message key="facet-object_type">Τύπος</message>
     <message key="facet-gender">Gender</message>
+    <message key="grc">Ελληνικά</message>
+<message key="la">Λατινικά</message>
+<message key="la-Grek">Λατινικά σε ελληνική γραφή</message>
+<message key="grc-la">Ελληνικά και Λατινικά</message>
+<message key="grc-Latn">Ελληνικά σε λατινική γραφή</message>
+<message key="grc-Arab">Ελληνικά σε αραβική γραφή</message>
+<message key="grc-ara">Ελληνικά και Αραβικά</message>
+<message key="ara-Grek">Αραβικά σε ελληνική γραφή</message>
+<message key="grc-hye">Ελληνικά και Αρμένικα</message>
+<message key="hye-Grek">Αρμένικα σε ελληνική γραφή</message>
+<message key="grc-syr">Ελληνικά και Συριακά</message>
+<message key="syr-Grek">Συριακά σε ελληνική γραφή</message>
+<message key="grc-kat">Ελληνικά και Γεωργιανά</message>
+<message key="kat-Grek">Γεωργιανά σε ελληνική γραφή</message>
 </catalogue>

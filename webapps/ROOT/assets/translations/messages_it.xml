@@ -144,4 +144,19 @@
     <message key="facet-iconography">Iconografia</message>
     <message key="facet-object_type">Tipo di oggetto</message>
     <message key="facet-gender">Gender</message>
+    <message key="grc">Greco</message>
+<message key="la">Latino</message>
+<message key="la-Grek">Latino in scrittura greca</message>
+<message key="grc-la">Greco e Latino</message>
+<message key="grc-Latn">Greco in scrittura latina</message>
+<message key="grc-Arab">Greco in scrittura araba</message>
+<message key="grc-ara">Greco e Arabo</message>
+<message key="ara-Grek">Arabo in scrittura greca</message>
+<message key="grc-hye">Greco e Armeno</message>
+<message key="hye-Grek">Armeno in scrittura greca</message>
+<message key="grc-syr">Greco e Siriaco</message>
+<message key="syr-Grek">Siriaco in scrittura greca</message>
+<message key="grc-kat">Greco e Georgiano</message>
+<message key="kat-Grek">Georgiano in scrittura greca</message>
+
 </catalogue>
